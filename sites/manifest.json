@@ -94877,6 +94877,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13482.png",
       "sha256": "ece2b1b01861df0ad61bc0b1a134f42d24b20018fc4100ff9509eeb2abf660cc"
+    },
+    {
+      "message_id": 13478,
+      "filename": "포식!.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13478_.pdf",
+      "size_bytes": 28463568,
+      "telegram_date": "2025-08-31T15:55:50+00:00",
+      "title": "한국사 용기백배 퍼팩트 & 컴팩트 한국사",
+      "year": "2026",
+      "instructor": "권용기",
+      "subject": "한국사",
+      "thumbnail": "thumbnails/13478.png",
+      "sha256": "b9ef5ba6ed40a3ec1722dae1871e12186861ca072a8c1df801c45363c02ef1d3"
     }
   ],
   "duplicate_message_ids": [
