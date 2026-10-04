@@ -90649,6 +90649,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13989.png",
       "sha256": "ed11e83adcb61562862cb3e8b611baa343b9c81d221092481a02712a654385d0"
+    },
+    {
+      "message_id": 13986,
+      "filename": "[2026] 어법 Module.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13986_.2026.Module.pdf",
+      "size_bytes": 10000009,
+      "telegram_date": "2025-09-08T09:20:19+00:00",
+      "title": "영어 어법 module",
+      "year": "2026",
+      "instructor": "또선생",
+      "subject": "영어",
+      "thumbnail": "thumbnails/13986.png",
+      "sha256": "21eea9126dc05fe6c3d23bfb3d259b2e48e722c856e56a9f8102f2978716ec3d"
     }
   ],
   "duplicate_message_ids": [
