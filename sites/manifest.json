@@ -91839,6 +91839,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13853.png",
       "sha256": "fcf763f1411b3f1954ac39e7e5d747499c5250e34032c9737db6c97cb902423d"
+    },
+    {
+      "message_id": 13852,
+      "filename": "[2025강기원모의] 4회 해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13852_.2025.4.pdf",
+      "size_bytes": 6379870,
+      "telegram_date": "2025-09-06T12:25:20+00:00",
+      "title": "수학 강기원 모의평가 3회, 4회",
+      "year": "2026",
+      "instructor": "강기원",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13852.png",
+      "sha256": "5b5fd32477e5c19d4a021dd13925e3538352b2b17c3f7f18d4630c36da92569e"
     }
   ],
   "duplicate_message_ids": [
