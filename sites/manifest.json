@@ -93309,6 +93309,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13709.png",
       "sha256": "4f094ad0b4c1093c96eabb61e8eaf211959e1968c0e10262ab7e95cec614bd95"
+    },
+    {
+      "message_id": 13708,
+      "filename": "2026_국어_E_뮨_시즌1_문학_모의고사_1회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13708_2026_._E_._.1_._._1._.pdf",
+      "size_bytes": 1425609,
+      "telegram_date": "2025-09-04T09:08:26+00:00",
+      "title": "국어 E-뮨 시즌3 문학 모의고사 제 1회",
+      "year": "2026",
+      "instructor": "유대종",
+      "subject": "국어",
+      "thumbnail": "thumbnails/13708.png",
+      "sha256": "e88e4c1e37f0b97e60c39275bc2b43acbc250fa71239507b9588a5ad6f307f27"
     }
   ],
   "duplicate_message_ids": [
