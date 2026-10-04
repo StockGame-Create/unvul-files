@@ -95591,6 +95591,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13407.png",
       "sha256": "813b31063c23a5cb0c2eddc96043705d16f3c4b856ec3537da9c61c6a4747689"
+    },
+    {
+      "message_id": 13405,
+      "filename": "서바전국 등급.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13405_.pdf",
+      "size_bytes": 317140,
+      "telegram_date": "2025-08-31T03:32:31+00:00",
+      "title": "시대인재 서바이벌 전국 모의고사 등급컷 [시즌3]",
+      "year": "2026",
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13405.png",
+      "sha256": "2fce5676231f78cd959dfb87c1732c706c4468ee137aea89be878366d3aa9d81"
     }
   ],
   "duplicate_message_ids": [
