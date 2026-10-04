@@ -90243,6 +90243,20 @@
       "subject": "지구과학1",
       "thumbnail": "thumbnails/14035.png",
       "sha256": "896a14f6e72778318729da54f946f2bcff0dac37c7ca920e5ac6242acf1123c1"
+    },
+    {
+      "message_id": 14034,
+      "filename": "이신혁_시즌2_7회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14034_._.2_7._.pdf",
+      "size_bytes": 3512191,
+      "telegram_date": "2025-09-09T03:25:52+00:00",
+      "title": "지1 이신혁 모의평가 시즌2 7회",
+      "year": "2026",
+      "instructor": "이신혁",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/14034.png",
+      "sha256": "f8cb9d0f78beca586c91166ba198866bc1db5efe3c49591e3e2ab2145fe85a85"
     }
   ],
   "duplicate_message_ids": [
