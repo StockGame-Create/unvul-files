@@ -95353,6 +95353,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13433.png",
       "sha256": "526a7281ee6e30f3aec418aa2d9472155a8fead7a8a1be9c5589879a68eb9f4b"
+    },
+    {
+      "message_id": 13432,
+      "filename": "2026 신택스 이명학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13432_2026.pdf",
+      "size_bytes": 88539730,
+      "telegram_date": "2025-08-31T11:27:29+00:00",
+      "title": "영어 SYNTAX 1.0",
+      "year": "2026",
+      "instructor": "이명학",
+      "subject": "영어",
+      "thumbnail": "thumbnails/13432.png",
+      "sha256": "91edc179d11566b5c26313441c80b2593d0f9fe92f3b5a68097ffa3b64e6abbd"
     }
   ],
   "duplicate_message_ids": [
