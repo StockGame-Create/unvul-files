@@ -96067,6 +96067,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13345.png",
       "sha256": "3e4c38fed196e70516f6b9c5ed0a2b83f8d9400ebcbe6b2ed703f9976a744ccb"
+    },
+    {
+      "message_id": 13344,
+      "filename": "KBS 현대문학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13344_KBS.pdf",
+      "size_bytes": 634147514,
+      "telegram_date": "2025-08-29T15:08:15+00:00",
+      "title": "국어 KBS 현대문학",
+      "year": "2026",
+      "instructor": "김승리",
+      "subject": "국어",
+      "thumbnail": "thumbnails/13344.png",
+      "sha256": "36147b66c0d5b0aaabb130bcb5f1ad88e9f0bb29c6448e3d98582e1a66955006"
     }
   ],
   "duplicate_message_ids": [
