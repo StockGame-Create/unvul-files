@@ -90635,6 +90635,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13991.png",
       "sha256": "1817387741706a18e66d3ab0ccc915a3fc0e4668605be01a83a2b3e7ebd981e6"
+    },
+    {
+      "message_id": 13989,
+      "filename": "2026 강대k 15회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13989_2026.k.15.pdf",
+      "size_bytes": 17590128,
+      "telegram_date": "2025-09-08T09:53:53+00:00",
+      "title": "수학 강대모의고사K 15회 (인쇄소퀄) #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13989.png",
+      "sha256": "ed11e83adcb61562862cb3e8b611baa343b9c81d221092481a02712a654385d0"
     }
   ],
   "duplicate_message_ids": [
