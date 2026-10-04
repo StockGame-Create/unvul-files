@@ -92133,6 +92133,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13832.png",
       "sha256": "1a7d94be3976928b289ef9d6dcb7343e24dd0884c8f5404ee83c1d0e03acfa15"
+    },
+    {
+      "message_id": 13830,
+      "filename": "양승모 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13830_.3.pdf",
+      "size_bytes": 14466211,
+      "telegram_date": "2025-09-06T03:06:56+00:00",
+      "title": "수학 양승진 모의평가 3회",
+      "year": "2026",
+      "instructor": "양승진",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13830.png",
+      "sha256": "4348573e54e7c99a08b07afeb2f1a5e4857ad3521681bfa7f794a81940e183fd"
     }
   ],
   "duplicate_message_ids": [
