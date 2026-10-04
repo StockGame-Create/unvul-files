@@ -91783,6 +91783,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13863.png",
       "sha256": "706776e83f36d5ee683482d2109eeef66e01a14d4afdadbbcf171b8f221ea59f"
+    },
+    {
+      "message_id": 13858,
+      "filename": "2026 강기원 모의고사 01회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13858_2026.01.pdf",
+      "size_bytes": 4102456,
+      "telegram_date": "2025-09-06T14:11:47+00:00",
+      "title": "수학 강기원 모의평가 1회 (해설지)",
+      "year": "2026",
+      "instructor": "강기원",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13858.png",
+      "sha256": "54076fffbd204e504b676114e6611314ae968672b626be552da92213ed159e2c"
     }
   ],
   "duplicate_message_ids": [
