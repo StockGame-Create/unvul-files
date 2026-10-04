@@ -89347,6 +89347,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/14147.png",
       "sha256": "f0c2dec0268ff755bcae22f5b02abab281c44271fb7a3ff24d8e8cfd3d998e26"
+    },
+    {
+      "message_id": 14145,
+      "filename": "2026 서바이벌 수학 11회 미적 문제 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14145_2026.11.pdf",
+      "size_bytes": 11145534,
+      "telegram_date": "2025-09-10T16:07:30+00:00",
+      "title": "수학 시대인재 서바이벌 모의고사 11회 공통 + 미적분 #서바",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/14145.png",
+      "sha256": "e2633a749388322b564a76bb28772096eb74e10ed585e3cfe7eac3f3af645530"
     }
   ],
   "duplicate_message_ids": [
