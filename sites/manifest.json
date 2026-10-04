@@ -96851,6 +96851,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13146.png",
       "sha256": "93d46c4689d318e122f483fe0ea0e8df16f5a120d3567f9e7ac5f0fca4e0e5f2"
+    },
+    {
+      "message_id": 13145,
+      "filename": "2026 강대모의고사K 수학 13회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13145_2026.K.13.pdf",
+      "size_bytes": 2160652,
+      "telegram_date": "2025-08-28T03:10:10+00:00",
+      "title": "2026 수학 강k 13회, 14회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13145.png",
+      "sha256": "6e7f81a6216c56e072d88ceed7fd8ee3a72a9bc2250e12aae272ff5a7a3e457b"
     }
   ],
   "duplicate_message_ids": [
