@@ -95213,6 +95213,20 @@
       "subject": "한국사",
       "thumbnail": "thumbnails/13447.png",
       "sha256": "755442aceef9cbac7f3a6454b823ff9a83332cd9597dd97f20231cc9d89bd9db"
+    },
+    {
+      "message_id": 13446,
+      "filename": "과학_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13446_._.pdf",
+      "size_bytes": 73207225,
+      "telegram_date": "2025-08-31T12:47:52+00:00",
+      "title": "과탐 시대인재 8월 전국모의평가 #서프",
+      "year": "2026",
+      "instructor": null,
+      "subject": "과학탐구",
+      "thumbnail": "thumbnails/13446.png",
+      "sha256": "3c9878173cf1d2b20058dc6b277aeb95517a579a197c708e26ac4ad3baf10ab8"
     }
   ],
   "duplicate_message_ids": [
