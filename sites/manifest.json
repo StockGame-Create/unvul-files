@@ -93827,6 +93827,20 @@
       "subject": "생명과학1",
       "thumbnail": "thumbnails/13627.png",
       "sha256": "ec1cd7535d3c811fdaee2af6ae589931e88023f0927a0bc9c115fac313bcb4a6"
+    },
+    {
+      "message_id": 13626,
+      "filename": "2026 생1 시대인재 브릿지 모의 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13626_2026.1.5.pdf",
+      "size_bytes": 11536280,
+      "telegram_date": "2025-09-02T12:19:10+00:00",
+      "title": "생1 시대인재 브릿지 모의고사 5회 #브릿지",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/13626.png",
+      "sha256": "3e9cda5491b8165500c45c05446d03e00022f03e1309e1ff60606cf2d54ef4de"
     }
   ],
   "duplicate_message_ids": [
