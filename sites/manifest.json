@@ -93645,6 +93645,20 @@
       "subject": "정치와법",
       "thumbnail": "thumbnails/13651.png",
       "sha256": "3a7ef5499ef3a9e5a13e0e379b8fcfa07398942baa216c0d58fc4b9b4960456e"
+    },
+    {
+      "message_id": 13650,
+      "filename": "QUEL S-01,02.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13650_QUEL.S-01.02.pdf",
+      "size_bytes": 25663776,
+      "telegram_date": "2025-09-02T13:14:38+00:00",
+      "title": "사문 QUEL 모의고사 S-0 1회, 2회",
+      "year": "2026",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/13650.png",
+      "sha256": "3248d8bffc23b1c093b1c202b63017e3f172f28e58ae8f25b47c1ebffb91bee6"
     }
   ],
   "duplicate_message_ids": [
