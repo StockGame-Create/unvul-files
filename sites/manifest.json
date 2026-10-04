@@ -96109,6 +96109,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13341.png",
       "sha256": "44a09cbe038d3cc330ebe543afbcd40d317215dd57a7c60c49336f5b70c1e5fe"
+    },
+    {
+      "message_id": 13339,
+      "filename": "서바노트 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13339_.5.pdf",
+      "size_bytes": 11118222,
+      "telegram_date": "2025-08-29T14:38:44+00:00",
+      "title": "지1 서바이벌 노트 5회 #서바전국",
+      "year": "2026",
+      "instructor": "이신혁",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/13339.png",
+      "sha256": "29160633ef2f4a40c471bf8094e1ca5a74242d6e13460e8f51ef04b588368887"
     }
   ],
   "duplicate_message_ids": [
