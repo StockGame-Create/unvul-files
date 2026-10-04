@@ -92483,6 +92483,20 @@
       "subject": "생명과학2",
       "thumbnail": "thumbnails/13806.png",
       "sha256": "748b3b272dc5fb9ee6b3f7535f31a29650701f05789aef7768e03014ffe8e000"
+    },
+    {
+      "message_id": 13804,
+      "filename": "2026 Blitz 시즌1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13804_2026.Blitz.1.pdf",
+      "size_bytes": 3557977,
+      "telegram_date": "2025-09-05T15:24:25+00:00",
+      "title": "생1 BLITZ Season 01 SCENARIO 4회 ~ 7회 (인쇄소퀄)",
+      "year": "2026",
+      "instructor": "홍준용",
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/13804.png",
+      "sha256": "4a39f7fe234f3b12d25995482851250cb508c999084d9974d2a99514ae65f0a9"
     }
   ],
   "duplicate_message_ids": [
