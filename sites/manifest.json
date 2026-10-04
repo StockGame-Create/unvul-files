@@ -94653,6 +94653,20 @@
       "subject": "사회문화",
       "thumbnail": "thumbnails/13501.png",
       "sha256": "c9c27adf7ff68efef5b637db875edda63a29874a4a78061b08b7e31fb85bf279"
+    },
+    {
+      "message_id": 13499,
+      "filename": "2026_사회문화_전국_브릿지_5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13499_2026_._._._5.pdf",
+      "size_bytes": 9542608,
+      "telegram_date": "2025-09-01T09:22:38+00:00",
+      "title": "사문 시대인재 브릿지 전국 모의고사 5회 #브릿지전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/13499.png",
+      "sha256": "73ab5768ff5a6e767a99baf1eda93b86f766b2498d4f57543d17ce12718c7456"
     }
   ],
   "duplicate_message_ids": [
