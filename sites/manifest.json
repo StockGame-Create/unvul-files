@@ -94849,6 +94849,20 @@
       "subject": "영어",
       "thumbnail": "thumbnails/13485.png",
       "sha256": "8ba4e2d9380e91bdac3d4c81c287f64db2c53eda2a81e5a19c27fe34fb7a068f"
+    },
+    {
+      "message_id": 13484,
+      "filename": "강 k 영어 해설 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13484_.k.8.pdf",
+      "size_bytes": 15138046,
+      "telegram_date": "2025-09-01T03:05:40+00:00",
+      "title": "영어 강대모의고사K 8회 #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "영어",
+      "thumbnail": "thumbnails/13484.png",
+      "sha256": "6a63d2020dd9d1642f29ade039a1c834bc7b1f3834c8e82e7b3e1b252a06ee77"
     }
   ],
   "duplicate_message_ids": [
