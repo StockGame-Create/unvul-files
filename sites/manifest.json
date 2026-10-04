@@ -93701,6 +93701,20 @@
       "subject": "화학1",
       "thumbnail": "thumbnails/13646.png",
       "sha256": "bbc06c7ba59d37984fef9de0182766fcd643827cc278b655941c3fec6d73861c"
+    },
+    {
+      "message_id": 13642,
+      "filename": "2026 한국지리 전국 브릿지 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13642_2026.7.pdf",
+      "size_bytes": 4194895,
+      "telegram_date": "2025-09-02T12:34:49+00:00",
+      "title": "한지 시대인재 브릿지 전국 모의고사 7회 ~ 9회 #브릿지전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "한국지리",
+      "thumbnail": "thumbnails/13642.png",
+      "sha256": "14ff25cc260e4967c0814341e894589044da602e9eab692f52c78d5bf53e9f78"
     }
   ],
   "duplicate_message_ids": [
