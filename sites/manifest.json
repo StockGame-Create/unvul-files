@@ -94891,6 +94891,20 @@
       "subject": "한국사",
       "thumbnail": "thumbnails/13478.png",
       "sha256": "b9ef5ba6ed40a3ec1722dae1871e12186861ca072a8c1df801c45363c02ef1d3"
+    },
+    {
+      "message_id": 13476,
+      "filename": "강대_１５，１６회_Ｋ，_８회_Ｋ＋_문제지，_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13476_._._._._._._.pdf",
+      "size_bytes": 21784674,
+      "telegram_date": "2025-08-31T15:42:32+00:00",
+      "title": "물1 강대모의고사K 15회, 16회 #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/13476.png",
+      "sha256": "98efd11685cd967b4c9861f3449d4bfd9968d516705a2a0d1b0d1543d2614899"
     }
   ],
   "duplicate_message_ids": [
