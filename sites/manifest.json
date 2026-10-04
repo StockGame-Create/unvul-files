@@ -95199,6 +95199,20 @@
       "subject": "한국사",
       "thumbnail": "thumbnails/13448.png",
       "sha256": "21f892318fbd4003daeb232bdcee70a74b52926a2d57e0078fe30d64da69b698"
+    },
+    {
+      "message_id": 13447,
+      "filename": "한국사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13447_.pdf",
+      "size_bytes": 15079231,
+      "telegram_date": "2025-08-31T12:48:29+00:00",
+      "title": "한국사 시대인재 8월 전국모의평가 #서프",
+      "year": "2026",
+      "instructor": null,
+      "subject": "한국사",
+      "thumbnail": "thumbnails/13447.png",
+      "sha256": "755442aceef9cbac7f3a6454b823ff9a83332cd9597dd97f20231cc9d89bd9db"
     }
   ],
   "duplicate_message_ids": [
