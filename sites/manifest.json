@@ -92007,6 +92007,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13841.png",
       "sha256": "9b92a238f2a2b3cc5696505452ebcaa9549f1c504aa2802ef71a9416528cbb19"
+    },
+    {
+      "message_id": 13840,
+      "filename": "2026_시대인재_서바이벌_전국_모의고사_수학_6회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13840_2026_._._._._._6._.pdf",
+      "size_bytes": 12987798,
+      "telegram_date": "2025-09-06T12:19:38+00:00",
+      "title": "수학 시대인재 서바이벌 전국 모의고사 6회 #서바전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13840.png",
+      "sha256": "c87482c2e02846648579961ae0a81d7cd0cfb3e273b183f8238ea47f95150a25"
     }
   ],
   "duplicate_message_ids": [
