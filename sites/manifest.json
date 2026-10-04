@@ -89599,6 +89599,20 @@
       "subject": "영어",
       "thumbnail": "thumbnails/14116.png",
       "sha256": "c9ff1b4cb4118c090430f826192d9a74fb0d7584f1ae6000c7766b4e8f0890fc"
+    },
+    {
+      "message_id": 14113,
+      "filename": "이명학_실전_모의고사_정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14113_._._._.pdf",
+      "size_bytes": 8307722,
+      "telegram_date": "2025-09-09T23:40:31+00:00",
+      "title": "영어 이명학 실전 모의고사 1회 ~ 7회 (답지)",
+      "year": "2026",
+      "instructor": "이명학",
+      "subject": "영어",
+      "thumbnail": "thumbnails/14113.png",
+      "sha256": "e4e0e3dd8fc808b2507edd0719ac16f434ae19b8d36f18dcdaa759e5307f444e"
     }
   ],
   "duplicate_message_ids": [
