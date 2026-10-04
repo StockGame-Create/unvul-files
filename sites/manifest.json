@@ -95031,6 +95031,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13466.png",
       "sha256": "db6c0b03b2f7fa3293165e53ff48b005aea728842456b3edda21982bebf04f5a"
+    },
+    {
+      "message_id": 13463,
+      "filename": "서바 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13463_.8.pdf",
+      "size_bytes": 21460813,
+      "telegram_date": "2025-08-31T13:47:27+00:00",
+      "title": "수학 시대인재 서바이벌 모의고사 8회 #서바",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13463.png",
+      "sha256": "1060113d436ebb3ac54fcf78ddfca2f5586ab9cb84b11ac4f8075062f4c3c16f"
     }
   ],
   "duplicate_message_ids": [
