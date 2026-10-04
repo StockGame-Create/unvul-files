@@ -91265,6 +91265,20 @@
       "subject": "영어",
       "thumbnail": "thumbnails/13918.png",
       "sha256": "198727dd3b31a56e5c5b7c30df1005f9194c51af1222d8b4c02450b4ef40eaad"
+    },
+    {
+      "message_id": 13917,
+      "filename": "마스터피스 zero 1회_250901_193430.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13917_.zero.1._250901_193430.pdf",
+      "size_bytes": 20173131,
+      "telegram_date": "2025-09-07T06:31:54+00:00",
+      "title": "영어 마스터피스 모의고사 Zero 1회, 2회",
+      "year": "2026",
+      "instructor": "션티",
+      "subject": "영어",
+      "thumbnail": "thumbnails/13917.png",
+      "sha256": "c33916d76f3af0e4c47e5e601d0cab4bc9ef4e39e58a14dea4ae49c522c0126d"
     }
   ],
   "duplicate_message_ids": [
