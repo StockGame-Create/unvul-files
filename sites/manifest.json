@@ -85807,6 +85807,20 @@
       "sha256": "280087403fa34730b62fc3f4ff46c24d59db982223b77d55f74fb517493c9d06"
     },
     {
+      "message_id": 14540,
+      "filename": "2021 시대인재 지구과학2 서바이벌 1~10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14540_2021.2.1.10.pdf",
+      "size_bytes": 24721663,
+      "telegram_date": "2025-09-16T14:06:15+00:00",
+      "title": "지2 시대인재 서바이벌 모의고사 1회 ~ 10회 합본 #서바",
+      "year": "2021",
+      "instructor": null,
+      "subject": "지구과학2",
+      "thumbnail": "thumbnails/14540.png",
+      "sha256": "1d74bcef8d2b07195c5b7ac42999fb53e6643ceaeab49306c1a4b2e817544dae"
+    },
+    {
       "message_id": 14537,
       "filename": "N서바 2회 3회.pdf",
       "stored_as": null,
