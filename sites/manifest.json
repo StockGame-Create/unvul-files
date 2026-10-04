@@ -96459,6 +96459,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13302.png",
       "sha256": "8bc0df3dd3b7b3f31223e0609f35521c6a76bf9a3eb97f244c7abd229cb82f39"
+    },
+    {
+      "message_id": 13301,
+      "filename": "26_강철중_전국_시즌1_1_4회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13301_26_._._.1_1_4._.pdf",
+      "size_bytes": 119553576,
+      "telegram_date": "2025-08-29T09:16:20+00:00",
+      "title": "수학 강철중 모의고사 전국 4회",
+      "year": "2026",
+      "instructor": "강철중",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13301.png",
+      "sha256": "5b447e34e6c07a0a5ebd2cef7bdad4e17cfd3814ac4b47cb6fa81d3ee372558c"
     }
   ],
   "duplicate_message_ids": [
