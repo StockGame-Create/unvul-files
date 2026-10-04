@@ -91825,6 +91825,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13854.png",
       "sha256": "f84f0dd12f42c75ac890025dd575482b01ae6f21e664003a42c7a03635a83ee1"
+    },
+    {
+      "message_id": 13853,
+      "filename": "2026_시대인재_서바이벌_모의고사_수학_7회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13853_2026_._._._._7._.pdf",
+      "size_bytes": 39201553,
+      "telegram_date": "2025-09-06T12:27:21+00:00",
+      "title": "수학 시대인재 서바이벌 모의고사 7회 #서바",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13853.png",
+      "sha256": "fcf763f1411b3f1954ac39e7e5d747499c5250e34032c9737db6c97cb902423d"
     }
   ],
   "duplicate_message_ids": [
