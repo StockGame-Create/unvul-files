@@ -89711,6 +89711,20 @@
       "subject": "영어",
       "thumbnail": "thumbnails/14106.png",
       "sha256": "7bebf965158fade7bdd9242bb8594693ccef5d07e923532cfd7707af1704e736"
+    },
+    {
+      "message_id": 14093,
+      "filename": "C22HD50968BAE011_SEP.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14093_C22HD50968BAE011_SEP.pdf",
+      "size_bytes": 22361208,
+      "telegram_date": "2025-09-09T23:18:16+00:00",
+      "title": "물2 일당백",
+      "year": "2025",
+      "instructor": "배기범",
+      "subject": "물리학2",
+      "thumbnail": "thumbnails/14093.png",
+      "sha256": "6b27d1b30116e55adbfefe5e4efeb00b13d35f8fb600e52852023e5627f85960"
     }
   ],
   "duplicate_message_ids": [
