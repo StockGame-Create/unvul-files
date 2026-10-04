@@ -93155,6 +93155,20 @@
       "subject": "생명과학1",
       "thumbnail": "thumbnails/13736.png",
       "sha256": "e9562e88d4eccbd43d35ea1656c19a3a1b200e4a0bc4a453eefac8155c450fcf"
+    },
+    {
+      "message_id": 13735,
+      "filename": "2026 생명과학1 서바이벌 전국 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13735_2026.1.8.pdf",
+      "size_bytes": 14582085,
+      "telegram_date": "2025-09-04T14:22:09+00:00",
+      "title": "생1 시대인재 서바이벌 전국 모의고사 8회 #서바전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/13735.png",
+      "sha256": "1f5316b0e3255ae76efbecc6dbf216bf83addb659846cbe04701c0d2cecc912e"
     }
   ],
   "duplicate_message_ids": [
