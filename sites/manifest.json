@@ -95549,6 +95549,20 @@
       "subject": "생명과학1",
       "thumbnail": "thumbnails/13412.png",
       "sha256": "69cd3842a6f791726c70f691493ef3b02c27e907c4a1dba39f1720739b979ca9"
+    },
+    {
+      "message_id": 13410,
+      "filename": "정치와법_전국_8월_답지_@yubin_MPGA.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13410_._._8._._%40yubin_MPGA.pdf",
+      "size_bytes": 331277,
+      "telegram_date": "2025-08-31T09:17:16+00:00",
+      "title": "정법 시대인재 8월 전국모의평가 #서프",
+      "year": "2026",
+      "instructor": null,
+      "subject": "정치와법",
+      "thumbnail": "thumbnails/13410.png",
+      "sha256": "9868deb14e3435462a75f6e0fe2e202af0d5e09a18a42788e426f42032a3bdd1"
     }
   ],
   "duplicate_message_ids": [
