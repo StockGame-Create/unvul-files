@@ -90047,6 +90047,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/14052.png",
       "sha256": "6679f2b4ef0b567bcdadf649f9f29cf9b1228ddfae58d9205fb8e09234f8c2b7"
+    },
+    {
+      "message_id": 14051,
+      "filename": "차모 시즌1 매운맛.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14051_.1.pdf",
+      "size_bytes": 6468680,
+      "telegram_date": "2025-09-09T09:29:19+00:00",
+      "title": "수학 차영진 모의고사 시즌1 매운맛",
+      "year": "2026",
+      "instructor": "차영진",
+      "subject": "수학",
+      "thumbnail": "thumbnails/14051.png",
+      "sha256": "3071bc853a678d15bd3d31d2ca4996bef644f3e665d04d23607579145a274081"
     }
   ],
   "duplicate_message_ids": [
