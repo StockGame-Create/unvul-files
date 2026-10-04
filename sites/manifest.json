@@ -93337,6 +93337,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13707.png",
       "sha256": "bc597002a6dd343091a821f4293823776203617cef35242d6684ed0801280110"
+    },
+    {
+      "message_id": 13697,
+      "filename": "2026 물리학1 강대K+ 2회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13697_2026.1.K%2B.2.pdf",
+      "size_bytes": 1526836,
+      "telegram_date": "2025-09-04T06:27:13+00:00",
+      "title": "물1 강대모의고사K+ 1회, 2회 #강케플",
+      "year": "2026",
+      "instructor": null,
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/13697.png",
+      "sha256": "2a9ba1be5efafd670c80481cc4dbb657c107e8ab2d0320971dc62745e5fd8111"
     }
   ],
   "duplicate_message_ids": [
