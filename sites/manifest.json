@@ -93981,6 +93981,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13598.png",
       "sha256": "c037bf6181fcae35efc0351bd3042743236e3486e30a3e2cbdad6792596f9b94"
+    },
+    {
+      "message_id": 13593,
+      "filename": "2026학년도_강민철_EBS_분석_N제_시즌1_독서_정답과_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13593_2026._._EBS_._N._.1_._._.pdf",
+      "size_bytes": 148446699,
+      "telegram_date": "2025-09-02T11:55:30+00:00",
+      "title": "국어 강민철의 EBS분석 N제 #강이분",
+      "year": "2026",
+      "instructor": "강민철",
+      "subject": "국어",
+      "thumbnail": "thumbnails/13593.png",
+      "sha256": "9bfc686e6ea7ce9e7c7aea117ae335298d58e84d894fb0049b4d140ea0df2e87"
     }
   ],
   "duplicate_message_ids": [
