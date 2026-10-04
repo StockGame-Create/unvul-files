@@ -95521,6 +95521,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13416.png",
       "sha256": "3858cf0677797dbbf4b69b83746b647200a2ce8b03a9a2bc7761669eadb39d48"
+    },
+    {
+      "message_id": 13414,
+      "filename": "언매1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13414_.1.pdf",
+      "size_bytes": 3031419,
+      "telegram_date": "2025-08-31T09:27:36+00:00",
+      "title": "국어 전형태 모의고사 1회 언매",
+      "year": "2026",
+      "instructor": "전형태",
+      "subject": "국어",
+      "thumbnail": "thumbnails/13414.png",
+      "sha256": "4b2c50b2a5f5824a4ecdc7ea5ca221cbe28e96b65a6fb30c0350a9b65fa88fc6"
     }
   ],
   "duplicate_message_ids": [
