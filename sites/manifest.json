@@ -96011,6 +96011,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13351.png",
       "sha256": "22e0eea4ad41cda09fca3a6e87b3835f4f39eb3e4741cb0252eb3e346536d8f2"
+    },
+    {
+      "message_id": 13350,
+      "filename": "쎈 확통 pdf..pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13350_.pdf.pdf",
+      "size_bytes": 24958922,
+      "telegram_date": "2025-08-30T01:47:01+00:00",
+      "title": "수학 쎈 확통",
+      "year": null,
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13350.png",
+      "sha256": "63abec1b4aa37eba0e2771a6787bc6d2ec1c10639d18deff3c4523bbf2fe4386"
     }
   ],
   "duplicate_message_ids": [
