@@ -94205,6 +94205,20 @@
       "subject": "물리학1",
       "thumbnail": "thumbnails/13556.png",
       "sha256": "9c79f649024676caf0aa0583a82b9ffc86e15b7dd4c196f93aa2e7cdc3225fec"
+    },
+    {
+      "message_id": 13555,
+      "filename": "2026학년도 물리학1 전국서바 7회 해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13555_2026.1.7.pdf",
+      "size_bytes": 1915237,
+      "telegram_date": "2025-09-01T14:40:51+00:00",
+      "title": "물1 시대인재 서바이벌 전국 모의고사 7회 #서바전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/13555.png",
+      "sha256": "8bc890efa46942187b1bf33a576178a3d3e257b2bc9e20547342ff96a339d6f8"
     }
   ],
   "duplicate_message_ids": [
