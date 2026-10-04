@@ -93953,6 +93953,20 @@
       "subject": "영어",
       "thumbnail": "thumbnails/13604.png",
       "sha256": "c5aed131592f84de1fe63b7864c1381b00f67dd39ba48936c4d4ab584f0aacba"
+    },
+    {
+      "message_id": 13603,
+      "filename": "2026 대성 D Fine 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13603_2026.D.Fine.1.pdf",
+      "size_bytes": 28028742,
+      "telegram_date": "2025-09-02T12:04:23+00:00",
+      "title": "영어 D Fine 제 1회 #디파인",
+      "year": "2026",
+      "instructor": null,
+      "subject": "영어",
+      "thumbnail": "thumbnails/13603.png",
+      "sha256": "349d9b7c5a3d37b11899868066681331971ac7a6616aedd364e89d38e3b213c9"
     }
   ],
   "duplicate_message_ids": [
