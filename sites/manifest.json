@@ -92679,6 +92679,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13781.png",
       "sha256": "5d4143cd39f35c55e9065412d9049cb97cf7b5c2c7dccc6acaca87130a753359"
+    },
+    {
+      "message_id": 13779,
+      "filename": "C24HC54976YT011_2AUG.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13779_C24HC54976YT011_2AUG.PDF",
+      "size_bytes": 313705,
+      "telegram_date": "2025-09-05T09:44:47+00:00",
+      "title": "정법 모래주머니 모의고사 시즌2 1회",
+      "year": "2026",
+      "instructor": "김용택",
+      "subject": "정치와법",
+      "thumbnail": "thumbnails/13779.png",
+      "sha256": "275eb64ee6c284797e1ce20b019b01972de40dd2bcf3c700ef5d8e0a24e3324d"
     }
   ],
   "duplicate_message_ids": [
