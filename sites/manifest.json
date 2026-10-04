@@ -15,6 +15,20 @@
       "sha256": "de384a805778076fc6956a9188a3f79767c9d4e9d98a4b6d35d46b0ab72caa7b"
     },
     {
+      "message_id": 24912,
+      "filename": "OMEGA 수학 13회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/24912_OMEGA.13.pdf",
+      "size_bytes": 11659662,
+      "telegram_date": "2026-10-04T06:08:50+00:00",
+      "title": "수학 2027 OMEGA 모의고사 13회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/24912.png",
+      "sha256": "fddd9f4c3b773f64f269614180adbd81e32d4d3bf725d665eec86f4f4c06acc1"
+    },
+    {
       "message_id": 24906,
       "filename": "2027_현강_스피드러너_6회_해설.pdf",
       "stored_as": null,
