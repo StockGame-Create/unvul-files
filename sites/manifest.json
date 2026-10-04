@@ -91643,6 +91643,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13878.png",
       "sha256": "09d6dc30948ac912dec1709f7a5eef2af2311dbd571c6fd703aea9ac2a142325"
+    },
+    {
+      "message_id": 13876,
+      "filename": "한승_쌤_수능투강_분석_현대문학_죽이기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13876_._._._._._.pdf",
+      "size_bytes": 348628080,
+      "telegram_date": "2025-09-07T00:26:00+00:00",
+      "title": "국어 해체주의 EBS 죽이기 고전문학, 현대문학",
+      "year": "2026",
+      "instructor": "한승",
+      "subject": "국어",
+      "thumbnail": "thumbnails/13876.png",
+      "sha256": "ca0e6b95947dc9e55c81309a61a608ce159c90ca41e1194c25df2502d34d897b"
     }
   ],
   "duplicate_message_ids": [
