@@ -94499,6 +94499,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13524.png",
       "sha256": "92f082fb7dc91dd62f077b3fde60491a3c1d264aa7ad5f62afa5b5dd057ec413"
+    },
+    {
+      "message_id": 13523,
+      "filename": "케이수학8답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13523_.8.pdf",
+      "size_bytes": 944531,
+      "telegram_date": "2025-09-01T09:28:10+00:00",
+      "title": "수학 강대모의고사K 5회 ~ 10회 (해설지) #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13523.png",
+      "sha256": "59b2fe9d9005b4bff7e13ad4d7ee19b93bf6578f086108e343391ce3bb88d992"
     }
   ],
   "duplicate_message_ids": [
