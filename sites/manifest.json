@@ -93841,6 +93841,20 @@
       "subject": "생명과학1",
       "thumbnail": "thumbnails/13626.png",
       "sha256": "3e9cda5491b8165500c45c05446d03e00022f03e1309e1ff60606cf2d54ef4de"
+    },
+    {
+      "message_id": 13625,
+      "filename": "2026 생1 시대인재 REVIVAL 2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13625_2026.1.REVIVAL.2.pdf",
+      "size_bytes": 88099132,
+      "telegram_date": "2025-09-02T12:19:00+00:00",
+      "title": "생1 시대인재 리바이벌 모의고사 2권 #리바",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/13625.png",
+      "sha256": "91ac93265bd613580a097aee062ba2abc171744c65f99d297810fe2b20e0e5e8"
     }
   ],
   "duplicate_message_ids": [
