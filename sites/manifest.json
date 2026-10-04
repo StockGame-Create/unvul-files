@@ -94079,6 +94079,20 @@
       "subject": "물리학1",
       "thumbnail": "thumbnails/13566.png",
       "sha256": "91b561d1067a70bfb8fd5dce59d1aed49ff96bb663821624d8034ff05971e9c7"
+    },
+    {
+      "message_id": 13565,
+      "filename": "26 현모 시즌3_2nd 4회차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13565_26.3_2nd.4.pdf",
+      "size_bytes": 3495909,
+      "telegram_date": "2025-09-01T15:55:48+00:00",
+      "title": "물1 수능 대비 현정훈 모의고사 시즌3 2nd 1회 ~ 4회",
+      "year": "2026",
+      "instructor": "현정훈",
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/13565.png",
+      "sha256": "4e96ad94c24a27cc315da6419d7c84dfb53be363c1d22b7db8ff5cd51333ece2"
     }
   ],
   "duplicate_message_ids": [
