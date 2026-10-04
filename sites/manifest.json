@@ -94135,6 +94135,20 @@
       "subject": "물리학1",
       "thumbnail": "thumbnails/13562.png",
       "sha256": "e158b14dbe0d2bd3afea893388aa71a4c42408310cd09b62bf25cce1697bbd12"
+    },
+    {
+      "message_id": 13560,
+      "filename": "05. D.아카이브 시즌1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13560_05.D.1.pdf",
+      "size_bytes": 46143791,
+      "telegram_date": "2025-09-01T14:49:48+00:00",
+      "title": "생윤 D.Archive 시즌1 제1회",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/13560.png",
+      "sha256": "a6cd0210462b856a2d3f68d2220b2daeca7bd3f64ee1caea984ab9b8da41b3d2"
     }
   ],
   "duplicate_message_ids": [
