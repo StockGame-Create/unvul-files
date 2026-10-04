@@ -92049,6 +92049,20 @@
       "subject": "생명과학2",
       "thumbnail": "thumbnails/13837.png",
       "sha256": "c976d3f95fcba6f3a7330d9ffdb188d1d3ea8b2d25364e493eeaad70bbe253cc"
+    },
+    {
+      "message_id": 13835,
+      "filename": "물리 강k플 해설_250112_183208.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13835_.k._250112_183208.pdf",
+      "size_bytes": 16747658,
+      "telegram_date": "2025-09-06T09:07:27+00:00",
+      "title": "물1 강대모의고사K+ 1회 ~ 30회 합본 #강케플",
+      "year": "2025",
+      "instructor": null,
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/13835.png",
+      "sha256": "987a8631d04e8fc8d98f2a6b928e4b27f9c8bd12127d2fbc2c56d475ecda0196"
     }
   ],
   "duplicate_message_ids": [
