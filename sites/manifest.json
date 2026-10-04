@@ -90397,6 +90397,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/14019.png",
       "sha256": "4d062888b75a106d9c5821f262c478e5043e489c14479fe1b686cc71512f17a4"
+    },
+    {
+      "message_id": 14018,
+      "filename": "설맞이 아카이브 미적분 해설 보정.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14018_.pdf",
+      "size_bytes": 115391554,
+      "telegram_date": "2025-09-08T15:48:32+00:00",
+      "title": "수학 설맞이 아카이브 미적분",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/14018.png",
+      "sha256": "bccdfec2f00f795dcfde97d30fbe11ec9baab6ec647b1e1df23d0e27e4243ec5"
     }
   ],
   "duplicate_message_ids": [
