@@ -95115,6 +95115,20 @@
       "subject": "생활과 윤리",
       "thumbnail": "thumbnails/13456.png",
       "sha256": "cb68c1b93a0a102c1b4bc626de9eb371ee1a52b498c8765e03e2cf2eec007afc"
+    },
+    {
+      "message_id": 13455,
+      "filename": "2026 현돌모 시즌1 8회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13455_2026.1.8.pdf",
+      "size_bytes": 7594780,
+      "telegram_date": "2025-08-31T12:58:58+00:00",
+      "title": "생윤 현자의 돌 모의고사 시즌1 5회 ~ 8회 (스캔 퀄리티 개선) #현돌모",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생활과 윤리",
+      "thumbnail": "thumbnails/13455.png",
+      "sha256": "5b654ded87a27ee61436eb04162f13f66f26473af55e4deeb7efdd844e0b3735"
     }
   ],
   "duplicate_message_ids": [
