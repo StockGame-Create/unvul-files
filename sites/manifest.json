@@ -96207,6 +96207,20 @@
       "subject": "지구과학1",
       "thumbnail": "thumbnails/13333.png",
       "sha256": "1da15e201d9505ba8f19ded9efb2364eb513e7c61cf99a30e5b28d6f6317963d"
+    },
+    {
+      "message_id": 13332,
+      "filename": "2026 지구과학1 서바이벌 전국 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13332_2026.1.6.pdf",
+      "size_bytes": 9269238,
+      "telegram_date": "2025-08-29T14:26:35+00:00",
+      "title": "지1 시대인재 서바이벌 전국 6회 #서바전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/13332.png",
+      "sha256": "963309387d1c9dc4eb213d3c5b64cb31deb8a3fad161f22ca36209e9162036a5"
     }
   ],
   "duplicate_message_ids": [
