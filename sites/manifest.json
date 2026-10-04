@@ -93939,6 +93939,20 @@
       "subject": "물리학1",
       "thumbnail": "thumbnails/13613.png",
       "sha256": "09f959f656bc3c59c32fe1101d3971252726fc9d0c4fe5a586fe5929a5ccff41"
+    },
+    {
+      "message_id": 13604,
+      "filename": "2026 대성 D Fine 1회 a.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13604_2026.D.Fine.1.a.pdf",
+      "size_bytes": 29955264,
+      "telegram_date": "2025-09-02T12:04:23+00:00",
+      "title": "영어 D Fine 제 1회 #디파인",
+      "year": "2026",
+      "instructor": null,
+      "subject": "영어",
+      "thumbnail": "thumbnails/13604.png",
+      "sha256": "c5aed131592f84de1fe63b7864c1381b00f67dd39ba48936c4d4ab584f0aacba"
     }
   ],
   "duplicate_message_ids": [
