@@ -96585,6 +96585,20 @@
       "subject": "생1",
       "thumbnail": "thumbnails/13171.png",
       "sha256": "3f03709272448b4f649c4bda26295ece0a76ebe3cafc0354a92b45bc305012ae"
+    },
+    {
+      "message_id": 13169,
+      "filename": "2026 생명과학1 파이널 브릿지 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13169_2026.1.7.pdf",
+      "size_bytes": 14811120,
+      "telegram_date": "2025-08-28T15:49:45+00:00",
+      "title": "생명과학1 시대인재 Final 브릿지 전국 모의고사 7회 #브릿지",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생1",
+      "thumbnail": "thumbnails/13169.png",
+      "sha256": "6fdc301ad892809650c1274e92b496a44cdfa4dda369cfbec36963440784d05c"
     }
   ],
   "duplicate_message_ids": [
