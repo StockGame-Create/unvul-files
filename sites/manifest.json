@@ -92847,6 +92847,20 @@
       "subject": "물리학1",
       "thumbnail": "thumbnails/13763.png",
       "sha256": "0fcc7d17e875c4acf2bf81c955543f11467539aa0856b2c75a669c1811c6ad94"
+    },
+    {
+      "message_id": 13762,
+      "filename": "2026 배기범 9월 B-live 해설.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13762_2026.9.B-live.PDF",
+      "size_bytes": 328329,
+      "telegram_date": "2025-09-04T16:36:04+00:00",
+      "title": "물1 9월 모평 대비 B - 라이브 모의고사",
+      "year": "2026",
+      "instructor": "배기범",
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/13762.png",
+      "sha256": "907c93c9d5ea3cb442b5a39b8d87c45df91312402c51be9f0524e342154348ae"
     }
   ],
   "duplicate_message_ids": [
