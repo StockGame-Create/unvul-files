@@ -91937,6 +91937,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13846.png",
       "sha256": "a249bffc3192164b1f0118ebd66e3500b8f21b857c4aee7df48c52ab0242e03a"
+    },
+    {
+      "message_id": 13845,
+      "filename": "강기원 어싸 7주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13845_.7.pdf",
+      "size_bytes": 34996130,
+      "telegram_date": "2025-09-06T12:23:00+00:00",
+      "title": "수학 Assignment Survival 7주차, 8주차 #어싸",
+      "year": "2026",
+      "instructor": "강기원",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13845.png",
+      "sha256": "c8d8af99bc409e6831ac224ba8704d2f70a0759e904c3297aabafe7f82612533"
     }
   ],
   "duplicate_message_ids": [
