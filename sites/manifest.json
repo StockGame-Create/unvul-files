@@ -96277,6 +96277,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13323.png",
       "sha256": "0ccb85941cf45f79c02c775f1cdd0970e97ca493648d55c921212f45f80296c1"
+    },
+    {
+      "message_id": 13322,
+      "filename": "김승리_실전_모의고사_4회_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13322_._._._4._.pdf",
+      "size_bytes": 12825089,
+      "telegram_date": "2025-08-29T13:42:26+00:00",
+      "title": "국어 김승리 수능대비 실전 모의고사 4회",
+      "year": "2026",
+      "instructor": "김승리",
+      "subject": "국어",
+      "thumbnail": "thumbnails/13322.png",
+      "sha256": "0ca2b5bc884d0c9ed9ce9e0c826785a2300e0da4a76bbe8a277e218c84491912"
     }
   ],
   "duplicate_message_ids": [
