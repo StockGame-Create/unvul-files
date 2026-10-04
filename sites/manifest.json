@@ -90523,6 +90523,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/14006.png",
       "sha256": "b9a5f6443a07eb8285daf467326305c5994d0dc8b49232fedf5310d2b0ba6ef0"
+    },
+    {
+      "message_id": 14004,
+      "filename": "2026 지구과학1 오지훈 모의고사 시즌1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14004_2026.1.1.pdf",
+      "size_bytes": 18014821,
+      "telegram_date": "2025-09-08T13:46:08+00:00",
+      "title": "지1 OZ 모의고사 시즌1 제1회",
+      "year": "2026",
+      "instructor": "오지훈",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/14004.png",
+      "sha256": "905af20c24f8fba51d0848fae893914534582f7da5737d029c28fab74c99cfe2"
     }
   ],
   "duplicate_message_ids": [
