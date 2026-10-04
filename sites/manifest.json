@@ -90341,6 +90341,20 @@
       "subject": "지구과학1",
       "thumbnail": "thumbnails/14025.png",
       "sha256": "e969f96c199e0105cb2e6ea91ebb47a657e49df8f76adf21abc6e3fd21135bf7"
+    },
+    {
+      "message_id": 14023,
+      "filename": "2026 믿어봐 글편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14023_2026.pdf",
+      "size_bytes": 82210965,
+      "telegram_date": "2025-09-09T00:20:52+00:00",
+      "title": "영어 믿어봐! 글편",
+      "year": "2026",
+      "instructor": "조정식",
+      "subject": "영어",
+      "thumbnail": "thumbnails/14023.png",
+      "sha256": "99d14a16b3fe075dfb224a8011e21387b28d48ddc3bc7a594cb2dbd2ead6df38"
     }
   ],
   "duplicate_message_ids": [
