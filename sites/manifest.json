@@ -89375,6 +89375,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/14143.png",
       "sha256": "324b775292e5593a06ec5a284c20b7ee9cc8735d8d4d92f482b0815a943cb67f"
+    },
+    {
+      "message_id": 14142,
+      "filename": "26 전바 해설 특별히 미적까지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14142_26.pdf",
+      "size_bytes": 112952439,
+      "telegram_date": "2025-09-10T15:54:40+00:00",
+      "title": "수학 시대인재 서바이벌 전국 모의고사 1회 ~ 9회 공통 + 확통 합본 #서바전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/14142.png",
+      "sha256": "d0bd67dc1b6e8fc54c3b3e0256ca0c49962f9824eec1472b9039851279a7f556"
     }
   ],
   "duplicate_message_ids": [
