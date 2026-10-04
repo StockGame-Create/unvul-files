@@ -96305,6 +96305,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13319.png",
       "sha256": "bc89904fded1e184227bec7f2cd8a80aa29a7051a5c6017b4b1479ea2723fc11"
+    },
+    {
+      "message_id": 13316,
+      "filename": "인문지리 모의고사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13316_.pdf",
+      "size_bytes": 5622213,
+      "telegram_date": "2025-08-29T13:16:54+00:00",
+      "title": "한지 기승전결 한국지리 모의고사 (인문지리 모의고사)",
+      "year": "2026",
+      "instructor": "이승헌",
+      "subject": "한국지리",
+      "thumbnail": "thumbnails/13316.png",
+      "sha256": "6c6f51d0b1d9d176614f77ee7ac2edfd1537ac8a334b4c8aaf8265b89b836c6c"
     }
   ],
   "duplicate_message_ids": [
