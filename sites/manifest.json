@@ -95675,6 +95675,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13393.png",
       "sha256": "ad530ac6590020ee197604ea07fd9a08bae9d29a5577d72b9d77992ccfba788e"
+    },
+    {
+      "message_id": 13391,
+      "filename": "2026_시대인재_우주설_수리논술_엑셀시어연세대.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13391_2026_._._._.pdf",
+      "size_bytes": 2147896,
+      "telegram_date": "2025-08-31T02:00:56+00:00",
+      "title": "수학 EXCELSIOR 수리논술",
+      "year": "2026",
+      "instructor": "우주설",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13391.png",
+      "sha256": "dfebdb73aa44d3019290457c2ac26040771caadb698fdcedbda647020ca8b4d8"
     }
   ],
   "duplicate_message_ids": [
