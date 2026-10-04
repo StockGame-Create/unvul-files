@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 24920,
+      "filename": "서바이벌+12주차+필기노트+(2).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/24920_.%2B12.%2B.%2B.2.pdf",
+      "size_bytes": 1663924,
+      "telegram_date": "2026-10-04T13:25:33+00:00",
+      "title": "수학 강기원T 서바이벌 정규반 12주차 필기노트",
+      "year": "2027",
+      "instructor": "강기원",
+      "subject": "수학",
+      "thumbnail": "thumbnails/24920.png",
+      "sha256": "a146af4624832e4ccdc027aeaed72a91f61a1bbf4d18868a7647219031c7bd17"
+    },
+    {
       "message_id": 24918,
       "filename": "2027_시대인재_수학_서바이벌_15회_해설.pdf",
       "stored_as": null,
