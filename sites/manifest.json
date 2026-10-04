@@ -91293,6 +91293,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13908.png",
       "sha256": "ea44870f9c40777c677fc7ac385f7df4110a6130052e189a02fe9f44ad21a1e6"
+    },
+    {
+      "message_id": 13905,
+      "filename": "정석준_인간실격_모의고사_1회_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13905_._._._1._.pdf",
+      "size_bytes": 10417594,
+      "telegram_date": "2025-09-07T05:57:15+00:00",
+      "title": "생1 인간실격 모의고사 1회",
+      "year": "2026",
+      "instructor": "정석준",
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/13905.png",
+      "sha256": "e70688f6f37569ac2d0b7acae7a4f9d481d0f71ad3fd311e2a2c1ff565b82755"
     }
   ],
   "duplicate_message_ids": [
