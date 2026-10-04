@@ -91671,6 +91671,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13875.png",
       "sha256": "632ce1310b19ec60321b8b3c441de7a1fd3c95ed4f3f1a9c5173ebd39e8e52ed"
+    },
+    {
+      "message_id": 13874,
+      "filename": "한승_쌤_수능완성_죽이기_흑백.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13874_._._._._.pdf",
+      "size_bytes": 8635731,
+      "telegram_date": "2025-09-07T00:24:59+00:00",
+      "title": "국어 해체주의 EBS 죽이기 수능완성",
+      "year": "2026",
+      "instructor": "한승",
+      "subject": "국어",
+      "thumbnail": "thumbnails/13874.png",
+      "sha256": "80086d1943e458ccd174eec92788e49415910f14831a3301cf98dcfde0130560"
     }
   ],
   "duplicate_message_ids": [
