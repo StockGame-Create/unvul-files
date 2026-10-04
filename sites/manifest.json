@@ -94289,6 +94289,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13547.png",
       "sha256": "7cc14b4997a4a24ec3504174dde462d5fc1c6dd17db5e747e0901512fef0623b"
+    },
+    {
+      "message_id": 13545,
+      "filename": "C25HD57378BHO011_2AUG.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13545_C25HD57378BHO011_2AUG.PDF",
+      "size_bytes": 144551,
+      "telegram_date": "2025-09-01T14:25:40+00:00",
+      "title": "생1 9월 모평 대비 백호 LIVE 모의고사",
+      "year": "2026",
+      "instructor": "백호",
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/13545.png",
+      "sha256": "ef04fc8c7c5bf92cc9c006ba48a1657669bb04578966f8a48a78ded09978bb3e"
     }
   ],
   "duplicate_message_ids": [
