@@ -95647,6 +95647,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13396.png",
       "sha256": "052d5f74e3d1d40209fc0e5eb39324c72a4b669c7f8cb6e6ec3f8efca2bd3b58"
+    },
+    {
+      "message_id": 13394,
+      "filename": "N기출_수학Ⅰ+수학Ⅱ_3점_집중_.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13394_N._.%2B._3._._.pdf",
+      "size_bytes": 90201726,
+      "telegram_date": "2025-08-31T02:34:33+00:00",
+      "title": "수학 N기출 수1 수2 3점집중",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13394.png",
+      "sha256": "41e7611cb508645f7ab32dddc6c0b22443efe2d79c195869858cdb8a14db64bb"
     }
   ],
   "duplicate_message_ids": [
