@@ -95073,6 +95073,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13459.png",
       "sha256": "2ac750d7536cd3fcc3a0a167855b2d693352f1d64d4b34f2e3654d5ddaa7d26c"
+    },
+    {
+      "message_id": 13458,
+      "filename": "현돌모 시즌1 5회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13458_.1.5.pdf",
+      "size_bytes": 21824266,
+      "telegram_date": "2025-08-31T12:58:59+00:00",
+      "title": "생윤 현자의 돌 모의고사 시즌1 5회 ~ 8회 (스캔 퀄리티 개선) #현돌모",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생활과 윤리",
+      "thumbnail": "thumbnails/13458.png",
+      "sha256": "5384653f25273de034b6de74c60e50bad1f21ab0fd47614783cdd99f3050aee9"
     }
   ],
   "duplicate_message_ids": [
