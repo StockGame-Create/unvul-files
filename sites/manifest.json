@@ -89417,6 +89417,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/14139.png",
       "sha256": "babc438e7a8e643d2f12c749f059a5de331fecde6bc0339c8b489553a0cfda49"
+    },
+    {
+      "message_id": 14137,
+      "filename": "2025 전국서바 11회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14137_2025.11.pdf",
+      "size_bytes": 8516969,
+      "telegram_date": "2025-09-10T14:53:39+00:00",
+      "title": "경제 시대인재 서바이벌 전국 모의고사 11회 #서바전국",
+      "year": "2025",
+      "instructor": null,
+      "subject": "경제",
+      "thumbnail": "thumbnails/14137.png",
+      "sha256": "b053de01dda728f1934966798f3390b431cc3ae0530952efa27c98b426098bb7"
     }
   ],
   "duplicate_message_ids": [
