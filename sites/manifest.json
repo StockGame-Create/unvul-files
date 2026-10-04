@@ -92329,6 +92329,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13823.png",
       "sha256": "fd142582aa65d27bb93db3186658a90b668c2286c315a193b2983cc317e6f5ec"
+    },
+    {
+      "message_id": 13822,
+      "filename": "17회_18회_스프드러너_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13822_17._18._._.pdf",
+      "size_bytes": 34665522,
+      "telegram_date": "2025-09-05T16:19:35+00:00",
+      "title": "수학 호형훈제 스피드러너 모의고사 FINAL 17회, 18회",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13822.png",
+      "sha256": "44e91ed00f0d7d7accc671df61a1c2ce129f72a582e0ed145ad74727054567f5"
     }
   ],
   "duplicate_message_ids": [
