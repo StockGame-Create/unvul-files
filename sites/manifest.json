@@ -93295,6 +93295,20 @@
       "subject": "생명과학1",
       "thumbnail": "thumbnails/13711.png",
       "sha256": "81428be48534bc4f9931f37b0540596ed12ce072bc9a2123ec75b3ebca4c1830"
+    },
+    {
+      "message_id": 13709,
+      "filename": "2026_김현우_스탠다드_수학2_연습문제_03.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13709_2026_._._.2_._03.pdf",
+      "size_bytes": 2237620,
+      "telegram_date": "2025-09-04T09:09:02+00:00",
+      "title": "수학 스텐다드 수학2 3권",
+      "year": "2026",
+      "instructor": "김현우",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13709.png",
+      "sha256": "4f094ad0b4c1093c96eabb61e8eaf211959e1968c0e10262ab7e95cec614bd95"
     }
   ],
   "duplicate_message_ids": [
