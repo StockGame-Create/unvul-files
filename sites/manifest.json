@@ -95479,6 +95479,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13421.png",
       "sha256": "f8a42a302a3418f089b75844f475a9b7453ebf0c2c66dd378c5bc70f1be50f81"
+    },
+    {
+      "message_id": 13420,
+      "filename": "간쓸개4.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13420_.4.pdf",
+      "size_bytes": 89197064,
+      "telegram_date": "2025-08-31T09:57:53+00:00",
+      "title": "국어 간쓸개 시즌1 1호 ~ 4호",
+      "year": "2026",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/13420.png",
+      "sha256": "c5c4c18e3bccf35d0cec8ff97087817166014daf1bbe8a30f75465ef793dfedb"
     }
   ],
   "duplicate_message_ids": [
