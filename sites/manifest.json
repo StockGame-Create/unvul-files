@@ -96809,6 +96809,20 @@
       "subject": "생1",
       "thumbnail": "thumbnails/13149.png",
       "sha256": "563350676aaf9bbfc20aecc4f1ea95a0ddd4bc3523479b4701ff53d850dfd514"
+    },
+    {
+      "message_id": 13148,
+      "filename": "the contact_250828_113914.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13148_the.contact_250828_113914.pdf",
+      "size_bytes": 110174825,
+      "telegram_date": "2025-08-28T03:47:41+00:00",
+      "title": "생명과학1 THE CONTACT",
+      "year": "2026",
+      "instructor": "홍준용",
+      "subject": "생1",
+      "thumbnail": "thumbnails/13148.png",
+      "sha256": "ff027a8576813dd7120d838d1ccebdf61e3fbd9e0c31a5ecdfd5b2c2aac405bb"
     }
   ],
   "duplicate_message_ids": [
