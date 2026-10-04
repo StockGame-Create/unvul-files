@@ -95269,6 +95269,20 @@
       "subject": "사회탐구",
       "thumbnail": "thumbnails/13443.png",
       "sha256": "ef9b05c98319c41f12bd696a9467726916c72df2d4ea327d7a159a3380959da4"
+    },
+    {
+      "message_id": 13442,
+      "filename": "영어.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13442_.pdf",
+      "size_bytes": 30551008,
+      "telegram_date": "2025-08-31T12:44:37+00:00",
+      "title": "영어 시대인재 8월 전국모의평가 #서프",
+      "year": "2026",
+      "instructor": null,
+      "subject": "영어",
+      "thumbnail": "thumbnails/13442.png",
+      "sha256": "c61140839f9ed0fc0d7efd579b447ea5caa07fad1247c9fe023ba43d248cc1f4"
     }
   ],
   "duplicate_message_ids": [
