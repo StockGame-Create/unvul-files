@@ -91755,6 +91755,20 @@
       "subject": "세계지리",
       "thumbnail": "thumbnails/13868.png",
       "sha256": "c8eec372d0050dde600c3ad01aa05893366cb2e16d5a3d99f67e0934283e7f58"
+    },
+    {
+      "message_id": 13865,
+      "filename": "2026학년도_대학수학능력시험_9월_모의평가_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13865_2026._._9._._.pdf",
+      "size_bytes": 1822146,
+      "telegram_date": "2025-09-06T16:30:34+00:00",
+      "title": "수학 Standard 2026학년도 대학수학능력시험 9월 모의평가 해설",
+      "year": "2026",
+      "instructor": "김현우",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13865.png",
+      "sha256": "9f7adc7bf41baefb31e4cada734b888f49516ba7db1b4e62fdb3c40804876dc2"
     }
   ],
   "duplicate_message_ids": [
