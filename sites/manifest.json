@@ -90915,6 +90915,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13951.png",
       "sha256": "b9c9216bf8324ccdf2eb7ba4939953902c475910bd73764d20adb72d0e888006"
+    },
+    {
+      "message_id": 13950,
+      "filename": "15회_17회_18회_수학_해설_강_k_2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13950_15._17._18._._._._k_2.pdf",
+      "size_bytes": 39821260,
+      "telegram_date": "2025-09-07T08:52:44+00:00",
+      "title": "수학 강대모의고사K 15회, 17회, 18회 #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13950.png",
+      "sha256": "a560364a73d2b0ba629fc120644b0411ddfe80652afee59e274bdb3345e70575"
     }
   ],
   "duplicate_message_ids": [
