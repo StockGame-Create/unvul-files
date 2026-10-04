@@ -97019,6 +97019,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13134.png",
       "sha256": "1be958c1fa65fa90b9bd8d9f4360e7ded4ffc8df333c32fd25efc65cf683e553"
+    },
+    {
+      "message_id": 13133,
+      "filename": "수능특강Q_미니모의고사_확통.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13133_.Q_._.pdf",
+      "size_bytes": 6951449,
+      "telegram_date": "2025-08-27T23:30:16+00:00",
+      "title": "2026 EBS 수능특강Q 미니모의고사 수1, 확통, 미적분 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13133.png",
+      "sha256": "d6488ed01ff66815ec986d5e470c4cf6c42aa9659380acd85f91b06c2c0fe8db"
     }
   ],
   "duplicate_message_ids": [
