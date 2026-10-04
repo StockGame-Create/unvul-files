@@ -95059,6 +95059,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13461.png",
       "sha256": "9267a528d81bd3a9e76c5aef91b1f43ad6e7c5f77462d5da9c4a7bab15948836"
+    },
+    {
+      "message_id": 13459,
+      "filename": "#장현국어_이틀만에_9모반전_비문학편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13459_._._9._.pdf",
+      "size_bytes": 4759496,
+      "telegram_date": "2025-08-31T13:04:35+00:00",
+      "title": "국어 이틀만에 9모반전 비문학편",
+      "year": "2026",
+      "instructor": "장현",
+      "subject": "국어",
+      "thumbnail": "thumbnails/13459.png",
+      "sha256": "2ac750d7536cd3fcc3a0a167855b2d693352f1d64d4b34f2e3654d5ddaa7d26c"
     }
   ],
   "duplicate_message_ids": [
