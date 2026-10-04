@@ -91867,6 +91867,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13851.png",
       "sha256": "df3b9f22eaf39f883088ba6e3ae2dae52f617458b8061bf559b167e6cccc5c21"
+    },
+    {
+      "message_id": 13850,
+      "filename": "강기원 모의고사 3회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13850_.3.pdf",
+      "size_bytes": 4448856,
+      "telegram_date": "2025-09-06T12:25:20+00:00",
+      "title": "수학 강기원 모의평가 3회, 4회",
+      "year": "2026",
+      "instructor": "강기원",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13850.png",
+      "sha256": "27030194a09ef0ea2ee253876126f363ffb663915a1d5f6f55d37a34a0e0de3e"
     }
   ],
   "duplicate_message_ids": [
