@@ -90495,6 +90495,20 @@
       "subject": "물리학1",
       "thumbnail": "thumbnails/14009.png",
       "sha256": "564904d06dc2877d3dda8d5eab616387decfaf44e42b9ace881ca2930cf641a5"
+    },
+    {
+      "message_id": 14007,
+      "filename": "2026_김현우T_파이널_2주차_수업_프리뷰테스트_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14007_2026_.T_._2._._._.pdf",
+      "size_bytes": 382248,
+      "telegram_date": "2025-09-08T15:10:34+00:00",
+      "title": "수학 김현우T 정규반 프리뷰 테스트 파이널 2주차, 6주차",
+      "year": "2026",
+      "instructor": "김현우",
+      "subject": "수학",
+      "thumbnail": "thumbnails/14007.png",
+      "sha256": "15e30fda76a708ade7c4dd83f36447a149af3e5349c4f5a2f0064bfdc48258d0"
     }
   ],
   "duplicate_message_ids": [
