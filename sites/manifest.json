@@ -95857,6 +95857,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13364.png",
       "sha256": "8dea02b0bd0775fb0164ad07925abbed6d4abf9f92541e4f9ef31b83d5ad9b5d"
+    },
+    {
+      "message_id": 13363,
+      "filename": "수학 김현우 스탠다드 모의고사 6회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13363_.6.pdf",
+      "size_bytes": 1357321,
+      "telegram_date": "2025-08-30T07:18:26+00:00",
+      "title": "수학 김현우 스탠다드 모의고사 6회",
+      "year": "2026",
+      "instructor": "김현우",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13363.png",
+      "sha256": "16efb49868716242aef32ee9d094a19d763c8c22e96d54f98610a7de53803e00"
     }
   ],
   "duplicate_message_ids": [
