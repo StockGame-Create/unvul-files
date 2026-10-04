@@ -96025,6 +96025,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13350.png",
       "sha256": "63abec1b4aa37eba0e2771a6787bc6d2ec1c10639d18deff3c4523bbf2fe4386"
+    },
+    {
+      "message_id": 13349,
+      "filename": "쎈－확통답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13349_.pdf",
+      "size_bytes": 14841345,
+      "telegram_date": "2025-08-30T01:47:01+00:00",
+      "title": "수학 쎈 확통",
+      "year": null,
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13349.png",
+      "sha256": "7bf788dee276c88083f412947c6bb8bced3d1ed83d58552defe270175886270d"
     }
   ],
   "duplicate_message_ids": [
