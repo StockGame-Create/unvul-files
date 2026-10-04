@@ -89501,6 +89501,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/14129.png",
       "sha256": "9734aaeba9e26d262b0918890c09c1a1db04fc56e85ddb6c25bcacb6682241e2"
+    },
+    {
+      "message_id": 14128,
+      "filename": "장재원 로비스트 모의고사18회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14128_.18.pdf",
+      "size_bytes": 7274879,
+      "telegram_date": "2025-09-10T14:21:20+00:00",
+      "title": "수학 LOBBYIST 모의고사 17회, 18회",
+      "year": "2026",
+      "instructor": "장재원",
+      "subject": "수학",
+      "thumbnail": "thumbnails/14128.png",
+      "sha256": "e7452c87d91255ab333e67d7d5f0464145eb315f74bfe63c8c7b680720b062ca"
     }
   ],
   "duplicate_message_ids": [
