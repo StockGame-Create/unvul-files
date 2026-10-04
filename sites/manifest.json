@@ -95703,6 +95703,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13389.png",
       "sha256": "22e2fad7a97cab3fccb6e4de669b1e3ea2d6daa2db23c6462837e63976554a68"
+    },
+    {
+      "message_id": 13388,
+      "filename": "2026학년도_새로모의고사_파이널_4회_정답_및_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13388_2026._._._4._._._.pdf",
+      "size_bytes": 47067975,
+      "telegram_date": "2025-08-30T16:30:10+00:00",
+      "title": "국어 새로모의고사 파이널 1회",
+      "year": "2026",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/13388.png",
+      "sha256": "fcb61fd25c13fff0f9ca527507bfdd42eb0b06d51b81c04f2992050e67962905"
     }
   ],
   "duplicate_message_ids": [
