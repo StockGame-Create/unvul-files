@@ -8,6 +8,7 @@ sync.py와의 관계
   분석하고 결과를 아래 두 곳에 저장한다. 텔레그램 접속은 필요 없다.
     sites/manifest_2.json   : 파일별 처리 상태/통계 색인 (가볍다)
     sites/ai/<message_id>.json : 파일 하나의 문제/해설/지문 전체 데이터 (무겁다)
+    sites/bank_index.json   : api/ask.js가 유사 문제를 찾는 데 쓰는 압축 검색 색인 (실행이 끝날 때마다 재생성)
   (전부 manifest_2.json 하나에 넣으면 수십 MB가 되어 프론트가 매번 받기 부담스러워서,
    색인과 본문을 나눴다. 프론트는 색인으로 목록/검색을 하고, 문제 본문은 필요할 때
    해당 파일의 json만 받아가면 된다.)
@@ -51,6 +52,7 @@ AI는 문제를 "풀지 않는다". 문서에 인쇄돼 있는 것만 전사한�
   python ai_power.py --id 24377      # 특정 파일만
   python ai_power.py --id 24377 --force   # 이미 처리된 파일도 처음부터 다시
   python ai_power.py --retry-failed  # 실패로 기록된 페이지만 다시 시도
+  python ai_power.py --reindex       # 검색 색인(bank_index.json)만 다시 생성
   python ai_power.py --dry-run       # 대상 목록만 보기 (API 호출 없음)
 """
 
@@ -95,6 +97,7 @@ SITE_DIR = Path("sites")
 FILES_DIR = SITE_DIR / "files"
 MANIFEST_PATH = SITE_DIR / "manifest.json"
 AI_MANIFEST_PATH = SITE_DIR / "manifest_2.json"
+BANK_INDEX_PATH = SITE_DIR / "bank_index.json"  # ask.js가 읽는 검색용 압축 색인
 AI_DATA_DIR = SITE_DIR / "ai"
 CROPS_DIR = AI_DATA_DIR / "crops"
 
@@ -114,6 +117,7 @@ MAX_RUNTIME_SECONDS = _env_int("AI_MAX_RUNTIME_SECONDS", 5 * 60 * 60)
 MAX_PAGES = _env_int("AI_MAX_PAGES", 300)
 SAVE_CROPS = _env_str("AI_SAVE_CROPS", "0") == "1"
 
+INDEX_TEXT_MAX = 500  # 검색 색인에 넣을 문항당 최대 글자 수 (전체 본문은 sites/ai/<id>.json)
 MAX_TRANSIENT_ATTEMPTS = 3  # 모델 하나당 일시 오류(503 등) 재시도 횟수
 MAX_RETRY_WAIT_SEC = 90  # 429의 retryDelay가 이보다 길면 기다리지 않고 다음 모델로
 MAX_CONSECUTIVE_CHUNK_ERRORS = 5  # 연달아 이만큼 실패하면 실행 자체를 중단 (키/스키마 문제 방지)
@@ -745,14 +749,62 @@ def needs_work(entry: dict, ai_index: dict, retry_failed: bool = False) -> bool:
     return row.get("status") == "partial"  # done / skipped / failed는 --force 없이는 다시 안 한다.
 
 
+def build_bank_index():
+    """sites/ai/*.json 전체를 훑어 ask.js용 검색 색인(sites/bank_index.json)을 만든다.
+    API 호출 없이 로컬 파일만 읽으므로 언제든 다시 돌려도 안전하다 (--reindex).
+    문항 본문은 앞부분만 넣고, 해설 전문 등은 ask.js가 필요할 때 개별 json에서 가져간다."""
+    ai_index = load_ai_index()
+    files_meta, items = [], []
+    for row in ai_index["files"]:
+        dp = AI_DATA_DIR / f"{row['message_id']}.json"
+        if not dp.exists():
+            continue
+        try:
+            data = json.loads(dp.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if not data.get("problems"):
+            continue
+        fi = len(files_meta)
+        files_meta.append({
+            "id": row["message_id"],
+            "title": row.get("title") or row.get("filename"),
+            "subject": row.get("subject"),
+            "year": row.get("year"),
+            "instructor": row.get("instructor"),
+        })
+        for p in data["problems"]:
+            body = p["text"]
+            if p.get("choices"):
+                body += " " + " / ".join(p["choices"])
+            items.append({
+                "f": fi,
+                "n": p["number"],
+                "p": p["page"],
+                "s": p.get("section", ""),
+                "t": body[:INDEX_TEXT_MAX],
+                "k": p.get("topic", ""),
+                "a": p.get("answer", ""),
+                "e": 1 if p.get("explanation") else 0,
+                "u": 1 if p.get("uncertain") else 0,
+            })
+    write_json(BANK_INDEX_PATH, {"version": 1, "built_at": now_iso(), "files": files_meta, "items": items})
+    log(f"검색 색인 갱신: 파일 {len(files_meta)}개 / 문항 {len(items)}개 -> {BANK_INDEX_PATH}")
+
+
 def main():
     ap = argparse.ArgumentParser(description="자료실 PDF -> 문제 은행(manifest_2.json) 생성")
     ap.add_argument("--id", type=int, action="append", help="특정 message_id만 (여러 번 지정 가능)")
     ap.add_argument("--limit", type=int, default=0, help="이번 실행에서 처리할 최대 파일 수")
     ap.add_argument("--force", action="store_true", help="이미 처리된 파일도 처음부터 다시")
     ap.add_argument("--retry-failed", action="store_true", help="처리 실패로 기록된 페이지만 다시 시도")
+    ap.add_argument("--reindex", action="store_true", help="API 호출 없이 검색 색인(bank_index.json)만 다시 만든다")
     ap.add_argument("--dry-run", action="store_true", help="대상 목록만 출력 (API 호출 없음)")
     args = ap.parse_args()
+
+    if args.reindex:
+        build_bank_index()
+        return
 
     manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
     ai_index = load_ai_index()
@@ -786,6 +838,11 @@ def main():
     except FatalError as ex:
         log(f"\n[중단] {ex}")
         sys.exit(1)
+
+    try:
+        build_bank_index()
+    except Exception as ex:
+        log(f"[경고] 검색 색인 생성 실패: {ex}")
 
     log(f"\n요약: 완료 {counts['done']} / 진행중(이어하기 필요) {counts['partial']} / 건너뜀 {counts['skipped']} / 실패 {counts['failed']} "
         f"/ 이번 실행 API 요청 {_STATE['requests']}회")
