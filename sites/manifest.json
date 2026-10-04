@@ -78793,6 +78793,20 @@
       "sha256": "3ac01ab2d32c801d437a1e70ae4d9fec1abd93b1528deca910bca3a3427bd93a"
     },
     {
+      "message_id": 15810,
+      "filename": "2026학년도_대학수학능력시험_장영진_꿀모_시즌3_정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/15810_2026._._._._.3_.pdf",
+      "size_bytes": 112183150,
+      "telegram_date": "2025-09-28T13:20:59+00:00",
+      "title": "수학 꿀모 시즌3 1회 ~ 3회",
+      "year": "2026",
+      "instructor": "장영진",
+      "subject": "수학",
+      "thumbnail": "thumbnails/15810.png",
+      "sha256": "1bb74c179fa417df59da2b1e16c44335ea447cc7b384238b02eeab33755b83d1"
+    },
+    {
       "message_id": 15807,
       "filename": "이해원_모의고사_시즌3_합본.pdf",
       "stored_as": null,
