@@ -91503,6 +91503,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13888.png",
       "sha256": "e13a7087801e240e09d5bcd2112dc3d8ba447bcfcf05668083a98dfa067de510"
+    },
+    {
+      "message_id": 13887,
+      "filename": "2026_김현우T_스탠다드_문제집_11_250326_225329.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13887_2026_.T_._._11_250326_225329.pdf",
+      "size_bytes": 34748981,
+      "telegram_date": "2025-09-07T00:30:58+00:00",
+      "title": "수학 STANDARD 미적분 1주차, 2주차, 4주차 ~ 11주차 (문제지)",
+      "year": "2026",
+      "instructor": "김현우",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13887.png",
+      "sha256": "606834469a2a5b1add8f09b688ae72123e828c99555ea718edb1aa8986527394"
     }
   ],
   "duplicate_message_ids": [
