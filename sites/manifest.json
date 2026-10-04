@@ -29,6 +29,20 @@
       "sha256": "fddd9f4c3b773f64f269614180adbd81e32d4d3bf725d665eec86f4f4c06acc1"
     },
     {
+      "message_id": 24910,
+      "filename": "2027 국어 서바이벌 12회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/24910_2027.12.pdf",
+      "size_bytes": 2943501,
+      "telegram_date": "2026-10-04T06:08:49+00:00",
+      "title": "국어 서바이벌 모의고사 12회 #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/24910.png",
+      "sha256": "434045901d824d6a533dbae67e715c2682f9d46a4c2921f998c8e4f1d96898f8"
+    },
+    {
       "message_id": 24906,
       "filename": "2027_현강_스피드러너_6회_해설.pdf",
       "stored_as": null,
