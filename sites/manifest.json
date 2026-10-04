@@ -96193,6 +96193,20 @@
       "subject": "지구과학1",
       "thumbnail": "thumbnails/13334.png",
       "sha256": "b08f251731cfb455c4d50aeefaea950e586303d3a0254428d4f4cdab7ff54dc7"
+    },
+    {
+      "message_id": 13333,
+      "filename": "2026 지구과학1 파이널 브릿지 전국 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13333_2026.1.6.pdf",
+      "size_bytes": 8588522,
+      "telegram_date": "2025-08-29T14:28:26+00:00",
+      "title": "지1 시대인재 Final 브릿지 전국 6회 #파브전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/13333.png",
+      "sha256": "1da15e201d9505ba8f19ded9efb2364eb513e7c61cf99a30e5b28d6f6317963d"
     }
   ],
   "duplicate_message_ids": [
