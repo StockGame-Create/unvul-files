@@ -91209,6 +91209,20 @@
       "subject": "영어",
       "thumbnail": "thumbnails/13925.png",
       "sha256": "d20a7df558bc646b72e64bb5a0c85bff406dcafa428107d77072c1c773c718d4"
+    },
+    {
+      "message_id": 13924,
+      "filename": "마스터피스 시즌 one 1회_250901_193542.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13924_.one.1._250901_193542.pdf",
+      "size_bytes": 19804762,
+      "telegram_date": "2025-09-07T06:35:24+00:00",
+      "title": "영어 마스터피스 모의고사 시즌 One 1회 ~ 3회",
+      "year": "2026",
+      "instructor": "션티",
+      "subject": "영어",
+      "thumbnail": "thumbnails/13924.png",
+      "sha256": "99cf5167a24cf56dbb74a333ac313b25fa4d8b59ee3f6a1ead4ab55ce9750f8a"
     }
   ],
   "duplicate_message_ids": [
