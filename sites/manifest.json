@@ -96235,6 +96235,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13327.png",
       "sha256": "561c57cd0cf1f6f799d508ea78169caa68d29d0d28efd35950f218337d30085e"
+    },
+    {
+      "message_id": 13326,
+      "filename": "2026학년도_대학수학능력시험_수학_시대인재_설맞이_N제_시즌2_수2_정답_및_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13326_2026._._._._._N._.2_.2_._._.pdf",
+      "size_bytes": 249012845,
+      "telegram_date": "2025-08-29T13:47:45+00:00",
+      "title": "수학 SEASON 2 설맞이 아카이브 수학2",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13326.png",
+      "sha256": "9cc1b60796e96c2c6f273849a1e3c318baa68c92985f4057c18ab89d10a10c9f"
     }
   ],
   "duplicate_message_ids": [
