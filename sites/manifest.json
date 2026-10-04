@@ -94835,6 +94835,20 @@
       "subject": "사회문화",
       "thumbnail": "thumbnails/13486.png",
       "sha256": "9740588ddfce690aa2ad2dc85a2715c8c83ed86c641c4630306e4a6191028712"
+    },
+    {
+      "message_id": 13485,
+      "filename": "강 k 8회 영어.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13485_.k.8.pdf",
+      "size_bytes": 14989390,
+      "telegram_date": "2025-09-01T03:05:40+00:00",
+      "title": "영어 강대모의고사K 8회 #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "영어",
+      "thumbnail": "thumbnails/13485.png",
+      "sha256": "8ba4e2d9380e91bdac3d4c81c287f64db2c53eda2a81e5a19c27fe34fb7a068f"
     }
   ],
   "duplicate_message_ids": [
