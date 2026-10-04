@@ -96221,6 +96221,20 @@
       "subject": "지구과학1",
       "thumbnail": "thumbnails/13332.png",
       "sha256": "963309387d1c9dc4eb213d3c5b64cb31deb8a3fad161f22ca36209e9162036a5"
+    },
+    {
+      "message_id": 13327,
+      "filename": "이감 6-3 문제+해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13327_.6-3.%2B.pdf",
+      "size_bytes": 29739981,
+      "telegram_date": "2025-08-29T13:48:15+00:00",
+      "title": "국어 파이널2 제3차 예비평가 #이감",
+      "year": "2026",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/13327.png",
+      "sha256": "561c57cd0cf1f6f799d508ea78169caa68d29d0d28efd35950f218337d30085e"
     }
   ],
   "duplicate_message_ids": [
