@@ -90131,6 +90131,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/14045.png",
       "sha256": "f3e0e4ac416765ac50a40961a7f7702ee097303d4e324978ebb74d7fce493489"
+    },
+    {
+      "message_id": 14044,
+      "filename": "김기현 컬렉션 시즌1-1 기하.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14044_.1-1.pdf",
+      "size_bytes": 825843,
+      "telegram_date": "2025-09-09T09:17:20+00:00",
+      "title": "수학 김기현 COLLECTION 시즌1 1회 ~ 3회 기하 (문제지)",
+      "year": "2026",
+      "instructor": "김기현",
+      "subject": "수학",
+      "thumbnail": "thumbnails/14044.png",
+      "sha256": "04759a36648a3fde3b61c0ed1a7211b3f7aeab1fd04c46c6137c4a212378afd0"
     }
   ],
   "duplicate_message_ids": [
