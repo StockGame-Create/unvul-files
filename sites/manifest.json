@@ -91041,6 +91041,20 @@
       "subject": "생명과학1",
       "thumbnail": "thumbnails/13939.png",
       "sha256": "322ccdf183b5d84a1682f006243da670dccc0b82f1199e5c37150e35e92ff933"
+    },
+    {
+      "message_id": 13938,
+      "filename": "2026 생명과학1 LCS CE 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13938_2026.1.LCS.CE.8.pdf",
+      "size_bytes": 13020900,
+      "telegram_date": "2025-09-07T07:10:01+00:00",
+      "title": "생1 LCS CUTTING EDGE 8회",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/13938.png",
+      "sha256": "2332bd3d14ce5c3499d85e77f08257a0077fd7d7d023e440db60c1208443221f"
     }
   ],
   "duplicate_message_ids": [
