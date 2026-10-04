@@ -90607,6 +90607,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13996.png",
       "sha256": "afcf3ea60cefa1a5f847c7c4e9f6ab994e2b1eada4c59cb485c62a6405ede78f"
+    },
+    {
+      "message_id": 13993,
+      "filename": "Untitled_20250907_231323.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13993_Untitled_20250907_231323.pdf",
+      "size_bytes": 21754205,
+      "telegram_date": "2025-09-08T13:34:42+00:00",
+      "title": "수학 강대모의고사K 17회 (인쇄소퀄) #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13993.png",
+      "sha256": "2ce4574f29474f3ecbebbfb2e895c88c6bd547c46772d0b70ece7a09f3119d0f"
     }
   ],
   "duplicate_message_ids": [
