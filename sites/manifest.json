@@ -96529,6 +96529,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13179.png",
       "sha256": "e102efc9572124a7d59e83ab87e621bd764bd1ea6b369cec0228580fae89c84b"
+    },
+    {
+      "message_id": 13178,
+      "filename": "2021 시발점 수학 상 워크북.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13178_2021.pdf",
+      "size_bytes": 130172966,
+      "telegram_date": "2025-08-29T03:10:18+00:00",
+      "title": "수학 시발점 수학상 (본교재, 워크북)",
+      "year": null,
+      "instructor": "현우진",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13178.png",
+      "sha256": "ec105876789e433ffcba7beb1c4d4fec73075f72fa44d8b202e589cdd898b7df"
     }
   ],
   "duplicate_message_ids": [
