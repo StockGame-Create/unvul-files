@@ -96151,6 +96151,20 @@
       "subject": "지구과학1",
       "thumbnail": "thumbnails/13337.png",
       "sha256": "c21ef0e965dbffaab9cc1f82a325a706812368161cd3373dd5b389c8cf4214fd"
+    },
+    {
+      "message_id": 13336,
+      "filename": "파브 5회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13336_.5.pdf",
+      "size_bytes": 12609688,
+      "telegram_date": "2025-08-29T14:36:04+00:00",
+      "title": "지1 시대인재 Final 브릿지 전국 5회 #파브전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/13336.png",
+      "sha256": "21f36d08535621512066286160fc32544a6a9ced6272f7ccfe860ec15ef2e28f"
     }
   ],
   "duplicate_message_ids": [
