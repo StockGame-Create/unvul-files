@@ -89403,6 +89403,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/14140.png",
       "sha256": "91e08df4d429fbe10eef7301f4ac408f00e51e37579a2c4489b23f49470a70e6"
+    },
+    {
+      "message_id": 14139,
+      "filename": "26 전바 기하 1-9 .pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14139_26.1-9.pdf",
+      "size_bytes": 60120134,
+      "telegram_date": "2025-09-10T15:38:13+00:00",
+      "title": "수학 시대인재 서바이벌 전국 모의고사 1회 ~ 9회 공통 + 기하 합본 #서바전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/14139.png",
+      "sha256": "babc438e7a8e643d2f12c749f059a5de331fecde6bc0339c8b489553a0cfda49"
     }
   ],
   "duplicate_message_ids": [
