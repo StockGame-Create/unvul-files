@@ -93421,6 +93421,20 @@
       "subject": "물리학1",
       "thumbnail": "thumbnails/13679.png",
       "sha256": "f1bfdfdd384f5b2c4fc9b0a2554f333225d43436b91d7af5fc0cf00fc92b6f31"
+    },
+    {
+      "message_id": 13678,
+      "filename": "특난도 파이널 1-10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13678_.1-10.pdf",
+      "size_bytes": 133416956,
+      "telegram_date": "2025-09-04T05:22:43+00:00",
+      "title": "물1 특난도 모의고사 FINAL 1회 ~ 10회 합본",
+      "year": "2023",
+      "instructor": "강민웅",
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/13678.png",
+      "sha256": "33682a399ea8f4cc99e4a59a8c52df4cd776caf5a0a5322b686e0c6b4d4665be"
     }
   ],
   "duplicate_message_ids": [
