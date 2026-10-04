@@ -89879,6 +89879,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/14074.png",
       "sha256": "a8afd57af31072c44493f9ea7d8f000bf1562b8369d74c5003d8debcb147bd78"
+    },
+    {
+      "message_id": 14072,
+      "filename": "2026 지구1 시대인재 N서바이벌 모의고사 37회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14072_2026.1.N.37.pdf",
+      "size_bytes": 9360774,
+      "telegram_date": "2025-09-09T13:02:54+00:00",
+      "title": "지1 시대인재 서바이벌 N전용 모의고사 37회 #서바N",
+      "year": "2026",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/14072.png",
+      "sha256": "24df5f005a383006323db82e451ba3e5e718af8e3b5a92112f087c1aad5f1221"
     }
   ],
   "duplicate_message_ids": [
