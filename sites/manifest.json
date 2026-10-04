@@ -93855,6 +93855,20 @@
       "subject": "생명과학1",
       "thumbnail": "thumbnails/13625.png",
       "sha256": "91ac93265bd613580a097aee062ba2abc171744c65f99d297810fe2b20e0e5e8"
+    },
+    {
+      "message_id": 13624,
+      "filename": "2025_생1_시대인재북스_DCAF_그랑프리Grand_Prix_모의_Lap_01_Lap_15해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13624_2025_.1_._DCAF_.Grand_Prix_._Lap_01_Lap_15.pdf",
+      "size_bytes": 101258551,
+      "telegram_date": "2025-09-02T12:18:50+00:00",
+      "title": "생1 그랑프리",
+      "year": "2025",
+      "instructor": null,
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/13624.png",
+      "sha256": "3b68d24a40126d099330641052bb0e69cf28355eb43ffcf284813f443aef00a5"
     }
   ],
   "duplicate_message_ids": [
