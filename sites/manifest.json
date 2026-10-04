@@ -93687,6 +93687,20 @@
       "subject": "화학1",
       "thumbnail": "thumbnails/13647.png",
       "sha256": "986bb0b9d32f10081cd324a32211beb03c824cc6ed8bb4636e4d117c9c74957d"
+    },
+    {
+      "message_id": 13646,
+      "filename": "1등급_만들기_화학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13646_1._._.1.pdf",
+      "size_bytes": 22887823,
+      "telegram_date": "2025-09-02T12:44:04+00:00",
+      "title": "화1 1등급 만들기 화학1 595제",
+      "year": "2026",
+      "instructor": null,
+      "subject": "화학1",
+      "thumbnail": "thumbnails/13646.png",
+      "sha256": "bbc06c7ba59d37984fef9de0182766fcd643827cc278b655941c3fec6d73861c"
     }
   ],
   "duplicate_message_ids": [
