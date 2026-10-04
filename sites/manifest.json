@@ -91741,6 +91741,20 @@
       "subject": "세계지리",
       "thumbnail": "thumbnails/13869.png",
       "sha256": "98f6e282297606680f0c39f060aca9821b0b1c028b518cced72531f3e3e81ccd"
+    },
+    {
+      "message_id": 13868,
+      "filename": "2026_8월_서프_세지_소퀄.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13868_2026_8._._._.pdf",
+      "size_bytes": 1171902,
+      "telegram_date": "2025-09-07T00:07:46+00:00",
+      "title": "세지 시대인재 8월 전국모의평가 #서프",
+      "year": "2026",
+      "instructor": null,
+      "subject": "세계지리",
+      "thumbnail": "thumbnails/13868.png",
+      "sha256": "c8eec372d0050dde600c3ad01aa05893366cb2e16d5a3d99f67e0934283e7f58"
     }
   ],
   "duplicate_message_ids": [
