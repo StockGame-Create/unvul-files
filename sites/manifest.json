@@ -92287,6 +92287,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13830.png",
       "sha256": "4348573e54e7c99a08b07afeb2f1a5e4857ad3521681bfa7f794a81940e183fd"
+    },
+    {
+      "message_id": 13829,
+      "filename": "양승모 3회 답지 @yubin_MPGA.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13829_.3.%40yubin_MPGA.pdf",
+      "size_bytes": 204960,
+      "telegram_date": "2025-09-06T03:06:56+00:00",
+      "title": "수학 양승진 모의평가 3회",
+      "year": "2026",
+      "instructor": "양승진",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13829.png",
+      "sha256": "6fd63e21af6aeeeca524419f9368d9639ee5cbd0c8c9204b0fef09c19cb42d1b"
     }
   ],
   "duplicate_message_ids": [
