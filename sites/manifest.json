@@ -95941,6 +95941,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13358.png",
       "sha256": "e50f8f557f94b11303eab9ebd089533c9f07ab4ef604ff3ee6393fcbf809ed77"
+    },
+    {
+      "message_id": 13357,
+      "filename": "백인대장 시즌1 1회 빠답+해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13357_.1.1.%2B.pdf",
+      "size_bytes": 9700153,
+      "telegram_date": "2025-08-30T07:09:01+00:00",
+      "title": "수학 수능 대비 백인대장 실전 모의고사 시즌1 1회",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13357.png",
+      "sha256": "6c085dd8e20e6db146e467ae4d66346c7517eebffc21720ddc1ee06d695c7d88"
     }
   ],
   "duplicate_message_ids": [
