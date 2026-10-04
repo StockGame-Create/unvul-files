@@ -96403,6 +96403,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13306.png",
       "sha256": "ceca779e8570e790438eb0f4724af10b22b150295ce3fb17ec329e0124253f49"
+    },
+    {
+      "message_id": 13305,
+      "filename": "문실정 1~5회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13305_.1.5.pdf",
+      "size_bytes": 33893658,
+      "telegram_date": "2025-08-29T09:18:34+00:00",
+      "title": "국어 정석 문학 모의고사 1회 ~ 5회",
+      "year": "2026",
+      "instructor": "정석민",
+      "subject": "국어",
+      "thumbnail": "thumbnails/13305.png",
+      "sha256": "3469dc290218d098d122ae1a6e3cc1cdd1fef5569c218a74d40cdcb7d28b6741"
     }
   ],
   "duplicate_message_ids": [
