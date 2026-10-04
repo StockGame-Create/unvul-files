@@ -93393,6 +93393,20 @@
       "subject": "물리학1",
       "thumbnail": "thumbnails/13694.png",
       "sha256": "761158602496211258579349a949a1fcc29ae6614c82a66bacc5918d86522566"
+    },
+    {
+      "message_id": 13680,
+      "filename": "2026 물리 엣지 3권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13680_2026.3.pdf",
+      "size_bytes": 85082887,
+      "telegram_date": "2025-09-04T05:23:31+00:00",
+      "title": "물1 엣지 : ATG 2권, 3권",
+      "year": "2026",
+      "instructor": null,
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/13680.png",
+      "sha256": "c1647be5433d1f300064ad26ee555fbc86b1fe62c8be4655e34f4779324acef1"
     }
   ],
   "duplicate_message_ids": [
