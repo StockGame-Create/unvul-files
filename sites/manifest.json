@@ -95983,6 +95983,20 @@
       "subject": "영어",
       "thumbnail": "thumbnails/13354.png",
       "sha256": "1962ff54c0357476ef7584626c459e81004ee5ea875ee59c978cdb1c03daed42"
+    },
+    {
+      "message_id": 13352,
+      "filename": "2026_손창빈_문학정립_1권_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13352_2026_._._1._.pdf",
+      "size_bytes": 230472371,
+      "telegram_date": "2025-08-30T01:47:51+00:00",
+      "title": "국어 문학 정립 1",
+      "year": "2026",
+      "instructor": "손창빈",
+      "subject": "국어",
+      "thumbnail": "thumbnails/13352.png",
+      "sha256": "7feb48319d2c1b6d0f9ba6f8097c9a4507a2bdeed2a49e4c5b05d6a6d512f1f7"
     }
   ],
   "duplicate_message_ids": [
