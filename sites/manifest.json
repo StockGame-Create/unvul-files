@@ -89977,6 +89977,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/14060.png",
       "sha256": "21f9e0f608a056cfb703e7d8ce10837f8deee610b0e2800c63bce3ad87970b29"
+    },
+    {
+      "message_id": 14058,
+      "filename": "2026 수학 양승진 모의고사 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14058_2026.3.pdf",
+      "size_bytes": 16137096,
+      "telegram_date": "2025-09-09T09:36:20+00:00",
+      "title": "수학 양승진 모의평가 3회",
+      "year": "2026",
+      "instructor": "양승진",
+      "subject": "수학",
+      "thumbnail": "thumbnails/14058.png",
+      "sha256": "832b803bec2a01f897469bd5cf8c9ff8a9c4df35993182c38a555722304b0615"
     }
   ],
   "duplicate_message_ids": [
