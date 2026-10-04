@@ -93449,6 +93449,20 @@
       "subject": "지구과학1",
       "thumbnail": "thumbnails/13677.png",
       "sha256": "e74433b2be0dc2b97d60c0272e9faf5559b95e3f5c9b8e4e8b02af4b747af3cb"
+    },
+    {
+      "message_id": 13676,
+      "filename": "2026_지구과학1_엄영대_엄메이징_최우수_N제_시즌2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13676_2026_.1_._._._N._.2.pdf",
+      "size_bytes": 128579832,
+      "telegram_date": "2025-09-04T05:19:09+00:00",
+      "title": "지1 엄메이징 최우수 N제 시즌2",
+      "year": "2026",
+      "instructor": "엄영대",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/13676.png",
+      "sha256": "711093f63baa68b8a6f166aa40b2264ccc63aef246935519a9bc07e0aea759a3"
     }
   ],
   "duplicate_message_ids": [
