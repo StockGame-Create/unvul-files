@@ -96501,6 +96501,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13298.png",
       "sha256": "d507c7ea530b310db4ba8d978d778f8f92bb40a4ce0b2594ad0af46182264400"
+    },
+    {
+      "message_id": 13181,
+      "filename": "원솔멀텍_확률과_통계.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13181_._._.pdf",
+      "size_bytes": 93841343,
+      "telegram_date": "2025-08-29T09:11:10+00:00",
+      "title": "수학 원 솔루션 멀티 테크닉 확률과 통계 #원솔멀텍",
+      "year": "2026",
+      "instructor": "정병호",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13181.png",
+      "sha256": "2da79effb5a823bd6c4bd01b6d264434ba265352eb041ab0764005e896246a1f"
     }
   ],
   "duplicate_message_ids": [
