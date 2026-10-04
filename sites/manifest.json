@@ -94625,6 +94625,20 @@
       "subject": "사회문화",
       "thumbnail": "thumbnails/13503.png",
       "sha256": "3ec4363628a99426e47716698140ac85de0a11629d5bf237467a544ae8abcd26"
+    },
+    {
+      "message_id": 13502,
+      "filename": "2026학년도_시대인재_브릿지_모의고사_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13502_2026._._._._2.pdf",
+      "size_bytes": 5074167,
+      "telegram_date": "2025-09-01T09:24:32+00:00",
+      "title": "사문 시대인재 브릿지 전국 모의고사 1회, 2회 #브릿지전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/13502.png",
+      "sha256": "99b9228e81efc2519558e0f63ea6a8cc4a27bf567cdefd0e0ab2ae54206be0cb"
     }
   ],
   "duplicate_message_ids": [
