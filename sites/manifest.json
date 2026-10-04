@@ -93463,6 +93463,20 @@
       "subject": "지구과학1",
       "thumbnail": "thumbnails/13676.png",
       "sha256": "711093f63baa68b8a6f166aa40b2264ccc63aef246935519a9bc07e0aea759a3"
+    },
+    {
+      "message_id": 13674,
+      "filename": "엣지 2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13674_.2.pdf",
+      "size_bytes": 134284045,
+      "telegram_date": "2025-09-04T05:16:19+00:00",
+      "title": "생1 엣지 : ATG 2권",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/13674.png",
+      "sha256": "e9622d79b40d9de5c27a311cf624a3698b31c7dcc633922e8f9b1bcb5de65b80"
     }
   ],
   "duplicate_message_ids": [
