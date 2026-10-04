@@ -93225,6 +93225,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13730.png",
       "sha256": "a538653f72cd7be6840bc251ed670305e627af45c602a875d7cef6c0f1bb88bd"
+    },
+    {
+      "message_id": 13729,
+      "filename": "강k 13회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13729_.k.13.pdf",
+      "size_bytes": 17478196,
+      "telegram_date": "2025-09-04T13:51:27+00:00",
+      "title": "수학 강대모의고사K 13회 #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13729.png",
+      "sha256": "fffa3c9fd27c8e2e2d9037bc49d02d1e3629b6e80d48b2eed052ea5e82886655"
     }
   ],
   "duplicate_message_ids": [
