@@ -90971,6 +90971,20 @@
       "subject": "물리학1",
       "thumbnail": "thumbnails/13945.png",
       "sha256": "b3d36d0e575f71d97b997531e11833fa5278c58ef3d58c08e6b09afb1695f6e3"
+    },
+    {
+      "message_id": 13944,
+      "filename": "2026 물리학1 서바이벌 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13944_2026.1.6.pdf",
+      "size_bytes": 13175190,
+      "telegram_date": "2025-09-07T07:22:26+00:00",
+      "title": "물1 시대인재 서바이벌 모의고사 6회 #서바",
+      "year": "2026",
+      "instructor": null,
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/13944.png",
+      "sha256": "c2d9c1590eb58426141f5ae63989a7eb350fa6046c95c52454d6a335200e448b"
     }
   ],
   "duplicate_message_ids": [
