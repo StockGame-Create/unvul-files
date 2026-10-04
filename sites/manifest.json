@@ -95395,6 +95395,20 @@
       "subject": "생활과윤리",
       "thumbnail": "thumbnails/13429.png",
       "sha256": "e881d7edf365f5e0712d800f2da9e308c8524e1fb4c5fdfdd4a80841ac6ec383"
+    },
+    {
+      "message_id": 13427,
+      "filename": "2025_강대모의고사X_수학_시즌1_해설_합본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13427_2025_.X_._.1_._.pdf",
+      "size_bytes": 15589462,
+      "telegram_date": "2025-08-31T10:58:59+00:00",
+      "title": "수학 강대모의고사X 시즌1 (합본) #강대X",
+      "year": "2025",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13427.png",
+      "sha256": "173fa573025d861ea6d8c3704809027bce67cd9d6007a543511e836f66618502"
     }
   ],
   "duplicate_message_ids": [
