@@ -90761,6 +90761,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13972.png",
       "sha256": "7fb47b3acdceab8122f3c0601c21d0970b2a8dd3a665fdfd91a30ccfaf3d4ed5"
+    },
+    {
+      "message_id": 13970,
+      "filename": "씨에스엠_107제_수학Ⅱ_해설_pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13970_._107._._._pdf.pdf",
+      "size_bytes": 51874967,
+      "telegram_date": "2025-09-07T15:16:40+00:00",
+      "title": "수학 씨에스엠 107제 수학2",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13970.png",
+      "sha256": "81b9992bedaeb31edb3aacb22adfac00b09f80835ceea90b14086e8f81547aac"
     }
   ],
   "duplicate_message_ids": [
