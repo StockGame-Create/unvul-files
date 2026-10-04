@@ -95045,6 +95045,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13463.png",
       "sha256": "1060113d436ebb3ac54fcf78ddfca2f5586ab9cb84b11ac4f8075062f4c3c16f"
+    },
+    {
+      "message_id": 13461,
+      "filename": "2026 국어 큐레이션 60회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13461_2026.60.pdf",
+      "size_bytes": 12671238,
+      "telegram_date": "2025-08-31T13:19:13+00:00",
+      "title": "국어 CURATION 60회",
+      "year": "2026",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/13461.png",
+      "sha256": "9267a528d81bd3a9e76c5aef91b1f43ad6e7c5f77462d5da9c4a7bab15948836"
     }
   ],
   "duplicate_message_ids": [
