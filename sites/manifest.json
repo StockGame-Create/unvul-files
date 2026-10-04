@@ -92301,6 +92301,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13829.png",
       "sha256": "6fd63e21af6aeeeca524419f9368d9639ee5cbd0c8c9204b0fef09c19cb42d1b"
+    },
+    {
+      "message_id": 13826,
+      "filename": "생윤 4step 폰스캔.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13826_.4step.pdf",
+      "size_bytes": 232421803,
+      "telegram_date": "2025-09-05T17:26:32+00:00",
+      "title": "생윤 4STEP",
+      "year": "2026",
+      "instructor": "이지영",
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/13826.png",
+      "sha256": "1cc909163fec6cdcb96d0a4d78f0dff161215c244c726a94e828a261eb1053cb"
     }
   ],
   "duplicate_message_ids": [
