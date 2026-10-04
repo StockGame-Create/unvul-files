@@ -90593,6 +90593,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13997.png",
       "sha256": "1df2e9565a28f1a0b4c89d5dab4c3d7275391e55ae763d5b34f0859010ea0199"
+    },
+    {
+      "message_id": 13996,
+      "filename": "KICE ANATOMY 수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13996_KICE.ANATOMY.1.pdf",
+      "size_bytes": 40573772,
+      "telegram_date": "2025-09-08T13:37:27+00:00",
+      "title": "수학 KICE ANATOMY 수학1, 수학2",
+      "year": "2026",
+      "instructor": "김범준",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13996.png",
+      "sha256": "afcf3ea60cefa1a5f847c7c4e9f6ab994e2b1eada4c59cb485c62a6405ede78f"
     }
   ],
   "duplicate_message_ids": [
