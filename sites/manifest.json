@@ -96781,6 +96781,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13154.png",
       "sha256": "f1f6da9f0f81585e1bf70abb826afb41bf0b6e251da220deb77c72356ffc7fde"
+    },
+    {
+      "message_id": 13152,
+      "filename": "2026_이다지_20시간의_기적_250613_105744.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13152_2026_._20._._250613_105744.pdf",
+      "size_bytes": 193019165,
+      "telegram_date": "2025-08-28T12:56:17+00:00",
+      "title": "한국사 20시간의 기적",
+      "year": "2026",
+      "instructor": "이다지",
+      "subject": "한국사",
+      "thumbnail": "thumbnails/13152.png",
+      "sha256": "f8fd05e5b7750f9c1a214c25d19f493949a9ae6a133a09ca4455b547160f35c8"
     }
   ],
   "duplicate_message_ids": [
