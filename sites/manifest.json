@@ -95577,6 +95577,20 @@
       "subject": "정치와법",
       "thumbnail": "thumbnails/13409.png",
       "sha256": "a6eab9881f9bd4616ba88a8a645cab585bc60c453ea4069a065c286e873cf876"
+    },
+    {
+      "message_id": 13407,
+      "filename": "강기원T 수1 특강 4주차 주간지_250322_092012.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13407_.T.1.4._250322_092012.pdf",
+      "size_bytes": 98755706,
+      "telegram_date": "2025-08-31T05:18:16+00:00",
+      "title": "수학 강기원T 수1 특강 주간지 4주차",
+      "year": "2026",
+      "instructor": "강기원",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13407.png",
+      "sha256": "813b31063c23a5cb0c2eddc96043705d16f3c4b856ec3537da9c61c6a4747689"
     }
   ],
   "duplicate_message_ids": [
