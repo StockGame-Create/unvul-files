@@ -92315,6 +92315,20 @@
       "subject": "생활과윤리",
       "thumbnail": "thumbnails/13826.png",
       "sha256": "1cc909163fec6cdcb96d0a4d78f0dff161215c244c726a94e828a261eb1053cb"
+    },
+    {
+      "message_id": 13823,
+      "filename": "스피드러너_호형훈제_17회_18회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13823_._._17._18.pdf",
+      "size_bytes": 17161974,
+      "telegram_date": "2025-09-05T16:19:35+00:00",
+      "title": "수학 호형훈제 스피드러너 모의고사 FINAL 17회, 18회",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13823.png",
+      "sha256": "fd142582aa65d27bb93db3186658a90b668c2286c315a193b2983cc317e6f5ec"
     }
   ],
   "duplicate_message_ids": [
