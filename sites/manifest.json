@@ -95717,6 +95717,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13388.png",
       "sha256": "fcb61fd25c13fff0f9ca527507bfdd42eb0b06d51b81c04f2992050e67962905"
+    },
+    {
+      "message_id": 13379,
+      "filename": "모킹버드 문제지 및 해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13379_.pdf",
+      "size_bytes": 41876429,
+      "telegram_date": "2025-08-30T15:21:42+00:00",
+      "title": "수학 모킹버드 수학 모의고사",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13379.png",
+      "sha256": "51a8dfaa57ecca2ae91f4cb9a03c8452aca98b8c054c6ba1cbc20b9ae7dcc644"
     }
   ],
   "duplicate_message_ids": [
