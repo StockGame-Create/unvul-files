@@ -91083,6 +91083,20 @@
       "subject": "생명과학1",
       "thumbnail": "thumbnails/13936.png",
       "sha256": "b883de47b23798c5df23361b74d3f757117f70d4402100cff6297229930400a0"
+    },
+    {
+      "message_id": 13935,
+      "filename": "2026 생명과학1 LCS BR 8회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13935_2026.1.LCS.BR.8.pdf",
+      "size_bytes": 9036912,
+      "telegram_date": "2025-09-07T07:08:58+00:00",
+      "title": "생1 LCS BLADE RUNNER 8회",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/13935.png",
+      "sha256": "25fc2de0ba9335b937e9e560f2839b8d647f4f44d73add0413030b61b3f87050"
     }
   ],
   "duplicate_message_ids": [
