@@ -90453,6 +90453,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/14012.png",
       "sha256": "5cc6d077906e7dce560745fe672eafcbd5c437eea64990bfd9603da75e034f3e"
+    },
+    {
+      "message_id": 14011,
+      "filename": "과탐_물1_2026_마더텅_수능기출문제집_물리학1_정답표_250824_231630.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14011_._.1_2026_._._.1_._250824_231630.pdf",
+      "size_bytes": 699337,
+      "telegram_date": "2025-09-08T15:32:50+00:00",
+      "title": "물1 마더텅 수능기출문제 물리학1 (문제지)",
+      "year": "2026",
+      "instructor": null,
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/14011.png",
+      "sha256": "952b227b5910fced62c563f7224adb60e4acd528d8739c5a8c8219cf085051d0"
     }
   ],
   "duplicate_message_ids": [
