@@ -95227,6 +95227,20 @@
       "subject": "과학탐구",
       "thumbnail": "thumbnails/13446.png",
       "sha256": "3c9878173cf1d2b20058dc6b277aeb95517a579a197c708e26ac4ad3baf10ab8"
+    },
+    {
+      "message_id": 13445,
+      "filename": "과학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13445_.pdf",
+      "size_bytes": 94977258,
+      "telegram_date": "2025-08-31T12:47:51+00:00",
+      "title": "과탐 시대인재 8월 전국모의평가 #서프",
+      "year": "2026",
+      "instructor": null,
+      "subject": "과학탐구",
+      "thumbnail": "thumbnails/13445.png",
+      "sha256": "bf3ef49be2af2da71ae33efa81e1ec57bdb392350ac3d550e661438f59161368"
     }
   ],
   "duplicate_message_ids": [
