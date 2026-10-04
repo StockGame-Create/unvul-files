@@ -94709,6 +94709,20 @@
       "subject": "사회문화",
       "thumbnail": "thumbnails/13496.png",
       "sha256": "613fd0c81a92bbdaf906d0eed09e8922ce50e665ccfd7eb129d27b422c01aaed"
+    },
+    {
+      "message_id": 13494,
+      "filename": "2026_시대인재_국어_엑셀_2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13494_2026_._._._2.pdf",
+      "size_bytes": 90101531,
+      "telegram_date": "2025-09-01T04:05:57+00:00",
+      "title": "국어 시대인재 Accelerator 2권 #엑셀",
+      "year": "2026",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/13494.png",
+      "sha256": "8c8a7156f95aabba56dfc16833bef41d4d9eada78a6a353ad533cd5661edd0cb"
     }
   ],
   "duplicate_message_ids": [
