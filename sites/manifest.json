@@ -113,6 +113,20 @@
       "sha256": "b4f63c7ce0e4df5427bc1a8d6a596266b340c333a9fabfd7f4822fddb4eb2dd5"
     },
     {
+      "message_id": 24923,
+      "filename": "BOB 22회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/24923_BOB.22.pdf",
+      "size_bytes": 6804966,
+      "telegram_date": "2026-10-04T13:26:55+00:00",
+      "title": "화1 BOB 모의고사 19-30회",
+      "year": "2027",
+      "instructor": "김준",
+      "subject": "화학1",
+      "thumbnail": "thumbnails/24923.png",
+      "sha256": "d910c82b71c7156d9595a7c5414de66afcac0f89e17976e708cb0e3e46c33fcc"
+    },
+    {
       "message_id": 24920,
       "filename": "서바이벌+12주차+필기노트+(2).pdf",
       "stored_as": null,
