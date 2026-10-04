@@ -89571,6 +89571,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/14119.png",
       "sha256": "de07bc9b3841cc7882adaac78834529fbf8ab28ef23c1663adb15e4629e768d3"
+    },
+    {
+      "message_id": 14117,
+      "filename": "2026_어법_114문항_문제_모음.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14117_2026_._114._._.pdf",
+      "size_bytes": 582568,
+      "telegram_date": "2025-09-10T14:14:13+00:00",
+      "title": "영어 어법만 과제",
+      "year": "2026",
+      "instructor": "이영수",
+      "subject": "영어",
+      "thumbnail": "thumbnails/14117.png",
+      "sha256": "f2d4f67defc6411e862e5659a2036a569fd1aaa15426f8e823bc148f669d828e"
     }
   ],
   "duplicate_message_ids": [
