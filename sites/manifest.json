@@ -94317,6 +94317,20 @@
       "subject": "생명과학1",
       "thumbnail": "thumbnails/13544.png",
       "sha256": "8b1fb93c5732b683c1e292a60c19c7f1511b83751f9b41ebadb590d6cce4c536"
+    },
+    {
+      "message_id": 13542,
+      "filename": "강민철_무제_문학_예열지문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13542_._._._.pdf",
+      "size_bytes": 1016088,
+      "telegram_date": "2025-09-01T14:20:07+00:00",
+      "title": "국어 무제 문학 예열 지문",
+      "year": "2026",
+      "instructor": "강민철",
+      "subject": "국어",
+      "thumbnail": "thumbnails/13542.png",
+      "sha256": "e0bc86f2f23c2cf2b30566cac9be854612ffab73af2f731affe863990cdee1f7"
     }
   ],
   "duplicate_message_ids": [
