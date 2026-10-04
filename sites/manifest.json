@@ -93659,6 +93659,20 @@
       "subject": "사회문화",
       "thumbnail": "thumbnails/13650.png",
       "sha256": "3248d8bffc23b1c093b1c202b63017e3f172f28e58ae8f25b47c1ebffb91bee6"
+    },
+    {
+      "message_id": 13648,
+      "filename": "적자생존_모의고사_시즌2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13648_._._.2.pdf",
+      "size_bytes": 34984891,
+      "telegram_date": "2025-09-02T13:00:32+00:00",
+      "title": "사문 적자생존 모의고사 시즌2 4회 ~ 6회",
+      "year": "2026",
+      "instructor": "최적",
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/13648.png",
+      "sha256": "1c76b3f88366f1a8792510b42fb34b170a358ff203b88f15426b793f36650227"
     }
   ],
   "duplicate_message_ids": [
