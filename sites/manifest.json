@@ -90789,6 +90789,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13969.png",
       "sha256": "2c6b379060022299fbb7ec7bb7dec7a23aa3cc01736a0393d44f6ecf2c6bb9e8"
+    },
+    {
+      "message_id": 13967,
+      "filename": "20250904235810.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13967_20250904235810.pdf",
+      "size_bytes": 138762890,
+      "telegram_date": "2025-09-07T15:09:47+00:00",
+      "title": "수학 설맞이 아카이브 확률과 통계",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13967.png",
+      "sha256": "812289b12bc6a7c2abcb4bb3eedeea088980862cae3fee75e7fa51d7ac83424c"
     }
   ],
   "duplicate_message_ids": [
