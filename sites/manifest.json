@@ -83329,6 +83329,20 @@
       "sha256": "f815fb6ec368d8b98c0cbfe2d5be69ec17ac39983acc36a18318f95d6e87c361"
     },
     {
+      "message_id": 14820,
+      "filename": "2026_수학_김범준_모고9회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14820_2026_._._.9.pdf",
+      "size_bytes": 13656549,
+      "telegram_date": "2025-09-19T12:08:44+00:00",
+      "title": "수학 김범준 모의평가 9회",
+      "year": "2026",
+      "instructor": "김범준",
+      "subject": "수학",
+      "thumbnail": "thumbnails/14820.png",
+      "sha256": "9749d231abd54d204ac1f462edb427052ca5b9fad2e9e10b743706debd0dd082"
+    },
+    {
       "message_id": 14818,
       "filename": "상상_파이널2_4차_해설지.pdf",
       "stored_as": null,
