@@ -93267,6 +93267,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13724.png",
       "sha256": "60d0799ccf72f48c157f2f59fe43a7c4bc326b4cf995bbb03f2976b835767825"
+    },
+    {
+      "message_id": 13712,
+      "filename": "강대k10회(생).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13712_.k10.pdf",
+      "size_bytes": 17820057,
+      "telegram_date": "2025-09-04T09:43:56+00:00",
+      "title": "생1 강대모의고사K 9회, 10회 (문제지) #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/13712.png",
+      "sha256": "7ef980c651f1c308eada8ecc21556456c48c1feafbd12fb4113c2b41c48a9c44"
     }
   ],
   "duplicate_message_ids": [
