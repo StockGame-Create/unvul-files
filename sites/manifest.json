@@ -96123,6 +96123,20 @@
       "subject": "지구과학1",
       "thumbnail": "thumbnails/13339.png",
       "sha256": "29160633ef2f4a40c471bf8094e1ca5a74242d6e13460e8f51ef04b588368887"
+    },
+    {
+      "message_id": 13338,
+      "filename": "전바 5회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13338_.5.pdf",
+      "size_bytes": 9578450,
+      "telegram_date": "2025-08-29T14:36:46+00:00",
+      "title": "지1 시대인재 서바이벌 전국 5회 #서바전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/13338.png",
+      "sha256": "62a473f69ec130d81654754ed764c2380f53a307e8be675cfe246ef986505185"
     }
   ],
   "duplicate_message_ids": [
