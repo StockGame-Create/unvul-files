@@ -51,7 +51,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sites/manifest_2.json sites/ai
+          git add sites/manifest_2.json sites/bank_index.json sites/ai
           if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
           git commit -m "ai_power: 문제 은행 갱신"
           for i in 1 2 3 4 5; do
