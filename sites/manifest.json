@@ -92119,6 +92119,20 @@
       "subject": "물리학1",
       "thumbnail": "thumbnails/13834.png",
       "sha256": "e85585d5463eea3669b38f39667a9588a99887d1d0220351033111f565dc25ed"
+    },
+    {
+      "message_id": 13832,
+      "filename": "2026 9모 경제 손해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13832_2026.9.pdf",
+      "size_bytes": 2404054,
+      "telegram_date": "2025-09-06T03:08:51+00:00",
+      "title": "2026 9모 경제 손필기 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13832.png",
+      "sha256": "1a7d94be3976928b289ef9d6dcb7343e24dd0884c8f5404ee83c1d0e03acfa15"
     }
   ],
   "duplicate_message_ids": [
