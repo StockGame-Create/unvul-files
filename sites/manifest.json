@@ -96627,6 +96627,20 @@
       "subject": "생1",
       "thumbnail": "thumbnails/13167.png",
       "sha256": "f5b750a650241ad7d08ef80e555e25236bedc64fd335000048b17ff8b554503c"
+    },
+    {
+      "message_id": 13166,
+      "filename": "2026 생명과학1 서바이벌 전국 7회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13166_2026.1.7.pdf",
+      "size_bytes": 11185271,
+      "telegram_date": "2025-08-28T15:48:57+00:00",
+      "title": "생명과학1 시대인재 서바이벌 전국 모의고사 7회 #서바전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생1",
+      "thumbnail": "thumbnails/13166.png",
+      "sha256": "c36413871ad45e1d8a37ee5af18f10fec2d71111ff52e75369ccdac74e4810dc"
     }
   ],
   "duplicate_message_ids": [
