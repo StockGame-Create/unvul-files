@@ -91279,6 +91279,20 @@
       "subject": "영어",
       "thumbnail": "thumbnails/13917.png",
       "sha256": "c33916d76f3af0e4c47e5e601d0cab4bc9ef4e39e58a14dea4ae49c522c0126d"
+    },
+    {
+      "message_id": 13908,
+      "filename": "유대종E뮨 시즌3 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13908_.E.3.2.pdf",
+      "size_bytes": 6759697,
+      "telegram_date": "2025-09-07T06:12:59+00:00",
+      "title": "국어 E-뮨 시즌 3 문학모의고사 제2회 (문제지) #이뮨",
+      "year": "2026",
+      "instructor": "유대종",
+      "subject": "국어",
+      "thumbnail": "thumbnails/13908.png",
+      "sha256": "ea44870f9c40777c677fc7ac385f7df4110a6130052e189a02fe9f44ad21a1e6"
     }
   ],
   "duplicate_message_ids": [
