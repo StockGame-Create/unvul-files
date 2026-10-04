@@ -96893,6 +96893,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13143.png",
       "sha256": "c7bc8da656cd76ed2bb6aae26d732be84c024d1d0023f403e30954092f3c0a15"
+    },
+    {
+      "message_id": 13142,
+      "filename": "18 5.1 00.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13142_18.5.1.00.pdf",
+      "size_bytes": 17083851,
+      "telegram_date": "2025-08-28T03:08:51+00:00",
+      "title": "2026 지구과학1 8월 서프 해설 #지1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13142.png",
+      "sha256": "ca37fc629a5a76b692caba0536b4bd9e7550026762d13b0ffe848ccb9891c6e6"
     }
   ],
   "duplicate_message_ids": [
