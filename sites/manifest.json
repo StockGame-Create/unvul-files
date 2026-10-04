@@ -89767,6 +89767,20 @@
       "subject": "지구과학1",
       "thumbnail": "thumbnails/14087.png",
       "sha256": "160b3d42e15fe8a992b032ec8236a0d0a3ed1170ab3a6142b94c815fa72eabe7"
+    },
+    {
+      "message_id": 14085,
+      "filename": "2026 지구1 시대인재 N서바이벌 모의고사 36회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14085_2026.1.N.36.pdf",
+      "size_bytes": 8664228,
+      "telegram_date": "2025-09-09T13:48:23+00:00",
+      "title": "지1 시대인재 서바이벌 N전용 모의고사 36회 #서바N",
+      "year": "2026",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/14085.png",
+      "sha256": "e4fc506f13580c442b7445689d4ee498a4b0a75f4b3262e1a408d68767f00442"
     }
   ],
   "duplicate_message_ids": [
