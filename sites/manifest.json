@@ -92651,6 +92651,20 @@
       "subject": "세계지리",
       "thumbnail": "thumbnails/13784.png",
       "sha256": "632245b6873ae58e1f27538763ee1007fe6d34aa2f6a13f68b886f900e5e9f92"
+    },
+    {
+      "message_id": 13783,
+      "filename": "2026 세지 5월 전대실모.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13783_2026.5.pdf",
+      "size_bytes": 4495769,
+      "telegram_date": "2025-09-05T13:41:32+00:00",
+      "title": "세지 5월 전국 대단위 실전 모의고사 #전대실모",
+      "year": "2026",
+      "instructor": null,
+      "subject": "세계지리",
+      "thumbnail": "thumbnails/13783.png",
+      "sha256": "b0e4a67c00147645c0431e6d52d8b7adc3d87d42224c92c0f14002707312046b"
     }
   ],
   "duplicate_message_ids": [
