@@ -94793,6 +94793,20 @@
       "subject": "사회문화",
       "thumbnail": "thumbnails/13489.png",
       "sha256": "1a4f4486cb0e987cea0ac55f5d214bbb1083e10cff03b90e7eb87e0e6ffae08f"
+    },
+    {
+      "message_id": 13488,
+      "filename": "2026 사회문화 강대K 2회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13488_2026.K.2.pdf",
+      "size_bytes": 6960429,
+      "telegram_date": "2025-09-01T03:23:39+00:00",
+      "title": "사문 강대모의고사K 1회, 2회 #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/13488.png",
+      "sha256": "295bebbf028fb702fb07dba5d8032f3a62603e16760b858af0c0d6dc9070f424"
     }
   ],
   "duplicate_message_ids": [
