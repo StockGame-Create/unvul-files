@@ -92735,6 +92735,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13774.png",
       "sha256": "b6d62909dbb84f6730aaf2898fc5a70d88e87ab9f618b23f3024d7514da09efb"
+    },
+    {
+      "message_id": 13771,
+      "filename": "2026 시대인재 브릿지 전국α 수학 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13771_2026.7.pdf",
+      "size_bytes": 4434624,
+      "telegram_date": "2025-09-05T03:12:14+00:00",
+      "title": "수학 시대인재 브릿지 전국α 모의고사 1회 ~ 7회",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13771.png",
+      "sha256": "eb2453675273a5bbb39b67fae19394329bc1586ac068803929e45ca417878aab"
     }
   ],
   "duplicate_message_ids": [
