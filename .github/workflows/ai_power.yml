@@ -1,0 +1,61 @@
+# .github/workflows/ai_power.yml
+# sync.py와는 별개의 워크플로입니다 (텔레그램 세션을 안 쓰므로 sync와 동시에 돌아도 안전).
+# 6시간마다 처리 안 된 PDF를 이어서 분석하고, 결과(sites/manifest_2.json, sites/ai/)를 커밋합니다.
+#
+# 필요한 설정:
+#   Settings > Secrets and variables > Actions
+#     - Secret   GEMINI_API_KEY
+#     - Variable AI_MODELS (선택, 예: gemini-3.8-flash,gemini-3.7-flash)
+name: ai-power
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      args:
+        description: "ai_power.py 추가 인자 (예: --id 24377 --force)"
+        required: false
+        default: ""
+
+concurrency:
+  group: ai-power
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install PyMuPDF==1.28.2
+
+      - name: 문제 은행 생성
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_MODELS: ${{ vars.AI_MODELS }}
+          ARGS: ${{ github.event.inputs.args }}
+        run: python ai_power.py $ARGS
+
+      # 중간에 실패/타임아웃이 나도 그때까지의 진행 상황은 커밋한다 (이어하기 가능).
+      - name: 결과 커밋
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sites/manifest_2.json sites/ai
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "ai_power: 문제 은행 갱신"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
