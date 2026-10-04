@@ -94989,6 +94989,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13470.png",
       "sha256": "9e597a7001a50a20fa0c92d8b6288abf8f145c25cd9e71871e7d2947c94447fd"
+    },
+    {
+      "message_id": 13469,
+      "filename": "강모 16회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13469_.16.pdf",
+      "size_bytes": 18760637,
+      "telegram_date": "2025-08-31T15:33:26+00:00",
+      "title": "수학 강대모의고사K 16회 #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13469.png",
+      "sha256": "bdd5b13a58f77f650913f8ebc93e2b6044a1e9751c23508a0a53b749a8e35c57"
     }
   ],
   "duplicate_message_ids": [
