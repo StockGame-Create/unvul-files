@@ -93757,6 +93757,20 @@
       "subject": "한국지리",
       "thumbnail": "thumbnails/13639.png",
       "sha256": "36be58c105740c038123780e37608d1106093077f9f972793ba2505f5bee8dde"
+    },
+    {
+      "message_id": 13638,
+      "filename": "2026 한국지리 전국 브릿지 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13638_2026.8.pdf",
+      "size_bytes": 4575976,
+      "telegram_date": "2025-09-02T12:34:49+00:00",
+      "title": "한지 시대인재 브릿지 전국 모의고사 7회 ~ 9회 #브릿지전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "한국지리",
+      "thumbnail": "thumbnails/13638.png",
+      "sha256": "eae250e0c6a2dfcd076a7fecd142c46a52457de1151f0a345b44696918d80b9a"
     }
   ],
   "duplicate_message_ids": [
