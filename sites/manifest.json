@@ -94373,6 +94373,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13535.png",
       "sha256": "9c6091a92ba38b8c99fcce6c6bbc419b5a5a349ced85c9393d76eafa13a8d12f"
+    },
+    {
+      "message_id": 13533,
+      "filename": "현정훈_물1_스프린트_시즌3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13533_._.1_._.3.pdf",
+      "size_bytes": 88609924,
+      "telegram_date": "2025-09-01T14:09:18+00:00",
+      "title": "물1 SPRINT 시즌3",
+      "year": "2026",
+      "instructor": "현정훈",
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/13533.png",
+      "sha256": "aa66d6b97729624855e9c37da1775637125e27166f215a88671e73109129f04f"
     }
   ],
   "duplicate_message_ids": [
