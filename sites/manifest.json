@@ -96053,6 +96053,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13346.png",
       "sha256": "ed0ccd308225dd99ca8179dafc01fefa4230f6c17b92381e101a2c8a12b74000"
+    },
+    {
+      "message_id": 13345,
+      "filename": "2026학년도_이미지_도장깨기하프_모의고사_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13345_2026._._._._.pdf",
+      "size_bytes": 6680566,
+      "telegram_date": "2025-08-29T15:46:40+00:00",
+      "title": "수학 도장깨기 하프모의고사 1회 ~ 7회 #도깨모",
+      "year": "2026",
+      "instructor": "이미지",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13345.png",
+      "sha256": "3e4c38fed196e70516f6b9c5ed0a2b83f8d9400ebcbe6b2ed703f9976a744ccb"
     }
   ],
   "duplicate_message_ids": [
