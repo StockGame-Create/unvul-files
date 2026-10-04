@@ -90663,6 +90663,20 @@
       "subject": "영어",
       "thumbnail": "thumbnails/13986.png",
       "sha256": "21eea9126dc05fe6c3d23bfb3d259b2e48e722c856e56a9f8102f2978716ec3d"
+    },
+    {
+      "message_id": 13983,
+      "filename": "15회 15번 @yubin_MPGA.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13983_15.15.%40yubin_MPGA.pdf",
+      "size_bytes": 835092,
+      "telegram_date": "2025-09-08T09:08:02+00:00",
+      "title": "수학 강대모의고사K 15회 15번 #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13983.png",
+      "sha256": "756150023921aa74d259455a8ce8ef5433d93e3c100e4daefa34b0a0c19f3daf"
     }
   ],
   "duplicate_message_ids": [
