@@ -96963,6 +96963,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13138.png",
       "sha256": "7bce2db94a52b83ba76cae7ce09407ec98691c5127b881a6dcf5a99918a32409"
+    },
+    {
+      "message_id": 13137,
+      "filename": "수능영어절대유형3142개정_정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13137_.3142._.pdf",
+      "size_bytes": 70386942,
+      "telegram_date": "2025-08-27T23:33:16+00:00",
+      "title": "수능영어 절대유형 3142 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13137.png",
+      "sha256": "c52b0c9d048d0f35cafe6d15398c36bccb81eef107159d0f3579597ca2c4d3dc"
     }
   ],
   "duplicate_message_ids": [
