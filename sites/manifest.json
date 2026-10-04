@@ -90565,6 +90565,20 @@
       "subject": "지구과학1",
       "thumbnail": "thumbnails/14000.png",
       "sha256": "0d244ec2b2b5e993905507ad74a710d1e33ceab77d5f1b2323786e747cd6455e"
+    },
+    {
+      "message_id": 13999,
+      "filename": "2026 지구과학1 박선 데이브레이크S 1회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13999_2026.1.S.1.pdf",
+      "size_bytes": 14174783,
+      "telegram_date": "2025-09-08T13:44:15+00:00",
+      "title": "지1 DAYBREAK-S 1회",
+      "year": "2026",
+      "instructor": "박선",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/13999.png",
+      "sha256": "73e84e45a8233ed3699987b1879ffc0f5c907a36c841e86a66422a4f673e79b5"
     }
   ],
   "duplicate_message_ids": [
