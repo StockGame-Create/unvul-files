@@ -90159,6 +90159,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/14043.png",
       "sha256": "5a93fa592855f51eefd3829eddf42c40ed7e9f18004600e35afe38255138364e"
+    },
+    {
+      "message_id": 14042,
+      "filename": "벌크업 꿀모 1-2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14042_.1-2.pdf",
+      "size_bytes": 12875854,
+      "telegram_date": "2025-09-09T09:16:01+00:00",
+      "title": "수학 장영진 벌크업 꿀모 시즌1 1회 ~ 3회 (문제지)",
+      "year": "2026",
+      "instructor": "장영진",
+      "subject": "수학",
+      "thumbnail": "thumbnails/14042.png",
+      "sha256": "f6e9941d101fcf0e566bd9ed4556a346b3e4552d45965c95832be9c6d17dc2d7"
     }
   ],
   "duplicate_message_ids": [
