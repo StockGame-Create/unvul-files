@@ -90677,6 +90677,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13983.png",
       "sha256": "756150023921aa74d259455a8ce8ef5433d93e3c100e4daefa34b0a0c19f3daf"
+    },
+    {
+      "message_id": 13978,
+      "filename": "어삼쉬사_Plus_미적분학생용.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13978_._Plus_.pdf",
+      "size_bytes": 12559509,
+      "telegram_date": "2025-09-08T01:18:10+00:00",
+      "title": "수학 어삼쉬사 미적분",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13978.png",
+      "sha256": "fb2331119321189d42bd122e68d3d41cb6f8a4265a8ba646c805f7b6aabd6171"
     }
   ],
   "duplicate_message_ids": [
