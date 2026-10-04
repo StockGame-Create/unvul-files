@@ -92063,6 +92063,20 @@
       "subject": "물리학1",
       "thumbnail": "thumbnails/13835.png",
       "sha256": "987a8631d04e8fc8d98f2a6b928e4b27f9c8bd12127d2fbc2c56d475ecda0196"
+    },
+    {
+      "message_id": 13834,
+      "filename": "물리 강k플_250112_183043.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13834_.k._250112_183043.pdf",
+      "size_bytes": 22676719,
+      "telegram_date": "2025-09-06T09:07:27+00:00",
+      "title": "물1 강대모의고사K+ 1회 ~ 30회 합본 #강케플",
+      "year": "2025",
+      "instructor": null,
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/13834.png",
+      "sha256": "e85585d5463eea3669b38f39667a9588a99887d1d0220351033111f565dc25ed"
     }
   ],
   "duplicate_message_ids": [
