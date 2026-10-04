@@ -94933,6 +94933,20 @@
       "subject": "사회문화",
       "thumbnail": "thumbnails/13474.png",
       "sha256": "17d401b89f1bb9f22078e91b8c3dddcfb3c6b608c243e49ffbfc599426b54b3d"
+    },
+    {
+      "message_id": 13473,
+      "filename": "강 k8 하프 영어.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13473_.k8.pdf",
+      "size_bytes": 12015588,
+      "telegram_date": "2025-08-31T15:38:52+00:00",
+      "title": "영어 강대모의고사K 독해 Half 모의고사 8회 #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "영어",
+      "thumbnail": "thumbnails/13473.png",
+      "sha256": "1d55ec8b5801fe81aaf92a8ab40d75c2bad2fcfde19d307a5b26a2f97f1cdfa2"
     }
   ],
   "duplicate_message_ids": [
