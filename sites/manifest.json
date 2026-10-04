@@ -96445,6 +96445,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13303.png",
       "sha256": "0555ed71f481091b9387fe2dc2362a04d80dffb7fde82dbe24c9d47b4c1a1e0a"
+    },
+    {
+      "message_id": 13302,
+      "filename": "2026 수학 CSM&오르비모의고사 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13302_2026.CSM.1.pdf",
+      "size_bytes": 7174475,
+      "telegram_date": "2025-08-29T09:17:18+00:00",
+      "title": "수학 씨에스엠17 x 오르비 모의고사 1회, 2회",
+      "year": "2026",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/13302.png",
+      "sha256": "8bc0df3dd3b7b3f31223e0609f35521c6a76bf9a3eb97f244c7abd229cb82f39"
     }
   ],
   "duplicate_message_ids": [
