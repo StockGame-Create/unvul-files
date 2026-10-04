@@ -90719,6 +90719,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13975.png",
       "sha256": "9c9e5030feb8633b79503102ede9cad85e5353efd571bf31ed5e5639b8774cf7"
+    },
+    {
+      "message_id": 13974,
+      "filename": "기출코드 기하 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13974_.pdf",
+      "size_bytes": 38615345,
+      "telegram_date": "2025-09-07T23:27:39+00:00",
+      "title": "수학 양승진의 기출코드 기하",
+      "year": "2026",
+      "instructor": "양승진",
+      "subject": "수학",
+      "thumbnail": "thumbnails/13974.png",
+      "sha256": "fd6809b1ec79eb8b0015c1292a3d8f9040594cbcf8534b514f56dcc34cb5dd80"
     }
   ],
   "duplicate_message_ids": [
