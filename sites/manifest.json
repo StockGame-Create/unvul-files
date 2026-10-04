@@ -93925,6 +93925,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13615.png",
       "sha256": "0f67be40578371b02362e853bf56b13329be1bbc522cef8dc6d6b46e16707a16"
+    },
+    {
+      "message_id": 13613,
+      "filename": "배기범 비역학의 논리_250814_225907 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13613_._250814_225907.1.pdf",
+      "size_bytes": 33688037,
+      "telegram_date": "2025-09-02T12:10:10+00:00",
+      "title": "물1 비역학의 논리",
+      "year": "2026",
+      "instructor": "배기범",
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/13613.png",
+      "sha256": "09f959f656bc3c59c32fe1101d3971252726fc9d0c4fe5a586fe5929a5ccff41"
     }
   ],
   "duplicate_message_ids": [
