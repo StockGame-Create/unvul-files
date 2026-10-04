@@ -89837,6 +89837,20 @@
       "subject": "사회문화",
       "thumbnail": "thumbnails/14079.png",
       "sha256": "6346f05e5cd7620b82b860080243ba8ae9961c07542daa4b117901b33dcc385e"
+    },
+    {
+      "message_id": 14077,
+      "filename": "2026 지구1 시대인재 N서바이벌 모의고사 38회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14077_2026.1.N.38.pdf",
+      "size_bytes": 8850013,
+      "telegram_date": "2025-09-09T13:14:02+00:00",
+      "title": "지1 시대인재 서바이벌 N전용 모의고사 38회 #서바N",
+      "year": "2026",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/14077.png",
+      "sha256": "3eaa4b32eacd946455a60e8c782587adeed172ab16d4c8dda54da7be1f59d271"
     }
   ],
   "duplicate_message_ids": [
