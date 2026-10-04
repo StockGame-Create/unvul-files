@@ -95773,6 +95773,20 @@
       "subject": "생활과 윤리",
       "thumbnail": "thumbnails/13372.png",
       "sha256": "069f55067a44dc34075a5dd190fc705a6e7da39a15425922f857df78529e5add"
+    },
+    {
+      "message_id": 13371,
+      "filename": "2026 현자의돌 생윤 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13371_2026.7.pdf",
+      "size_bytes": 5203473,
+      "telegram_date": "2025-08-30T10:24:11+00:00",
+      "title": "생윤 현자의 돌 모의고사 시즌1 6회, 7회",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생활과 윤리",
+      "thumbnail": "thumbnails/13371.png",
+      "sha256": "47b861821bf3c99af32bf5633b921f41e724686bd1a5c40111040806395deaa0"
     }
   ],
   "duplicate_message_ids": [
