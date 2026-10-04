@@ -90943,6 +90943,20 @@
       "subject": "수학",
       "thumbnail": "thumbnails/13948.png",
       "sha256": "3330548a5d32df8ffb50f0c0bd4f5f958d2be134783fe8dbebedafd6d13cbb62"
+    },
+    {
+      "message_id": 13946,
+      "filename": "2026 물리학1 서바이벌 전국 모의고사 6회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13946_2026.1.6.pdf",
+      "size_bytes": 11138117,
+      "telegram_date": "2025-09-07T07:23:19+00:00",
+      "title": "물1 시대인재 서바이벌 전국 모의고사 6회 #서바전국",
+      "year": "2026",
+      "instructor": null,
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/13946.png",
+      "sha256": "31363abf13afe42aa3595bb30b01562e27af7631d2979b34ab2598766e66f64e"
     }
   ],
   "duplicate_message_ids": [
