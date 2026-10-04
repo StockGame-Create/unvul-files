@@ -1,376 +1,384 @@
-// api/ask.js
+// api/ask.js  (v2: 파일 선택 없이 바로 질문 / 사진·PDF 첨부 / 문제 은행 참조)
 //
-// "파일 선택 후 질문하기" AI 기능의 백엔드 (대화형/멀티턴 버전).
+// 흐름
+// 1) 사용자가 질문(+선택: 사진/PDF 첨부)을 보낸다. 더 이상 "자료 선택"은 없다.
+// 2) 사진/PDF가 있으면 가벼운 모델로 "문제 본문/과목/단원"만 먼저 뽑는다 (검색어용).
+// 3) ai_power.py가 만들어 둔 sites/bank_index.json(문제 은행 검색 색인)에서
+//    비슷한 문제를 찾는다 (한글에 강한 글자 2-gram 검색, 형태소 분석기 불필요).
+//    - 거의 같은 문제가 있고 해설이 있으면 그 해설 전문을 개별 json에서 가져와 근거로 쓴다.
+//    - 나머지 비슷한 문제는 "추천 문제"로 응답에 같이 내려준다 (프론트가 카드로 표시).
+// 4) 첨부 + 참고 자료 + 대화 기록을 Gemini에 보내 답을 받는다.
+//    mode = "fast"(기본) 는 Flash 계열, "deep" 은 Pro 계열 (ASK_MODELS_DEEP 설정 시).
+//    deep 모델이 한도/혼잡으로 실패하면 fast 모델로 자동 대체하고 그 사실을 알려준다.
 //
-// 동작 방식 (미리 렌더링 안 함, 질문할 때만 그 파일 하나를 처리):
-// 1) manifest.json에서 선택된 파일의 원본 PDF 위치(GitHub Release 다운로드 URL)를 찾는다.
-// 2) 서버(이 함수) 쪽에서 그 PDF를 받아온다. 브라우저가 아니라 서버가 받는 거라
-//    CORS 문제가 없다 (브라우저 fetch만 objects.githubusercontent.com의 CORS에 막힌다).
-// 3) 받은 PDF를 Gemini Files API에 그대로 업로드한다. Gemini는 PDF를 내부적으로
-//    페이지 이미지로 변환해서 이해하기 때문에, 우리가 따로 페이지를 이미지로
-//    렌더링해둘 필요가 없다 (스캔 이미지 위주인 자료에도 그대로 통함).
-// 4) 업로드된 파일 URI + 대화 기록(history) + 새 질문을 generateContent에
-//    같이 넘겨서 답변을 받는다.
+// 이 함수는 상태를 저장하지 않는다 (history와 첨부는 클라이언트가 매번 다시 보냄).
 //
-// 멀티턴(대화 기억) 지원: 프론트엔드가 매 요청마다 이전 턴들의 { role, text }
-// 배열을 history로 같이 보내주면, 그걸 그대로 Gemini의 contents에 이어붙여서
-// "이 대화 맥락을 기억하는" 것처럼 동작한다. 서버 자체는 상태를 저장하지 않는다
-// (완전한 stateless 서버리스 함수 - 기억은 클라이언트가 들고 있다가 매번 다시 보내는 것).
+// 환경변수 (Vercel > Settings > Environment Variables)
+//   GEMINI_API_KEY          (필수)
+//   ASK_MODELS_FAST         쉼표 구분, 앞에서부터 시도 (기본: gemini-3.8-flash,gemini-3.7-flash,gemini-3.6-flash)
+//   ASK_MODELS_DEEP         Pro 계열 모델 목록. 비워두면 deep 요청도 fast로 처리하고 알려준다.
+//   ASK_DEEP_PER_HOUR       IP당 시간당 deep 허용 횟수 (기본 5, 서버리스 인스턴스 메모리 기준의 "대충" 제한)
+//   ASK_RATE_PER_MIN        IP당 분당 요청 수 (기본 8)
 //
-// 파일 재업로드 방지: 프론트엔드가 이전 응답에서 받은 file_state
-// ({ name, uri, mimeType })를 다음 질문에 같이 보내주면, 같은 파일을 다시
-// 다운로드/업로드하지 않고 그 참조를 그대로 재사용한다. Gemini Files API에
-// 올라간 파일은 약 48시간 동안 유효하므로, 하나의 대화 세션 안에서는 첫 질문만
-// 느리고 이후 질문들은 훨씬 빠르다. file_state가 없거나 재사용에 실패하면
-// (예: 시간이 많이 지나 파일이 만료됨) 처음부터 다시 다운로드/업로드한다.
-//
-// 필요한 환경변수 (Vercel 프로젝트 설정 > Environment Variables에 추가해야 함.
-// GitHub Secrets의 GEMINI_API_KEY와는 별개의 저장소이니 반드시 여기에도 등록할 것):
-//   GEMINI_API_KEY
-//
-// 요청 형식: POST {
-//   message_id: number,
+// 요청: POST {
 //   question: string,
-//   history?: Array<{ role: "user"|"assistant", text: string }>,
-//   file_state?: { name: string, uri: string, mimeType: string } | null
+//   history?: [{ role: "user"|"assistant", text }],
+//   attachments?: [{ mime: "image/jpeg"|"image/png"|"image/webp"|"application/pdf", data: base64 }],
+//   mode?: "fast" | "deep"
 // }
-// 응답 형식: { answer: string, file_state: {...} } 또는 { error: string }
+// 응답: { answer, related: [...], tier: "fast"|"deep", fell_back: boolean, retrieval: "same"|"similar"|"none" }
+//       또는 { error, retryable? }
+//
+// 주의: Vercel Hobby의 요청 본문 한도는 약 4.5MB다. 프론트가 사진을 줄여서 보내고,
+// 여기서도 총량을 검사해 넘으면 안내 메시지를 돌려준다.
 
-// 최근 몇 주 사이 3.6 -> 3.7 -> 3.8 Flash가 연달아 나왔는데(5주 만에 3개),
-// 막 나온 모델일수록 용량이 덜 확보돼서 429/503(과부하)이 잦은 것으로 보인다.
-// 그래서 모델 하나만 쓰지 않고, 같은 Flash 라인(가격/성능대가 사실상 동일하고
-// API 파라미터도 호환됨) 세 개를 매번 동시에(병렬로) 요청해서 가장 먼저
-// 성공하는 응답을 쓴다 (raceModels/generateContentWithFallback 참고). 순서대로
-// 하나씩 시도하던 예전 방식보다 느려지는 경로가 훨씬 짧아지고, 셋이 완전히
-// 동시에 다 같이 막히지 않는 한 성공 확률도 올라간다.
-// (Flash-Lite나 Pro로 내려가면 가격/답변 품질이 달라지므로 후보에서 제외했다 -
-//  "다른 모델도 해봤는데 별로였다"는 게 품질 문제였다면 이 목록을 조정해야 함.)
-const GEMINI_MODEL_CANDIDATES = ["gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.6-flash"];
-const MAX_QUESTION_LENGTH = 1000;
-const MAX_HISTORY_TURNS = 40; // user+assistant 메시지 합쳐서 최대 개수 (그 이상은 오래된 것부터 자름)
+const GITHUB_OWNER = "StockGame-Create"; // index.html / view.js와 동일하게 유지
+const GITHUB_REPO = "unvul-files";
+const GITHUB_BRANCH = "main";
+const RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/sites/`;
 
-// Vercel 서버리스 함수 실행시간 한도(아래 config.maxDuration) 안에 "다운로드 +
-// Gemini 업로드 + 답변 생성"이 다 끝나야 하므로, 너무 큰 파일은 아예 거절한다.
-// Hobby(무료) 플랜은 함수 실행시간이 최대 60초라 넉넉하게 잡기 어렵다 - 일단
-// 100MB로 시작하고, 실제로 타임아웃이 잦으면 더 낮추면 된다. Vercel Pro면
-// maxDuration을 최대 800초까지 늘릴 수 있어서 이 값도 같이 올릴 수 있다.
-// (file_state를 재사용하는 2번째 턴부터는 이 다운로드/업로드 과정 자체가
-// 생략되므로 훨씬 여유있게 끝난다.)
-const MAX_PDF_BYTES = 100 * 1024 * 1024;
-
-const FILE_PROCESSING_POLL_INTERVAL_MS = 2000;
-const FILE_PROCESSING_MAX_WAIT_MS = 30000;
-
-// 함수 전체(다운로드+업로드+생성)가 Vercel Hobby의 60초 한도 안에 끝나야
-// 하므로, "지금까지 걸린 시간 + 이 값"이 전체 예산을 넘지 않게 매 단계에서
-// 확인한다. 60초보다 여유를 두는 이유: 마지막 응답을 클라이언트로 내려보내는
-// 시간, Vercel 자체의 오버헤드 등을 감안한 안전 마진.
-const TOTAL_TIME_BUDGET_MS = 52000;
-
-// 같은 모델이 429/503(과부하)로 실패했을 때, 무조건 다음(더 구버전) 후보로
-// 넘어가기 전에 아주 짧게 한 번 더 같은 모델을 시도해본다. "혼잡" 스파이크는
-// 1~2초 안에 풀리는 경우가 실제로 꽤 있어서, 이렇게 하면 원래 선호 모델(보통
-// 가장 최신 = 품질이 가장 좋은 모델)로 답변할 확률이 조금 더 올라간다.
-// 남은 시간 예산이 부족하면(RETRY_MIN_REMAINING_MS 미만) 재시도 없이 바로
-// 다음 후보로 넘어간다 - 어차피 재시도할 여유도 없이 시간 초과로 통째로
-// 실패하는 것보다는, 하나라도 시도해보고 끝내는 게 낫다.
-const RETRY_SAME_MODEL_DELAY_MS = 1200;
-const RETRY_MIN_REMAINING_MS = 15000;
-
-// 세 후보를 한 번에 몇 라운드까지 돌려볼지. 한 라운드 = 세 후보를 전부
-// 동시에(병렬로) 쏴서 하나라도 성공하면 나머지는 즉시 취소하는 것.
-// 라운드가 전부 실패(전원 429/503)하면 짧게 쉬었다가 다음 라운드로 넘어간다.
-// (라운드당 API 호출이 최대 3배로 늘어나므로, 쿼터/비용에 민감하면 이 값을
-// 낮추면 된다.)
-const MAX_WAVES = 4;
-
-// 학생들이 올리는 학습자료(모의고사/문제집 등)는 보통 "문제"와 "해설"이
-// 나뉘어 있는 경우가 많다. 답변 품질을 위해 이 두 영역을 먼저 구분해서
-// 찾아보라고 명시적으로 지시한다. 또한 수식은 LaTeX로, 전체 답변은
-// 마크다운으로 정리해서 프론트엔드가 예쁘게 렌더링할 수 있게 한다.
-const SYSTEM_INSTRUCTION = `당신은 학생들이 업로드한 학습자료(PDF)를 근거로 답변하는 한국어 AI 튜터입니다.
-
-자료를 분석하고 답변할 때 반드시 다음을 지키세요:
-
-1) 자료를 읽을 때 먼저 전체를 훑어보면서 "문제"라고 표시되었거나 문항 번호가
-   매겨진 "문제 영역"과, "해설"이라고 표시되었거나 정답/풀이가 적힌
-   "해설 영역"이 있는지 확인하세요. 이 두 영역이 존재하면 그것을 최우선
-   근거로 삼아 답변하세요 (예: 몇 번 문제인지 먼저 문제 영역에서 정확히
-   찾고, 그 다음 해설 영역에서 대응하는 풀이/정답을 찾아 답변에 반영).
-2) 수식, 기호, 화학식 등이 필요하면 반드시 LaTeX 표기를 사용하세요:
-   문장 중간에 들어가는 인라인 수식은 $...$ 로, 독립된 한 줄 수식은
-   $$...$$ 로 감싸세요. 일반 텍스트에 유니코드 특수기호를 남발하지 말고
-   수식은 LaTeX로 표현하세요.
-3) 마크다운 문법(목록, 굵게, 표, 코드블록 등)을 적절히 사용해서 읽기 쉽게
-   정리하세요. 다만 과하게 화려한 서식은 피하고 필요한 곳에만 쓰세요.
-4) 이전 대화 맥락이 있다면 그것을 기억하고 자연스럽게 이어지는 대화체로
-   답하세요. "아까 물어본 것과 이어서" 같은 표현도 자연스럽게 받아들이세요.
-5) 자료 안에서 답을 찾을 수 없으면 추측하지 말고 모른다고 솔직히 말하세요.
-6) 답변은 한국어로, 정확하고 간결하게 작성하세요.`;
-
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+function envList(name, def) {
+  const v = (process.env[name] || "").trim() || def;
+  return v.split(",").map((s) => s.trim()).filter(Boolean);
+}
+function envInt(name, def) {
+  const n = parseInt((process.env[name] || "").trim(), 10);
+  return Number.isFinite(n) ? n : def;
 }
 
-// 이미 업로드된 Gemini 파일(file_state)이 아직 유효한지 가볍게 확인한다.
-// 실패하면 null을 반환해서 호출부가 새로 업로드하도록 유도한다.
-async function tryReuseFileState(fileState, apiKey) {
-  if (!fileState || !fileState.name || !fileState.uri || !fileState.mimeType) return null;
+const FAST_MODELS = envList("ASK_MODELS_FAST", "gemini-3.8-flash,gemini-3.7-flash,gemini-3.6-flash");
+const DEEP_MODELS = envList("ASK_MODELS_DEEP", "");
+const DEEP_PER_HOUR = envInt("ASK_DEEP_PER_HOUR", 5);
+const RATE_PER_MIN = envInt("ASK_RATE_PER_MIN", 8);
+
+const MAX_QUESTION_LENGTH = 2000;
+const MAX_HISTORY_TURNS = 30;
+const MAX_ATTACHMENTS = 4;
+const MAX_ATTACH_BASE64_TOTAL = 3_800_000; // Vercel 본문 한도(4.5MB) 안쪽으로
+const ALLOWED_MIME = new Set(["image/jpeg", "image/png", "image/webp", "application/pdf"]);
+
+const TOTAL_TIME_BUDGET_MS = 52000; // maxDuration(60초) 안에서 끝내기 위한 전체 예산
+const EXTRACT_TIME_BUDGET_MS = 12000; // 검색어 추출 단계는 이만큼만 쓴다 (실패해도 무시하고 진행)
+
+// ---- 문제 은행 검색 -----------------------------------------------------
+const BANK_TTL_MS = 10 * 60 * 1000;
+const MIN_QUERY_BIGRAMS = 6; // 이보다 짧은 질문은 검색하지 않는다 ("풀어줘" 같은 것)
+const SAME_THRESHOLD = 0.6; // Dice 유사도가 이 이상이면 "같은 문제"로 본다 (실제 자료로 보며 조정)
+const RELATED_MIN = 0.14; // 이 미만이면 추천에서 제외 (잡음 방지)
+const RELATED_MAX = 5;
+const DETAIL_FETCH_MAX = 2; // 해설 전문을 가져올 상위 개수
+const COMMON_BIGRAM_RATIO = 0.25; // 문서의 25% 이상에 나오는 2-gram은 후보 생성에서 제외
+
+let bankCache = { at: 0, bank: null };
+
+function normalizeForSearch(str) {
+  return String(str || "")
+    .normalize("NFC")
+    .toLowerCase()
+    .replace(/[\s$\\{}(),.;:'"\[\]<>|·ㆍ]/g, "");
+}
+
+function bigramSet(str) {
+  const s = normalizeForSearch(str);
+  const set = new Set();
+  for (let i = 0; i < s.length - 1; i++) set.add(s.slice(i, i + 2));
+  return set;
+}
+
+async function loadBank() {
+  if (bankCache.bank && Date.now() - bankCache.at < BANK_TTL_MS) return bankCache.bank;
   try {
-    const checkRes = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/${fileState.name}?key=${apiKey}`
+    const res = await fetch(RAW_BASE + "bank_index.json", { cache: "no-store", signal: AbortSignal.timeout(10000) });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    const items = data.items || [];
+    const postings = new Map(); // 2-gram -> 문항 인덱스 배열
+    items.forEach((it, i) => {
+      for (const bg of bigramSet(`${it.k || ""} ${it.t || ""}`)) {
+        let arr = postings.get(bg);
+        if (!arr) postings.set(bg, (arr = []));
+        arr.push(i);
+      }
+    });
+    bankCache = { at: Date.now(), bank: { files: data.files || [], items, postings } };
+    return bankCache.bank;
+  } catch (err) {
+    console.warn("[문제 은행 로드 실패]", err.message);
+    return bankCache.bank; // 오래된 캐시라도 있으면 그걸 쓴다 (없으면 null -> 검색 생략)
+  }
+}
+
+function searchBank(bank, queryText, subjectHint) {
+  const qSet = bigramSet(queryText);
+  if (!bank || qSet.size < MIN_QUERY_BIGRAMS) return [];
+
+  const N = bank.items.length;
+  const commonCut = N >= 200 ? N * COMMON_BIGRAM_RATIO : Infinity; // 문항이 적을 땐 가지치기하지 않는다
+  const acc = new Map();
+  for (const bg of qSet) {
+    const arr = bank.postings.get(bg);
+    if (!arr || arr.length > commonCut) continue;
+    const idf = Math.log(1 + N / arr.length);
+    for (const i of arr) acc.set(i, (acc.get(i) || 0) + idf);
+  }
+
+  const candidates = [...acc.entries()].sort((a, b) => b[1] - a[1]).slice(0, 40);
+  const hint = normalizeForSearch(subjectHint);
+
+  const scored = candidates.map(([i]) => {
+    const it = bank.items[i];
+    const dSet = bigramSet(`${it.k || ""} ${it.t || ""}`);
+    let inter = 0;
+    for (const bg of qSet) if (dSet.has(bg)) inter++;
+    let dice = (2 * inter) / (qSet.size + dSet.size || 1);
+    const file = bank.files[it.f] || {};
+    if (hint && normalizeForSearch(file.subject).includes(hint)) dice *= 1.1;
+    return { it, file, score: Math.min(dice, 1) };
+  });
+
+  return scored.sort((a, b) => b.score - a.score).filter((x) => x.score >= RELATED_MIN).slice(0, RELATED_MAX);
+}
+
+// 상위 문항의 전체 본문/해설을 파일별 json에서 가져온다 (실패해도 조용히 무시).
+async function fetchDetails(hits) {
+  await Promise.all(
+    hits.slice(0, DETAIL_FETCH_MAX).map(async (h) => {
+      if (!h.file.id) return;
+      try {
+        const res = await fetch(`${RAW_BASE}ai/${h.file.id}.json`, { signal: AbortSignal.timeout(8000) });
+        if (!res.ok) return;
+        const data = await res.json();
+        const p = (data.problems || []).find((x) => x.number === h.it.n && x.page === h.it.p);
+        if (p) h.detail = p;
+      } catch {
+        /* 상세 조회 실패는 무시: 색인에 있는 요약만으로 진행 */
+      }
+    })
+  );
+}
+
+function buildReferenceText(hits) {
+  if (!hits.length) return "";
+  const lines = [
+    "[자료실 참고 자료] 아래는 사용자 자료실의 PDF에서 AI가 자동 추출한 문제/해설입니다. OCR 오류가 있을 수 있으니 맹신하지 말고, 질문과 실제로 관련 있을 때만 근거로 쓰세요.",
+  ];
+  hits.slice(0, 3).forEach((h, idx) => {
+    const p = h.detail;
+    const label = h.score >= SAME_THRESHOLD ? "같은 문제일 가능성이 높음" : "비슷한 문제";
+    lines.push(
+      `\n(${idx + 1}) ${label} · 유사도 ${(h.score * 100).toFixed(0)}% · 출처: ${h.file.title || "자료"} (${[h.file.subject, h.file.year].filter(Boolean).join(", ")}) p.${h.it.p} ${h.it.n}번`
     );
-    if (!checkRes.ok) return null;
-    const checkData = await checkRes.json();
-    if (checkData.state !== "ACTIVE") return null;
-    return fileState;
-  } catch {
+    lines.push(`문제: ${(p && p.text) || h.it.t}`);
+    if (p && p.choices && p.choices.length) lines.push(`선택지: ${p.choices.map((c, i) => `${i + 1}) ${c}`).join(" / ")}`);
+    const ans = (p && p.answer) || h.it.a;
+    if (ans) lines.push(`정답(자료 표기): ${ans}`);
+    if (p && p.explanation) lines.push(`해설(자료): ${p.explanation.slice(0, 3000)}`);
+  });
+  return lines.join("\n");
+}
+
+// ---- Gemini 호출 --------------------------------------------------------
+const SYSTEM_INSTRUCTION = `당신은 한국 학생을 돕는 AI 튜터 "Unvul AI"입니다.
+
+규칙:
+1) 사용자가 사진이나 PDF를 첨부하면 그 안의 문제를 먼저 정확히 읽고, 질문에 맞게 풀이/설명하세요. 여러 문제가 있으면 질문에서 가리킨 문제를 우선하고, 불분명하면 어떤 문제를 말하는지 짧게 되물으세요.
+2) "[자료실 참고 자료]"가 주어지면 우선 확인하세요. '같은 문제일 가능성이 높음'이고 해설이 있으면 그 해설을 근거로 설명하되, 직접 계산해서 해설/정답과 다르면 그 사실을 숨기지 말고 어느 쪽이 맞아 보이는지 이유와 함께 알려주세요. 참고 자료를 썼다면 출처(자료 제목, 페이지, 번호)를 한 줄로 밝히세요.
+3) 풀이는 단계별로, 핵심 개념을 먼저 짚고 계산 과정을 보여 주세요. 최종 답은 눈에 띄게 적으세요.
+4) 수식은 LaTeX로 쓰세요: 문장 속은 $...$, 독립 수식은 $$...$$.
+5) 마크다운(목록, 굵게, 표)을 필요한 곳에만 적절히 쓰세요.
+6) 확실하지 않으면 추측으로 단정하지 말고 모른다고 말하세요. 이미지가 흐리거나 잘려서 못 읽겠다면 그렇게 말하고 다시 올려 달라고 하세요.
+7) 이전 대화 맥락을 기억하고 자연스럽게 이어서 답하세요.
+8) 한국어로, 정확하고 간결하게 답하세요. 사용자가 "비슷한 문제"를 요청하면 직접 새 문제를 만들어 주되 정답과 풀이를 함께 제공하세요.`;
+
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+async function callModelOnce(model, payload, deadlineAt) {
+  const remaining = Math.max(1000, deadlineAt - Date.now());
+  let res;
+  try {
+    res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-goog-api-key": process.env.GEMINI_API_KEY },
+      body: JSON.stringify(payload),
+      signal: AbortSignal.timeout(remaining),
+    });
+  } catch (err) {
+    return { ok: false, network: true, detail: err.message };
+  }
+  if (res.ok) return { ok: true, data: await res.json() };
+
+  const raw = await res.text().catch(() => "");
+  const m = raw.match(/"retryDelay"\s*:\s*"(\d+(?:\.\d+)?)s"/);
+  return {
+    ok: false,
+    status: res.status,
+    // 일일 한도는 기다려도 안 풀리므로 구분한다 (예: GenerateRequestsPerDayPerProjectPerModel).
+    daily: /perday/i.test(raw.replace(/[\s_]/g, "")),
+    retryAfter: m ? parseFloat(m[1]) : null,
+    detail: raw.slice(0, 300),
+  };
+}
+
+// 모델 목록을 "순서대로" 시도한다 (병렬 레이스는 쿼터를 여러 배로 태워서 쓰지 않는다).
+async function generate(models, payload, deadlineAt) {
+  let lastDetail = "";
+  let sawOverload = false;
+
+  for (const model of models) {
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      if (Date.now() >= deadlineAt - 2000) {
+        const err = new Error("시간이 너무 오래 걸려서 중단했어요. 잠시 후 다시 시도해주세요.");
+        err.statusCode = 504;
+        err.retryable = true;
+        throw err;
+      }
+      const r = await callModelOnce(model, payload, deadlineAt);
+      if (r.ok) return { model, data: r.data };
+
+      lastDetail = `${model}: ${r.status || "네트워크"} ${r.detail || ""}`;
+      console.warn("[Gemini 실패]", lastDetail);
+
+      if (r.status === 401 || r.status === 403) {
+        const err = new Error("서버의 Gemini API 키가 올바르지 않거나 권한이 없습니다.");
+        err.statusCode = 500;
+        throw err;
+      }
+      if (r.status === 404) break; // 없는 모델 -> 다음 모델
+      if (r.status === 429 && r.daily) {
+        sawOverload = true;
+        break; // 이 모델은 오늘 소진 -> 다음 모델
+      }
+      if (r.status === 429 || r.status === 500 || r.status === 502 || r.status === 503 || r.status === 504 || r.network) {
+        sawOverload = true;
+        const wait = r.retryAfter != null ? r.retryAfter * 1000 : 1500 * attempt;
+        if (attempt < 2 && wait <= 8000 && Date.now() + wait < deadlineAt - 8000) {
+          await sleep(wait);
+          continue;
+        }
+        break; // 대기가 너무 길다 -> 다음 모델
+      }
+      // 400 등: 요청 자체 문제라 다른 모델로 가도 같다.
+      const err = new Error("AI 요청을 처리하지 못했어요. 첨부한 파일 형식/크기를 확인해주세요.");
+      err.statusCode = 400;
+      throw err;
+    }
+  }
+
+  const err = new Error(
+    sawOverload
+      ? "지금 AI 사용량이 많거나 오늘 한도에 도달했어요. 잠시 후(또는 내일) 다시 시도해주세요."
+      : `AI가 응답하지 못했어요. (${lastDetail.slice(0, 120)})`
+  );
+  err.statusCode = 503;
+  err.retryable = true;
+  throw err;
+}
+
+function textOf(data) {
+  return data?.candidates?.[0]?.content?.parts?.map((p) => p.text || "").join("") || "";
+}
+
+// 첨부에서 검색에 쓸 문제 본문/과목/단원을 뽑는다. 실패하면 null (검색 없이 계속 진행).
+async function extractQuery(attachments) {
+  if (!attachments.length) return null;
+  const payload = {
+    system_instruction: { parts: [{ text: "첨부된 학습 자료 이미지/PDF에서 첫 번째 문제를 그대로 전사한다. JSON으로만 답한다." }] },
+    contents: [
+      {
+        role: "user",
+        parts: [
+          ...attachments.map((a) => ({ inline_data: { mime_type: a.mime, data: a.data } })),
+          { text: "첫 번째(또는 가장 눈에 띄는) 문제의 본문과 선택지를 전사하고, 과목과 단원을 짧게 적어줘. 수식은 LaTeX($...$)로. 문제가 없으면 problem_text를 빈 문자열로." },
+        ],
+      },
+    ],
+    generationConfig: {
+      temperature: 0,
+      maxOutputTokens: 1500,
+      responseMimeType: "application/json",
+      responseSchema: {
+        type: "OBJECT",
+        properties: {
+          problem_text: { type: "STRING" },
+          subject: { type: "STRING" },
+          topic: { type: "STRING" },
+        },
+        required: ["problem_text"],
+      },
+    },
+  };
+  try {
+    const { data } = await generate(FAST_MODELS, payload, Date.now() + EXTRACT_TIME_BUDGET_MS);
+    return JSON.parse(textOf(data));
+  } catch (err) {
+    console.warn("[검색어 추출 생략]", err.message);
     return null;
   }
 }
 
-// manifest.json에서 파일 정보를 찾아 다운로드한 뒤 Gemini Files API에 업로드하고,
-// { name, uri, mimeType }를 반환한다.
-async function uploadFreshFile(messageId, apiKey, base) {
-  const manifestRes = await fetch(`${base}/manifest.json`, { cache: "no-store" });
-  if (!manifestRes.ok) throw new Error("manifest.json을 불러오지 못했습니다.");
-  const manifest = await manifestRes.json();
-  const file = (manifest.files || []).find((f) => f.message_id === messageId);
+// ---- 대충의 호출 제한 (서버리스라 인스턴스 메모리 기준 - 완벽하지 않음) ----
+const rateHits = new Map();
+const deepHits = new Map();
 
-  if (!file) {
-    const err = new Error("해당 자료를 찾을 수 없습니다.");
-    err.statusCode = 404;
-    throw err;
-  }
-
-  const pdfUrl = file.download_url || (file.stored_as ? `${base}/files/${encodeURIComponent(file.stored_as)}` : null);
-  if (!pdfUrl) {
-    const err = new Error("원본 파일 위치를 찾을 수 없습니다.");
-    err.statusCode = 404;
-    throw err;
-  }
-
-  const knownSize = file.size_bytes || 0;
-  if (knownSize > MAX_PDF_BYTES) {
-    const err = new Error(
-      `이 자료는 ${(knownSize / (1024 * 1024)).toFixed(0)}MB로 너무 커서 지금은 AI 질문에 쓸 수 없어요 (현재 한도: ${MAX_PDF_BYTES / (1024 * 1024)}MB).`
-    );
-    err.statusCode = 413;
-    throw err;
-  }
-
-  const pdfRes = await fetch(pdfUrl);
-  if (!pdfRes.ok) throw new Error("원본 PDF를 받아오지 못했습니다.");
-  const pdfBuffer = Buffer.from(await pdfRes.arrayBuffer());
-
-  const startRes = await fetch(
-    `https://generativelanguage.googleapis.com/upload/v1beta/files?key=${apiKey}`,
-    {
-      method: "POST",
-      headers: {
-        "X-Goog-Upload-Protocol": "resumable",
-        "X-Goog-Upload-Command": "start",
-        "X-Goog-Upload-Header-Content-Length": String(pdfBuffer.length),
-        "X-Goog-Upload-Header-Content-Type": "application/pdf",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ file: { display_name: file.filename } }),
-    }
-  );
-  if (!startRes.ok) {
-    const detail = await startRes.text();
-    throw new Error(`Gemini 업로드 세션 시작 실패: ${detail}`);
-  }
-  const uploadUrl = startRes.headers.get("x-goog-upload-url");
-  if (!uploadUrl) throw new Error("Gemini 업로드 URL을 받지 못했습니다.");
-
-  const uploadRes = await fetch(uploadUrl, {
-    method: "POST",
-    headers: {
-      "Content-Length": String(pdfBuffer.length),
-      "X-Goog-Upload-Offset": "0",
-      "X-Goog-Upload-Command": "upload, finalize",
-    },
-    body: pdfBuffer,
-  });
-  const uploadData = await uploadRes.json();
-  if (!uploadRes.ok || !uploadData.file) {
-    throw new Error(`Gemini 파일 업로드 실패: ${uploadData?.error?.message || JSON.stringify(uploadData)}`);
-  }
-
-  let fileState = uploadData.file.state;
-  const fileName = uploadData.file.name;
-  const fileUri = uploadData.file.uri;
-  const fileMimeType = uploadData.file.mimeType || "application/pdf";
-
-  // 업로드 직후 Gemini가 파일을 내부적으로 처리(PROCESSING) 중일 수 있어서,
-  // ACTIVE가 될 때까지 잠깐 폴링한다 (최대 30초).
-  let waited = 0;
-  while (fileState === "PROCESSING" && waited < FILE_PROCESSING_MAX_WAIT_MS) {
-    await sleep(FILE_PROCESSING_POLL_INTERVAL_MS);
-    waited += FILE_PROCESSING_POLL_INTERVAL_MS;
-    const checkRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/${fileName}?key=${apiKey}`);
-    const checkData = await checkRes.json();
-    fileState = checkData.state;
-  }
-  if (fileState !== "ACTIVE") {
-    throw new Error("Gemini가 파일 처리를 완료하지 못했습니다. 잠시 후 다시 시도해주세요.");
-  }
-
-  return { name: fileName, uri: fileUri, mimeType: fileMimeType };
+function hit(map, ip, windowMs, limit) {
+  const now = Date.now();
+  const arr = (map.get(ip) || []).filter((t) => now - t < windowMs);
+  arr.push(now);
+  map.set(ip, arr);
+  if (map.size > 5000) map.clear();
+  return arr.length > limit;
 }
 
-// 모델 하나에 요청을 보낸다. 성공하면 { model, ok: true, geminiData }를,
-// 실패하면 { model, ok: false, retryable, detail }를 반환한다 (예외를 던지지
-// 않는다 - 레이스에서 다른 후보들과 나란히 Promise.then으로 다뤄야 해서).
-// signal이 abort되면(다른 후보가 먼저 성공한 경우) { model, aborted: true }.
-async function callModel(model, contents, apiKey, signal) {
-  let res;
-  try {
-    res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          system_instruction: { parts: [{ text: SYSTEM_INSTRUCTION }] },
-          contents,
-        }),
-        signal,
-      }
-    );
-  } catch (err) {
-    if (err.name === "AbortError") return { model, aborted: true };
-    // 네트워크 자체 오류(연결 끊김 등)는 일시적일 가능성이 높으므로 재시도 대상으로 취급.
-    return { model, ok: false, retryable: true, detail: err.message };
-  }
-
-  if (res.ok) {
-    const geminiData = await res.json();
-    return { model, ok: true, geminiData };
-  }
-
-  const geminiData = await res.json().catch(() => ({}));
-  const detail = geminiData?.error?.message || `HTTP ${res.status}`;
-  const retryable = res.status === 429 || res.status === 503;
-  return { model, ok: false, retryable, detail };
+function clientIp(req) {
+  return String(req.headers["x-forwarded-for"] || req.socket?.remoteAddress || "unknown").split(",")[0].trim();
 }
 
-// 후보 모델 전부에 "동시에" 요청을 쏘고, 가장 먼저 성공하는 응답을 쓴다.
-// 성공하는 즉시 나머지 진행 중인 요청은 AbortController로 취소한다 (후보들은
-// 같은 Flash 라인이라 가격/품질이 사실상 동일하므로, 먼저 온 성공 응답을
-// 그냥 쓰면 된다 - 굳이 "더 우선순위 높은 후보"를 기다릴 필요 없음).
-// 전부 실패하면 { success: false, failures }를 반환한다.
-function raceModels(models, contents, apiKey) {
-  return new Promise((resolve) => {
-    const controllers = models.map(() => new AbortController());
-    const failures = [];
-    let remaining = models.length;
-    let done = false;
-
-    models.forEach((model, i) => {
-      callModel(model, contents, apiKey, controllers[i].signal).then((result) => {
-        remaining -= 1;
-        if (done) return;
-
-        if (result.ok) {
-          done = true;
-          controllers.forEach((c, j) => {
-            if (j !== i) c.abort();
-          });
-          resolve({ success: true, model: result.model, geminiData: result.geminiData });
-          return;
-        }
-
-        if (!result.aborted) failures.push(result);
-
-        if (remaining === 0 && !done) {
-          done = true;
-          resolve({ success: false, failures });
-        }
-      });
-    });
-  });
-}
-
-// 후보 모델들을 라운드 단위로 시도한다. 한 라운드 = 세 후보를 동시에 쏴서
-// 하나라도 성공하면 즉시 반환. 라운드 전체가 429/503(과부하)으로 실패하면,
-// 남은 시간 예산이 넉넉할 때만 짧게 쉬었다가 다음 라운드로 넘어간다.
-// 재시도해도 소용없는 오류(예: 요청 자체가 잘못됨)가 모든 후보에서
-// 나오면 그 자리에서 바로 던진다 - 기다려봤자 결과가 달라지지 않으므로.
-//
-// deadlineAt: 이 함수(및 그 이전의 다운로드/업로드 단계)를 합쳐 전체가
-// 넘으면 안 되는 시각(ms epoch). handler에서 요청 시작 시각 기준으로 계산해서
-// 넘겨준다 - 업로드에 시간을 많이 썼다면 여기서는 재시도 없이 더 빨리
-// 넘어가도록 하기 위함.
-async function generateContentWithFallback(contents, apiKey, deadlineAt) {
-  let lastOverloadDetail = null;
-
-  for (let wave = 0; wave < MAX_WAVES; wave++) {
-    if (Date.now() >= deadlineAt) break;
-
-    const result = await raceModels(GEMINI_MODEL_CANDIDATES, contents, apiKey);
-    if (result.success) return { geminiData: result.geminiData, modelUsed: result.model };
-
-    const nonRetryable = result.failures.filter((f) => !f.retryable);
-    if (result.failures.length > 0 && nonRetryable.length === result.failures.length) {
-      throw new Error(`Gemini API 오류: ${nonRetryable[0].detail}`);
-    }
-
-    const overload = result.failures.find((f) => f.retryable);
-    if (overload) lastOverloadDetail = overload.detail;
-
-    const remainingMs = deadlineAt - Date.now();
-    if (remainingMs <= RETRY_MIN_REMAINING_MS) break;
-
-    console.warn(
-      `[전체 후보 혼잡 (${wave + 1}라운드째), ${RETRY_SAME_MODEL_DELAY_MS}ms 후 다음 라운드] ${lastOverloadDetail}`
-    );
-    await sleep(RETRY_SAME_MODEL_DELAY_MS);
-  }
-
-  // 라운드를 다 돌았는데도(또는 시간 예산이 다 돼서) 전부 과부하였던 경우.
-  throw new Error(
-    `지금 사용 가능한 AI 모델이 전부 혼잡합니다 (마지막 오류: ${lastOverloadDetail}). 잠시 후 다시 시도해주세요.`
-  );
-}
-
+// ---- 핸들러 ---------------------------------------------------------------
 module.exports = async function handler(req, res) {
-  // 이 요청 전체(다운로드+업로드+생성)의 시간 예산 기준점. 아래에서
-  // TOTAL_TIME_BUDGET_MS를 더해 "언제까지는 끝내야 하는지"를 계산하고,
-  // generateContentWithFallback이 같은 모델 재시도 여부를 판단할 때 쓴다.
-  const requestStartedAt = Date.now();
+  const startedAt = Date.now();
 
   if (req.method !== "POST") {
     res.status(405).json({ error: "POST만 지원합니다." });
     return;
   }
-
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) {
+  if (!process.env.GEMINI_API_KEY) {
     res.status(500).json({ error: "서버에 GEMINI_API_KEY가 설정돼있지 않습니다. (Vercel 환경변수 확인 필요)" });
     return;
   }
 
-  const { message_id, question, history, file_state } = req.body || {};
-  const messageId = Number(message_id);
-  const trimmedQuestion = typeof question === "string" ? question.trim() : "";
-
-  if (!Number.isFinite(messageId)) {
-    res.status(400).json({ error: "message_id가 올바르지 않습니다." });
+  const ip = clientIp(req);
+  if (hit(rateHits, ip, 60_000, RATE_PER_MIN)) {
+    res.status(429).json({ error: "요청이 너무 잦아요. 잠시 후 다시 시도해주세요.", retryable: true });
     return;
   }
-  if (!trimmedQuestion) {
-    res.status(400).json({ error: "질문을 입력해주세요." });
+
+  const { question, history, attachments, mode } = req.body || {};
+  const trimmedQuestion = typeof question === "string" ? question.trim() : "";
+
+  let safeAttachments = [];
+  if (Array.isArray(attachments)) {
+    safeAttachments = attachments
+      .filter((a) => a && typeof a.data === "string" && ALLOWED_MIME.has(a.mime))
+      .slice(0, MAX_ATTACHMENTS)
+      .map((a) => ({ mime: a.mime, data: a.data }));
+  }
+
+  if (!trimmedQuestion && !safeAttachments.length) {
+    res.status(400).json({ error: "질문을 입력하거나 사진/PDF를 첨부해주세요." });
     return;
   }
   if (trimmedQuestion.length > MAX_QUESTION_LENGTH) {
     res.status(400).json({ error: `질문이 너무 깁니다 (최대 ${MAX_QUESTION_LENGTH}자).` });
     return;
   }
+  const totalB64 = safeAttachments.reduce((n, a) => n + a.data.length, 0);
+  if (totalB64 > MAX_ATTACH_BASE64_TOTAL) {
+    res.status(413).json({ error: "첨부 파일이 너무 커요 (합계 약 2.8MB 이하). 사진은 자동으로 줄여지지만 PDF는 작은 것만 가능해요. 필요한 페이지만 캡처해서 올려보세요." });
+    return;
+  }
 
-  // history는 신뢰할 수 없는 클라이언트 입력이므로 형태를 검증하고, 너무 길면
-  // (토큰/시간 낭비 방지 + 악용 방지) 최근 것만 남기고 자른다.
   let safeHistory = [];
   if (Array.isArray(history)) {
     safeHistory = history
@@ -379,51 +387,87 @@ module.exports = async function handler(req, res) {
       .slice(-MAX_HISTORY_TURNS);
   }
 
-  const proto = req.headers["x-forwarded-proto"] || "https";
-  const base = `${proto}://${req.headers.host}`;
+  // 단계 선택: deep 요청이어도 Pro 모델이 설정돼있지 않거나 시간당 한도를 넘으면 fast로 처리한다.
+  let tier = "fast";
+  let downgradeNote = null;
+  if (mode === "deep") {
+    if (!DEEP_MODELS.length) downgradeNote = "정밀 모드가 아직 켜져있지 않아 빠른 모드로 답했어요.";
+    else if (hit(deepHits, ip, 3_600_000, DEEP_PER_HOUR)) downgradeNote = "정밀 모드 사용 한도(시간당)를 넘어 빠른 모드로 답했어요.";
+    else tier = "deep";
+  }
 
   try {
-    // 1) 이전 턴에서 받은 file_state가 아직 유효하면 재사용, 아니면 새로 업로드.
-    let fileState = await tryReuseFileState(file_state, apiKey);
-    if (!fileState) {
-      fileState = await uploadFreshFile(messageId, apiKey, base);
+    const deadlineAt = startedAt + TOTAL_TIME_BUDGET_MS;
+
+    // 1) 문제 은행 검색 (실패해도 답변은 계속 진행)
+    let hits = [];
+    let retrieval = "none";
+    try {
+      const extracted = await extractQuery(safeAttachments);
+      const queryText = [trimmedQuestion, extracted && extracted.problem_text].filter(Boolean).join(" ");
+      const bank = await loadBank();
+      hits = searchBank(bank, queryText, extracted && extracted.subject);
+      if (hits.length) {
+        await fetchDetails(hits);
+        retrieval = hits[0].score >= SAME_THRESHOLD ? "same" : "similar";
+      }
+    } catch (err) {
+      console.warn("[문제 은행 검색 생략]", err.message);
     }
 
-    // 2) 대화 기록 + 새 질문으로 contents 구성.
-    //    파일은 매 턴 새 질문에 같이 첨부한다 (같은 file_uri를 참조하는 것이라
-    //    실제 바이너리를 매번 다시 보내는 게 아니고, 문맥 유지가 더 안정적이다).
+    // 2) 본 답변
     const contents = safeHistory.map((h) => ({
       role: h.role === "assistant" ? "model" : "user",
       parts: [{ text: h.text }],
     }));
-    contents.push({
-      role: "user",
-      parts: [
-        { file_data: { mime_type: fileState.mimeType, file_uri: fileState.uri } },
-        { text: trimmedQuestion },
-      ],
-    });
+    const referenceText = buildReferenceText(hits);
+    const userParts = [
+      ...safeAttachments.map((a) => ({ inline_data: { mime_type: a.mime, data: a.data } })),
+      ...(referenceText ? [{ text: referenceText }] : []),
+      { text: trimmedQuestion || "첨부한 자료의 문제를 풀어주세요." },
+    ];
+    contents.push({ role: "user", parts: userParts });
 
-    const deadlineAt = requestStartedAt + TOTAL_TIME_BUDGET_MS;
-    const { geminiData, modelUsed } = await generateContentWithFallback(contents, apiKey, deadlineAt);
+    const payload = { system_instruction: { parts: [{ text: SYSTEM_INSTRUCTION }] }, contents };
 
-    const answer = geminiData?.candidates?.[0]?.content?.parts?.map((p) => p.text || "").join("") || "";
+    const models = tier === "deep" ? [...DEEP_MODELS, ...FAST_MODELS] : FAST_MODELS;
+    const { model, data } = await generate(models, payload, deadlineAt);
+
+    const usedDeep = DEEP_MODELS.includes(model);
+    const fellBack = tier === "deep" && !usedDeep;
+
+    const answer = textOf(data);
     if (!answer) {
-      res.status(502).json({ error: "AI가 답변을 생성하지 못했습니다. 다시 시도해주세요." });
+      res.status(502).json({ error: "AI가 답변을 생성하지 못했어요 (안전 필터 등). 질문을 바꿔서 다시 시도해주세요.", retryable: true });
       return;
     }
 
-    console.log(`[답변 생성 완료] model=${modelUsed}`); // 어떤 모델이 응답했는지는 서버 로그로만 확인
-    res.status(200).json({ answer, file_state: fileState });
+    console.log(`[답변] tier=${tier} model=${model} retrieval=${retrieval} hits=${hits.length} ms=${Date.now() - startedAt}`);
+
+    res.status(200).json({
+      answer,
+      tier: usedDeep ? "deep" : "fast",
+      fell_back: fellBack,
+      note: downgradeNote || (fellBack ? "정밀 모드가 혼잡/한도 초과라 빠른 모드로 답했어요." : null),
+      retrieval,
+      related: hits.map((h) => ({
+        message_id: h.file.id,
+        title: h.file.title,
+        subject: h.file.subject,
+        year: h.file.year,
+        number: h.it.n,
+        page: h.it.p,
+        text: ((h.detail && h.detail.text) || h.it.t).slice(0, 500),
+        answer: (h.detail && h.detail.answer) || h.it.a || "",
+        similarity: Math.round(h.score * 100),
+        same: h.score >= SAME_THRESHOLD,
+        uncertain: Boolean(h.it.u),
+      })),
+    });
   } catch (err) {
     console.error(err);
-    res.status(err.statusCode || 500).json({ error: err.message || "알 수 없는 오류가 발생했습니다." });
+    res.status(err.statusCode || 500).json({ error: err.message || "알 수 없는 오류가 발생했습니다.", retryable: Boolean(err.retryable) });
   }
 };
 
-// 다운로드 + Gemini 업로드 + 답변 생성까지 다 끝나려면 기본 10초로는 부족할 수
-// 있어서 넉넉하게 잡는다. Vercel Hobby(무료) 플랜의 최대치가 60초.
-// (file_state를 재사용하는 2번째 턴부터는 다운로드/업로드가 생략되어 훨씬
-// 빠르게 끝난다.) Pro 플랜이면 최대 800초까지 늘릴 수 있으니, 큰 파일 때문에
-// 자주 타임아웃되면 플랜을 올리고 이 값과 MAX_PDF_BYTES를 함께 올리면 된다.
 module.exports.config = { maxDuration: 60 };
