@@ -96977,6 +96977,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13137.png",
       "sha256": "c52b0c9d048d0f35cafe6d15398c36bccb81eef107159d0f3579597ca2c4d3dc"
+    },
+    {
+      "message_id": 13136,
+      "filename": "수능영어_절대유형_3142_개정.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13136_._._3142_.pdf",
+      "size_bytes": 2144450,
+      "telegram_date": "2025-08-27T23:33:15+00:00",
+      "title": "수능영어 절대유형 3142 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13136.png",
+      "sha256": "3a507c818c5698cf651fa760529f1bc559455a89fedf4b262b6b501776219a51"
     }
   ],
   "duplicate_message_ids": [
