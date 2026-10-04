@@ -93057,6 +93057,20 @@
       "subject": "영어",
       "thumbnail": "thumbnails/13745.png",
       "sha256": "f7212567950f0bdc6f6f869a735d15c472fbffe02901d3366e5bdd1a40f3191b"
+    },
+    {
+      "message_id": 13744,
+      "filename": "2026 영어 강대K 2회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13744_2026.K.2.pdf",
+      "size_bytes": 9997825,
+      "telegram_date": "2025-09-04T15:21:03+00:00",
+      "title": "영어 강대모의고사K 1회 ~ 4회 #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "영어",
+      "thumbnail": "thumbnails/13744.png",
+      "sha256": "35f05db71f778089c0965fdc945ff601f2bed1b8749aa0fe15723ac8f4cbb303"
     }
   ],
   "duplicate_message_ids": [
