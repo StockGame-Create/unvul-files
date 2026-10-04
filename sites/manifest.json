@@ -94023,6 +94023,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13590.png",
       "sha256": "84c0085854c45cd25daf88adf381ec72cc10c0ba34effc919566000235d1b626"
+    },
+    {
+      "message_id": 13588,
+      "filename": "2026_9평대비_예열지문KISS_Logic.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13588_2026_9._.KISS_Logic.pdf",
+      "size_bytes": 1757541,
+      "telegram_date": "2025-09-02T11:38:07+00:00",
+      "title": "9월 평가원 모의고사 대비 예열지문",
+      "year": "2026",
+      "instructor": "션티",
+      "subject": "영어",
+      "thumbnail": "thumbnails/13588.png",
+      "sha256": "16f303788adecd8e7ac047ce371c2b63f601f733caa4723181eb3a79f055ecd7"
     }
   ],
   "duplicate_message_ids": [
