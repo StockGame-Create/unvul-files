@@ -95185,6 +95185,20 @@
       "subject": "생활과 윤리",
       "thumbnail": "thumbnails/13451.png",
       "sha256": "3cd63aa6c2553088e144a35db582e9e68830934b0ac02f12234a11c45d9622bb"
+    },
+    {
+      "message_id": 13448,
+      "filename": "한국사_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13448_._.pdf",
+      "size_bytes": 10243913,
+      "telegram_date": "2025-08-31T12:48:29+00:00",
+      "title": "한국사 시대인재 8월 전국모의평가 #서프",
+      "year": "2026",
+      "instructor": null,
+      "subject": "한국사",
+      "thumbnail": "thumbnails/13448.png",
+      "sha256": "21f892318fbd4003daeb232bdcee70a74b52926a2d57e0078fe30d64da69b698"
     }
   ],
   "duplicate_message_ids": [
