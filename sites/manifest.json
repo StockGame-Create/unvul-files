@@ -90257,6 +90257,20 @@
       "subject": "지구과학1",
       "thumbnail": "thumbnails/14034.png",
       "sha256": "f8cb9d0f78beca586c91166ba198866bc1db5efe3c49591e3e2ab2145fe85a85"
+    },
+    {
+      "message_id": 14032,
+      "filename": "2025 경제 서바 전국 03.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/14032_2025.03.pdf",
+      "size_bytes": 49439388,
+      "telegram_date": "2025-09-09T02:35:15+00:00",
+      "title": "경제 시대인재 서바이벌 전국 모의고사 2회, 3회 #서바전국",
+      "year": "2025",
+      "instructor": null,
+      "subject": "경제",
+      "thumbnail": "thumbnails/14032.png",
+      "sha256": "df64f22726d682522b06b48ca4325ac7647febbd674080f929e4d8d96883b039"
     }
   ],
   "duplicate_message_ids": [
