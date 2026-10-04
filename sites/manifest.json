@@ -96571,6 +96571,20 @@
       "subject": "지1",
       "thumbnail": "thumbnails/13173.png",
       "sha256": "66ea38c43d238ccfa20ed82f70b34ec8809596f91afb51aced59e13563c8c1b5"
+    },
+    {
+      "message_id": 13171,
+      "filename": "강k 생명 8~12 답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13171_.k.8.12.pdf",
+      "size_bytes": 5798218,
+      "telegram_date": "2025-08-28T15:52:57+00:00",
+      "title": "생명과학1 강대모의고사k 8회 ~ 12회 해설 #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "생1",
+      "thumbnail": "thumbnails/13171.png",
+      "sha256": "3f03709272448b4f649c4bda26295ece0a76ebe3cafc0354a92b45bc305012ae"
     }
   ],
   "duplicate_message_ids": [
