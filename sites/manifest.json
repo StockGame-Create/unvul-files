@@ -97229,6 +97229,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13118.png",
       "sha256": "7b9bdb12ae73d9cf51ba311d0724f8f68c69b0b59ed0b32b2dbdb9f612074a14"
+    },
+    {
+      "message_id": 13117,
+      "filename": "2026학년도_수능_기출의_미래_수2_（1）.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13117_2026._._._._.2_.1.pdf",
+      "size_bytes": 24285684,
+      "telegram_date": "2025-08-27T13:13:37+00:00",
+      "title": "2026 EBS 수능 기출의 미래 수1, 수2 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13117.png",
+      "sha256": "a03f064796e527701af4b673c543e6ee0718289cb29cd6d67edc315408da9396"
     }
   ],
   "duplicate_message_ids": [
