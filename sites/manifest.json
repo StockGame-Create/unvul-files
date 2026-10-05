@@ -100239,6 +100239,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12824.png",
       "sha256": "257b5ebf7bdff08718052409ef29cbc5eeb3fc1ad26cb2b3769d911f55727e01"
+    },
+    {
+      "message_id": 12823,
+      "filename": "메가스터디 실전N제 문학 138제 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12823_.N.138.pdf",
+      "size_bytes": 5111375,
+      "telegram_date": "2025-08-22T08:27:39+00:00",
+      "title": "메가스터디 실전 N제 문학 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12823.png",
+      "sha256": "0419f3b0ed5aee58b817328f82da54d92f038a12f8e921d79aeeac3fd4008416"
     }
   ],
   "duplicate_message_ids": [
