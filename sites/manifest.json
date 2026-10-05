@@ -99665,6 +99665,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12866.png",
       "sha256": "f9be5eaf8bc00e2010cb630b8b5f37943c00479eeeb3d803396b5d0f90840089"
+    },
+    {
+      "message_id": 12865,
+      "filename": "2026 지구과학1 박선 데이브레이크S 2회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12865_2026.1.S.2.pdf",
+      "size_bytes": 16062375,
+      "telegram_date": "2025-08-22T10:12:32+00:00",
+      "title": "2026 지구과학1 박선 데이브레이크S 2회 #지1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12865.png",
+      "sha256": "96b617496e47ea0495ed353ebd6e922750db986eda87fc833dafb61304e09d20"
     }
   ],
   "duplicate_message_ids": [
