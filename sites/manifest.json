@@ -97775,6 +97775,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13054.png",
       "sha256": "5d10846496aa5d10349eff876165386887441ae314789b8ef8937d42ba533886"
+    },
+    {
+      "message_id": 13053,
+      "filename": "부록COSMOS_현자의돌_생윤_EBS총정리_2025.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13053_.COSMOS_._._EBS._2025.pdf",
+      "size_bytes": 2380516,
+      "telegram_date": "2025-08-26T00:44:03+00:00",
+      "title": "2026 현자의돌 COSMOS #생윤",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13053.png",
+      "sha256": "938b1f5ff47505e52675d4e7e6ac19890384ad4f0bb0d7e7bc596719356ddc40"
     }
   ],
   "duplicate_message_ids": [
