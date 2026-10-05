@@ -105559,6 +105559,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12317.png",
       "sha256": "51c72dfe93e48667f549836a77e0c52eb4754ff790fe5c650f209cd86122286f"
+    },
+    {
+      "message_id": 12312,
+      "filename": "2026_수학_히든카이스_모의고사_시즌2_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12312_2026_._._._.2_.pdf",
+      "size_bytes": 35542441,
+      "telegram_date": "2025-08-14T11:48:30+00:00",
+      "title": "2026 히든카이스 모의고사 시즌2 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12312.png",
+      "sha256": "8a773c1e2fef803b2009b8788e933357c16955cfbe88b6fdb20102e66c3c48ac"
     }
   ],
   "duplicate_message_ids": [
