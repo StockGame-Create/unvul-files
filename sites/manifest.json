@@ -100337,6 +100337,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12813.png",
       "sha256": "2703b76f6e67170abd5552ea832e320f89570a5996e76fa8907883a46e3eba7b"
+    },
+    {
+      "message_id": 12812,
+      "filename": "전국 서바이벌 7회-1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12812_.7.-1.pdf",
+      "size_bytes": 14156363,
+      "telegram_date": "2025-08-22T05:40:14+00:00",
+      "title": "2026 수학 전국 서바이벌 7회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12812.png",
+      "sha256": "d224ba73f0a51ca7a8b35d94ca2ba59fd9e24a19871d15198e72a7ea6c25be0c"
     }
   ],
   "duplicate_message_ids": [
