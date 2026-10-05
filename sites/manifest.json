@@ -98461,6 +98461,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12984.png",
       "sha256": "09cb6b54354fd7e220fd8f226a5af63218760ffaabd8d8c9246e3b57fc560902"
+    },
+    {
+      "message_id": 12983,
+      "filename": "2026 생명과학1 LCS Blade Runners 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12983_2026.1.LCS.Blade.Runners.6.pdf",
+      "size_bytes": 11041428,
+      "telegram_date": "2025-08-25T09:13:11+00:00",
+      "title": "2026 생명과학 LCS BLADE RUNNER 6회 #생1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12983.png",
+      "sha256": "89532ff00e048ab2843e04904d75f6fe4858d1c3272a5702ad3a8b0ff8d093be"
     }
   ],
   "duplicate_message_ids": [
