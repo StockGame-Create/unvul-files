@@ -101751,6 +101751,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12645.png",
       "sha256": "8150a001b25d1a64049f8aa17c222ddd1def83dfb9622342e517a0f76ce596fe"
+    },
+    {
+      "message_id": 12644,
+      "filename": "설맞이 2026 시즌2 수1 해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12644_.2026.2.1.pdf",
+      "size_bytes": 5828367,
+      "telegram_date": "2025-08-18T09:25:30+00:00",
+      "title": "2026 설맞이 시즌2 수1 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12644.png",
+      "sha256": "84bb6c937acb22614ddab712063ca1746515bf61f5669b826bdfd0c257c5f94e"
     }
   ],
   "duplicate_message_ids": [
