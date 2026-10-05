@@ -98825,6 +98825,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12944.png",
       "sha256": "c987becaa31a8df27366f4818a9ea78c43ee6eda8a87347874661bed130beca4"
+    },
+    {
+      "message_id": 12942,
+      "filename": "2026 8월 서바프로 국어정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12942_2026.8.pdf",
+      "size_bytes": 11788294,
+      "telegram_date": "2025-08-24T06:27:28+00:00",
+      "title": "2026 8월 전국모의평가 서바이벌프로 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12942.png",
+      "sha256": "c2bc1fe15cf290809914d763ec4248ff6f1455472ce97ccd7882b6ecd40ce5d2"
     }
   ],
   "duplicate_message_ids": [
