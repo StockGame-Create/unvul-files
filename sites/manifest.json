@@ -101373,6 +101373,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12703.png",
       "sha256": "ddf0d4eb171c4e11e5d833908b10c45a0092bf5924df78a28fc363ff28730ce7"
+    },
+    {
+      "message_id": 12701,
+      "filename": "시대인재 Final 브릿지 모의고사 6회_수학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12701_.Final.6._.pdf",
+      "size_bytes": 6827202,
+      "telegram_date": "2025-08-20T03:05:43+00:00",
+      "title": "2026 시대인재 파이널 브릿지 6회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12701.png",
+      "sha256": "24904daeb0c552cf37b4332b252b30b238df65f9b772bf6bae98966b4e10d5c1"
     }
   ],
   "duplicate_message_ids": [
