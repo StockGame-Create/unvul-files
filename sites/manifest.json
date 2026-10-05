@@ -105167,6 +105167,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12351.png",
       "sha256": "ac5738c8089dc5904491fa5e858294e07e070fd996a896497c2833e808838548"
+    },
+    {
+      "message_id": 12350,
+      "filename": "qed n 11.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12350_qed.n.11.pdf",
+      "size_bytes": 20266101,
+      "telegram_date": "2025-08-14T14:49:23+00:00",
+      "title": "2026 수학 박종민 QED N 공통 10 11권 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12350.png",
+      "sha256": "652d27a8c64118ca15d73bfddeb13d00d0b6ffa804bbb473d83412d1f375a990"
     }
   ],
   "duplicate_message_ids": [
