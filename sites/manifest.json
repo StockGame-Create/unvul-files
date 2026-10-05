@@ -101205,6 +101205,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12718.png",
       "sha256": "7bd9ca4c8c5a02c3da9e741c7929dada516399abd2d9dca8dd18d1401363237c"
+    },
+    {
+      "message_id": 12717,
+      "filename": "Lcs cutting edge 6회_250820_101244.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12717_Lcs.cutting.edge.6._250820_101244.pdf",
+      "size_bytes": 37952046,
+      "telegram_date": "2025-08-20T09:17:02+00:00",
+      "title": "2026 LCS 커팅 엣지 6회 #생1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12717.png",
+      "sha256": "f07e6c9df14316a6a8c4d36ec5b67dc1835979f2d9cfd3345efa86f38ca3febf"
     }
   ],
   "duplicate_message_ids": [
