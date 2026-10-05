@@ -104621,6 +104621,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12394.png",
       "sha256": "1940de20c6d6fe31991f4ce30d32a7bc490dd3ef2c6b35fa03e5deec5cd50e2d"
+    },
+    {
+      "message_id": 12391,
+      "filename": "사문_서바일반+전국_+_파이널_브릿지_6차_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12391_._.%2B._%2B_._._6._.pdf",
+      "size_bytes": 29748267,
+      "telegram_date": "2025-08-14T14:52:37+00:00",
+      "title": "2026 사회문화 시대인재 [ 서바이벌, 전국 서바이벌, 파이널 브릿지 ] 6회 #사문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12391.png",
+      "sha256": "9c032668d06af6a1a0de77b47a9ca0a8ba023ee5c2f67c44d66432f15ebfbeb0"
     }
   ],
   "duplicate_message_ids": [
