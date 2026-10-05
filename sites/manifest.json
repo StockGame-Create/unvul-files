@@ -105139,6 +105139,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12353.png",
       "sha256": "e54585c0f20d813904a1e56fd7748b4c5daa14784b0a3fb35ceba9ab274f7889"
+    },
+    {
+      "message_id": 12352,
+      "filename": "21주차_박종민_미적_위콤.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12352_21._._._.pdf",
+      "size_bytes": 34961175,
+      "telegram_date": "2025-08-14T14:49:36+00:00",
+      "title": "2026 수학 박종민 위클리콤  20, 21주차 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12352.png",
+      "sha256": "9022de6f0b98eca846cbbfe5ce306614e11399357286d5562ec03e0a2e01a567"
     }
   ],
   "duplicate_message_ids": [
