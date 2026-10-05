@@ -29,6 +29,20 @@
       "sha256": "4ceec16fc155b45f7bee58b40392b7918e7e6464bb4da2fc529a13ec5a6cf4bb"
     },
     {
+      "message_id": 24947,
+      "filename": "디아카이브00_생윤_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24947_.00_._.pdf",
+      "size_bytes": 2993238,
+      "telegram_date": "2026-10-05T04:55:02+00:00",
+      "title": "생윤 D.archive 0회 문제지 #디아카이브",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/24947.png",
+      "sha256": "8af0ace96983ca8c0a537124032502611e0484a59c4b786f72910978afd24c1c"
+    },
+    {
       "message_id": 24931,
       "filename": "BOB 24회.pdf",
       "stored_as": null,
