@@ -85,6 +85,20 @@
       "sha256": "2ce5cc721fccd47a02c2ea46941dab0f55f6f27c689ea8c06310ea973fad5244"
     },
     {
+      "message_id": 24942,
+      "filename": "다상다독7.8.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24942_.7.8.pdf",
+      "size_bytes": 188685606,
+      "telegram_date": "2026-10-05T04:54:59+00:00",
+      "title": "국어 다상다독 모의고사 7, 8회",
+      "year": "2027",
+      "instructor": "강민철",
+      "subject": "국어",
+      "thumbnail": "thumbnails/24942.png",
+      "sha256": "92a8b22d7d3207ba635825bdd02a033d19ba465af624380315957526cab0d2a7"
+    },
+    {
       "message_id": 24931,
       "filename": "BOB 24회.pdf",
       "stored_as": null,
