@@ -100519,6 +100519,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12789.png",
       "sha256": "f7d978da1506b597f7768e2cde22da0d5149b1f71bfba1606eef77ebe0659862"
+    },
+    {
+      "message_id": 12788,
+      "filename": "이그나이트 9.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12788_.9.pdf",
+      "size_bytes": 21275417,
+      "telegram_date": "2025-08-21T23:31:27+00:00",
+      "title": "2026 정병훈 이그나이트 3+4, 7+8, 9 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12788.png",
+      "sha256": "3b1edc18e85165d37cd2fa4f28bd44e25e450209639c1767ed26687ff09bcccb"
     }
   ],
   "duplicate_message_ids": [
