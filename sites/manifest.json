@@ -103123,6 +103123,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12448.png",
       "sha256": "0a77e823c7ffb3c6f97df960c499bdfddf133e093b0953fb6fa192d9d0e68ab2"
+    },
+    {
+      "message_id": 12447,
+      "filename": "12회 문제,답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12447_12.pdf",
+      "size_bytes": 1716466,
+      "telegram_date": "2025-08-15T06:14:47+00:00",
+      "title": "12회 문제,답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12447.png",
+      "sha256": "beb30f414705f17ed140376add2976571229790199b4c3da115f4bd7140ce732"
     }
   ],
   "duplicate_message_ids": [
