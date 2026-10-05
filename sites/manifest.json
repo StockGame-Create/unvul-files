@@ -155,6 +155,20 @@
       "sha256": "936fd0d583d7a9a85ca3f5e598b82a06a6ab6b600edacfea8f423f3fb1ebdf94"
     },
     {
+      "message_id": 24992,
+      "filename": "잘푸모 시즌2 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24992_.2.3.pdf",
+      "size_bytes": 104470452,
+      "telegram_date": "2026-10-05T13:33:47+00:00",
+      "title": "생윤 잘 푸는 모의고사 시즌 2(파이널) 3회",
+      "year": "2027",
+      "instructor": "김종익",
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/24992.png",
+      "sha256": "5d9fad0af74aa0725aff329a7ff033d85745303646152296b5bc19af23acc4fc"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
