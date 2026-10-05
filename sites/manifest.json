@@ -97677,6 +97677,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13067.png",
       "sha256": "e206f3b33f2aa243c329eb3e808aeb5a1b9219b60f3652cda699d7f046245b2a"
+    },
+    {
+      "message_id": 13066,
+      "filename": "2026_대비_EBS_봉투_모의고사_국어_3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13066_2026_._EBS_._._._3.pdf",
+      "size_bytes": 39575370,
+      "telegram_date": "2025-08-26T09:10:16+00:00",
+      "title": "2026 EBS 봉투 모의고사 1회 ~ 3회 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13066.png",
+      "sha256": "d9e0374877a3b37817ea5b3379675a596803c8e96ae7018d62c9756e2f412b50"
     }
   ],
   "duplicate_message_ids": [
