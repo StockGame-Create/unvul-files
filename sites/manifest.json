@@ -57,6 +57,20 @@
       "sha256": "63a3826657a83ef8ec3fbd5b59cc9b8e1ca9d7582cb618fda01e8533136b0fc3"
     },
     {
+      "message_id": 24944,
+      "filename": "적중예감_파이널_전체_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24944_._._._.pdf",
+      "size_bytes": 57323424,
+      "telegram_date": "2026-10-05T04:55:00+00:00",
+      "title": "사문 적중예감 FINAL 실전모의고사 1~13회 (해설O)",
+      "year": "2027",
+      "instructor": "윤성훈",
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/24944.png",
+      "sha256": "c32be949579e10b52ecf79984562b80ba2066f9125e4ffbc3bcc3eaf4d41570d"
+    },
+    {
       "message_id": 24931,
       "filename": "BOB 24회.pdf",
       "stored_as": null,
