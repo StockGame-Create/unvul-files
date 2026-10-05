@@ -101583,6 +101583,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12673.png",
       "sha256": "8b1cb56263ca80b683d4a1e9a34c66968ad4bc4058659e57ae81f09b4d222879"
+    },
+    {
+      "message_id": 12664,
+      "filename": "TalkFile_2026_IMFACT_생활과_윤리_임정환_pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12664_TalkFile_2026_IMFACT_._._._pdf.pdf",
+      "size_bytes": 102180386,
+      "telegram_date": "2025-08-19T09:08:07+00:00",
+      "title": "2026 임정환 임팩트 #생윤",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12664.png",
+      "sha256": "3d1de1764e5211a36e16c12340a5ca747eff6fc688f2472f3248e81c362aaa52"
     }
   ],
   "duplicate_message_ids": [
