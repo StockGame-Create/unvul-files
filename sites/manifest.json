@@ -100281,6 +100281,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12821.png",
       "sha256": "9c2688dab9b4f4d9d23185e5f2d0b8d40acd88b10287dbc2655765750f70cd24"
+    },
+    {
+      "message_id": 12820,
+      "filename": "나BS 수능완성 문학 변형.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12820_.BS.pdf",
+      "size_bytes": 281299587,
+      "telegram_date": "2025-08-22T08:27:05+00:00",
+      "title": "2026 전형태 나BS N제 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12820.png",
+      "sha256": "8b692cfb444af9d203f35702fdf7ee02e48ad73f992e1598f6db2d41221bb6c6"
     }
   ],
   "duplicate_message_ids": [
