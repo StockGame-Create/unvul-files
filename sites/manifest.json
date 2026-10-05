@@ -105405,6 +105405,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12330.png",
       "sha256": "b2f3d798739cc320d7e473374063a3fdb596a28bb43e18327d461e6191d80b8c"
+    },
+    {
+      "message_id": 12329,
+      "filename": "2026 물리학1 김성도 서바이벌 2주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12329_2026.1.2.pdf",
+      "size_bytes": 14500279,
+      "telegram_date": "2025-08-14T13:35:43+00:00",
+      "title": "2026 물1 김성도 서바이벌 1~2주차 #물1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12329.png",
+      "sha256": "2f9baf71fa2f7f2f70d14d38baf9c6b907f5197b21ca6eeeaa1893c42bed1422"
     }
   ],
   "duplicate_message_ids": [
