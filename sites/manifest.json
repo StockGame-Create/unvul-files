@@ -100855,6 +100855,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12765.png",
       "sha256": "db3e8f8553862835f874c1e6a5131f184deddd94b927ea27e2a44cfeb0014a30"
+    },
+    {
+      "message_id": 12764,
+      "filename": "수능_고쟁이_수학2_학생용_이투스북.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12764_._._.2_._.pdf",
+      "size_bytes": 31343622,
+      "telegram_date": "2025-08-21T09:54:09+00:00",
+      "title": "실전+수능 고쟁이 미적분 수1 수2 확통 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12764.png",
+      "sha256": "ce51a0aeaee2d8330ae39c663cb77d51950acc87a613463b70bc9fdec76771d4"
     }
   ],
   "duplicate_message_ids": [
