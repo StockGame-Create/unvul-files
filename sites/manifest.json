@@ -101401,6 +101401,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12699.png",
       "sha256": "1b6320a1778e5b80cb5ac707a098e4f4b46aa818a85abb7dc88cd8c536b522b0"
+    },
+    {
+      "message_id": 12696,
+      "filename": "현우진 노베 도형.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12696_.pdf",
+      "size_bytes": 27878128,
+      "telegram_date": "2025-08-19T16:08:07+00:00",
+      "title": "현우진 노베 도형 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12696.png",
+      "sha256": "d4a0aace82196dcaa4f64faf6d378dff2f2fbb2ea7a3b85ee3f80cf34fe98a80"
     }
   ],
   "duplicate_message_ids": [
