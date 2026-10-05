@@ -253,6 +253,20 @@
       "sha256": "d99cd6d772c210382d18cd08690464277c61f3fe0123bfeaffee793620b6e77c"
     },
     {
+      "message_id": 24979,
+      "filename": "OMEGA_사회문화_블랙_고난이도_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24979_OMEGA_._._._2.pdf",
+      "size_bytes": 4433821,
+      "telegram_date": "2026-10-05T13:33:35+00:00",
+      "title": "사문 OMEGA black 모의고사 2회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/24979.png",
+      "sha256": "9a86605f311b612abc2e0fc157bcd5e1a526ebc8c316fd0a64aa903dc016b8df"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
