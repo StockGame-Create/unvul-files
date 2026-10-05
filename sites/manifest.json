@@ -101779,6 +101779,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12643.png",
       "sha256": "cbd24734c6f1819f3dcb36a1f2eebe81f5066637926eb048e9e5b6d5106272f3"
+    },
+    {
+      "message_id": 12638,
+      "filename": "국어_문학_2026_마더텅_수능기출문제집_국어_문학_정답표_241219_011933.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12638_._._2026_._._._._._241219_011933.pdf",
+      "size_bytes": 895988,
+      "telegram_date": "2025-08-18T09:17:40+00:00",
+      "title": "2026 마더텅 문학 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12638.png",
+      "sha256": "d4625bf2963e6955d4783bbc4fcb93b2ede2d60398bc7aa55621e86a27c1db17"
     }
   ],
   "duplicate_message_ids": [
