@@ -101079,6 +101079,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12730.png",
       "sha256": "2b2210268d2ad5d43e949fc32de2e62456bfe2948cde77ac494625c19756b696"
+    },
+    {
+      "message_id": 12729,
+      "filename": "JMT 시즌1-1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12729_JMT.1-1.pdf",
+      "size_bytes": 11313971,
+      "telegram_date": "2025-08-20T13:01:02+00:00",
+      "title": "2026 한석원 JMT 모의고사 시즌1-1 ~ 1-5 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12729.png",
+      "sha256": "037276fa89114778a2ad286c496a6df44b16786cd44a6719586dc4fb3e54f37a"
     }
   ],
   "duplicate_message_ids": [
