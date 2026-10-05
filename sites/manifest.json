@@ -323,6 +323,20 @@
       "sha256": "780cf5c03e3ed8a6c5c2b9aec2f444aa8466108999961999aa76ca7b11963baa"
     },
     {
+      "message_id": 24971,
+      "filename": "나기출.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24971_.pdf",
+      "size_bytes": 202436315,
+      "telegram_date": "2026-10-05T13:33:27+00:00",
+      "title": "국어 전형태 나기출 언어와 매체",
+      "year": "2027",
+      "instructor": "전형태",
+      "subject": "국어",
+      "thumbnail": "thumbnails/24971.png",
+      "sha256": "0a9400be61ecae943678b12feb6b1d2b5f8b474f2e29c4117fdde4086c11031e"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
