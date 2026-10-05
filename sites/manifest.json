@@ -100379,6 +100379,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12808.png",
       "sha256": "5577ed06dc835f2c9e2fd90668dbdecd49d85a75c5fbe12f91f16c8d6a55203f"
+    },
+    {
+      "message_id": 12806,
+      "filename": "2026학년도_마더텅_영어_영역_30회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12806_2026._._._._30.pdf",
+      "size_bytes": 342542596,
+      "telegram_date": "2025-08-22T04:43:27+00:00",
+      "title": "2026 마더텅 수능기출 모의고사 30회 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12806.png",
+      "sha256": "3853971bba56b712d2fd53dcb90484fb737bdd6358d3fda4daf813e27669189c"
     }
   ],
   "duplicate_message_ids": [
