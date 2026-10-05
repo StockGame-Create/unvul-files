@@ -103837,6 +103837,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12410.png",
       "sha256": "e79ca92591e194f792f77887b1e1e20420d70b87e260cfc4e2b2a45ba0625de5"
+    },
+    {
+      "message_id": 12407,
+      "filename": "부스터 보카 수능 - 완성.ocr.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12407_.-.ocr.pdf",
+      "size_bytes": 252809506,
+      "telegram_date": "2025-08-14T15:38:06+00:00",
+      "title": "부스터 보카 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12407.png",
+      "sha256": "890e2fbe0e95b7ea3597dd2eacde3b9940521bbe2ab26c0d27da8f0776f2e132"
     }
   ],
   "duplicate_message_ids": [
