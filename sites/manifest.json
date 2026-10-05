@@ -103851,6 +103851,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12407.png",
       "sha256": "890e2fbe0e95b7ea3597dd2eacde3b9940521bbe2ab26c0d27da8f0776f2e132"
+    },
+    {
+      "message_id": 12405,
+      "filename": "2026 국어 이감 시즌5 5회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12405_2026.5.5.pdf",
+      "size_bytes": 25569575,
+      "telegram_date": "2025-08-14T15:10:19+00:00",
+      "title": "2026 이감 파이널1 시즌5 4회 5회 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12405.png",
+      "sha256": "f34b86898ba75fcdb2dff6f54ab3b2b3f1ed461e03a638aafda441971544f21c"
     }
   ],
   "duplicate_message_ids": [
