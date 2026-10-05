@@ -102187,6 +102187,20 @@
       "sha256": "1324f2c6ee363b7b76b00d3257c786c88217f312142e1818c0a3086792be802d"
     },
     {
+      "message_id": 12671,
+      "filename": "국어_독서_2026_마더텅_수능기출문제집_국어_독서_문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12671_._._2026_._._._._.pdf",
+      "size_bytes": 227335700,
+      "telegram_date": "2025-08-19T11:44:29+00:00",
+      "title": "2026 마더텅 독서 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12671.png",
+      "sha256": "df0efdd795e5cdc0af904fe458a369a8f4be82443939f918b58a51a78539f3c8"
+    },
+    {
       "message_id": 12664,
       "filename": "TalkFile_2026_IMFACT_생활과_윤리_임정환_pdf.pdf",
       "stored_as": null,
