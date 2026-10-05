@@ -97761,6 +97761,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13058.png",
       "sha256": "41cb8c4be69ab9f0c1e910f7be5101f97f7142ea1d3afe4df91dc53ea8905a31"
+    },
+    {
+      "message_id": 13054,
+      "filename": "COSMOS_현자의돌_생윤_EBS총정리_2025.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13054_COSMOS_._._EBS._2025.pdf",
+      "size_bytes": 33441389,
+      "telegram_date": "2025-08-26T00:44:03+00:00",
+      "title": "2026 현자의돌 COSMOS #생윤",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13054.png",
+      "sha256": "5d10846496aa5d10349eff876165386887441ae314789b8ef8937d42ba533886"
     }
   ],
   "duplicate_message_ids": [
