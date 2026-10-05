@@ -98027,6 +98027,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13031.png",
       "sha256": "de04d488f00485ed27d2c31d98fcbb19ae4428eae16e6702b73199170178c5a7"
+    },
+    {
+      "message_id": 13030,
+      "filename": "2026_여상진_수리논술_정규반_모의논술_1회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13030_2026_._._._._1._.pdf",
+      "size_bytes": 2676391,
+      "telegram_date": "2025-08-25T14:53:26+00:00",
+      "title": "2026 여상진 모의논술 1회 ~ 5회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13030.png",
+      "sha256": "df7276183eaf5a9e39fa4eea2488131e7e9aeaeef12ebf2d56578e1d34be74f1"
     }
   ],
   "duplicate_message_ids": [
