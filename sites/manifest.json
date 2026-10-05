@@ -98797,6 +98797,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12952.png",
       "sha256": "d8907d4085ec7e43028d35c2d96ac7a43e56e01314e10346017eae61b27493b2"
+    },
+    {
+      "message_id": 12949,
+      "filename": "마더텅 윤사 1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12949_.1.pdf",
+      "size_bytes": 223504958,
+      "telegram_date": "2025-08-24T15:27:07+00:00",
+      "title": "2026 윤리와 사상 마더텅 #윤사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12949.png",
+      "sha256": "f43a158fc7def6f22cb4f07a6b128c51e8cee7f35593014b1fb7770220259aa9"
     }
   ],
   "duplicate_message_ids": [
