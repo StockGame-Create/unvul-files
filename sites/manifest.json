@@ -101989,6 +101989,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12590.png",
       "sha256": "b308724519b0f75e3330135a935a104ceae53201fc884b6569567677f4c81c4e"
+    },
+    {
+      "message_id": 12588,
+      "filename": "객기1 독서.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12588_.1.pdf",
+      "size_bytes": 64016877,
+      "telegram_date": "2025-08-17T05:23:11+00:00",
+      "title": "2026 박석준 객관적기준1 객기1 독서 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12588.png",
+      "sha256": "3298ba4a91dd91c4ab9b6ea3f70c0ae2fbfd9f126f83b1823faae0c5a78fde26"
     }
   ],
   "duplicate_message_ids": [
