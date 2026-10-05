@@ -169,6 +169,20 @@
       "sha256": "5d9fad0af74aa0725aff329a7ff033d85745303646152296b5bc19af23acc4fc"
     },
     {
+      "message_id": 24990,
+      "filename": "2027_상상베오베_모의고사_1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24990_2027_._._1.pdf",
+      "size_bytes": 66760153,
+      "telegram_date": "2026-10-05T13:33:46+00:00",
+      "title": "국어 상상베오베 모의고사 1회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/24990.png",
+      "sha256": "686129004ee545b7d9ceb5e19bf3d5ceda58d03b125621a72b3aaf8a68dbc7fb"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
