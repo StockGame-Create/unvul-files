@@ -127,6 +127,20 @@
       "sha256": "15074b0184bb4ae4ada6ad069bc6a0798452b8d0390214d6289c98cd98d40e87"
     },
     {
+      "message_id": 24997,
+      "filename": "2027 김범준 모의고사 10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24997_2027.10.pdf",
+      "size_bytes": 3171382,
+      "telegram_date": "2026-10-05T13:33:54+00:00",
+      "title": "수학 김범준 모의고사 10회",
+      "year": "2027",
+      "instructor": "김범준",
+      "subject": "수학",
+      "thumbnail": "thumbnails/24997.png",
+      "sha256": "8990985295734aa588d4d9139faffa86492e64acf77e1b633035afc51bc9083f"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
