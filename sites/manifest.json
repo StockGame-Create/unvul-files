@@ -103767,6 +103767,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12419.png",
       "sha256": "2c060cd03383f0f0d8e585d996f60d043f3fecd245855da73adb05b3b1438c6c"
+    },
+    {
+      "message_id": 12418,
+      "filename": "2026 수학 이해원 N제 시즌1 기하.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12418_2026.N.1.pdf",
+      "size_bytes": 44085884,
+      "telegram_date": "2025-08-15T01:56:48+00:00",
+      "title": "2026 이해원 N제 시즌1 기하 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12418.png",
+      "sha256": "c98a7eb6c4c711479148596b52c2af6d0174030aea1ecd7f02d2e9e82472cc1b"
     }
   ],
   "duplicate_message_ids": [
