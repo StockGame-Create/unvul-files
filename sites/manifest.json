@@ -98979,6 +98979,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12928.png",
       "sha256": "60d7995f60c78db1b68ba1829f8ae995194bea856f38a6b0667fb87422337861"
+    },
+    {
+      "message_id": 12927,
+      "filename": "서바이벌_합본_한국지리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12927_._._.pdf",
+      "size_bytes": 116157716,
+      "telegram_date": "2025-08-23T13:25:33+00:00",
+      "title": "2025 한지 서바이벌 합본 1회 ~ 14회 #한지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12927.png",
+      "sha256": "435c39848bad5fb731b784d74b30a1de275e2ceeb807dd9bb5ddb9aed1d715be"
     }
   ],
   "duplicate_message_ids": [
