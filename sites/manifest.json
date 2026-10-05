@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 25010,
+      "filename": "김승리의_선택_화작_시즌2_6회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25010_._._._.2_6._.pdf",
+      "size_bytes": 11160056,
+      "telegram_date": "2026-10-05T13:34:06+00:00",
+      "title": "국어 2027 김승리의 선택 화작 시즌2 6회",
+      "year": "2027",
+      "instructor": "김승리",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25010.png",
+      "sha256": "96a814ba3066e75a55d0d0692980a96c43c1d1f9f6dffbef21c1d984196a398a"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
