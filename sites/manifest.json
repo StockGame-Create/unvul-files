@@ -98391,6 +98391,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12990.png",
       "sha256": "6b5774922465b0616c61d168ab974bbcf27609fab95b8d52509fee51587e1c1e"
+    },
+    {
+      "message_id": 12989,
+      "filename": "마플시너지 수2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12989_.2.pdf",
+      "size_bytes": 26105290,
+      "telegram_date": "2025-08-25T09:21:57+00:00",
+      "title": "2026 마플시너지 수2 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12989.png",
+      "sha256": "8252a36c30c1c5c923fa3224a5c25398a6129fe5b19d2261f769cb57061ddd96"
     }
   ],
   "duplicate_message_ids": [
