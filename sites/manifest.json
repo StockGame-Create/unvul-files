@@ -102269,6 +102269,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12562.png",
       "sha256": "9f12e182d69b1f209ad03edb002e492f268446629c19d4a9af55440dd121d918"
+    },
+    {
+      "message_id": 12559,
+      "filename": "2026_키스로직_해설편_W1교안.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12559_2026_._._W1.pdf",
+      "size_bytes": 90991407,
+      "telegram_date": "2025-08-17T03:16:02+00:00",
+      "title": "2026 션티 키스로직 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12559.png",
+      "sha256": "fc93267714eb5f0c537064aae8c0f23c7a310133d3a9d8c8c89eb38a3d23b86a"
     }
   ],
   "duplicate_message_ids": [
