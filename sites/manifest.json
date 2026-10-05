@@ -43,6 +43,20 @@
       "sha256": "f91a85199a63a839549801a712ab7be39c787c81409536ba2c149b8bfd4184a6"
     },
     {
+      "message_id": 25007,
+      "filename": "트러스_물리학I_비역학_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25007_._.I_._.pdf",
+      "size_bytes": 18029159,
+      "telegram_date": "2026-10-05T13:34:04+00:00",
+      "title": "물1 시대인재 트러스 모의고사 11~22회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/25007.png",
+      "sha256": "b435bae41cec8f707ac9874edf49e93f1a00bbdd9530726e2386255cce07cb03"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
