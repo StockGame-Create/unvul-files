@@ -101345,6 +101345,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12705.png",
       "sha256": "8b1b5ebbc2245dc6674b03038a1993ecb0c4114eeb7cbf8339d994912405deb1"
+    },
+    {
+      "message_id": 12704,
+      "filename": "파이널_브릿지_02_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12704_._._02_.pdf",
+      "size_bytes": 1571866,
+      "telegram_date": "2025-08-20T03:30:49+00:00",
+      "title": "2026 시대인재 파이널 브릿지 2회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12704.png",
+      "sha256": "60751a7f9b1c025d6adc7699f3839a08595b330b131ee7dd5efbb1617284b72f"
     }
   ],
   "duplicate_message_ids": [
