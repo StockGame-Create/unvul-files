@@ -102997,6 +102997,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12457.png",
       "sha256": "019e038b9a7bebf4f5be20318fd0e5b8060eb2106c3e7884ff6f4b8ca9377a00"
+    },
+    {
+      "message_id": 12456,
+      "filename": "4회 답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12456_4.pdf",
+      "size_bytes": 375292,
+      "telegram_date": "2025-08-15T06:14:48+00:00",
+      "title": "4회 답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12456.png",
+      "sha256": "aebafe528f2358db73bc1402c8593102a38342079be75d6870b11a30e911367b"
     }
   ],
   "duplicate_message_ids": [
