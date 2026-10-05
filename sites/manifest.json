@@ -101709,6 +101709,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12651.png",
       "sha256": "f00872cec0fae198eddafd5d4a25c2fc8c433b51069954d893476782b8d82868"
+    },
+    {
+      "message_id": 12650,
+      "filename": "2026 스피드러너 파이널 모고 2회.pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12650_2026.2.pdf.pdf",
+      "size_bytes": 19187788,
+      "telegram_date": "2025-08-18T14:16:48+00:00",
+      "title": "2026 호훈형제 스피드러너 모의고사 파이널 (해설포함) 1회~4회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12650.png",
+      "sha256": "89adc59de2b42881259ee9e4f69479e831006ae7bc4170904efaa2b1999bdd52"
     }
   ],
   "duplicate_message_ids": [
