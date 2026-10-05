@@ -15,6 +15,20 @@
       "sha256": "973ffb2b80d6f3eba5b94704a257f6b1b9bf7444b40f00a2676563a1bc560cc4"
     },
     {
+      "message_id": 24966,
+      "filename": "1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24966_1.pdf",
+      "size_bytes": 4371200,
+      "telegram_date": "2026-10-05T12:48:35+00:00",
+      "title": "윤사 HARD TRAINING 모의고사 1회 #하트",
+      "year": "2027",
+      "instructor": "임정환",
+      "subject": "윤리와사상",
+      "thumbnail": "thumbnails/24966.png",
+      "sha256": "ea227003244b99f36844e89f4ed45e904beaee9e63e9a167c5fd740b2ac51b0d"
+    },
+    {
       "message_id": 24960,
       "filename": "답지.pdf",
       "stored_as": null,
