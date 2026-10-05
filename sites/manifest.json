@@ -98545,6 +98545,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12977.png",
       "sha256": "a76894797e4bf001846eb27c37c47e1f36f8fd2ee14e0d942269b2d07ffb50f4"
+    },
+    {
+      "message_id": 12976,
+      "filename": "2026 현자의돌 생윤 2회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12976_2026.2._.pdf",
+      "size_bytes": 19377422,
+      "telegram_date": "2025-08-25T09:09:28+00:00",
+      "title": "2026 현자의 돌 모의고사 시즌1 2회, 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12976.png",
+      "sha256": "0707d397af5acb247b7c18aa9826fb43dcb2a0acef80e3b0c19e5749378967d4"
     }
   ],
   "duplicate_message_ids": [
