@@ -98307,6 +98307,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12999.png",
       "sha256": "a9a76379e8362a12c3ff90aec21779a5d4a6a858652056f800aff169fec756ae"
+    },
+    {
+      "message_id": 12997,
+      "filename": "전국 서바이벌 7회_250825_205358.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12997_.7._250825_205358.pdf",
+      "size_bytes": 34142325,
+      "telegram_date": "2025-08-25T13:01:44+00:00",
+      "title": "2026 생명과학 서바이벌 전국 7회 #생1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12997.png",
+      "sha256": "710491e7c66a4ec3dd515c4c7ca5799f17e30cf21d62078afc310550a9ff5794"
     }
   ],
   "duplicate_message_ids": [
