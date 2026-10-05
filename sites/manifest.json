@@ -169,6 +169,20 @@
       "sha256": "05ad546a1f9b4ddff6a4366f0eb9e5ba9e6aacc6897abf348c25da67f7bf81bf"
     },
     {
+      "message_id": 24934,
+      "filename": "한국지리_이것이_진짜_마지막이다_실모_16회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24934_._._._._._16.pdf",
+      "size_bytes": 50205140,
+      "telegram_date": "2026-10-05T04:54:50+00:00",
+      "title": "한지 이것이 진짜 마지막이다 모의고사 1~6회",
+      "year": "2027",
+      "instructor": "이기상",
+      "subject": "한국지리",
+      "thumbnail": "thumbnails/24934.png",
+      "sha256": "8101f2bc7d0b752729834e7ce64d43f624b6a3952d1cf94dbf855bd19dd05714"
+    },
+    {
       "message_id": 24931,
       "filename": "BOB 24회.pdf",
       "stored_as": null,
