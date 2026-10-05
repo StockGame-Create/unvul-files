@@ -99567,6 +99567,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12873.png",
       "sha256": "9b29ca364908418cf99810f0f46f4384e745c545d222f8fcbdd49304e1ab9dfd"
+    },
+    {
+      "message_id": 12872,
+      "filename": "과탐_종로_똥모지로_장난쳐서_미안해.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12872_._._._._.pdf",
+      "size_bytes": 10475114,
+      "telegram_date": "2025-08-22T10:17:53+00:00",
+      "title": "2026 8월 종로 모의고사 탐구",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12872.png",
+      "sha256": "ade4687759dad5c66b6e1fe93d7f2996ef4c37fa1268fff3f999e11d68d16df3"
     }
   ],
   "duplicate_message_ids": [
