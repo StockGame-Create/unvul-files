@@ -99161,6 +99161,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12911.png",
       "sha256": "9c773f07af4dac266971fec91361fb4c7aefb7ecf7f9d6dec9acfe738191e46e"
+    },
+    {
+      "message_id": 12910,
+      "filename": "5주차 장재원 LOBYIST 모의고사 9, 10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12910_5.LOBYIST.9.10.pdf",
+      "size_bytes": 4751281,
+      "telegram_date": "2025-08-23T09:22:26+00:00",
+      "title": "5주차 장재원 LOBYIST 모의고사 9, 10회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12910.png",
+      "sha256": "de208c4970fd05a669ab9615f6a74ea70e7c4343f6ee4363ff215b7c6ad74de1"
     }
   ],
   "duplicate_message_ids": [
