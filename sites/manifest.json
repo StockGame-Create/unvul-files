@@ -99875,6 +99875,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12848.png",
       "sha256": "edb3b426b52360e6745066723a5c85526ec08f06f33bb4c859f0a53dd9f7e578"
+    },
+    {
+      "message_id": 12847,
+      "filename": "2026_물리학1_현정훈_모의고사_시즌3_1st_1_4회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12847_2026_.1_._._.3_1st_1_4._.pdf",
+      "size_bytes": 69202717,
+      "telegram_date": "2025-08-22T09:58:56+00:00",
+      "title": "2026 현정훈 모의고사 시즌3 1회 ~ 4회 #물1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12847.png",
+      "sha256": "31fff473562f6f53bb0ac3496e4329518e5ff4a1307f1f2adb592da81ea3ab58"
     }
   ],
   "duplicate_message_ids": [
