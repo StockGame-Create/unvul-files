@@ -98895,6 +98895,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12938.png",
       "sha256": "ab195b74b11d88ca0fe2b9de029b12b5818465498f66b11e219394e6b0f08b10"
+    },
+    {
+      "message_id": 12937,
+      "filename": "2026 국어 큐레이션 29회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12937_2026.29.pdf",
+      "size_bytes": 13648216,
+      "telegram_date": "2025-08-24T04:07:50+00:00",
+      "title": "2026 국어 큐레이션 29회 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12937.png",
+      "sha256": "fa3e1dcc6be9a8e09b0ec5b72b38e5b4afe9c00f5a3b43c96a5ae720fb992515"
     }
   ],
   "duplicate_message_ids": [
