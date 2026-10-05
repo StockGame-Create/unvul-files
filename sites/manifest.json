@@ -101849,6 +101849,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12616.png",
       "sha256": "3cf3f3572c7e12b8a0cb756dc5ac2a6b89a80fcdd76e56d1eebee36af8a90d1a"
+    },
+    {
+      "message_id": 12614,
+      "filename": "한국사 권용기컴팩트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12614_.pdf",
+      "size_bytes": 30193487,
+      "telegram_date": "2025-08-17T13:12:32+00:00",
+      "title": "2026 권용기 한국사 컴팩트 #한국사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12614.png",
+      "sha256": "b1594d04e3199660d5eae8c3060da48cc6bae9f872f2462a79de686e85932039"
     }
   ],
   "duplicate_message_ids": [
