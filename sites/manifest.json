@@ -100603,6 +100603,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12782.png",
       "sha256": "a6833c88622560a5bbec7311e30210c4527f072567ca1685c2b2094dcfb0c6cb"
+    },
+    {
+      "message_id": 12781,
+      "filename": "2026학년도_8월_더프_사회•문화.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12781_2026._8._._.pdf",
+      "size_bytes": 7620072,
+      "telegram_date": "2025-08-21T15:31:10+00:00",
+      "title": "2026 대성 사회문화 더프리미엄 모의고사 #사문1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12781.png",
+      "sha256": "2f0757348d6050e1024b987cccd634f617568dae88140e0dfdfdc4914cc30e68"
     }
   ],
   "duplicate_message_ids": [
