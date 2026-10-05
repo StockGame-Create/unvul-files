@@ -103613,6 +103613,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12435.png",
       "sha256": "371caf28f4a17e23d51e9073f3c1e874e4c60320641c7e2941a684f2aaa51035"
+    },
+    {
+      "message_id": 12433,
+      "filename": "26 범모 정답과 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12433_26.pdf",
+      "size_bytes": 1590353,
+      "telegram_date": "2025-08-15T04:17:32+00:00",
+      "title": "2026 범모 김범준모의고사 1회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12433.png",
+      "sha256": "414f2ebb32d36cfa13ad833acb8e66b51e28bc02229e1480df454a46426153bb"
     }
   ],
   "duplicate_message_ids": [
