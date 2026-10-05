@@ -103599,6 +103599,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12437.png",
       "sha256": "bbc615974f4022a41b64fd700f10d797d42aaba84c37e6ab88e94936d53bf75b"
+    },
+    {
+      "message_id": 12435,
+      "filename": "2026 이감 6-1 문제 + 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12435_2026.6-1.%2B.pdf",
+      "size_bytes": 30932913,
+      "telegram_date": "2025-08-15T04:20:49+00:00",
+      "title": "2026 이감 파이널2 시즌6 1회 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12435.png",
+      "sha256": "371caf28f4a17e23d51e9073f3c1e874e4c60320641c7e2941a684f2aaa51035"
     }
   ],
   "duplicate_message_ids": [
