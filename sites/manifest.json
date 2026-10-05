@@ -103739,6 +103739,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12421.png",
       "sha256": "55531b4419164d4a7d07a2a5c45e5e099d55ba5af09cf74e08e780c24d23a2c8"
+    },
+    {
+      "message_id": 12420,
+      "filename": "2026_시대인재_생명과학1_Lcs_cutting_edge_5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12420_2026_._.1_Lcs_cutting_edge_5.pdf",
+      "size_bytes": 14713931,
+      "telegram_date": "2025-08-15T01:57:11+00:00",
+      "title": "2026 생1 시대인재 [ lcs blade runner , lcs cutting edge ] 5회 #생1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12420.png",
+      "sha256": "27bdacaa9f52ec11d69b35a4341ac8a86eb01c06357d1c6c64f06b617db334e9"
     }
   ],
   "duplicate_message_ids": [
