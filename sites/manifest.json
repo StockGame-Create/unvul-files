@@ -102705,6 +102705,20 @@
       "sha256": "79d4309cea11f110ad40ff4d69f9ac6f037ec115c60fb000c12c19ae04076fd7"
     },
     {
+      "message_id": 12592,
+      "filename": "사회문화.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12592_.pdf",
+      "size_bytes": 222216883,
+      "telegram_date": "2025-08-17T05:39:26+00:00",
+      "title": "2026 임정환 리밋 사회문화 #사문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12592.png",
+      "sha256": "815a1bc7787dfb32b715a1b0a5c7779f01cb51cad9b72773bc873f9804cb70a0"
+    },
+    {
       "message_id": 12590,
       "filename": "독서 시작.pdf",
       "stored_as": null,
