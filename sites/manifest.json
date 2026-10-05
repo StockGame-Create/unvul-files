@@ -99917,6 +99917,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12833.png",
       "sha256": "e2ac8149b6c6265c4e47684d7f9638b4cdb54cd077047cadb4c15319f55f3b1b"
+    },
+    {
+      "message_id": 12832,
+      "filename": "나BS 수능특강 현대산문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12832_.BS.pdf",
+      "size_bytes": 192385703,
+      "telegram_date": "2025-08-22T08:35:13+00:00",
+      "title": "2026 전형태 나BS 고전산문 고전시가 현대산문 현대시 문학 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12832.png",
+      "sha256": "5fb4869141cc2b687352fdd87cbea24382072568dc4d78317b058091ccc5a7aa"
     }
   ],
   "duplicate_message_ids": [
