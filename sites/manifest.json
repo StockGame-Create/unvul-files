@@ -98489,6 +98489,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12982.png",
       "sha256": "3d165f583d83676d365bb87d272c2312595efc215c5935d3e4ca91c22b8191d7"
+    },
+    {
+      "message_id": 12981,
+      "filename": "2026 생명과학1 서바이벌 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12981_2026.1.6.pdf",
+      "size_bytes": 16181981,
+      "telegram_date": "2025-08-25T09:12:38+00:00",
+      "title": "2026 생명과학 서바이벌 6회 #생1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12981.png",
+      "sha256": "d9c088e425ded5d72fd6cf92bb0126cb1155e09d906a30a31ad38f740867eb5b"
     }
   ],
   "duplicate_message_ids": [
