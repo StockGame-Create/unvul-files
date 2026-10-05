@@ -103585,6 +103585,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12439.png",
       "sha256": "e50ded09b6bf699bd90f5e4d87065fe0c5b31cd7aedd149b9c03b43acb5d2482"
+    },
+    {
+      "message_id": 12437,
+      "filename": "2025_유노바_역학특강 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12437_2025_._.1.pdf",
+      "size_bytes": 85708687,
+      "telegram_date": "2025-08-15T04:41:22+00:00",
+      "title": "2025 유노바 역학특강 #물1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12437.png",
+      "sha256": "bbc615974f4022a41b64fd700f10d797d42aaba84c37e6ab88e94936d53bf75b"
     }
   ],
   "duplicate_message_ids": [
