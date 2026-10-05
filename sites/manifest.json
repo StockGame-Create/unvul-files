@@ -98447,6 +98447,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12985.png",
       "sha256": "218927caaab97ed127279318416ed6d6d23e71c7737d7b4c50ea7a7c6f8dc691"
+    },
+    {
+      "message_id": 12984,
+      "filename": "2026 생명과학1 LCS Cutting Edge 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12984_2026.1.LCS.Cutting.Edge.6.pdf",
+      "size_bytes": 10910736,
+      "telegram_date": "2025-08-25T09:14:08+00:00",
+      "title": "2026 생명과학 LCS CUTTING EDGE 6회 #생1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12984.png",
+      "sha256": "09cb6b54354fd7e220fd8f226a5af63218760ffaabd8d8c9246e3b57fc560902"
     }
   ],
   "duplicate_message_ids": [
