@@ -101527,6 +101527,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12677.png",
       "sha256": "00ea697a87ac72d971a84817634ea6ad1a8c2a5330a275f94546a24e837e15ef"
+    },
+    {
+      "message_id": 12676,
+      "filename": "공통수학2 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12676_.2.pdf",
+      "size_bytes": 8093552,
+      "telegram_date": "2025-08-19T12:58:55+00:00",
+      "title": "쎈 공통수학2 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12676.png",
+      "sha256": "eb3cff8217119bac210c01ea7ab0d6b99f356196bbe02e3379bbf8a51f4689b4"
     }
   ],
   "duplicate_message_ids": [
