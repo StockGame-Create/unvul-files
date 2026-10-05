@@ -97593,6 +97593,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13073.png",
       "sha256": "2f60f53f57005cfba3902851bd03fd05f3f721fc77c1cc49c676b9d13598c3d0"
+    },
+    {
+      "message_id": 13072,
+      "filename": "2026강철중_전국_모의고사_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13072_2026._._._2.pdf",
+      "size_bytes": 16669203,
+      "telegram_date": "2025-08-26T09:11:28+00:00",
+      "title": "2026 강철중 모의고사 전국 2회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13072.png",
+      "sha256": "165a3cbc6c3e3c05aba84269f503b791b371931e06d2be1f068c39171047baee"
     }
   ],
   "duplicate_message_ids": [
