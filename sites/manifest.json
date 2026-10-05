@@ -100659,6 +100659,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12776.png",
       "sha256": "f1317587138b5f83769194efeb10b9960e42f2c549d008eb33c5279d75d3eb21"
+    },
+    {
+      "message_id": 12775,
+      "filename": "8월 더프 영어 문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12775_8.pdf",
+      "size_bytes": 15403173,
+      "telegram_date": "2025-08-21T15:15:08+00:00",
+      "title": "2026 대성 영어 더프리미엄 모의고사 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12775.png",
+      "sha256": "fc62fbb94a708e0684627d61001f11a42f1230cb3fb45090652cf2033a0396f5"
     }
   ],
   "duplicate_message_ids": [
