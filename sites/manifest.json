@@ -98335,6 +98335,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12995.png",
       "sha256": "736cf07a0406468b6be3b79b6f0da13b17a21422a3077f80493187bda6fa8f3f"
+    },
+    {
+      "message_id": 12994,
+      "filename": "현돌모 3~5회차 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12994_.3.5.1.pdf",
+      "size_bytes": 5798410,
+      "telegram_date": "2025-08-25T09:58:07+00:00",
+      "title": "2026 현자의 돌 모의고사 시즌1 3회 ~ 5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12994.png",
+      "sha256": "ada9dc93e25c88b2823d24b0a76e2690b2c60dbd3957a23b9ef1b0c45820119f"
     }
   ],
   "duplicate_message_ids": [
