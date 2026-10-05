@@ -99105,6 +99105,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12915.png",
       "sha256": "9277bfec7367433854d47480d3d08ab23c91aa25750efbc9a74750fbf3c07d51"
+    },
+    {
+      "message_id": 12914,
+      "filename": "6주차 장재원 로비스트 파이널.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12914_6.pdf",
+      "size_bytes": 6293350,
+      "telegram_date": "2025-08-23T09:22:26+00:00",
+      "title": "6주차 장재원 로비스트 파이널",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12914.png",
+      "sha256": "747014377a81f57b00e99e75c49faba07983ca92f31eb7f09174d3fa5862095b"
     }
   ],
   "duplicate_message_ids": [
