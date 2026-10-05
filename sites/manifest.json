@@ -97481,6 +97481,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13092.png",
       "sha256": "32224137c8b821516ea3ebd161ab6d0717a3a2ed12c9611c4b6291c09561db58"
+    },
+    {
+      "message_id": 13090,
+      "filename": "8월더프사탐해설지_폰퀄.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13090_8._.pdf",
+      "size_bytes": 20086731,
+      "telegram_date": "2025-08-27T03:19:22+00:00",
+      "title": "2026 8월 더프리미엄 모의고사 사회탐구 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13090.png",
+      "sha256": "ed10be9347d6edf88d62fde399d7bd057f684c84028fcab7b9ff55e5528fa2d7"
     }
   ],
   "duplicate_message_ids": [
