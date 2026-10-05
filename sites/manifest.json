@@ -100449,6 +100449,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12801.png",
       "sha256": "c9c0256822e11765ee8d7b285ad006aa885effb7f09035e3e636db48995cb232"
+    },
+    {
+      "message_id": 12793,
+      "filename": "상상_파이널_3회_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12793_._._3._.pdf",
+      "size_bytes": 47607292,
+      "telegram_date": "2025-08-22T03:17:00+00:00",
+      "title": "2026 상상 파이널 3회 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12793.png",
+      "sha256": "a0f22ad882acf9b83ca6789b4238dfe6c299e8777870d2f5c7b498695de5f31a"
     }
   ],
   "duplicate_message_ids": [
