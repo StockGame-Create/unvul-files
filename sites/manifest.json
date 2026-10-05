@@ -101317,6 +101317,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12707.png",
       "sha256": "01698de4cefce5fc58dc8cce48e12b5828e43446668959e927c5baba12a6ed60"
+    },
+    {
+      "message_id": 12706,
+      "filename": "2026_수학_브릿지_10회_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12706_2026_._._10._.pdf",
+      "size_bytes": 3576719,
+      "telegram_date": "2025-08-20T03:41:44+00:00",
+      "title": "2026 시대인재 브릿지 10회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12706.png",
+      "sha256": "4f4e478ae40517d67987d502f92dd663bdd5ff937f0ec3f0293acc17a96ad96e"
     }
   ],
   "duplicate_message_ids": [
