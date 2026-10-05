@@ -98783,6 +98783,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12954.png",
       "sha256": "91ec51ce1cf9deb7a435d272385a6548dc2408d1d0d11d559f83d92e4365608c"
+    },
+    {
+      "message_id": 12952,
+      "filename": "C25EE56821KKC011_MAY.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12952_C25EE56821KKC011_MAY.PDF",
+      "size_bytes": 1109282,
+      "telegram_date": "2025-08-24T15:28:03+00:00",
+      "title": "2026 김기철 어법특강 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12952.png",
+      "sha256": "d8907d4085ec7e43028d35c2d96ac7a43e56e01314e10346017eae61b27493b2"
     }
   ],
   "duplicate_message_ids": [
