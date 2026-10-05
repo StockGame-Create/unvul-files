@@ -102773,6 +102773,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12477.png",
       "sha256": "b7838baccb23f132eb876bb58fd07bd356e8d8f69177e72702a2fa3f26948786"
+    },
+    {
+      "message_id": 12476,
+      "filename": "아폴로20호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12476_.20.pdf",
+      "size_bytes": 81183329,
+      "telegram_date": "2025-08-15T13:00:28+00:00",
+      "title": "2026 이신혁 아폴로 시즌2 14호 ~ 20호 #지1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12476.png",
+      "sha256": "bcd55dedbe46fd4c9a1198a6771fc5409ea048991b7a8a0a1019d66c266197c3"
     }
   ],
   "duplicate_message_ids": [
