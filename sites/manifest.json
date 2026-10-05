@@ -102227,6 +102227,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12566.png",
       "sha256": "3e1bc0f91966047f33c5ec321c4c7efc0352994c394096c8fbd979ff7bafd9d6"
+    },
+    {
+      "message_id": 12565,
+      "filename": "IMG_0518.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12565_IMG_0518.pdf",
+      "size_bytes": 1270794,
+      "telegram_date": "2025-08-17T03:21:01+00:00",
+      "title": "2026 클리어17 1회, 2회 #물1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12565.png",
+      "sha256": "3c51d73b3d8c93fc99b68784e1cb2ae3436bcbf9e2bfc53a7be9417b04d13348"
     }
   ],
   "duplicate_message_ids": [
