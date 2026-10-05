@@ -101821,6 +101821,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12628.png",
       "sha256": "ed7a753ad56f49869039ee002344e211242045bbf494da968b1660333c4aa841"
+    },
+    {
+      "message_id": 12626,
+      "filename": "서바 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12626_.5.pdf",
+      "size_bytes": 17200586,
+      "telegram_date": "2025-08-17T23:18:06+00:00",
+      "title": "2026 이신혁 서바노트 5회 #지1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12626.png",
+      "sha256": "ba128f2fdf196071bf48b8bc91236e31363cdeb94b81257c339ead9883746692"
     }
   ],
   "duplicate_message_ids": [
