@@ -100617,6 +100617,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12781.png",
       "sha256": "2f0757348d6050e1024b987cccd634f617568dae88140e0dfdfdc4914cc30e68"
+    },
+    {
+      "message_id": 12780,
+      "filename": "2025년 8월 잇올 공식 모의고사(더프)_빠른정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12780_2025.8._.pdf",
+      "size_bytes": 338478,
+      "telegram_date": "2025-08-21T15:25:53+00:00",
+      "title": "2025년 8월 잇올 공식 모의고사(더프)_빠른정답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12780.png",
+      "sha256": "9c0d0f900ff4d93d5f496d6a0705c6fdc0ca132d151887cba0f99d2963c26cb0"
     }
   ],
   "duplicate_message_ids": [
