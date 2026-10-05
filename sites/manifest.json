@@ -183,6 +183,20 @@
       "sha256": "8101f2bc7d0b752729834e7ce64d43f624b6a3952d1cf94dbf855bd19dd05714"
     },
     {
+      "message_id": 24933,
+      "filename": "지구과학 11회 모이고사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24933_.11.pdf",
+      "size_bytes": 103568666,
+      "telegram_date": "2026-10-05T04:54:50+00:00",
+      "title": "지1 식‘s sense 모의고사 시즌3 통합본",
+      "year": "2027",
+      "instructor": "이훈식",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/24933.png",
+      "sha256": "34077d3d967115134554db0d73a089823d6d57ee83f08e330845a7bf995c1471"
+    },
+    {
       "message_id": 24931,
       "filename": "BOB 24회.pdf",
       "stored_as": null,
