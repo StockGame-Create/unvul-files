@@ -102199,6 +102199,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12568.png",
       "sha256": "795c77470cb3bed99f829c31b982bbd330ed49594e55a74df9c88042ef55080a"
+    },
+    {
+      "message_id": 12567,
+      "filename": "특난도 현장 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12567_.1.pdf",
+      "size_bytes": 1578820,
+      "telegram_date": "2025-08-17T03:21:16+00:00",
+      "title": "특난도 현장 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12567.png",
+      "sha256": "a87028b035ae36af9f4a5f7cc57978f24bafe04a054fec59df4209b888f2f0ae"
     }
   ],
   "duplicate_message_ids": [
