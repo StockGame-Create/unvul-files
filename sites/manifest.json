@@ -102689,6 +102689,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12489.png",
       "sha256": "faa1c2a0fc17e5c5b3c82037e58dadbb51d3cdfd5fc77dbb6e5aeb6fe75094af"
+    },
+    {
+      "message_id": 12487,
+      "filename": "국일만_너를_국어1등급으로_만들어주마_노베이스_비문학편_240427_095403_250209_234143.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12487_._._.1._._._._240427_095403_250209_234143.pdf",
+      "size_bytes": 89316194,
+      "telegram_date": "2025-08-16T03:11:25+00:00",
+      "title": "국일만 노베이스 독서편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12487.png",
+      "sha256": "c1a2ac1557542178d56149c1dd620425aa64112891b88b07287b72151e7f2231"
     }
   ],
   "duplicate_message_ids": [
