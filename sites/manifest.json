@@ -98951,6 +98951,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12931.png",
       "sha256": "d04eafe0db1da08feb6c5cf6307b92afc479b087665a06a49fbfa37534a661c7"
+    },
+    {
+      "message_id": 12930,
+      "filename": "생1 한종철 모의고사 시즌1 2회_250818_162630 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12930_.1.1.2._250818_162630.1.pdf",
+      "size_bytes": 750244,
+      "telegram_date": "2025-08-23T14:13:33+00:00",
+      "title": "2026 한종철 철두철미 모의고사 시즌1 1회, 2회 #생1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12930.png",
+      "sha256": "da182f4810c1bee12226e68eb20557258fd3eecf952c5c52c6779d7642ad9fb6"
     }
   ],
   "duplicate_message_ids": [
