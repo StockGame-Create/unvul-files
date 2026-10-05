@@ -102719,6 +102719,20 @@
       "sha256": "815a1bc7787dfb32b715a1b0a5c7779f01cb51cad9b72773bc873f9804cb70a0"
     },
     {
+      "message_id": 12591,
+      "filename": "콜미강의교안001.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12591_.001.pdf",
+      "size_bytes": 134874125,
+      "telegram_date": "2025-08-17T05:26:05+00:00",
+      "title": "2026 이영우 콜미네이션 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12591.png",
+      "sha256": "5be1ddfe259736c791706eda37f68494c04ba62fa46964643ade864e310c266c"
+    },
+    {
       "message_id": 12590,
       "filename": "독서 시작.pdf",
       "stored_as": null,
