@@ -97551,6 +97551,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13079.png",
       "sha256": "4a44b4d8d3148736339fa82f3235d43f875ab4baffab2d9380ee01bdb561822d"
+    },
+    {
+      "message_id": 13077,
+      "filename": "2026 이감온라인 8차 문제+답(해설x).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13077_2026.8.%2B.x.pdf",
+      "size_bytes": 30320370,
+      "telegram_date": "2025-08-26T12:56:41+00:00",
+      "title": "2026 이감 온라인 8회 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13077.png",
+      "sha256": "beef41ea4411e5f7409cc948484ef85ec6e76c008dfdcafe6ef51573f60e7106"
     }
   ],
   "duplicate_message_ids": [
