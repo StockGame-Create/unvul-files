@@ -105097,6 +105097,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12356.png",
       "sha256": "69cc75a662a2bf3a01c55e60ae252ac648d9ae460eb64d3a3aa6393fe34203b1"
+    },
+    {
+      "message_id": 12355,
+      "filename": "2026 물리학1 강대 서킷 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12355_2026.1.8.pdf",
+      "size_bytes": 2853340,
+      "telegram_date": "2025-08-14T14:50:29+00:00",
+      "title": "2026 물리학1 강대 서킷 8회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12355.png",
+      "sha256": "db4a48129f726d100c49dbc16e413fec7b86dfa8eee34ee43d6934825af07152"
     }
   ],
   "duplicate_message_ids": [
