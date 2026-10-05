@@ -103641,6 +103641,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12432.png",
       "sha256": "b554aec13ea41d1c125023e64573d464825f60c92a63313903188ea229ab79a6"
+    },
+    {
+      "message_id": 12429,
+      "filename": "(22개정)고등수매씽 공통수학1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12429_.22.1.pdf",
+      "size_bytes": 8329168,
+      "telegram_date": "2025-08-15T02:10:37+00:00",
+      "title": "22개정 공통수학1 고등수매씽 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12429.png",
+      "sha256": "3132295965ceb0c17605f272ab50007eab046b0f3168d540bf9c3ceb85ab847b"
     }
   ],
   "duplicate_message_ids": [
