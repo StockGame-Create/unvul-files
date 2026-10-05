@@ -99413,6 +99413,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12892.png",
       "sha256": "0bd80309af7e44ca0ea3e8d072f771933c8baea744ea5dc7db20d43f757ccc50"
+    },
+    {
+      "message_id": 12891,
+      "filename": "26 강k 지구 11회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12891_26.k.11.pdf",
+      "size_bytes": 8135080,
+      "telegram_date": "2025-08-23T09:15:04+00:00",
+      "title": "2026 지구과학1 강k 5회 ~ 8회, 11회, 12회 #지1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12891.png",
+      "sha256": "813055aa01fa9df4151f59798aea2bfcd1aa77992d7ca320c29de86466893a6e"
     }
   ],
   "duplicate_message_ids": [
