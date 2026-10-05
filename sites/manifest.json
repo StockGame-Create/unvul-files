@@ -97453,6 +97453,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13095.png",
       "sha256": "109d12f0e5133272addeb2bb1c563e522956421a327866afab790a5364d91df1"
+    },
+    {
+      "message_id": 13093,
+      "filename": "스캔_문서,_2025_8_27_오후_5_30_30.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13093_._._2025_8_27_._5_30_30.pdf",
+      "size_bytes": 10174387,
+      "telegram_date": "2025-08-27T09:16:26+00:00",
+      "title": "2026 지구과학1 8월 서프 #지1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13093.png",
+      "sha256": "4abe487acbfc97aa4b16b9714e2fa864c055eb9985f0913001ad55777586ac04"
     }
   ],
   "duplicate_message_ids": [
