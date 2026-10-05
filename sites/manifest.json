@@ -102815,6 +102815,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12474.png",
       "sha256": "dc1ac906c5d75d42d0dc75aa188133d1024b2f487ce19117021c96d46d7cc694"
+    },
+    {
+      "message_id": 12472,
+      "filename": "2026 여상진 적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12472_2026.pdf",
+      "size_bytes": 98991616,
+      "telegram_date": "2025-08-15T12:46:40+00:00",
+      "title": "2026 여상진 미분 적분 기하 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12472.png",
+      "sha256": "e8daf7f871a92f9ebbf3ad9d4cc77cf038108f843ee84320b52f4c7dcb6a5626"
     }
   ],
   "duplicate_message_ids": [
