@@ -97817,6 +97817,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13051.png",
       "sha256": "ed1d6add8b79f17dbce7bb0d9af997a9b2d210d24c7467dbb6d8b4174550ec8f"
+    },
+    {
+      "message_id": 13049,
+      "filename": "2026 국어 강민철 무제 3주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13049_2026.3.pdf",
+      "size_bytes": 92508503,
+      "telegram_date": "2025-08-26T00:32:51+00:00",
+      "title": "2026 강민철 무제 1주차 ~ 4주차 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13049.png",
+      "sha256": "e06f28afda25ab12a5ec76562f03dd99eb5fe8fa7245f1342002b96244b3bfb0"
     }
   ],
   "duplicate_message_ids": [
