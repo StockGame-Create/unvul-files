@@ -102885,6 +102885,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12468.png",
       "sha256": "60cc34948ab69d306f00b056a24482bf4c0c95b0f92707d8cdda3a354872b1e8"
+    },
+    {
+      "message_id": 12467,
+      "filename": "전자책_Final_Lecture_물리1_N제_2권_Equilibrium_문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12467_._Final_Lecture_.1_N._2._Equilibrium_.pdf",
+      "size_bytes": 5208303,
+      "telegram_date": "2025-08-15T12:17:18+00:00",
+      "title": "2026 물1 김형모 Final Lecture N제 1~2권 #물1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12467.png",
+      "sha256": "4b74026b2bf580fe9b6854d717e046cb97b180d5d7dcf2e10b1b3d721e7d1ff7"
     }
   ],
   "duplicate_message_ids": [
