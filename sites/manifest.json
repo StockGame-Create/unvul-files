@@ -103307,6 +103307,20 @@
       "sha256": "a8a5095fc3d3c413947181ddb1aa78be81b27c1a30176d8047f3a854dc6ceb6c"
     },
     {
+      "message_id": 12531,
+      "filename": "2026학년도_대학수학능력시험_지구_오리온_모의고사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12531_2026._._._._.pdf",
+      "size_bytes": 71273452,
+      "telegram_date": "2025-08-16T13:37:57+00:00",
+      "title": "2026 지1 오리온 모의고사 #지1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12531.png",
+      "sha256": "6349bfa668a89457290da7df535db1bf599b520ab12fb1b04d4be7851ca58cfc"
+    },
+    {
       "message_id": 12529,
       "filename": "2026학년도_시대인재_Final_브릿지_전국_모의고사_3회_수학영역.pdf",
       "stored_as": null,
