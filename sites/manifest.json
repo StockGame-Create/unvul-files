@@ -104887,6 +104887,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12371.png",
       "sha256": "8cdf305da19742985704a28208a4fe79b4b689e45a2f307f1bc6e42994ad10a2"
+    },
+    {
+      "message_id": 12370,
+      "filename": "2026 물리학1 강대 서킷 13회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12370_2026.1.13.pdf",
+      "size_bytes": 2854504,
+      "telegram_date": "2025-08-14T14:50:29+00:00",
+      "title": "2026 물리학1 강대 서킷 13회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12370.png",
+      "sha256": "f29a9327fb27a66f5e96a1d1cf2bf22f93fee11f864a4cffb9da6e1476f39dbf"
     }
   ],
   "duplicate_message_ids": [
