@@ -102747,6 +102747,20 @@
       "sha256": "b308724519b0f75e3330135a935a104ceae53201fc884b6569567677f4c81c4e"
     },
     {
+      "message_id": 12589,
+      "filename": "독서 시작 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12589_.pdf",
+      "size_bytes": 127591795,
+      "telegram_date": "2025-08-17T05:23:33+00:00",
+      "title": "2026 박석준 시작 독서 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12589.png",
+      "sha256": "8ee503f42e659b946442b54c2f4d62f97beac95643e4b7730d34438b183ad09f"
+    },
+    {
       "message_id": 12588,
       "filename": "객기1 독서.pdf",
       "stored_as": null,
