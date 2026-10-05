@@ -103921,6 +103921,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12400.png",
       "sha256": "73d131b7fb9a0285a2e3943a320aa2dd31a69cc8109d941dcef4661acab495fe"
+    },
+    {
+      "message_id": 12399,
+      "filename": "2026학년도 수1 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12399_2026.1.pdf",
+      "size_bytes": 89966407,
+      "telegram_date": "2025-08-14T14:57:14+00:00",
+      "title": "2026 마플 수능기출총정리 수기총 수1 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12399.png",
+      "sha256": "eb4d16834c4089cfdb5cb0a07573b3afce7957561660cec0926d0935c4c3dc8b"
     }
   ],
   "duplicate_message_ids": [
