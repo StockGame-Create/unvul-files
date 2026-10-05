@@ -100197,6 +100197,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12827.png",
       "sha256": "344013f2348c8aed1c57256dca68a1dd9b6a857f5ee61ca607207b7d3705e8a1"
+    },
+    {
+      "message_id": 12826,
+      "filename": "2025년도 전형태 언매 모의고사 정답 및 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12826_2025.pdf",
+      "size_bytes": 100996918,
+      "telegram_date": "2025-08-22T08:28:22+00:00",
+      "title": "2025 전형태 언매 모의고사 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12826.png",
+      "sha256": "10a19929ff81768004c2a057b79594af993553f6bfc28085d768ab0606175d8f"
     }
   ],
   "duplicate_message_ids": [
