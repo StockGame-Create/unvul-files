@@ -99287,6 +99287,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12902.png",
       "sha256": "c283fb15d1f6f63f0b4bd3114c2ad0c4ce764fa466dbf25b8296c5cebd118e37"
+    },
+    {
+      "message_id": 12901,
+      "filename": "2주차 장재원 로비스트 파이널.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12901_2.pdf",
+      "size_bytes": 8137316,
+      "telegram_date": "2025-08-23T09:22:25+00:00",
+      "title": "2주차 장재원 로비스트 파이널",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12901.png",
+      "sha256": "a6ac67107591df4785251bc407434eeaa9391829f08ad2b0a1ef4897f5d8e6a5"
     }
   ],
   "duplicate_message_ids": [
