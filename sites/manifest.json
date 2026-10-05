@@ -99035,6 +99035,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12922.png",
       "sha256": "565799d9098529e768bf7e4f8ee66f111ceb5275f8fb64d7943cb5614359775c"
+    },
+    {
+      "message_id": 12921,
+      "filename": "25년 8월 더프과탐.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12921_25.8.pdf",
+      "size_bytes": 17608793,
+      "telegram_date": "2025-08-23T09:24:56+00:00",
+      "title": "2026 8월 더프리미엄 모의고사 사탐, 과탐",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12921.png",
+      "sha256": "e9fc5352ef68124dcb3dab2e65a4d5b2faf8c0fe23f8b1c21997c58b7f4bc8f8"
     }
   ],
   "duplicate_message_ids": [
