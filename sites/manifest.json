@@ -99819,6 +99819,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12853.png",
       "sha256": "d79f10c293d5257103dc92cfea7265adb8f0d8853c17c04282e2c8da1a6abd43"
+    },
+    {
+      "message_id": 12852,
+      "filename": "2026 물리학1 현정훈 스프린트 상.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12852_2026.1.pdf",
+      "size_bytes": 190612243,
+      "telegram_date": "2025-08-22T09:59:30+00:00",
+      "title": "2026 현정훈 스프린트 상 #물1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12852.png",
+      "sha256": "2023a1f938c4c2926f7d63ac087d434fbd59f652c81babdf846d648f19655e68"
     }
   ],
   "duplicate_message_ids": [
