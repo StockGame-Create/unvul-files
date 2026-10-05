@@ -98853,6 +98853,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12941.png",
       "sha256": "3bef532cc71c163c415a53b7bb504e8d7b72ebfecaea91cb4dc4f4922c18175c"
+    },
+    {
+      "message_id": 12940,
+      "filename": "2026 8월 서바이벌 프로 수학 답지-등급컷.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12940_2026.8.-.pdf",
+      "size_bytes": 3951658,
+      "telegram_date": "2025-08-24T06:26:20+00:00",
+      "title": "2026 8월 전국모의평가 서바이벌프로 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12940.png",
+      "sha256": "495b1cd94f2e23a8f794abf96aa3e834ff33540c8d1ae7e2770463b9a6d0d346"
     }
   ],
   "duplicate_message_ids": [
