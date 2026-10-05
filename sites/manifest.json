@@ -29,6 +29,20 @@
       "sha256": "fa2144b5054f298984a85cd3ac26fb96bff287cac829e8875d1039c9ee7beea0"
     },
     {
+      "message_id": 24957,
+      "filename": "2027 필유공 기하.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24957_2027.pdf",
+      "size_bytes": 69052708,
+      "telegram_date": "2026-10-05T07:25:40+00:00",
+      "title": "수학 강윤구 필유공 기하",
+      "year": "2027",
+      "instructor": "강윤구",
+      "subject": "수학",
+      "thumbnail": "thumbnails/24957.png",
+      "sha256": "400cbf69672429f94da219607cf844a331ca94faec3a3567d7559653e3970a92"
+    },
+    {
       "message_id": 24949,
       "filename": "디아카이브00_한국지리.pdf",
       "stored_as": null,
