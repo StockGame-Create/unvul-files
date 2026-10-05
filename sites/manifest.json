@@ -104607,6 +104607,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12395.png",
       "sha256": "0e531ceeb8f0eb6d86d12adf69d90851c2f30740d7c8bba7681da833128a09f7"
+    },
+    {
+      "message_id": 12394,
+      "filename": "2026_한국지리_전국서바_4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12394_2026_._._4.pdf",
+      "size_bytes": 9622151,
+      "telegram_date": "2025-08-14T14:53:02+00:00",
+      "title": "2026 한국지리 시대인재 전국 서바이벌 4회 #한지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12394.png",
+      "sha256": "1940de20c6d6fe31991f4ce30d32a7bc490dd3ef2c6b35fa03e5deec5cd50e2d"
     }
   ],
   "duplicate_message_ids": [
