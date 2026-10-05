@@ -127,6 +127,20 @@
       "sha256": "bed34fd1b3c64bf2c7f1634e4720bfacbc5672752df699f0e5aa5e347d337558"
     },
     {
+      "message_id": 24938,
+      "filename": "시네모 답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24938_.pdf",
+      "size_bytes": 37296693,
+      "telegram_date": "2026-10-05T04:54:52+00:00",
+      "title": "국어 시대인재 유신 파이널 시네 모의고사 5회",
+      "year": "2027",
+      "instructor": "유신",
+      "subject": "국어",
+      "thumbnail": "thumbnails/24938.png",
+      "sha256": "5da86d3d355f9587dbec6afdb0401226fac4dc7c0f9ceb34cccd5b93b2f9327a"
+    },
+    {
       "message_id": 24931,
       "filename": "BOB 24회.pdf",
       "stored_as": null,
