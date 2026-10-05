@@ -239,6 +239,20 @@
       "sha256": "919c6abfe858a2611164e7d1b08f5bee3867135491051c2305d7ec72e614cf1b"
     },
     {
+      "message_id": 24982,
+      "filename": "배모 시즌3 1회.pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24982_.3.1.pdf.pdf",
+      "size_bytes": 4036581,
+      "telegram_date": "2026-10-05T13:33:36+00:00",
+      "title": "물1 배기범 모의고사 시즌3 1회",
+      "year": "2027",
+      "instructor": "배기범",
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/24982.png",
+      "sha256": "d99cd6d772c210382d18cd08690464277c61f3fe0123bfeaffee793620b6e77c"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
