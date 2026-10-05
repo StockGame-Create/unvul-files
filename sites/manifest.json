@@ -100687,6 +100687,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12773.png",
       "sha256": "96ebc7698d540c47dcd4d081b8810f0e15f83d9cf047d5f506508854934bc99f"
+    },
+    {
+      "message_id": 12772,
+      "filename": "8월 더프 국어 문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12772_8.pdf",
+      "size_bytes": 34266850,
+      "telegram_date": "2025-08-21T14:48:26+00:00",
+      "title": "2026 대성 국어 더프리미엄 모의고사 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12772.png",
+      "sha256": "8435748ba47b78840f9f8584f3ec47f5448d57703d9958a6c1fde9e5396433ba"
     }
   ],
   "duplicate_message_ids": [
