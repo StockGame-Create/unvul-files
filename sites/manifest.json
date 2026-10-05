@@ -99203,6 +99203,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12908.png",
       "sha256": "a10d64da1f141ce378e5b75675adeb7092e4ef8d51300d4313d2f8ff3084ef62"
+    },
+    {
+      "message_id": 12907,
+      "filename": "4주차 장재원 LOBYIST 모의고사 7, 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12907_4.LOBYIST.7.8.pdf",
+      "size_bytes": 3624981,
+      "telegram_date": "2025-08-23T09:22:25+00:00",
+      "title": "4주차 장재원 LOBYIST 모의고사 7, 8회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12907.png",
+      "sha256": "efc6a444b87b51a016f7872f11a66fb07ae51fa0454331b69cfd300278f18d59"
     }
   ],
   "duplicate_message_ids": [
