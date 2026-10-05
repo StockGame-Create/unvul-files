@@ -98657,6 +98657,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12967.png",
       "sha256": "822cc65c9c537276c9388d571dc3b5e687b06524721152d83e7366c41d69cc2d"
+    },
+    {
+      "message_id": 12966,
+      "filename": "강 k 7회 영어 하프.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12966_.k.7.pdf",
+      "size_bytes": 11776351,
+      "telegram_date": "2025-08-25T05:33:13+00:00",
+      "title": "2026 영어 강k 7회 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12966.png",
+      "sha256": "6894faa8dfa9699b381ed31838ca4ba4e6260375ee90f6319f133e7461ca6230"
     }
   ],
   "duplicate_message_ids": [
