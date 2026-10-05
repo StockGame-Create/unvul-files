@@ -99427,6 +99427,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12891.png",
       "sha256": "813055aa01fa9df4151f59798aea2bfcd1aa77992d7ca320c29de86466893a6e"
+    },
+    {
+      "message_id": 12886,
+      "filename": "이동준_JUST모의고사_final_7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12886_._JUST._final_7.pdf",
+      "size_bytes": 16350388,
+      "telegram_date": "2025-08-23T01:17:48+00:00",
+      "title": "2026 이동준 모의고사 파이널 7회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12886.png",
+      "sha256": "4503280209a2b251fe6342071d122b7b48e89f63ad2b58458bdab6b632ef005c"
     }
   ],
   "duplicate_message_ids": [
