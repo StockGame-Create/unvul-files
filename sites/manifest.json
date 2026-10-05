@@ -101261,6 +101261,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12714.png",
       "sha256": "838365f02349cf5bc31534748e13a1e699d9f4a1453ebb414e4c6c670126d063"
+    },
+    {
+      "message_id": 12710,
+      "filename": "2026_수학_I_시대인재_수능기출문제집_Core_해설편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12710_2026_._I_._._Core_.pdf",
+      "size_bytes": 65287906,
+      "telegram_date": "2025-08-20T07:18:58+00:00",
+      "title": "2026 수학1 시대인재기출문제집 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12710.png",
+      "sha256": "40187fea23e8a674c57a5dffe1e328e1216705a97f31d1d9d65d3f215c1bfb74"
     }
   ],
   "duplicate_message_ids": [
