@@ -97537,6 +97537,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13083.png",
       "sha256": "6235178f586de498d83cc967f0ae8c80e16ccbe5251742acc5b95a4a91b15097"
+    },
+    {
+      "message_id": 13079,
+      "filename": "간쓸개 6-2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13079_.6-2.pdf",
+      "size_bytes": 16796627,
+      "telegram_date": "2025-08-26T13:01:31+00:00",
+      "title": "2026 간쓸개 시즌6 2주차 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13079.png",
+      "sha256": "4a44b4d8d3148736339fa82f3235d43f875ab4baffab2d9380ee01bdb561822d"
     }
   ],
   "duplicate_message_ids": [
