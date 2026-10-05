@@ -100897,6 +100897,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12762.png",
       "sha256": "34fa6b7f353df3fea6037cbbd33ad181413b57a0cb4f2a605b3cc63795d6904b"
+    },
+    {
+      "message_id": 12760,
+      "filename": "어삼쉬사_Plus_수학Ⅱ_정답과_풀이.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12760_._Plus_._._.pdf",
+      "size_bytes": 4235797,
+      "telegram_date": "2025-08-21T09:51:16+00:00",
+      "title": "어삼쉬사 플러스 수1 수2 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12760.png",
+      "sha256": "74ad8771656a3a7bc645385a3bbab5c0c67fbb9a71b2e04e073614836787b187"
     }
   ],
   "duplicate_message_ids": [
