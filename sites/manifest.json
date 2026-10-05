@@ -100939,6 +100939,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12754.png",
       "sha256": "e8a4c21594f36d2422bdf5fa2fa23def98eaf511856fd5cad6bb18aff65f95aa"
+    },
+    {
+      "message_id": 12753,
+      "filename": "김승리_실전_모의고사_3회_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12753_._._._3._.pdf",
+      "size_bytes": 17637936,
+      "telegram_date": "2025-08-21T09:45:41+00:00",
+      "title": "2026 김승리 실전 모의고사 3회 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12753.png",
+      "sha256": "ab6c1e02e5c0b844d48255e0dcac09bd7227fdd062ea7e02ed51687e6bbaff9f"
     }
   ],
   "duplicate_message_ids": [
