@@ -102955,6 +102955,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12461.png",
       "sha256": "7ceba284736426ea71b4d95f33b7f87e8b0daacfa74adb350cfc9403f8ad3a30"
+    },
+    {
+      "message_id": 12460,
+      "filename": "2회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12460_2.pdf",
+      "size_bytes": 1013255,
+      "telegram_date": "2025-08-15T06:14:48+00:00",
+      "title": "2회 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12460.png",
+      "sha256": "94295b98e271fd2e0e5a0357b1cb0c5cdfa18ae864f060a9bc3252be6c031389"
     }
   ],
   "duplicate_message_ids": [
