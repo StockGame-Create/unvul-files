@@ -101963,6 +101963,20 @@
       "sha256": "1b6320a1778e5b80cb5ac707a098e4f4b46aa818a85abb7dc88cd8c536b522b0"
     },
     {
+      "message_id": 12698,
+      "filename": "2026학년도_김젬마_국어_독서_선지_5일_만에_끝내기_본문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12698_2026._._._._._5._._._.pdf",
+      "size_bytes": 140004977,
+      "telegram_date": "2025-08-19T16:13:19+00:00",
+      "title": "2026 김젬마 선지강화 독서 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12698.png",
+      "sha256": "3b0a107797e0152ad2ae3bddb6da91a478d209669e2cf4eb3aaf1cb97ea63c9d"
+    },
+    {
       "message_id": 12696,
       "filename": "현우진 노베 도형.pdf",
       "stored_as": null,
