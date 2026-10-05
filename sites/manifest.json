@@ -98601,6 +98601,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12972.png",
       "sha256": "70ce09622a70857eeca70f3649627210c07865287efd657ebb3721889ff21aee"
+    },
+    {
+      "message_id": 12970,
+      "filename": "2026학년도_LEGACY_X_모의고사_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12970_2026._LEGACY_X_._.pdf",
+      "size_bytes": 3015644,
+      "telegram_date": "2025-08-25T05:36:14+00:00",
+      "title": "2026 세계지리 레거시X 모의고사 1회 #세지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12970.png",
+      "sha256": "6bf4ea3d89f027ae40612393a66a5914595afb6f2c0007489ed0ab0e56e39a26"
     }
   ],
   "duplicate_message_ids": [
