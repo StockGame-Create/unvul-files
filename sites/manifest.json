@@ -101569,6 +101569,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12674.png",
       "sha256": "6660afbbb38fa394e6e99dd2d3b3dbb3316d1869b5d6023d2931ce22127e94f7"
+    },
+    {
+      "message_id": 12673,
+      "filename": "2026 정병훈 빅포텐 기하 시즌2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12673_2026.2.pdf",
+      "size_bytes": 24043522,
+      "telegram_date": "2025-08-19T11:44:58+00:00",
+      "title": "2026 정병호 빅포텐 시즌2 기하 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12673.png",
+      "sha256": "8b1cb56263ca80b683d4a1e9a34c66968ad4bc4058659e57ae81f09b4d222879"
     }
   ],
   "duplicate_message_ids": [
