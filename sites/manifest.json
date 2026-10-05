@@ -97355,6 +97355,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13108.png",
       "sha256": "f6c46dddf033e432441007c9ab92487e82108919fe15ea589b3745e117102d0e"
+    },
+    {
+      "message_id": 13106,
+      "filename": "개정 시발점 확통.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13106_.pdf",
+      "size_bytes": 469562160,
+      "telegram_date": "2025-08-27T09:45:08+00:00",
+      "title": "현우진 개정 시발점 확통 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13106.png",
+      "sha256": "b122efcb98e519b954ab88c2be0ee37ce1e417aa2a2d96315d2b5830bcc0ea3b"
     }
   ],
   "duplicate_message_ids": [
