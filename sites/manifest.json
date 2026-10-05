@@ -98881,6 +98881,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12939.png",
       "sha256": "639d57d450872c26e821530c82d20618745657304b88cab4173abeb1f28d17e9"
+    },
+    {
+      "message_id": 12938,
+      "filename": "이감 파이널2 1차(6-1) 답지-등급컷 2p.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12938_.2.1.6-1.-.2p.pdf",
+      "size_bytes": 11485256,
+      "telegram_date": "2025-08-24T05:55:18+00:00",
+      "title": "2026 이감 파이널2 시즌6 1회 등급컷 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12938.png",
+      "sha256": "ab195b74b11d88ca0fe2b9de029b12b5818465498f66b11e219394e6b0f08b10"
     }
   ],
   "duplicate_message_ids": [
