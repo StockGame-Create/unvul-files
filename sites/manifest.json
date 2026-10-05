@@ -101597,6 +101597,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12664.png",
       "sha256": "3d1de1764e5211a36e16c12340a5ca747eff6fc688f2472f3248e81c362aaa52"
+    },
+    {
+      "message_id": 12663,
+      "filename": "2026 서바이벌 전국 수학 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12663_2026.6.pdf",
+      "size_bytes": 11107832,
+      "telegram_date": "2025-08-19T09:06:30+00:00",
+      "title": "2026 수학 전국 서바이벌 6회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12663.png",
+      "sha256": "bb48f076568ebacd34d591054687c2ab01b508b92ebd014e22da6cef8862d372"
     }
   ],
   "duplicate_message_ids": [
