@@ -100995,6 +100995,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12739.png",
       "sha256": "478c1bb8242a894c3997fd9ff3f1921d63426eb385369676b7bf523a80bddec9"
+    },
+    {
+      "message_id": 12738,
+      "filename": "20241205_조정식T_26_기출정식_해설편_내지2CH_11_온라인서비스_단면_최종_250224_140918.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12738_20241205_.T_26_._._.2CH_11_._._._250224_140918.pdf",
+      "size_bytes": 2412059,
+      "telegram_date": "2025-08-20T13:40:44+00:00",
+      "title": "2026 조정식 기출정식 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12738.png",
+      "sha256": "f9c3504a8eb2e66cdb1123f953eae08b637138a8f0da523f3e14dbf6a4a089f5"
     }
   ],
   "duplicate_message_ids": [
