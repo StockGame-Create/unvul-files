@@ -99,6 +99,20 @@
       "sha256": "92a8b22d7d3207ba635825bdd02a033d19ba465af624380315957526cab0d2a7"
     },
     {
+      "message_id": 24941,
+      "filename": "EBS 파이널 지1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24941_EBS.1.pdf",
+      "size_bytes": 12886637,
+      "telegram_date": "2026-10-05T04:54:59+00:00",
+      "title": "지1 EBS 2027 FINAL 실전 모의고사",
+      "year": "2027",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/24941.png",
+      "sha256": "ce07d93b3c98d85381b1b63895154b10c3981067a8acea9965619a5852d502c5"
+    },
+    {
       "message_id": 24931,
       "filename": "BOB 24회.pdf",
       "stored_as": null,
