@@ -100981,6 +100981,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12746.png",
       "sha256": "0ee394b0dce8add04a641917bc4dd1468a7422348ab13d9566258d24af085a31"
+    },
+    {
+      "message_id": 12739,
+      "filename": "조정식_기출정식_ocr_250220_091235.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12739_._._ocr_250220_091235.pdf",
+      "size_bytes": 269286275,
+      "telegram_date": "2025-08-20T13:40:44+00:00",
+      "title": "2026 조정식 기출정식 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12739.png",
+      "sha256": "478c1bb8242a894c3997fd9ff3f1921d63426eb385369676b7bf523a80bddec9"
     }
   ],
   "duplicate_message_ids": [
