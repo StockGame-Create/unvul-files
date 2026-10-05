@@ -100309,6 +100309,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12819.png",
       "sha256": "d77da8791f592192126f9711d73ce14f109b6c2c0fd1c422bb84f8d17a30bed3"
+    },
+    {
+      "message_id": 12817,
+      "filename": "자이스토리_고3_수2_해설2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12817_._.3_.2_.2.pdf",
+      "size_bytes": 142919065,
+      "telegram_date": "2025-08-22T07:44:27+00:00",
+      "title": "2026 자이스토리 수학2 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12817.png",
+      "sha256": "fa580df3dc2bee669b8cc325bf078ffffce6221f8dace0bae8f1d59c2dce17e7"
     }
   ],
   "duplicate_message_ids": [
