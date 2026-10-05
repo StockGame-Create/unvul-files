@@ -102241,6 +102241,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12565.png",
       "sha256": "3c51d73b3d8c93fc99b68784e1cb2ae3436bcbf9e2bfc53a7be9417b04d13348"
+    },
+    {
+      "message_id": 12564,
+      "filename": "2026 서바 리부트 수학 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12564_2026.2.pdf",
+      "size_bytes": 9005909,
+      "telegram_date": "2025-08-17T03:20:56+00:00",
+      "title": "2026 서바 리부트 수학 2회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12564.png",
+      "sha256": "05a6dd765afc887485e4d26b046b27c199ad80ee9ad98a8f6ded966c6f212124"
     }
   ],
   "duplicate_message_ids": [
