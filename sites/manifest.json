@@ -97789,6 +97789,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13053.png",
       "sha256": "938b1f5ff47505e52675d4e7e6ac19890384ad4f0bb0d7e7bc596719356ddc40"
+    },
+    {
+      "message_id": 13052,
+      "filename": "2026학년도_현돌_생윤_실개완_비킬러_파트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13052_2026._._._._._.pdf",
+      "size_bytes": 42404274,
+      "telegram_date": "2025-08-26T00:40:06+00:00",
+      "title": "2026 현자의돌 실전개념완성 비주요 파트 #생윤",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13052.png",
+      "sha256": "3c52ceeef5a4d28bb65ab730a6c945773e6a4235fb5fdd984dde4b39aefbe2de"
     }
   ],
   "duplicate_message_ids": [
