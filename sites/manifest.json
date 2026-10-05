@@ -102437,6 +102437,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12533.png",
       "sha256": "a8a5095fc3d3c413947181ddb1aa78be81b27c1a30176d8047f3a854dc6ceb6c"
+    },
+    {
+      "message_id": 12529,
+      "filename": "2026학년도_시대인재_Final_브릿지_전국_모의고사_3회_수학영역.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12529_2026._._Final_._._._3._.pdf",
+      "size_bytes": 18442205,
+      "telegram_date": "2025-08-16T13:35:16+00:00",
+      "title": "2026 시대인재 파이널 브릿지 3회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12529.png",
+      "sha256": "1175aab67d94430bbd77a892a2add54a436f64a2f90a4bc10cd6f612f5bffd8f"
     }
   ],
   "duplicate_message_ids": [
