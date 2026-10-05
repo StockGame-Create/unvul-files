@@ -29,6 +29,20 @@
       "sha256": "ea227003244b99f36844e89f4ed45e904beaee9e63e9a167c5fd740b2ac51b0d"
     },
     {
+      "message_id": 24964,
+      "filename": "TalkFile_27 사문 파브 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24964_TalkFile_27.6.pdf",
+      "size_bytes": 33950562,
+      "telegram_date": "2026-10-05T12:48:34+00:00",
+      "title": "사문 시대인재 Final 브릿지 전국 모의고사 6회 #파브전국",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/24964.png",
+      "sha256": "e19bc206dc203e2ea72cbcce38b084a4933f69f73042af16e79e65db1eccf9c7"
+    },
+    {
       "message_id": 24960,
       "filename": "답지.pdf",
       "stored_as": null,
