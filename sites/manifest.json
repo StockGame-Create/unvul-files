@@ -102535,6 +102535,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12516.png",
       "sha256": "24a9efa28b8b3ac7d9120ff52e915f9f364e9a7fb3d371681217962ef287cd85"
+    },
+    {
+      "message_id": 12514,
+      "filename": "5_2026_빅포텐_시즌2_미적분_250728_095844.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12514_5_2026_._.2_._250728_095844.pdf",
+      "size_bytes": 12939249,
+      "telegram_date": "2025-08-16T07:41:35+00:00",
+      "title": "2026 빅포텐 시즌2 미적분 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12514.png",
+      "sha256": "893c26582fe5263ea6cbcf90e9b1cd4202dcb39e26f16a7d03442cb98890167e"
     }
   ],
   "duplicate_message_ids": [
