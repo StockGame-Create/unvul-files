@@ -98629,6 +98629,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12969.png",
       "sha256": "d56370ae962b47b3e44a718e67a334a52b86c0861770b741e3e5640a47b4f118"
+    },
+    {
+      "message_id": 12968,
+      "filename": "호형훈제_12회_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12968_._12._.pdf",
+      "size_bytes": 8115061,
+      "telegram_date": "2025-08-25T05:34:14+00:00",
+      "title": "2026 호형훈제 스피드러너 모의고사 12회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12968.png",
+      "sha256": "6fad239fc9a2258be396166ed76dc9588acdcef18cc97d199922eac5e3bd4bdf"
     }
   ],
   "duplicate_message_ids": [
