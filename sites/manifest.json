@@ -102157,6 +102157,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12571.png",
       "sha256": "bb63cc945ebc93106b7a0194e0257f02cdc18a1b68bbc1e6a75ca182d4dca637"
+    },
+    {
+      "message_id": 12570,
+      "filename": "특난도 현장 4회답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12570_.4.pdf",
+      "size_bytes": 727343,
+      "telegram_date": "2025-08-17T03:21:17+00:00",
+      "title": "특난도 현장 4회답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12570.png",
+      "sha256": "f967755fe8745385c049001f3255877780e6042d2a9585715e5cf933d3893451"
     }
   ],
   "duplicate_message_ids": [
