@@ -103025,6 +103025,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12455.png",
       "sha256": "212daaf861e26a10359acba0a4025c2ccbfc095120dd346d39f19c806f48bff1"
+    },
+    {
+      "message_id": 12454,
+      "filename": "5회 문제,답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12454_5.pdf",
+      "size_bytes": 1434661,
+      "telegram_date": "2025-08-15T06:14:47+00:00",
+      "title": "5회 문제,답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12454.png",
+      "sha256": "5ec8ba1c4fb8e07ee2478a9993b278658f20612dc2a6602f3157102da228485a"
     }
   ],
   "duplicate_message_ids": [
