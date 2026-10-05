@@ -100421,6 +100421,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12803.png",
       "sha256": "09ecc79eb4ffad7564d7dc1fb0e9d53fc4daf13b1b5075fbcbd9a059fa49b3d1"
+    },
+    {
+      "message_id": 12802,
+      "filename": "상상_파이널_4회_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12802_._._4._.pdf",
+      "size_bytes": 49640265,
+      "telegram_date": "2025-08-22T03:29:30+00:00",
+      "title": "2026 상상 파이널 4회 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12802.png",
+      "sha256": "6a39d282221dbe90661532b176f019ce7631226828f4204a49a355c0b1f18e91"
     }
   ],
   "duplicate_message_ids": [
