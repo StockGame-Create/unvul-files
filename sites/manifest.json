@@ -103809,6 +103809,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12414.png",
       "sha256": "d08a951c1ccac4b8cd4055cc408a21a6cc28b20032bdd8f4feb2785a9e032a0a"
+    },
+    {
+      "message_id": 12413,
+      "filename": "권용기 한국사 2026.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12413_.2026.pdf",
+      "size_bytes": 20237913,
+      "telegram_date": "2025-08-14T17:07:23+00:00",
+      "title": "2026 권용기 용기백배 #한국사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12413.png",
+      "sha256": "1e3d9a9334d4b6992e4820b0c61e8295604fbfa41680d81c2cb6e97cebc52f2a"
     }
   ],
   "duplicate_message_ids": [
