@@ -97747,6 +97747,20 @@
       "subject": "국어",
       "thumbnail": "thumbnails/13059.png",
       "sha256": "6aeaa163e129aea4fbf913971e5b2a31387a475d3e121642a025fb7df574ce71"
+    },
+    {
+      "message_id": 13058,
+      "filename": "강K 국어 7회 정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13058_.K.7.pdf",
+      "size_bytes": 1092628,
+      "telegram_date": "2025-08-26T03:16:41+00:00",
+      "title": "국어 강대모의고사k 7회 #강k",
+      "year": "2026",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/13058.png",
+      "sha256": "41cb8c4be69ab9f0c1e910f7be5101f97f7142ea1d3afe4df91dc53ea8905a31"
     }
   ],
   "duplicate_message_ids": [
