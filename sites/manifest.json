@@ -100645,6 +100645,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12777.png",
       "sha256": "de095f0519b52af9443e815cdec15f4a641291f1c97346b0062939ef70a8d39f"
+    },
+    {
+      "message_id": 12776,
+      "filename": "8월_더프_한국사_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12776_8._._._.pdf",
+      "size_bytes": 6030846,
+      "telegram_date": "2025-08-21T15:15:25+00:00",
+      "title": "2026 대성 한국사 더프리미엄 모의고사 #한국사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12776.png",
+      "sha256": "f1317587138b5f83769194efeb10b9960e42f2c549d008eb33c5279d75d3eb21"
     }
   ],
   "duplicate_message_ids": [
