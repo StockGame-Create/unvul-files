@@ -104873,6 +104873,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12372.png",
       "sha256": "ee3645153c0de727e7a31cc6b33c73e6e8274d019947d684921602eb147ff8ec"
+    },
+    {
+      "message_id": 12371,
+      "filename": "2026 물리학1 강대 서킷 14회 정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12371_2026.1.14.pdf",
+      "size_bytes": 740284,
+      "telegram_date": "2025-08-14T14:50:29+00:00",
+      "title": "2026 물리학1 강대 서킷 14회 정답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12371.png",
+      "sha256": "8cdf305da19742985704a28208a4fe79b4b689e45a2f307f1bc6e42994ad10a2"
     }
   ],
   "duplicate_message_ids": [
