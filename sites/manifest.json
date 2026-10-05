@@ -101793,6 +101793,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12638.png",
       "sha256": "d4625bf2963e6955d4783bbc4fcb93b2ede2d60398bc7aa55621e86a27c1db17"
+    },
+    {
+      "message_id": 12630,
+      "filename": "2026_ALL_LIM'S_PICK_생활과_윤리_상권_임정환_pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12630_2026_ALL_LIM.S_PICK_._._._._pdf.pdf",
+      "size_bytes": 34246283,
+      "telegram_date": "2025-08-18T09:12:30+00:00",
+      "title": "2026 임정환 올림픽 (상) #생윤",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12630.png",
+      "sha256": "bc7f176c7e16ca1873439568a1a2830c99c1d5a240f165ca36708a64bd23e7bd"
     }
   ],
   "duplicate_message_ids": [
