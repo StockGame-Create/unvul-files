@@ -99231,6 +99231,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12906.png",
       "sha256": "9e9b9a8074c5605a870ad1ac7b0f5ee5eb80380faf953711fe0cf93bfaf77396"
+    },
+    {
+      "message_id": 12905,
+      "filename": "3주차 장재원 리플레이.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12905_3.pdf",
+      "size_bytes": 5060756,
+      "telegram_date": "2025-08-23T09:22:25+00:00",
+      "title": "3주차 장재원 리플레이",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12905.png",
+      "sha256": "223812aadc2e4642a65e0f68a68f90ad5384c7c0aad79a8c1ea6632c77adffb6"
     }
   ],
   "duplicate_message_ids": [
