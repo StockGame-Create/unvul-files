@@ -98293,6 +98293,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13000.png",
       "sha256": "df6d40002856c622e41f0aeaf071ddf5323015f794758a31fc10d06cdebda71f"
+    },
+    {
+      "message_id": 12999,
+      "filename": "2026 최적 정법 선거게임 .pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12999_2026.pdf",
+      "size_bytes": 19344865,
+      "telegram_date": "2025-08-25T13:21:56+00:00",
+      "title": "2026 최적 선거게임 #정법",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12999.png",
+      "sha256": "a9a76379e8362a12c3ff90aec21779a5d4a6a858652056f800aff169fec756ae"
     }
   ],
   "duplicate_message_ids": [
