@@ -104691,6 +104691,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12386.png",
       "sha256": "ce6ed9488b216112cd65dffb5cdebc58b3ae6113aa3c8743af7335912cf656b3"
+    },
+    {
+      "message_id": 12385,
+      "filename": "세계지리 파이널 브릿지 3회 문제+해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12385_.3.%2B.pdf",
+      "size_bytes": 8981293,
+      "telegram_date": "2025-08-14T14:52:07+00:00",
+      "title": "2026 세계지리 시대인재 [ 서바이벌, 전국 서바이벌, 파이널 브릿지 ] 3,4회 #세지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12385.png",
+      "sha256": "38586136e7da35d78c311fdc17899696b49dcd27a0e9119029a4355dfa334776"
     }
   ],
   "duplicate_message_ids": [
