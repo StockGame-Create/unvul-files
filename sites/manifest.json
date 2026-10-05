@@ -100673,6 +100673,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12775.png",
       "sha256": "fc62fbb94a708e0684627d61001f11a42f1230cb3fb45090652cf2033a0396f5"
+    },
+    {
+      "message_id": 12773,
+      "filename": "8월 더프 수학 문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12773_8.pdf",
+      "size_bytes": 2425396,
+      "telegram_date": "2025-08-21T14:48:34+00:00",
+      "title": "2026 대성 수학 더프리미엄 모의고사 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12773.png",
+      "sha256": "96ebc7698d540c47dcd4d081b8810f0e15f83d9cf047d5f506508854934bc99f"
     }
   ],
   "duplicate_message_ids": [
