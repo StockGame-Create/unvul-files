@@ -102381,6 +102381,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12544.png",
       "sha256": "4eab0f55e9b7661675809b89cda4f99a35e7acce412c793a9381c98610cee664"
+    },
+    {
+      "message_id": 12542,
+      "filename": "7월 서프 영어 해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12542_7.pdf",
+      "size_bytes": 758044,
+      "telegram_date": "2025-08-16T15:36:04+00:00",
+      "title": "7월 서프 영어 해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12542.png",
+      "sha256": "c6da16cc4ce71bda060adf1fc134693d4485af343ecc4688d08429b51fe162f1"
     }
   ],
   "duplicate_message_ids": [
