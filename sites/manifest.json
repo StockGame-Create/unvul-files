@@ -183,6 +183,20 @@
       "sha256": "686129004ee545b7d9ceb5e19bf3d5ceda58d03b125621a72b3aaf8a68dbc7fb"
     },
     {
+      "message_id": 24988,
+      "filename": "현자의 돌 시즌2_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24988_.2_.pdf",
+      "size_bytes": 231302144,
+      "telegram_date": "2026-10-05T13:33:45+00:00",
+      "title": "생윤 현자의 돌 파이널 모의고사 1~10회 #현돌모",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/24988.png",
+      "sha256": "63fcc808d57c6eb2dbcd86843d2c76b7120c4a1cb030a06ae0aeee636a2b167e"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
