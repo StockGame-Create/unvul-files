@@ -101555,6 +101555,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12675.png",
       "sha256": "cef0b9f73bacb07e6b2e5290295e7e6823e18652f13e57abfbcb63e8b327a355"
+    },
+    {
+      "message_id": 12674,
+      "filename": "일품_공통수학1_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12674_._.1_.pdf",
+      "size_bytes": 18602312,
+      "telegram_date": "2025-08-19T12:58:38+00:00",
+      "title": "일품 공통수학1 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12674.png",
+      "sha256": "6660afbbb38fa394e6e99dd2d3b3dbb3316d1869b5d6023d2931ce22127e94f7"
     }
   ],
   "duplicate_message_ids": [
