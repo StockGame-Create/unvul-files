@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 24949,
+      "filename": "디아카이브00_한국지리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24949_.00_.pdf",
+      "size_bytes": 4139019,
+      "telegram_date": "2026-10-05T04:55:08+00:00",
+      "title": "한지 D.archive 0회 문제지 #디아카이브",
+      "year": "2027",
+      "instructor": null,
+      "subject": "한국지리",
+      "thumbnail": "thumbnails/24949.png",
+      "sha256": "058cabe8eb06d280cfd5493f706e8ab55de308624625b11862f53b750bc80646"
+    },
+    {
       "message_id": 24931,
       "filename": "BOB 24회.pdf",
       "stored_as": null,
