@@ -99455,6 +99455,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12884.png",
       "sha256": "632cbe5a31a2928a18599a4acb802dcdf2dc3ffa3865c66ef9cb3d30685f6f18"
+    },
+    {
+      "message_id": 12883,
+      "filename": "2026 강대 CIRCUIT 수학 24회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12883_2026.CIRCUIT.24.pdf",
+      "size_bytes": 1138563,
+      "telegram_date": "2025-08-22T16:42:41+00:00",
+      "title": "2026 강대 서킷 24회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12883.png",
+      "sha256": "fd012e5d07cc8d686c056fc52cb1ce3cc57dc88818f0cac0856957a47f4cc412"
     }
   ],
   "duplicate_message_ids": [
