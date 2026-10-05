@@ -98559,6 +98559,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12976.png",
       "sha256": "0707d397af5acb247b7c18aa9826fb43dcb2a0acef80e3b0c19e5749378967d4"
+    },
+    {
+      "message_id": 12974,
+      "filename": "2026_김종익_생윤_용어_사전.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12974_2026_._._._.pdf",
+      "size_bytes": 4051283,
+      "telegram_date": "2025-08-25T05:39:57+00:00",
+      "title": "2026 김종익 용어사전 #생윤",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12974.png",
+      "sha256": "26122cc4e028e692b1201056a5a8b88dd41025d76ac1d7005e2a0db620a66cc2"
     }
   ],
   "duplicate_message_ids": [
