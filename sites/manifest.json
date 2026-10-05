@@ -85,6 +85,20 @@
       "sha256": "248de14563c9c3a8179f58a812b7a8624188183d1f22fc893ff52cf797f746c0"
     },
     {
+      "message_id": 25002,
+      "filename": "2027_이명학_그럼에도_불구하고.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25002_2027_._._.pdf",
+      "size_bytes": 105282469,
+      "telegram_date": "2026-10-05T13:33:57+00:00",
+      "title": "영어 이명학 그럼에도 불구하고",
+      "year": "2027",
+      "instructor": "이명학",
+      "subject": "영어",
+      "thumbnail": "thumbnails/25002.png",
+      "sha256": "72b41f753cfcb778feae263ad4ac2e6d3d8562a29d169f44c095456fc46e7d0e"
+    },
+    {
       "message_id": 25000,
       "filename": "2027_상상_시즌5_4회_정답및해설_B4.pdf",
       "stored_as": null,
