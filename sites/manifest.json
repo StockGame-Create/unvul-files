@@ -97075,6 +97075,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13129.png",
       "sha256": "4d628d4bb420685ab2f08e7bb4da8375e71c60e3662b4fb9aec9306a95663823"
+    },
+    {
+      "message_id": 13128,
+      "filename": "2026_강대모의고사K_화학1_1회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13128_2026_.K_.1_1._.pdf",
+      "size_bytes": 230395,
+      "telegram_date": "2025-08-27T13:28:02+00:00",
+      "title": "2026_강대모의고사K_화학1_1회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13128.png",
+      "sha256": "dadcc56596c8cbdc219d1278a69b9c990c33e92a90efbd320470eca3407023f7"
     }
   ],
   "duplicate_message_ids": [
