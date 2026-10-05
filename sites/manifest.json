@@ -97411,6 +97411,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13099.png",
       "sha256": "efd77d557a2ff1d77722017b693e1febc0b07bb1767581d25a1dca542f12f8eb"
+    },
+    {
+      "message_id": 13097,
+      "filename": "2026_강민철의_기출_분석_화법과_작문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13097_2026_._._._._.pdf",
+      "size_bytes": 349313146,
+      "telegram_date": "2025-08-27T09:19:49+00:00",
+      "title": "2026 강민철 강민철의 기출 분석 화법과 작문 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13097.png",
+      "sha256": "dbc45facaef7affa5333cf578c5a96920f1d80c4b3930bbecb60e029df5cf3a4"
     }
   ],
   "duplicate_message_ids": [
