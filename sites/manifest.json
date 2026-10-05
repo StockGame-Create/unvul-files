@@ -99777,6 +99777,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12858.png",
       "sha256": "239d16e92f89f8f5c5adb384903ba68290f3db668e69ee89721ccfdf079c1259"
+    },
+    {
+      "message_id": 12856,
+      "filename": "시대인재_전국_서바_2회_경제_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12856_._._._2._._.pdf",
+      "size_bytes": 5043134,
+      "telegram_date": "2025-08-22T10:06:53+00:00",
+      "title": "2025 경제 전국 서바이벌 2회 #경제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12856.png",
+      "sha256": "5a1b67b66e9127ff4e2936a6f1767969140be4275827dfb39179488d78ec6366"
     }
   ],
   "duplicate_message_ids": [
