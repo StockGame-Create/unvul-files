@@ -141,6 +141,20 @@
       "sha256": "8990985295734aa588d4d9139faffa86492e64acf77e1b633035afc51bc9083f"
     },
     {
+      "message_id": 24994,
+      "filename": "화바 17,18.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24994_.17.18.pdf",
+      "size_bytes": 5222664,
+      "telegram_date": "2026-10-05T13:33:49+00:00",
+      "title": "화1 시대인재 서바이벌 모의고사 17, 18회 #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "화학1",
+      "thumbnail": "thumbnails/24994.png",
+      "sha256": "936fd0d583d7a9a85ca3f5e598b82a06a6ab6b600edacfea8f423f3fb1ebdf94"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
