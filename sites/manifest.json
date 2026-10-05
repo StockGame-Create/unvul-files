@@ -102661,6 +102661,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12491.png",
       "sha256": "819b11463f1b513127a9be1813ca938f5ab6fe439a459c53e2621fddfac71761"
+    },
+    {
+      "message_id": 12490,
+      "filename": "강_k_하프_영어_6회_250816_123757.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12490_._k_._._6._250816_123757.pdf",
+      "size_bytes": 5797768,
+      "telegram_date": "2025-08-16T03:56:23+00:00",
+      "title": "2026 영어 강k 독해 하프 6회 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12490.png",
+      "sha256": "a183a41487214ede06465f64435668b0cdb9eb1b015049d041ac86d5fe486d93"
     }
   ],
   "duplicate_message_ids": [
