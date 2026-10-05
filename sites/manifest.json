@@ -102633,6 +102633,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12509.png",
       "sha256": "d3f17f6ab2e4df34de8db627c3fec77b6751906b7f34fbf518bacfd4f8cf6436"
+    },
+    {
+      "message_id": 12506,
+      "filename": "이신혁 시즌2 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12506_.2.6.pdf",
+      "size_bytes": 14433544,
+      "telegram_date": "2025-08-16T07:16:08+00:00",
+      "title": "2026 이신혁 모의평가 시즌2 6회 #지1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12506.png",
+      "sha256": "228cc3e1ef5f4ec5327b99ecc86874ccb1597e06369d7efa318214c5fd084f8c"
     }
   ],
   "duplicate_message_ids": [
