@@ -97467,6 +97467,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13093.png",
       "sha256": "4abe487acbfc97aa4b16b9714e2fa864c055eb9985f0913001ad55777586ac04"
+    },
+    {
+      "message_id": 13092,
+      "filename": "히든카이스_시즌3_문제_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13092_._.3_._.pdf",
+      "size_bytes": 59183592,
+      "telegram_date": "2025-08-27T09:08:52+00:00",
+      "title": "2026 히든카이스 모의고사 시즌3 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13092.png",
+      "sha256": "32224137c8b821516ea3ebd161ab6d0717a3a2ed12c9611c4b6291c09561db58"
     }
   ],
   "duplicate_message_ids": [
