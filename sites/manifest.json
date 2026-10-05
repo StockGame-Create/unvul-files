@@ -97705,6 +97705,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13065.png",
       "sha256": "d35fbec00c2f6b6df4178161fccd5059daf999d7770344ad87943fe445c72dfa"
+    },
+    {
+      "message_id": 13063,
+      "filename": "2026_만점마무리_봉투모의고사_시즌1_영어영역_정답과해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13063_2026_._._.1_._.pdf",
+      "size_bytes": 1914208,
+      "telegram_date": "2025-08-26T09:08:08+00:00",
+      "title": "2026 EBS 봉투 모의고사 1회 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13063.png",
+      "sha256": "49a5cab9d807697fa2ed8f36569ee75b299de5698818fd4238218b25ebb8786c"
     }
   ],
   "duplicate_message_ids": [
