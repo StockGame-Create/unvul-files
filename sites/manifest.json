@@ -97047,6 +97047,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13132.png",
       "sha256": "a7090844616abe1e871ef3be9bb78d8d7f8a0cf19e62283be0b62391702a00a5"
+    },
+    {
+      "message_id": 13131,
+      "filename": "전국 파이널 브릿지 8회_250827_233132.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13131_.8._250827_233132.pdf",
+      "size_bytes": 6992137,
+      "telegram_date": "2025-08-27T14:35:46+00:00",
+      "title": "2026 파이널 브릿지 전국 8회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13131.png",
+      "sha256": "3cae676ad5a3ef61a6afd6f10ce636f737fd6bff5fee3aa392a287bbf91c9546"
     }
   ],
   "duplicate_message_ids": [
