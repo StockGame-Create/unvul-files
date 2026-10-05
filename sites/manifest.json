@@ -99553,6 +99553,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12874.png",
       "sha256": "ebef0453792e58d9e3807fb65bc135263b9247c11fac348400964ea7845638df"
+    },
+    {
+      "message_id": 12873,
+      "filename": "2026 정치와법 파이널 브릿지 전국 1회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12873_2026.1.pdf",
+      "size_bytes": 14421396,
+      "telegram_date": "2025-08-22T10:22:20+00:00",
+      "title": "2026 정치와법 파이널 브릿지 전국 1회 #정법",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12873.png",
+      "sha256": "9b29ca364908418cf99810f0f46f4384e745c545d222f8fcbdd49304e1ab9dfd"
     }
   ],
   "duplicate_message_ids": [
