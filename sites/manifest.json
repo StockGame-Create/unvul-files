@@ -99581,6 +99581,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12872.png",
       "sha256": "ade4687759dad5c66b6e1fe93d7f2996ef4c37fa1268fff3f999e11d68d16df3"
+    },
+    {
+      "message_id": 12871,
+      "filename": "과탐 해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12871_.pdf",
+      "size_bytes": 1602270,
+      "telegram_date": "2025-08-22T10:17:53+00:00",
+      "title": "2026 8월 종로 모의고사 탐구",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12871.png",
+      "sha256": "979effadb1246242619399a710c4a9e195b290e5e948af54aedc73198dc16253"
     }
   ],
   "duplicate_message_ids": [
