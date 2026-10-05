@@ -267,6 +267,20 @@
       "sha256": "9a86605f311b612abc2e0fc157bcd5e1a526ebc8c316fd0a64aa903dc016b8df"
     },
     {
+      "message_id": 24977,
+      "filename": "해설(1회).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24977_.1.pdf",
+      "size_bytes": 20444107,
+      "telegram_date": "2026-10-05T13:33:30+00:00",
+      "title": "지1 Orca 1st drop 1회 모의고사",
+      "year": "2027",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/24977.png",
+      "sha256": "087eb2d09099333a1f5c58a18d3447df03739b01439c4962760a0adb2d0db0ce"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
