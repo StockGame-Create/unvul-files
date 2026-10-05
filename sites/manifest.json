@@ -85,6 +85,20 @@
       "sha256": "8b435e67ec09c99d74ac2be2a4a2ae4cda8320860b7c7a306abd91df5d3290f9"
     },
     {
+      "message_id": 25014,
+      "filename": "시그모 시즌1(답지 포함).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25014_.1.pdf",
+      "size_bytes": 4479755,
+      "telegram_date": "2026-10-05T15:49:18+00:00",
+      "title": "화1 김준 시그니처 모의고사 1~5회 #시그모",
+      "year": "2027",
+      "instructor": "김준",
+      "subject": "화학1",
+      "thumbnail": "thumbnails/25014.png",
+      "sha256": "a086f3ecdfb9f16d7ccf024c7c80826bb8135705b9efc0a41ec13f654bdec44c"
+    },
+    {
       "message_id": 25010,
       "filename": "김승리의_선택_화작_시즌2_6회_해설.pdf",
       "stored_as": null,
