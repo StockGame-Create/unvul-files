@@ -103627,6 +103627,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12433.png",
       "sha256": "414f2ebb32d36cfa13ad833acb8e66b51e28bc02229e1480df454a46426153bb"
+    },
+    {
+      "message_id": 12432,
+      "filename": "2026 범모 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12432_2026.1.pdf",
+      "size_bytes": 986967,
+      "telegram_date": "2025-08-15T04:17:32+00:00",
+      "title": "2026 범모 김범준모의고사 1회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12432.png",
+      "sha256": "b554aec13ea41d1c125023e64573d464825f60c92a63313903188ea229ab79a6"
     }
   ],
   "duplicate_message_ids": [
