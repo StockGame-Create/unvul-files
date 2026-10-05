@@ -104733,6 +104733,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12383.png",
       "sha256": "47f0ef062b0f1f82ccc13d3aff59213ae05de15dabefe6ac6e4c8fb5e87d51b7"
+    },
+    {
+      "message_id": 12382,
+      "filename": "2026학년도_Practical_시즌2_1회_미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12382_2026._Practical_.2_1._.pdf",
+      "size_bytes": 1068449,
+      "telegram_date": "2025-08-14T14:51:08+00:00",
+      "title": "2026 정병호 Practical 시즌 2 1회 미적분 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12382.png",
+      "sha256": "ff8d94137b9f2b2b74819c018bcd0ed0c649a3c18b44a71854f49c869bd0267e"
     }
   ],
   "duplicate_message_ids": [
