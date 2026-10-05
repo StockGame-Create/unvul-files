@@ -99693,6 +99693,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12864.png",
       "sha256": "bfd3cabb9755ac6660d623b303162f220e3a627df35d1229135547dded8f5c5d"
+    },
+    {
+      "message_id": 12863,
+      "filename": "2026 지구과학1 강대K 4회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12863_2026.1.K.4.pdf",
+      "size_bytes": 239310,
+      "telegram_date": "2025-08-22T10:11:08+00:00",
+      "title": "2026 지구과학1 강k 1회 ~ 4회 #지1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12863.png",
+      "sha256": "ee13a2349978a5f88686d5a910a90089610a41bb77bf6e819d8598d31939df4c"
     }
   ],
   "duplicate_message_ids": [
