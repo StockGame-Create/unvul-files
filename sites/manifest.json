@@ -101009,6 +101009,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12738.png",
       "sha256": "f9c3504a8eb2e66cdb1123f953eae08b637138a8f0da523f3e14dbf6a4a089f5"
+    },
+    {
+      "message_id": 12734,
+      "filename": "2026학년도_9모_대비_SCHOLAR_모의고사_정답_및_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12734_2026._9._._SCHOLAR_._._._.pdf",
+      "size_bytes": 2572645,
+      "telegram_date": "2025-08-20T13:02:40+00:00",
+      "title": "2026학년도_9모_대비_SCHOLAR_모의고사_정답_및_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12734.png",
+      "sha256": "79f4ad67b584ad04dfdc84b2294045a45a9e25bb9e4c24ae818f786fb6d11c92"
     }
   ],
   "duplicate_message_ids": [
