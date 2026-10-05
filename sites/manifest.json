@@ -102857,6 +102857,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12470.png",
       "sha256": "397c098be3b6536e84f315fcc2cd87a760d4b9316c91f1ae69b0053452e408e1"
+    },
+    {
+      "message_id": 12469,
+      "filename": "전자책_Final_Lecture_물리1_N제_1권_Space_Time_문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12469_._Final_Lecture_.1_N._1._Space_Time_.pdf",
+      "size_bytes": 6539451,
+      "telegram_date": "2025-08-15T12:17:18+00:00",
+      "title": "2026 물1 김형모 Final Lecture N제 1~2권 #물1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12469.png",
+      "sha256": "b9cb411d32ed079455a8a59227b32df3d4cceb3718a49c1ab70fb39eadc69af6"
     }
   ],
   "duplicate_message_ids": [
