@@ -102563,6 +102563,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12513.png",
       "sha256": "59c8cbca58c246292b202c9b2e73aaee73751aab59d98cd9e5e666a2c1e0956f"
+    },
+    {
+      "message_id": 12509,
+      "filename": "2025_이창무_문해전_시즌2_수2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12509_2025_._._.2_.2.pdf",
+      "size_bytes": 61956165,
+      "telegram_date": "2025-08-16T07:38:33+00:00",
+      "title": "2025 이창무 문해전 시즌2 수2 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12509.png",
+      "sha256": "d3f17f6ab2e4df34de8db627c3fec77b6751906b7f34fbf518bacfd4f8cf6436"
     }
   ],
   "duplicate_message_ids": [
