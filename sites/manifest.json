@@ -57,6 +57,20 @@
       "sha256": "b435bae41cec8f707ac9874edf49e93f1a00bbdd9530726e2386255cce07cb03"
     },
     {
+      "message_id": 25005,
+      "filename": "스캔_문서,_2026_10_5_오후_9_00_29.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25005_._._2026_10_5_._9_00_29.pdf",
+      "size_bytes": 5119194,
+      "telegram_date": "2026-10-05T13:34:03+00:00",
+      "title": "생윤 잘 푸는 모의고사 시즌 2(파이널) 1회",
+      "year": "2027",
+      "instructor": "김종익",
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/25005.png",
+      "sha256": "83ea9b33fe900cfa44f55bf23c4af68ddf509ef2abc735c64c20aff077d405d8"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
