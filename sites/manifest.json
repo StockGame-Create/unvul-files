@@ -103053,6 +103053,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12453.png",
       "sha256": "a9c839eb6f407805979513d6ea154fcba7a747a44819bde8d8d43d74a047e332"
+    },
+    {
+      "message_id": 12452,
+      "filename": "7회 문제,답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12452_7.pdf",
+      "size_bytes": 1610132,
+      "telegram_date": "2025-08-15T06:14:47+00:00",
+      "title": "7회 문제,답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12452.png",
+      "sha256": "6b11d8a59695034b06140e08f25fa8a443ebe5e984d5c8d01bd294868c5ff47e"
     }
   ],
   "duplicate_message_ids": [
