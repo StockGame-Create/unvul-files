@@ -225,6 +225,20 @@
       "sha256": "ddac57a4e275d02ea183deb0155bfc8bb0499e5c8764e0edff153eddee7564bf"
     },
     {
+      "message_id": 24984,
+      "filename": "종로 핵파.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/24984_.pdf",
+      "size_bytes": 72202052,
+      "telegram_date": "2026-10-05T13:33:38+00:00",
+      "title": "생윤 종로 핵심체크 파이널 모의고사 1~6회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/24984.png",
+      "sha256": "919c6abfe858a2611164e7d1b08f5bee3867135491051c2305d7ec72e614cf1b"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
