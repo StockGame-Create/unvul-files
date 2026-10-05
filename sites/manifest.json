@@ -102843,6 +102843,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12471.png",
       "sha256": "17df3b1f07eec46fa40c7e413fbeae67624405d6c8cde6ff75d38800927ae624"
+    },
+    {
+      "message_id": 12470,
+      "filename": "시대인재_서바_1회_확통_+_기하.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12470_._._1._._%2B_.pdf",
+      "size_bytes": 2260138,
+      "telegram_date": "2025-08-15T12:44:22+00:00",
+      "title": "2026 시대인재 서바이벌 1회 확통 기하 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12470.png",
+      "sha256": "397c098be3b6536e84f315fcc2cd87a760d4b9316c91f1ae69b0053452e408e1"
     }
   ],
   "duplicate_message_ids": [
