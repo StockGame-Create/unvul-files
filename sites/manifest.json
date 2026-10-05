@@ -103711,6 +103711,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12423.png",
       "sha256": "eb56761fbb32a0db5ab3a83f0db35ff0b07079d1efc2b72b4a23d604611c6aca"
+    },
+    {
+      "message_id": 12422,
+      "filename": "2026_시대인재_생명과학1_파이널_브릿지_5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12422_2026_._.1_._._5.pdf",
+      "size_bytes": 17379099,
+      "telegram_date": "2025-08-15T01:57:44+00:00",
+      "title": "2026_시대인재_생명과학1_파이널_브릿지_5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12422.png",
+      "sha256": "a7368f38d53b616cc4d56e85a5d27f17b8665c6f877f082e95e7b4dffbf9051f"
     }
   ],
   "duplicate_message_ids": [
