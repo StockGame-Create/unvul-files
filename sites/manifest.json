@@ -98643,6 +98643,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12968.png",
       "sha256": "6fad239fc9a2258be396166ed76dc9588acdcef18cc97d199922eac5e3bd4bdf"
+    },
+    {
+      "message_id": 12967,
+      "filename": "강_k_7회_영어_문제:해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12967_._k_7._._.pdf",
+      "size_bytes": 26259362,
+      "telegram_date": "2025-08-25T05:33:13+00:00",
+      "title": "2026 영어 강k 7회 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12967.png",
+      "sha256": "822cc65c9c537276c9388d571dc3b5e687b06524721152d83e7366c41d69cc2d"
     }
   ],
   "duplicate_message_ids": [
