@@ -105545,6 +105545,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12318.png",
       "sha256": "9a64d2ebadb27fffd561c86e935c93cac88024bc0794e75abe045e7e75f02856"
+    },
+    {
+      "message_id": 12317,
+      "filename": "2026 국어 강은양 rebs 독서 1권 (2).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12317_2026.rebs.1.2.pdf",
+      "size_bytes": 263455177,
+      "telegram_date": "2025-08-14T13:19:14+00:00",
+      "title": "2026 강은양 rebs 독서 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12317.png",
+      "sha256": "51c72dfe93e48667f549836a77e0c52eb4754ff790fe5c650f209cd86122286f"
     }
   ],
   "duplicate_message_ids": [
