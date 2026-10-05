@@ -85,6 +85,20 @@
       "sha256": "248de14563c9c3a8179f58a812b7a8624188183d1f22fc893ff52cf797f746c0"
     },
     {
+      "message_id": 25000,
+      "filename": "2027_상상_시즌5_4회_정답및해설_B4.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25000_2027_._.5_4._._B4.pdf",
+      "size_bytes": 50130681,
+      "telegram_date": "2026-10-05T13:33:56+00:00",
+      "title": "국어 파이널2 4차 모의고사 상상 국어평가연구소 #상상",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25000.png",
+      "sha256": "a80e04b5ab29ff46c496d67a3762525f233a3ab0c775065c0b20912e57190c9f"
+    },
+    {
       "message_id": 24968,
       "filename": "지바 18회.pdf",
       "stored_as": null,
