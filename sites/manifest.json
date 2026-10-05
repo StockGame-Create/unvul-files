@@ -97145,6 +97145,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13124.png",
       "sha256": "3dca4b272ba2826ae070241f7e3c50265aa683b1a9690e801717852669854b92"
+    },
+    {
+      "message_id": 13123,
+      "filename": "2026 강모K 화1 5-6회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-7/13123_2026.K.1.5-6.pdf",
+      "size_bytes": 2413766,
+      "telegram_date": "2025-08-27T13:28:01+00:00",
+      "title": "2026 강모K 화1 5-6회 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13123.png",
+      "sha256": "b07b7018e752f0fac06eced9974d5d32bd65473d47820df8d9ef3b09c40ac6e7"
     }
   ],
   "duplicate_message_ids": [
