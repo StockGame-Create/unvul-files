@@ -100631,6 +100631,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12780.png",
       "sha256": "9c0d0f900ff4d93d5f496d6a0705c6fdc0ca132d151887cba0f99d2963c26cb0"
+    },
+    {
+      "message_id": 12777,
+      "filename": "8월 더프 국,수,영,한 해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12777_8.pdf",
+      "size_bytes": 62821451,
+      "telegram_date": "2025-08-21T15:16:11+00:00",
+      "title": "2026 대성 국어 수학 영어 한국사 더프리미엄 모의고사 해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12777.png",
+      "sha256": "de095f0519b52af9443e815cdec15f4a641291f1c97346b0062939ef70a8d39f"
     }
   ],
   "duplicate_message_ids": [
