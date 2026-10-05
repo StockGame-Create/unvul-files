@@ -103907,6 +103907,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12402.png",
       "sha256": "126db1e75496acea64de4def5784a27751ffadaf14b80c5e7efd776356a6e37e"
+    },
+    {
+      "message_id": 12400,
+      "filename": "마플수기총_수1_해답_2026년.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12400_._.1_._2026.pdf",
+      "size_bytes": 164625665,
+      "telegram_date": "2025-08-14T14:57:14+00:00",
+      "title": "2026 마플 수능기출총정리 수기총 수1 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12400.png",
+      "sha256": "73d131b7fb9a0285a2e3943a320aa2dd31a69cc8109d941dcef4661acab495fe"
     }
   ],
   "duplicate_message_ids": [
