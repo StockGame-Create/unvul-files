@@ -100505,6 +100505,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12790.png",
       "sha256": "5934ec0f995d4dedd530121450aec3fb152f000714aafe28d4ef442a33733c3d"
+    },
+    {
+      "message_id": 12789,
+      "filename": "이그라이트_7+8_시즌_1_정병훈_정병호_호형훈제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12789_._7%2B8_._1_._._.pdf",
+      "size_bytes": 27704071,
+      "telegram_date": "2025-08-21T23:31:27+00:00",
+      "title": "2026 정병훈 이그나이트 3+4, 7+8, 9 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12789.png",
+      "sha256": "f7d978da1506b597f7768e2cde22da0d5149b1f71bfba1606eef77ebe0659862"
     }
   ],
   "duplicate_message_ids": [
