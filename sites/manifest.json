@@ -102465,6 +102465,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12527.png",
       "sha256": "a32f6d6c69c900c9486b03207400205ad4f0810a2ad089c3645bd589db7722c9"
+    },
+    {
+      "message_id": 12526,
+      "filename": "2026 신혁모 5회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12526_2026.5.pdf",
+      "size_bytes": 10093025,
+      "telegram_date": "2025-08-16T13:07:07+00:00",
+      "title": "2026 지1 이신혁 모의고사 시즌2 5~6회 #지1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12526.png",
+      "sha256": "51b7e63cdb16b76ff47986cbdfd82187364283bfeac42569e5ed425c0f932e13"
     }
   ],
   "duplicate_message_ids": [
