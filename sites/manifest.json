@@ -101149,6 +101149,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12724.png",
       "sha256": "ade3a68ecb0dd06e0abe1673e453d48a025e26c8843c9053fa5d8c59f7f69b2d"
+    },
+    {
+      "message_id": 12723,
+      "filename": "2026 수학 강대K 12회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12723_2026.K.12.pdf",
+      "size_bytes": 18349685,
+      "telegram_date": "2025-08-20T09:46:01+00:00",
+      "title": "2026 수학 강k 12회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12723.png",
+      "sha256": "b065ad113fab4335fcec4d3cf0d3e371ca13f4b8007d83380a9aaf88496cee97"
     }
   ],
   "duplicate_message_ids": [
