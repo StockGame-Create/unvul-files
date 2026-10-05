@@ -97691,6 +97691,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13066.png",
       "sha256": "d9e0374877a3b37817ea5b3379675a596803c8e96ae7018d62c9756e2f412b50"
+    },
+    {
+      "message_id": 13065,
+      "filename": "2026_대비_EBS_봉투_모의고사_영어_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13065_2026_._EBS_._._._2.pdf",
+      "size_bytes": 17974461,
+      "telegram_date": "2025-08-26T09:09:43+00:00",
+      "title": "2026 EBS 봉투 모의고사 2회 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13065.png",
+      "sha256": "d35fbec00c2f6b6df4178161fccd5059daf999d7770344ad87943fe445c72dfa"
     }
   ],
   "duplicate_message_ids": [
