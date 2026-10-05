@@ -97341,6 +97341,20 @@
       "subject": null,
       "thumbnail": "thumbnails/13109.png",
       "sha256": "b8779c1996ddb918d3d63c4fb3aef8d1d428b5ab2ef1836009227ac1491254e6"
+    },
+    {
+      "message_id": 13108,
+      "filename": "호형훈제_스피드러너_14회_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/13108_._._14._.pdf",
+      "size_bytes": 6696034,
+      "telegram_date": "2025-08-27T12:53:25+00:00",
+      "title": "2026 호훈형제 스피드러너 모의고사 14회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/13108.png",
+      "sha256": "f6c46dddf033e432441007c9ab92487e82108919fe15ea589b3745e117102d0e"
     }
   ],
   "duplicate_message_ids": [
