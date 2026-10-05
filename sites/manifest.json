@@ -101737,6 +101737,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12649.png",
       "sha256": "e60cfadc232f6abfe7ab0fa0fba49291e650ec8bbdc8a5a097d349b8139790f5"
+    },
+    {
+      "message_id": 12645,
+      "filename": "TalkFile_26마플기출확통_pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12645_TalkFile_26._pdf.pdf",
+      "size_bytes": 43114725,
+      "telegram_date": "2025-08-18T13:06:56+00:00",
+      "title": "2026 확률과 통계 마플 수능기출 #확통",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12645.png",
+      "sha256": "8150a001b25d1a64049f8aa17c222ddd1def83dfb9622342e517a0f76ce596fe"
     }
   ],
   "duplicate_message_ids": [
