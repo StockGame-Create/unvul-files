@@ -108247,6 +108247,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11939.png",
       "sha256": "964cd55f33988bdfb6558cf043fbc4724b36bd05aaae0d979f54a11045d1f61d"
+    },
+    {
+      "message_id": 11927,
+      "filename": "무제 22.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11927_.22.pdf",
+      "size_bytes": 24732952,
+      "telegram_date": "2025-08-12T09:07:00+00:00",
+      "title": "시2 본교재2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11927.png",
+      "sha256": "635b3eb24c34890c9d89969a626bcc97af8f0cd08abd4f87d755e4829621553e"
     }
   ],
   "duplicate_message_ids": [
