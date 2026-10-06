@@ -71,6 +71,20 @@
       "sha256": "c9c7802a20a2c4d9cd27fb67c8efb3f9f20798b09bdb9248334c7ce5dc00c150"
     },
     {
+      "message_id": 25044,
+      "filename": "2027 서준혁T To be or Not to be 1주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25044_2027.T.To.be.or.Not.to.be.1.pdf",
+      "size_bytes": 19699047,
+      "telegram_date": "2026-10-06T08:48:56+00:00",
+      "title": "국어 서준혁 to be or not to be 1주차",
+      "year": "2027",
+      "instructor": "서준혁",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25044.png",
+      "sha256": "329991aae4bfb4c7c5b89f5470519466351cdd21ce572ab8c89ff86be8e9b1fb"
+    },
+    {
       "message_id": 25026,
       "filename": "이형수 모의 2회.pdf",
       "stored_as": null,
