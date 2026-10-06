@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 11834583760,
+      "source_key": "c3a5eefdb0cbb39be66fd7b0902eede4#08 지구과학Ⅱ_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=c3a5eefdb0cbb39be66fd7b0902eede4",
+      "category": "평가원",
+      "filename": "08 지구과학Ⅱ_정답.pdf",
+      "asset_name": "2027_m9_08_6d5986d044.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_m9_08_6d5986d044.pdf",
+      "size_bytes": 50064,
+      "telegram_date": "2026-10-06T08:49:14.005437+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 9월 모의평가 08 지구과학Ⅱ_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "9월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "9월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/11834583760.png",
+      "sha256": "172b9390af113ba3944542f5ade99aa448d14f53cdbc9088419a055710a5fe27"
+    },
+    {
       "message_id": 10061933213,
       "source_key": "c3a5eefdb0cbb39be66fd7b0902eede4#07 생명과학Ⅱ_정답.pdf",
       "source": "suneung.re.kr",
