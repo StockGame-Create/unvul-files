@@ -107617,6 +107617,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12027.png",
       "sha256": "1bc7639e8cf2c30bf877dd2382a005acab7d59bd624055d3019c3701611628e4"
+    },
+    {
+      "message_id": 12026,
+      "filename": "오투과탐+물리학Ⅰ(15개정)_본문 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12026_.%2B.15._.1.pdf",
+      "size_bytes": 89498540,
+      "telegram_date": "2025-08-12T15:09:01+00:00",
+      "title": "오투과탐+물리학Ⅰ(15개정)_본문 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12026.png",
+      "sha256": "db1b0a5c3b247e2494687cc0d4ff9b29d015120a7c7c31a029cef59b60a1ae40"
     }
   ],
   "duplicate_message_ids": [
