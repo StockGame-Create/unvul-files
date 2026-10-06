@@ -110543,6 +110543,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11793.png",
       "sha256": "4d778840dcdbc26df47695196c58b52c57c9143ab4108b152929e510f7b9cb3b"
+    },
+    {
+      "message_id": 11792,
+      "filename": "[화작,해설] 이감 5-4.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11792_.5-4.pdf",
+      "size_bytes": 37709951,
+      "telegram_date": "2025-08-11T16:01:14+00:00",
+      "title": "[화작,해설] 이감 5-4",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11792.png",
+      "sha256": "805ac64e7c18795700019b3998ae6ca0331958195f660283c5778562e22cd18f"
     }
   ],
   "duplicate_message_ids": [
