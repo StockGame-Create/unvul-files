@@ -106287,6 +106287,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12204.png",
       "sha256": "6265feb23cc04dfd34b511c7a5ca93d4ab9b7aeb61c033ff819813c86e105f14"
+    },
+    {
+      "message_id": 12203,
+      "filename": "2026생활과윤리 서바이벌 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12203_2026.3.pdf",
+      "size_bytes": 30416522,
+      "telegram_date": "2025-08-13T14:29:47+00:00",
+      "title": "2026 생윤 시대인재 서바이벌 1~4회 #생윤",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12203.png",
+      "sha256": "bb36fa54bd7bdb5cdf9f0667fa1eac47f4e65cf2c2e04392ed9baf09e4679faa"
     }
   ],
   "duplicate_message_ids": [
