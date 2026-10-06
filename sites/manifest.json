@@ -15,6 +15,20 @@
       "sha256": "aa5673d3251695768992dbf005f00eca180faa82f1a1020847410c6a536f36ff"
     },
     {
+      "message_id": 25060,
+      "filename": "Orbi 만만치 않은 모의고사_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25060_Orbi._.pdf",
+      "size_bytes": 45478401,
+      "telegram_date": "2026-10-06T14:33:26+00:00",
+      "title": "생윤 만만치 않은 모의고사 1~3회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/25060.png",
+      "sha256": "a757a397d0dc8f772229f73235ee1b8efe66803651e0419bfdcd02605d0ab1e2"
+    },
+    {
       "message_id": 25051,
       "filename": "2027_이승헌_REAL_F_3_세계지리_파이널_모고_4_.pdf",
       "stored_as": null,
