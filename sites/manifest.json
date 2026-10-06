@@ -106021,6 +106021,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12250.png",
       "sha256": "908529e6667d57e822231c985f3e14c9411e4f89be2fc20c8a9ae36ee6d760a2"
+    },
+    {
+      "message_id": 12247,
+      "filename": "2026_이창무_Climax-N_수학2_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12247_2026_._Climax-N_.2_.pdf",
+      "size_bytes": 72655145,
+      "telegram_date": "2025-08-13T14:29:51+00:00",
+      "title": "2026_이창무_Climax-N_수학2_문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12247.png",
+      "sha256": "30d8ea00921ed65e3286dbdfe8395c90d969d8e06c9bb4f5c5c4116f5992f959"
     }
   ],
   "duplicate_message_ids": [
