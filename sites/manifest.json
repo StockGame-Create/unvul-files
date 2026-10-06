@@ -108135,6 +108135,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11962.png",
       "sha256": "acba61eb9aa4c3584c2469db29061905fc54c69818b8351de93846351eacca70"
+    },
+    {
+      "message_id": 11957,
+      "filename": "지인선_N제_해설_250812_171020.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11957_._N._._250812_171020.pdf",
+      "size_bytes": 102947639,
+      "telegram_date": "2025-08-12T09:07:01+00:00",
+      "title": "지인선_N제_해설_250812_171020",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11957.png",
+      "sha256": "df4e29a32c84d336ac00acebd52ad8ba2fdd5fa18771a0bcb35d9f3365905b36"
     }
   ],
   "duplicate_message_ids": [
