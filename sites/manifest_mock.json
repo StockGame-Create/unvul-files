@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 13431516517,
+      "source_key": "b6374573301e2600f871b71580724be2#02 화학Ⅰ_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=b6374573301e2600f871b71580724be2",
+      "category": "평가원",
+      "filename": "02 화학Ⅰ_정답.pdf",
+      "asset_name": "2024_csat_02_cc88c965d8.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2024_csat_02_cc88c965d8.pdf",
+      "size_bytes": 45177,
+      "telegram_date": "2026-10-06T08:41:01.021030+00:00",
+      "posted_date": "2024",
+      "title": "2024학년도 수능 02 화학Ⅰ_정답",
+      "year": "2023",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "과학탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/13431516517.png",
+      "sha256": "8a50cacb0c506731c196ac350f20854615d096450c85728c66e564eb62b1cdbb"
+    },
+    {
       "message_id": 13406456462,
       "source_key": "b6374573301e2600f871b71580724be2#01 물리학Ⅰ_정답.pdf",
       "source": "suneung.re.kr",
