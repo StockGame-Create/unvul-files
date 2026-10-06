@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12328294863,
+      "source_key": "2f84bfd658edc7af5807e46068508f97#02 농업 기초 기술_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=2f84bfd658edc7af5807e46068508f97",
+      "category": "평가원",
+      "filename": "02 농업 기초 기술_정답.pdf",
+      "asset_name": "2027_m9_02_8ac6f5cf13.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_m9_02_8ac6f5cf13.pdf",
+      "size_bytes": 51153,
+      "telegram_date": "2026-10-06T08:49:43.910246+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 9월 모의평가 02 농업 기초 기술_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "9월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "9월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/12328294863.png",
+      "sha256": "da4e57e11d52b8b716749790b4958b7f736122103c3122d8fb1b135e6411fc48"
+    },
+    {
       "message_id": 13250317284,
       "source_key": "2f84bfd658edc7af5807e46068508f97#01 성공적인 직업생활_정답.pdf",
       "source": "suneung.re.kr",
