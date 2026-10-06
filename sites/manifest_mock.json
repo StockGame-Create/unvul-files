@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12104927495,
+      "source_key": "7f2dca8dfaf714918bec8683f2834968#09 사회·문화_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=7f2dca8dfaf714918bec8683f2834968",
+      "category": "평가원",
+      "filename": "09 사회·문화_정답.pdf",
+      "asset_name": "2027_m6_09_7d76a5072b.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_m6_09_7d76a5072b.pdf",
+      "size_bytes": 46733,
+      "telegram_date": "2026-10-06T08:51:34.557270+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 6월 모의평가 09 사회·문화_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/12104927495.png",
+      "sha256": "6151cd118a7c5e8452eeaf6f0c93bfa4382a66bd525482f59cf352b307c4c311"
+    },
+    {
       "message_id": 10026174623,
       "source_key": "7f2dca8dfaf714918bec8683f2834968#08 정치와 법_정답.pdf",
       "source": "suneung.re.kr",
