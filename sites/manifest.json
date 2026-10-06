@@ -127,6 +127,20 @@
       "sha256": "a98bdd8430a06da81510e250e094a14c632ada8eb06f2b79ab789607ea824a8f"
     },
     {
+      "message_id": 25037,
+      "filename": "최진영T_전국서바_11회_지구과학1_분석서&손글씨해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25037_.T_._11._.1_.pdf",
+      "size_bytes": 503519,
+      "telegram_date": "2026-10-06T08:48:48+00:00",
+      "title": "지1 최진영 시대인재 전국 서바이벌 11회 분석서",
+      "year": "2027",
+      "instructor": "최진영",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25037.png",
+      "sha256": "26be6cd8f0978ff3d1e66a682183fb62967d09a8f90d5ab5ebac44618a8bde86"
+    },
+    {
       "message_id": 25026,
       "filename": "이형수 모의 2회.pdf",
       "stored_as": null,
