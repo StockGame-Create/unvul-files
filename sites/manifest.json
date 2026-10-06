@@ -106049,6 +106049,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12242.png",
       "sha256": "16836b3483ef4710da8306df9c00d337e515a62c19ea1cd354ab0fedfcb8d89e"
+    },
+    {
+      "message_id": 12241,
+      "filename": "2026학년도_모의고사_수학_서바이벌PRO_7월_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12241_2026._._._.PRO_7._.pdf",
+      "size_bytes": 1632308,
+      "telegram_date": "2025-08-13T14:29:51+00:00",
+      "title": "2026 7월 시대인재 서프 수학 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12241.png",
+      "sha256": "fc985d56425c865edaf01ea408e1e0c7f6adaa15acac425ec720bbfc480284e1"
     }
   ],
   "duplicate_message_ids": [
