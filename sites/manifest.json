@@ -106133,6 +106133,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12226.png",
       "sha256": "03f727d50f9b528c3a41fda31c62b027d47888c615d49d4e0a29f0ceb63b9cc0"
+    },
+    {
+      "message_id": 12225,
+      "filename": "2026_김현우_스탠다드_모의고사_02회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12225_2026_._._._02._.pdf",
+      "size_bytes": 1265309,
+      "telegram_date": "2025-08-13T14:29:48+00:00",
+      "title": "2026 김현우 스탠다드 모의고사 2회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12225.png",
+      "sha256": "9aed4cfbc59b03bc43efa4ea2f7529ff7085a8dfc83553f436e4912624233711"
     }
   ],
   "duplicate_message_ids": [
