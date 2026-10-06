@@ -106471,6 +106471,20 @@
       "sha256": "7c5ba36dc4b934afb156ce228b26d729c45f2541e26034f3e3828e9acfb152bd"
     },
     {
+      "message_id": 12245,
+      "filename": "지구과학 시즌2 합본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12245_.2.pdf",
+      "size_bytes": 218589957,
+      "telegram_date": "2025-08-13T14:29:51+00:00",
+      "title": "2026 지구과학 이신혁 필기노트 합본 #지1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12245.png",
+      "sha256": "e604cd937882c5a6e0aa43c420d12167592c4aa2635c7f1509381b7f54c8f187"
+    },
+    {
       "message_id": 12230,
       "filename": "2026_국어_강대K_6회_해설.pdf",
       "stored_as": null,
