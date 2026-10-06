@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12300304368,
+      "source_key": "45ad8d0086095400dfd8501e8a548ce5#04 지구과학Ⅰ_문제.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=45ad8d0086095400dfd8501e8a548ce5",
+      "category": "평가원",
+      "filename": "04 지구과학Ⅰ_문제.pdf",
+      "asset_name": "2027_m6_04_891bdbf0c0.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_m6_04_891bdbf0c0.pdf",
+      "size_bytes": 1560084,
+      "telegram_date": "2026-10-06T08:51:50.940292+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 6월 모의평가 04 지구과학Ⅰ_문제",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "문제",
+      "thumbnail": "thumbnails/12300304368.png",
+      "sha256": "f46bade601e867e3d4613f8305a81fbbc1ebdd0f997046ef32ce85d66b899b9b"
+    },
+    {
       "message_id": 12621322983,
       "source_key": "45ad8d0086095400dfd8501e8a548ce5#03 생명과학Ⅰ_문제.pdf",
       "source": "suneung.re.kr",
