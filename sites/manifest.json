@@ -107883,6 +107883,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11992.png",
       "sha256": "52d155ee5babdb9c563691b1a0e2a503621ee37b53ff65a5115d30b0eddd8b2b"
+    },
+    {
+      "message_id": 11991,
+      "filename": "강대k 국어 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11991_.k.5.pdf",
+      "size_bytes": 29601464,
+      "telegram_date": "2025-08-12T12:59:39+00:00",
+      "title": "강대k 국어 5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11991.png",
+      "sha256": "28ec5f613804c8d980a0241099439ac35802bbbcd433c09c98d0a4d364bd19ec"
     }
   ],
   "duplicate_message_ids": [
