@@ -105769,6 +105769,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12285.png",
       "sha256": "93788a0ba2ec5a7d8408d4df997708c0d7bc8fa3c0559d125bb3432b03059308"
+    },
+    {
+      "message_id": 12284,
+      "filename": "이감9모전중요도.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12284_.9.pdf",
+      "size_bytes": 1255081,
+      "telegram_date": "2025-08-13T14:29:59+00:00",
+      "title": "2026 이감 9모전 중요도 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12284.png",
+      "sha256": "dfa456ffa576420cee5c0bad27cb4a8ec49f0369a1bb10cb2c16faab1fd7270a"
     }
   ],
   "duplicate_message_ids": [
