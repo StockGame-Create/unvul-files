@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 10172831752,
+      "source_key": "196c4c32bce72e16ab5b0d8d5fd2f613#01 물리학Ⅰ_정답표.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=196c4c32bce72e16ab5b0d8d5fd2f613",
+      "category": "평가원",
+      "filename": "01 물리학Ⅰ_정답표.pdf",
+      "asset_name": "2024_m6_01_0a4d3408ad.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2024_m6_01_0a4d3408ad.pdf",
+      "size_bytes": 46797,
+      "telegram_date": "2026-10-06T09:12:27.613148+00:00",
+      "posted_date": "2024",
+      "title": "2024학년도 6월 모의평가 01 물리학Ⅰ_정답표",
+      "year": "2023",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/10172831752.png",
+      "sha256": "2cc37750f000811e9e0a2104445d1b947680a925c274552bd9de3f65a349bb7b"
+    },
+    {
       "message_id": 11999808219,
       "source_key": "3936fb91d85b3d4892d32334eb0b3a94#08 지구과학Ⅱ_문제지.pdf",
       "source": "suneung.re.kr",
