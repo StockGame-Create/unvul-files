@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 10772946142,
+      "source_key": "a4ee0a9180d0f3f11bde971fdee27047#05 물리학Ⅱ_정답표.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=a4ee0a9180d0f3f11bde971fdee27047",
+      "category": "평가원",
+      "filename": "05 물리학Ⅱ_정답표.pdf",
+      "asset_name": "2025_csat_05_2e1238debd.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2025_csat_05_2e1238debd.pdf",
+      "size_bytes": 88488,
+      "telegram_date": "2026-10-06T08:23:20.469855+00:00",
+      "posted_date": "2025",
+      "title": "2025학년도 수능 05 물리학Ⅱ_정답표",
+      "year": "2024",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "과학탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/10772946142.png",
+      "sha256": "11179041d8f118361f41eb798d1dfacc464b02dfff6b873d4489276e2594b910"
+    },
+    {
       "message_id": 12588346487,
       "source_key": "a4ee0a9180d0f3f11bde971fdee27047#04 지구과학Ⅰ_정답표.pdf",
       "source": "suneung.re.kr",
