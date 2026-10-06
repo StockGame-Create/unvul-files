@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 14202477893,
+      "source_key": "7451750e263f39e7e049d5f8fe0904df#05 수산·해운 산업 기초_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=7451750e263f39e7e049d5f8fe0904df",
+      "category": "평가원",
+      "filename": "05 수산·해운 산업 기초_정답.pdf",
+      "asset_name": "2026_m9_05_fa7cb94595.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_m9_05_fa7cb94595.pdf",
+      "size_bytes": 43573,
+      "telegram_date": "2026-10-06T08:56:17.213557+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 9월 모의평가 05 수산·해운 산업 기초_정답",
+      "year": "2025",
+      "year_shifted": true,
+      "exam": "9월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "9월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/14202477893.png",
+      "sha256": "4587ff658c48ed90056b4a778daeaded4133b4f8a4fce588bcf1a1e4ebd119fb"
+    },
+    {
       "message_id": 12447212726,
       "source_key": "7451750e263f39e7e049d5f8fe0904df#04 상업 경제_정답.pdf",
       "source": "suneung.re.kr",
