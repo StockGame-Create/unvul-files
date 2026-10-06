@@ -108891,6 +108891,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11873.png",
       "sha256": "9858ef96976783142a0bbf6b9a2cc18329a7442cef31e4996f62c326d8d99a43"
+    },
+    {
+      "message_id": 11871,
+      "filename": "강 k 물리 I 7회 답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11871_.k.I.7.pdf",
+      "size_bytes": 390363,
+      "telegram_date": "2025-08-12T01:48:06+00:00",
+      "title": "강 k 물리 I 7회 답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11871.png",
+      "sha256": "d75a0256bc232bcc005fdf2c177fad81cd8ce293865dd762509e6ce7d8dbe312"
     }
   ],
   "duplicate_message_ids": [
