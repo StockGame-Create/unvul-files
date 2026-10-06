@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 10558992090,
+      "source_key": "df81bd94f411bddc0c77b44febaae9c0#02 농업 기초 기술_문제.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=df81bd94f411bddc0c77b44febaae9c0",
+      "category": "평가원",
+      "filename": "02 농업 기초 기술_문제.pdf",
+      "asset_name": "2026_m6_02_21518ada95.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_m6_02_21518ada95.pdf",
+      "size_bytes": 2641161,
+      "telegram_date": "2026-10-06T08:59:04.509287+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 6월 모의평가 02 농업 기초 기술_문제",
+      "year": "2025",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "문제",
+      "thumbnail": "thumbnails/10558992090.png",
+      "sha256": "1a71d9904d8b0f1529655022c1598bbd257ed8583fed6ab8f99e1dcd68f6c365"
+    },
+    {
       "message_id": 13019246038,
       "source_key": "df81bd94f411bddc0c77b44febaae9c0#01 성공적인 직업생활_문제.pdf",
       "source": "suneung.re.kr",
