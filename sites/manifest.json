@@ -107687,6 +107687,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12021.png",
       "sha256": "042436cd54799a6e903b8b748cb568d96e6f4aaaad77102297411ad9dbd55bcf"
+    },
+    {
+      "message_id": 12018,
+      "filename": "완자+고등화학Ⅰ_본문 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12018_.%2B._.1.pdf",
+      "size_bytes": 49619922,
+      "telegram_date": "2025-08-12T15:06:52+00:00",
+      "title": "완자+고등화학Ⅰ_본문 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12018.png",
+      "sha256": "4d404fbf435f29f9d4fa8be6837301e927326dd37866dbd4f3702f3c85fa1167"
     }
   ],
   "duplicate_message_ids": [
