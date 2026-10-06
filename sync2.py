@@ -658,6 +658,17 @@ def detect_exam(board: dict, cells: list[str], names: list[str]) -> str:
     return board["label"]
 
 
+# 제2외국어/한문 영역은 받지 않는다 (fix_mock.py의 SECOND_LANG_RE와 같은 규칙으로 유지).
+SECOND_LANG_RE = re.compile(
+    r"제\s*2\s*외국어|한문|독일어|프랑스어|스페인어|중국어|일본어|러시아어|아랍어|베트남어"
+)
+
+
+def is_second_language(*texts: str | None) -> bool:
+    joined = unicodedata.normalize("NFC", " ".join(t for t in texts if t))
+    return bool(SECOND_LANG_RE.search(joined))
+
+
 def file_kind(filename: str) -> str:
     for word, kind in (("문제", "문제"), ("정답", "정답"), ("해설", "해설"), ("대본", "대본")):
         if word in filename:
@@ -698,6 +709,8 @@ def discover(boards: list[dict], min_year: int) -> list[dict]:
                 if board["key"] == "mopyeong" and exam == board["label"]:
                     log(f"  [경고] 6월/9월을 판별하지 못함(시험='{exam}'): {row['cells']}")
                 for fl in row["files"]:
+                    if is_second_language(f["subject"], f["title"], fl["name"]):
+                        continue  # 제2외국어/한문 배제
                     cands.append({
                         "board": board["key"],
                         "haknyeon": hak,
@@ -879,6 +892,9 @@ def store_unit(ctx: Ctx, cand: dict, filename: str, path: Path, key: str) -> str
     """PDF 하나를 처리: 중복검사 -> 썸네일 -> Release 업로드 -> manifest/git.
     반환: 'stored' | 'dup' | 'skip' | 'fail'"""
     if key in ctx.known_keys or key in ctx.duplicate_keys:
+        return "skip"
+    if is_second_language(cand.get("subject"), filename):
+        log(f"  (제2외국어/한문이라 건너뜀) {filename}")
         return "skip"
 
     size = path.stat().st_size
