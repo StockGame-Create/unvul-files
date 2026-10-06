@@ -110431,6 +110431,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11810.png",
       "sha256": "5b20d2111b9a39944048b2c6382b9d1775e383bec77d1be6b6f07aab13d72362"
+    },
+    {
+      "message_id": 11809,
+      "filename": "이감 파이널 5-4 문제+해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11809_.5-4.%2B.pdf",
+      "size_bytes": 30506246,
+      "telegram_date": "2025-08-11T16:01:15+00:00",
+      "title": "이감 파이널 5-4 문제+해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11809.png",
+      "sha256": "4d663ca83db25f2287b4f13e486007e1bd18253a1c20c5e539148cc4264c772e"
     }
   ],
   "duplicate_message_ids": [
