@@ -109481,6 +109481,20 @@
       "sha256": "5392b7c60a3235273cb1aee58505ed6e5fe5ebffda6f532fe0c625ff31b958d5"
     },
     {
+      "message_id": 11929,
+      "filename": "2026 강E분 고전산문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11929_2026.E.pdf",
+      "size_bytes": 306367745,
+      "telegram_date": "2025-08-12T09:07:00+00:00",
+      "title": "2026 강E분 고전산문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11929.png",
+      "sha256": "22b933a64c9e3ce97db24d93661690d06dc33e84f1e3a1cc3594c8d06ea642e7"
+    },
+    {
       "message_id": 11922,
       "filename": "2026 국어 서바이벌 3회 (문제+해설).pdf",
       "stored_as": null,
