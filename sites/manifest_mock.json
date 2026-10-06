@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 13709096283,
+      "source_key": "e2e63d815299d5d08d1b4b0c770555bd#08 지구과학Ⅱ_문제.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=e2e63d815299d5d08d1b4b0c770555bd",
+      "category": "평가원",
+      "filename": "08 지구과학Ⅱ_문제.pdf",
+      "asset_name": "2025_m6_08_dd14515be4.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2025_m6_08_dd14515be4.pdf",
+      "size_bytes": 3361815,
+      "telegram_date": "2026-10-06T09:05:11.215418+00:00",
+      "posted_date": "2025",
+      "title": "2025학년도 6월 모의평가 08 지구과학Ⅱ_문제",
+      "year": "2024",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "문제",
+      "thumbnail": "thumbnails/13709096283.png",
+      "sha256": "293f9f884bfd4c45498fbbd4a15cc2b108f384419ac4fb189f95105102b298fd"
+    },
+    {
       "message_id": 10787195714,
       "source_key": "e2e63d815299d5d08d1b4b0c770555bd#07 생명과학Ⅱ_문제.pdf",
       "source": "suneung.re.kr",
