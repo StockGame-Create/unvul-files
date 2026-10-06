@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 11160783451,
+      "source_key": "c27fd4766ee2e7844a77e421ca311e90#06 세계사_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=c27fd4766ee2e7844a77e421ca311e90",
+      "category": "평가원",
+      "filename": "06 세계사_정답.pdf",
+      "asset_name": "2024_csat_06_4530265bfb.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2024_csat_06_4530265bfb.pdf",
+      "size_bytes": 45622,
+      "telegram_date": "2026-10-06T08:40:15.542558+00:00",
+      "posted_date": "2024",
+      "title": "2024학년도 수능 06 세계사_정답",
+      "year": "2023",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "사회탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/11160783451.png",
+      "sha256": "0c0c9a570c9e11430ad26646ec40c2fcd3886a7a8e4c3b3918a00dbf507f4718"
+    },
+    {
       "message_id": 14049176502,
       "source_key": "c27fd4766ee2e7844a77e421ca311e90#05 동아시아사_정답.pdf",
       "source": "suneung.re.kr",
