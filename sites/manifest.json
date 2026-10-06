@@ -113,6 +113,20 @@
       "sha256": "1eac58f013ddc16ca4f2f5ad343dd720b38a81b5abad4e7af1e6de10c12d8545"
     },
     {
+      "message_id": 25038,
+      "filename": "2027정석준_syncro 1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25038_2027._syncro.1.pdf",
+      "size_bytes": 20127616,
+      "telegram_date": "2026-10-06T08:48:48+00:00",
+      "title": "생1 정석준 syncro 1권",
+      "year": "2027",
+      "instructor": "정석준",
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/25038.png",
+      "sha256": "a98bdd8430a06da81510e250e094a14c632ada8eb06f2b79ab789607ea824a8f"
+    },
+    {
       "message_id": 25026,
       "filename": "이형수 모의 2회.pdf",
       "stored_as": null,
