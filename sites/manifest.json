@@ -106455,6 +106455,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12188.png",
       "sha256": "ce22bb47d4aa9f1ad716d0141de687d504c75f20056c856b6054a9a822cc6dae"
+    },
+    {
+      "message_id": 12187,
+      "filename": "세지 서바 1회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12187_.1.pdf",
+      "size_bytes": 5129200,
+      "telegram_date": "2025-08-13T14:29:46+00:00",
+      "title": "세지 서바 1회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12187.png",
+      "sha256": "b93256b44c26f6be182a184d00c327889a3f7650815f3267214ffc4a38e06c95"
     }
   ],
   "duplicate_message_ids": [
