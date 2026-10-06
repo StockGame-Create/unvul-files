@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 14016450265,
+      "source_key": "c27fd4766ee2e7844a77e421ca311e90#02 윤리와 사상_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=c27fd4766ee2e7844a77e421ca311e90",
+      "category": "평가원",
+      "filename": "02 윤리와 사상_정답.pdf",
+      "asset_name": "2024_csat_02_ef662ad95b.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2024_csat_02_ef662ad95b.pdf",
+      "size_bytes": 46005,
+      "telegram_date": "2026-10-06T08:40:07.008381+00:00",
+      "posted_date": "2024",
+      "title": "2024학년도 수능 02 윤리와 사상_정답",
+      "year": "2023",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "사회탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/14016450265.png",
+      "sha256": "6d75169bc3161f5b20a1e4fdc321fef64ae4f63e6d7fbf13c093301a20d14e99"
+    },
+    {
       "message_id": 13540261347,
       "source_key": "c27fd4766ee2e7844a77e421ca311e90#01 생활과 윤리_정답.pdf",
       "source": "suneung.re.kr",
