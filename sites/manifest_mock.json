@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 13391171351,
+      "source_key": "a4ee0a9180d0f3f11bde971fdee27047#08 지구과학Ⅱ_정답표.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=a4ee0a9180d0f3f11bde971fdee27047",
+      "category": "평가원",
+      "filename": "08 지구과학Ⅱ_정답표.pdf",
+      "asset_name": "2025_csat_08_ca212b17ef.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2025_csat_08_ca212b17ef.pdf",
+      "size_bytes": 88387,
+      "telegram_date": "2026-10-06T08:23:26.405908+00:00",
+      "posted_date": "2025",
+      "title": "2025학년도 수능 08 지구과학Ⅱ_정답표",
+      "year": "2024",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "과학탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/13391171351.png",
+      "sha256": "fc27e664c4e9eeb235ef749e87f1ea9cb915f35ce0e9094c51e12c6a9a154101"
+    },
+    {
       "message_id": 14173653364,
       "source_key": "a4ee0a9180d0f3f11bde971fdee27047#07 생명과학Ⅱ_정답표.pdf",
       "source": "suneung.re.kr",
