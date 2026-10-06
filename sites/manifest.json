@@ -110921,6 +110921,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11738.png",
       "sha256": "1d8a657d4d285d2c8b95fdaa37b283b16342729a4d3f3573ae3c16c92f136d42"
+    },
+    {
+      "message_id": 11734,
+      "filename": "국일만2.0 독서편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11734_.2.0.pdf",
+      "size_bytes": 4661740,
+      "telegram_date": "2025-08-11T16:01:08+00:00",
+      "title": "국일만2.0 독서편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11734.png",
+      "sha256": "9af31034936e56959fcf4da1bb27ef30674413781d8ff79641c32a706ed8e3e2"
     }
   ],
   "duplicate_message_ids": [
