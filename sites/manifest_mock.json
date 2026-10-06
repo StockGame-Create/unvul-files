@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 10286871634,
+      "source_key": "9b48c2654d4a8f3792f33bfdcbfe9603#03 한국지리_문제.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=9b48c2654d4a8f3792f33bfdcbfe9603",
+      "category": "평가원",
+      "filename": "03 한국지리_문제.pdf",
+      "asset_name": "2025_m6_03_11195052fa.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2025_m6_03_11195052fa.pdf",
+      "size_bytes": 3417102,
+      "telegram_date": "2026-10-06T09:04:05.895726+00:00",
+      "posted_date": "2025",
+      "title": "2025학년도 6월 모의평가 03 한국지리_문제",
+      "year": "2024",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "문제",
+      "thumbnail": "thumbnails/10286871634.png",
+      "sha256": "1930bf18d5a93c4ff2235e786ff3ebeb24f69ea6d94d63667a9b9a07d689b4f8"
+    },
+    {
       "message_id": 10845392978,
       "source_key": "9b48c2654d4a8f3792f33bfdcbfe9603#02 윤리와 사상_문제.pdf",
       "source": "suneung.re.kr",
