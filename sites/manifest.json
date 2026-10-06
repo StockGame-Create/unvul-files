@@ -110501,6 +110501,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11800.png",
       "sha256": "0f1fec2715cc03b39df3444b72e8ea8b4bd4627dcb7cee905f572fec63c8ec6a"
+    },
+    {
+      "message_id": 11797,
+      "filename": "시대_수학_서바_5회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11797_._._._5._.pdf",
+      "size_bytes": 11932450,
+      "telegram_date": "2025-08-11T16:01:14+00:00",
+      "title": "시대_수학_서바_5회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11797.png",
+      "sha256": "7e2b1d9d07fed8d391a74a6c055f99a26729254f442692095640b12ad76f8557"
     }
   ],
   "duplicate_message_ids": [
