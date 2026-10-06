@@ -85,6 +85,20 @@
       "sha256": "1da241b305f532cc3253a814fe9a987cc5516d48957730f92714860670f91230"
     },
     {
+      "message_id": 25053,
+      "filename": "C단독 5,6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25053_C.5.6.pdf",
+      "size_bytes": 140349038,
+      "telegram_date": "2026-10-06T14:33:22+00:00",
+      "title": "국어 시대인재 서바이벌 C 단독 모의고사 5, 6회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25053.png",
+      "sha256": "bfc0c66a2685b28aa0803ccad9f2cdca40bad8de7df54381c18e76da88a10cf8"
+    },
+    {
       "message_id": 25051,
       "filename": "2027_이승헌_REAL_F_3_세계지리_파이널_모고_4_.pdf",
       "stored_as": null,
