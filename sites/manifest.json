@@ -108947,6 +108947,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11867.png",
       "sha256": "0b7d91b1ff410eb22cd564206b481c630badc0d192381585a08872ccf819e8f0"
+    },
+    {
+      "message_id": 11865,
+      "filename": "국바6.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11865_.6.pdf",
+      "size_bytes": 35918930,
+      "telegram_date": "2025-08-12T01:48:06+00:00",
+      "title": "국바6",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11865.png",
+      "sha256": "5ce8c3187cf4ceb72ea3d24dd542ca6fde3a0cc62ef5143b2e68ac9eec3698d0"
     }
   ],
   "duplicate_message_ids": [
