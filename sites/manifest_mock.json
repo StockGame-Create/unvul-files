@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 10082807093,
+      "source_key": "5f49603fcf24a7d19d140a8f3cbb95ce#06 세계사_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=5f49603fcf24a7d19d140a8f3cbb95ce",
+      "category": "평가원",
+      "filename": "06 세계사_정답.pdf",
+      "asset_name": "2026_m6_06_04ef8935cd.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_m6_06_04ef8935cd.pdf",
+      "size_bytes": 46883,
+      "telegram_date": "2026-10-06T08:57:57.601774+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 6월 모의평가 06 세계사_정답",
+      "year": "2025",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/10082807093.png",
+      "sha256": "ecce096a7df3ae72bac56a1dc8360764d2df4917bb345b6dae14de7ad5622708"
+    },
+    {
       "message_id": 12269104331,
       "source_key": "5f49603fcf24a7d19d140a8f3cbb95ce#05 동아시아사_정답.pdf",
       "source": "suneung.re.kr",
