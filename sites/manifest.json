@@ -105825,6 +105825,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12278.png",
       "sha256": "9dda86530a74516d18cfa1a6bb11eae508736e7e71777c7a3c5a23778de1b0a7"
+    },
+    {
+      "message_id": 12277,
+      "filename": "엔티켓_시즌2_수1_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12277_._.2_.1_.pdf",
+      "size_bytes": 3035717,
+      "telegram_date": "2025-08-13T14:29:58+00:00",
+      "title": "2026 이미지 엔티켓 N티켓 시즌2 수1 수2 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12277.png",
+      "sha256": "cff2bf7cf9dbc6c29c4ec1918c422d6974ba4fc1212cdb4dd1a271974cc838a8"
     }
   ],
   "duplicate_message_ids": [
