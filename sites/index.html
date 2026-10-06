@@ -1130,7 +1130,7 @@
           </span>
         </div>
 
-        <p class="ai-note">100MB가 넘는 큰 자료는 바로보기 대신 다운로드로 받아서 열어주세요. 브라우저에 따라 PDF가 안 보이면 "새 탭에서 열기"를 눌러보세요. 펜/형광펜/지우개로 필기할 수 있고, 필기는 이 브라우저에만 저장돼요(원본 PDF는 바뀌지 않아요).</p>
+        <p class="ai-note">300MB가 넘는 큰 자료는 바로보기 대신 다운로드로 받아서 열어주세요. 브라우저에 따라 PDF가 안 보이면 "새 탭에서 열기"를 눌러보세요. 펜/형광펜/지우개로 필기할 수 있고, 필기는 이 브라우저에만 저장돼요(원본 PDF는 바뀌지 않아요).</p>
       </div>
 
       <div class="pdf-viewer-shell" id="pdfViewerShell">
@@ -1646,7 +1646,7 @@
 
     // api/view.js의 MAX_VIEWABLE_BYTES와 반드시 동일하게 유지 - 서버까지
     // 요청을 보내지 않고 미리 안내 메시지를 보여주기 위한 프론트 쪽 사본.
-    const MAX_VIEWABLE_BYTES = 100 * 1024 * 1024;
+    const MAX_VIEWABLE_BYTES = 300 * 1024 * 1024; // api/pdf.js와 동일
 
     // ---- PDF 뷰어: PDF.js + 필기(펜/형광펜/지우개). 필기는 쪽 크기 기준 0~1 좌표로 저장해서 확대/축소해도 맞는다 ----
     const vwEl = document.getElementById("vw"), vwScroll = document.getElementById("vwScroll");
@@ -1854,7 +1854,16 @@
       pdfViewerEmpty.textContent = "PDF를 불러오는 중…"; pdfViewerEmpty.hidden = false;
       try {
         const lib = await loadPdfJs();
-        const doc = await lib.getDocument({ url: viewUrlFor(f) }).promise;
+        let doc;
+        try {
+          // disableStream/AutoFetch: 파일 전체를 받지 않고, 보는 쪽의 조각만 Range로 요청한다.
+          doc = await lib.getDocument({ url: viewUrlFor(f), disableStream: true, disableAutoFetch: true, rangeChunkSize: 262144 }).promise;
+        } catch (e1) {
+          if (token !== V.token) return;
+          if (e1 && (e1.status === 413 || e1.status === 404)) throw e1;
+          console.warn("[/api/pdf 실패, /api/view로 재시도]", e1);
+          doc = await lib.getDocument({ url: viewUrlFor(f, true) }).promise;
+        }
         if (token !== V.token) { doc.destroy(); return; }
         const vp = (await doc.getPage(1)).getViewport({ scale: 1 });
         V.doc = doc; V.w1 = vp.width; V.ratio = vp.height / vp.width; V.zoom = 1; V.undo = [];
@@ -1871,8 +1880,9 @@
 
     let viewSelectedFile = null;
 
-    function viewUrlFor(f) {
-      return `/api/view?message_id=${encodeURIComponent(f.message_id)}`;
+    // 뷰어는 Range(부분 전송)를 지원하는 /api/pdf를 쓰고, 이게 안 되면 예전 /api/view로 폴백한다.
+    function viewUrlFor(f, legacy) {
+      return `/api/${legacy ? "view" : "pdf"}?message_id=${encodeURIComponent(f.message_id)}`;
     }
 
     function selectViewFile(f) {
@@ -2127,7 +2137,7 @@
         if (r.answer) meta.appendChild(document.createTextNode(`정답(자료 표기): ${r.answer}  `));
         if (r.message_id) {
           const a = document.createElement("a");
-          a.href = `/api/view?message_id=${encodeURIComponent(r.message_id)}#page=${encodeURIComponent(r.page)}`;
+          a.href = `/api/pdf?message_id=${encodeURIComponent(r.message_id)}#page=${encodeURIComponent(r.page)}`;
           a.target = "_blank";
           a.rel = "noopener";
           a.textContent = `원본 p.${r.page} 보기`;
