@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12039477156,
+      "source_key": "5f485d6391a97c28b98e07a6ec4900eb#05 동아시아사.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=5f485d6391a97c28b98e07a6ec4900eb",
+      "category": "평가원",
+      "filename": "05 동아시아사.pdf",
+      "asset_name": "2023_csat_05_798ff3a4b1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2023_csat_05_798ff3a4b1.pdf",
+      "size_bytes": 3129494,
+      "telegram_date": "2026-10-06T08:44:41.301598+00:00",
+      "posted_date": "2023",
+      "title": "2023학년도 수능 05 동아시아사",
+      "year": "2022",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "사회탐구",
+      "kind": "기타",
+      "thumbnail": "thumbnails/12039477156.png",
+      "sha256": "52e7f40dffb900cae480f005cd9ac037c770bdfb4544c4c6096097b4e2408380"
+    },
+    {
       "message_id": 11345578484,
       "source_key": "5f485d6391a97c28b98e07a6ec4900eb#04 세계지리.pdf",
       "source": "suneung.re.kr",
