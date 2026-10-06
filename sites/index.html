@@ -1292,7 +1292,19 @@
       return null;
     }
 
+    // 직업탐구 과목: "상업 경제"처럼 사탐 과목명(경제 등)을 이름 안에 품고 있어서,
+    // 아래 키워드 추정이 사탐으로 잘못 분류하지 않게 가장 먼저 "기타"로 빼 둔다.
+    const VOCATIONAL_KEYWORDS = [
+      "직업탐구", "직탐", "상업경제", "성공적인직업생활", "농업이해", "농업기초기술",
+      "공업일반", "컴퓨터일반", "회계원리", "해양일반", "인간발달", "수산해운산업기초", "프로그래밍",
+    ];
+    function isVocational(f) {
+      const norm = stripSpace([f.subject, f.title, f.filename].filter(Boolean).join(" ")).replace(/[·ㆍ,]/g, "");
+      return VOCATIONAL_KEYWORDS.some(k => norm.includes(k));
+    }
+
     function resolveCategory(f) {
+      if (isVocational(f)) return "other";
       const bySubject = subjectCategory(f.subject);
       if (bySubject !== "other") return bySubject;
       // subject 필드가 세트와 정확히 일치하지 않아도(예: "국어A형", 오탈자 등),
