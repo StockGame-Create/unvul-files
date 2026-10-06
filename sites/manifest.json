@@ -110795,6 +110795,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11761.png",
       "sha256": "6fac5625c921106bd78b08ab3b69d450ee756f71e9692eb387d3ccbc7ab622c7"
+    },
+    {
+      "message_id": 11758,
+      "filename": "기출 300_OCR (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11758_.300_OCR.1.pdf",
+      "size_bytes": 103790136,
+      "telegram_date": "2025-08-11T16:01:10+00:00",
+      "title": "기출 300_OCR (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11758.png",
+      "sha256": "450f4f0c1e2e504c529c0e1797713bfd3a2dc1c3bf7d23234941290b0fc427fd"
     }
   ],
   "duplicate_message_ids": [
