@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 13924689424,
+      "source_key": "7f2dca8dfaf714918bec8683f2834968#05 동아시아사_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=7f2dca8dfaf714918bec8683f2834968",
+      "category": "평가원",
+      "filename": "05 동아시아사_정답.pdf",
+      "asset_name": "2027_m6_05_e9ee0210c1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_m6_05_e9ee0210c1.pdf",
+      "size_bytes": 46839,
+      "telegram_date": "2026-10-06T08:51:25.834945+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 6월 모의평가 05 동아시아사_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/13924689424.png",
+      "sha256": "4d027d45fa0e72f4e56174c651ca3d49bbcbd64d11fda5e3129084eea3cc02a4"
+    },
+    {
       "message_id": 13280755678,
       "source_key": "7f2dca8dfaf714918bec8683f2834968#04 세계지리_정답.pdf",
       "source": "suneung.re.kr",
