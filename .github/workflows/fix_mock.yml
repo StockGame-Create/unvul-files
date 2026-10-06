@@ -1,6 +1,8 @@
 # .github/workflows/fix_mock.yml
 #
-# sites/manifest_mock.json 에 표기된 년도를 -1 한다 (2026학년도 수능 -> 2025).
+# sites/manifest_mock.json 보정:
+#   1) 제2외국어/한문 항목 삭제 (manifest + 썸네일, 선택적으로 release 자산)
+#   2) year 필드만 -1 (2026학년도 수능 -> 2025)
 # 수동 실행 전용. 이미 고친 항목은 year_shifted 표시로 건너뛰므로 여러 번 돌려도 안전하다.
 # 처음에는 dry_run 을 켠 채로 바뀔 내용을 확인한 뒤, 끄고 다시 실행할 것.
 
@@ -11,6 +13,10 @@ on:
     inputs:
       dry_run:
         description: "바뀔 내용만 출력 (파일 수정/커밋 안 함)"
+        type: boolean
+        default: true
+      delete_assets:
+        description: "삭제 대상의 release 자산(PDF)도 함께 삭제 (dry_run이 꺼져 있을 때만 적용)"
         type: boolean
         default: true
 
@@ -34,10 +40,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 년도 -1 적용
+      - name: 제2외국어 삭제 + 년도 -1 적용
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             python fix_mock.py --dry-run
+          elif [ "${{ inputs.delete_assets }}" = "true" ]; then
+            python fix_mock.py --delete-assets
           else
             python fix_mock.py
           fi
@@ -47,12 +57,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sites/manifest_mock.json
+          git add -A sites/
           if git diff --staged --quiet; then
             echo "변경 없음"
             exit 0
           fi
-          git commit -m "chore: 모의고사 표기 년도 -1 보정 [skip ci]"
+          git commit -m "chore: 모의고사 제2외국어 삭제 및 년도 -1 보정 [skip ci]"
           for i in 1 2 3 4 5; do
             git push && exit 0
             git pull --rebase --autostash
