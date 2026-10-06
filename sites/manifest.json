@@ -85,6 +85,20 @@
       "sha256": "329991aae4bfb4c7c5b89f5470519466351cdd21ce572ab8c89ff86be8e9b1fb"
     },
     {
+      "message_id": 25041,
+      "filename": "시대인재_서바이벌_18회차_인쇄소퀄.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25041_._._18._.pdf",
+      "size_bytes": 9826588,
+      "telegram_date": "2026-10-06T08:48:50+00:00",
+      "title": "수학 시대인재 서바이벌 모의고사 18회 (인쇄소퀄) #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25041.png",
+      "sha256": "1b4c2756c724bf0c6c303a3e486bbdf274cde3cc6e2e5750b4b6458c9a62f799"
+    },
+    {
       "message_id": 25026,
       "filename": "이형수 모의 2회.pdf",
       "stored_as": null,
