@@ -107449,6 +107449,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12041.png",
       "sha256": "495b464a7fb56f5dcbdb52dea25ac67f354b47eef69d2010006071ec5c0e60a7"
+    },
+    {
+      "message_id": 12040,
+      "filename": "물리학2 05.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12040_.2.05.pdf",
+      "size_bytes": 18887268,
+      "telegram_date": "2025-08-12T15:38:29+00:00",
+      "title": "2026 물2 현정훈 스팀팩 시즌2 1~6 #물2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12040.png",
+      "sha256": "937eb2b4cc4afbc03b281db4a9873e5825b344bb09690edd16982f479dbd919d"
     }
   ],
   "duplicate_message_ids": [
