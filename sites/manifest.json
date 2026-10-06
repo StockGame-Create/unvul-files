@@ -105811,6 +105811,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12279.png",
       "sha256": "d3edbf177ad1b29a8933306b55f54141f8a231f4562f2658a610975107ae3ecb"
+    },
+    {
+      "message_id": 12278,
+      "filename": "2026학년도_이미지_N티켓_시즌2_수학2_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12278_2026._._N._.2_.2_.pdf",
+      "size_bytes": 7354115,
+      "telegram_date": "2025-08-13T14:29:58+00:00",
+      "title": "2026 이미지 엔티켓 N티켓 시즌2 수1 수2 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12278.png",
+      "sha256": "9dda86530a74516d18cfa1a6bb11eae508736e7e71777c7a3c5a23778de1b0a7"
     }
   ],
   "duplicate_message_ids": [
