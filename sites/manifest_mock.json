@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 14230888544,
+      "source_key": "62d5316929a90d776b8a5910913e98ea#05 4교시_직업탐구영역_수산·해운 산업 기초.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=62d5316929a90d776b8a5910913e98ea",
+      "category": "평가원",
+      "filename": "05 4교시_직업탐구영역_수산·해운 산업 기초.pdf",
+      "asset_name": "2023_m6_054_fc2e3c609f.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2023_m6_054_fc2e3c609f.pdf",
+      "size_bytes": 47773,
+      "telegram_date": "2026-10-06T09:19:54.924384+00:00",
+      "posted_date": "2023",
+      "title": "2023학년도 6월 모의평가 05 4교시_직업탐구영역_수산·해운 산업 기초",
+      "year": "2022",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "기타",
+      "thumbnail": "thumbnails/14230888544.png",
+      "sha256": "e1b3e25f5315e732d04d28319994d9ed09b5e4318a47ea52c2cf61492309226d"
+    },
+    {
       "message_id": 11633946364,
       "source_key": "62d5316929a90d776b8a5910913e98ea#04 4교시_직업탐구영역_상업 경제.pdf",
       "source": "suneung.re.kr",
