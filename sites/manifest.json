@@ -110781,6 +110781,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11762.png",
       "sha256": "5a71fdb087c00d13416e1ec8f60c78a9a6a064f6ab1c79d106d20c561f06a210"
+    },
+    {
+      "message_id": 11761,
+      "filename": "설맞이_수2_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11761_._.2_.pdf",
+      "size_bytes": 81966371,
+      "telegram_date": "2025-08-11T16:01:10+00:00",
+      "title": "설맞이_수2_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11761.png",
+      "sha256": "6fac5625c921106bd78b08ab3b69d450ee756f71e9692eb387d3ccbc7ab622c7"
     }
   ],
   "duplicate_message_ids": [
