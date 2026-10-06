@@ -106805,6 +106805,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12156.png",
       "sha256": "9113718011fbcb684bbbb09c970f54c3284af4f9c30274b1069a5f6f1e92095f"
+    },
+    {
+      "message_id": 12155,
+      "filename": "2023_특모_물리학2_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12155_2023_._.2_.pdf",
+      "size_bytes": 13520389,
+      "telegram_date": "2025-08-13T14:29:44+00:00",
+      "title": "2023_특모_물리학2_답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12155.png",
+      "sha256": "bb5b064f527fdf13a881db3e670c9bc9ec5629e29a5691e5f0ddc8e203595ca7"
     }
   ],
   "duplicate_message_ids": [
