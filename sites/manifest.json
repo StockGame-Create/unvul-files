@@ -108695,6 +108695,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11900.png",
       "sha256": "6d6d22bc752739ac27e9dc0999aab897653ec9da92d401bb2a3bcfe1f5933002"
+    },
+    {
+      "message_id": 11899,
+      "filename": "2026_국어_이감_on_1차_모의고사_250810_163852.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11899_2026_._._on_1._._250810_163852.pdf",
+      "size_bytes": 76870690,
+      "telegram_date": "2025-08-12T03:57:42+00:00",
+      "title": "2026_국어_이감_on_1차_모의고사_250810_163852",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11899.png",
+      "sha256": "c3bf62477a5607e6d979602e7c7fdcb12c341600af0a97f28b22d5e56817b7bd"
     }
   ],
   "duplicate_message_ids": [
