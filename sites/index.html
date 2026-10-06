@@ -126,6 +126,16 @@
     outline-offset: 2px;
   }
 
+  /* ---- 평가원 탭: 선택창이 여러 개라 줄바꿈 허용 / 탭이 4개라 좁은 화면에서 가로 스크롤 ---- */
+  #tabKice .sort-row { flex-wrap: wrap; row-gap: 0.5rem; }
+  #tabKice .sort-row label:not(:first-child) { margin-left: 0.6rem; }
+  .tab-nav { overflow-x: auto; scrollbar-width: none; }
+  .tab-nav::-webkit-scrollbar { display: none; }
+  .tab-btn { white-space: nowrap; flex: 0 0 auto; }
+  @media (max-width: 560px) {
+    .tab-btn { padding: 0.7rem 0.75rem; font-size: 0.78rem; }
+  }
+
   /* ---- 최근 업데이트 로그 (신문 정정/알림란 느낌) ---- */
   .update-log {
     margin: 0 0 2rem;
@@ -1022,6 +1032,7 @@
 
     <div class="tab-nav">
       <button type="button" class="tab-btn active" id="tabBtnFiles">파일 보관함</button>
+      <button type="button" class="tab-btn" id="tabBtnKice">평가원</button>
       <button type="button" class="tab-btn" id="tabBtnView">파일 관리</button>
       <button type="button" class="tab-btn" id="tabBtnAi">Unvul AI에게 물어보기</button>
     </div>
@@ -1086,6 +1097,54 @@
       </ul>
 
       <div class="pagination" id="pagination"></div>
+    </section>
+
+    <section class="tab-panel" id="tabKice" hidden>
+      <div class="search-row">
+        <input type="text" id="kiceSearch" placeholder="학년도, 과목, 파일명으로 찾기 (예: 2026 수학)" autocomplete="off" />
+
+        <div class="sort-row">
+          <label for="kiceExam">시험</label>
+          <select id="kiceExam">
+            <option value="">전체</option>
+            <option value="수능">수능</option>
+            <option value="9월 모의평가">9월 모의평가</option>
+            <option value="6월 모의평가">6월 모의평가</option>
+          </select>
+          <label for="kiceYear">학년도</label>
+          <select id="kiceYear"><option value="">전체</option></select>
+          <label for="kiceKind">구분</label>
+          <select id="kiceKind">
+            <option value="">전체</option>
+            <option value="문제">문제지</option>
+            <option value="정답">정답표</option>
+            <option value="etc">해설·대본·기타</option>
+          </select>
+          <label for="kiceSort">정렬</label>
+          <select id="kiceSort">
+            <option value="exam">학년도·시험순</option>
+            <option value="newest">최근 등록순</option>
+            <option value="name">이름순</option>
+          </select>
+        </div>
+
+        <div class="filter-row" id="kiceFilterRow">
+          <span class="filter-pill" data-cat="korean"><input type="checkbox" id="kice-korean" value="korean" /><label for="kice-korean"><span class="dot"></span>국어</label></span>
+          <span class="filter-pill" data-cat="math"><input type="checkbox" id="kice-math" value="math" /><label for="kice-math"><span class="dot"></span>수학</label></span>
+          <span class="filter-pill" data-cat="english"><input type="checkbox" id="kice-english" value="english" /><label for="kice-english"><span class="dot"></span>영어</label></span>
+          <span class="filter-pill" data-cat="social"><input type="checkbox" id="kice-social" value="social" /><label for="kice-social"><span class="dot"></span>사탐</label></span>
+          <span class="filter-pill" data-cat="science"><input type="checkbox" id="kice-science" value="science" /><label for="kice-science"><span class="dot"></span>과탐</label></span>
+          <span class="filter-pill" data-cat="other"><input type="checkbox" id="kice-other" value="other" /><label for="kice-other"><span class="dot"></span>기타</label></span>
+        </div>
+
+        <div class="count-line" id="kiceCount"></div>
+      </div>
+
+      <ul class="file-grid" id="kiceList">
+        <li class="loading-state">목록을 불러오는 중...</li>
+      </ul>
+
+      <div class="pagination" id="kicePagination"></div>
     </section>
 
     <section class="tab-panel" id="tabView" hidden>
@@ -1573,19 +1632,25 @@
     const tabFiles = document.getElementById("tabFiles");
     const tabView = document.getElementById("tabView");
     const tabAi = document.getElementById("tabAi");
+    const tabBtnKice = document.getElementById("tabBtnKice");
+    const tabKice = document.getElementById("tabKice");
 
     function showTab(name) {
       tabFiles.hidden = name !== "files";
+      tabKice.hidden = name !== "kice";
       tabView.hidden = name !== "view";
       tabAi.hidden = name !== "ai";
       tabBtnFiles.classList.toggle("active", name === "files");
+      tabBtnKice.classList.toggle("active", name === "kice");
       tabBtnView.classList.toggle("active", name === "view");
       tabBtnAi.classList.toggle("active", name === "ai");
+      if (name === "kice") loadKice();
       if (name === "ai") chatInput.focus();
       if (name === "view" && !viewSelectedFile) viewFileSearch.focus();
     }
 
     tabBtnFiles.addEventListener("click", () => showTab("files"));
+    tabBtnKice.addEventListener("click", () => showTab("kice"));
     tabBtnView.addEventListener("click", () => showTab("view"));
     tabBtnAi.addEventListener("click", () => showTab("ai"));
 
@@ -2137,6 +2202,186 @@
       .catch(err => {
         fileListEl.innerHTML = `<li class="empty-state">목록을 불러오지 못했습니다 (${err.message})</li>`;
       });
+
+    // ---- 평가원 탭 (수능 / 6월·9월 모의평가) ----
+    // sync2.py가 만드는 sites/manifest_mock.json을 읽는다. 탭을 처음 열 때 한 번만
+    // 불러오고, 카드/버튼/페이지 번호는 파일 보관함과 같은 함수·스타일을 재사용한다.
+    // "보기"는 파일 관리 탭(/api/view)을, "다운로드"는 GitHub Release 원본 URL을 쓴다.
+    const kiceListEl = document.getElementById("kiceList");
+    const kiceSearch = document.getElementById("kiceSearch");
+    const kiceExamSel = document.getElementById("kiceExam");
+    const kiceYearSel = document.getElementById("kiceYear");
+    const kiceKindSel = document.getElementById("kiceKind");
+    const kiceSortSel = document.getElementById("kiceSort");
+    const kiceFilterRow = document.getElementById("kiceFilterRow");
+    const kiceCountEl = document.getElementById("kiceCount");
+    const kicePaginationEl = document.getElementById("kicePagination");
+
+    let kiceFiles = [];
+    let kiceFiltered = [];
+    let kicePage = 1;
+    let kiceLoadState = "idle"; // idle | loading | done
+
+    const KICE_EXAM_RANK = { "수능": 3, "9월 모의평가": 2, "6월 모의평가": 1 };
+    const KICE_CAT_RANK = { korean: 0, math: 1, english: 2, social: 4, science: 5, other: 6 };
+    const KICE_KIND_RANK = { "문제": 0, "정답": 1, "해설": 2, "대본": 3 };
+
+    function kiceSubjectRank(f) {
+      if (stripSpace(f.subject) === "한국사") return 3;
+      return KICE_CAT_RANK[resolveCategory(f)] ?? 9;
+    }
+
+    const KICE_SORTERS = {
+      exam: (a, b) =>
+        (Number(b.year) || 0) - (Number(a.year) || 0) ||
+        (KICE_EXAM_RANK[b.exam] || 0) - (KICE_EXAM_RANK[a.exam] || 0) ||
+        kiceSubjectRank(a) - kiceSubjectRank(b) ||
+        (KICE_KIND_RANK[a.kind] ?? 9) - (KICE_KIND_RANK[b.kind] ?? 9) ||
+        (a.filename || "").localeCompare(b.filename || "", "ko"),
+      newest: (a, b) => new Date(b.telegram_date) - new Date(a.telegram_date),
+      name: (a, b) => (a.title || a.filename).localeCompare(b.title || b.filename, "ko"),
+    };
+
+    function loadKice() {
+      if (kiceLoadState !== "idle") return;
+      kiceLoadState = "loading";
+      fetch(RAW_BASE + "manifest_mock.json", { cache: "no-store" })
+        .then(res => {
+          // 아직 sync2.py가 한 번도 안 돌아서 파일이 없는 경우(404)는 오류가 아니라 "비어 있음"
+          if (res.status === 404) return { files: [] };
+          if (!res.ok) throw new Error("manifest_mock.json을 불러오지 못했습니다");
+          return res.json();
+        })
+        .then(data => {
+          kiceFiles = data.files || [];
+          const years = [...new Set(kiceFiles.map(f => f.year).filter(Boolean))].sort((a, b) => Number(b) - Number(a));
+          for (const y of years) {
+            const opt = document.createElement("option");
+            opt.value = y;
+            opt.textContent = `${y}학년도`;
+            kiceYearSel.appendChild(opt);
+          }
+          kiceLoadState = "done";
+          applyKiceFilter();
+        })
+        .catch(err => {
+          kiceLoadState = "idle"; // 탭을 다시 열면 재시도
+          kiceListEl.innerHTML = `<li class="empty-state">목록을 불러오지 못했습니다 (${escapeHtml(err.message)})</li>`;
+        });
+    }
+
+    function applyKiceFilter() {
+      const q = kiceSearch.value.trim().toLowerCase().normalize("NFC");
+      const exam = kiceExamSel.value;
+      const year = kiceYearSel.value;
+      const kind = kiceKindSel.value;
+      const cats = Array.from(kiceFilterRow.querySelectorAll("input[type=checkbox]:checked")).map(el => el.value);
+
+      const filtered = kiceFiles.filter(f => {
+        if (exam && f.exam !== exam) return false;
+        if (year && String(f.year) !== year) return false;
+        if (kind === "etc" ? (f.kind === "문제" || f.kind === "정답") : (kind && f.kind !== kind)) return false;
+        if (cats.length > 0 && !cats.includes(resolveCategory(f))) return false;
+        if (!q) return true;
+        const haystack = [f.filename, f.title, f.subject, f.year, f.year ? `${f.year}학년도` : "", f.exam]
+          .filter(Boolean).join(" ").toLowerCase().normalize("NFC");
+        return q.split(/\s+/).every(token => haystack.includes(token));
+      });
+
+      kiceFiltered = filtered.slice().sort(KICE_SORTERS[kiceSortSel.value] || KICE_SORTERS.exam);
+      kicePage = 1;
+      renderKicePage();
+    }
+
+    function renderKicePage() {
+      if (kiceFiles.length === 0) {
+        kiceListEl.innerHTML = '<li class="empty-state">아직 올라온 평가원 자료가 없어요.</li>';
+        kiceCountEl.textContent = "";
+        kicePaginationEl.innerHTML = "";
+        return;
+      }
+      if (kiceFiltered.length === 0) {
+        kiceListEl.innerHTML = '<li class="empty-state">조건에 맞는 자료가 없습니다.</li>';
+        kiceCountEl.textContent = "";
+        kicePaginationEl.innerHTML = "";
+        return;
+      }
+
+      kiceCountEl.textContent = `총 ${kiceFiltered.length}개 파일`;
+      const totalPages = Math.max(1, Math.ceil(kiceFiltered.length / PAGE_SIZE));
+      if (kicePage > totalPages) kicePage = totalPages;
+      const start = (kicePage - 1) * PAGE_SIZE;
+      renderKiceCards(kiceFiltered.slice(start, start + PAGE_SIZE));
+      renderKicePagination(totalPages);
+    }
+
+    function renderKiceCards(files) {
+      kiceListEl.innerHTML = "";
+      for (const f of files) {
+        const li = document.createElement("li");
+        li.className = "file-card";
+        const category = resolveCategory(f);
+        const tagLine = [f.exam, f.subject].filter(Boolean).join(" · ");
+        const thumbHtml = f.thumbnail
+          ? `<img src="${escapeHtml(RAW_BASE + f.thumbnail)}" alt="" loading="lazy" />`
+          : `<div class="thumb-fallback">PDF</div>`;
+        const yearBadge = f.year ? `<span class="year-badge">${escapeHtml(f.year)}</span>` : "";
+
+        li.innerHTML = `
+          <div class="thumb cat-${category}">
+            ${thumbHtml}
+            ${yearBadge}
+          </div>
+          <div class="card-body">
+            <p class="file-title">${escapeHtml(f.title || f.filename)}</p>
+            ${tagLine ? `<p class="file-tags"><span class="dot" style="background: var(--cat-${category})"></span>${escapeHtml(tagLine)}</p>` : ""}
+            <p class="file-name-sub">${escapeHtml(f.filename)}</p>
+            <div class="file-meta">
+              <span>${formatDate(f.telegram_date)}</span>
+              <span>${formatSize(f.size_bytes)}</span>
+            </div>
+          </div>
+          <div class="btn-row">
+            <button type="button" class="view-btn" data-state=""></button>
+            <button type="button" class="quick-download-btn" data-state="" title="다운로드" aria-label="다운로드"></button>
+          </div>
+        `;
+
+        li.querySelector(".view-btn").addEventListener("click", () => openInFileManager(f));
+        const dl = li.querySelector(".quick-download-btn");
+        dl.addEventListener("click", () => handleDownload(dl, f.download_url, f.filename, true));
+        kiceListEl.appendChild(li);
+      }
+    }
+
+    function renderKicePagination(totalPages) {
+      kicePaginationEl.innerHTML = "";
+      if (totalPages <= 1) return;
+      for (const p of getPageNumbers(kicePage, totalPages)) {
+        if (p === "...") {
+          const span = document.createElement("span");
+          span.className = "page-ellipsis";
+          span.textContent = "...";
+          kicePaginationEl.appendChild(span);
+          continue;
+        }
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "page-btn" + (p === kicePage ? " active" : "");
+        btn.textContent = String(p);
+        btn.addEventListener("click", () => {
+          if (p === kicePage) return;
+          kicePage = p;
+          renderKicePage();
+          kiceListEl.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+        kicePaginationEl.appendChild(btn);
+      }
+    }
+
+    kiceSearch.addEventListener("input", applyKiceFilter);
+    kiceFilterRow.addEventListener("change", applyKiceFilter);
+    for (const el of [kiceExamSel, kiceYearSel, kiceKindSel, kiceSortSel]) el.addEventListener("change", applyKiceFilter);
   </script>
 </body>
 </html>
