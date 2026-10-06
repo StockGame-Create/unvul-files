@@ -108807,6 +108807,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11883.png",
       "sha256": "31a21636679f2155651fe047c3df1b247ced27a16831e93aee4288a0258329fa"
+    },
+    {
+      "message_id": 11881,
+      "filename": "강E분 언매 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11881_.E.pdf",
+      "size_bytes": 53987538,
+      "telegram_date": "2025-08-12T01:48:07+00:00",
+      "title": "강E분 언매 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11881.png",
+      "sha256": "629681652747b7ca5504d07b27c42e17b4039022ca16f6efb1f6c613885736fa"
     }
   ],
   "duplicate_message_ids": [
