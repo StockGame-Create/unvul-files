@@ -111131,6 +111131,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11715.png",
       "sha256": "c4bd9a374f0e1ae4b15984d84f2ebb784e5059d97b3fb164960df4026cafc517"
+    },
+    {
+      "message_id": 11714,
+      "filename": "2026 매개완.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11714_2026.pdf",
+      "size_bytes": 275851443,
+      "telegram_date": "2025-08-11T16:01:01+00:00",
+      "title": "유빈 아카이브: @yubin2archive",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11714.png",
+      "sha256": "1251f2803a0bcb302144a8c3e152c57e8275c9cbd0cc9d3c10c42ea8a8b16b1c"
     }
   ],
   "duplicate_message_ids": [
