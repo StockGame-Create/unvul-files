@@ -239,6 +239,20 @@
       "sha256": "d1f044874880b27f7f3a2c19c48aa2b63f902454699201e41f176a1da1412dee"
     },
     {
+      "message_id": 25029,
+      "filename": "전국 서바이벌 지구과학1 9회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25029_.1.9.pdf",
+      "size_bytes": 37224703,
+      "telegram_date": "2026-10-06T08:48:39+00:00",
+      "title": "지1 최진영 시대인재 전국 서바이벌 9, 10회, 9월 모평 분석서",
+      "year": "2027",
+      "instructor": "최진영",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25029.png",
+      "sha256": "e115f998bb9d03b045d948db964e9150a1a538ceb580683b56bc727ca5306d61"
+    },
+    {
       "message_id": 25026,
       "filename": "이형수 모의 2회.pdf",
       "stored_as": null,
