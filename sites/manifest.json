@@ -105685,6 +105685,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12299.png",
       "sha256": "3be8ee1b9eced98e290ac92373959624ed048940431b2190904889f46987e4d0"
+    },
+    {
+      "message_id": 12298,
+      "filename": "2026_수능완성_국어_화법과_작문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12298_2026_._._._.pdf",
+      "size_bytes": 9694342,
+      "telegram_date": "2025-08-14T05:33:15+00:00",
+      "title": "2026 수능완성 화법과작문 언어와매체 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12298.png",
+      "sha256": "68220ae541570e25af0e539a311aaa70971baee37e9cbecebaa3f9219d0926c8"
     }
   ],
   "duplicate_message_ids": [
