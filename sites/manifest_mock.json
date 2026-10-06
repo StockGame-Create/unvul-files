@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 13315056249,
+      "source_key": "3c087966e91f08276b7f7e2ec51000e1#02 농업 기초 기술_문제지.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=3c087966e91f08276b7f7e2ec51000e1",
+      "category": "평가원",
+      "filename": "02 농업 기초 기술_문제지.pdf",
+      "asset_name": "2025_csat_02_c597be7961.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2025_csat_02_c597be7961.pdf",
+      "size_bytes": 1690895,
+      "telegram_date": "2026-10-06T08:23:36.370529+00:00",
+      "posted_date": "2025",
+      "title": "2025학년도 수능 02 농업 기초 기술_문제지",
+      "year": "2024",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "직업탐구",
+      "kind": "문제",
+      "thumbnail": "thumbnails/13315056249.png",
+      "sha256": "f110d778b7833fd7824873d4086b3a42ff32423653411d5d117a0c28f515fe97"
+    },
+    {
       "message_id": 14072237037,
       "source_key": "3c087966e91f08276b7f7e2ec51000e1#01 성공적인 직업생활_문제지.pdf",
       "source": "suneung.re.kr",
