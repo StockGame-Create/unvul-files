@@ -105741,6 +105741,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12288.png",
       "sha256": "a85dabe7677feb77149182e931f1d11c769359acc5c585991e0c6532880c9d22"
+    },
+    {
+      "message_id": 12286,
+      "filename": "시대인재_서바이벌_3회_사탐_경제_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12286_._._3._._._.pdf",
+      "size_bytes": 4251289,
+      "telegram_date": "2025-08-13T14:42:04+00:00",
+      "title": "2026 경제 시대인재 서바이벌 3회 #경제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12286.png",
+      "sha256": "cec37a52125976d00323d957ca4df0e4bf4e40b27c609dd55eeb26033e84c1b2"
     }
   ],
   "duplicate_message_ids": [
