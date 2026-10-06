@@ -108933,6 +108933,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11868.png",
       "sha256": "80b460c815e0fc74ff03e942e493d44fc6467016bca62ee4aee6b545265a6cdc"
+    },
+    {
+      "message_id": 11867,
+      "filename": "오메가 수학 6회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11867_.6.pdf",
+      "size_bytes": 11743944,
+      "telegram_date": "2025-08-12T01:48:06+00:00",
+      "title": "오메가 수학 6회 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11867.png",
+      "sha256": "0b7d91b1ff410eb22cd564206b481c630badc0d192381585a08872ccf819e8f0"
     }
   ],
   "duplicate_message_ids": [
