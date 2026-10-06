@@ -111005,6 +111005,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11724.png",
       "sha256": "6240932d694ca738807de4b481d25f0c5b8719096f3075e06b3b9e3ce53e14ba"
+    },
+    {
+      "message_id": 11723,
+      "filename": "2026 THE FULL 윤사 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11723_2026.THE.FULL.2.pdf",
+      "size_bytes": 6752047,
+      "telegram_date": "2025-08-11T16:01:07+00:00",
+      "title": "유빈 아카이브: @yubin2archive",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11723.png",
+      "sha256": "95f79159df589e751e8613691db4f9f72d38763641f761c8b0ae1962f12e6e1f"
     }
   ],
   "duplicate_message_ids": [
