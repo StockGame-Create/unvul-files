@@ -49,6 +49,11 @@ const GITHUB_BRANCH = "main";            // index.html과 동일하게 유지
 const MANIFEST_URL = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/sites/manifest.json`;
 const RAW_FILES_BASE = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/sites/files/`;
 
+// 평가원(수능/모평) 자료: sync2.py가 만드는 별도 manifest. message_id는 10^10 이상의
+// 큰 숫자라서 텔레그램 message_id와 겹치지 않고, 기본 manifest에서 못 찾았을 때만 조회한다.
+const MOCK_MANIFEST_URL = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/sites/manifest_mock.json`;
+const MOCK_ID_BASE = 10_000_000_000;
+
 // ask.js의 MAX_PDF_BYTES와 같은 이유로 같은 값을 쓴다: 이 함수가 PDF
 // 전체를 메모리에 올렸다가(Buffer) 응답하는 단순한 방식이라, 너무 큰
 // 파일까지 받으려 하면 Vercel 함수의 메모리/실행시간 한도에 걸릴 수 있다.
@@ -87,7 +92,15 @@ module.exports = async function handler(req, res) {
     const manifestRes = await fetch(MANIFEST_URL, { cache: "no-store" });
     if (!manifestRes.ok) throw new Error("manifest.json을 불러오지 못했습니다.");
     const manifest = await manifestRes.json();
-    const file = (manifest.files || []).find((f) => f.message_id === messageId);
+    let file = (manifest.files || []).find((f) => f.message_id === messageId);
+
+    if (!file && messageId >= MOCK_ID_BASE) {
+      const mockRes = await fetch(MOCK_MANIFEST_URL, { cache: "no-store" });
+      if (mockRes.ok) {
+        const mockManifest = await mockRes.json();
+        file = (mockManifest.files || []).find((f) => f.message_id === messageId);
+      }
+    }
 
     if (!file) {
       res.status(404).json({ error: "해당 자료를 찾을 수 없습니다." });

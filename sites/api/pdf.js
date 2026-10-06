@@ -30,6 +30,8 @@ const GITHUB_REPO = "unvul-files";
 const GITHUB_BRANCH = "main";
 const MANIFEST_URL = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/sites/manifest.json`;
 const RAW_FILES_BASE = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/sites/files/`;
+// 평가원(수능/모평) 자료 manifest (sync2.py). 없거나 실패해도 기본 manifest 조회에는 영향 없다.
+const MOCK_MANIFEST_URL = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/sites/manifest_mock.json`;
 
 // 부분 전송이라 서버 메모리/응답 한도 걱정이 없어서 view.js(100MB)보다 넉넉히 둔다.
 // index.html의 MAX_VIEWABLE_BYTES와 동일하게 유지할 것.
@@ -46,7 +48,14 @@ async function findFile(messageId) {
       const res = await fetch(MANIFEST_URL, { cache: "no-store" });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const manifest = await res.json();
-      manifestCache = { at: Date.now(), byId: new Map((manifest.files || []).map((f) => [f.message_id, f])) };
+      const byId = new Map((manifest.files || []).map((f) => [f.message_id, f]));
+      try {
+        const mockRes = await fetch(MOCK_MANIFEST_URL, { cache: "no-store" });
+        if (mockRes.ok) for (const f of (await mockRes.json()).files || []) byId.set(f.message_id, f);
+      } catch (mockErr) {
+        console.warn("[manifest_mock 조회 실패, 평가원 자료만 건너뜀]", mockErr.message);
+      }
+      manifestCache = { at: Date.now(), byId };
     } catch (err) {
       if (!manifestCache.byId) throw new Error("manifest.json을 불러오지 못했습니다.");
       console.warn("[manifest 갱신 실패, 이전 캐시 사용]", err.message);
