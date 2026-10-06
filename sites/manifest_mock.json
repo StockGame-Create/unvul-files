@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12813901880,
+      "source_key": "a4ee0a9180d0f3f11bde971fdee27047#06 화학Ⅱ_정답표.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=a4ee0a9180d0f3f11bde971fdee27047",
+      "category": "평가원",
+      "filename": "06 화학Ⅱ_정답표.pdf",
+      "asset_name": "2025_csat_06_a7b8bc38fc.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2025_csat_06_a7b8bc38fc.pdf",
+      "size_bytes": 87336,
+      "telegram_date": "2026-10-06T08:23:22.274708+00:00",
+      "posted_date": "2025",
+      "title": "2025학년도 수능 06 화학Ⅱ_정답표",
+      "year": "2024",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "과학탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/12813901880.png",
+      "sha256": "c639d3d83b3cda0281f1278589918713c53ae66da1963349497058d4ea07fdc8"
+    },
+    {
       "message_id": 10772946142,
       "source_key": "a4ee0a9180d0f3f11bde971fdee27047#05 물리학Ⅱ_정답표.pdf",
       "source": "suneung.re.kr",
