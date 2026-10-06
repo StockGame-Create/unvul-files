@@ -106007,6 +106007,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12258.png",
       "sha256": "1e7111dc080d7e034304afbd67136326cf9fd9eb7de6bb9ea892eb6b18f87c48"
+    },
+    {
+      "message_id": 12250,
+      "filename": "디카프 스킬특강.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12250_.pdf",
+      "size_bytes": 31394639,
+      "telegram_date": "2025-08-13T14:29:51+00:00",
+      "title": "2025 UAA&DCAF 디카프 테이크오프 스킬특강 시즌1 #사문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12250.png",
+      "sha256": "908529e6667d57e822231c985f3e14c9411e4f89be2fc20c8a9ae36ee6d760a2"
     }
   ],
   "duplicate_message_ids": [
