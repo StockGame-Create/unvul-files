@@ -111019,6 +111019,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11723.png",
       "sha256": "95f79159df589e751e8613691db4f9f72d38763641f761c8b0ae1962f12e6e1f"
+    },
+    {
+      "message_id": 11722,
+      "filename": "류재민의_PICK_이감_5_1_아조토박터.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11722_._PICK_._5_1_.pdf",
+      "size_bytes": 837987,
+      "telegram_date": "2025-08-11T16:01:07+00:00",
+      "title": "유빈 아카이브: @yubin2archive",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11722.png",
+      "sha256": "c97429d21a6b44358676e5791a5df77f702a931c1b354f30c314e064311e82eb"
     }
   ],
   "duplicate_message_ids": [
