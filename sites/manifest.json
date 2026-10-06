@@ -108023,6 +108023,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11973.png",
       "sha256": "b1c8bd94ae3098a36073f0f03069b6634fc40795cf8b8f82486282249d15502f"
+    },
+    {
+      "message_id": 11972,
+      "filename": "케이지구3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11972_.3.pdf",
+      "size_bytes": 609819,
+      "telegram_date": "2025-08-12T09:07:01+00:00",
+      "title": "케이지구3",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11972.png",
+      "sha256": "4e65ace334c2ace2ffda70a87baf185393e8ffe43c08c9c7f9a06d9e8be60669"
     }
   ],
   "duplicate_message_ids": [
