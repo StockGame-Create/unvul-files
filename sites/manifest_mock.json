@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 13167933203,
+      "source_key": "7e4cafef42ff32948e0f62cb1bfceeba",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=7e4cafef42ff32948e0f62cb1bfceeba",
+      "category": "평가원",
+      "filename": "한국사영역_정답표.pdf",
+      "asset_name": "2027_m6_bcd2d31331.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_m6_bcd2d31331.pdf",
+      "size_bytes": 45569,
+      "telegram_date": "2026-10-06T08:50:44.280952+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 6월 모의평가 한국사영역_정답표",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/13167933203.png",
+      "sha256": "6b5000ca19abcc4eb73b78dc4ebeb5c805795fafb82e440034a7e5bb00dde588"
+    },
+    {
       "message_id": 12389738505,
       "source_key": "ec63d41314aa9c9887e3fda3699b1fc5",
       "source": "suneung.re.kr",
