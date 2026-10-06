@@ -110893,6 +110893,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11744.png",
       "sha256": "6d6e122977d1f6666501f54e59318effa2930c2fd296c1d9ff4963292c0f5aa1"
+    },
+    {
+      "message_id": 11741,
+      "filename": "2026 김범준 인강 허들링 수2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11741_2026.2.pdf",
+      "size_bytes": 96969351,
+      "telegram_date": "2025-08-11T16:01:09+00:00",
+      "title": "2026 김범준 인강 허들링 수2.pdf",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11741.png",
+      "sha256": "539a11c7ff97c3a88e0555cc3939bb409d7e104fe6986846c074493b5117ec52"
     }
   ],
   "duplicate_message_ids": [
