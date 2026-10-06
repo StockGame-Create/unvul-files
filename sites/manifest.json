@@ -109171,6 +109171,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11844.png",
       "sha256": "9e2c8dfead631c1baddad5aaaa4ac46f4a7b9ec7b5bf97b48533deba22b5bad2"
+    },
+    {
+      "message_id": 11843,
+      "filename": "생2 Uaa 어댑터.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11843_.2.Uaa.pdf",
+      "size_bytes": 100731853,
+      "telegram_date": "2025-08-11T17:06:04+00:00",
+      "title": "생2 Uaa 어댑터",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11843.png",
+      "sha256": "6f66d2f0fb26ee1226f07d79cdcd54ca692a5c741c7595120860a986ee6b13ae"
     }
   ],
   "duplicate_message_ids": [
