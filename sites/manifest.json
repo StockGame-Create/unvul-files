@@ -109339,6 +109339,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11832.png",
       "sha256": "0b387e629803d4ae2c058c10765aaee2c579175bced2c8667d3fdf12313a87ea"
+    },
+    {
+      "message_id": 11831,
+      "filename": "DCAF 스핀오프 4회(해설포함)_250621_083818.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11831_DCAF.4._250621_083818.pdf",
+      "size_bytes": 3407986,
+      "telegram_date": "2025-08-11T17:06:03+00:00",
+      "title": "DCAF 스핀오프 4회(해설포함)_250621_083818",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11831.png",
+      "sha256": "caa81b486b5863cebf50e1cf30582fc7e639809d85815802b8814cce7377da7e"
     }
   ],
   "duplicate_message_ids": [
