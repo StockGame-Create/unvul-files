@@ -110697,6 +110697,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11777.png",
       "sha256": "1f398596b4afdf2735f9a1a4e96a589f754cb6a9b9a7ce41763cdf8059ec4ddf"
+    },
+    {
+      "message_id": 11774,
+      "filename": "2026_한석원_4의규칙_기하.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11774_2026_._4._.pdf",
+      "size_bytes": 23877643,
+      "telegram_date": "2025-08-11T16:01:10+00:00",
+      "title": "2026_한석원_4의규칙_기하",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11774.png",
+      "sha256": "5ef2c91c82f62daf26abcd0646d3caec856fc73900668423ead6acd2fa05b889"
     }
   ],
   "duplicate_message_ids": [
