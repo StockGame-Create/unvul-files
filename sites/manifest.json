@@ -110417,6 +110417,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11813.png",
       "sha256": "37ba6097a6c435a356c107d4dc6f5260253ccf38cb5e7b92d9f5626207c7e65c"
+    },
+    {
+      "message_id": 11810,
+      "filename": "이감모고 5-5 문제+해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11810_.5-5.%2B.pdf",
+      "size_bytes": 29375605,
+      "telegram_date": "2025-08-11T16:01:15+00:00",
+      "title": "이감모고 5-5 문제+해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11810.png",
+      "sha256": "5b20d2111b9a39944048b2c6382b9d1775e383bec77d1be6b6f07aab13d72362"
     }
   ],
   "duplicate_message_ids": [
