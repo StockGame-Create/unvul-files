@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 11089903944,
+      "source_key": "fd6ad5f7ce3af79b91bbdae568f5b4c6#07 사탐(경제) 정답표.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=fd6ad5f7ce3af79b91bbdae568f5b4c6",
+      "category": "평가원",
+      "filename": "07 사탐(경제) 정답표.pdf",
+      "asset_name": "2023_m9_07_40f69d48e9.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2023_m9_07_40f69d48e9.pdf",
+      "size_bytes": 47041,
+      "telegram_date": "2026-10-06T09:15:14.217531+00:00",
+      "posted_date": "2023",
+      "title": "2023학년도 9월 모의평가 07 사탐(경제) 정답표",
+      "year": "2022",
+      "year_shifted": true,
+      "exam": "9월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "9월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/11089903944.png",
+      "sha256": "7ed67d037628374c9ece5de8c6ec6debfa5977d9652b97cb81daa78fef188f3f"
+    },
+    {
       "message_id": 11053758240,
       "source_key": "fd6ad5f7ce3af79b91bbdae568f5b4c6#06 사탐(세계사) 정답표.pdf",
       "source": "suneung.re.kr",
