@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12467514236,
+      "source_key": "48ad0a98a2768daa6485f48617114662#07 경제_문제.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=48ad0a98a2768daa6485f48617114662",
+      "category": "평가원",
+      "filename": "07 경제_문제.pdf",
+      "asset_name": "2027_m6_07_9313477c5a.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_m6_07_9313477c5a.pdf",
+      "size_bytes": 1182946,
+      "telegram_date": "2026-10-06T08:51:05.940146+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 6월 모의평가 07 경제_문제",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "문제",
+      "thumbnail": "thumbnails/12467514236.png",
+      "sha256": "7bc243e4e6ff46a68eef264bb3d85647503941b16e5ad671999421beb048f62d"
+    },
+    {
       "message_id": 11692163339,
       "source_key": "48ad0a98a2768daa6485f48617114662#06 세계사_문제.pdf",
       "source": "suneung.re.kr",
