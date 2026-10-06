@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12447212726,
+      "source_key": "7451750e263f39e7e049d5f8fe0904df#04 상업 경제_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=7451750e263f39e7e049d5f8fe0904df",
+      "category": "평가원",
+      "filename": "04 상업 경제_정답.pdf",
+      "asset_name": "2026_m9_04_91dd80b677.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_m9_04_91dd80b677.pdf",
+      "size_bytes": 43139,
+      "telegram_date": "2026-10-06T08:56:14.793773+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 9월 모의평가 04 상업 경제_정답",
+      "year": "2025",
+      "year_shifted": true,
+      "exam": "9월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "9월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/12447212726.png",
+      "sha256": "73bebbf19f244678a2a79412f817bb7225b7ef7cb8405b051fd0c2d24a51cafa"
+    },
+    {
       "message_id": 12912849566,
       "source_key": "7451750e263f39e7e049d5f8fe0904df#03 공업 일반_정답.pdf",
       "source": "suneung.re.kr",
