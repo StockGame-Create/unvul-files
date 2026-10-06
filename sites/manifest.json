@@ -106189,6 +106189,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12217.png",
       "sha256": "70ab26b8a903924a8b782fa26ff614a10a874a4731944047aec6a8e40c56a51b"
+    },
+    {
+      "message_id": 12215,
+      "filename": "2026_윤성훈_사문_개념.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12215_2026_._._.pdf",
+      "size_bytes": 45950172,
+      "telegram_date": "2025-08-13T14:29:47+00:00",
+      "title": "2026 윤성훈 사문 불후의 명강 #사문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12215.png",
+      "sha256": "a59ab539de60f4e4191b10e7c5d68cd58919b01c6dd6afb6078192872ddb7d52"
     }
   ],
   "duplicate_message_ids": [
