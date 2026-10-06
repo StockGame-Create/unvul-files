@@ -183,6 +183,20 @@
       "sha256": "b354b298ec0d08ff139afbea8d98f9efc8a5b82ff64f6d8b4a2dd6725b71b9bd"
     },
     {
+      "message_id": 25033,
+      "filename": "26년 9월 서바이벌 전국 모의고사 지구1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25033_26.9.1.pdf",
+      "size_bytes": 964384,
+      "telegram_date": "2026-10-06T08:48:41+00:00",
+      "title": "지1 시대인재 9월 전국모의평가, 분석서 #서프",
+      "year": "2027",
+      "instructor": "최진영",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25033.png",
+      "sha256": "9c0cb507b7104441f7986fa321caf6cde2bd9ec37cbbce1e87c23fdbc5a5f9e8"
+    },
+    {
       "message_id": 25026,
       "filename": "이형수 모의 2회.pdf",
       "stored_as": null,
