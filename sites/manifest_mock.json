@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 11615211789,
+      "source_key": "e56323efadac225b9ce39f8e2b25ae65#02 윤리와 사상_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=e56323efadac225b9ce39f8e2b25ae65",
+      "category": "평가원",
+      "filename": "02 윤리와 사상_정답.pdf",
+      "asset_name": "2025_m6_02_60462d0dbe.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2025_m6_02_60462d0dbe.pdf",
+      "size_bytes": 47459,
+      "telegram_date": "2026-10-06T09:04:29.379362+00:00",
+      "posted_date": "2025",
+      "title": "2025학년도 6월 모의평가 02 윤리와 사상_정답",
+      "year": "2024",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/11615211789.png",
+      "sha256": "3f5b8e0ed1d9993e0364c27158f49e991fa943b953371f7230379372ac79884c"
+    },
+    {
       "message_id": 10807497683,
       "source_key": "e56323efadac225b9ce39f8e2b25ae65#01 생활과 윤리_정답.pdf",
       "source": "suneung.re.kr",
