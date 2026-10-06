@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 14079699328,
+      "source_key": "7004ebc34b2cae2f21bfa9a7e1f5860d",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=7004ebc34b2cae2f21bfa9a7e1f5860d",
+      "category": "평가원",
+      "filename": "수학영역_문제지.pdf",
+      "asset_name": "2027_m6_f32b45800d.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_m6_f32b45800d.pdf",
+      "size_bytes": 1406932,
+      "telegram_date": "2026-10-06T08:50:11.886857+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 6월 모의평가 수학영역_문제지",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "문제",
+      "thumbnail": "thumbnails/14079699328.png",
+      "sha256": "783dd4f3617c3ca221fea33ca2628fb0a24ff142229f95c7f9999b1bf992708e"
+    },
+    {
       "message_id": 12267451874,
       "source_key": "bf2f5d32c0a6425bc831ce6603b138d5",
       "source": "suneung.re.kr",
