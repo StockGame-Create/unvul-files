@@ -110669,6 +110669,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11779.png",
       "sha256": "1f280ee0481885b1c3a0e1b13a4a82779303977578124fb0c8f6e37c2c70bb35"
+    },
+    {
+      "message_id": 11778,
+      "filename": "강대k 5회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11778_.k.5.pdf",
+      "size_bytes": 11426336,
+      "telegram_date": "2025-08-11T16:01:11+00:00",
+      "title": "강대k 5회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11778.png",
+      "sha256": "3ea39500c53dae58652a509409535ded29cec8600f5c98056d498f97b6167b11"
     }
   ],
   "duplicate_message_ids": [
