@@ -105853,6 +105853,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12275.png",
       "sha256": "dad692bc131e3b14593ef19910750fc0035b3e1f63856b366c4e61dd04702789"
+    },
+    {
+      "message_id": 12274,
+      "filename": "2026 사만다 1-2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12274_2026.1-2.pdf",
+      "size_bytes": 7273075,
+      "telegram_date": "2025-08-13T14:29:58+00:00",
+      "title": "2026 사만다 1-2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12274.png",
+      "sha256": "1229483face1f602fc62cb61ee89653d3f80be6afb4e37f17b4be3771b7576c5"
     }
   ],
   "duplicate_message_ids": [
