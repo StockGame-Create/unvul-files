@@ -110599,6 +110599,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11785.png",
       "sha256": "da29aad8fab2b7b3c514c3331f3b762bdb3b119b3c1b410432ee191fd92d6bd5"
+    },
+    {
+      "message_id": 11783,
+      "filename": "강대k 8회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11783_.k.8.pdf",
+      "size_bytes": 80479435,
+      "telegram_date": "2025-08-11T16:01:11+00:00",
+      "title": "강대k 8회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11783.png",
+      "sha256": "25b1674ae979acda408424e50e68f46b6ba91e839968d32e425710092aad53ca"
     }
   ],
   "duplicate_message_ids": [
