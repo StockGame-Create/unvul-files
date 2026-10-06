@@ -107631,6 +107631,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12026.png",
       "sha256": "db1b0a5c3b247e2494687cc0d4ff9b29d015120a7c7c31a029cef59b60a1ae40"
+    },
+    {
+      "message_id": 12024,
+      "filename": "완자_고등물리학Ⅰ_정답친해 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12024_._._.1.pdf",
+      "size_bytes": 63191861,
+      "telegram_date": "2025-08-12T15:06:52+00:00",
+      "title": "완자_고등물리학Ⅰ_정답친해 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12024.png",
+      "sha256": "27d5e6fff353d49faaea7740d3040e651c66b2c2709caef66f7c5d2a3cc679ca"
     }
   ],
   "duplicate_message_ids": [
