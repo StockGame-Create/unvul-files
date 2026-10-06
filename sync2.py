@@ -832,12 +832,19 @@ def make_message_id(key: str, used: set[int]) -> int:
     return mid
 
 
-def build_asset_name(haknyeon: int, exam: str, filename: str) -> str:
-    """같은 파일명(국어영역_문제지.pdf)이 해마다 반복되므로 학년도/시험을 앞에 붙인다."""
-    raw = f"{haknyeon}학년도_{exam}_{filename}"
-    raw = re.sub(r"\s+", "", raw)
-    raw = re.sub(r'[\\/:*?"<>|#%&]', "_", raw)
-    return unicodedata.normalize("NFC", raw)
+def build_asset_name(haknyeon: int, exam: str, filename: str, key: str = "") -> str:
+    """GitHub Release는 에셋 이름의 비-ASCII 문자를 '.'으로 바꿔 저장한다. 그러면 글자 수가
+    같은 한글 이름끼리(문제지/정답표, 국어/수학 ...) 서로 충돌(422 already_exists)한다.
+    그래서 에셋 이름은 ASCII만 쓰고 key 해시로 유일성을 보장한다.
+    사람이 보는 한글 이름은 manifest의 filename/title에 그대로 남는다."""
+    if exam == "수능":
+        exam_ascii = "csat"
+    else:
+        m = re.search(r"(\d{1,2})\s*월", exam)
+        exam_ascii = f"m{int(m.group(1))}" if m else "exam"
+    stem = re.sub(r"[^A-Za-z0-9]+", "", Path(filename).stem)  # 영문/숫자만 (한글 이름이면 보통 빈 문자열)
+    h = hashlib.sha1((key or filename).encode("utf-8")).hexdigest()[:10]
+    return "_".join(p for p in (str(haknyeon), exam_ascii, stem, h) if p) + ".pdf"
 
 
 class Ctx:
@@ -874,7 +881,7 @@ def store_unit(ctx: Ctx, cand: dict, filename: str, path: Path, key: str) -> str
         ctx.commit(f"chore: 모의고사 중복 스킵 - {filename} [skip ci]")
         return "dup"
 
-    asset = build_asset_name(cand["haknyeon"], cand["exam"], filename)
+    asset = build_asset_name(cand["haknyeon"], cand["exam"], filename, key)
     if asset in ctx.used_assets:  # 이름 충돌 시 다른 파일을 덮어쓰거나 지우지 않도록 구분자를 붙인다
         stem, dot, ext = asset.rpartition(".")
         asset = f"{stem}_{cand['seq'][:6]}{dot}{ext}"
