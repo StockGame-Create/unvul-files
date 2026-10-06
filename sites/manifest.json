@@ -110515,6 +110515,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11797.png",
       "sha256": "7e2b1d9d07fed8d391a74a6c055f99a26729254f442692095640b12ad76f8557"
+    },
+    {
+      "message_id": 11796,
+      "filename": "시대 수학 서바 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11796_.5.pdf",
+      "size_bytes": 8681451,
+      "telegram_date": "2025-08-11T16:01:14+00:00",
+      "title": "시대 수학 서바 5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11796.png",
+      "sha256": "a76c9072466c13bb10b34bc723e7ffbe3e9edc2bb56765b24ae296d454adce78"
     }
   ],
   "duplicate_message_ids": [
