@@ -105867,6 +105867,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12274.png",
       "sha256": "1229483face1f602fc62cb61ee89653d3f80be6afb4e37f17b4be3771b7576c5"
+    },
+    {
+      "message_id": 12272,
+      "filename": "2026 사만다 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12272_2026.pdf",
+      "size_bytes": 6992361,
+      "telegram_date": "2025-08-13T14:29:58+00:00",
+      "title": "2026 사만다 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12272.png",
+      "sha256": "dd53ed5133c3520f64f3f030a6031b3d9912e664c6167f30d9ea43627f89fa38"
     }
   ],
   "duplicate_message_ids": [
