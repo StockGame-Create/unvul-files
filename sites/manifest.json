@@ -108919,6 +108919,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11870.png",
       "sha256": "09e5c0102a2e8b4933d07e8e6a09c0c5d16652d64ab9b455e6b0b5864d81020f"
+    },
+    {
+      "message_id": 11868,
+      "filename": "오메가 수학 6회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11868_.6.pdf",
+      "size_bytes": 15188215,
+      "telegram_date": "2025-08-12T01:48:06+00:00",
+      "title": "오메가 수학 6회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11868.png",
+      "sha256": "80b460c815e0fc74ff03e942e493d44fc6467016bca62ee4aee6b545265a6cdc"
     }
   ],
   "duplicate_message_ids": [
