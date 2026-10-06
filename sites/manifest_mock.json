@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12956413048,
+      "source_key": "7f5e10c3863d7bac295e0d002d5994b7#08 과탐(지구과학Ⅱ) 정답표.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=7f5e10c3863d7bac295e0d002d5994b7",
+      "category": "평가원",
+      "filename": "08 과탐(지구과학Ⅱ) 정답표.pdf",
+      "asset_name": "2023_m9_08_b0374878cb.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2023_m9_08_b0374878cb.pdf",
+      "size_bytes": 46459,
+      "telegram_date": "2026-10-06T09:16:08.360937+00:00",
+      "posted_date": "2023",
+      "title": "2023학년도 9월 모의평가 08 과탐(지구과학Ⅱ) 정답표",
+      "year": "2022",
+      "year_shifted": true,
+      "exam": "9월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "9월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/12956413048.png",
+      "sha256": "5a9445ce5ae66e2493a73c5ba38ac66b01ca86658e6f479a711b2121f0b91ade"
+    },
+    {
       "message_id": 12327871414,
       "source_key": "7f5e10c3863d7bac295e0d002d5994b7#07 과탐(생명과학Ⅱ) 정답표.pdf",
       "source": "suneung.re.kr",
