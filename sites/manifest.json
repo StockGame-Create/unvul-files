@@ -107575,6 +107575,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12030.png",
       "sha256": "b707ec3fee45607fdaba25b64ad69ebc38962af47a0ed7ffa9d7082c76688d7e"
+    },
+    {
+      "message_id": 12029,
+      "filename": "오투과탐+화학Ⅰ_본문 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12029_.%2B._.1.pdf",
+      "size_bytes": 20198053,
+      "telegram_date": "2025-08-12T15:09:02+00:00",
+      "title": "오투과탐+화학Ⅰ_본문 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12029.png",
+      "sha256": "31cbeb620f0e629281fc9103181b526dc82521760a59bb2ea2b8f99e66b06101"
     }
   ],
   "duplicate_message_ids": [
