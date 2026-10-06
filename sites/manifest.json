@@ -109425,6 +109425,20 @@
       "sha256": "2aa00733a077f227d984d569dd51131d57820bcee12ed4f0df8954557667123d"
     },
     {
+      "message_id": 11935,
+      "filename": "26 리바 생윤 1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11935_26.1.pdf",
+      "size_bytes": 118748075,
+      "telegram_date": "2025-08-12T09:07:00+00:00",
+      "title": "26 리바 생윤 1권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11935.png",
+      "sha256": "77c9b6d5d31c4cc8566cf4337109135c56de5950aa3be67bae9f8cdb9b9bef24"
+    },
+    {
       "message_id": 11922,
       "filename": "2026 국어 서바이벌 3회 (문제+해설).pdf",
       "stored_as": null,
