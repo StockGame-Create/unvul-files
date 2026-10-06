@@ -2,7 +2,7 @@
 """fix_mock.py - sites/manifest_mock.json에 표기된 년도를 -1 한다.
 
 이유: 평가원은 '2026학년도 수능'이라고 부르지만 실제 시행은 2025년이다.
-      그래서 year 와 title 앞의 'N학년도'를 N-1 로 내린다.
+      그래서 year 필드만 N-1 로 내린다 (title 등 다른 필드는 그대로 둔다).
 
 - 이미 고친 항목은 "year_shifted": true 로 표시해서 건너뛴다 (여러 번 실행해도 안전).
 - sync2.py가 새로 저장하는 항목은 처음부터 -1 된 값 + year_shifted 로 들어가므로 건드리지 않는다.
@@ -14,12 +14,10 @@
 """
 import argparse
 import json
-import re
 import sys
 from pathlib import Path
 
 MANIFEST_PATH = Path("sites") / "manifest_mock.json"
-TITLE_RE = re.compile(r"^(\d{4})(학년도)")
 
 
 def main() -> int:
@@ -45,13 +43,8 @@ def main() -> int:
             continue
 
         new_year = old_year - 1
-        old_title = f.get("title") or ""
-        new_title = TITLE_RE.sub(lambda m: f"{int(m.group(1)) - 1}{m.group(2)}", old_title, count=1)
-
-        print(f"  {old_year} -> {new_year} | {old_title} -> {new_title}")
+        print(f"  {old_year} -> {new_year} | {f.get('title')}")
         f["year"] = str(new_year)
-        if old_title:
-            f["title"] = new_title
         f["year_shifted"] = True
         changed += 1
 
