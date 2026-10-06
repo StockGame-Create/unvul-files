@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 10191141301,
+      "source_key": "15b3e862af397596d7d25e70fc60c5e0#02 직탐(공업 일반) 정답표.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=15b3e862af397596d7d25e70fc60c5e0",
+      "category": "평가원",
+      "filename": "02 직탐(공업 일반) 정답표.pdf",
+      "asset_name": "2023_m9_02_0b6495b5d9.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2023_m9_02_0b6495b5d9.pdf",
+      "size_bytes": 47352,
+      "telegram_date": "2026-10-06T09:16:39.229721+00:00",
+      "posted_date": "2023",
+      "title": "2023학년도 9월 모의평가 02 직탐(공업 일반) 정답표",
+      "year": "2022",
+      "year_shifted": true,
+      "exam": "9월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "9월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/10191141301.png",
+      "sha256": "b489490c8c82a6eed8083600d58e46a2c624b5eef672d41fc35d490ad949d68c"
+    },
+    {
       "message_id": 10324813538,
       "source_key": "15b3e862af397596d7d25e70fc60c5e0#01 직탐(농업 기초 기술) 정답표.pdf",
       "source": "suneung.re.kr",
