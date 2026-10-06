@@ -108737,6 +108737,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11892.png",
       "sha256": "84ed12770239791ac695da3363431b91698976c38f019eef30d3cd61c75cf549"
+    },
+    {
+      "message_id": 11890,
+      "filename": "2026 히든카이스 시즌2 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11890_2026.2.pdf",
+      "size_bytes": 21239737,
+      "telegram_date": "2025-08-12T03:19:40+00:00",
+      "title": "2026 히든카이스 시즌2 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11890.png",
+      "sha256": "c2e7421170a96e3d68a6d20b5f9fe6c15ac840bddc4d9707529e77d8cc65b7b6"
     }
   ],
   "duplicate_message_ids": [
