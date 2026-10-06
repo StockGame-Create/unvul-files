@@ -106399,6 +106399,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12192.png",
       "sha256": "134c6cbf8b36ab84cf28d511bed622a8064486088bfd3c360d35f20023040c53"
+    },
+    {
+      "message_id": 12191,
+      "filename": "2026 세계지리 서바이벌 전국 2회 (문제).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12191_2026.2.pdf",
+      "size_bytes": 5093025,
+      "telegram_date": "2025-08-13T14:29:46+00:00",
+      "title": "2026 세계지리 서바이벌 전국 2회 (문제)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12191.png",
+      "sha256": "17a0e3f3a29685c69ddaab578db110d89a3d8fb93e54f183951988fc037f7c33"
     }
   ],
   "duplicate_message_ids": [
