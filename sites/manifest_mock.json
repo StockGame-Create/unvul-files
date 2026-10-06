@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12369162892,
+      "source_key": "e9ead4d0c0fc298ddb0ad1a34290754e#01 직탐(성공적인 직업생활).pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=e9ead4d0c0fc298ddb0ad1a34290754e",
+      "category": "평가원",
+      "filename": "01 직탐(성공적인 직업생활).pdf",
+      "asset_name": "2023_m6_01_8d368e8cdb.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2023_m6_01_8d368e8cdb.pdf",
+      "size_bytes": 1902109,
+      "telegram_date": "2026-10-06T09:20:06.247190+00:00",
+      "posted_date": "2023",
+      "title": "2023학년도 6월 모의평가 01 직탐(성공적인 직업생활)",
+      "year": "2022",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "기타",
+      "thumbnail": "thumbnails/12369162892.png",
+      "sha256": "283400b4aeddb11b5b67a25572f5c92c917efffbfcb16fbc3983f5b2d2e75469"
+    },
+    {
       "message_id": 11942754029,
       "source_key": "62d5316929a90d776b8a5910913e98ea#06 4교시_직업탐구영역_인간 발달.pdf",
       "source": "suneung.re.kr",
