@@ -1689,7 +1689,7 @@
       sizePages();
     }
 
-    function renderPage(p) {
+    function vwRenderPage(p) {
       const scale = vwScale();
       if (p.rendered === scale || p.busy === scale) return;
       p.busy = scale;
@@ -1719,7 +1719,7 @@
       let first = 0, last = 0, best = -1;
       V.pages.forEach(p => {
         const b = p.wrap.getBoundingClientRect();
-        if (b.bottom > r.top - 700 && b.top < r.bottom + 700) { first = first || p.i; last = p.i; renderPage(p); }
+        if (b.bottom > r.top - 700 && b.top < r.bottom + 700) { first = first || p.i; last = p.i; vwRenderPage(p); }
         const v = Math.min(b.bottom, r.bottom) - Math.max(b.top, r.top);
         if (v > best) { best = v; V.cur = p.i; }
       });
