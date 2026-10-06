@@ -108541,6 +108541,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11926.png",
       "sha256": "64057da463e9a0d738cd04ee03533e61d6ff9ca5a7565b664983db1ae517471a"
+    },
+    {
+      "message_id": 11924,
+      "filename": "2026 장재원 로비스트 모의고사 9회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11924_2026.9.pdf",
+      "size_bytes": 436516,
+      "telegram_date": "2025-08-12T09:07:00+00:00",
+      "title": "2026 장재원 로비스트 모의고사 9회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11924.png",
+      "sha256": "a07105649e8dde994ddd830b7b1a8457548e2adb4d26ce88b86aca33d61ff637"
     }
   ],
   "duplicate_message_ids": [
