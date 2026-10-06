@@ -106485,6 +106485,20 @@
       "sha256": "e604cd937882c5a6e0aa43c420d12167592c4aa2635c7f1509381b7f54c8f187"
     },
     {
+      "message_id": 12244,
+      "filename": "2026 지구과학1 필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12244_2026.1.pdf",
+      "size_bytes": 324372765,
+      "telegram_date": "2025-08-13T14:29:51+00:00",
+      "title": "2026 지구과학 이신혁 필기노트 합본 #지1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12244.png",
+      "sha256": "c0cb1da3b39af6a4279705af5b27e11f0e2973b2daacc88eadea04ab66f46199"
+    },
+    {
       "message_id": 12230,
       "filename": "2026_국어_강대K_6회_해설.pdf",
       "stored_as": null,
