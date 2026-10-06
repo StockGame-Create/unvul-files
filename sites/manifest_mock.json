@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12977509206,
+      "source_key": "e9ead4d0c0fc298ddb0ad1a34290754e#03 직탐(공업 일반).pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=e9ead4d0c0fc298ddb0ad1a34290754e",
+      "category": "평가원",
+      "filename": "03 직탐(공업 일반).pdf",
+      "asset_name": "2023_m6_03_b1792f567d.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2023_m6_03_b1792f567d.pdf",
+      "size_bytes": 3729734,
+      "telegram_date": "2026-10-06T09:20:11.518389+00:00",
+      "posted_date": "2023",
+      "title": "2023학년도 6월 모의평가 03 직탐(공업 일반)",
+      "year": "2022",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "기타",
+      "thumbnail": "thumbnails/12977509206.png",
+      "sha256": "e25b4792b6e2f0b37042837805e1d9b8e157476eaeb302e7e5f389798395189f"
+    },
+    {
       "message_id": 12493798520,
       "source_key": "e9ead4d0c0fc298ddb0ad1a34290754e#02 직탐(농업 기초 기술).pdf",
       "source": "suneung.re.kr",
