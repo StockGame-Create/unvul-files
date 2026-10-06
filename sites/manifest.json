@@ -111117,6 +111117,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11716.png",
       "sha256": "b4a63f11e3c0d7a90367c00a32e9e6b20ba4eb6c0e2883b5199d85e6e2eb50d5"
+    },
+    {
+      "message_id": 11715,
+      "filename": "1. 2026학년도 사관학교 영어영역 문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11715_1.2026.pdf",
+      "size_bytes": 412964,
+      "telegram_date": "2025-08-11T16:01:01+00:00",
+      "title": "유빈 아카이브: @yubin2archive",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11715.png",
+      "sha256": "c4bd9a374f0e1ae4b15984d84f2ebb784e5059d97b3fb164960df4026cafc517"
     }
   ],
   "duplicate_message_ids": [
