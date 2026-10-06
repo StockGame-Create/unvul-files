@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 10867895495,
+      "source_key": "5b4a832bfff0c33e38eb6a6a47e3ca8c#04 지구과학Ⅰ_문제.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=5b4a832bfff0c33e38eb6a6a47e3ca8c",
+      "category": "평가원",
+      "filename": "04 지구과학Ⅰ_문제.pdf",
+      "asset_name": "2024_csat_04_33bb08c7b4.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2024_csat_04_33bb08c7b4.pdf",
+      "size_bytes": 1784379,
+      "telegram_date": "2026-10-06T08:40:42.806171+00:00",
+      "posted_date": "2024",
+      "title": "2024학년도 수능 04 지구과학Ⅰ_문제",
+      "year": "2023",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "과학탐구",
+      "kind": "문제",
+      "thumbnail": "thumbnails/10867895495.png",
+      "sha256": "7156ee0c07b231d358e518ea48bfe9565288abe1db43ffc57588e7f21ae2265f"
+    },
+    {
       "message_id": 10529998336,
       "source_key": "5b4a832bfff0c33e38eb6a6a47e3ca8c#03 생명과학Ⅰ_문제.pdf",
       "source": "suneung.re.kr",
