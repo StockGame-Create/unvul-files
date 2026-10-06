@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 11657402468,
+      "source_key": "ffbb61ba957fdd04acab5c6575009cc9#02 화학Ⅰ_문제.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=ffbb61ba957fdd04acab5c6575009cc9",
+      "category": "평가원",
+      "filename": "02 화학Ⅰ_문제.pdf",
+      "asset_name": "2026_m6_02_62c9f46465.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_m6_02_62c9f46465.pdf",
+      "size_bytes": 1347600,
+      "telegram_date": "2026-10-06T08:58:15.774445+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 6월 모의평가 02 화학Ⅰ_문제",
+      "year": "2025",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "문제",
+      "thumbnail": "thumbnails/11657402468.png",
+      "sha256": "6bde2e974e02a5a087206210a7b7b607bb1883c7fa570be6e408a45f5060f3cd"
+    },
+    {
       "message_id": 12412520558,
       "source_key": "ffbb61ba957fdd04acab5c6575009cc9#01 물리학Ⅰ_문제.pdf",
       "source": "suneung.re.kr",
