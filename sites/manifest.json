@@ -99,6 +99,20 @@
       "sha256": "1b4c2756c724bf0c6c303a3e486bbdf274cde3cc6e2e5750b4b6458c9a62f799"
     },
     {
+      "message_id": 25039,
+      "filename": "2027정석준_decode 8권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25039_2027._decode.8.pdf",
+      "size_bytes": 9353506,
+      "telegram_date": "2026-10-06T08:48:49+00:00",
+      "title": "생1 정석준 decode 8권",
+      "year": "2027",
+      "instructor": "정석준",
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/25039.png",
+      "sha256": "1eac58f013ddc16ca4f2f5ad343dd720b38a81b5abad4e7af1e6de10c12d8545"
+    },
+    {
       "message_id": 25026,
       "filename": "이형수 모의 2회.pdf",
       "stored_as": null,
