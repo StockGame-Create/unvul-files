@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12235564566,
+      "source_key": "4926d44549f3fc64e85cea8f20c375ec#04 상업 경제_문제지.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=4926d44549f3fc64e85cea8f20c375ec",
+      "category": "평가원",
+      "filename": "04 상업 경제_문제지.pdf",
+      "asset_name": "2024_m6_04_8540021678.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2024_m6_04_8540021678.pdf",
+      "size_bytes": 1165735,
+      "telegram_date": "2026-10-06T09:13:00.753188+00:00",
+      "posted_date": "2024",
+      "title": "2024학년도 6월 모의평가 04 상업 경제_문제지",
+      "year": "2023",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "문제",
+      "thumbnail": "thumbnails/12235564566.png",
+      "sha256": "9996b08590499018e21097fc1ad92eb9c6cb7f35f7aff8ef63bf0e18a92791b2"
+    },
+    {
       "message_id": 11208377197,
       "source_key": "4926d44549f3fc64e85cea8f20c375ec#03 공업 일반_문제지.pdf",
       "source": "suneung.re.kr",
