@@ -106203,6 +106203,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12215.png",
       "sha256": "a59ab539de60f4e4191b10e7c5d68cd58919b01c6dd6afb6078192872ddb7d52"
+    },
+    {
+      "message_id": 12210,
+      "filename": "26 5월례 생윤.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12210_26.5.pdf",
+      "size_bytes": 8398035,
+      "telegram_date": "2025-08-13T14:29:47+00:00",
+      "title": "2026 생윤 시대인재 서바이벌 N 3~5월 #생윤",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12210.png",
+      "sha256": "81b5901ad8dfcdbc7bcfccbc8b2f23d9a5ff27077dadfc6806fa4b24cbb9e169"
     }
   ],
   "duplicate_message_ids": [
