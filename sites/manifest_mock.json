@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12868096422,
+      "source_key": "7f2dca8dfaf714918bec8683f2834968#07 경제_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=7f2dca8dfaf714918bec8683f2834968",
+      "category": "평가원",
+      "filename": "07 경제_정답.pdf",
+      "asset_name": "2027_m6_07_aaf3ada697.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_m6_07_aaf3ada697.pdf",
+      "size_bytes": 46888,
+      "telegram_date": "2026-10-06T08:51:30.262765+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 6월 모의평가 07 경제_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/12868096422.png",
+      "sha256": "658913e3ea029dd87cc102fa0b7f3d220cb30de881d2672b4401e935418cf09a"
+    },
+    {
       "message_id": 11765841961,
       "source_key": "7f2dca8dfaf714918bec8683f2834968#06 세계사_정답.pdf",
       "source": "suneung.re.kr",
