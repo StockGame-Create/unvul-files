@@ -107015,6 +107015,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12119.png",
       "sha256": "958520df385b5a6809ad07bb63a16b7f463c0053a6331fe0926d7a030d09c21c"
+    },
+    {
+      "message_id": 12118,
+      "filename": "2025_지구과학_2_나진환_CLOVER_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12118_2025_._2_._CLOVER_2.pdf",
+      "size_bytes": 9891528,
+      "telegram_date": "2025-08-12T16:53:15+00:00",
+      "title": "2025_지구과학_2_나진환_CLOVER_2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12118.png",
+      "sha256": "f1f732ec7019465b07e46525ad0c1f64edd87af9cced69c7d7a924d9b3cbad4c"
     }
   ],
   "duplicate_message_ids": [
