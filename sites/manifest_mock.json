@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 14213957886,
+      "source_key": "a168a20011211ac4098db933f04e65d5#03 공업 일반_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=a168a20011211ac4098db933f04e65d5",
+      "category": "평가원",
+      "filename": "03 공업 일반_정답.pdf",
+      "asset_name": "2024_csat_03_fb2be4febc.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2024_csat_03_fb2be4febc.pdf",
+      "size_bytes": 45940,
+      "telegram_date": "2026-10-06T08:41:52.210668+00:00",
+      "posted_date": "2024",
+      "title": "2024학년도 수능 03 공업 일반_정답",
+      "year": "2023",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "직업탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/14213957886.png",
+      "sha256": "36f11f8085ce525ea3881aa49fbeeaded9f141e5804656267823c3c59ea886a3"
+    },
+    {
       "message_id": 13908045269,
       "source_key": "a168a20011211ac4098db933f04e65d5#02 농업 기초 기술_정답.pdf",
       "source": "suneung.re.kr",
