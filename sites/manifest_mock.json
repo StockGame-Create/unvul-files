@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12491859013,
+      "source_key": "e56323efadac225b9ce39f8e2b25ae65#04 세계지리_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=e56323efadac225b9ce39f8e2b25ae65",
+      "category": "평가원",
+      "filename": "04 세계지리_정답.pdf",
+      "asset_name": "2025_m6_04_9486c0450c.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2025_m6_04_9486c0450c.pdf",
+      "size_bytes": 47418,
+      "telegram_date": "2026-10-06T09:04:33.758592+00:00",
+      "posted_date": "2025",
+      "title": "2025학년도 6월 모의평가 04 세계지리_정답",
+      "year": "2024",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/12491859013.png",
+      "sha256": "5e7b1fd2cc954b2adc7fda9a7c122ec6f376373323e683886951521065a66854"
+    },
+    {
       "message_id": 13231886396,
       "source_key": "e56323efadac225b9ce39f8e2b25ae65#03 한국지리_정답.pdf",
       "source": "suneung.re.kr",
