@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 10017138620,
+      "source_key": "e6f5e94418e2c5a084810f528a34b2f3#01 성공적인 직업생활_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=e6f5e94418e2c5a084810f528a34b2f3",
+      "category": "평가원",
+      "filename": "01 성공적인 직업생활_정답.pdf",
+      "asset_name": "2026_csat_01_010583bcba.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_csat_01_010583bcba.pdf",
+      "size_bytes": 42552,
+      "telegram_date": "2026-10-06T08:19:45.774706+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 수능 01 성공적인 직업생활_정답",
+      "year": "2025",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "직업탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/10017138620.png",
+      "sha256": "3f85cc7f53ab89b4d2b42c2011a27ee28104fbe5b713ba12125e7f8ec401e853"
+    },
+    {
       "message_id": 10813721112,
       "source_key": "4433f1f3034118bd6b0759531be90924#06 인간 발달_문제.pdf",
       "source": "suneung.re.kr",
