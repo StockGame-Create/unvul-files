@@ -107029,6 +107029,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12118.png",
       "sha256": "f1f732ec7019465b07e46525ad0c1f64edd87af9cced69c7d7a924d9b3cbad4c"
+    },
+    {
+      "message_id": 12115,
+      "filename": "26_인강_허들링_미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12115_26_._._.pdf",
+      "size_bytes": 50556508,
+      "telegram_date": "2025-08-12T16:40:41+00:00",
+      "title": "2026 수학 인강 허들링 미적 해설 포함 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12115.png",
+      "sha256": "6562298ebb8f1f1d8b4ade59146285fdb7aa45299a37d9c758ae2b4f6c994993"
     }
   ],
   "duplicate_message_ids": [
