@@ -110613,6 +110613,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11783.png",
       "sha256": "25b1674ae979acda408424e50e68f46b6ba91e839968d32e425710092aad53ca"
+    },
+    {
+      "message_id": 11782,
+      "filename": "강대k 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11782_.k.8.pdf",
+      "size_bytes": 75715340,
+      "telegram_date": "2025-08-11T16:01:11+00:00",
+      "title": "강대k 8회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11782.png",
+      "sha256": "8e16f680624e3e847e17bdd0d3c1570355744dbcf41e56b47029c4b159446061"
     }
   ],
   "duplicate_message_ids": [
