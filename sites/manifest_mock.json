@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 13135600608,
+      "source_key": "576a1469866c3a9a447b93aafc3635bc#01 농업 기초 기술.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=576a1469866c3a9a447b93aafc3635bc",
+      "category": "평가원",
+      "filename": "01 농업 기초 기술.pdf",
+      "asset_name": "2023_csat_01_bae577e047.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2023_csat_01_bae577e047.pdf",
+      "size_bytes": 46136,
+      "telegram_date": "2026-10-06T08:46:34.213019+00:00",
+      "posted_date": "2023",
+      "title": "2023학년도 수능 01 농업 기초 기술",
+      "year": "2022",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "직업탐구",
+      "kind": "기타",
+      "thumbnail": "thumbnails/13135600608.png",
+      "sha256": "e1e363abfc28b9726d87f803ff6a2fadcf0ee5786e7026e028c7f3c6beda2157"
+    },
+    {
       "message_id": 12964734480,
       "source_key": "ac023993684d663e8e589d44512e7899#06 성공적인 직업생활.pdf",
       "source": "suneung.re.kr",
