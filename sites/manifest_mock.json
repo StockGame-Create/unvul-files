@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 10971337176,
+      "source_key": "62d5316929a90d776b8a5910913e98ea#03 4교시_직업탐구영역_공업 일반.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=62d5316929a90d776b8a5910913e98ea",
+      "category": "평가원",
+      "filename": "03 4교시_직업탐구영역_공업 일반.pdf",
+      "asset_name": "2023_m6_034_39e56dd860.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2023_m6_034_39e56dd860.pdf",
+      "size_bytes": 47358,
+      "telegram_date": "2026-10-06T09:19:50.294995+00:00",
+      "posted_date": "2023",
+      "title": "2023학년도 6월 모의평가 03 4교시_직업탐구영역_공업 일반",
+      "year": "2022",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "기타",
+      "thumbnail": "thumbnails/10971337176.png",
+      "sha256": "22ab5e003b0ac888ab34d99a685fa9acc0d5d5e920da4f3a88b2661bf4c0ae9f"
+    },
+    {
       "message_id": 13780515019,
       "source_key": "62d5316929a90d776b8a5910913e98ea#02 4교시_직업탐구영역_농업 기초 기술.pdf",
       "source": "suneung.re.kr",
