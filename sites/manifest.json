@@ -109129,6 +109129,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11847.png",
       "sha256": "e726f3960e7eb7122ff12675f3566d7700f54ba8ece8ed2807c7d7b94598d971"
+    },
+    {
+      "message_id": 11846,
+      "filename": "4-생2 해시태그1720 4 해.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11846_4-.2.1720.4.pdf",
+      "size_bytes": 2077222,
+      "telegram_date": "2025-08-11T17:06:04+00:00",
+      "title": "4-생2 해시태그1720 4 해",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11846.png",
+      "sha256": "6f660daa73ffdbf56fdc1b381b2f0535d12a9c6daa659b75a4ac0fafcbc119fe"
     }
   ],
   "duplicate_message_ids": [
