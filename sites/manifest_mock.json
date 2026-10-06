@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12224292509,
+      "source_key": "6ae9013673bcc7226d19d536d337733c",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=6ae9013673bcc7226d19d536d337733c",
+      "category": "평가원",
+      "filename": "영어영역_문제지.pdf",
+      "asset_name": "2025_m6_8494029d00.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2025_m6_8494029d00.pdf",
+      "size_bytes": 1324773,
+      "telegram_date": "2026-10-06T09:03:31.091895+00:00",
+      "posted_date": "2025",
+      "title": "2025학년도 6월 모의평가 영어영역_문제지",
+      "year": "2024",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "문제",
+      "thumbnail": "thumbnails/12224292509.png",
+      "sha256": "5b416f213d5a5e6eb9e845cd63d51af5b1e1eba224a86df0b74ccb6660de84ca"
+    },
+    {
       "message_id": 13780769816,
       "source_key": "a9a687b1d3ca68a26cf3197b3d906524",
       "source": "suneung.re.kr",
