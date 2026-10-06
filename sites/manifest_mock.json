@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 13063705755,
+      "source_key": "b8972d7bb73f705e9283763922ca23d4#08 정치와 법_정답표.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=b8972d7bb73f705e9283763922ca23d4",
+      "category": "평가원",
+      "filename": "08 정치와 법_정답표.pdf",
+      "asset_name": "2024_m6_08_b69c709be2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2024_m6_08_b69c709be2.pdf",
+      "size_bytes": 47291,
+      "telegram_date": "2026-10-06T09:11:51.067591+00:00",
+      "posted_date": "2024",
+      "title": "2024학년도 6월 모의평가 08 정치와 법_정답표",
+      "year": "2023",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/13063705755.png",
+      "sha256": "0b61531847e57a807e8558eb4b16d9513e2f6b722c0af74d987c81c8d1c00b8a"
+    },
+    {
       "message_id": 12577936681,
       "source_key": "b8972d7bb73f705e9283763922ca23d4#07 경제_정답표.pdf",
       "source": "suneung.re.kr",
