@@ -109031,6 +109031,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11854.png",
       "sha256": "f927e0e96777411c78aa4284065d3772642f0f61d92895f8233272ccd597c76a"
+    },
+    {
+      "message_id": 11853,
+      "filename": "생2 엣지 4권 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11853_.2.4.pdf",
+      "size_bytes": 5332946,
+      "telegram_date": "2025-08-11T17:19:17+00:00",
+      "title": "생2 엣지 4권 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11853.png",
+      "sha256": "a7d8fdf541cd1170bdbd2bd001fc65aa29dda6350eb399e648942817eb5d9964"
     }
   ],
   "duplicate_message_ids": [
