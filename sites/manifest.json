@@ -107325,6 +107325,20 @@
       "sha256": "72cc5cd5c1fbeb16e01d605780ea6965f753a03de62fc874bae1a2c9d9eb9908"
     },
     {
+      "message_id": 12151,
+      "filename": "2026 조정식 월간조정식 6호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12151_2026.6.pdf",
+      "size_bytes": 164384539,
+      "telegram_date": "2025-08-13T12:52:48+00:00",
+      "title": "2026 조정식 월간조정식 6호 8호 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12151.png",
+      "sha256": "b93c3d4013447ca3cbac4778889a395fe40de07be29aa2bae94c59f442116c23"
+    },
+    {
       "message_id": 12147,
       "filename": "개념때려잡기 미적분.pdf",
       "stored_as": null,
