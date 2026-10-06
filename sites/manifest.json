@@ -106665,6 +106665,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12169.png",
       "sha256": "241a613a8fce02a78616cdd3060a90128eba58a322dc3f30f6d370f7744efdce"
+    },
+    {
+      "message_id": 12168,
+      "filename": "Week_9.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12168_Week_9.pdf",
+      "size_bytes": 7164260,
+      "telegram_date": "2025-08-13T14:29:45+00:00",
+      "title": "Week_9",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12168.png",
+      "sha256": "7149fa178c528cee34ac0f7669f1b123eecff2c609b3f54289d012f073b8e43d"
     }
   ],
   "duplicate_message_ids": [
