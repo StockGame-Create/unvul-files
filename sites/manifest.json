@@ -108765,6 +108765,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11889.png",
       "sha256": "b831825739c78836750174ce1e581a30f31f823c331d04186d2182901db1a80a"
+    },
+    {
+      "message_id": 11887,
+      "filename": "강k 10회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11887_.k.10.pdf",
+      "size_bytes": 611114,
+      "telegram_date": "2025-08-12T01:48:07+00:00",
+      "title": "강k 10회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11887.png",
+      "sha256": "fcdec2514620565b1fa60b44b53843d6a7208cc3a2a145d0a9e6a1b736435d1d"
     }
   ],
   "duplicate_message_ids": [
