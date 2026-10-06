@@ -655,7 +655,7 @@
     overflow: hidden;
   }
 
-  .pdf-viewer-shell iframe, .pdf-viewer-shell .unused {
+  .pdf-viewer-shell iframe {
     width: 100%;
     height: 100%;
     border: none;
@@ -906,135 +906,6 @@
     ul.file-grid { grid-template-columns: 1fr; }
     .filter-pill label { padding: 0.45rem 0.7rem; font-size: 0.74rem; }
   }
-
-  /* ---- AI 탭 (v2): 파일 선택 없는 대화 / 첨부 / 추천 문제 ---- */
-  .ai-modebar { display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap; }
-  .mode-toggle { display: inline-flex; border: 1px solid var(--rule); }
-  .mode-btn {
-    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
-    font-size: 0.76rem;
-    background: var(--paper);
-    color: var(--ink-soft);
-    border: none;
-    padding: 0.35rem 0.8rem;
-    cursor: pointer;
-  }
-  .mode-btn + .mode-btn { border-left: 1px solid var(--rule); }
-  .mode-btn.active { background: var(--ink); color: var(--paper); }
-  .ai-modebar #chatResetBtn { margin-left: auto; }
-
-  .chat-shell.dragover { outline: 2px dashed var(--leather); outline-offset: -6px; }
-
-  .attach-tray {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    padding: 0.6rem 0.9rem 0;
-    background: var(--paper-raised);
-    border-top: 1px solid var(--rule);
-  }
-  .attach-tray[hidden] { display: none; }
-  .attach-chip {
-    display: flex;
-    align-items: center;
-    gap: 0.45rem;
-    border: 1px solid var(--rule);
-    background: var(--paper);
-    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
-    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
-    font-size: 0.74rem;
-    color: var(--ink-soft);
-    max-width: 14rem;
-  }
-  .attach-chip img { width: 36px; height: 36px; object-fit: cover; display: block; }
-  .attach-chip .attach-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .attach-chip button { border: none; background: none; cursor: pointer; color: var(--ink-soft); font-size: 1rem; line-height: 1; padding: 0 0.3rem; }
-  .attach-chip button:hover { color: var(--ink); }
-
-  #attachBtn {
-    font-size: 1.15rem;
-    background: var(--paper);
-    border: 1.5px solid var(--rule);
-    color: var(--ink);
-    padding: 0 0.85rem;
-    cursor: pointer;
-  }
-  #attachBtn:disabled { opacity: 0.45; cursor: default; }
-  #attachBtn:not(:disabled):hover { border-color: var(--leather); }
-
-  .msg-thumbs { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.45rem; }
-  .msg-thumbs img { max-height: 120px; max-width: 100%; border: 1px solid var(--rule); }
-  .msg-thumbs .pdf-tag {
-    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
-    font-size: 0.74rem;
-    border: 1px solid var(--rule);
-    padding: 0.25rem 0.5rem;
-  }
-
-  .msg-note {
-    margin-top: 0.5rem;
-    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
-    font-size: 0.72rem;
-    color: var(--ink-soft);
-  }
-  .retry-btn {
-    margin-top: 0.6rem;
-    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
-    font-size: 0.76rem;
-    background: none;
-    border: 1px solid var(--rule);
-    padding: 0.3rem 0.7rem;
-    cursor: pointer;
-    color: var(--ink);
-  }
-  .retry-btn:hover { border-color: var(--leather); }
-
-  .related { margin-top: 0.9rem; border-top: 1px dashed var(--rule); padding-top: 0.7rem; }
-  .related-head {
-    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
-    font-size: 0.74rem;
-    color: var(--teal);
-    margin-bottom: 0.45rem;
-    letter-spacing: 0.02em;
-  }
-  .related-card { border: 1px solid var(--rule); background: var(--paper); margin-bottom: 0.4rem; }
-  .related-card summary {
-    cursor: pointer;
-    padding: 0.5rem 0.7rem;
-    font-size: 0.84rem;
-    list-style-position: inside;
-  }
-  .related-card summary .sim { color: var(--ink-soft); font-family: "IBM Plex Mono", monospace; font-size: 0.72rem; margin-left: 0.4rem; }
-  .related-body { padding: 0.2rem 0.9rem 0.8rem; font-size: 0.88rem; }
-  .related-meta { margin-top: 0.5rem; font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace; font-size: 0.74rem; color: var(--ink-soft); }
-  .related-meta a { color: var(--leather); }
-
-  /* ---- 파일 관리 탭: 자체 PDF 뷰어 (PDF.js + 필기) ---- */
-  .pdf-viewer-shell.vw-full { position: fixed; inset: 0; height: 100vh; height: 100dvh; z-index: 1000; border: none; }
-  body.vw-lock { overflow: hidden; }
-  .vw { width: 100%; height: 100%; display: flex; flex-direction: column; align-self: stretch; }
-  .vw[hidden] { display: none; }
-  .vw-bar { display: flex; gap: 0.35rem; overflow-x: auto; padding: 0.4rem; background: var(--paper); border-bottom: 1px solid var(--rule); -webkit-overflow-scrolling: touch; }
-  .vw-group { display: flex; align-items: center; gap: 0.25rem; flex: none; padding-right: 0.45rem; border-right: 1px solid var(--rule); }
-  .vw-group:last-child { border-right: none; }
-  .vw-bar button:not(.sw), .vw-bar select, .vw-bar input {
-    font: 0.78rem "IBM Plex Mono", "IBM Plex Sans KR", monospace;
-    min-height: 36px; padding: 0 0.6rem; background: var(--paper); color: var(--ink);
-    border: 1px solid var(--rule); cursor: pointer;
-  }
-  .vw-bar button.on:not(.sw) { background: var(--ink); color: var(--paper); border-color: var(--ink); }
-  .vw-bar input { width: 3.2rem; padding: 0 0.3rem; text-align: center; cursor: text; }
-  #vwTotal, #vwZoom { font: 0.76rem "IBM Plex Mono", monospace; color: var(--ink-soft); min-width: 2.6rem; text-align: center; }
-  .sw { width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--paper); box-shadow: 0 0 0 1px var(--rule); cursor: pointer; padding: 0; }
-  .sw.on { box-shadow: 0 0 0 2px var(--ink); }
-  .vw-scroll { flex: 1; overflow: auto; position: relative; background: #8c8882; padding: 8px; -webkit-overflow-scrolling: touch; }
-  .vw-page { position: relative; margin: 0 auto 10px; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.35); }
-  .vw-page canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
-  .vw-ink { touch-action: none; }
-  .vw[data-tool="hand"] .vw-ink { pointer-events: none; }
-  .vw:not([data-tool="hand"]) .vw-ink { cursor: crosshair; }
-  .ai-maint { border: 1px solid var(--leather); background: var(--paper-raised); padding: 0.8rem 1rem; margin-bottom: 0.8rem; font-size: 0.9rem; line-height: 1.6; }
-  @media (max-width: 560px) { .vw-bar button:not(.sw), .vw-bar select, .vw-bar input { min-height: 42px; } .sw { width: 30px; height: 30px; } }
 </style>
 </head>
 <body>
@@ -1130,50 +1001,37 @@
           </span>
         </div>
 
-        <p class="ai-note">300MB가 넘는 큰 자료는 바로보기 대신 다운로드로 받아서 열어주세요. 브라우저에 따라 PDF가 안 보이면 "새 탭에서 열기"를 눌러보세요. 펜/형광펜/지우개로 필기할 수 있고, 필기는 이 브라우저에만 저장돼요(원본 PDF는 바뀌지 않아요).</p>
+        <p class="ai-note">100MB가 넘는 큰 자료는 바로보기 대신 다운로드로 받아서 열어주세요. 브라우저에 따라 PDF가 안에서 안 보이면 "새 탭에서 열기"를 눌러보세요.</p>
       </div>
 
       <div class="pdf-viewer-shell" id="pdfViewerShell">
         <p class="chat-empty" id="pdfViewerEmpty">위에서 자료를 먼저 선택하면<br />여기서 바로 PDF를 볼 수 있어요.</p>
-        <div class="vw" id="vw" hidden>
-          <div class="vw-bar" id="vwBar">
-            <div class="vw-group"><button data-act="prev" aria-label="이전 쪽">‹</button><input id="vwPage" type="number" min="1" inputmode="numeric" aria-label="쪽 번호" /><span id="vwTotal"></span><button data-act="next" aria-label="다음 쪽">›</button></div>
-            <div class="vw-group"><button data-act="zoomout" aria-label="축소">－</button><span id="vwZoom">100%</span><button data-act="zoomin" aria-label="확대">＋</button><button data-act="fit">맞춤</button></div>
-            <div class="vw-group"><button data-tool="hand" class="on">이동</button><button data-tool="pen">펜</button><button data-tool="hl">형광펜</button><button data-tool="eraser">지우개</button></div>
-            <div class="vw-group" id="vwColors">
-              <button class="sw on" data-color="#111827" style="background:#111827" aria-label="검정"></button><button class="sw" data-color="#e11d48" style="background:#e11d48" aria-label="빨강"></button><button class="sw" data-color="#1d4ed8" style="background:#1d4ed8" aria-label="파랑"></button><button class="sw" data-color="#16a34a" style="background:#16a34a" aria-label="초록"></button><button class="sw" data-color="#facc15" style="background:#facc15" aria-label="노랑"></button>
-              <select id="vwSize" aria-label="굵기"><option value="0">가늘게</option><option value="1" selected>보통</option><option value="2">굵게</option></select>
-            </div>
-            <div class="vw-group"><button data-act="undo">되돌리기</button><button data-act="clear">모두 지움</button><button data-act="save">이 쪽 저장</button><button data-act="full">전체화면</button></div>
-          </div>
-          <div class="vw-scroll" id="vwScroll"></div>
-        </div>
+        <iframe id="pdfViewerFrame" title="PDF 미리보기" hidden></iframe>
       </div>
     </section>
 
     <section class="tab-panel" id="tabAi" hidden>
-      <div class="ai-maint" id="aiMaint" hidden><strong>AI 기능 점검 중</strong><br />AI 서비스 공급처의 혼잡으로 잠시 사용할 수 없어요. 복구되면 이 안내가 사라지고 다시 쓸 수 있어요.</div>
       <div class="ai-toolbar">
-        <div class="ai-modebar">
-          <span class="ai-field-label" style="margin:0">답변 방식</span>
-          <div class="mode-toggle" role="group" aria-label="답변 방식">
-            <button type="button" class="mode-btn active" data-mode="fast" title="빠르고 가벼운 모델">빠르게</button>
-            <button type="button" class="mode-btn" data-mode="deep" title="어려운 문제용 상위 모델 (사용 한도 있음)">정밀 (Pro)</button>
-          </div>
-          <button type="button" id="chatResetBtn">새 대화</button>
+        <div id="aiFileSection">
+          <label class="ai-field-label" for="aiFileSearch">먼저 자료를 골라주세요</label>
+          <input type="text" id="aiFileSearch" placeholder="제목, 강사, 과목으로 찾기" autocomplete="off" />
+          <ul class="ai-results" id="aiFileResults"></ul>
         </div>
-        <p class="ai-note">문제 사진이나 PDF를 올리거나 그냥 질문해보세요. 자료실에 쌓인 문제 은행에서 같은/비슷한 문제를 찾아 근거로 쓰고, 비슷한 문제를 같이 보여줘요. 자동 추출이라 오답이 섞일 수 있어요. 어려운 문제는 "정밀" 모드가 더 정확할 수 있지만 느리고 사용 한도가 있어요.</p>
+
+        <div class="ai-selected" id="aiSelected" hidden>
+          <span id="aiSelectedName"></span>
+          <button type="button" id="chatResetBtn">다른 파일 / 새 대화</button>
+        </div>
+
+        <p class="ai-note">실험적 기능이라 오답이 섞일 수 있어요. 자료 안의 "문제"와 "해설"을 먼저 찾아본 뒤 답하도록 안내되어 있고, 대화 맥락을 기억하니 이어서 계속 물어봐도 됩니다.</p>
       </div>
 
-      <div class="chat-shell" id="chatShell">
+      <div class="chat-shell">
         <div class="chat-window" id="chatWindow">
-          <p class="chat-empty">문제를 물어보세요.<br />＋ 버튼(또는 붙여넣기/끌어놓기)으로<br />문제 사진이나 PDF를 올릴 수도 있어요.</p>
+          <p class="chat-empty">위에서 자료를 먼저 선택하면<br />여기서 그 자료에 대해 대화하듯 물어볼 수 있어요.</p>
         </div>
-        <div class="attach-tray" id="attachTray" hidden></div>
         <div class="chat-input-row">
-          <input type="file" id="attachInput" accept="image/*,application/pdf" multiple hidden />
-          <button type="button" id="attachBtn" title="사진/PDF 첨부" aria-label="사진 또는 PDF 첨부">＋</button>
-          <textarea id="chatInput" placeholder="궁금한 걸 물어보세요 (예: 이 문제 풀이 알려줘 / 미분 비슷한 문제 내줘)" rows="1"></textarea>
+          <textarea id="chatInput" placeholder="궁금한 걸 물어보세요 (예: 3번 문제 풀이 방법 알려줘)" rows="1" disabled></textarea>
           <button type="button" id="chatSendBtn" disabled>전송</button>
         </div>
       </div>
@@ -1618,7 +1476,7 @@
       tabBtnFiles.classList.toggle("active", name === "files");
       tabBtnView.classList.toggle("active", name === "view");
       tabBtnAi.classList.toggle("active", name === "ai");
-      if (name === "ai") chatInput.focus();
+      if (name === "ai") aiFileSearch.focus();
       if (name === "view" && !viewSelectedFile) viewFileSearch.focus();
     }
 
@@ -1640,249 +1498,19 @@
     const viewResetBtn = document.getElementById("viewResetBtn");
     const viewOpenNewTabBtn = document.getElementById("viewOpenNewTabBtn");
     const viewDownloadBtn = document.getElementById("viewDownloadBtn");
-        const pdfViewerEmpty = document.getElementById("pdfViewerEmpty");
+    const pdfViewerFrame = document.getElementById("pdfViewerFrame");
+    const pdfViewerEmpty = document.getElementById("pdfViewerEmpty");
 
     const PDF_VIEWER_DEFAULT_EMPTY_HTML = pdfViewerEmpty.innerHTML;
 
     // api/view.js의 MAX_VIEWABLE_BYTES와 반드시 동일하게 유지 - 서버까지
     // 요청을 보내지 않고 미리 안내 메시지를 보여주기 위한 프론트 쪽 사본.
-    const MAX_VIEWABLE_BYTES = 300 * 1024 * 1024; // api/pdf.js와 동일
-
-    // ---- PDF 뷰어: PDF.js + 필기(펜/형광펜/지우개). 필기는 쪽 크기 기준 0~1 좌표로 저장해서 확대/축소해도 맞는다 ----
-    const vwEl = document.getElementById("vw"), vwScroll = document.getElementById("vwScroll");
-    const vwShell = document.getElementById("pdfViewerShell"), vwPageInput = document.getElementById("vwPage");
-    const PDFJS_BASE = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/";
-    const VW_MAX_PIXELS = 12e6; // 캔버스 한 장 최대 픽셀 (모바일 메모리 보호)
-    const V = { doc: null, pages: [], fit: 1, zoom: 1, tool: "hand", color: "#111827", size: 1, strokes: {}, undo: [], key: "", token: 0, w1: 612, cur: 1, name: "page", timer: 0 };
-    let pdfjsReady = null;
-
-    function loadPdfJs() {
-      if (window.pdfjsLib) return Promise.resolve(window.pdfjsLib);
-      return pdfjsReady || (pdfjsReady = new Promise((res, rej) => {
-        const s = document.createElement("script");
-        s.src = PDFJS_BASE + "pdf.min.js";
-        s.onload = () => { pdfjsLib.GlobalWorkerOptions.workerSrc = PDFJS_BASE + "pdf.worker.min.js"; res(pdfjsLib); };
-        s.onerror = () => { pdfjsReady = null; rej(new Error("PDF 뷰어 라이브러리를 불러오지 못했어요.")); };
-        document.head.appendChild(s);
-      }));
-    }
-
-    const vwScale = () => V.fit * V.zoom;
-    function vwFit() { V.fit = Math.max(0.2, (vwScroll.clientWidth - 16) / V.w1); }
-    function vwDpr(w, h) { let d = Math.min(window.devicePixelRatio || 1, 2); while (w * h * d * d > VW_MAX_PIXELS && d > 0.5) d -= 0.25; return d; }
-
-    function sizePages() {
-      const w = V.w1 * vwScale();
-      V.pages.forEach(p => { p.wrap.style.width = w + "px"; p.wrap.style.height = w * (p.ratio || V.ratio) + "px"; });
-      document.getElementById("vwZoom").textContent = Math.round(V.zoom * 100) + "%";
-    }
-
-    function buildPages() {
-      vwScroll.innerHTML = ""; V.pages = [];
-      for (let i = 1; i <= V.doc.numPages; i++) {
-        const wrap = document.createElement("div"); wrap.className = "vw-page";
-        const pdf = document.createElement("canvas"), ink = document.createElement("canvas"); ink.className = "vw-ink";
-        wrap.append(pdf, ink); vwScroll.appendChild(wrap);
-        const p = { i, wrap, pdf, ink, rendered: 0, busy: 0, task: null, page: null, ratio: 0 };
-        bindInk(p); V.pages.push(p);
-      }
-      sizePages();
-    }
-
-    function vwRenderPage(p) {
-      const scale = vwScale();
-      if (p.rendered === scale || p.busy === scale) return;
-      p.busy = scale;
-      const token = V.token;
-      (async () => {
-        try {
-          p.page = p.page || await V.doc.getPage(p.i);
-          if (token !== V.token) return;
-          const base = p.page.getViewport({ scale: 1 });
-          p.ratio = base.height / base.width;
-          const cssW = base.width * scale, cssH = base.height * scale, dpr = vwDpr(cssW, cssH);
-          p.wrap.style.width = cssW + "px"; p.wrap.style.height = cssH + "px";
-          const vp = p.page.getViewport({ scale: scale * dpr });
-          p.pdf.width = p.ink.width = Math.floor(vp.width); p.pdf.height = p.ink.height = Math.floor(vp.height);
-          if (p.task) p.task.cancel();
-          p.task = p.page.render({ canvasContext: p.pdf.getContext("2d"), viewport: vp });
-          await p.task.promise;
-          p.rendered = scale; redrawInk(p);
-        } catch (e) { if (!e || e.name !== "RenderingCancelledException") console.warn(e); }
-        finally { if (p.busy === scale) p.busy = 0; }
-      })();
-    }
-
-    function renderVisible() {
-      if (!V.doc) return;
-      const r = vwScroll.getBoundingClientRect();
-      let first = 0, last = 0, best = -1;
-      V.pages.forEach(p => {
-        const b = p.wrap.getBoundingClientRect();
-        if (b.bottom > r.top - 700 && b.top < r.bottom + 700) { first = first || p.i; last = p.i; vwRenderPage(p); }
-        const v = Math.min(b.bottom, r.bottom) - Math.max(b.top, r.top);
-        if (v > best) { best = v; V.cur = p.i; }
-      });
-      V.pages.forEach(p => { if (p.rendered && (p.i < first - 6 || p.i > last + 6)) { p.pdf.width = p.ink.width = 0; p.rendered = 0; } });
-      if (document.activeElement !== vwPageInput) vwPageInput.value = V.cur;
-    }
-
-    function drawStroke(ctx, s, W, H) {
-      const q = s.p; if (!q.length) return;
-      ctx.save();
-      ctx.strokeStyle = s.c; ctx.lineWidth = Math.max(1, s.w * W); ctx.lineJoin = "round";
-      ctx.lineCap = s.t === "hl" ? "butt" : "round"; ctx.globalAlpha = s.t === "hl" ? 0.35 : 1;
-      ctx.beginPath(); ctx.moveTo(q[0][0] * W, q[0][1] * H);
-      if (q.length === 1) ctx.lineTo(q[0][0] * W + 0.01, q[0][1] * H);
-      for (let i = 1; i < q.length - 1; i++) ctx.quadraticCurveTo(q[i][0] * W, q[i][1] * H, (q[i][0] + q[i + 1][0]) / 2 * W, (q[i][1] + q[i + 1][1]) / 2 * H);
-      if (q.length > 1) ctx.lineTo(q[q.length - 1][0] * W, q[q.length - 1][1] * H);
-      ctx.stroke(); ctx.restore();
-    }
-
-    function redrawInk(p, extra) {
-      if (!p.ink.width) return;
-      const ctx = p.ink.getContext("2d"); ctx.clearRect(0, 0, p.ink.width, p.ink.height);
-      (V.strokes[p.i] || []).forEach(s => drawStroke(ctx, s, p.ink.width, p.ink.height));
-      if (extra) drawStroke(ctx, extra, p.ink.width, p.ink.height);
-    }
-
-    function persist() {
-      clearTimeout(V.timer);
-      V.timer = setTimeout(() => {
-        try {
-          const has = Object.values(V.strokes).some(a => a.length);
-          if (has) localStorage.setItem(V.key, JSON.stringify(V.strokes)); else localStorage.removeItem(V.key);
-        } catch { /* 저장공간 부족/차단: 필기는 이번 세션에서만 유지 */ }
-      }, 600);
-    }
-
-    function bindInk(p) {
-      let cur = null;
-      const pos = e => { const b = p.ink.getBoundingClientRect(); return [(e.clientX - b.left) / b.width, (e.clientY - b.top) / b.height]; };
-      const erase = (pt) => {
-        const b = p.ink.getBoundingClientRect(), list = V.strokes[p.i] || [];
-        const hit = list.filter(s => s.p.some(q => Math.hypot((q[0] - pt[0]) * b.width, (q[1] - pt[1]) * b.height) < 14 + s.w * b.width / 2));
-        if (hit.length) { V.strokes[p.i] = list.filter(s => !hit.includes(s)); cur.removed.push(...hit); redrawInk(p); }
-      };
-      p.ink.addEventListener("pointerdown", e => {
-        if (V.tool === "hand" || (e.pointerType === "mouse" && e.button !== 0)) return;
-        e.preventDefault(); if (p.ink.setPointerCapture) p.ink.setPointerCapture(e.pointerId);
-        if (V.tool === "eraser") { cur = { erase: true, removed: [] }; erase(pos(e)); return; }
-        const base = [0.0018, 0.0035, 0.007][V.size] * (V.tool === "hl" ? 6 : 1);
-        cur = { t: V.tool, c: V.color, w: base, p: [pos(e)] }; redrawInk(p, cur);
-      });
-      p.ink.addEventListener("pointermove", e => {
-        if (!cur) return; e.preventDefault();
-        if (cur.erase) return erase(pos(e));
-        const pt = pos(e), l = cur.p[cur.p.length - 1], b = p.ink.getBoundingClientRect();
-        if (Math.hypot((pt[0] - l[0]) * b.width, (pt[1] - l[1]) * b.height) < 1.5) return;
-        cur.p.push(pt); redrawInk(p, cur);
-      });
-      const end = () => {
-        if (!cur) return;
-        if (cur.erase) { if (cur.removed.length) V.undo.push({ k: "del", page: p.i, items: cur.removed }); }
-        else { cur.p = cur.p.map(q => [+q[0].toFixed(4), +q[1].toFixed(4)]); (V.strokes[p.i] = V.strokes[p.i] || []).push(cur); V.undo.push({ k: "add", page: p.i, s: cur }); redrawInk(p); }
-        cur = null; persist();
-      };
-      p.ink.addEventListener("pointerup", end); p.ink.addEventListener("pointercancel", end);
-    }
-
-    function vwUndo() {
-      const a = V.undo.pop(); if (!a) return;
-      const list = V.strokes[a.page] = V.strokes[a.page] || [];
-      if (a.k === "add") V.strokes[a.page] = list.filter(s => s !== a.s); else list.push(...a.items);
-      redrawInk(V.pages[a.page - 1]); persist();
-    }
-
-    function setTool(t) {
-      V.tool = t; vwEl.dataset.tool = t;
-      document.querySelectorAll("#vw [data-tool]").forEach(b => b.classList.toggle("on", b.dataset.tool === t));
-    }
-    function setZoom(z) {
-      const ratio = vwScroll.scrollTop / (vwScroll.scrollHeight || 1);
-      V.zoom = Math.min(4, Math.max(0.5, z)); sizePages();
-      vwScroll.scrollTop = ratio * vwScroll.scrollHeight; V.pages.forEach(p => { p.rendered = 0; }); renderVisible();
-    }
-    function goPage(n) {
-      const p = V.pages[Math.min(V.pages.length, Math.max(1, n)) - 1];
-      if (p) { vwScroll.scrollTop = p.wrap.offsetTop - 8; renderVisible(); }
-    }
-    function relayout() { if (!V.doc) return; vwFit(); sizePages(); V.pages.forEach(p => { p.rendered = 0; }); renderVisible(); }
-    function toggleFull(on) {
-      const next = on === undefined ? !vwShell.classList.contains("vw-full") : on;
-      vwShell.classList.toggle("vw-full", next); document.body.classList.toggle("vw-lock", next);
-      relayout();
-    }
-
-    function saveCurrentPage() {
-      const p = V.pages[V.cur - 1]; if (!p || !p.rendered) return showToast("이 쪽이 아직 그려지지 않았어요.", true);
-      const c = document.createElement("canvas"); c.width = p.pdf.width; c.height = p.pdf.height;
-      const x = c.getContext("2d"); x.fillStyle = "#fff"; x.fillRect(0, 0, c.width, c.height); x.drawImage(p.pdf, 0, 0); x.drawImage(p.ink, 0, 0);
-      c.toBlob(b => { const a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = `${V.name}_p${p.i}.png`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 4000); });
-    }
-
-    document.getElementById("vwBar").addEventListener("click", e => {
-      const b = e.target.closest("button"); if (!b) return;
-      if (b.dataset.tool) return setTool(b.dataset.tool);
-      if (b.dataset.color) { V.color = b.dataset.color; document.querySelectorAll("#vwColors .sw").forEach(s => s.classList.toggle("on", s === b)); if (V.tool === "hand" || V.tool === "eraser") setTool("pen"); return; }
-      ({
-        prev: () => goPage(V.cur - 1), next: () => goPage(V.cur + 1),
-        zoomin: () => setZoom(V.zoom * 1.25), zoomout: () => setZoom(V.zoom / 1.25),
-        fit: () => { vwFit(); setZoom(1); }, undo: vwUndo, save: saveCurrentPage, full: () => toggleFull(),
-        clear: () => { if (confirm("이 자료의 필기를 모두 지울까요?")) { V.strokes = {}; V.undo = []; V.pages.forEach(p => redrawInk(p)); persist(); } },
-      })[b.dataset.act]?.();
-    });
-    document.getElementById("vwSize").addEventListener("change", e => { V.size = +e.target.value; });
-    vwPageInput.addEventListener("change", () => goPage(parseInt(vwPageInput.value, 10) || 1));
-    let vwRaf = 0;
-    vwScroll.addEventListener("scroll", () => { cancelAnimationFrame(vwRaf); vwRaf = requestAnimationFrame(renderVisible); }, { passive: true });
-    let vwResizeT = 0;
-    window.addEventListener("resize", () => { clearTimeout(vwResizeT); vwResizeT = setTimeout(relayout, 150); });
-    document.addEventListener("keydown", e => {
-      if (vwEl.hidden) return;
-      if (e.key === "Escape") toggleFull(false);
-      else if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z" && document.activeElement.tagName !== "INPUT") { e.preventDefault(); vwUndo(); }
-    });
-
-    function closeViewer() {
-      V.token++; if (V.doc) { V.doc.destroy(); V.doc = null; }
-      V.pages = []; vwScroll.innerHTML = ""; vwEl.hidden = true; toggleFull(false);
-    }
-
-    async function openPdfInViewer(f) {
-      const token = ++V.token;
-      pdfViewerEmpty.textContent = "PDF를 불러오는 중…"; pdfViewerEmpty.hidden = false;
-      try {
-        const lib = await loadPdfJs();
-        let doc;
-        try {
-          // disableStream/AutoFetch: 파일 전체를 받지 않고, 보는 쪽의 조각만 Range로 요청한다.
-          doc = await lib.getDocument({ url: viewUrlFor(f), disableStream: true, disableAutoFetch: true, rangeChunkSize: 262144 }).promise;
-        } catch (e1) {
-          if (token !== V.token) return;
-          if (e1 && (e1.status === 413 || e1.status === 404)) throw e1;
-          console.warn("[/api/pdf 실패, /api/view로 재시도]", e1);
-          doc = await lib.getDocument({ url: viewUrlFor(f, true) }).promise;
-        }
-        if (token !== V.token) { doc.destroy(); return; }
-        const vp = (await doc.getPage(1)).getViewport({ scale: 1 });
-        V.doc = doc; V.w1 = vp.width; V.ratio = vp.height / vp.width; V.zoom = 1; V.undo = [];
-        V.key = "vwInk:" + f.message_id; V.name = (f.title || f.filename || "page").replace(/[\\/:*?"<>|]/g, "_");
-        try { V.strokes = JSON.parse(localStorage.getItem(V.key) || "{}"); } catch { V.strokes = {}; }
-        pdfViewerEmpty.hidden = true; vwEl.hidden = false;
-        document.getElementById("vwTotal").textContent = "/ " + doc.numPages;
-        setTool("hand"); vwFit(); buildPages(); renderVisible();
-      } catch (err) {
-        if (token !== V.token) return;
-        pdfViewerEmpty.innerHTML = `PDF를 불러오지 못했어요.<br />${escapeHtml(err.message || "")}<br />위의 "새 탭에서 열기"나 "다운로드"를 이용해주세요.`;
-      }
-    }
+    const MAX_VIEWABLE_BYTES = 100 * 1024 * 1024;
 
     let viewSelectedFile = null;
 
-    // 뷰어는 Range(부분 전송)를 지원하는 /api/pdf를 쓰고, 이게 안 되면 예전 /api/view로 폴백한다.
-    function viewUrlFor(f, legacy) {
-      return `/api/${legacy ? "view" : "pdf"}?message_id=${encodeURIComponent(f.message_id)}`;
+    function viewUrlFor(f) {
+      return `/api/view?message_id=${encodeURIComponent(f.message_id)}`;
     }
 
     function selectViewFile(f) {
@@ -1892,14 +1520,18 @@
       viewFileSection.hidden = true;
       viewFileResults.innerHTML = "";
       viewFileSearch.value = "";
-      closeViewer();
 
       if (f.size_bytes && f.size_bytes > MAX_VIEWABLE_BYTES) {
+        pdfViewerFrame.hidden = true;
+        pdfViewerFrame.src = "";
         pdfViewerEmpty.innerHTML = `"${escapeHtml(f.title || f.filename)}"은(는) ${formatSize(f.size_bytes)}로 너무 커서 바로보기를 지원하지 않아요.<br />위의 "다운로드" 버튼으로 받아서 열어주세요.`;
         pdfViewerEmpty.hidden = false;
         return;
       }
-      openPdfInViewer(f);
+
+      pdfViewerEmpty.hidden = true;
+      pdfViewerFrame.hidden = false;
+      pdfViewerFrame.src = viewUrlFor(f);
     }
 
     function resetView() {
@@ -1908,7 +1540,8 @@
       viewFileSection.hidden = false;
       viewFileSearch.value = "";
       viewFileResults.innerHTML = "";
-      closeViewer();
+      pdfViewerFrame.hidden = true;
+      pdfViewerFrame.src = "";
       pdfViewerEmpty.innerHTML = PDF_VIEWER_DEFAULT_EMPTY_HTML;
       pdfViewerEmpty.hidden = false;
       viewFileSearch.focus();
@@ -1964,37 +1597,21 @@
       handleDownload(viewDownloadBtn, downloadUrl, f.filename, isExternal);
     });
 
-    // ---- AI에게 물어보기 (v2: 파일 선택 없이 바로 질문 / 사진·PDF 첨부 / 문제 은행 참조) ----
+    // ---- AI에게 물어보기 (대화형, 멀티턴) ----
+    const aiFileSearch = document.getElementById("aiFileSearch");
+    const aiFileResults = document.getElementById("aiFileResults");
+    const aiFileSection = document.getElementById("aiFileSection");
+    const aiSelected = document.getElementById("aiSelected");
+    const aiSelectedName = document.getElementById("aiSelectedName");
+    const chatResetBtn = document.getElementById("chatResetBtn");
     const chatWindow = document.getElementById("chatWindow");
     const chatInput = document.getElementById("chatInput");
     const chatSendBtn = document.getElementById("chatSendBtn");
-    const chatResetBtn = document.getElementById("chatResetBtn");
-    const chatShell = document.getElementById("chatShell");
-    const attachBtn = document.getElementById("attachBtn");
-    const attachInput = document.getElementById("attachInput");
-    const attachTray = document.getElementById("attachTray");
-    const modeBtns = document.querySelectorAll("#tabAi .mode-btn");
 
-    const CHAT_EMPTY_HTML = '<p class="chat-empty">문제를 물어보세요.<br />＋ 버튼(또는 붙여넣기/끌어놓기)으로<br />문제 사진이나 PDF를 올릴 수도 있어요.</p>';
-
-    // 서버(api/ask.js)의 한도와 맞춰둔 값. Vercel Hobby는 요청 본문이 약 4.5MB까지라
-    // 사진은 올리기 전에 브라우저에서 줄이고, PDF는 작은 것만 받는다.
-    const MAX_ATTACH_COUNT = 4;
-    const MAX_PDF_BYTES = 2_800_000;
-    const MAX_ATTACH_B64_TOTAL = 3_600_000;
-
-    // 점검 중 표시: AI를 다시 열 때는 false로 바꾸면 된다.
-    const AI_MAINTENANCE = true;
-    document.getElementById("aiMaint").hidden = !AI_MAINTENANCE;
-    if (AI_MAINTENANCE) {
-      chatInput.placeholder = "AI 점검 중이에요";
-      modeBtns.forEach(b => { b.disabled = true; });
-    }
-
+    let aiSelectedFile = null;
     let chatHistory = []; // [{ role: 'user'|'assistant', text }] - 대화 맥락(기억력)
+    let chatFileState = null; // 이전 턴에서 이미 업로드된 Gemini 파일 참조 (재업로드 방지)
     let chatBusy = false;
-    let aiMode = "fast"; // "fast" | "deep"
-    let attachments = []; // [{ kind, name, mime, data(base64), previewUrl }] - 대화가 이어지는 동안 유지됨
 
     // marked + KaTeX 로 마크다운/수식을 렌더링. DOMPurify로 한 번 살균해서
     // 모델 출력에 스크립트 등이 섞여 들어와도 안전하게 만든다.
@@ -2025,38 +1642,20 @@
       if (empty) empty.remove();
     }
 
-    function addUserMessage(text, atts) {
+    function addUserMessage(text) {
       clearChatEmptyState();
       const wrap = document.createElement("div");
       wrap.className = "msg user";
       wrap.innerHTML = `<span class="msg-role">나</span><div class="msg-bubble"></div>`;
-      const bubble = wrap.querySelector(".msg-bubble");
-      if (atts && atts.length) {
-        const thumbs = document.createElement("div");
-        thumbs.className = "msg-thumbs";
-        for (const a of atts) {
-          if (a.kind === "image" && a.previewUrl) {
-            const img = document.createElement("img");
-            img.src = a.previewUrl;
-            img.alt = a.name;
-            thumbs.appendChild(img);
-          } else {
-            const tag = document.createElement("span");
-            tag.className = "pdf-tag";
-            tag.textContent = "PDF · " + a.name;
-            thumbs.appendChild(tag);
-          }
-        }
-        bubble.appendChild(thumbs);
-      }
-      const textEl = document.createElement("span");
-      textEl.textContent = text || "(첨부만 보냈어요)";
-      bubble.appendChild(textEl);
+      wrap.querySelector(".msg-bubble").textContent = text;
       chatWindow.appendChild(wrap);
       scrollChatToBottom();
     }
 
-    // 답변 버블: "생각 중..." -> (수신 완료 후) 타자기 효과 -> 마크다운/수식 최종 렌더링.
+    // 답변 버블을 만들고, "생각 중..." 표시 -> (수신 완료 후) 한 글자씩
+    // 타이핑되는 효과 -> 다 쓰면 마크다운/수식으로 최종 렌더링, 순서로 채워나간다.
+    // (Gemini 쪽 실시간 스트리밍 대신, 완성된 답변을 받아서 화면에서만
+    // 타자기처럼 흘려보내는 방식이라 서버 구조가 단순하고 안정적이다.)
     function addAssistantPlaceholder() {
       clearChatEmptyState();
       const wrap = document.createElement("div");
@@ -2072,6 +1671,7 @@
         bubbleEl.innerHTML = '<span class="typing-cursor"></span>';
         const cursorEl = bubbleEl.querySelector(".typing-cursor");
         let i = 0;
+        // 글자가 아주 많으면 한 번에 여러 글자씩 흘려서 너무 오래 걸리지 않게 한다.
         const step = fullText.length > 800 ? 4 : fullText.length > 300 ? 2 : 1;
         const timer = setInterval(() => {
           i = Math.min(i + step, fullText.length);
@@ -2079,7 +1679,7 @@
           scrollChatToBottom();
           if (i >= fullText.length) {
             clearInterval(timer);
-            renderMarkdownInto(bubbleEl, fullText);
+            renderMarkdownInto(bubbleEl, fullText); // 마무리로 마크다운/수식 정식 렌더링
             scrollChatToBottom();
             resolve();
           }
@@ -2087,228 +1687,72 @@
       });
     }
 
-    function showAssistantError(bubbleEl, message, retryQuestion) {
+    function showAssistantError(bubbleEl, message) {
       bubbleEl.className = "msg-bubble error";
       bubbleEl.textContent = message;
-      if (retryQuestion !== undefined) {
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "retry-btn";
-        btn.textContent = "다시 시도";
-        btn.addEventListener("click", () => {
-          if (chatBusy) return;
-          bubbleEl.closest(".msg").remove();
-          sendChatMessage({ retry: true, question: retryQuestion });
-        });
-        bubbleEl.appendChild(document.createElement("br"));
-        bubbleEl.appendChild(btn);
-      }
-    }
-
-    // 자료실 문제 은행에서 찾은 같은/비슷한 문제를 답변 아래에 카드로 보여준다.
-    function renderRelated(msgEl, related, retrieval) {
-      if (!related || !related.length) return;
-      const box = document.createElement("div");
-      box.className = "related";
-      const head = document.createElement("div");
-      head.className = "related-head";
-      head.textContent = retrieval === "same" ? "자료실에서 같은 문제를 찾았어요" : "자료실의 비슷한 문제";
-      box.appendChild(head);
-
-      related.forEach((r, idx) => {
-        const card = document.createElement("details");
-        card.className = "related-card";
-        if (idx === 0 && r.same) card.open = true;
-
-        const sum = document.createElement("summary");
-        const where = [r.title, r.subject, r.year].filter(Boolean).join(" · ");
-        sum.textContent = `${where} · p.${r.page} ${r.number}번`;
-        const sim = document.createElement("span");
-        sim.className = "sim";
-        sim.textContent = `유사도 ${r.similarity}%`;
-        sum.appendChild(sim);
-        card.appendChild(sum);
-
-        const body = document.createElement("div");
-        body.className = "related-body";
-        renderMarkdownInto(body, r.text);
-        const meta = document.createElement("div");
-        meta.className = "related-meta";
-        if (r.answer) meta.appendChild(document.createTextNode(`정답(자료 표기): ${r.answer}  `));
-        if (r.message_id) {
-          const a = document.createElement("a");
-          a.href = `/api/pdf?message_id=${encodeURIComponent(r.message_id)}#page=${encodeURIComponent(r.page)}`;
-          a.target = "_blank";
-          a.rel = "noopener";
-          a.textContent = `원본 p.${r.page} 보기`;
-          meta.appendChild(a);
-        }
-        meta.appendChild(document.createTextNode("  · AI가 PDF에서 추출한 텍스트라 오류가 있을 수 있어요" + (r.uncertain ? " (이 문항은 인식이 불확실해요)" : "")));
-        body.appendChild(meta);
-        card.appendChild(body);
-        box.appendChild(card);
-      });
-
-      msgEl.appendChild(box);
-      scrollChatToBottom();
     }
 
     function updateChatInputState() {
-      chatInput.disabled = chatBusy || AI_MAINTENANCE;
-      attachBtn.disabled = chatBusy || AI_MAINTENANCE;
-      chatSendBtn.disabled = chatBusy || AI_MAINTENANCE || (!chatInput.value.trim() && attachments.length === 0);
+      const ready = Boolean(aiSelectedFile) && !chatBusy;
+      chatInput.disabled = !ready;
+      chatSendBtn.disabled = !ready || !chatInput.value.trim();
     }
-
-    // ---- 첨부 처리 ----
-    function readAsBase64(blob) {
-      return new Promise((resolve, reject) => {
-        const r = new FileReader();
-        r.onload = () => resolve(String(r.result).split(",")[1] || "");
-        r.onerror = () => reject(new Error("파일을 읽지 못했어요."));
-        r.readAsDataURL(blob);
-      });
-    }
-
-    // 사진은 긴 변 1600px JPEG로 줄인다 (폰 사진 5~8MB -> 수백 KB). 글씨가 읽힐 만큼은 유지.
-    async function shrinkImage(file) {
-      let bmp;
-      try {
-        bmp = await createImageBitmap(file, { imageOrientation: "from-image" });
-      } catch {
-        try {
-          bmp = await createImageBitmap(file);
-        } catch {
-          throw new Error("이 이미지 형식은 열 수 없어요 (HEIC라면 JPEG로 바꿔서 올려주세요).");
-        }
-      }
-      const encode = (edge, quality) => new Promise((resolve) => {
-        const scale = Math.min(1, edge / Math.max(bmp.width, bmp.height));
-        const c = document.createElement("canvas");
-        c.width = Math.round(bmp.width * scale);
-        c.height = Math.round(bmp.height * scale);
-        const ctx = c.getContext("2d");
-        ctx.fillStyle = "#fff";
-        ctx.fillRect(0, 0, c.width, c.height);
-        ctx.drawImage(bmp, 0, 0, c.width, c.height);
-        c.toBlob(resolve, "image/jpeg", quality);
-      });
-      let blob = await encode(1600, 0.82);
-      if (blob && blob.size > 900000) blob = await encode(1300, 0.7);
-      if (bmp.close) bmp.close();
-      if (!blob) throw new Error("이미지를 변환하지 못했어요.");
-      return blob;
-    }
-
-    function renderAttachTray() {
-      attachTray.innerHTML = "";
-      attachTray.hidden = attachments.length === 0;
-      attachments.forEach((a, idx) => {
-        const chip = document.createElement("div");
-        chip.className = "attach-chip";
-        if (a.kind === "image" && a.previewUrl) {
-          const img = document.createElement("img");
-          img.src = a.previewUrl;
-          img.alt = "";
-          chip.appendChild(img);
-        }
-        const name = document.createElement("span");
-        name.className = "attach-name";
-        name.textContent = a.kind === "pdf" ? "PDF · " + a.name : a.name;
-        chip.appendChild(name);
-        const rm = document.createElement("button");
-        rm.type = "button";
-        rm.setAttribute("aria-label", "첨부 제거");
-        rm.textContent = "×";
-        rm.addEventListener("click", () => {
-          if (chatBusy) return;
-          if (a.previewUrl) URL.revokeObjectURL(a.previewUrl);
-          attachments.splice(idx, 1);
-          renderAttachTray();
-          updateChatInputState();
-        });
-        chip.appendChild(rm);
-        attachTray.appendChild(chip);
-      });
-    }
-
-    async function addFiles(fileList) {
-      if (AI_MAINTENANCE) return;
-      for (const file of Array.from(fileList)) {
-        if (attachments.length >= MAX_ATTACH_COUNT) {
-          showToast(`첨부는 최대 ${MAX_ATTACH_COUNT}개까지예요.`, true);
-          break;
-        }
-        try {
-          let att;
-          if (file.type === "application/pdf") {
-            if (file.size > MAX_PDF_BYTES) throw new Error("PDF는 약 2.8MB 이하만 올릴 수 있어요. 필요한 페이지만 캡처해서 올려보세요.");
-            att = { kind: "pdf", name: file.name, mime: "application/pdf", data: await readAsBase64(file), previewUrl: null };
-          } else if (file.type.startsWith("image/")) {
-            const blob = await shrinkImage(file);
-            att = { kind: "image", name: file.name || "사진", mime: "image/jpeg", data: await readAsBase64(blob), previewUrl: URL.createObjectURL(blob) };
-          } else {
-            throw new Error("사진(JPG/PNG/WEBP)이나 PDF만 올릴 수 있어요.");
-          }
-          const total = attachments.reduce((n, a) => n + a.data.length, 0) + att.data.length;
-          if (total > MAX_ATTACH_B64_TOTAL) throw new Error("첨부 용량 합계가 너무 커요. 일부를 빼고 다시 올려주세요.");
-          attachments.push(att);
-          renderAttachTray();
-        } catch (err) {
-          showToast(err.message, true);
-        }
-      }
-      updateChatInputState();
-    }
-
-    attachBtn.addEventListener("click", () => attachInput.click());
-    attachInput.addEventListener("change", async () => {
-      await addFiles(attachInput.files);
-      attachInput.value = "";
-    });
-
-    // 스크린샷 붙여넣기(Ctrl/Cmd+V)
-    chatInput.addEventListener("paste", (e) => {
-      const files = Array.from(e.clipboardData?.files || []).filter(f => f.type.startsWith("image/") || f.type === "application/pdf");
-      if (files.length) {
-        e.preventDefault();
-        addFiles(files);
-      }
-    });
-
-    // 끌어놓기
-    ["dragenter", "dragover"].forEach(ev => chatShell.addEventListener(ev, (e) => {
-      if (e.dataTransfer && Array.from(e.dataTransfer.types || []).includes("Files")) {
-        e.preventDefault();
-        chatShell.classList.add("dragover");
-      }
-    }));
-    ["dragleave", "drop"].forEach(ev => chatShell.addEventListener(ev, () => chatShell.classList.remove("dragover")));
-    chatShell.addEventListener("drop", (e) => {
-      if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files.length) {
-        e.preventDefault();
-        addFiles(e.dataTransfer.files);
-      }
-    });
-
-    modeBtns.forEach(btn => btn.addEventListener("click", () => {
-      aiMode = btn.dataset.mode === "deep" ? "deep" : "fast";
-      modeBtns.forEach(b => b.classList.toggle("active", b === btn));
-    }));
 
     function resetChat() {
-      if (chatBusy) return;
-      attachments.forEach(a => a.previewUrl && URL.revokeObjectURL(a.previewUrl));
-      attachments = [];
+      aiSelectedFile = null;
       chatHistory = [];
-      renderAttachTray();
-      chatWindow.innerHTML = CHAT_EMPTY_HTML;
+      chatFileState = null;
+      aiSelected.hidden = true;
+      aiFileSection.hidden = false;
+      aiFileSearch.value = "";
+      aiFileResults.innerHTML = "";
+      chatWindow.innerHTML = '<p class="chat-empty">위에서 자료를 먼저 선택하면<br />여기서 그 자료에 대해 대화하듯 물어볼 수 있어요.</p>';
       chatInput.value = "";
-      chatInput.style.height = "auto";
+      updateChatInputState();
+      aiFileSearch.focus();
+    }
+
+    aiFileSearch.addEventListener("input", () => {
+      const q = aiFileSearch.value.trim().toLowerCase().normalize("NFC");
+      aiFileResults.innerHTML = "";
+      if (!q) return;
+
+      const matches = allFiles
+        .filter(f => {
+          const haystack = [f.filename, f.title, f.instructor, f.subject, f.year]
+            .filter(Boolean)
+            .join(" ")
+            .toLowerCase()
+            .normalize("NFC");
+          return haystack.includes(q);
+        })
+        .slice(0, 8);
+
+      for (const f of matches) {
+        const li = document.createElement("li");
+        li.textContent = `${f.title || f.filename} · ${formatDate(f.telegram_date)}`;
+        li.addEventListener("click", () => selectAiFile(f));
+        aiFileResults.appendChild(li);
+      }
+    });
+
+    function selectAiFile(f) {
+      aiSelectedFile = f;
+      chatHistory = [];
+      chatFileState = null;
+      aiSelectedName.textContent = f.title || f.filename;
+      aiSelected.hidden = false;
+      aiFileSection.hidden = true;
+      aiFileResults.innerHTML = "";
+      aiFileSearch.value = "";
+      chatWindow.innerHTML = `<p class="chat-empty">"${escapeHtml(f.title || f.filename)}" 자료가 선택됐어요.<br />궁금한 걸 물어보세요.</p>`;
       updateChatInputState();
       chatInput.focus();
     }
+
     chatResetBtn.addEventListener("click", resetChat);
 
+    // 입력창 높이를 내용에 맞춰 자동으로 늘린다 (최대 높이는 CSS의 max-height로 제한).
     chatInput.addEventListener("input", () => {
       chatInput.style.height = "auto";
       chatInput.style.height = chatInput.scrollHeight + "px";
@@ -2316,26 +1760,22 @@
     });
 
     chatInput.addEventListener("keydown", (e) => {
-      if (e.key === "Enter" && !e.shiftKey && !e.isComposing) {
+      if (e.key === "Enter" && !e.shiftKey) {
         e.preventDefault();
         if (!chatSendBtn.disabled) sendChatMessage();
       }
     });
 
-    chatSendBtn.addEventListener("click", () => sendChatMessage());
+    chatSendBtn.addEventListener("click", sendChatMessage);
 
-    // opts.retry가 true면 방금 실패한 질문을 같은 내용으로 다시 보낸다 (사용자 말풍선은 이미 있음).
-    async function sendChatMessage(opts = {}) {
-      if (chatBusy || AI_MAINTENANCE) return;
-      const question = opts.retry ? opts.question : chatInput.value.trim();
-      if (!question && attachments.length === 0) return;
+    async function sendChatMessage() {
+      const question = chatInput.value.trim();
+      if (!aiSelectedFile || !question || chatBusy) return;
 
       chatBusy = true;
-      if (!opts.retry) {
-        addUserMessage(question, attachments);
-        chatInput.value = "";
-        chatInput.style.height = "auto";
-      }
+      addUserMessage(question);
+      chatInput.value = "";
+      chatInput.style.height = "auto";
       updateChatInputState();
 
       const bubbleEl = addAssistantPlaceholder();
@@ -2345,46 +1785,26 @@
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
+            message_id: aiSelectedFile.message_id,
             question,
             history: chatHistory,
-            attachments: attachments.map(a => ({ mime: a.mime, data: a.data })),
-            mode: aiMode,
+            file_state: chatFileState,
           }),
         });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "알 수 없는 오류가 발생했습니다.");
 
-        let data;
-        try {
-          data = await res.json();
-        } catch {
-          // Vercel이 너무 큰 본문을 JSON이 아닌 응답으로 거절하는 경우 등
-          throw Object.assign(new Error(res.status === 413 ? "첨부 파일이 너무 커요. 사진 수를 줄이거나 PDF 대신 캡처로 올려보세요." : "서버 응답을 해석하지 못했어요. 잠시 후 다시 시도해주세요."), { retryable: res.status !== 413 });
-        }
-        if (!res.ok) throw Object.assign(new Error(data.error || "알 수 없는 오류가 발생했습니다."), { retryable: Boolean(data.retryable) });
-
-        const roleEl = bubbleEl.parentElement.querySelector(".msg-role");
-        if (roleEl && data.tier === "deep") roleEl.textContent = "Unvul AI (정밀)";
-
+        if (data.file_state) chatFileState = data.file_state; // 다음 턴부터 재업로드 생략
         await typeOutAnswer(bubbleEl, data.answer || "");
-        if (data.note) {
-          const note = document.createElement("div");
-          note.className = "msg-note";
-          note.textContent = data.note;
-          bubbleEl.parentElement.appendChild(note);
-        }
-        renderRelated(bubbleEl.parentElement, data.related, data.retrieval);
-
-        chatHistory.push({ role: "user", text: question || "(첨부만 보냄)" });
+        chatHistory.push({ role: "user", text: question });
         chatHistory.push({ role: "assistant", text: data.answer || "" });
       } catch (err) {
-        showAssistantError(bubbleEl, err.message, err.retryable ? question : undefined);
+        showAssistantError(bubbleEl, err.message);
       } finally {
         chatBusy = false;
         updateChatInputState();
-        chatInput.focus();
       }
     }
-
-    updateChatInputState();
 
     fetch(RAW_BASE + "manifest.json", { cache: "no-store" })
       .then(res => {
