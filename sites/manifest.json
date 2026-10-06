@@ -106497,6 +106497,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12185.png",
       "sha256": "96454cb3040f7a52424aa97b62d43dd5b925ff5223a4330cd4a2dcdfdace9d59"
+    },
+    {
+      "message_id": 12184,
+      "filename": "2026 세계지리  전국 서바 1회 (문제).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12184_2026.1.pdf",
+      "size_bytes": 4821935,
+      "telegram_date": "2025-08-13T14:29:46+00:00",
+      "title": "2026 세계지리  전국 서바 1회 (문제)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12184.png",
+      "sha256": "8baaa1cb029276e19a5aa7fb2392a1f432036b04662fc7e65c089377433eefb5"
     }
   ],
   "duplicate_message_ids": [
