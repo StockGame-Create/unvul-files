@@ -110641,6 +110641,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11781.png",
       "sha256": "e4c96b36204bbc3af6016b20bc4f80ad0901b4ab525c0d7da6c4592120b9431c"
+    },
+    {
+      "message_id": 11780,
+      "filename": "강대k 6회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11780_.k.6.pdf",
+      "size_bytes": 10819391,
+      "telegram_date": "2025-08-11T16:01:11+00:00",
+      "title": "강대k 6회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11780.png",
+      "sha256": "6cf7e5aca6cf677ff3297d93ed956e6fc7a8d158e7dfa4b4b4d55afa73e369cf"
     }
   ],
   "duplicate_message_ids": [
