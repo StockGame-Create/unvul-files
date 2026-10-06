@@ -108037,6 +108037,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11972.png",
       "sha256": "4e65ace334c2ace2ffda70a87baf185393e8ffe43c08c9c7f9a06d9e8be60669"
+    },
+    {
+      "message_id": 11971,
+      "filename": "케이지구2답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11971_.2.pdf",
+      "size_bytes": 386040,
+      "telegram_date": "2025-08-12T09:07:01+00:00",
+      "title": "케이지구2답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11971.png",
+      "sha256": "120e23b7066eb532492c9f8e499b30279978bf17b73bc3f245a2751e004db93d"
     }
   ],
   "duplicate_message_ids": [
