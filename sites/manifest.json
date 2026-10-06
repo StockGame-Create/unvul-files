@@ -107141,6 +107141,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12101.png",
       "sha256": "a53ca2ecb8c6d84ceb00d0241a63dd942d164226901ab65420d0ecc008b647da"
+    },
+    {
+      "message_id": 12099,
+      "filename": "2026_이감_온라인1_문제&해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12099_2026_._.1_.pdf",
+      "size_bytes": 34544758,
+      "telegram_date": "2025-08-12T16:35:04+00:00",
+      "title": "2026_이감_온라인1_문제&해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12099.png",
+      "sha256": "a4cfea07a080123601a024058888250f44a46c1ff8fa7f8304f04647bea77d55"
     }
   ],
   "duplicate_message_ids": [
