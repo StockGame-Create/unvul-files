@@ -832,6 +832,16 @@ def make_message_id(key: str, used: set[int]) -> int:
     return mid
 
 
+# 표기 년도 = 평가원 '학년도' - 1. (예: 2026학년도 수능은 2025년에 시행되었으므로 2025로 표기)
+# fix_mock.py가 이미 저장된 항목을 같은 규칙으로 고치며, 항목의 "year_shifted": true 표시로
+# 두 번 내려가는 것을 막는다. 새로 저장하는 항목은 처음부터 이 규칙으로 만든다.
+YEAR_SHIFT = 1
+
+
+def display_year(haknyeon: int) -> int:
+    return haknyeon - YEAR_SHIFT
+
+
 def build_asset_name(haknyeon: int, exam: str, filename: str, key: str = "") -> str:
     """GitHub Release는 에셋 이름의 비-ASCII 문자를 '.'으로 바꿔 저장한다. 그러면 글자 수가
     같은 한글 이름끼리(문제지/정답표, 국어/수학 ...) 서로 충돌(422 already_exists)한다.
@@ -913,8 +923,9 @@ def store_unit(ctx: Ctx, cand: dict, filename: str, path: Path, key: str) -> str
         # index.html이 정렬/표시에 쓰는 sync.py 필드명과 맞춘다 (등록일 기준, KST 자정)
         "telegram_date": f"{posted}T00:00:00+09:00" if re.fullmatch(r"\d{4}-\d{2}-\d{2}", posted) else datetime.now(timezone.utc).isoformat(),
         "posted_date": posted,
-        "title": f"{cand['haknyeon']}학년도 {cand['exam']} {Path(filename).stem}",
-        "year": str(cand["haknyeon"]),
+        "title": f"{display_year(cand['haknyeon'])}학년도 {cand['exam']} {Path(filename).stem}",
+        "year": str(display_year(cand["haknyeon"])),
+        "year_shifted": True,  # fix_mock.py가 중복으로 -1 하지 않도록 하는 표시
         "exam": cand["exam"],
         "instructor": "한국교육과정평가원",
         "subject": cand["subject"] or None,
