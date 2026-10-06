@@ -110823,6 +110823,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11755.png",
       "sha256": "8a8583fbaaf72e599a1f043dee37651d079bf95e1e4e5632e6ba3822bf8e5853"
+    },
+    {
+      "message_id": 11754,
+      "filename": "호형훈제_스피드러너_FINAL_1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11754_._._FINAL_1.pdf",
+      "size_bytes": 31106213,
+      "telegram_date": "2025-08-11T16:01:09+00:00",
+      "title": "호형훈제_스피드러너_FINAL_1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11754.png",
+      "sha256": "b8f03385ab125deb6b951ec23fb8457772d0a58d434d6f6e5d76bf31d2dc868b"
     }
   ],
   "duplicate_message_ids": [
