@@ -108975,6 +108975,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11863.png",
       "sha256": "54ec0fe49616437a45f8a05d50cbae5512c4bb23f857fa00c2f6de1dfe7aab01"
+    },
+    {
+      "message_id": 11862,
+      "filename": "CONNECT 물리학II 비역학편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11862_CONNECT.II.pdf",
+      "size_bytes": 169350370,
+      "telegram_date": "2025-08-11T17:19:18+00:00",
+      "title": "CONNECT 물리학II 비역학편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11862.png",
+      "sha256": "7e9a112df8aaad191ea8f142d5f48220a77d78cc729cdc39a1834601951061da"
     }
   ],
   "duplicate_message_ids": [
