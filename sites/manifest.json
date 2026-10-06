@@ -108233,6 +108233,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11941.png",
       "sha256": "0827e50c8879c6395c7f5e139722c6bf2fd6ee8096a3552cab734990a14a3bbc"
+    },
+    {
+      "message_id": 11939,
+      "filename": "2026 사회문화 전국 브릿지 5회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11939_2026.5._.pdf",
+      "size_bytes": 13176053,
+      "telegram_date": "2025-08-12T09:07:00+00:00",
+      "title": "2026 사회문화 전국 브릿지 5회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11939.png",
+      "sha256": "964cd55f33988bdfb6558cf043fbc4724b36bd05aaae0d979f54a11045d1f61d"
     }
   ],
   "duplicate_message_ids": [
