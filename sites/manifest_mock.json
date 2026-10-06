@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 11845744664,
+      "source_key": "7f2dca8dfaf714918bec8683f2834968#03 한국지리_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=7f2dca8dfaf714918bec8683f2834968",
+      "category": "평가원",
+      "filename": "03 한국지리_정답.pdf",
+      "asset_name": "2027_m6_03_6e03d41885.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_m6_03_6e03d41885.pdf",
+      "size_bytes": 47250,
+      "telegram_date": "2026-10-06T08:51:21.556637+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 6월 모의평가 03 한국지리_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/11845744664.png",
+      "sha256": "d18e9fb342bce03c2a97e3a8bae21ee2334b901930bf8211591bb4d9092134af"
+    },
+    {
       "message_id": 13018829672,
       "source_key": "7f2dca8dfaf714918bec8683f2834968#02 윤리와 사상_정답.pdf",
       "source": "suneung.re.kr",
