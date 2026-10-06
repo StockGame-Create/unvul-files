@@ -106861,6 +106861,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12137.png",
       "sha256": "822121ceb7b15f6a5256e4d691953f44fbd64b03576e8a93d5fd82e2b1eabfa1"
+    },
+    {
+      "message_id": 12136,
+      "filename": "2026 킬링캠프 Season1 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12136_2026.Season1.6.pdf",
+      "size_bytes": 18815136,
+      "telegram_date": "2025-08-13T03:04:31+00:00",
+      "title": "2026 수학 현우진 킬링캠프 시즌1 1회 2회 3회 4회 5회 6회 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12136.png",
+      "sha256": "8b6b23d55da9f27b49700a71658eeb909be781b2c8aadd1265da450fce406afb"
     }
   ],
   "duplicate_message_ids": [
