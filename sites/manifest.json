@@ -106623,6 +106623,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12173.png",
       "sha256": "166cc5e7142848dc02286cff700d6b78978c59bd6b4314413313a336c54e03f1"
+    },
+    {
+      "message_id": 12172,
+      "filename": "THE HURDLING 2주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12172_THE.HURDLING.2.pdf",
+      "size_bytes": 67824805,
+      "telegram_date": "2025-08-13T14:29:45+00:00",
+      "title": "2026 김범준 The Hurdling 미적분 1~10주차 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12172.png",
+      "sha256": "d032cc1076aa34cea3c78d98ebce2f593a1e2a9fa0b063db1fdb71c14327e959"
     }
   ],
   "duplicate_message_ids": [
