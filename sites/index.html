@@ -2253,7 +2253,11 @@
           return res.json();
         })
         .then(data => {
-          kiceFiles = data.files || [];
+          // 제2외국어/한문은 표시하지 않는다 (sync2.py / fix_mock.py의 SECOND_LANG_RE와 같은 규칙).
+          // manifest에서 이미 지워졌어도, 아직 정리 전이거나 캐시가 남아 있을 때를 대비한 안전장치.
+          const SECOND_LANG_RE = /제\s*2\s*외국어|한문|독일어|프랑스어|스페인어|중국어|일본어|러시아어|아랍어|베트남어/;
+          kiceFiles = (data.files || []).filter(f =>
+            !SECOND_LANG_RE.test([f.subject, f.filename, f.title].filter(Boolean).join(" ").normalize("NFC")));
           const years = [...new Set(kiceFiles.map(f => f.year).filter(Boolean))].sort((a, b) => Number(b) - Number(a));
           for (const y of years) {
             const opt = document.createElement("option");
