@@ -1,0 +1,62 @@
+# .github/workflows/fix_mock.yml
+#
+# sites/manifest_mock.json 에 표기된 년도를 -1 한다 (2026학년도 수능 -> 2025).
+# 수동 실행 전용. 이미 고친 항목은 year_shifted 표시로 건너뛰므로 여러 번 돌려도 안전하다.
+# 처음에는 dry_run 을 켠 채로 바뀔 내용을 확인한 뒤, 끄고 다시 실행할 것.
+
+name: fix_mock
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "바뀔 내용만 출력 (파일 수정/커밋 안 함)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+# sync2 와 같은 그룹: manifest_mock.json 커밋이 서로 충돌하지 않게 한 번에 하나만 실행.
+concurrency:
+  group: sync2
+  cancel-in-progress: false
+
+jobs:
+  fix_mock:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 년도 -1 적용
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python fix_mock.py --dry-run
+          else
+            python fix_mock.py
+          fi
+
+      - name: 커밋 및 푸시
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sites/manifest_mock.json
+          if git diff --staged --quiet; then
+            echo "변경 없음"
+            exit 0
+          fi
+          git commit -m "chore: 모의고사 표기 년도 -1 보정 [skip ci]"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            git pull --rebase --autostash
+            sleep $((i * 3))
+          done
+          echo "push 실패"
+          exit 1
