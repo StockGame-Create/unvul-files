@@ -1,0 +1,72 @@
+# .github/workflows/sync2.yml
+#
+# 평가원(수능 / 6월·9월 모의평가) 자료를 sync2.py로 받아서 GitHub Release에 올린다.
+# sync.yml(텔레그램)과는 완전히 별개 워크플로다.
+#
+# - sync2.py는 목록을 한 바퀴 돌면 끝나므로 sync.yml처럼 "다음 실행을 스스로 예약"하는
+#   체인이 필요 없다. cron으로만 돌린다.
+# - 6·9·11월(모평/수능 시즌)에는 매일, 그 외에는 주 1회.
+#   (cron은 UTC 기준이다. 아래 21:17 UTC = 한국시간 다음날 06:17. 정시를 피해 17분으로 둠)
+# - 처음 실행은 Actions 탭에서 수동 실행(Run workflow) + dry_run 체크로 목록부터 확인할 것.
+# - 6월·9월 모평 게시판은 저장소 변수 MOPYEONG_LIST_URL에 모평 목록 페이지 주소를
+#   넣어야 켜진다 (Settings > Secrets and variables > Actions > Variables).
+#   비어 있으면 수능 게시판만 진행한다.
+
+name: sync2
+
+on:
+  schedule:
+    - cron: "17 21 * 6,9,11 *"   # 모평/수능 시즌(6·9·11월): 매일
+    - cron: "17 21 * * 5"        # 그 외: 주 1회 (KST 토요일 06:17)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "받을 목록만 출력 (다운로드/업로드/커밋 안 함)"
+        type: boolean
+        default: true
+      limit:
+        description: "새 PDF를 이 개수만 처리하고 종료 (0 = 제한 없음)"
+        type: string
+        default: "0"
+      min_year:
+        description: "이 학년도 이상만 (2023 = 2022년 6월 모평부터)"
+        type: string
+        default: "2023"
+
+# release 생성/업로드와 manifest push에 contents: write면 충분하다
+# (다음 실행을 예약하지 않으므로 actions: write는 필요 없음).
+permissions:
+  contents: write
+
+# 같은 워크플로가 겹쳐 돌면 manifest_mock.json 커밋이 충돌하므로 한 번에 하나만.
+# 실행 중인 것은 끊지 않고 뒤의 것이 기다린다 (업로드 도중 취소 방지).
+concurrency:
+  group: sync2
+  cancel-in-progress: false
+
+jobs:
+  sync2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350   # sync2.py의 MAX_RUNTIME_SECONDS(5시간 30분)보다 길게
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: sync2.py 실행
+        env:
+          # GITHUB_REPOSITORY, GITHUB_ACTIONS 는 Actions가 자동으로 넣어준다.
+          GH_DISPATCH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MOPYEONG_LIST_URL: ${{ vars.MOPYEONG_LIST_URL }}
+          # schedule 실행에는 inputs가 없으므로 기본값(실제 실행 / 제한 없음 / 2023)으로 동작한다.
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+          MOCK_LIMIT: ${{ github.event_name == 'workflow_dispatch' && inputs.limit || '0' }}
+          MIN_YEAR: ${{ github.event_name == 'workflow_dispatch' && inputs.min_year || '2023' }}
+        run: python sync2.py --min-year "$MIN_YEAR"
