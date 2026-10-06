@@ -108793,6 +108793,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11885.png",
       "sha256": "e271dba7b150b2e6194421f6cd707127fbad026f6b1decf60005af323195b2af"
+    },
+    {
+      "message_id": 11883,
+      "filename": "강 k 5회 영어 하프 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11883_.k.5.5.pdf",
+      "size_bytes": 23421030,
+      "telegram_date": "2025-08-12T01:48:07+00:00",
+      "title": "강 k 5회 영어 하프 5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11883.png",
+      "sha256": "31a21636679f2155651fe047c3df1b247ced27a16831e93aee4288a0258329fa"
     }
   ],
   "duplicate_message_ids": [
