@@ -105699,6 +105699,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12298.png",
       "sha256": "68220ae541570e25af0e539a311aaa70971baee37e9cbecebaa3f9219d0926c8"
+    },
+    {
+      "message_id": 12296,
+      "filename": "2026 국어 이감 시즌5 3회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12296_2026.5.3.pdf",
+      "size_bytes": 37691533,
+      "telegram_date": "2025-08-14T03:56:53+00:00",
+      "title": "2026 이감 파이널1 시즌5 3회 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12296.png",
+      "sha256": "57ffb6f7c33cd7674ef13b0e644ade8ce7c2dde1b9d3f23c08dfc81e5b973f90"
     }
   ],
   "duplicate_message_ids": [
