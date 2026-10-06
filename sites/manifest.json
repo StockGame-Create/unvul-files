@@ -110949,6 +110949,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11731.png",
       "sha256": "8b0486fea4c12a28be50768d6d521c3ea42897a49fcc8c8d0221090740524bbd"
+    },
+    {
+      "message_id": 11728,
+      "filename": "[일반] 노무현의 길 단권 완.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11728_.pdf",
+      "size_bytes": 12163331,
+      "telegram_date": "2025-08-11T16:01:08+00:00",
+      "title": "[일반] 노무현의 길 단권 완",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11728.png",
+      "sha256": "ba34214c486bf0fa13545a07ac92ba214f66010c346ecc69c8270229358e655d"
     }
   ],
   "duplicate_message_ids": [
