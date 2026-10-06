@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 11792592974,
+      "source_key": "8a2e411e6a8ef6be6c27f280995fac4f#06 과탐(화학 II).pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=8a2e411e6a8ef6be6c27f280995fac4f",
+      "category": "평가원",
+      "filename": "06 과탐(화학 II).pdf",
+      "asset_name": "2023_m6_06II_6ad8cc4e4a.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2023_m6_06II_6ad8cc4e4a.pdf",
+      "size_bytes": 987492,
+      "telegram_date": "2026-10-06T09:19:10.024284+00:00",
+      "posted_date": "2023",
+      "title": "2023학년도 6월 모의평가 06 과탐(화학 II)",
+      "year": "2022",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "기타",
+      "thumbnail": "thumbnails/11792592974.png",
+      "sha256": "4ab8e5130e62710437620ed1d3b1764a0e73ef933bef8eea34771c7935590f6e"
+    },
+    {
       "message_id": 13450371013,
       "source_key": "8a2e411e6a8ef6be6c27f280995fac4f#05 과탐(물리학 II).pdf",
       "source": "suneung.re.kr",
