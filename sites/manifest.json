@@ -106009,6 +106009,20 @@
       "sha256": "4d9e0931479326b2f2c036d020719f2b247f4dcdc7af23b18018d79b79e269d0"
     },
     {
+      "message_id": 12293,
+      "filename": "2026학년도_대학수학능력시험_OZ모의고사_시즌2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12293_2026._._OZ._.2.pdf",
+      "size_bytes": 120221416,
+      "telegram_date": "2025-08-14T03:49:22+00:00",
+      "title": "2026 지1 오지훈 OZ모의고사 시즌2 1~3회 #지1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12293.png",
+      "sha256": "0cf36663a75edc065828b29fe5666c0f4890a504387c56709ad89753271e6596"
+    },
+    {
       "message_id": 12288,
       "filename": "기하 드릴4.pdf",
       "stored_as": null,
