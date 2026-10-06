@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 13364739681,
+      "source_key": "e9ead4d0c0fc298ddb0ad1a34290754e#05 직탐(수산·해운 산업 기초).pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=e9ead4d0c0fc298ddb0ad1a34290754e",
+      "category": "평가원",
+      "filename": "05 직탐(수산·해운 산업 기초).pdf",
+      "asset_name": "2023_m6_05_c88dda611e.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2023_m6_05_c88dda611e.pdf",
+      "size_bytes": 4312261,
+      "telegram_date": "2026-10-06T09:20:14.187287+00:00",
+      "posted_date": "2023",
+      "title": "2023학년도 6월 모의평가 05 직탐(수산·해운 산업 기초)",
+      "year": "2022",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "기타",
+      "thumbnail": "thumbnails/13364739681.png",
+      "sha256": "09e1785eac0da0008b4691e5cfc8e721b2813a216b0f167e08bdb9a40d1e167c"
+    },
+    {
       "message_id": 12977509206,
       "source_key": "e9ead4d0c0fc298ddb0ad1a34290754e#03 직탐(공업 일반).pdf",
       "source": "suneung.re.kr",
