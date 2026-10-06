@@ -110851,6 +110851,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11750.png",
       "sha256": "9d2fee8d8281b6702924f71a588de3ccf543d5271d30a0401f06a1c8b0984485"
+    },
+    {
+      "message_id": 11748,
+      "filename": "2026 정병호 딥마인드 미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11748_2026.pdf",
+      "size_bytes": 68786212,
+      "telegram_date": "2025-08-11T16:01:09+00:00",
+      "title": "2026 정병호 딥마인드 미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11748.png",
+      "sha256": "003d42c2664041788b715894b5e397c284ac5b0099ed7407f40502f32d469141"
     }
   ],
   "duplicate_message_ids": [
