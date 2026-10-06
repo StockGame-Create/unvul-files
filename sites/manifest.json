@@ -111145,6 +111145,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11714.png",
       "sha256": "1251f2803a0bcb302144a8c3e152c57e8275c9cbd0cc9d3c10c42ea8a8b16b1c"
+    },
+    {
+      "message_id": 11711,
+      "filename": "2026_정석민_문기정_어드밴스드_1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11711_2026_._._._1.pdf",
+      "size_bytes": 207456839,
+      "telegram_date": "2025-08-11T16:01:01+00:00",
+      "title": "유빈 아카이브: @yubin2archive",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11711.png",
+      "sha256": "a5f70190c6192448c9d94f9e0201c6b13a68338bd72d20e8c75f32754db95527"
     }
   ],
   "duplicate_message_ids": [
