@@ -108163,6 +108163,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11956.png",
       "sha256": "1cf7ebf9b2b0d4f3cda768de0f85d1df7d4efe5377262c2f9781fc5c63b53131"
+    },
+    {
+      "message_id": 11954,
+      "filename": "서바 리부트 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11954_.5.pdf",
+      "size_bytes": 10859751,
+      "telegram_date": "2025-08-12T09:07:01+00:00",
+      "title": "서바 리부트 5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11954.png",
+      "sha256": "68f627000464a94e892361e66660fbe78bba543925ed77eefe85d7974bfebcb1"
     }
   ],
   "duplicate_message_ids": [
