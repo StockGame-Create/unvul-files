@@ -106959,6 +106959,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12125.png",
       "sha256": "439db73dd9c742ea7feabca5e1c86d1a71049cd5c39542e2eb7a08d8bcd1340a"
+    },
+    {
+      "message_id": 12124,
+      "filename": "2026_이미지_하루4점10개_공통+미적분_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12124_2026_._.4.10._.%2B._.pdf",
+      "size_bytes": 11866394,
+      "telegram_date": "2025-08-12T23:04:46+00:00",
+      "title": "2026 이미지 하루4점 10개 공통+미적 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12124.png",
+      "sha256": "cce2b70dd7cc2fc1b3c88b12ee8d5e3c530472a67283b6ff608629ba00021eb1"
     }
   ],
   "duplicate_message_ids": [
