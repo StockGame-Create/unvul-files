@@ -106819,6 +106819,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12155.png",
       "sha256": "bb5b064f527fdf13a881db3e670c9bc9ec5629e29a5691e5f0ddc8e203595ca7"
+    },
+    {
+      "message_id": 12147,
+      "filename": "개념때려잡기 미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12147_.pdf",
+      "size_bytes": 50291566,
+      "telegram_date": "2025-08-13T09:07:56+00:00",
+      "title": "2026 수학 정승제 개념때려잡기 혼때잡 미적분 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12147.png",
+      "sha256": "bcf5db45be40f27486ec60e37df4011a4818f38b679a53491bf2cc3fd9454ff2"
     }
   ],
   "duplicate_message_ids": [
