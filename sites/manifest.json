@@ -109227,6 +109227,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11840.png",
       "sha256": "c27bea725041d065460e8cb91c3fd65d484704a5298a2da2384379088836ac12"
+    },
+    {
+      "message_id": 11839,
+      "filename": "2025_강대k_생명_9_10회_문제지_250621_092713.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11839_2025_.k_._9_10._._250621_092713.pdf",
+      "size_bytes": 36914036,
+      "telegram_date": "2025-08-11T17:06:04+00:00",
+      "title": "2025_강대k_생명_9_10회_문제지_250621_092713",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11839.png",
+      "sha256": "bcdcf9a7d84f8f7719bd23d001a0c88d3e0172256730215c06d316c499afe432"
     }
   ],
   "duplicate_message_ids": [
