@@ -107267,6 +107267,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12086.png",
       "sha256": "fcff530a2b59fce174f2ec63a840f19a9973331f5edd17c82e9efa49f810a5b8"
+    },
+    {
+      "message_id": 12084,
+      "filename": "4. 딥마인드.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12084_4.pdf",
+      "size_bytes": 102686397,
+      "telegram_date": "2025-08-12T16:35:03+00:00",
+      "title": "4. 딥마인드",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12084.png",
+      "sha256": "26b9fe8bcb4208af0c8b672ba075447a047317c6f51d6b8b8c0062c873edeaef"
     }
   ],
   "duplicate_message_ids": [
