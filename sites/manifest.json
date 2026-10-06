@@ -110585,6 +110585,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11788.png",
       "sha256": "cd372ee047ce935cf871df82ed9774eddca61add23f445756e727215b49578e6"
+    },
+    {
+      "message_id": 11785,
+      "filename": "강대k 10회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11785_.k.10.pdf",
+      "size_bytes": 9012786,
+      "telegram_date": "2025-08-11T16:01:11+00:00",
+      "title": "강대k 10회 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11785.png",
+      "sha256": "da29aad8fab2b7b3c514c3331f3b762bdb3b119b3c1b410432ee191fd92d6bd5"
     }
   ],
   "duplicate_message_ids": [
