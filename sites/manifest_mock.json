@@ -1,6 +1,28 @@
 {
   "files": [
     {
+      "message_id": 13153873376,
+      "source_key": "11e60d8a5600bb4f592efe5054bd0b9b#09 사회·문화_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=11e60d8a5600bb4f592efe5054bd0b9b",
+      "category": "평가원",
+      "filename": "09 사회·문화_정답.pdf",
+      "asset_name": "2026_csat_09_bbfc49e09d.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_csat_09_bbfc49e09d.pdf",
+      "size_bytes": 41354,
+      "telegram_date": "2026-10-06T08:07:10.823960+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 수능 09 사회·문화_정답",
+      "year": "2026",
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "사회탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/13153873376.png",
+      "sha256": "166865a9e151a8a1ceb8e1fefec8751181e7cf71ae6777280af820f67897cb8b"
+    },
+    {
       "message_id": 13347302271,
       "source_key": "11e60d8a5600bb4f592efe5054bd0b9b#08 정치와 법_정답.pdf",
       "source": "suneung.re.kr",
