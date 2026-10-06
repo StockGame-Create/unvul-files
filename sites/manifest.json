@@ -105643,6 +105643,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12303.png",
       "sha256": "63f690f314ab96135d467c54bd683fbd5e96d6c2f28bd840107ad80be5e2bd08"
+    },
+    {
+      "message_id": 12302,
+      "filename": "26_강철중_플리_3_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12302_26_._._3_.pdf",
+      "size_bytes": 45313089,
+      "telegram_date": "2025-08-14T05:37:53+00:00",
+      "title": "2026 강철중 플리 3권 6권 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12302.png",
+      "sha256": "56c3823f95239dfcc60c168ab84e4404d7c84a2d6366cf2c45b390da393309e1"
     }
   ],
   "duplicate_message_ids": [
