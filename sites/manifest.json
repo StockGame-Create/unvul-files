@@ -107941,6 +107941,20 @@
       "sha256": "0e5da4ea82fd3cdb1da205b426344cf73395abbcae2cce7c5482205db2c21e21"
     },
     {
+      "message_id": 12083,
+      "filename": "2026_국어_김승리_EBSchema_시즌2_독서.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12083_2026_._._EBSchema_.2_.pdf",
+      "size_bytes": 123310293,
+      "telegram_date": "2025-08-12T16:35:03+00:00",
+      "title": "2026_국어_김승리_EBSchema_시즌2_독서",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12083.png",
+      "sha256": "26b2f71f007170caa008cc92258f651ddfaace0cf1a56872a67996012b6bd45b"
+    },
+    {
       "message_id": 12069,
       "filename": "팔구십퍼요_해설수1_수2_확통.pdf",
       "stored_as": null,
