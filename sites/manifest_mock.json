@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 10840856592,
+      "source_key": "9b48c2654d4a8f3792f33bfdcbfe9603#09 사회·문화_문제.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=9b48c2654d4a8f3792f33bfdcbfe9603",
+      "category": "평가원",
+      "filename": "09 사회·문화_문제.pdf",
+      "asset_name": "2025_m6_09_321e741091.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2025_m6_09_321e741091.pdf",
+      "size_bytes": 1595595,
+      "telegram_date": "2026-10-06T09:04:21.085887+00:00",
+      "posted_date": "2025",
+      "title": "2025학년도 6월 모의평가 09 사회·문화_문제",
+      "year": "2024",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "문제",
+      "thumbnail": "thumbnails/10840856592.png",
+      "sha256": "6e8341252e45cd5284f2d4c139aa52129d659d003e43b5f7d84ce5f32718b5f3"
+    },
+    {
       "message_id": 11816287870,
       "source_key": "9b48c2654d4a8f3792f33bfdcbfe9603#08 정치와 법_문제.pdf",
       "source": "suneung.re.kr",
