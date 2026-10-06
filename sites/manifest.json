@@ -105979,6 +105979,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12261.png",
       "sha256": "aa84a1eb88c7a6f68846d67b560a7eb54b77b8c8acee0114bcdb94dfe3d7a784"
+    },
+    {
+      "message_id": 12260,
+      "filename": "독서편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12260_.pdf",
+      "size_bytes": 63876553,
+      "telegram_date": "2025-08-13T14:29:58+00:00",
+      "title": "독서편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12260.png",
+      "sha256": "0356010c6d4b7f09ba1e8bc3bd5168befeebbefc13710d0404ca887fa24a85e1"
     }
   ],
   "duplicate_message_ids": [
