@@ -106091,6 +106091,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12236.png",
       "sha256": "a33f1b269d01eb81c2b179e64c76de08760cc58b9ddfe360eaf513d8dd45cfb4"
+    },
+    {
+      "message_id": 12234,
+      "filename": "2026 서바이벌 국어 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12234_2026.5.pdf",
+      "size_bytes": 43619678,
+      "telegram_date": "2025-08-13T14:29:51+00:00",
+      "title": "2026 서바이벌 국어 5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12234.png",
+      "sha256": "d2e0155527b2eadb4ac3cca05a1ef79303da06e338eccd4e5dce7723e8694e9b"
     }
   ],
   "duplicate_message_ids": [
