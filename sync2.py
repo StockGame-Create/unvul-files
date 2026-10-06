@@ -87,7 +87,9 @@ MAX_RUNTIME_SECONDS = 5 * 60 * 60 + 30 * 60
 # 수능 기출 게시판 (확인됨: boardID=1500234)
 SUNEUNG_BOARD = {"key": "suneung", "label": "수능", "board_id": "1500234", "m": "0403", "s": "suneung"}
 # 6월·9월 모평 게시판은 주소를 환경변수로 받는다 (코드 수정 없이 켜고 끌 수 있게)
-MOPYEONG_LIST_URL = os.environ.get("MOPYEONG_LIST_URL", "").strip()
+DEFAULT_MOPYEONG_LIST_URL = "https://www.suneung.re.kr/boardCnts/list.do?boardID=1500236&m=0403&s=suneung&searchStr="
+# 저장소 변수 MOPYEONG_LIST_URL이 있으면 그걸 우선하고, 없거나 비어 있으면 위 기본 주소를 쓴다.
+MOPYEONG_LIST_URL = os.environ.get("MOPYEONG_LIST_URL", "").strip() or DEFAULT_MOPYEONG_LIST_URL
 
 # message_id는 텔레그램 id와 겹치지 않게 큰 숫자 대역을 쓴다.
 MESSAGE_ID_BASE = 10_000_000_000
