@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12487995104,
+      "source_key": "371b19ce3ad7d8991ef06e3f36fdceed#02 프랑스어Ⅰ_문제.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=371b19ce3ad7d8991ef06e3f36fdceed",
+      "category": "평가원",
+      "filename": "02 프랑스어Ⅰ_문제.pdf",
+      "asset_name": "2026_csat_02_944bcae0cf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_csat_02_944bcae0cf.pdf",
+      "size_bytes": 2370977,
+      "telegram_date": "2026-10-06T08:20:06.442813+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 수능 02 프랑스어Ⅰ_문제",
+      "year": "2025",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "제2외국어/한문",
+      "kind": "문제",
+      "thumbnail": "thumbnails/12487995104.png",
+      "sha256": "56bd6ec17ffec9949d588be8c6b5522a00c7c42866852d23b9265565bc0c7f87"
+    },
+    {
       "message_id": 12201786505,
       "source_key": "371b19ce3ad7d8991ef06e3f36fdceed#01 독일어Ⅰ_문제.pdf",
       "source": "suneung.re.kr",
