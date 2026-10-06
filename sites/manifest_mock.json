@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 14009406847,
+      "source_key": "6c04b911651e6cdc20fa2781408345e8#08 사탐(정치와 법).pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=6c04b911651e6cdc20fa2781408345e8",
+      "category": "평가원",
+      "filename": "08 사탐(정치와 법).pdf",
+      "asset_name": "2023_m6_08_eefab17f4c.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2023_m6_08_eefab17f4c.pdf",
+      "size_bytes": 1038035,
+      "telegram_date": "2026-10-06T09:18:17.204888+00:00",
+      "posted_date": "2023",
+      "title": "2023학년도 6월 모의평가 08 사탐(정치와 법)",
+      "year": "2022",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "기타",
+      "thumbnail": "thumbnails/14009406847.png",
+      "sha256": "7a4e19b54485c66d40772724997d3b63ce15a03bd7873a01dd08102f6e6dd9be"
+    },
+    {
       "message_id": 11212874113,
       "source_key": "6c04b911651e6cdc20fa2781408345e8#07 사탐(경제).pdf",
       "source": "suneung.re.kr",
