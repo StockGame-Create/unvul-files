@@ -106161,6 +106161,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12224.png",
       "sha256": "78349d8ceeaea131b0021259116603c93dd383c7dd557da17123f3b51b5e2713"
+    },
+    {
+      "message_id": 12218,
+      "filename": "강기원 서바이벌 5주차 필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12218_.5.pdf",
+      "size_bytes": 2433165,
+      "telegram_date": "2025-08-13T14:29:47+00:00",
+      "title": "2026 강기원 서바이벌 5주차 Preview Test, 필기노트 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12218.png",
+      "sha256": "39c15484f9cdd35fae66d85304805b4ab188830607412f75a109d9e2c1d2630f"
     }
   ],
   "duplicate_message_ids": [
