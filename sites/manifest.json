@@ -109045,6 +109045,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11853.png",
       "sha256": "a7d8fdf541cd1170bdbd2bd001fc65aa29dda6350eb399e648942817eb5d9964"
+    },
+    {
+      "message_id": 11852,
+      "filename": "생2 엣지 3권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11852_.2.3.pdf",
+      "size_bytes": 42760950,
+      "telegram_date": "2025-08-11T17:19:17+00:00",
+      "title": "생2 엣지 3권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11852.png",
+      "sha256": "126241e49cee24ab4af467b597f9e3d216291ded56644f6e970f02206651dfe0"
     }
   ],
   "duplicate_message_ids": [
