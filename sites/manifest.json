@@ -106063,6 +106063,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12241.png",
       "sha256": "fc985d56425c865edaf01ea408e1e0c7f6adaa15acac425ec720bbfc480284e1"
+    },
+    {
+      "message_id": 12239,
+      "filename": "크포 미적 165.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12239_.165.pdf",
+      "size_bytes": 65824443,
+      "telegram_date": "2025-08-13T14:29:51+00:00",
+      "title": "2026 한석원 크리티컬 포인트 미적분 2 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12239.png",
+      "sha256": "67cc0198f0bae18775e4d4e5a603c69a93b8f08f596963ee75174d7ccc5e1b56"
     }
   ],
   "duplicate_message_ids": [
