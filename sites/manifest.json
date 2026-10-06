@@ -107729,6 +107729,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12014.png",
       "sha256": "454710ef2431b86a405f6125bbce19a005c0ebda846dc31a43edd3c5b3ed5427"
+    },
+    {
+      "message_id": 12013,
+      "filename": "2026_정병호_스피드러너_4회_250711_235908.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12013_2026_._._4._250711_235908.pdf",
+      "size_bytes": 17735245,
+      "telegram_date": "2025-08-12T14:28:02+00:00",
+      "title": "2026_정병호_스피드러너_4회_250711_235908",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12013.png",
+      "sha256": "2abba7f4740630b9be07eca2666ad39f704538dc993f781906451df94f4361e3"
     }
   ],
   "duplicate_message_ids": [
