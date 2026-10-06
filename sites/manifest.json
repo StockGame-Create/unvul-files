@@ -110991,6 +110991,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11725.png",
       "sha256": "dd8a713dec2dbe875de1489592b9ef40b48c0ac0f9dd6c87ff4a96bcabc5f45a"
+    },
+    {
+      "message_id": 11724,
+      "filename": "배기범_PLANB_역학의_기술.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11724_._PLANB_._.pdf",
+      "size_bytes": 217155617,
+      "telegram_date": "2025-08-11T16:01:07+00:00",
+      "title": "유빈 아카이브: @yubin2archive",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11724.png",
+      "sha256": "6240932d694ca738807de4b481d25f0c5b8719096f3075e06b3b9e3ce53e14ba"
     }
   ],
   "duplicate_message_ids": [
