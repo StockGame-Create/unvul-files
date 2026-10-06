@@ -106651,6 +106651,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12171.png",
       "sha256": "1cafc2f19e53abc8f81609db31ab6dd1401af7edaf094a98b62d99b22a9543c1"
+    },
+    {
+      "message_id": 12169,
+      "filename": "Week_10.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12169_Week_10.pdf",
+      "size_bytes": 7922158,
+      "telegram_date": "2025-08-13T14:29:45+00:00",
+      "title": "2026 김범준 The Hurdling 미적분 손필기 1~10주차 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12169.png",
+      "sha256": "241a613a8fce02a78616cdd3060a90128eba58a322dc3f30f6d370f7744efdce"
     }
   ],
   "duplicate_message_ids": [
