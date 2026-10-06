@@ -106441,6 +106441,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12189.png",
       "sha256": "1aad987e1bba93b7a4af96f6551d411b4254ae815c320a94c45043a22519a216"
+    },
+    {
+      "message_id": 12188,
+      "filename": "세지 전국서바 1회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12188_.1.pdf",
+      "size_bytes": 5987089,
+      "telegram_date": "2025-08-13T14:29:46+00:00",
+      "title": "세지 전국서바 1회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12188.png",
+      "sha256": "ce22bb47d4aa9f1ad716d0141de687d504c75f20056c856b6054a9a822cc6dae"
     }
   ],
   "duplicate_message_ids": [
