@@ -108835,6 +108835,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11880.png",
       "sha256": "d44ddb941f53ef63ec1f1eb19eb0cbfc87696cf3ac3c03d8decf7563a188c984"
+    },
+    {
+      "message_id": 11878,
+      "filename": "파이널_브릿지_전국_한지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11878_._._._.pdf",
+      "size_bytes": 6132622,
+      "telegram_date": "2025-08-12T01:48:06+00:00",
+      "title": "파이널_브릿지_전국_한지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11878.png",
+      "sha256": "babf6707e2e2d5678eaf8c3e2c436c375a5bbd44029092b624391defa4053ffa"
     }
   ],
   "duplicate_message_ids": [
