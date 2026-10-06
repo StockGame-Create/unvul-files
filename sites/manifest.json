@@ -110711,6 +110711,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11774.png",
       "sha256": "5ef2c91c82f62daf26abcd0646d3caec856fc73900668423ead6acd2fa05b889"
+    },
+    {
+      "message_id": 11771,
+      "filename": "강기원 모고 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11771_.2.pdf",
+      "size_bytes": 4601773,
+      "telegram_date": "2025-08-11T16:01:10+00:00",
+      "title": "강기원 모고 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11771.png",
+      "sha256": "3f4b73199bed00429685b96001be77c90c634a7bf2b1cdd5e197aaf3293c745f"
     }
   ],
   "duplicate_message_ids": [
