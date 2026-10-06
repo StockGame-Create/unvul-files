@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 25062,
+      "filename": "FINAL_MATE_확통.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25062_FINAL_MATE_.pdf",
+      "size_bytes": 11610728,
+      "telegram_date": "2026-10-06T14:34:24+00:00",
+      "title": "수학 FINAL MATE 확률과 통계",
+      "year": "2027",
+      "instructor": "강윤구",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25062.png",
+      "sha256": "aa5673d3251695768992dbf005f00eca180faa82f1a1020847410c6a536f36ff"
+    },
+    {
       "message_id": 25051,
       "filename": "2027_이승헌_REAL_F_3_세계지리_파이널_모고_4_.pdf",
       "stored_as": null,
