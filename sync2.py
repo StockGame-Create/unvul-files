@@ -923,7 +923,7 @@ def store_unit(ctx: Ctx, cand: dict, filename: str, path: Path, key: str) -> str
         # index.html이 정렬/표시에 쓰는 sync.py 필드명과 맞춘다 (등록일 기준, KST 자정)
         "telegram_date": f"{posted}T00:00:00+09:00" if re.fullmatch(r"\d{4}-\d{2}-\d{2}", posted) else datetime.now(timezone.utc).isoformat(),
         "posted_date": posted,
-        "title": f"{display_year(cand['haknyeon'])}학년도 {cand['exam']} {Path(filename).stem}",
+        "title": f"{cand['haknyeon']}학년도 {cand['exam']} {Path(filename).stem}",
         "year": str(display_year(cand["haknyeon"])),
         "year_shifted": True,  # fix_mock.py가 중복으로 -1 하지 않도록 하는 표시
         "exam": cand["exam"],
