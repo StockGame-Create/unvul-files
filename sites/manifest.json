@@ -110767,6 +110767,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11763.png",
       "sha256": "440b3d6091b7ac624a6f2844244b49e30315a70d75de906431fdf5b29ee31256"
+    },
+    {
+      "message_id": 11762,
+      "filename": "설맞이_수1_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11762_._.1_.pdf",
+      "size_bytes": 68069431,
+      "telegram_date": "2025-08-11T16:01:10+00:00",
+      "title": "설맞이_수1_문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11762.png",
+      "sha256": "5a71fdb087c00d13416e1ec8f60c78a9a6a064f6ab1c79d106d20c561f06a210"
     }
   ],
   "duplicate_message_ids": [
