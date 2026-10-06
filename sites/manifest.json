@@ -107323,6 +107323,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12060.png",
       "sha256": "a49c0a65ca7dc5aa1587c3cf2ce61e5553eed8f04765355ed7448f8aac503f6d"
+    },
+    {
+      "message_id": 12058,
+      "filename": "엣지,ATG 물리학II 02.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12058_.ATG.II.02.pdf",
+      "size_bytes": 62964017,
+      "telegram_date": "2025-08-12T15:40:45+00:00",
+      "title": "2026 물2 시대인재 Flow 1~2권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12058.png",
+      "sha256": "c7bd5989a3219706c456557d624ce261821af65311816cd186f02f70ba38325f"
     }
   ],
   "duplicate_message_ids": [
