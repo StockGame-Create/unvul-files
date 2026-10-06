@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 13923610538,
+      "source_key": "e5314ad159958a9a2bb6a3deed8f9260#05 동아시아사_문제.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=e5314ad159958a9a2bb6a3deed8f9260",
+      "category": "평가원",
+      "filename": "05 동아시아사_문제.pdf",
+      "asset_name": "2026_m6_05_e9dd8baad1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_m6_05_e9dd8baad1.pdf",
+      "size_bytes": 4771543,
+      "telegram_date": "2026-10-06T08:57:30.018710+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 6월 모의평가 05 동아시아사_문제",
+      "year": "2025",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "문제",
+      "thumbnail": "thumbnails/13923610538.png",
+      "sha256": "b0b028cb3519676ef4c7e744ffd294b4773505407b3bfdb8a043c19619352ea9"
+    },
+    {
       "message_id": 12171597583,
       "source_key": "e5314ad159958a9a2bb6a3deed8f9260#04 세계지리_문제.pdf",
       "source": "suneung.re.kr",
