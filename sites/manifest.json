@@ -108849,6 +108849,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11878.png",
       "sha256": "babf6707e2e2d5678eaf8c3e2c436c375a5bbd44029092b624391defa4053ffa"
+    },
+    {
+      "message_id": 11876,
+      "filename": "이름 쓰기 귀찮다..pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11876_.pdf",
+      "size_bytes": 20301199,
+      "telegram_date": "2025-08-12T01:48:06+00:00",
+      "title": "이름 쓰기 귀찮다.",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11876.png",
+      "sha256": "3e8837c5929ddcbfdec24d181238238883bbbcbc52d94461959dbce50631956e"
     }
   ],
   "duplicate_message_ids": [
