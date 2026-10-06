@@ -107099,6 +107099,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12109.png",
       "sha256": "a85051a18c686bbda4c5d22b33ce728536a80336d229b44fc73b8e414c69f671"
+    },
+    {
+      "message_id": 12104,
+      "filename": "시대인재_BRIDGE_지구_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12104_._BRIDGE_._.pdf",
+      "size_bytes": 50707947,
+      "telegram_date": "2025-08-12T16:35:04+00:00",
+      "title": "시대인재_BRIDGE_지구_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12104.png",
+      "sha256": "1b13d5082cb38c08e675eea873f728116c2c26e0441ad92bf0bbfc638f32fe60"
     }
   ],
   "duplicate_message_ids": [
