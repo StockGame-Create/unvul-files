@@ -1,6 +1,28 @@
 {
   "files": [
     {
+      "message_id": 11218723965,
+      "source_key": "11e60d8a5600bb4f592efe5054bd0b9b#04 세계지리_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=11e60d8a5600bb4f592efe5054bd0b9b",
+      "category": "평가원",
+      "filename": "04 세계지리_정답.pdf",
+      "asset_name": "2026_csat_04_48a4407d8d.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_csat_04_48a4407d8d.pdf",
+      "size_bytes": 41846,
+      "telegram_date": "2026-10-06T08:07:02.264730+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 수능 04 세계지리_정답",
+      "year": "2026",
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "사회탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/11218723965.png",
+      "sha256": "2cb53d06df67722f58a2eb4d359471f372160c75ab5eeab7df0d623017730c9c"
+    },
+    {
       "message_id": 12906803933,
       "source_key": "11e60d8a5600bb4f592efe5054bd0b9b#03 한국지리_정답.pdf",
       "source": "suneung.re.kr",
