@@ -107561,6 +107561,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12031.png",
       "sha256": "0093cd58a5b53d7136cefd82a2f8e913da07f534adbc7ea47b5627918f5ceb4d"
+    },
+    {
+      "message_id": 12030,
+      "filename": "오투+과탐+고등화학Ⅰ_정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12030_.%2B.%2B._.pdf",
+      "size_bytes": 9477115,
+      "telegram_date": "2025-08-12T15:09:02+00:00",
+      "title": "오투+과탐+고등화학Ⅰ_정답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12030.png",
+      "sha256": "b707ec3fee45607fdaba25b64ad69ebc38962af47a0ed7ffa9d7082c76688d7e"
     }
   ],
   "duplicate_message_ids": [
