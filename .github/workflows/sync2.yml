@@ -7,7 +7,8 @@
 #   체인이 필요 없다. cron으로만 돌린다.
 # - 6·9·11월(모평/수능 시즌)에는 매일, 그 외에는 주 1회.
 #   (cron은 UTC 기준이다. 아래 21:17 UTC = 한국시간 다음날 06:17. 정시를 피해 17분으로 둠)
-# - 처음 실행은 Actions 탭에서 수동 실행(Run workflow) + dry_run 체크로 목록부터 확인할 것.
+# - 수동 실행(Run workflow)은 기본값이 실제 실행(커밋까지)이다. 목록만 먼저 보고
+#   싶으면 Run workflow 창에서 dry_run 체크박스를 직접 체크할 것.
 # - 6월·9월 모평 게시판은 저장소 변수 MOPYEONG_LIST_URL에 모평 목록 페이지 주소를
 #   넣어야 켜진다 (Settings > Secrets and variables > Actions > Variables).
 #   비어 있으면 수능 게시판만 진행한다.
@@ -23,7 +24,7 @@ on:
       dry_run:
         description: "받을 목록만 출력 (다운로드/업로드/커밋 안 함)"
         type: boolean
-        default: true
+        default: false
       limit:
         description: "새 PDF를 이 개수만 처리하고 종료 (0 = 제한 없음)"
         type: string
