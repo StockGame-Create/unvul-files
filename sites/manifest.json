@@ -107281,6 +107281,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12084.png",
       "sha256": "26b9fe8bcb4208af0c8b672ba075447a047317c6f51d6b8b8c0062c873edeaef"
+    },
+    {
+      "message_id": 12069,
+      "filename": "팔구십퍼요_해설수1_수2_확통.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12069_._.1_.2_.pdf",
+      "size_bytes": 75959365,
+      "telegram_date": "2025-08-12T15:52:56+00:00",
+      "title": "2026 수학 정승제 팔구십퍼요 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12069.png",
+      "sha256": "6ea168a850586fa0828d0d30ed51a7c9556d49148fb953cb034925a736ab47b0"
     }
   ],
   "duplicate_message_ids": [
