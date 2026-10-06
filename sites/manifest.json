@@ -106343,6 +106343,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12199.png",
       "sha256": "df7efcab5f50cd20a5db177db9563ca355617e32d3e5cdd8ac6252e4338a71fc"
+    },
+    {
+      "message_id": 12198,
+      "filename": "26 생윤 강k 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12198_26.k.1.pdf",
+      "size_bytes": 3460684,
+      "telegram_date": "2025-08-13T14:29:46+00:00",
+      "title": "26 생윤 강k 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12198.png",
+      "sha256": "aaad719490f1aa0ddcf96e04784ff10c9aebfc614aa0205f91112c980ad36f8b"
     }
   ],
   "duplicate_message_ids": [
