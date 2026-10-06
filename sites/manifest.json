@@ -109453,6 +109453,20 @@
       "sha256": "a9f3ec0bf184f9af18a8ec07986f1d0432f00a870eb9ce467b4eece2cefaf60b"
     },
     {
+      "message_id": 11932,
+      "filename": "강e분 독서.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11932_.e.pdf",
+      "size_bytes": 215616801,
+      "telegram_date": "2025-08-12T09:07:00+00:00",
+      "title": "강e분 독서",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11932.png",
+      "sha256": "17ddb0df0e9851d05fe39ef956c33c475b914c6e7f84ee4991db29eaca590471"
+    },
+    {
       "message_id": 11922,
       "filename": "2026 국어 서바이벌 3회 (문제+해설).pdf",
       "stored_as": null,
