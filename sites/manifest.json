@@ -109367,6 +109367,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11830.png",
       "sha256": "62824562cb276f678659ef12975bfab9859f5e8d4ad3333e7229a66e9be50a05"
+    },
+    {
+      "message_id": 11826,
+      "filename": "백환_라스트백신.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11826_._.pdf",
+      "size_bytes": 163511735,
+      "telegram_date": "2025-08-11T16:36:52+00:00",
+      "title": "백환_라스트백신",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11826.png",
+      "sha256": "b81693596794c93ef0f7b5766a928421bbb6c34ace687048b13f69440aa9888d"
     }
   ],
   "duplicate_message_ids": [
