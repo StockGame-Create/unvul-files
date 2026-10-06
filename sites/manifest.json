@@ -107715,6 +107715,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12016.png",
       "sha256": "f11905433e54221082d42fb1fc0927f8b8e2f5182c5394612fb97e2699955049"
+    },
+    {
+      "message_id": 12014,
+      "filename": "2026_정병호_스피드러너_3회_250711_235903.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12014_2026_._._3._250711_235903.pdf",
+      "size_bytes": 17652916,
+      "telegram_date": "2025-08-12T14:28:02+00:00",
+      "title": "2026 수학 정병호 스피드러너 1회 2회 3회 4회 답x #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12014.png",
+      "sha256": "454710ef2431b86a405f6125bbce19a005c0ebda846dc31a43edd3c5b3ed5427"
     }
   ],
   "duplicate_message_ids": [
