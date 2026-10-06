@@ -108191,6 +108191,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11947.png",
       "sha256": "de3782006c7736900a902deae843423f1e81836b50be99ab4797cc1afa4d8270"
+    },
+    {
+      "message_id": 11945,
+      "filename": "2026_또선생_Frame_점진적_독해_R6_1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11945_2026_._Frame_._._R6_1.pdf",
+      "size_bytes": 90320220,
+      "telegram_date": "2025-08-12T09:07:00+00:00",
+      "title": "2026_또선생_Frame_점진적_독해_R6_1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11945.png",
+      "sha256": "3cff297a2a83ca517b170b4de8cd982d7de864e4454f134f395f286877194734"
     }
   ],
   "duplicate_message_ids": [
