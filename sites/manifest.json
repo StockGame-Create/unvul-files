@@ -108863,6 +108863,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11876.png",
       "sha256": "3e8837c5929ddcbfdec24d181238238883bbbcbc52d94461959dbce50631956e"
+    },
+    {
+      "message_id": 11875,
+      "filename": "강_k_3,4회_영어_강_k_하프_4회_영어_합본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11875_._k_3.4._._._k_._4._._.pdf",
+      "size_bytes": 20395554,
+      "telegram_date": "2025-08-12T01:48:06+00:00",
+      "title": "강_k_3,4회_영어_강_k_하프_4회_영어_합본",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11875.png",
+      "sha256": "11cb10c29789eefe336da3afa20b5f99e0cc4430e513f555a8f7b0cc1658ce0f"
     }
   ],
   "duplicate_message_ids": [
