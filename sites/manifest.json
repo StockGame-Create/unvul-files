@@ -108569,6 +108569,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11922.png",
       "sha256": "1b7685e5a801cd7115fae5afe9388d6d08f5d8c0a7ff6b85609bfbd2833d1e3a"
+    },
+    {
+      "message_id": 11918,
+      "filename": "2026 국어 이감 시즌5 간쓸개 4회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11918_2026.5.4.pdf",
+      "size_bytes": 36318626,
+      "telegram_date": "2025-08-12T09:06:59+00:00",
+      "title": "2026 국어 이감 시즌5 간쓸개 4회 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11918.png",
+      "sha256": "ce271dc9f9aeea5078bf8fd465acc4828f378672a0ea4a232061c1adeedad96d"
     }
   ],
   "duplicate_message_ids": [
