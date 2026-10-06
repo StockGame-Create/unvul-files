@@ -655,7 +655,7 @@
     overflow: hidden;
   }
 
-  .pdf-viewer-shell iframe {
+  .pdf-viewer-shell iframe, .pdf-viewer-shell .unused {
     width: 100%;
     height: 100%;
     border: none;
@@ -1008,6 +1008,33 @@
   .related-body { padding: 0.2rem 0.9rem 0.8rem; font-size: 0.88rem; }
   .related-meta { margin-top: 0.5rem; font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace; font-size: 0.74rem; color: var(--ink-soft); }
   .related-meta a { color: var(--leather); }
+
+  /* ---- 파일 관리 탭: 자체 PDF 뷰어 (PDF.js + 필기) ---- */
+  .pdf-viewer-shell.vw-full { position: fixed; inset: 0; height: 100vh; height: 100dvh; z-index: 1000; border: none; }
+  body.vw-lock { overflow: hidden; }
+  .vw { width: 100%; height: 100%; display: flex; flex-direction: column; align-self: stretch; }
+  .vw[hidden] { display: none; }
+  .vw-bar { display: flex; gap: 0.35rem; overflow-x: auto; padding: 0.4rem; background: var(--paper); border-bottom: 1px solid var(--rule); -webkit-overflow-scrolling: touch; }
+  .vw-group { display: flex; align-items: center; gap: 0.25rem; flex: none; padding-right: 0.45rem; border-right: 1px solid var(--rule); }
+  .vw-group:last-child { border-right: none; }
+  .vw-bar button:not(.sw), .vw-bar select, .vw-bar input {
+    font: 0.78rem "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    min-height: 36px; padding: 0 0.6rem; background: var(--paper); color: var(--ink);
+    border: 1px solid var(--rule); cursor: pointer;
+  }
+  .vw-bar button.on:not(.sw) { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .vw-bar input { width: 3.2rem; padding: 0 0.3rem; text-align: center; cursor: text; }
+  #vwTotal, #vwZoom { font: 0.76rem "IBM Plex Mono", monospace; color: var(--ink-soft); min-width: 2.6rem; text-align: center; }
+  .sw { width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--paper); box-shadow: 0 0 0 1px var(--rule); cursor: pointer; padding: 0; }
+  .sw.on { box-shadow: 0 0 0 2px var(--ink); }
+  .vw-scroll { flex: 1; overflow: auto; position: relative; background: #8c8882; padding: 8px; -webkit-overflow-scrolling: touch; }
+  .vw-page { position: relative; margin: 0 auto 10px; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.35); }
+  .vw-page canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .vw-ink { touch-action: none; }
+  .vw[data-tool="hand"] .vw-ink { pointer-events: none; }
+  .vw:not([data-tool="hand"]) .vw-ink { cursor: crosshair; }
+  .ai-maint { border: 1px solid var(--leather); background: var(--paper-raised); padding: 0.8rem 1rem; margin-bottom: 0.8rem; font-size: 0.9rem; line-height: 1.6; }
+  @media (max-width: 560px) { .vw-bar button:not(.sw), .vw-bar select, .vw-bar input { min-height: 42px; } .sw { width: 30px; height: 30px; } }
 </style>
 </head>
 <body>
@@ -1103,16 +1130,29 @@
           </span>
         </div>
 
-        <p class="ai-note">100MB가 넘는 큰 자료는 바로보기 대신 다운로드로 받아서 열어주세요. 브라우저에 따라 PDF가 안에서 안 보이면 "새 탭에서 열기"를 눌러보세요.</p>
+        <p class="ai-note">100MB가 넘는 큰 자료는 바로보기 대신 다운로드로 받아서 열어주세요. 브라우저에 따라 PDF가 안 보이면 "새 탭에서 열기"를 눌러보세요. 펜/형광펜/지우개로 필기할 수 있고, 필기는 이 브라우저에만 저장돼요(원본 PDF는 바뀌지 않아요).</p>
       </div>
 
       <div class="pdf-viewer-shell" id="pdfViewerShell">
         <p class="chat-empty" id="pdfViewerEmpty">위에서 자료를 먼저 선택하면<br />여기서 바로 PDF를 볼 수 있어요.</p>
-        <iframe id="pdfViewerFrame" title="PDF 미리보기" hidden></iframe>
+        <div class="vw" id="vw" hidden>
+          <div class="vw-bar" id="vwBar">
+            <div class="vw-group"><button data-act="prev" aria-label="이전 쪽">‹</button><input id="vwPage" type="number" min="1" inputmode="numeric" aria-label="쪽 번호" /><span id="vwTotal"></span><button data-act="next" aria-label="다음 쪽">›</button></div>
+            <div class="vw-group"><button data-act="zoomout" aria-label="축소">－</button><span id="vwZoom">100%</span><button data-act="zoomin" aria-label="확대">＋</button><button data-act="fit">맞춤</button></div>
+            <div class="vw-group"><button data-tool="hand" class="on">이동</button><button data-tool="pen">펜</button><button data-tool="hl">형광펜</button><button data-tool="eraser">지우개</button></div>
+            <div class="vw-group" id="vwColors">
+              <button class="sw on" data-color="#111827" style="background:#111827" aria-label="검정"></button><button class="sw" data-color="#e11d48" style="background:#e11d48" aria-label="빨강"></button><button class="sw" data-color="#1d4ed8" style="background:#1d4ed8" aria-label="파랑"></button><button class="sw" data-color="#16a34a" style="background:#16a34a" aria-label="초록"></button><button class="sw" data-color="#facc15" style="background:#facc15" aria-label="노랑"></button>
+              <select id="vwSize" aria-label="굵기"><option value="0">가늘게</option><option value="1" selected>보통</option><option value="2">굵게</option></select>
+            </div>
+            <div class="vw-group"><button data-act="undo">되돌리기</button><button data-act="clear">모두 지움</button><button data-act="save">이 쪽 저장</button><button data-act="full">전체화면</button></div>
+          </div>
+          <div class="vw-scroll" id="vwScroll"></div>
+        </div>
       </div>
     </section>
 
     <section class="tab-panel" id="tabAi" hidden>
+      <div class="ai-maint" id="aiMaint" hidden><strong>AI 기능 점검 중</strong><br />AI 서비스 공급처의 혼잡으로 잠시 사용할 수 없어요. 복구되면 이 안내가 사라지고 다시 쓸 수 있어요.</div>
       <div class="ai-toolbar">
         <div class="ai-modebar">
           <span class="ai-field-label" style="margin:0">답변 방식</span>
@@ -1600,14 +1640,234 @@
     const viewResetBtn = document.getElementById("viewResetBtn");
     const viewOpenNewTabBtn = document.getElementById("viewOpenNewTabBtn");
     const viewDownloadBtn = document.getElementById("viewDownloadBtn");
-    const pdfViewerFrame = document.getElementById("pdfViewerFrame");
-    const pdfViewerEmpty = document.getElementById("pdfViewerEmpty");
+        const pdfViewerEmpty = document.getElementById("pdfViewerEmpty");
 
     const PDF_VIEWER_DEFAULT_EMPTY_HTML = pdfViewerEmpty.innerHTML;
 
     // api/view.js의 MAX_VIEWABLE_BYTES와 반드시 동일하게 유지 - 서버까지
     // 요청을 보내지 않고 미리 안내 메시지를 보여주기 위한 프론트 쪽 사본.
     const MAX_VIEWABLE_BYTES = 100 * 1024 * 1024;
+
+    // ---- PDF 뷰어: PDF.js + 필기(펜/형광펜/지우개). 필기는 쪽 크기 기준 0~1 좌표로 저장해서 확대/축소해도 맞는다 ----
+    const vwEl = document.getElementById("vw"), vwScroll = document.getElementById("vwScroll");
+    const vwShell = document.getElementById("pdfViewerShell"), vwPageInput = document.getElementById("vwPage");
+    const PDFJS_BASE = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/";
+    const VW_MAX_PIXELS = 12e6; // 캔버스 한 장 최대 픽셀 (모바일 메모리 보호)
+    const V = { doc: null, pages: [], fit: 1, zoom: 1, tool: "hand", color: "#111827", size: 1, strokes: {}, undo: [], key: "", token: 0, w1: 612, cur: 1, name: "page", timer: 0 };
+    let pdfjsReady = null;
+
+    function loadPdfJs() {
+      if (window.pdfjsLib) return Promise.resolve(window.pdfjsLib);
+      return pdfjsReady || (pdfjsReady = new Promise((res, rej) => {
+        const s = document.createElement("script");
+        s.src = PDFJS_BASE + "pdf.min.js";
+        s.onload = () => { pdfjsLib.GlobalWorkerOptions.workerSrc = PDFJS_BASE + "pdf.worker.min.js"; res(pdfjsLib); };
+        s.onerror = () => { pdfjsReady = null; rej(new Error("PDF 뷰어 라이브러리를 불러오지 못했어요.")); };
+        document.head.appendChild(s);
+      }));
+    }
+
+    const vwScale = () => V.fit * V.zoom;
+    function vwFit() { V.fit = Math.max(0.2, (vwScroll.clientWidth - 16) / V.w1); }
+    function vwDpr(w, h) { let d = Math.min(window.devicePixelRatio || 1, 2); while (w * h * d * d > VW_MAX_PIXELS && d > 0.5) d -= 0.25; return d; }
+
+    function sizePages() {
+      const w = V.w1 * vwScale();
+      V.pages.forEach(p => { p.wrap.style.width = w + "px"; p.wrap.style.height = w * (p.ratio || V.ratio) + "px"; });
+      document.getElementById("vwZoom").textContent = Math.round(V.zoom * 100) + "%";
+    }
+
+    function buildPages() {
+      vwScroll.innerHTML = ""; V.pages = [];
+      for (let i = 1; i <= V.doc.numPages; i++) {
+        const wrap = document.createElement("div"); wrap.className = "vw-page";
+        const pdf = document.createElement("canvas"), ink = document.createElement("canvas"); ink.className = "vw-ink";
+        wrap.append(pdf, ink); vwScroll.appendChild(wrap);
+        const p = { i, wrap, pdf, ink, rendered: 0, busy: 0, task: null, page: null, ratio: 0 };
+        bindInk(p); V.pages.push(p);
+      }
+      sizePages();
+    }
+
+    function renderPage(p) {
+      const scale = vwScale();
+      if (p.rendered === scale || p.busy === scale) return;
+      p.busy = scale;
+      const token = V.token;
+      (async () => {
+        try {
+          p.page = p.page || await V.doc.getPage(p.i);
+          if (token !== V.token) return;
+          const base = p.page.getViewport({ scale: 1 });
+          p.ratio = base.height / base.width;
+          const cssW = base.width * scale, cssH = base.height * scale, dpr = vwDpr(cssW, cssH);
+          p.wrap.style.width = cssW + "px"; p.wrap.style.height = cssH + "px";
+          const vp = p.page.getViewport({ scale: scale * dpr });
+          p.pdf.width = p.ink.width = Math.floor(vp.width); p.pdf.height = p.ink.height = Math.floor(vp.height);
+          if (p.task) p.task.cancel();
+          p.task = p.page.render({ canvasContext: p.pdf.getContext("2d"), viewport: vp });
+          await p.task.promise;
+          p.rendered = scale; redrawInk(p);
+        } catch (e) { if (!e || e.name !== "RenderingCancelledException") console.warn(e); }
+        finally { if (p.busy === scale) p.busy = 0; }
+      })();
+    }
+
+    function renderVisible() {
+      if (!V.doc) return;
+      const r = vwScroll.getBoundingClientRect();
+      let first = 0, last = 0, best = -1;
+      V.pages.forEach(p => {
+        const b = p.wrap.getBoundingClientRect();
+        if (b.bottom > r.top - 700 && b.top < r.bottom + 700) { first = first || p.i; last = p.i; renderPage(p); }
+        const v = Math.min(b.bottom, r.bottom) - Math.max(b.top, r.top);
+        if (v > best) { best = v; V.cur = p.i; }
+      });
+      V.pages.forEach(p => { if (p.rendered && (p.i < first - 6 || p.i > last + 6)) { p.pdf.width = p.ink.width = 0; p.rendered = 0; } });
+      if (document.activeElement !== vwPageInput) vwPageInput.value = V.cur;
+    }
+
+    function drawStroke(ctx, s, W, H) {
+      const q = s.p; if (!q.length) return;
+      ctx.save();
+      ctx.strokeStyle = s.c; ctx.lineWidth = Math.max(1, s.w * W); ctx.lineJoin = "round";
+      ctx.lineCap = s.t === "hl" ? "butt" : "round"; ctx.globalAlpha = s.t === "hl" ? 0.35 : 1;
+      ctx.beginPath(); ctx.moveTo(q[0][0] * W, q[0][1] * H);
+      if (q.length === 1) ctx.lineTo(q[0][0] * W + 0.01, q[0][1] * H);
+      for (let i = 1; i < q.length - 1; i++) ctx.quadraticCurveTo(q[i][0] * W, q[i][1] * H, (q[i][0] + q[i + 1][0]) / 2 * W, (q[i][1] + q[i + 1][1]) / 2 * H);
+      if (q.length > 1) ctx.lineTo(q[q.length - 1][0] * W, q[q.length - 1][1] * H);
+      ctx.stroke(); ctx.restore();
+    }
+
+    function redrawInk(p, extra) {
+      if (!p.ink.width) return;
+      const ctx = p.ink.getContext("2d"); ctx.clearRect(0, 0, p.ink.width, p.ink.height);
+      (V.strokes[p.i] || []).forEach(s => drawStroke(ctx, s, p.ink.width, p.ink.height));
+      if (extra) drawStroke(ctx, extra, p.ink.width, p.ink.height);
+    }
+
+    function persist() {
+      clearTimeout(V.timer);
+      V.timer = setTimeout(() => {
+        try {
+          const has = Object.values(V.strokes).some(a => a.length);
+          if (has) localStorage.setItem(V.key, JSON.stringify(V.strokes)); else localStorage.removeItem(V.key);
+        } catch { /* 저장공간 부족/차단: 필기는 이번 세션에서만 유지 */ }
+      }, 600);
+    }
+
+    function bindInk(p) {
+      let cur = null;
+      const pos = e => { const b = p.ink.getBoundingClientRect(); return [(e.clientX - b.left) / b.width, (e.clientY - b.top) / b.height]; };
+      const erase = (pt) => {
+        const b = p.ink.getBoundingClientRect(), list = V.strokes[p.i] || [];
+        const hit = list.filter(s => s.p.some(q => Math.hypot((q[0] - pt[0]) * b.width, (q[1] - pt[1]) * b.height) < 14 + s.w * b.width / 2));
+        if (hit.length) { V.strokes[p.i] = list.filter(s => !hit.includes(s)); cur.removed.push(...hit); redrawInk(p); }
+      };
+      p.ink.addEventListener("pointerdown", e => {
+        if (V.tool === "hand" || (e.pointerType === "mouse" && e.button !== 0)) return;
+        e.preventDefault(); if (p.ink.setPointerCapture) p.ink.setPointerCapture(e.pointerId);
+        if (V.tool === "eraser") { cur = { erase: true, removed: [] }; erase(pos(e)); return; }
+        const base = [0.0018, 0.0035, 0.007][V.size] * (V.tool === "hl" ? 6 : 1);
+        cur = { t: V.tool, c: V.color, w: base, p: [pos(e)] }; redrawInk(p, cur);
+      });
+      p.ink.addEventListener("pointermove", e => {
+        if (!cur) return; e.preventDefault();
+        if (cur.erase) return erase(pos(e));
+        const pt = pos(e), l = cur.p[cur.p.length - 1], b = p.ink.getBoundingClientRect();
+        if (Math.hypot((pt[0] - l[0]) * b.width, (pt[1] - l[1]) * b.height) < 1.5) return;
+        cur.p.push(pt); redrawInk(p, cur);
+      });
+      const end = () => {
+        if (!cur) return;
+        if (cur.erase) { if (cur.removed.length) V.undo.push({ k: "del", page: p.i, items: cur.removed }); }
+        else { cur.p = cur.p.map(q => [+q[0].toFixed(4), +q[1].toFixed(4)]); (V.strokes[p.i] = V.strokes[p.i] || []).push(cur); V.undo.push({ k: "add", page: p.i, s: cur }); redrawInk(p); }
+        cur = null; persist();
+      };
+      p.ink.addEventListener("pointerup", end); p.ink.addEventListener("pointercancel", end);
+    }
+
+    function vwUndo() {
+      const a = V.undo.pop(); if (!a) return;
+      const list = V.strokes[a.page] = V.strokes[a.page] || [];
+      if (a.k === "add") V.strokes[a.page] = list.filter(s => s !== a.s); else list.push(...a.items);
+      redrawInk(V.pages[a.page - 1]); persist();
+    }
+
+    function setTool(t) {
+      V.tool = t; vwEl.dataset.tool = t;
+      document.querySelectorAll("#vw [data-tool]").forEach(b => b.classList.toggle("on", b.dataset.tool === t));
+    }
+    function setZoom(z) {
+      const ratio = vwScroll.scrollTop / (vwScroll.scrollHeight || 1);
+      V.zoom = Math.min(4, Math.max(0.5, z)); sizePages();
+      vwScroll.scrollTop = ratio * vwScroll.scrollHeight; V.pages.forEach(p => { p.rendered = 0; }); renderVisible();
+    }
+    function goPage(n) {
+      const p = V.pages[Math.min(V.pages.length, Math.max(1, n)) - 1];
+      if (p) { vwScroll.scrollTop = p.wrap.offsetTop - 8; renderVisible(); }
+    }
+    function relayout() { if (!V.doc) return; vwFit(); sizePages(); V.pages.forEach(p => { p.rendered = 0; }); renderVisible(); }
+    function toggleFull(on) {
+      const next = on === undefined ? !vwShell.classList.contains("vw-full") : on;
+      vwShell.classList.toggle("vw-full", next); document.body.classList.toggle("vw-lock", next);
+      relayout();
+    }
+
+    function saveCurrentPage() {
+      const p = V.pages[V.cur - 1]; if (!p || !p.rendered) return showToast("이 쪽이 아직 그려지지 않았어요.", true);
+      const c = document.createElement("canvas"); c.width = p.pdf.width; c.height = p.pdf.height;
+      const x = c.getContext("2d"); x.fillStyle = "#fff"; x.fillRect(0, 0, c.width, c.height); x.drawImage(p.pdf, 0, 0); x.drawImage(p.ink, 0, 0);
+      c.toBlob(b => { const a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = `${V.name}_p${p.i}.png`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 4000); });
+    }
+
+    document.getElementById("vwBar").addEventListener("click", e => {
+      const b = e.target.closest("button"); if (!b) return;
+      if (b.dataset.tool) return setTool(b.dataset.tool);
+      if (b.dataset.color) { V.color = b.dataset.color; document.querySelectorAll("#vwColors .sw").forEach(s => s.classList.toggle("on", s === b)); if (V.tool === "hand" || V.tool === "eraser") setTool("pen"); return; }
+      ({
+        prev: () => goPage(V.cur - 1), next: () => goPage(V.cur + 1),
+        zoomin: () => setZoom(V.zoom * 1.25), zoomout: () => setZoom(V.zoom / 1.25),
+        fit: () => { vwFit(); setZoom(1); }, undo: vwUndo, save: saveCurrentPage, full: () => toggleFull(),
+        clear: () => { if (confirm("이 자료의 필기를 모두 지울까요?")) { V.strokes = {}; V.undo = []; V.pages.forEach(p => redrawInk(p)); persist(); } },
+      })[b.dataset.act]?.();
+    });
+    document.getElementById("vwSize").addEventListener("change", e => { V.size = +e.target.value; });
+    vwPageInput.addEventListener("change", () => goPage(parseInt(vwPageInput.value, 10) || 1));
+    let vwRaf = 0;
+    vwScroll.addEventListener("scroll", () => { cancelAnimationFrame(vwRaf); vwRaf = requestAnimationFrame(renderVisible); }, { passive: true });
+    let vwResizeT = 0;
+    window.addEventListener("resize", () => { clearTimeout(vwResizeT); vwResizeT = setTimeout(relayout, 150); });
+    document.addEventListener("keydown", e => {
+      if (vwEl.hidden) return;
+      if (e.key === "Escape") toggleFull(false);
+      else if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z" && document.activeElement.tagName !== "INPUT") { e.preventDefault(); vwUndo(); }
+    });
+
+    function closeViewer() {
+      V.token++; if (V.doc) { V.doc.destroy(); V.doc = null; }
+      V.pages = []; vwScroll.innerHTML = ""; vwEl.hidden = true; toggleFull(false);
+    }
+
+    async function openPdfInViewer(f) {
+      const token = ++V.token;
+      pdfViewerEmpty.textContent = "PDF를 불러오는 중…"; pdfViewerEmpty.hidden = false;
+      try {
+        const lib = await loadPdfJs();
+        const doc = await lib.getDocument({ url: viewUrlFor(f) }).promise;
+        if (token !== V.token) { doc.destroy(); return; }
+        const vp = (await doc.getPage(1)).getViewport({ scale: 1 });
+        V.doc = doc; V.w1 = vp.width; V.ratio = vp.height / vp.width; V.zoom = 1; V.undo = [];
+        V.key = "vwInk:" + f.message_id; V.name = (f.title || f.filename || "page").replace(/[\\/:*?"<>|]/g, "_");
+        try { V.strokes = JSON.parse(localStorage.getItem(V.key) || "{}"); } catch { V.strokes = {}; }
+        pdfViewerEmpty.hidden = true; vwEl.hidden = false;
+        document.getElementById("vwTotal").textContent = "/ " + doc.numPages;
+        setTool("hand"); vwFit(); buildPages(); renderVisible();
+      } catch (err) {
+        if (token !== V.token) return;
+        pdfViewerEmpty.innerHTML = `PDF를 불러오지 못했어요.<br />${escapeHtml(err.message || "")}<br />위의 "새 탭에서 열기"나 "다운로드"를 이용해주세요.`;
+      }
+    }
 
     let viewSelectedFile = null;
 
@@ -1622,18 +1882,14 @@
       viewFileSection.hidden = true;
       viewFileResults.innerHTML = "";
       viewFileSearch.value = "";
+      closeViewer();
 
       if (f.size_bytes && f.size_bytes > MAX_VIEWABLE_BYTES) {
-        pdfViewerFrame.hidden = true;
-        pdfViewerFrame.src = "";
         pdfViewerEmpty.innerHTML = `"${escapeHtml(f.title || f.filename)}"은(는) ${formatSize(f.size_bytes)}로 너무 커서 바로보기를 지원하지 않아요.<br />위의 "다운로드" 버튼으로 받아서 열어주세요.`;
         pdfViewerEmpty.hidden = false;
         return;
       }
-
-      pdfViewerEmpty.hidden = true;
-      pdfViewerFrame.hidden = false;
-      pdfViewerFrame.src = viewUrlFor(f);
+      openPdfInViewer(f);
     }
 
     function resetView() {
@@ -1642,8 +1898,7 @@
       viewFileSection.hidden = false;
       viewFileSearch.value = "";
       viewFileResults.innerHTML = "";
-      pdfViewerFrame.hidden = true;
-      pdfViewerFrame.src = "";
+      closeViewer();
       pdfViewerEmpty.innerHTML = PDF_VIEWER_DEFAULT_EMPTY_HTML;
       pdfViewerEmpty.hidden = false;
       viewFileSearch.focus();
@@ -1717,6 +1972,14 @@
     const MAX_ATTACH_COUNT = 4;
     const MAX_PDF_BYTES = 2_800_000;
     const MAX_ATTACH_B64_TOTAL = 3_600_000;
+
+    // 점검 중 표시: AI를 다시 열 때는 false로 바꾸면 된다.
+    const AI_MAINTENANCE = true;
+    document.getElementById("aiMaint").hidden = !AI_MAINTENANCE;
+    if (AI_MAINTENANCE) {
+      chatInput.placeholder = "AI 점검 중이에요";
+      modeBtns.forEach(b => { b.disabled = true; });
+    }
 
     let chatHistory = []; // [{ role: 'user'|'assistant', text }] - 대화 맥락(기억력)
     let chatBusy = false;
@@ -1881,9 +2144,9 @@
     }
 
     function updateChatInputState() {
-      chatInput.disabled = chatBusy;
-      attachBtn.disabled = chatBusy;
-      chatSendBtn.disabled = chatBusy || (!chatInput.value.trim() && attachments.length === 0);
+      chatInput.disabled = chatBusy || AI_MAINTENANCE;
+      attachBtn.disabled = chatBusy || AI_MAINTENANCE;
+      chatSendBtn.disabled = chatBusy || AI_MAINTENANCE || (!chatInput.value.trim() && attachments.length === 0);
     }
 
     // ---- 첨부 처리 ----
@@ -1959,6 +2222,7 @@
     }
 
     async function addFiles(fileList) {
+      if (AI_MAINTENANCE) return;
       for (const file of Array.from(fileList)) {
         if (attachments.length >= MAX_ATTACH_COUNT) {
           showToast(`첨부는 최대 ${MAX_ATTACH_COUNT}개까지예요.`, true);
@@ -2052,7 +2316,7 @@
 
     // opts.retry가 true면 방금 실패한 질문을 같은 내용으로 다시 보낸다 (사용자 말풍선은 이미 있음).
     async function sendChatMessage(opts = {}) {
-      if (chatBusy) return;
+      if (chatBusy || AI_MAINTENANCE) return;
       const question = opts.retry ? opts.question : chatInput.value.trim();
       if (!question && attachments.length === 0) return;
 
