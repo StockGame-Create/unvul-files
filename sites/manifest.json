@@ -107995,6 +107995,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11984.png",
       "sha256": "01046424f6b139f597311123fc4e4635ceaf925598746c6d62f81a45ef3d8c0d"
+    },
+    {
+      "message_id": 11975,
+      "filename": "서바이벌_4주차_필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11975_._4._.pdf",
+      "size_bytes": 1566993,
+      "telegram_date": "2025-08-12T09:07:02+00:00",
+      "title": "서바이벌 강기원 4주차 필기노트 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11975.png",
+      "sha256": "35b331bb6aedae4222c70f1e3d1b32c13cf2584061c6b0a8f5e079f452c6e86d"
     }
   ],
   "duplicate_message_ids": [
