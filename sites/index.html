@@ -906,6 +906,110 @@
     ul.file-grid { grid-template-columns: 1fr; }
     .filter-pill label { padding: 0.45rem 0.7rem; font-size: 0.74rem; }
   }
+
+  /* ---- AI 탭 (v2): 파일 선택 없는 대화 / 첨부 / 추천 문제 ---- */
+  .ai-modebar { display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap; }
+  .mode-toggle { display: inline-flex; border: 1px solid var(--rule); }
+  .mode-btn {
+    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    font-size: 0.76rem;
+    background: var(--paper);
+    color: var(--ink-soft);
+    border: none;
+    padding: 0.35rem 0.8rem;
+    cursor: pointer;
+  }
+  .mode-btn + .mode-btn { border-left: 1px solid var(--rule); }
+  .mode-btn.active { background: var(--ink); color: var(--paper); }
+  .ai-modebar #chatResetBtn { margin-left: auto; }
+
+  .chat-shell.dragover { outline: 2px dashed var(--leather); outline-offset: -6px; }
+
+  .attach-tray {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    padding: 0.6rem 0.9rem 0;
+    background: var(--paper-raised);
+    border-top: 1px solid var(--rule);
+  }
+  .attach-tray[hidden] { display: none; }
+  .attach-chip {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    font-size: 0.74rem;
+    color: var(--ink-soft);
+    max-width: 14rem;
+  }
+  .attach-chip img { width: 36px; height: 36px; object-fit: cover; display: block; }
+  .attach-chip .attach-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .attach-chip button { border: none; background: none; cursor: pointer; color: var(--ink-soft); font-size: 1rem; line-height: 1; padding: 0 0.3rem; }
+  .attach-chip button:hover { color: var(--ink); }
+
+  #attachBtn {
+    font-size: 1.15rem;
+    background: var(--paper);
+    border: 1.5px solid var(--rule);
+    color: var(--ink);
+    padding: 0 0.85rem;
+    cursor: pointer;
+  }
+  #attachBtn:disabled { opacity: 0.45; cursor: default; }
+  #attachBtn:not(:disabled):hover { border-color: var(--leather); }
+
+  .msg-thumbs { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.45rem; }
+  .msg-thumbs img { max-height: 120px; max-width: 100%; border: 1px solid var(--rule); }
+  .msg-thumbs .pdf-tag {
+    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    font-size: 0.74rem;
+    border: 1px solid var(--rule);
+    padding: 0.25rem 0.5rem;
+  }
+
+  .msg-note {
+    margin-top: 0.5rem;
+    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    font-size: 0.72rem;
+    color: var(--ink-soft);
+  }
+  .retry-btn {
+    margin-top: 0.6rem;
+    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    font-size: 0.76rem;
+    background: none;
+    border: 1px solid var(--rule);
+    padding: 0.3rem 0.7rem;
+    cursor: pointer;
+    color: var(--ink);
+  }
+  .retry-btn:hover { border-color: var(--leather); }
+
+  .related { margin-top: 0.9rem; border-top: 1px dashed var(--rule); padding-top: 0.7rem; }
+  .related-head {
+    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    font-size: 0.74rem;
+    color: var(--teal);
+    margin-bottom: 0.45rem;
+    letter-spacing: 0.02em;
+  }
+  .related-card { border: 1px solid var(--rule); background: var(--paper); margin-bottom: 0.4rem; }
+  .related-card summary {
+    cursor: pointer;
+    padding: 0.5rem 0.7rem;
+    font-size: 0.84rem;
+    list-style-position: inside;
+  }
+  .related-card summary .sim { color: var(--ink-soft); font-family: "IBM Plex Mono", monospace; font-size: 0.72rem; margin-left: 0.4rem; }
+  .related-body { padding: 0.2rem 0.9rem 0.8rem; font-size: 0.88rem; }
+  .related-meta { margin-top: 0.5rem; font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace; font-size: 0.74rem; color: var(--ink-soft); }
+  .related-meta a { color: var(--leather); }
+
+  .ai-maint { border: 1px solid var(--leather); background: var(--paper-raised); padding: 0.8rem 1rem; margin-bottom: 0.8rem; font-size: 0.9rem; line-height: 1.6; }
 </style>
 </head>
 <body>
@@ -1001,7 +1105,7 @@
           </span>
         </div>
 
-        <p class="ai-note">100MB가 넘는 큰 자료는 바로보기 대신 다운로드로 받아서 열어주세요. 브라우저에 따라 PDF가 안에서 안 보이면 "새 탭에서 열기"를 눌러보세요.</p>
+        <p class="ai-note">100MB가 넘는 큰 자료는 바로보기 대신 다운로드로 받아서 열어주세요. 브라우저에 따라 PDF가 안 보이면 "새 탭에서 열기"를 눌러보세요.</p>
       </div>
 
       <div class="pdf-viewer-shell" id="pdfViewerShell">
@@ -1011,27 +1115,28 @@
     </section>
 
     <section class="tab-panel" id="tabAi" hidden>
+      <div class="ai-maint" id="aiMaint" hidden><strong>AI 기능 점검 중</strong><br />AI 서비스 공급처의 혼잡으로 잠시 사용할 수 없어요. 복구되면 이 안내가 사라지고 다시 쓸 수 있어요.</div>
       <div class="ai-toolbar">
-        <div id="aiFileSection">
-          <label class="ai-field-label" for="aiFileSearch">먼저 자료를 골라주세요</label>
-          <input type="text" id="aiFileSearch" placeholder="제목, 강사, 과목으로 찾기" autocomplete="off" />
-          <ul class="ai-results" id="aiFileResults"></ul>
+        <div class="ai-modebar">
+          <span class="ai-field-label" style="margin:0">답변 방식</span>
+          <div class="mode-toggle" role="group" aria-label="답변 방식">
+            <button type="button" class="mode-btn active" data-mode="fast" title="빠르고 가벼운 모델">빠르게</button>
+            <button type="button" class="mode-btn" data-mode="deep" title="어려운 문제용 상위 모델 (사용 한도 있음)">정밀 (Pro)</button>
+          </div>
+          <button type="button" id="chatResetBtn">새 대화</button>
         </div>
-
-        <div class="ai-selected" id="aiSelected" hidden>
-          <span id="aiSelectedName"></span>
-          <button type="button" id="chatResetBtn">다른 파일 / 새 대화</button>
-        </div>
-
-        <p class="ai-note">실험적 기능이라 오답이 섞일 수 있어요. 자료 안의 "문제"와 "해설"을 먼저 찾아본 뒤 답하도록 안내되어 있고, 대화 맥락을 기억하니 이어서 계속 물어봐도 됩니다.</p>
+        <p class="ai-note">문제 사진이나 PDF를 올리거나 그냥 질문해보세요. 자료실에 쌓인 문제 은행에서 같은/비슷한 문제를 찾아 근거로 쓰고, 비슷한 문제를 같이 보여줘요. 자동 추출이라 오답이 섞일 수 있어요. 어려운 문제는 "정밀" 모드가 더 정확할 수 있지만 느리고 사용 한도가 있어요.</p>
       </div>
 
-      <div class="chat-shell">
+      <div class="chat-shell" id="chatShell">
         <div class="chat-window" id="chatWindow">
-          <p class="chat-empty">위에서 자료를 먼저 선택하면<br />여기서 그 자료에 대해 대화하듯 물어볼 수 있어요.</p>
+          <p class="chat-empty">문제를 물어보세요.<br />＋ 버튼(또는 붙여넣기/끌어놓기)으로<br />문제 사진이나 PDF를 올릴 수도 있어요.</p>
         </div>
+        <div class="attach-tray" id="attachTray" hidden></div>
         <div class="chat-input-row">
-          <textarea id="chatInput" placeholder="궁금한 걸 물어보세요 (예: 3번 문제 풀이 방법 알려줘)" rows="1" disabled></textarea>
+          <input type="file" id="attachInput" accept="image/*,application/pdf" multiple hidden />
+          <button type="button" id="attachBtn" title="사진/PDF 첨부" aria-label="사진 또는 PDF 첨부">＋</button>
+          <textarea id="chatInput" placeholder="궁금한 걸 물어보세요 (예: 이 문제 풀이 알려줘 / 미분 비슷한 문제 내줘)" rows="1"></textarea>
           <button type="button" id="chatSendBtn" disabled>전송</button>
         </div>
       </div>
@@ -1476,7 +1581,7 @@
       tabBtnFiles.classList.toggle("active", name === "files");
       tabBtnView.classList.toggle("active", name === "view");
       tabBtnAi.classList.toggle("active", name === "ai");
-      if (name === "ai") aiFileSearch.focus();
+      if (name === "ai") chatInput.focus();
       if (name === "view" && !viewSelectedFile) viewFileSearch.focus();
     }
 
@@ -1498,7 +1603,7 @@
     const viewResetBtn = document.getElementById("viewResetBtn");
     const viewOpenNewTabBtn = document.getElementById("viewOpenNewTabBtn");
     const viewDownloadBtn = document.getElementById("viewDownloadBtn");
-    const pdfViewerFrame = document.getElementById("pdfViewerFrame");
+        const pdfViewerFrame = document.getElementById("pdfViewerFrame");
     const pdfViewerEmpty = document.getElementById("pdfViewerEmpty");
 
     const PDF_VIEWER_DEFAULT_EMPTY_HTML = pdfViewerEmpty.innerHTML;
@@ -1597,21 +1702,37 @@
       handleDownload(viewDownloadBtn, downloadUrl, f.filename, isExternal);
     });
 
-    // ---- AI에게 물어보기 (대화형, 멀티턴) ----
-    const aiFileSearch = document.getElementById("aiFileSearch");
-    const aiFileResults = document.getElementById("aiFileResults");
-    const aiFileSection = document.getElementById("aiFileSection");
-    const aiSelected = document.getElementById("aiSelected");
-    const aiSelectedName = document.getElementById("aiSelectedName");
-    const chatResetBtn = document.getElementById("chatResetBtn");
+    // ---- AI에게 물어보기 (v2: 파일 선택 없이 바로 질문 / 사진·PDF 첨부 / 문제 은행 참조) ----
     const chatWindow = document.getElementById("chatWindow");
     const chatInput = document.getElementById("chatInput");
     const chatSendBtn = document.getElementById("chatSendBtn");
+    const chatResetBtn = document.getElementById("chatResetBtn");
+    const chatShell = document.getElementById("chatShell");
+    const attachBtn = document.getElementById("attachBtn");
+    const attachInput = document.getElementById("attachInput");
+    const attachTray = document.getElementById("attachTray");
+    const modeBtns = document.querySelectorAll("#tabAi .mode-btn");
 
-    let aiSelectedFile = null;
+    const CHAT_EMPTY_HTML = '<p class="chat-empty">문제를 물어보세요.<br />＋ 버튼(또는 붙여넣기/끌어놓기)으로<br />문제 사진이나 PDF를 올릴 수도 있어요.</p>';
+
+    // 서버(api/ask.js)의 한도와 맞춰둔 값. Vercel Hobby는 요청 본문이 약 4.5MB까지라
+    // 사진은 올리기 전에 브라우저에서 줄이고, PDF는 작은 것만 받는다.
+    const MAX_ATTACH_COUNT = 4;
+    const MAX_PDF_BYTES = 2_800_000;
+    const MAX_ATTACH_B64_TOTAL = 3_600_000;
+
+    // 점검 중 표시: AI를 다시 열 때는 false로 바꾸면 된다.
+    const AI_MAINTENANCE = true;
+    document.getElementById("aiMaint").hidden = !AI_MAINTENANCE;
+    if (AI_MAINTENANCE) {
+      chatInput.placeholder = "AI 점검 중이에요";
+      modeBtns.forEach(b => { b.disabled = true; });
+    }
+
     let chatHistory = []; // [{ role: 'user'|'assistant', text }] - 대화 맥락(기억력)
-    let chatFileState = null; // 이전 턴에서 이미 업로드된 Gemini 파일 참조 (재업로드 방지)
     let chatBusy = false;
+    let aiMode = "fast"; // "fast" | "deep"
+    let attachments = []; // [{ kind, name, mime, data(base64), previewUrl }] - 대화가 이어지는 동안 유지됨
 
     // marked + KaTeX 로 마크다운/수식을 렌더링. DOMPurify로 한 번 살균해서
     // 모델 출력에 스크립트 등이 섞여 들어와도 안전하게 만든다.
@@ -1642,20 +1763,38 @@
       if (empty) empty.remove();
     }
 
-    function addUserMessage(text) {
+    function addUserMessage(text, atts) {
       clearChatEmptyState();
       const wrap = document.createElement("div");
       wrap.className = "msg user";
       wrap.innerHTML = `<span class="msg-role">나</span><div class="msg-bubble"></div>`;
-      wrap.querySelector(".msg-bubble").textContent = text;
+      const bubble = wrap.querySelector(".msg-bubble");
+      if (atts && atts.length) {
+        const thumbs = document.createElement("div");
+        thumbs.className = "msg-thumbs";
+        for (const a of atts) {
+          if (a.kind === "image" && a.previewUrl) {
+            const img = document.createElement("img");
+            img.src = a.previewUrl;
+            img.alt = a.name;
+            thumbs.appendChild(img);
+          } else {
+            const tag = document.createElement("span");
+            tag.className = "pdf-tag";
+            tag.textContent = "PDF · " + a.name;
+            thumbs.appendChild(tag);
+          }
+        }
+        bubble.appendChild(thumbs);
+      }
+      const textEl = document.createElement("span");
+      textEl.textContent = text || "(첨부만 보냈어요)";
+      bubble.appendChild(textEl);
       chatWindow.appendChild(wrap);
       scrollChatToBottom();
     }
 
-    // 답변 버블을 만들고, "생각 중..." 표시 -> (수신 완료 후) 한 글자씩
-    // 타이핑되는 효과 -> 다 쓰면 마크다운/수식으로 최종 렌더링, 순서로 채워나간다.
-    // (Gemini 쪽 실시간 스트리밍 대신, 완성된 답변을 받아서 화면에서만
-    // 타자기처럼 흘려보내는 방식이라 서버 구조가 단순하고 안정적이다.)
+    // 답변 버블: "생각 중..." -> (수신 완료 후) 타자기 효과 -> 마크다운/수식 최종 렌더링.
     function addAssistantPlaceholder() {
       clearChatEmptyState();
       const wrap = document.createElement("div");
@@ -1671,7 +1810,6 @@
         bubbleEl.innerHTML = '<span class="typing-cursor"></span>';
         const cursorEl = bubbleEl.querySelector(".typing-cursor");
         let i = 0;
-        // 글자가 아주 많으면 한 번에 여러 글자씩 흘려서 너무 오래 걸리지 않게 한다.
         const step = fullText.length > 800 ? 4 : fullText.length > 300 ? 2 : 1;
         const timer = setInterval(() => {
           i = Math.min(i + step, fullText.length);
@@ -1679,7 +1817,7 @@
           scrollChatToBottom();
           if (i >= fullText.length) {
             clearInterval(timer);
-            renderMarkdownInto(bubbleEl, fullText); // 마무리로 마크다운/수식 정식 렌더링
+            renderMarkdownInto(bubbleEl, fullText);
             scrollChatToBottom();
             resolve();
           }
@@ -1687,72 +1825,228 @@
       });
     }
 
-    function showAssistantError(bubbleEl, message) {
+    function showAssistantError(bubbleEl, message, retryQuestion) {
       bubbleEl.className = "msg-bubble error";
       bubbleEl.textContent = message;
+      if (retryQuestion !== undefined) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "retry-btn";
+        btn.textContent = "다시 시도";
+        btn.addEventListener("click", () => {
+          if (chatBusy) return;
+          bubbleEl.closest(".msg").remove();
+          sendChatMessage({ retry: true, question: retryQuestion });
+        });
+        bubbleEl.appendChild(document.createElement("br"));
+        bubbleEl.appendChild(btn);
+      }
+    }
+
+    // 자료실 문제 은행에서 찾은 같은/비슷한 문제를 답변 아래에 카드로 보여준다.
+    function renderRelated(msgEl, related, retrieval) {
+      if (!related || !related.length) return;
+      const box = document.createElement("div");
+      box.className = "related";
+      const head = document.createElement("div");
+      head.className = "related-head";
+      head.textContent = retrieval === "same" ? "자료실에서 같은 문제를 찾았어요" : "자료실의 비슷한 문제";
+      box.appendChild(head);
+
+      related.forEach((r, idx) => {
+        const card = document.createElement("details");
+        card.className = "related-card";
+        if (idx === 0 && r.same) card.open = true;
+
+        const sum = document.createElement("summary");
+        const where = [r.title, r.subject, r.year].filter(Boolean).join(" · ");
+        sum.textContent = `${where} · p.${r.page} ${r.number}번`;
+        const sim = document.createElement("span");
+        sim.className = "sim";
+        sim.textContent = `유사도 ${r.similarity}%`;
+        sum.appendChild(sim);
+        card.appendChild(sum);
+
+        const body = document.createElement("div");
+        body.className = "related-body";
+        renderMarkdownInto(body, r.text);
+        const meta = document.createElement("div");
+        meta.className = "related-meta";
+        if (r.answer) meta.appendChild(document.createTextNode(`정답(자료 표기): ${r.answer}  `));
+        if (r.message_id) {
+          const a = document.createElement("a");
+          a.href = `/api/view?message_id=${encodeURIComponent(r.message_id)}#page=${encodeURIComponent(r.page)}`;
+          a.target = "_blank";
+          a.rel = "noopener";
+          a.textContent = `원본 p.${r.page} 보기`;
+          meta.appendChild(a);
+        }
+        meta.appendChild(document.createTextNode("  · AI가 PDF에서 추출한 텍스트라 오류가 있을 수 있어요" + (r.uncertain ? " (이 문항은 인식이 불확실해요)" : "")));
+        body.appendChild(meta);
+        card.appendChild(body);
+        box.appendChild(card);
+      });
+
+      msgEl.appendChild(box);
+      scrollChatToBottom();
     }
 
     function updateChatInputState() {
-      const ready = Boolean(aiSelectedFile) && !chatBusy;
-      chatInput.disabled = !ready;
-      chatSendBtn.disabled = !ready || !chatInput.value.trim();
+      chatInput.disabled = chatBusy || AI_MAINTENANCE;
+      attachBtn.disabled = chatBusy || AI_MAINTENANCE;
+      chatSendBtn.disabled = chatBusy || AI_MAINTENANCE || (!chatInput.value.trim() && attachments.length === 0);
     }
 
-    function resetChat() {
-      aiSelectedFile = null;
-      chatHistory = [];
-      chatFileState = null;
-      aiSelected.hidden = true;
-      aiFileSection.hidden = false;
-      aiFileSearch.value = "";
-      aiFileResults.innerHTML = "";
-      chatWindow.innerHTML = '<p class="chat-empty">위에서 자료를 먼저 선택하면<br />여기서 그 자료에 대해 대화하듯 물어볼 수 있어요.</p>';
-      chatInput.value = "";
+    // ---- 첨부 처리 ----
+    function readAsBase64(blob) {
+      return new Promise((resolve, reject) => {
+        const r = new FileReader();
+        r.onload = () => resolve(String(r.result).split(",")[1] || "");
+        r.onerror = () => reject(new Error("파일을 읽지 못했어요."));
+        r.readAsDataURL(blob);
+      });
+    }
+
+    // 사진은 긴 변 1600px JPEG로 줄인다 (폰 사진 5~8MB -> 수백 KB). 글씨가 읽힐 만큼은 유지.
+    async function shrinkImage(file) {
+      let bmp;
+      try {
+        bmp = await createImageBitmap(file, { imageOrientation: "from-image" });
+      } catch {
+        try {
+          bmp = await createImageBitmap(file);
+        } catch {
+          throw new Error("이 이미지 형식은 열 수 없어요 (HEIC라면 JPEG로 바꿔서 올려주세요).");
+        }
+      }
+      const encode = (edge, quality) => new Promise((resolve) => {
+        const scale = Math.min(1, edge / Math.max(bmp.width, bmp.height));
+        const c = document.createElement("canvas");
+        c.width = Math.round(bmp.width * scale);
+        c.height = Math.round(bmp.height * scale);
+        const ctx = c.getContext("2d");
+        ctx.fillStyle = "#fff";
+        ctx.fillRect(0, 0, c.width, c.height);
+        ctx.drawImage(bmp, 0, 0, c.width, c.height);
+        c.toBlob(resolve, "image/jpeg", quality);
+      });
+      let blob = await encode(1600, 0.82);
+      if (blob && blob.size > 900000) blob = await encode(1300, 0.7);
+      if (bmp.close) bmp.close();
+      if (!blob) throw new Error("이미지를 변환하지 못했어요.");
+      return blob;
+    }
+
+    function renderAttachTray() {
+      attachTray.innerHTML = "";
+      attachTray.hidden = attachments.length === 0;
+      attachments.forEach((a, idx) => {
+        const chip = document.createElement("div");
+        chip.className = "attach-chip";
+        if (a.kind === "image" && a.previewUrl) {
+          const img = document.createElement("img");
+          img.src = a.previewUrl;
+          img.alt = "";
+          chip.appendChild(img);
+        }
+        const name = document.createElement("span");
+        name.className = "attach-name";
+        name.textContent = a.kind === "pdf" ? "PDF · " + a.name : a.name;
+        chip.appendChild(name);
+        const rm = document.createElement("button");
+        rm.type = "button";
+        rm.setAttribute("aria-label", "첨부 제거");
+        rm.textContent = "×";
+        rm.addEventListener("click", () => {
+          if (chatBusy) return;
+          if (a.previewUrl) URL.revokeObjectURL(a.previewUrl);
+          attachments.splice(idx, 1);
+          renderAttachTray();
+          updateChatInputState();
+        });
+        chip.appendChild(rm);
+        attachTray.appendChild(chip);
+      });
+    }
+
+    async function addFiles(fileList) {
+      if (AI_MAINTENANCE) return;
+      for (const file of Array.from(fileList)) {
+        if (attachments.length >= MAX_ATTACH_COUNT) {
+          showToast(`첨부는 최대 ${MAX_ATTACH_COUNT}개까지예요.`, true);
+          break;
+        }
+        try {
+          let att;
+          if (file.type === "application/pdf") {
+            if (file.size > MAX_PDF_BYTES) throw new Error("PDF는 약 2.8MB 이하만 올릴 수 있어요. 필요한 페이지만 캡처해서 올려보세요.");
+            att = { kind: "pdf", name: file.name, mime: "application/pdf", data: await readAsBase64(file), previewUrl: null };
+          } else if (file.type.startsWith("image/")) {
+            const blob = await shrinkImage(file);
+            att = { kind: "image", name: file.name || "사진", mime: "image/jpeg", data: await readAsBase64(blob), previewUrl: URL.createObjectURL(blob) };
+          } else {
+            throw new Error("사진(JPG/PNG/WEBP)이나 PDF만 올릴 수 있어요.");
+          }
+          const total = attachments.reduce((n, a) => n + a.data.length, 0) + att.data.length;
+          if (total > MAX_ATTACH_B64_TOTAL) throw new Error("첨부 용량 합계가 너무 커요. 일부를 빼고 다시 올려주세요.");
+          attachments.push(att);
+          renderAttachTray();
+        } catch (err) {
+          showToast(err.message, true);
+        }
+      }
       updateChatInputState();
-      aiFileSearch.focus();
     }
 
-    aiFileSearch.addEventListener("input", () => {
-      const q = aiFileSearch.value.trim().toLowerCase().normalize("NFC");
-      aiFileResults.innerHTML = "";
-      if (!q) return;
+    attachBtn.addEventListener("click", () => attachInput.click());
+    attachInput.addEventListener("change", async () => {
+      await addFiles(attachInput.files);
+      attachInput.value = "";
+    });
 
-      const matches = allFiles
-        .filter(f => {
-          const haystack = [f.filename, f.title, f.instructor, f.subject, f.year]
-            .filter(Boolean)
-            .join(" ")
-            .toLowerCase()
-            .normalize("NFC");
-          return haystack.includes(q);
-        })
-        .slice(0, 8);
-
-      for (const f of matches) {
-        const li = document.createElement("li");
-        li.textContent = `${f.title || f.filename} · ${formatDate(f.telegram_date)}`;
-        li.addEventListener("click", () => selectAiFile(f));
-        aiFileResults.appendChild(li);
+    // 스크린샷 붙여넣기(Ctrl/Cmd+V)
+    chatInput.addEventListener("paste", (e) => {
+      const files = Array.from(e.clipboardData?.files || []).filter(f => f.type.startsWith("image/") || f.type === "application/pdf");
+      if (files.length) {
+        e.preventDefault();
+        addFiles(files);
       }
     });
 
-    function selectAiFile(f) {
-      aiSelectedFile = f;
+    // 끌어놓기
+    ["dragenter", "dragover"].forEach(ev => chatShell.addEventListener(ev, (e) => {
+      if (e.dataTransfer && Array.from(e.dataTransfer.types || []).includes("Files")) {
+        e.preventDefault();
+        chatShell.classList.add("dragover");
+      }
+    }));
+    ["dragleave", "drop"].forEach(ev => chatShell.addEventListener(ev, () => chatShell.classList.remove("dragover")));
+    chatShell.addEventListener("drop", (e) => {
+      if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files.length) {
+        e.preventDefault();
+        addFiles(e.dataTransfer.files);
+      }
+    });
+
+    modeBtns.forEach(btn => btn.addEventListener("click", () => {
+      aiMode = btn.dataset.mode === "deep" ? "deep" : "fast";
+      modeBtns.forEach(b => b.classList.toggle("active", b === btn));
+    }));
+
+    function resetChat() {
+      if (chatBusy) return;
+      attachments.forEach(a => a.previewUrl && URL.revokeObjectURL(a.previewUrl));
+      attachments = [];
       chatHistory = [];
-      chatFileState = null;
-      aiSelectedName.textContent = f.title || f.filename;
-      aiSelected.hidden = false;
-      aiFileSection.hidden = true;
-      aiFileResults.innerHTML = "";
-      aiFileSearch.value = "";
-      chatWindow.innerHTML = `<p class="chat-empty">"${escapeHtml(f.title || f.filename)}" 자료가 선택됐어요.<br />궁금한 걸 물어보세요.</p>`;
+      renderAttachTray();
+      chatWindow.innerHTML = CHAT_EMPTY_HTML;
+      chatInput.value = "";
+      chatInput.style.height = "auto";
       updateChatInputState();
       chatInput.focus();
     }
-
     chatResetBtn.addEventListener("click", resetChat);
 
-    // 입력창 높이를 내용에 맞춰 자동으로 늘린다 (최대 높이는 CSS의 max-height로 제한).
     chatInput.addEventListener("input", () => {
       chatInput.style.height = "auto";
       chatInput.style.height = chatInput.scrollHeight + "px";
@@ -1760,22 +2054,26 @@
     });
 
     chatInput.addEventListener("keydown", (e) => {
-      if (e.key === "Enter" && !e.shiftKey) {
+      if (e.key === "Enter" && !e.shiftKey && !e.isComposing) {
         e.preventDefault();
         if (!chatSendBtn.disabled) sendChatMessage();
       }
     });
 
-    chatSendBtn.addEventListener("click", sendChatMessage);
+    chatSendBtn.addEventListener("click", () => sendChatMessage());
 
-    async function sendChatMessage() {
-      const question = chatInput.value.trim();
-      if (!aiSelectedFile || !question || chatBusy) return;
+    // opts.retry가 true면 방금 실패한 질문을 같은 내용으로 다시 보낸다 (사용자 말풍선은 이미 있음).
+    async function sendChatMessage(opts = {}) {
+      if (chatBusy || AI_MAINTENANCE) return;
+      const question = opts.retry ? opts.question : chatInput.value.trim();
+      if (!question && attachments.length === 0) return;
 
       chatBusy = true;
-      addUserMessage(question);
-      chatInput.value = "";
-      chatInput.style.height = "auto";
+      if (!opts.retry) {
+        addUserMessage(question, attachments);
+        chatInput.value = "";
+        chatInput.style.height = "auto";
+      }
       updateChatInputState();
 
       const bubbleEl = addAssistantPlaceholder();
@@ -1785,26 +2083,46 @@
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            message_id: aiSelectedFile.message_id,
             question,
             history: chatHistory,
-            file_state: chatFileState,
+            attachments: attachments.map(a => ({ mime: a.mime, data: a.data })),
+            mode: aiMode,
           }),
         });
-        const data = await res.json();
-        if (!res.ok) throw new Error(data.error || "알 수 없는 오류가 발생했습니다.");
 
-        if (data.file_state) chatFileState = data.file_state; // 다음 턴부터 재업로드 생략
+        let data;
+        try {
+          data = await res.json();
+        } catch {
+          // Vercel이 너무 큰 본문을 JSON이 아닌 응답으로 거절하는 경우 등
+          throw Object.assign(new Error(res.status === 413 ? "첨부 파일이 너무 커요. 사진 수를 줄이거나 PDF 대신 캡처로 올려보세요." : "서버 응답을 해석하지 못했어요. 잠시 후 다시 시도해주세요."), { retryable: res.status !== 413 });
+        }
+        if (!res.ok) throw Object.assign(new Error(data.error || "알 수 없는 오류가 발생했습니다."), { retryable: Boolean(data.retryable) });
+
+        const roleEl = bubbleEl.parentElement.querySelector(".msg-role");
+        if (roleEl && data.tier === "deep") roleEl.textContent = "Unvul AI (정밀)";
+
         await typeOutAnswer(bubbleEl, data.answer || "");
-        chatHistory.push({ role: "user", text: question });
+        if (data.note) {
+          const note = document.createElement("div");
+          note.className = "msg-note";
+          note.textContent = data.note;
+          bubbleEl.parentElement.appendChild(note);
+        }
+        renderRelated(bubbleEl.parentElement, data.related, data.retrieval);
+
+        chatHistory.push({ role: "user", text: question || "(첨부만 보냄)" });
         chatHistory.push({ role: "assistant", text: data.answer || "" });
       } catch (err) {
-        showAssistantError(bubbleEl, err.message);
+        showAssistantError(bubbleEl, err.message, err.retryable ? question : undefined);
       } finally {
         chatBusy = false;
         updateChatInputState();
+        chatInput.focus();
       }
     }
+
+    updateChatInputState();
 
     fetch(RAW_BASE + "manifest.json", { cache: "no-store" })
       .then(res => {
