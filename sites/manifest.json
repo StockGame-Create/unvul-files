@@ -107339,6 +107339,20 @@
       "sha256": "b93c3d4013447ca3cbac4778889a395fe40de07be29aa2bae94c59f442116c23"
     },
     {
+      "message_id": 12150,
+      "filename": "2026 기출끝.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12150_2026.pdf",
+      "size_bytes": 192418970,
+      "telegram_date": "2025-08-13T09:20:26+00:00",
+      "title": "2026 정승제 기출끝 수1 수2 확통 #수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12150.png",
+      "sha256": "74c8f545dbd38ade59f0b1ccfc4ccca8f0db61fa7f976fd3b62d2ee5e677e425"
+    },
+    {
       "message_id": 12147,
       "filename": "개념때려잡기 미적분.pdf",
       "stored_as": null,
