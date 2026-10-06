@@ -108653,6 +108653,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11910.png",
       "sha256": "48dc2b26b165cf3831c77cc3416e329ef6b724ebe636e2e2f46ce3a00e26ed73"
+    },
+    {
+      "message_id": 11906,
+      "filename": "2026_인강_허들링_수1_250805_202549_250805_214628.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11906_2026_._._.1_250805_202549_250805_214628.pdf",
+      "size_bytes": 93584491,
+      "telegram_date": "2025-08-12T09:06:59+00:00",
+      "title": "2026_인강_허들링_수1_250805_202549_250805_214628",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11906.png",
+      "sha256": "a8ab8ec0b7a83737b057a6cca76519d0fd71b1a8ff09e5562b4eb31dc4475b15"
     }
   ],
   "duplicate_message_ids": [
