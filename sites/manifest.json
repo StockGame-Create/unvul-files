@@ -108753,6 +108753,20 @@
       "sha256": "818739039b5ec3eefe454a4b4a88a04bad2e48c58caf4ea39f1a4c342995d32a"
     },
     {
+      "message_id": 12008,
+      "filename": "사문 리바 3권_250801_225856.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12008_.3._250801_225856.pdf",
+      "size_bytes": 107073365,
+      "telegram_date": "2025-08-12T14:28:02+00:00",
+      "title": "2026 시대인재 사문 리바이벌 1~3권 #사문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12008.png",
+      "sha256": "ff131ade480ce107b3c37408e24eea33adb3ad30333b0a5a4e5b83e7557c3d0c"
+    },
+    {
       "message_id": 12005,
       "filename": "2026_시대인재_VOLTEX_화학_1권.pdf",
       "stored_as": null,
