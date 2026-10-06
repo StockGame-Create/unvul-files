@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12703309316,
+      "source_key": "ab601122441cf7aa8c4f94faf88ab2af#03 공업 일반_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=ab601122441cf7aa8c4f94faf88ab2af",
+      "category": "평가원",
+      "filename": "03 공업 일반_정답.pdf",
+      "asset_name": "2026_m6_03_a1213a0452.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_m6_03_a1213a0452.pdf",
+      "size_bytes": 47185,
+      "telegram_date": "2026-10-06T08:59:25.064235+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 6월 모의평가 03 공업 일반_정답",
+      "year": "2025",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/12703309316.png",
+      "sha256": "e7d5c50f7c7d4dcd9be7a0b37ac083cd160f229d924836c9a4efc4ac1163ece1"
+    },
+    {
       "message_id": 12480263696,
       "source_key": "ab601122441cf7aa8c4f94faf88ab2af#02 농업 기초 기술_정답.pdf",
       "source": "suneung.re.kr",
