@@ -107253,6 +107253,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12087.png",
       "sha256": "ef66373e0e6b5b8e715fd3a6e4df1da17ac5d9000c1015909d9ecd2d08626b34"
+    },
+    {
+      "message_id": 12086,
+      "filename": "2026_수학_이해원_N제_시즌2_수학2_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12086_2026_._._N._.2_.2_.pdf",
+      "size_bytes": 69547679,
+      "telegram_date": "2025-08-12T16:35:03+00:00",
+      "title": "2026_수학_이해원_N제_시즌2_수학2_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12086.png",
+      "sha256": "fcff530a2b59fce174f2ec63a840f19a9973331f5edd17c82e9efa49f810a5b8"
     }
   ],
   "duplicate_message_ids": [
