@@ -109199,6 +109199,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11842.png",
       "sha256": "25df9eae9ea4b622140453d12e06d6ac9947533e68ce34421022f76ed0937d4e"
+    },
+    {
+      "message_id": 11841,
+      "filename": "2021 UAA 기출해체분석서 상편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11841_2021.UAA.pdf",
+      "size_bytes": 11061790,
+      "telegram_date": "2025-08-11T17:06:04+00:00",
+      "title": "2021 UAA 기출해체분석서 상편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11841.png",
+      "sha256": "29b3bf78eb8c280c3f5d311a1e0f90167d6bfca930e9dd99239873d45cc778e4"
     }
   ],
   "duplicate_message_ids": [
