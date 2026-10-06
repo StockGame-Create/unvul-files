@@ -107351,6 +107351,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12055.png",
       "sha256": "422c85590c38568ceb4f51bd222f36583e12f71393c4f7ea5c04a627d383a6fc"
+    },
+    {
+      "message_id": 12053,
+      "filename": "2026 이명학 READ N' LOGIC 순서삽입.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12053_2026.READ.N.LOGIC.pdf",
+      "size_bytes": 94632728,
+      "telegram_date": "2025-08-12T15:40:33+00:00",
+      "title": "2026 영어 이명학 리로직 빈칸 순삽 #영어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12053.png",
+      "sha256": "7fb4d6a5a7a29931d08e9d0d6a66df15d01114dbf5d4975675b6b8a86eb4199b"
     }
   ],
   "duplicate_message_ids": [
