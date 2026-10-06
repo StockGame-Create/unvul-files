@@ -107953,6 +107953,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11987.png",
       "sha256": "6d83dba45e789dd9d04c09f37831c5ffb1ffc6630606b052993688caec56f0db"
+    },
+    {
+      "message_id": 11986,
+      "filename": "강대k 국어 3회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11986_.k.3.pdf",
+      "size_bytes": 5536019,
+      "telegram_date": "2025-08-12T12:59:39+00:00",
+      "title": "강대k 국어 3회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11986.png",
+      "sha256": "a15f7c4337ec7c655d92ef558194118c305ff38ee79876dacf94d44e40aa68fe"
     }
   ],
   "duplicate_message_ids": [
