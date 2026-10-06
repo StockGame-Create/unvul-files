@@ -1,6 +1,28 @@
 {
   "files": [
     {
+      "message_id": 13794519509,
+      "source_key": "a5ffc663f52f11f8dd633837c03ac84a#05 동아시아사_문제.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=a5ffc663f52f11f8dd633837c03ac84a",
+      "category": "평가원",
+      "filename": "05 동아시아사_문제.pdf",
+      "asset_name": "2026_csat_05_e22bc5d520.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_csat_05_e22bc5d520.pdf",
+      "size_bytes": 3936891,
+      "telegram_date": "2026-10-06T08:06:42.989386+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 수능 05 동아시아사_문제",
+      "year": "2026",
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "사회탐구",
+      "kind": "문제",
+      "thumbnail": "thumbnails/13794519509.png",
+      "sha256": "e8e1363f1641426855238e3f46990db6310bacc59a5a87163072d8524cc89b35"
+    },
+    {
       "message_id": 11884292561,
       "source_key": "a5ffc663f52f11f8dd633837c03ac84a#04 세계지리_문제.pdf",
       "source": "suneung.re.kr",
