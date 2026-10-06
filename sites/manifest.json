@@ -107085,6 +107085,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12110.png",
       "sha256": "3a0e2df79e1c988100e90db6ec33e27b5e996887c8485c0bf138b7d65f86b0c4"
+    },
+    {
+      "message_id": 12109,
+      "filename": "강대k 수학 3회 (문제).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12109_.k.3.pdf",
+      "size_bytes": 9215778,
+      "telegram_date": "2025-08-12T16:35:04+00:00",
+      "title": "강대k 수학 3회 (문제)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12109.png",
+      "sha256": "a85051a18c686bbda4c5d22b33ce728536a80336d229b44fc73b8e414c69f671"
     }
   ],
   "duplicate_message_ids": [
