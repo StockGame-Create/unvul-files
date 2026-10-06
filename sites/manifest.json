@@ -107925,6 +107925,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11989.png",
       "sha256": "ce29ad5ff4985254ca0e768782adab71402d6a4b1885676daddcbdfe1fcb15f4"
+    },
+    {
+      "message_id": 11988,
+      "filename": "강대k 국어 4회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11988_.k.4.pdf",
+      "size_bytes": 5534957,
+      "telegram_date": "2025-08-12T12:59:39+00:00",
+      "title": "강대k 국어 4회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11988.png",
+      "sha256": "009005e7157370d9dc82af2311c5a115ec572a2ceb03645156b4c32d57424898"
     }
   ],
   "duplicate_message_ids": [
