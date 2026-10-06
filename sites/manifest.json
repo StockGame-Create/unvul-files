@@ -225,6 +225,20 @@
       "sha256": "0565975f5b4c0c04c1b20427f84528125c547d7a0db28206035ea4cee32fa375"
     },
     {
+      "message_id": 25030,
+      "filename": "최진영T_27학년도_9월_모평_지구과학1_분석서&손글씨해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/25030_.T_27._9._._.1_.pdf",
+      "size_bytes": 1141332,
+      "telegram_date": "2026-10-06T08:48:39+00:00",
+      "title": "지1 최진영 시대인재 전국 서바이벌 9, 10회, 9월 모평 분석서",
+      "year": "2027",
+      "instructor": "최진영",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25030.png",
+      "sha256": "d1f044874880b27f7f3a2c19c48aa2b63f902454699201e41f176a1da1412dee"
+    },
+    {
       "message_id": 25026,
       "filename": "이형수 모의 2회.pdf",
       "stored_as": null,
