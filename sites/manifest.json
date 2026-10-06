@@ -110403,6 +110403,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11814.png",
       "sha256": "096cd0cb5df760c9c82f8161ef91197535c219b59711ecb4c6546f68596de7cb"
+    },
+    {
+      "message_id": 11813,
+      "filename": "이해원 N제 수2 시즌2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11813_.N.2.2.pdf",
+      "size_bytes": 348471816,
+      "telegram_date": "2025-08-11T16:01:15+00:00",
+      "title": "이해원 N제 수2 시즌2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11813.png",
+      "sha256": "37ba6097a6c435a356c107d4dc6f5260253ccf38cb5e7b92d9f5626207c7e65c"
     }
   ],
   "duplicate_message_ids": [
