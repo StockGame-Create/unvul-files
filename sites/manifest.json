@@ -108205,6 +108205,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11945.png",
       "sha256": "3cff297a2a83ca517b170b4de8cd982d7de864e4454f134f395f286877194734"
+    },
+    {
+      "message_id": 11943,
+      "filename": "2026_수학_시대인재_Final_브릿지_전국_모의고사_5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11943_2026_._._Final_._._._5.pdf",
+      "size_bytes": 838671,
+      "telegram_date": "2025-08-12T09:07:00+00:00",
+      "title": "2026_수학_시대인재_Final_브릿지_전국_모의고사_5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11943.png",
+      "sha256": "62a111d3e2c597010eea17a983ae30011da41fe9a2fb71c7def86379548bbc2d"
     }
   ],
   "duplicate_message_ids": [
