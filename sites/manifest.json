@@ -107841,6 +107841,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12001.png",
       "sha256": "5b968601fdc49231415ab1bcd6ab56be301bf08d04659382038d92a13a1e6334"
+    },
+    {
+      "message_id": 12000,
+      "filename": "2026_인강민철_8호_해설편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12000_2026_._8._.pdf",
+      "size_bytes": 34063638,
+      "telegram_date": "2025-08-12T14:01:29+00:00",
+      "title": "2026 국어 인강민철 8호 9호 해설편 #국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12000.png",
+      "sha256": "4c537decded92f782ba0b288b722d03a58affb762529dc59c45bb017f11cc108"
     }
   ],
   "duplicate_message_ids": [
