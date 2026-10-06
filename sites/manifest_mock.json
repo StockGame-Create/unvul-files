@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12875346317,
+      "source_key": "0988d4c90af736bd764c92d738e1e9f4#05 수산·해운 산업 기초_정답표.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=0988d4c90af736bd764c92d738e1e9f4",
+      "category": "평가원",
+      "filename": "05 수산·해운 산업 기초_정답표.pdf",
+      "asset_name": "2024_m9_05_ab624d8ddd.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2024_m9_05_ab624d8ddd.pdf",
+      "size_bytes": 47760,
+      "telegram_date": "2026-10-06T09:09:17.861508+00:00",
+      "posted_date": "2024",
+      "title": "2024학년도 9월 모의평가 05 수산·해운 산업 기초_정답표",
+      "year": "2023",
+      "year_shifted": true,
+      "exam": "9월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "9월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/12875346317.png",
+      "sha256": "03b7263d01c24b85dae57ef2dd3240a3b7bc223c48f2f5b170874045386c0e9b"
+    },
+    {
       "message_id": 12224662494,
       "source_key": "0988d4c90af736bd764c92d738e1e9f4#06 인간 발달_정답표.pdf",
       "source": "suneung.re.kr",
