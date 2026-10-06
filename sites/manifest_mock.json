@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 11406716574,
+      "source_key": "d8da8da0c1460801b9e3c843c0230401#01 독일어Ⅰ_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=d8da8da0c1460801b9e3c843c0230401",
+      "category": "평가원",
+      "filename": "01 독일어Ⅰ_정답.pdf",
+      "asset_name": "2026_csat_01_53d8ca9ee4.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_csat_01_53d8ca9ee4.pdf",
+      "size_bytes": 41819,
+      "telegram_date": "2026-10-06T08:20:27.828062+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 수능 01 독일어Ⅰ_정답",
+      "year": "2025",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "제2외국어/한문",
+      "kind": "정답",
+      "thumbnail": "thumbnails/11406716574.png",
+      "sha256": "b01863268b96bbd456bb111dca3353c18df126f57b8bba3831660c8bd15d398f"
+    },
+    {
       "message_id": 11078032328,
       "source_key": "371b19ce3ad7d8991ef06e3f36fdceed#09 한문Ⅰ_문제.pdf",
       "source": "suneung.re.kr",
