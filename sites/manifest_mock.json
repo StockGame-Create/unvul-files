@@ -14,13 +14,14 @@
       "telegram_date": "2026-10-06T08:08:06.955252+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 05 수산·해운 산업 기초_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "직업탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/10967711191.png",
-      "sha256": "0c29f397c66e68831a4b7fb2fc473b992492237aae2524614020b95199235847"
+      "sha256": "0c29f397c66e68831a4b7fb2fc473b992492237aae2524614020b95199235847",
+      "year_shifted": true
     },
     {
       "message_id": 12394462701,
@@ -36,13 +37,14 @@
       "telegram_date": "2026-10-06T08:08:04.338523+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 04 상업 경제_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "직업탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/12394462701.png",
-      "sha256": "f34e7781f1e199e22b697f53c801ff4faf03a8e466055b5efa3429ef18c7acf7"
+      "sha256": "f34e7781f1e199e22b697f53c801ff4faf03a8e466055b5efa3429ef18c7acf7",
+      "year_shifted": true
     },
     {
       "message_id": 13620505064,
@@ -58,13 +60,14 @@
       "telegram_date": "2026-10-06T08:08:02.399939+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 03 공업 일반_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "직업탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/13620505064.png",
-      "sha256": "5408b0fe2dbb2243f74fcb6a986ff4e1567658669246501f853a7b9b981765d0"
+      "sha256": "5408b0fe2dbb2243f74fcb6a986ff4e1567658669246501f853a7b9b981765d0",
+      "year_shifted": true
     },
     {
       "message_id": 12013949411,
@@ -80,13 +83,14 @@
       "telegram_date": "2026-10-06T08:08:00.558806+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 02 농업 기초 기술_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "직업탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/12013949411.png",
-      "sha256": "79e7041526d847aaa541618dbc3a9e5632e64a79364cfae70b15409aea18aecb"
+      "sha256": "79e7041526d847aaa541618dbc3a9e5632e64a79364cfae70b15409aea18aecb",
+      "year_shifted": true
     },
     {
       "message_id": 13887538291,
@@ -102,13 +106,14 @@
       "telegram_date": "2026-10-06T08:07:58.528853+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 01 성공적인 직업생활_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "직업탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/13887538291.png",
-      "sha256": "b4341759a6918bd93a20f1214fb195f9a1f843f6efb1c8ee917944961893ebd3"
+      "sha256": "b4341759a6918bd93a20f1214fb195f9a1f843f6efb1c8ee917944961893ebd3",
+      "year_shifted": true
     },
     {
       "message_id": 12451322813,
@@ -124,13 +129,14 @@
       "telegram_date": "2026-10-06T08:07:49.570875+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 08 지구과학Ⅱ_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/12451322813.png",
-      "sha256": "c1a330be1e16d72179089616b1f7e3273c0b11b28603651b5066be0b8e27cc36"
+      "sha256": "c1a330be1e16d72179089616b1f7e3273c0b11b28603651b5066be0b8e27cc36",
+      "year_shifted": true
     },
     {
       "message_id": 10551698180,
@@ -146,13 +152,14 @@
       "telegram_date": "2026-10-06T08:07:47.882992+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 07 생명과학Ⅱ_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/10551698180.png",
-      "sha256": "8739cbaaa5deb6191ada8955ed0bc73354869c6656a702c97e352254f5bfd07f"
+      "sha256": "8739cbaaa5deb6191ada8955ed0bc73354869c6656a702c97e352254f5bfd07f",
+      "year_shifted": true
     },
     {
       "message_id": 14052626451,
@@ -168,13 +175,14 @@
       "telegram_date": "2026-10-06T08:07:46.197239+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 06 화학Ⅱ_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/14052626451.png",
-      "sha256": "4f0ff0a8d6d90daffb6e291f5c560c8762f9b10622c1ce275558c2971e749dd6"
+      "sha256": "4f0ff0a8d6d90daffb6e291f5c560c8762f9b10622c1ce275558c2971e749dd6",
+      "year_shifted": true
     },
     {
       "message_id": 10691566507,
@@ -190,13 +198,14 @@
       "telegram_date": "2026-10-06T08:07:44.560526+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 05 물리학Ⅱ_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/10691566507.png",
-      "sha256": "e53fd9eda11edb9519891fb36a2b49e4f6f5d42240aa82994ee8241924197992"
+      "sha256": "e53fd9eda11edb9519891fb36a2b49e4f6f5d42240aa82994ee8241924197992",
+      "year_shifted": true
     },
     {
       "message_id": 10822285711,
@@ -212,13 +221,14 @@
       "telegram_date": "2026-10-06T08:07:42.629961+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 04 지구과학Ⅰ_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/10822285711.png",
-      "sha256": "95221102639982fdcdbff54896c488af11c77a2b1c79474de9ad1fb97a791715"
+      "sha256": "95221102639982fdcdbff54896c488af11c77a2b1c79474de9ad1fb97a791715",
+      "year_shifted": true
     },
     {
       "message_id": 10781488030,
@@ -234,13 +244,14 @@
       "telegram_date": "2026-10-06T08:07:40.952232+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 03 생명과학Ⅰ_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/10781488030.png",
-      "sha256": "2adf2658bceb68b7c2e8009cd87c49cf919a90a981915055426005890950845c"
+      "sha256": "2adf2658bceb68b7c2e8009cd87c49cf919a90a981915055426005890950845c",
+      "year_shifted": true
     },
     {
       "message_id": 11567656088,
@@ -256,13 +267,14 @@
       "telegram_date": "2026-10-06T08:07:39.213719+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 02 화학Ⅰ_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/11567656088.png",
-      "sha256": "acffd2ead7d77cef42c0e4f736be3499bed40438e18acc1d7bf72686c0dc0fe4"
+      "sha256": "acffd2ead7d77cef42c0e4f736be3499bed40438e18acc1d7bf72686c0dc0fe4",
+      "year_shifted": true
     },
     {
       "message_id": 10089552778,
@@ -278,13 +290,14 @@
       "telegram_date": "2026-10-06T08:07:37.540312+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 01 물리학Ⅰ_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/10089552778.png",
-      "sha256": "e09b962fd638e73b7cd0c81bdfd0acf646cda0bc4fb8a6bf269dcc69e9500ff2"
+      "sha256": "e09b962fd638e73b7cd0c81bdfd0acf646cda0bc4fb8a6bf269dcc69e9500ff2",
+      "year_shifted": true
     },
     {
       "message_id": 10334451582,
@@ -300,13 +313,14 @@
       "telegram_date": "2026-10-06T08:07:32.037684+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 08 지구과학Ⅱ_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/10334451582.png",
-      "sha256": "2bbdac684049f14fd32023746ac22fb516da3258ff283c5912c0f9ebd9683134"
+      "sha256": "2bbdac684049f14fd32023746ac22fb516da3258ff283c5912c0f9ebd9683134",
+      "year_shifted": true
     },
     {
       "message_id": 10617784839,
@@ -322,13 +336,14 @@
       "telegram_date": "2026-10-06T08:07:30.147025+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 07 생명과학Ⅱ_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/10617784839.png",
-      "sha256": "29ad303b94d4205622c22f70af66b94e27315029429efa6b7fced643166a0a1d"
+      "sha256": "29ad303b94d4205622c22f70af66b94e27315029429efa6b7fced643166a0a1d",
+      "year_shifted": true
     },
     {
       "message_id": 11236711059,
@@ -344,13 +359,14 @@
       "telegram_date": "2026-10-06T08:07:28.128990+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 06 화학Ⅱ_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/11236711059.png",
-      "sha256": "90ccdb3310a9e0d8947c129c97bbffdc8f1874a3e2142dc244ef01c219c06783"
+      "sha256": "90ccdb3310a9e0d8947c129c97bbffdc8f1874a3e2142dc244ef01c219c06783",
+      "year_shifted": true
     },
     {
       "message_id": 11911359956,
@@ -366,13 +382,14 @@
       "telegram_date": "2026-10-06T08:07:26.183469+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 05 물리학Ⅱ_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/11911359956.png",
-      "sha256": "0f1b53649f26f6555eb446d5ccfb1cc51e857a0f63e225e285ebf49dc375a129"
+      "sha256": "0f1b53649f26f6555eb446d5ccfb1cc51e857a0f63e225e285ebf49dc375a129",
+      "year_shifted": true
     },
     {
       "message_id": 11054580904,
@@ -388,13 +405,14 @@
       "telegram_date": "2026-10-06T08:07:24.409857+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 04 지구과학Ⅰ_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/11054580904.png",
-      "sha256": "0fba020f8d8751439dead58409464cf5b6c13ab1f8b915a338aa5236b4c4debf"
+      "sha256": "0fba020f8d8751439dead58409464cf5b6c13ab1f8b915a338aa5236b4c4debf",
+      "year_shifted": true
     },
     {
       "message_id": 11311910334,
@@ -410,13 +428,14 @@
       "telegram_date": "2026-10-06T08:07:22.463997+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 03 생명과학Ⅰ_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/11311910334.png",
-      "sha256": "49fc58ac4ba83da8dc860745615c2f2ce5f3db3c2264f90f97a44de6c7c66602"
+      "sha256": "49fc58ac4ba83da8dc860745615c2f2ce5f3db3c2264f90f97a44de6c7c66602",
+      "year_shifted": true
     },
     {
       "message_id": 10485773479,
@@ -432,13 +451,14 @@
       "telegram_date": "2026-10-06T08:07:20.650758+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 02 화학Ⅰ_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/10485773479.png",
-      "sha256": "b315209c58ce3e503f709e38fa12a7153dd68de6542ca2cddac18b38e8d9732e"
+      "sha256": "b315209c58ce3e503f709e38fa12a7153dd68de6542ca2cddac18b38e8d9732e",
+      "year_shifted": true
     },
     {
       "message_id": 13213009883,
@@ -454,13 +474,14 @@
       "telegram_date": "2026-10-06T08:07:18.978786+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 01 물리학Ⅰ_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "과학탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/13213009883.png",
-      "sha256": "7316cea95d7850f94d9f4aa7bbc200a2dae16308235bf47ebeb618681a23ff78"
+      "sha256": "7316cea95d7850f94d9f4aa7bbc200a2dae16308235bf47ebeb618681a23ff78",
+      "year_shifted": true
     },
     {
       "message_id": 13153873376,
@@ -476,13 +497,14 @@
       "telegram_date": "2026-10-06T08:07:10.823960+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 09 사회·문화_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/13153873376.png",
-      "sha256": "166865a9e151a8a1ceb8e1fefec8751181e7cf71ae6777280af820f67897cb8b"
+      "sha256": "166865a9e151a8a1ceb8e1fefec8751181e7cf71ae6777280af820f67897cb8b",
+      "year_shifted": true
     },
     {
       "message_id": 13347302271,
@@ -498,13 +520,14 @@
       "telegram_date": "2026-10-06T08:07:09.062478+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 08 정치와 법_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/13347302271.png",
-      "sha256": "79d166d3a8668f9cd17ca3531a1da1f75aa5c869abc3021b852f5db75cb6560a"
+      "sha256": "79d166d3a8668f9cd17ca3531a1da1f75aa5c869abc3021b852f5db75cb6560a",
+      "year_shifted": true
     },
     {
       "message_id": 12915256684,
@@ -520,13 +543,14 @@
       "telegram_date": "2026-10-06T08:07:07.560542+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 07 경제_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/12915256684.png",
-      "sha256": "56622f103293c990284c813914695867a4b6f04d4f337bea4f214f4bb7313348"
+      "sha256": "56622f103293c990284c813914695867a4b6f04d4f337bea4f214f4bb7313348",
+      "year_shifted": true
     },
     {
       "message_id": 13079392028,
@@ -542,13 +566,14 @@
       "telegram_date": "2026-10-06T08:07:05.800198+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 06 세계사_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/13079392028.png",
-      "sha256": "fd0002e00b09cfe494e1214d06d36f9fe2422af64edc46f8ecbd161a8caa81f1"
+      "sha256": "fd0002e00b09cfe494e1214d06d36f9fe2422af64edc46f8ecbd161a8caa81f1",
+      "year_shifted": true
     },
     {
       "message_id": 13748640585,
@@ -564,13 +589,14 @@
       "telegram_date": "2026-10-06T08:07:04.116201+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 05 동아시아사_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/13748640585.png",
-      "sha256": "32481e5f92a0e5e978dc261259e9b50511a8cb50efa14cebdf025708fb599c19"
+      "sha256": "32481e5f92a0e5e978dc261259e9b50511a8cb50efa14cebdf025708fb599c19",
+      "year_shifted": true
     },
     {
       "message_id": 11218723965,
@@ -586,13 +612,14 @@
       "telegram_date": "2026-10-06T08:07:02.264730+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 04 세계지리_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/11218723965.png",
-      "sha256": "2cb53d06df67722f58a2eb4d359471f372160c75ab5eeab7df0d623017730c9c"
+      "sha256": "2cb53d06df67722f58a2eb4d359471f372160c75ab5eeab7df0d623017730c9c",
+      "year_shifted": true
     },
     {
       "message_id": 12906803933,
@@ -608,13 +635,14 @@
       "telegram_date": "2026-10-06T08:07:00.521954+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 03 한국지리_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/12906803933.png",
-      "sha256": "eed16307bf5ef2938525ab22d7b276fb5c162dc6ef31992b35418dd3daea4fb1"
+      "sha256": "eed16307bf5ef2938525ab22d7b276fb5c162dc6ef31992b35418dd3daea4fb1",
+      "year_shifted": true
     },
     {
       "message_id": 12538062713,
@@ -630,13 +658,14 @@
       "telegram_date": "2026-10-06T08:06:58.857252+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 02 윤리와 사상_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/12538062713.png",
-      "sha256": "49fbe296d8c3a7597cb6fb7765715a18510cd9ab6fe16fd4e1124464a9745743"
+      "sha256": "49fbe296d8c3a7597cb6fb7765715a18510cd9ab6fe16fd4e1124464a9745743",
+      "year_shifted": true
     },
     {
       "message_id": 10648605349,
@@ -652,13 +681,14 @@
       "telegram_date": "2026-10-06T08:06:57.144400+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 01 생활과 윤리_정답",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "정답",
       "thumbnail": "thumbnails/10648605349.png",
-      "sha256": "368adce46d01dbe76929b35ee7e78dd2bf1d0baea3fb17782ccf4da1e4c5ac21"
+      "sha256": "368adce46d01dbe76929b35ee7e78dd2bf1d0baea3fb17782ccf4da1e4c5ac21",
+      "year_shifted": true
     },
     {
       "message_id": 11138014324,
@@ -674,13 +704,14 @@
       "telegram_date": "2026-10-06T08:06:50.637811+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 09 사회·문화_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/11138014324.png",
-      "sha256": "ecb7d0fab7d14d3f54be4e98b3c210c58cd2e220a92f1bb1ad60e79cea304c73"
+      "sha256": "ecb7d0fab7d14d3f54be4e98b3c210c58cd2e220a92f1bb1ad60e79cea304c73",
+      "year_shifted": true
     },
     {
       "message_id": 10587141206,
@@ -696,13 +727,14 @@
       "telegram_date": "2026-10-06T08:06:48.656565+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 08 정치와 법_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/10587141206.png",
-      "sha256": "e58be8aa502469c42e3bd87d37e03ffab88017caf64b6bb2922bd09c799d62c5"
+      "sha256": "e58be8aa502469c42e3bd87d37e03ffab88017caf64b6bb2922bd09c799d62c5",
+      "year_shifted": true
     },
     {
       "message_id": 13125973467,
@@ -718,13 +750,14 @@
       "telegram_date": "2026-10-06T08:06:46.873979+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 07 경제_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/13125973467.png",
-      "sha256": "d638b3df6ae6419d03c5695979c8a00a65f50e03897cdd0ac7975b447668ccf0"
+      "sha256": "d638b3df6ae6419d03c5695979c8a00a65f50e03897cdd0ac7975b447668ccf0",
+      "year_shifted": true
     },
     {
       "message_id": 11685972142,
@@ -740,13 +773,14 @@
       "telegram_date": "2026-10-06T08:06:44.860071+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 06 세계사_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/11685972142.png",
-      "sha256": "91c27e97307a6d2412d40c943e39c0c56e8b01b9b4e3afb36c778af61cc9cc8a"
+      "sha256": "91c27e97307a6d2412d40c943e39c0c56e8b01b9b4e3afb36c778af61cc9cc8a",
+      "year_shifted": true
     },
     {
       "message_id": 13794519509,
@@ -762,13 +796,14 @@
       "telegram_date": "2026-10-06T08:06:42.989386+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 05 동아시아사_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/13794519509.png",
-      "sha256": "e8e1363f1641426855238e3f46990db6310bacc59a5a87163072d8524cc89b35"
+      "sha256": "e8e1363f1641426855238e3f46990db6310bacc59a5a87163072d8524cc89b35",
+      "year_shifted": true
     },
     {
       "message_id": 11884292561,
@@ -784,13 +819,14 @@
       "telegram_date": "2026-10-06T08:06:40.943021+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 04 세계지리_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/11884292561.png",
-      "sha256": "55317b063e4fb62ff1c769f8f9f6a9396c4abc898d771b66b1d443518498680b"
+      "sha256": "55317b063e4fb62ff1c769f8f9f6a9396c4abc898d771b66b1d443518498680b",
+      "year_shifted": true
     },
     {
       "message_id": 13281215681,
@@ -806,13 +842,14 @@
       "telegram_date": "2026-10-06T08:06:38.981421+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 03 한국지리_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/13281215681.png",
-      "sha256": "cd4c25bb6100aedf26b71b19c849f85fe71af0f9b658abaa3557c59b2f6db0a0"
+      "sha256": "cd4c25bb6100aedf26b71b19c849f85fe71af0f9b658abaa3557c59b2f6db0a0",
+      "year_shifted": true
     },
     {
       "message_id": 10963851393,
@@ -828,13 +865,14 @@
       "telegram_date": "2026-10-06T08:06:37.070088+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 02 윤리와 사상_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/10963851393.png",
-      "sha256": "b8b22fb099dc7952929cb5be81def9b886ce868fa6f3b612da3c61a2432df6bc"
+      "sha256": "b8b22fb099dc7952929cb5be81def9b886ce868fa6f3b612da3c61a2432df6bc",
+      "year_shifted": true
     },
     {
       "message_id": 13760552863,
@@ -850,13 +888,14 @@
       "telegram_date": "2026-10-06T08:06:35.176319+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 01 생활과 윤리_문제",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "사회탐구",
       "kind": "문제",
       "thumbnail": "thumbnails/13760552863.png",
-      "sha256": "952bf5db3e39b2b28ce4a3c0c8ec3a5d24a3c52bba9775e7d8ecef19ffcfe92c"
+      "sha256": "952bf5db3e39b2b28ce4a3c0c8ec3a5d24a3c52bba9775e7d8ecef19ffcfe92c",
+      "year_shifted": true
     },
     {
       "message_id": 12576734997,
@@ -872,13 +911,14 @@
       "telegram_date": "2026-10-06T08:06:27.579651+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 한국사영역_정답표",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "한국사",
       "kind": "정답",
       "thumbnail": "thumbnails/12576734997.png",
-      "sha256": "d678ae34918f3ff8110a951a788b486f4c5c4cc3658206163248c1fa3de892c1"
+      "sha256": "d678ae34918f3ff8110a951a788b486f4c5c4cc3658206163248c1fa3de892c1",
+      "year_shifted": true
     },
     {
       "message_id": 13989706544,
@@ -894,13 +934,14 @@
       "telegram_date": "2026-10-06T08:06:22.997969+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 한국사영역_문제지",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "한국사",
       "kind": "문제",
       "thumbnail": "thumbnails/13989706544.png",
-      "sha256": "6514462bb41121eafdc65cde09ccc750933ac47b3d031eebd0503e3152500e9a"
+      "sha256": "6514462bb41121eafdc65cde09ccc750933ac47b3d031eebd0503e3152500e9a",
+      "year_shifted": true
     },
     {
       "message_id": 12213475908,
@@ -916,13 +957,14 @@
       "telegram_date": "2026-10-06T08:06:16.719661+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 영어영역_정답표",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "영어",
       "kind": "정답",
       "thumbnail": "thumbnails/12213475908.png",
-      "sha256": "363ce5277acb4fda6a6499fc546d2bf8e51a4d584bcaa6944e4885cbe22de58d"
+      "sha256": "363ce5277acb4fda6a6499fc546d2bf8e51a4d584bcaa6944e4885cbe22de58d",
+      "year_shifted": true
     },
     {
       "message_id": 10436090712,
@@ -938,13 +980,14 @@
       "telegram_date": "2026-10-06T08:06:12.636707+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 영어영역듣기평가대본",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "영어",
       "kind": "대본",
       "thumbnail": "thumbnails/10436090712.png",
-      "sha256": "2b042ba7c4d0e672bda6ffd7f01b162591938210df7efed2e919a1963bca83a4"
+      "sha256": "2b042ba7c4d0e672bda6ffd7f01b162591938210df7efed2e919a1963bca83a4",
+      "year_shifted": true
     },
     {
       "message_id": 12151357186,
@@ -960,13 +1003,14 @@
       "telegram_date": "2026-10-06T08:06:07.864672+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 영어영역_문제지",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "영어",
       "kind": "문제",
       "thumbnail": "thumbnails/12151357186.png",
-      "sha256": "788830081bb2a3adef1014c1625b7cc9562ad0af4438edafb8449782595af88a"
+      "sha256": "788830081bb2a3adef1014c1625b7cc9562ad0af4438edafb8449782595af88a",
+      "year_shifted": true
     },
     {
       "message_id": 10221743185,
@@ -982,13 +1026,14 @@
       "telegram_date": "2026-10-06T08:06:01.964780+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 수학영역_정답표",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "수학",
       "kind": "정답",
       "thumbnail": "thumbnails/10221743185.png",
-      "sha256": "4a6482e853d2674cb79232abcf30d302197c374dd4b18aa9c80427660aec4f53"
+      "sha256": "4a6482e853d2674cb79232abcf30d302197c374dd4b18aa9c80427660aec4f53",
+      "year_shifted": true
     },
     {
       "message_id": 14059246958,
@@ -1004,13 +1049,14 @@
       "telegram_date": "2026-10-06T08:05:57.206164+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 수학영역_문제지",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "수학",
       "kind": "문제",
       "thumbnail": "thumbnails/14059246958.png",
-      "sha256": "74e7e4a614559c3a94618e568d00b0392b12e25b6f5caa5e86334768f080d850"
+      "sha256": "74e7e4a614559c3a94618e568d00b0392b12e25b6f5caa5e86334768f080d850",
+      "year_shifted": true
     },
     {
       "message_id": 13516627220,
@@ -1026,13 +1072,14 @@
       "telegram_date": "2026-10-06T08:05:49.353610+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 국어영역_정답표",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "국어",
       "kind": "정답",
       "thumbnail": "thumbnails/13516627220.png",
-      "sha256": "e5912f96dca0cb54d05b6c5f3147cb79ab34f9a931462264a5b57f90e581aac8"
+      "sha256": "e5912f96dca0cb54d05b6c5f3147cb79ab34f9a931462264a5b57f90e581aac8",
+      "year_shifted": true
     },
     {
       "message_id": 14207488177,
@@ -1048,13 +1095,14 @@
       "telegram_date": "2026-10-06T07:43:54.685665+00:00",
       "posted_date": "2026",
       "title": "2026학년도 수능 국어영역_문제지",
-      "year": "2026",
+      "year": "2025",
       "exam": "수능",
       "instructor": "한국교육과정평가원",
       "subject": "국어",
       "kind": "문제",
       "thumbnail": "thumbnails/14207488177.png",
-      "sha256": "ddb1ede52e317cb67c94172b39aad24b0150bf888455be33f8e333010ce16a0a"
+      "sha256": "ddb1ede52e317cb67c94172b39aad24b0150bf888455be33f8e333010ce16a0a",
+      "year_shifted": true
     }
   ],
   "duplicate_keys": [],
