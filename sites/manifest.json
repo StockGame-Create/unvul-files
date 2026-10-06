@@ -109115,6 +109115,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11848.png",
       "sha256": "e9e6a17ec93c3e91e7a407bce795a5e38d8ee16ecebf551940fc53695b411b37"
+    },
+    {
+      "message_id": 11847,
+      "filename": "생2 엣지 1권 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11847_.2.1.pdf",
+      "size_bytes": 10491920,
+      "telegram_date": "2025-08-11T17:19:17+00:00",
+      "title": "생2 엣지 1권 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11847.png",
+      "sha256": "e726f3960e7eb7122ff12675f3566d7700f54ba8ece8ed2807c7d7b94598d971"
     }
   ],
   "duplicate_message_ids": [
