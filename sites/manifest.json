@@ -107113,6 +107113,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12104.png",
       "sha256": "1b13d5082cb38c08e675eea873f728116c2c26e0441ad92bf0bbfc638f32fe60"
+    },
+    {
+      "message_id": 12103,
+      "filename": "시대인재 BRIDGE (지구).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12103_.BRIDGE.pdf",
+      "size_bytes": 42202418,
+      "telegram_date": "2025-08-12T16:35:04+00:00",
+      "title": "시대인재 BRIDGE (지구)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12103.png",
+      "sha256": "ffa9e7d8926b7b5f8472f3a21d8fc3208139e4e76cf66bbfcb0c5b49cd6078f7"
     }
   ],
   "duplicate_message_ids": [
