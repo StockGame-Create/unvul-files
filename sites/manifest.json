@@ -106931,6 +106931,20 @@
       "subject": null,
       "thumbnail": "thumbnails/12132.png",
       "sha256": "f204315f632282350c55c744c7051de138eee783aaf426664eb96db770d4fe70"
+    },
+    {
+      "message_id": 12130,
+      "filename": "2026 사회문화 강대K 4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/12130_2026.K.4.pdf",
+      "size_bytes": 6815806,
+      "telegram_date": "2025-08-13T00:24:33+00:00",
+      "title": "2026 사문 강대k 3회 4회 #사문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/12130.png",
+      "sha256": "ca5ccbed3d77523e5c82dee15799658fbd47344f4da23764edf6e9ec0e0ca4d9"
     }
   ],
   "duplicate_message_ids": [
