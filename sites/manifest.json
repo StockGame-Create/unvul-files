@@ -109297,6 +109297,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11835.png",
       "sha256": "0b7c922be267e49273f770a4c1017a1397107c6fd5d5c9430c91b61c3445c60e"
+    },
+    {
+      "message_id": 11834,
+      "filename": "[생명] 2025 The Great Final 01_250620_225447.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-8/11834_.2025.The.Great.Final.01_250620_225447.pdf",
+      "size_bytes": 11110949,
+      "telegram_date": "2025-08-11T17:06:04+00:00",
+      "title": "[생명] 2025 The Great Final 01_250620_225447",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11834.png",
+      "sha256": "5f3024e82ee4d6607c2be6cd3a80ebdc75aeb24baf5c0b038dea7d90a7eb610a"
     }
   ],
   "duplicate_message_ids": [
