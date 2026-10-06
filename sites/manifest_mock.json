@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 11395497729,
+      "source_key": "ab601122441cf7aa8c4f94faf88ab2af#01 성공적인 직업생활_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=ab601122441cf7aa8c4f94faf88ab2af",
+      "category": "평가원",
+      "filename": "01 성공적인 직업생활_정답.pdf",
+      "asset_name": "2026_m6_01_532d9b01aa.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2026_m6_01_532d9b01aa.pdf",
+      "size_bytes": 47921,
+      "telegram_date": "2026-10-06T08:59:21.018124+00:00",
+      "posted_date": "2026",
+      "title": "2026학년도 6월 모의평가 01 성공적인 직업생활_정답",
+      "year": "2025",
+      "year_shifted": true,
+      "exam": "6월 모의평가",
+      "instructor": "한국교육과정평가원",
+      "subject": "6월",
+      "kind": "정답",
+      "thumbnail": "thumbnails/11395497729.png",
+      "sha256": "4996eb1974b61711230e7f8ca8daba906a85b30f4be30ae4615f5a8a72fe774f"
+    },
+    {
       "message_id": 10441249782,
       "source_key": "df81bd94f411bddc0c77b44febaae9c0#06 인간 발달_문제.pdf",
       "source": "suneung.re.kr",
