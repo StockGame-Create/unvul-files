@@ -111803,6 +111803,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11634.png",
       "sha256": "b194f5d98c24fa745983f2cef649a1818829d5f9a262ed5fb0af80d357f08bfd"
+    },
+    {
+      "message_id": 11633,
+      "filename": "2026 백호 18 모의고사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11633_2026.18.pdf",
+      "size_bytes": 38287041,
+      "telegram_date": "2025-08-11T16:00:53+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11633.png",
+      "sha256": "4339393bf7b7a62ab26dbf42320db2481de13f33425c14399f1cbc4472e566fe"
     }
   ],
   "duplicate_message_ids": [
