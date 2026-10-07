@@ -99,6 +99,20 @@
       "sha256": "3b6432cffee9cd05485f3181b90cd3541d1a31c2db4fad08a21241409ca23a50"
     },
     {
+      "message_id": 25076,
+      "filename": "기출픽_세포와 물질대사_학생용.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25076_._._.pdf",
+      "size_bytes": 11267146,
+      "telegram_date": "2026-10-07T09:43:55+00:00",
+      "title": "과학 완자 기출픽 세포와 물질대사",
+      "year": null,
+      "instructor": null,
+      "subject": "과학",
+      "thumbnail": "thumbnails/25076.png",
+      "sha256": "aa2c78ea38bdcb0028a0645dce130faf88dbc799670c60916207b1661b00467c"
+    },
+    {
       "message_id": 25066,
       "filename": "강K 지구 17회.pdf",
       "stored_as": null,
