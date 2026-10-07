@@ -111551,6 +111551,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11669.png",
       "sha256": "4b056ead21f262c51c7d352ccff0bab05a7350eb3c39d284e7192f9cd9e8b92f"
+    },
+    {
+      "message_id": 11668,
+      "filename": "2026 LCS BLADE RUNNER 생명과학1 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11668_2026.LCS.BLADE.RUNNER.1.2.pdf",
+      "size_bytes": 9159562,
+      "telegram_date": "2025-08-11T16:00:56+00:00",
+      "title": "📚 2026 LCS BLADE RUNNER 생명과학1 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11668.png",
+      "sha256": "d48c0f6171127191bfec7266ffb2044e4ef39459659745c060c7e8fcf0126253"
     }
   ],
   "duplicate_message_ids": [
