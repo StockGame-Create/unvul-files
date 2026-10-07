@@ -113903,6 +113903,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11424.png",
       "sha256": "2f3c12c6a8736eb2dd2fe38b2e6442c8a9c004b48ef849c19bf4b425ee950999"
+    },
+    {
+      "message_id": 11423,
+      "filename": "매월승리_6호_해설_보정본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11423_._6._._.pdf",
+      "size_bytes": 368333787,
+      "telegram_date": "2025-08-11T15:59:26+00:00",
+      "title": "매월승리_6호_해설_보정본",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11423.png",
+      "sha256": "51be0665c8f56ae3ea261124504d0ff441633a9d816173624d477aa4865a57e7"
     }
   ],
   "duplicate_message_ids": [
