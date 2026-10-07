@@ -117445,6 +117445,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11113.png",
       "sha256": "bffebdb16e3f7d560e78a49749300923b9d4e17d69f61269ab8301bfe3670088"
+    },
+    {
+      "message_id": 11112,
+      "filename": "2026 시대인재 브릿지 물리학1 10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11112_2026.1.10.pdf",
+      "size_bytes": 31554594,
+      "telegram_date": "2025-08-11T15:58:02+00:00",
+      "title": "2026 시대인재 브릿지 물리학1 10회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11112.png",
+      "sha256": "442347e45ae84639fc3243d7b823dfab4f884208d6016437bbba2bd9311c7c8b"
     }
   ],
   "duplicate_message_ids": [
