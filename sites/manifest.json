@@ -112279,6 +112279,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11586.png",
       "sha256": "8282942bf7cb671d09f318a941da607db9fec3842557f50b3171eab70e2c3e73"
+    },
+    {
+      "message_id": 11585,
+      "filename": "간쓸개6_250612_221703.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11585_.6_250612_221703.pdf",
+      "size_bytes": 82854119,
+      "telegram_date": "2025-08-11T16:00:45+00:00",
+      "title": "간쓸개6_250612_221703",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11585.png",
+      "sha256": "a57ccf33d7570ea83b227532e29e8825907017872366323fcfa8fe99679b7703"
     }
   ],
   "duplicate_message_ids": [
