@@ -117977,6 +117977,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11063.png",
       "sha256": "1f6450921c1d85596e313861789723eb6f6bcfc3529d3b6e320aa0905ea9707d"
+    },
+    {
+      "message_id": 11062,
+      "filename": "2026_김범찬_모의고사_1회_250612_102845.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11062_2026_._._1._250612_102845.pdf",
+      "size_bytes": 9472397,
+      "telegram_date": "2025-08-11T15:57:57+00:00",
+      "title": "2026_김범찬_모의고사_1회_250612_102845",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11062.png",
+      "sha256": "ea26559198792c3564e5ac6cc6bec2f347b9569eafcca70da9458ed0a3e99aa8"
     }
   ],
   "duplicate_message_ids": [
