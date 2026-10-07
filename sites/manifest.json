@@ -118215,6 +118215,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11044.png",
       "sha256": "dbde8e020e4baed30ccf496cf5bf61a1ce61580b9b769540a0b0a51874fc162f"
+    },
+    {
+      "message_id": 11043,
+      "filename": "2026_지구과학I_서바이벌_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11043_2026_.I_._2.pdf",
+      "size_bytes": 1107873,
+      "telegram_date": "2025-08-11T15:57:56+00:00",
+      "title": "2026_지구과학I_서바이벌_2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11043.png",
+      "sha256": "c40abd21820c58a71cc41b48f17519df6385cc7abab1cd0948fffbe141d9021c"
     }
   ],
   "duplicate_message_ids": [
