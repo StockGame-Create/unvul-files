@@ -117613,6 +117613,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11100.png",
       "sha256": "219c9855f31241d5146bbbfc204a5a9ec99dc5a83ffb87fea8a408f390136c6d"
+    },
+    {
+      "message_id": 11095,
+      "filename": "한국지리_서바이벌_1회_문제+해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11095_._._1._.%2B.pdf",
+      "size_bytes": 11478923,
+      "telegram_date": "2025-08-11T15:58:02+00:00",
+      "title": "한국지리_서바이벌_1회_문제+해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11095.png",
+      "sha256": "e380d6550b739f61833023393b28998a32f0b905e438da2fb697c0c3c36b1a3a"
     }
   ],
   "duplicate_message_ids": [
