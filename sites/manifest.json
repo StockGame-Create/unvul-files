@@ -116031,6 +116031,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11266.png",
       "sha256": "2d7a8ab9a78f09a1d1774a07237b93b7aa2c3e2103816b8c5b0968a12c7012c0"
+    },
+    {
+      "message_id": 11265,
+      "filename": "생윤_시즌3_1주차_생윤_브릿지_서바.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11265_._.3_1._._._.pdf",
+      "size_bytes": 100346886,
+      "telegram_date": "2025-08-11T15:58:51+00:00",
+      "title": "생윤_시즌3_1주차_생윤_브릿지_서바",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11265.png",
+      "sha256": "2117878d055eda34f9e5a05bb166c8e707d38c1f575dd009a77df36499c80d4d"
     }
   ],
   "duplicate_message_ids": [
