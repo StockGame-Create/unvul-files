@@ -114099,6 +114099,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11422.png",
       "sha256": "5443f780fae1ab9290e06bd5e52e5e158d04e655731ea4ffea031bd8bcb1accb"
+    },
+    {
+      "message_id": 11421,
+      "filename": "방인혁 빅뱅모 시즌2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11421_.2.pdf",
+      "size_bytes": 10221894,
+      "telegram_date": "2025-08-11T15:59:26+00:00",
+      "title": "방인혁 빅뱅모 시즌2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11421.png",
+      "sha256": "ef042c717637fdb86781387e9353c3da5469f5defb1a1104e801c7eff22f02fc"
     }
   ],
   "duplicate_message_ids": [
