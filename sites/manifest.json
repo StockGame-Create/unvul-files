@@ -115709,6 +115709,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11297.png",
       "sha256": "0c55dcf6ad768736c91f7cd645d8ed6a23789043cc5a158b481c71598a103324"
+    },
+    {
+      "message_id": 11296,
+      "filename": "화잘주스 12주차 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11296_.12.1.pdf",
+      "size_bytes": 7943646,
+      "telegram_date": "2025-08-11T15:59:00+00:00",
+      "title": "화잘주스 12주차 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11296.png",
+      "sha256": "ab9c18fe3882202189be3930b3ba5183499af5fc75a92d4ebef308f49ed2f8e7"
     }
   ],
   "duplicate_message_ids": [
