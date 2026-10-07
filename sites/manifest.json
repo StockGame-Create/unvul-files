@@ -111187,6 +111187,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11709.png",
       "sha256": "4c4fc70f194a1e7868cbae54d04a40de0e973b2ff8e43ba1d4e51b1d73d5bb65"
+    },
+    {
+      "message_id": 11707,
+      "filename": "수학 OMEGA 6회 답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11707_.OMEGA.6.pdf",
+      "size_bytes": 8383212,
+      "telegram_date": "2025-08-11T16:01:00+00:00",
+      "title": "유빈 아카이브: @yubin2archive",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11707.png",
+      "sha256": "634f615f57012263cb5240a98b97aebbfff1acc304d875ac69868bcffa92f56a"
     }
   ],
   "duplicate_message_ids": [
