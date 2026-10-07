@@ -116647,6 +116647,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11203.png",
       "sha256": "0869bc33584e412b8b18deb89186674e016594878f16f84078f5907ba4b27110"
+    },
+    {
+      "message_id": 11202,
+      "filename": "2026 시대인재 물리학1 파이널 브릿지 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11202_2026.1.1.pdf",
+      "size_bytes": 23438840,
+      "telegram_date": "2025-08-11T15:58:45+00:00",
+      "title": "2026 시대인재 물리학1 파이널 브릿지 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11202.png",
+      "sha256": "bb6c7159f97268d537e7e59956bff6e892061dbb1e5c44e607246ada29b9bb0e"
     }
   ],
   "duplicate_message_ids": [
