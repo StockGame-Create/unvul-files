@@ -112055,6 +112055,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11610.png",
       "sha256": "79d93cbabf7a404b1f1b59370ad2d298a3d46982a2f42fb91dee3ce54360a940"
+    },
+    {
+      "message_id": 11609,
+      "filename": "2026 이신혁 모의평가 시즌2 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11609_2026.2.3.pdf",
+      "size_bytes": 6279552,
+      "telegram_date": "2025-08-11T16:00:47+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11609.png",
+      "sha256": "2304a6f0a0db69164e06c4f1b9daee3f064be1b898b66c1b16e0afad4360cc56"
     }
   ],
   "duplicate_message_ids": [
