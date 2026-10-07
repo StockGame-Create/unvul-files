@@ -116423,6 +116423,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11225.png",
       "sha256": "66b1b2607b97772835fa57072235968b72a08c1ffbf804d2a7993f6f3c1f4109"
+    },
+    {
+      "message_id": 11224,
+      "filename": "바탕 모의고사 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11224_.7.pdf",
+      "size_bytes": 22818683,
+      "telegram_date": "2025-08-11T15:58:47+00:00",
+      "title": "바탕 모의고사 7회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11224.png",
+      "sha256": "ae92d9a54e208b9199117e388b41f11b2ba6daceb3d963f92959d6f91f3f94d8"
     }
   ],
   "duplicate_message_ids": [
