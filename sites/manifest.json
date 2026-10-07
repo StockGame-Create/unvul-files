@@ -118299,6 +118299,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11037.png",
       "sha256": "8dce3198520221f4d663a43acdbf4bbc8590ca8768830112de7dbe88c0115015"
+    },
+    {
+      "message_id": 11036,
+      "filename": "2026 장재원 LOBBYIST 모의고사 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11036_2026.LOBBYIST.1.pdf",
+      "size_bytes": 331885,
+      "telegram_date": "2025-08-11T15:57:56+00:00",
+      "title": "2026 장재원 LOBBYIST 모의고사 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11036.png",
+      "sha256": "122a18f2cf58030dbf2701709d1cccc5bd2936df8bb6200dc36039dad8faf99e"
     }
   ],
   "duplicate_message_ids": [
