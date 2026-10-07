@@ -111607,6 +111607,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11665.png",
       "sha256": "33916f10c3e9dbd69566435dc0239e263bacbb283701c6a8fa8fbda29270bbcf"
+    },
+    {
+      "message_id": 11662,
+      "filename": "2026 강대 CIRCUIT 수학 23회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11662_2026.CIRCUIT.23.pdf",
+      "size_bytes": 1244178,
+      "telegram_date": "2025-08-11T16:00:55+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11662.png",
+      "sha256": "2e3af62136698e982ed43415cc49006cde8445ea8fd822972c607f141eebf394"
     }
   ],
   "duplicate_message_ids": [
