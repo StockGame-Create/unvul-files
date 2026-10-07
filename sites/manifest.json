@@ -111635,6 +111635,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11661.png",
       "sha256": "ceac13ba6d9b3a9a8fe320d2e5e3af7ec05b17ffd4aab9d532ab0d023c8770cb"
+    },
+    {
+      "message_id": 11659,
+      "filename": "2025_김범준_모의고사_112_합본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11659_2025_._._112_.pdf",
+      "size_bytes": 117203068,
+      "telegram_date": "2025-08-11T16:00:55+00:00",
+      "title": "📚 2025 김범준 모의고사 112 합본",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11659.png",
+      "sha256": "cde125d1574fd54dc4bd3e587255c0021fbe6fb0cfd5d327d1e2e93c83c389b7"
     }
   ],
   "duplicate_message_ids": [
