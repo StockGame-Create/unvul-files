@@ -113511,6 +113511,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11449.png",
       "sha256": "396984083780fd2bde091d3ed94e516a1cfcfdb5defb156773cae17a265ff305"
+    },
+    {
+      "message_id": 11448,
+      "filename": "강k 국어 4회_250628_152334.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11448_.k.4._250628_152334.pdf",
+      "size_bytes": 57294946,
+      "telegram_date": "2025-08-11T15:59:27+00:00",
+      "title": "강k 국어 4회_250628_152334",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11448.png",
+      "sha256": "3e3c2c694e756d56184fd40a83c2682bb3e872c18eb1e864f1dc3a7241bc089b"
     }
   ],
   "duplicate_message_ids": [
