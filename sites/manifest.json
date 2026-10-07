@@ -114085,6 +114085,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11423.png",
       "sha256": "51be0665c8f56ae3ea261124504d0ff441633a9d816173624d477aa4865a57e7"
+    },
+    {
+      "message_id": 11422,
+      "filename": "빅뱅모 시즌2 답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11422_.2.pdf",
+      "size_bytes": 3635674,
+      "telegram_date": "2025-08-11T15:59:26+00:00",
+      "title": "빅뱅모 시즌2 답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11422.png",
+      "sha256": "5443f780fae1ab9290e06bd5e52e5e158d04e655731ea4ffea031bd8bcb1accb"
     }
   ],
   "duplicate_message_ids": [
