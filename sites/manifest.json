@@ -111831,6 +111831,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11632.png",
       "sha256": "3a998e41b3e93923b97be10fd7c3c3b15e6fb26f7ec045227cb4e7fbddda07ce"
+    },
+    {
+      "message_id": 11631,
+      "filename": "기본 폴더 (2).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11631_.2.pdf",
+      "size_bytes": 36389169,
+      "telegram_date": "2025-08-11T16:00:53+00:00",
+      "title": "유빈 아카이브: @yubin2archive",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11631.png",
+      "sha256": "0caa5cae306cd8387fd8ae62d5f7683179eda750e9488af0c0670661205e4b7e"
     }
   ],
   "duplicate_message_ids": [
