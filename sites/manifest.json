@@ -117865,6 +117865,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11077.png",
       "sha256": "5dd041373f58f2816fc00cfe785a4f827b0cdb6d34c69b48a3aab9758bb41139"
+    },
+    {
+      "message_id": 11076,
+      "filename": "2025-공통수학2 (4)도형의 이동(level-5,6).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11076_2025-.2.4.level-5.6.pdf",
+      "size_bytes": 1206645,
+      "telegram_date": "2025-08-11T15:57:58+00:00",
+      "title": "2025-공통수학2 (4)도형의 이동(level-5,6)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11076.png",
+      "sha256": "306894e30e914b1552157f2d688727a3bef31e8856354cfec71a2ec0a2e8857e"
     }
   ],
   "duplicate_message_ids": [
