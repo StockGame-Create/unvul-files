@@ -113287,6 +113287,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11483.png",
       "sha256": "be90a84f7409e5c2ee59df74654bc35235fffae514a76d7a56d66fdc5fc98073"
+    },
+    {
+      "message_id": 11482,
+      "filename": "22 생2 3-7, 9, 10월례 (7회분).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11482_22.2.3-7.9.10.7.pdf",
+      "size_bytes": 20048195,
+      "telegram_date": "2025-08-11T16:00:39+00:00",
+      "title": "22 생2 3-7, 9, 10월례 (7회분)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11482.png",
+      "sha256": "80522bf0b11da19cb0bbadcd9fb1f636d9267db345957ad4ec694adb80061d3a"
     }
   ],
   "duplicate_message_ids": [
