@@ -111649,6 +111649,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11659.png",
       "sha256": "cde125d1574fd54dc4bd3e587255c0021fbe6fb0cfd5d327d1e2e93c83c389b7"
+    },
+    {
+      "message_id": 11658,
+      "filename": "특모2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11658_.2.pdf",
+      "size_bytes": 40778541,
+      "telegram_date": "2025-08-11T16:00:55+00:00",
+      "title": "📚 특모2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11658.png",
+      "sha256": "7406ca6fddc01c0cb3e8e78e73432067f11f03c45df618cf7fc9cfe434b5c496"
     }
   ],
   "duplicate_message_ids": [
