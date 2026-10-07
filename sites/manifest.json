@@ -117053,6 +117053,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11153.png",
       "sha256": "72b81ec2dd160862f25395630bd90c6b5091d89585c6013d93adb0a021538a69"
+    },
+    {
+      "message_id": 11152,
+      "filename": "2026 김현우T 파이널 1주차 수업자료.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11152_2026.T.1.pdf",
+      "size_bytes": 560282,
+      "telegram_date": "2025-08-11T15:58:10+00:00",
+      "title": "2026 김현우T 파이널 1주차 수업자료",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11152.png",
+      "sha256": "059907a6c0471698246285fc56d56bc5ed3dfbc0f62e272a7ce648aa4b7fb3a7"
     }
   ],
   "duplicate_message_ids": [
