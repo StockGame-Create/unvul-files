@@ -112111,6 +112111,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11606.png",
       "sha256": "8b1a8aca475457877b78a849cadfcede817fb42d492a6febf6bb0925c15dc40f"
+    },
+    {
+      "message_id": 11605,
+      "filename": "2026 장재원 LOBBYIST 모의고사 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11605_2026.LOBBYIST.3.pdf",
+      "size_bytes": 3511436,
+      "telegram_date": "2025-08-11T16:00:47+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11605.png",
+      "sha256": "4f0c89a8157eff84d947eebad1e3d0a7d20d776506e08f704a14bb031c5bea73"
     }
   ],
   "duplicate_message_ids": [
