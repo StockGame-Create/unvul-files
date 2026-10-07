@@ -113889,6 +113889,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11425.png",
       "sha256": "79360a6105b80145b13ecaaeb0cee4dfaa9c717717e6d0f976a5803e8e8881a7"
+    },
+    {
+      "message_id": 11424,
+      "filename": "2026 시대인재 화2 강준호 모의고사 10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11424_2026.2.10.pdf",
+      "size_bytes": 1210090,
+      "telegram_date": "2025-08-11T15:59:26+00:00",
+      "title": "2026 시대인재 화2 강준호 모의고사 10회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11424.png",
+      "sha256": "2f3c12c6a8736eb2dd2fe38b2e6442c8a9c004b48ef849c19bf4b425ee950999"
     }
   ],
   "duplicate_message_ids": [
