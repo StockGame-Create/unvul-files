@@ -112293,6 +112293,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11585.png",
       "sha256": "a57ccf33d7570ea83b227532e29e8825907017872366323fcfa8fe99679b7703"
+    },
+    {
+      "message_id": 11582,
+      "filename": "지구과학 엣지 vol1_250730_102058.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11582_.vol1_250730_102058.pdf",
+      "size_bytes": 138156477,
+      "telegram_date": "2025-08-11T16:00:45+00:00",
+      "title": "지구과학 엣지 vol1_250730_102058",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11582.png",
+      "sha256": "94c39cf654db3bf575b5cb9dd5d551d6a9a58c3b82bea6499bef5e32c8a2553d"
     }
   ],
   "duplicate_message_ids": [
