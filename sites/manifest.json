@@ -111257,6 +111257,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11699.png",
       "sha256": "d0b3cf97e5667630af1f2494253874183942a71b7be54c7199e6b96cb794e3e5"
+    },
+    {
+      "message_id": 11698,
+      "filename": "김젬마 실전모의고사 독서 1회 _250728_125010.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11698_.1._250728_125010.pdf",
+      "size_bytes": 4646547,
+      "telegram_date": "2025-08-11T16:01:00+00:00",
+      "title": "📚 김젬마 실전모의고사 독서 1회  250728 125010",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11698.png",
+      "sha256": "d8330efce8adfab7247794be493bb5e3957a732bf3313efa4444bdad1f57c9ad"
     }
   ],
   "duplicate_message_ids": [
