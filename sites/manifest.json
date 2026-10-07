@@ -113231,6 +113231,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11487.png",
       "sha256": "0aaeb32dae0f640ee84368a542dc48277afc1d8e1032b29611e221b23eedfdb7"
+    },
+    {
+      "message_id": 11486,
+      "filename": "22_생2_서바_1_8,_11_20,_23_24회_20회분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11486_22_.2_._1_8._11_20._23_24._20.pdf",
+      "size_bytes": 37431610,
+      "telegram_date": "2025-08-11T16:00:39+00:00",
+      "title": "22_생2_서바_1_8,_11_20,_23_24회_20회분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11486.png",
+      "sha256": "90f08a89fc2a5a100e83ffe1cced40deaa271398c8df33ba07ede81c84529af6"
     }
   ],
   "duplicate_message_ids": [
