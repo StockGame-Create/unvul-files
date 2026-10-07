@@ -113539,6 +113539,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11444.png",
       "sha256": "f60c18de869547f9eb23f6718a7e604804d664098396c3955a2245010dfb5657"
+    },
+    {
+      "message_id": 11443,
+      "filename": "2026_강대모의고사K_국어_1회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11443_2026_.K_._1._.pdf",
+      "size_bytes": 6715452,
+      "telegram_date": "2025-08-11T15:59:27+00:00",
+      "title": "2026_강대모의고사K_국어_1회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11443.png",
+      "sha256": "bf9df1b4247ede6fc8fb1689d20a392ab8c206df04e9f672ca391f738590ccb9"
     }
   ],
   "duplicate_message_ids": [
