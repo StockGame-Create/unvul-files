@@ -117277,6 +117277,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11131.png",
       "sha256": "7a1868941bf213ba3abf6fbec02177d8c953b6869799ea96c07addcc96559942"
+    },
+    {
+      "message_id": 11128,
+      "filename": "2026 조정식 월간조정식 7호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11128_2026.7.pdf",
+      "size_bytes": 154664120,
+      "telegram_date": "2025-08-11T15:58:04+00:00",
+      "title": "2026 조정식 월간조정식 7호",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11128.png",
+      "sha256": "268dfbefc5c30d065d778bbcbc7881005801cd42ae6fa818e8b643b45e8db41e"
     }
   ],
   "duplicate_message_ids": [
