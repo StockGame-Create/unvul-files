@@ -115849,6 +115849,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11284.png",
       "sha256": "af8ae0df7686ea1417cc423363e9a7da568e61d797bb664b17c1d514c596d928"
+    },
+    {
+      "message_id": 11283,
+      "filename": "퀴즈 13주차 해설 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11283_.13.1.pdf",
+      "size_bytes": 6775210,
+      "telegram_date": "2025-08-11T15:58:59+00:00",
+      "title": "퀴즈 13주차 해설 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11283.png",
+      "sha256": "230ec3205759bc3cabf057b19ee030be5be6a31b219de861b339611f101e165c"
     }
   ],
   "duplicate_message_ids": [
