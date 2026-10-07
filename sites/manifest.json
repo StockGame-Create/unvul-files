@@ -115037,6 +115037,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11328.png",
       "sha256": "a8ff116541a14d730cd61d4d919dc57ffd3697c2f3910501df15a54657b47141"
+    },
+    {
+      "message_id": 11327,
+      "filename": "2026 지구과학 파이널 전국 브릿지 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11327_2026.1.pdf",
+      "size_bytes": 21735148,
+      "telegram_date": "2025-08-11T15:59:01+00:00",
+      "title": "2026 지구과학 파이널 전국 브릿지 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11327.png",
+      "sha256": "c00656c6646749ad02e51ff82bcbf6214955da8fdd071c925f914e2f9445a7c1"
     }
   ],
   "duplicate_message_ids": [
