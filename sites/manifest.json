@@ -114981,6 +114981,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11337.png",
       "sha256": "6944cf31391770764fb90a994d05988e75b99f9e9c2693de1b3cf014de6e83a6"
+    },
+    {
+      "message_id": 11332,
+      "filename": "에펙 5,6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11332_.5.6.pdf",
+      "size_bytes": 11143615,
+      "telegram_date": "2025-08-11T15:59:01+00:00",
+      "title": "에펙 5,6회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11332.png",
+      "sha256": "69bb403750b095c538205b26b4074d9b9c258f8e5dcea897d2abe4c6a39f99b4"
     }
   ],
   "duplicate_message_ids": [
