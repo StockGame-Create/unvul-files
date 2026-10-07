@@ -112167,6 +112167,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11595.png",
       "sha256": "a898a93ef76d51b2fd09d5a60f4ff507652a44a16367656f60199eee2bfe164e"
+    },
+    {
+      "message_id": 11593,
+      "filename": "2026 시대인재 REVIVAL 생활과 윤리 03.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11593_2026.REVIVAL.03.pdf",
+      "size_bytes": 112399479,
+      "telegram_date": "2025-08-11T16:00:46+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11593.png",
+      "sha256": "4c03ac10497dc8bbadcfc1c9ba0043d09937f639233114b7ee0dffd3da1dbac8"
     }
   ],
   "duplicate_message_ids": [
