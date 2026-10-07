@@ -117039,6 +117039,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11154.png",
       "sha256": "fa049f2fb766b052eb8601d6b26c71f4d757f5773374e88819a2e35d4df1d2b1"
+    },
+    {
+      "message_id": 11153,
+      "filename": "2026_김현우T_파이널_수업안내9평_전까지_라이브.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11153_2026_.T_._.9._._.pdf",
+      "size_bytes": 22840,
+      "telegram_date": "2025-08-11T15:58:10+00:00",
+      "title": "2026_김현우T_파이널_수업안내9평_전까지_라이브",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11153.png",
+      "sha256": "72b81ec2dd160862f25395630bd90c6b5091d89585c6013d93adb0a021538a69"
     }
   ],
   "duplicate_message_ids": [
