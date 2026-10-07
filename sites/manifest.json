@@ -114771,6 +114771,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11358.png",
       "sha256": "bb06ba599eebb020665c0217c1ddcdba54b68749f5bfad30e59ecc316f6d5288"
+    },
+    {
+      "message_id": 11356,
+      "filename": "2026 강준호 화잘주스 화학2 4주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11356_2026.2.4.pdf",
+      "size_bytes": 31559915,
+      "telegram_date": "2025-08-11T15:59:03+00:00",
+      "title": "2026 강준호 화잘주스 화학2 4주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11356.png",
+      "sha256": "afaa6614ef6580a6edc77ab042101b032167e333e1953262616e363e4a115bb6"
     }
   ],
   "duplicate_message_ids": [
