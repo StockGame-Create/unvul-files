@@ -117543,6 +117543,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11106.png",
       "sha256": "b47f991fdb6b286c3747eed34163c76af33b463ac95569c3f9d37c5aa04a37ba"
+    },
+    {
+      "message_id": 11105,
+      "filename": "2026 시대인재 ATG 물리학1 01.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11105_2026.ATG.1.01.pdf",
+      "size_bytes": 89614532,
+      "telegram_date": "2025-08-11T15:58:02+00:00",
+      "title": "2026 시대인재 ATG 물리학1 01",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11105.png",
+      "sha256": "802347d0a4ef67218edc11c55e56b5f13cc7b689fc9fd7bedc270f5c19531b69"
     }
   ],
   "duplicate_message_ids": [
