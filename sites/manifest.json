@@ -116815,6 +116815,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11188.png",
       "sha256": "ec2dec920aff02d54612dfc70584e3e2c39f9f10b5c00ccc1e2cb16fd814bb9d"
+    },
+    {
+      "message_id": 11185,
+      "filename": "2026 시대인재 생명과학1 Lcs cutting edge 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11185_2026.1.Lcs.cutting.edge.1.pdf",
+      "size_bytes": 14661700,
+      "telegram_date": "2025-08-11T15:58:45+00:00",
+      "title": "2026 시대인재 생명과학1 Lcs cutting edge 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11185.png",
+      "sha256": "8372313e98f1a2ca72199932955137a0fd2ae553fa1d3cd2c4236454e3bfff9d"
     }
   ],
   "duplicate_message_ids": [
