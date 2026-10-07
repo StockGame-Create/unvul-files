@@ -113595,6 +113595,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11440.png",
       "sha256": "7bc1329e89a94626b661eae4c4bbd0e97795f057c8b541c9501d86101e8e631c"
+    },
+    {
+      "message_id": 11439,
+      "filename": "2026_강대모의고사K_국어_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11439_2026_.K_._2.pdf",
+      "size_bytes": 4188920,
+      "telegram_date": "2025-08-11T15:59:27+00:00",
+      "title": "2026_강대모의고사K_국어_2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11439.png",
+      "sha256": "5063d334fb3e6ffab0a535e93b9b5da92b29c02b698d261aa239a33265c5ab46"
     }
   ],
   "duplicate_message_ids": [
