@@ -111565,6 +111565,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11668.png",
       "sha256": "d48c0f6171127191bfec7266ffb2044e4ef39459659745c060c7e8fcf0126253"
+    },
+    {
+      "message_id": 11667,
+      "filename": "2026 LCS CUTTING EDGE 생명과학1 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11667_2026.LCS.CUTTING.EDGE.1.2.pdf",
+      "size_bytes": 9039496,
+      "telegram_date": "2025-08-11T16:00:55+00:00",
+      "title": "📚 2026 LCS CUTTING EDGE 생명과학1 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11667.png",
+      "sha256": "da0d3d1854a84158e0c59022746d576fd8bbd6571eb7f4ddfa9ef9fdb58cae67"
     }
   ],
   "duplicate_message_ids": [
