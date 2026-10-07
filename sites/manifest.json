@@ -114113,6 +114113,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11421.png",
       "sha256": "ef042c717637fdb86781387e9353c3da5469f5defb1a1104e801c7eff22f02fc"
+    },
+    {
+      "message_id": 11418,
+      "filename": "2026 정석민 비문학 원리와 실전.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11418_2026.pdf",
+      "size_bytes": 50752927,
+      "telegram_date": "2025-08-11T15:59:26+00:00",
+      "title": "2026 정석민 비문학 원리와 실전",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11418.png",
+      "sha256": "920128645028f085d1fdf92375f2fa7046331d716d575e08a73ca9ddeea6b959"
     }
   ],
   "duplicate_message_ids": [
