@@ -127,6 +127,20 @@
       "sha256": "15eec1be41b857d1f61e556f125bc008323edac0d09c103b9c2a473edf265373"
     },
     {
+      "message_id": 25071,
+      "filename": "이미지_모의고사_시즌_3_1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25071_._._._3_1.pdf",
+      "size_bytes": 13414179,
+      "telegram_date": "2026-10-07T09:43:48+00:00",
+      "title": "수학 이미지 모의고사 시즌3 1회",
+      "year": "2027",
+      "instructor": "이미지",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25071.png",
+      "sha256": "da1a34c6a005000fa3db2ca266bef1ec5ab3623522f086c1b09a7246b2e1b5f2"
+    },
+    {
       "message_id": 25066,
       "filename": "강K 지구 17회.pdf",
       "stored_as": null,
