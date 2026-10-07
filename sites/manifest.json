@@ -117725,6 +117725,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11088.png",
       "sha256": "1f278c8a66fd12230f13be1e909b5682ecec9042c53638eb2c61729cd429e098"
+    },
+    {
+      "message_id": 11087,
+      "filename": "2026 7월 더 프리미엄 국어.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11087_2026.7.pdf",
+      "size_bytes": 23405347,
+      "telegram_date": "2025-08-11T15:57:59+00:00",
+      "title": "2026 7월 더 프리미엄 국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11087.png",
+      "sha256": "49a85b72a48d26eb2f57165f4c46e60985566dc4ada261b2a112f02e1b6e13d4"
     }
   ],
   "duplicate_message_ids": [
