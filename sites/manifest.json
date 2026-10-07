@@ -114659,6 +114659,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11368.png",
       "sha256": "94ae6016d35a7e8783b25f694579b4e6fc7a0138c11d62ead25891a1ae29933e"
+    },
+    {
+      "message_id": 11367,
+      "filename": "26 허들링 공통 4주차 본교재.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11367_26.4.pdf",
+      "size_bytes": 92568055,
+      "telegram_date": "2025-08-11T15:59:06+00:00",
+      "title": "26 허들링 공통 4주차 본교재",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11367.png",
+      "sha256": "c3063d88acb17ddc67758d256c1dc3c958ecb6082a8c281f33f89eed3d4d3fe8"
     }
   ],
   "duplicate_message_ids": [
