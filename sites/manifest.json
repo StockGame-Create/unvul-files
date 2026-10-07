@@ -111355,6 +111355,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11690.png",
       "sha256": "d1ea89957297e566214e3cec0613f45d79bc5db37cbbe7d7332bc4c30a7c8365"
+    },
+    {
+      "message_id": 11689,
+      "filename": "2024 브릿지 화1 17_18회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11689_2024.1.17_18.pdf",
+      "size_bytes": 4535774,
+      "telegram_date": "2025-08-11T16:00:59+00:00",
+      "title": "📚 2024 브릿지 화1 17 18회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11689.png",
+      "sha256": "b389064016a5e6b4a89849ae0b5c1a73e119e21ceed955289f0be6cd6e46a202"
     }
   ],
   "duplicate_message_ids": [
