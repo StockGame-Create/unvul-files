@@ -113315,6 +113315,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11476.png",
       "sha256": "3cb40eb02c6debe5fe290c4dde35fc16383c2a054af89b37be69df35b6d03321"
+    },
+    {
+      "message_id": 11475,
+      "filename": "김젬마 실전 모의고사 문학 2회_250725_182607.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11475_.2._250725_182607.pdf",
+      "size_bytes": 1689287,
+      "telegram_date": "2025-08-11T16:00:38+00:00",
+      "title": "김젬마 실전 모의고사 문학 2회_250725_182607",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11475.png",
+      "sha256": "607a52ad065047502d3d37b5103cb61d143b28d3d37358ee535933a1717469c8"
     }
   ],
   "duplicate_message_ids": [
