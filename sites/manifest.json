@@ -57,6 +57,20 @@
       "sha256": "decdb89507f06ccb28d0a452a56bd8f3d17e0dab8f3c1b905ef2ae1296c56150"
     },
     {
+      "message_id": 25081,
+      "filename": "하프 모의고사 4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25081_.4.pdf",
+      "size_bytes": 13280181,
+      "telegram_date": "2026-10-07T09:43:58+00:00",
+      "title": "지1 이신혁 하프 모의고사 4회",
+      "year": "2027",
+      "instructor": "이신혁",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25081.png",
+      "sha256": "066f1b19339e87373bda314c11c3026c6fe48ad7b5cc18ddaa52198936fd3812"
+    },
+    {
       "message_id": 25066,
       "filename": "강K 지구 17회.pdf",
       "stored_as": null,
