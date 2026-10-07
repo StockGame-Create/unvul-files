@@ -113483,6 +113483,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11453.png",
       "sha256": "bd0321e86cf0bb016ae1287d82b46bfd8f0a719dda42e4bbb5a405dfa4911b56"
+    },
+    {
+      "message_id": 11452,
+      "filename": "2025 화2 브릿지 1~7회 정답과 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11452_2025.2.1.7.pdf",
+      "size_bytes": 8515645,
+      "telegram_date": "2025-08-11T15:59:27+00:00",
+      "title": "2025 화2 브릿지 1~7회 정답과 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11452.png",
+      "sha256": "3de0593451b47d5b1fcf0ec89134cdd44e2881ff191a1ae13a1e948e786c1475"
     }
   ],
   "duplicate_message_ids": [
