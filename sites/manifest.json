@@ -112727,6 +112727,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11540.png",
       "sha256": "5e9a7441f9441c062affdada21545d631e2a1d3ee3809e7dc47e38ec2d0d19dd"
+    },
+    {
+      "message_id": 11538,
+      "filename": "2026 OMEGA 수학 6회 신성규 연구실 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11538_2026.OMEGA.6.pdf",
+      "size_bytes": 6450839,
+      "telegram_date": "2025-08-11T16:00:42+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11538.png",
+      "sha256": "f6001fae9a8ef7dd449ce637550f0ce7306c3537a2c0e1b0faa40376cba26403"
     }
   ],
   "duplicate_message_ids": [
