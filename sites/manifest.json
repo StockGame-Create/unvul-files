@@ -114211,6 +114211,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11411.png",
       "sha256": "4885665f95a533597eea5f7956b631962ca4048abffa129201da12ec20cedf99"
+    },
+    {
+      "message_id": 11410,
+      "filename": "브릿지 5회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11410_.5.pdf",
+      "size_bytes": 6552320,
+      "telegram_date": "2025-08-11T15:59:25+00:00",
+      "title": "브릿지 5회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11410.png",
+      "sha256": "3ae9ab9e16f64ef1e2eb8cf7636d7384489d06c1fff15ae64ba14c503f0eda7d"
     }
   ],
   "duplicate_message_ids": [
