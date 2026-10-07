@@ -111705,6 +111705,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11654.png",
       "sha256": "7e0187b9d6e10543ff40992ebce79b9bbb3b3022717543ab439fce81e26efe6a"
+    },
+    {
+      "message_id": 11653,
+      "filename": "2026 시대인재 화학1 브릿지 전국 10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11653_2026.1.10.pdf",
+      "size_bytes": 9234321,
+      "telegram_date": "2025-08-11T16:00:55+00:00",
+      "title": "📚 2026 시대인재 화학1 브릿지 전국 10회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11653.png",
+      "sha256": "100d8af4e8201f3c348838b7d188f12fd12453ae8ed39bddf506cb8b2395c233"
     }
   ],
   "duplicate_message_ids": [
