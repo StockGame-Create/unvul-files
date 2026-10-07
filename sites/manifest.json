@@ -116871,6 +116871,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11168.png",
       "sha256": "f9daccbef43d7cf571231409a72e32d4bdce73241f70dc979562bb60381c0a73"
+    },
+    {
+      "message_id": 11167,
+      "filename": "2026_시대인재_서바이벌_전국_사회문화_1회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11167_2026_._._._._1._.pdf",
+      "size_bytes": 20282097,
+      "telegram_date": "2025-08-11T15:58:10+00:00",
+      "title": "2026_시대인재_서바이벌_전국_사회문화_1회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11167.png",
+      "sha256": "15cd767e1b24ae66196f374a61b08b5287ac78bbc4cb0662290cb46d9a6ccf3a"
     }
   ],
   "duplicate_message_ids": [
