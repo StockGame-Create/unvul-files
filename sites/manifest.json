@@ -117123,6 +117123,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11146.png",
       "sha256": "7fc31e29f67366eeead04f9f2aeb31780209907b398c56470646519fc61c1e46"
+    },
+    {
+      "message_id": 11145,
+      "filename": "2026 대성마이맥 강대모의고사X 시즌1 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11145_2026.X.1.2.pdf",
+      "size_bytes": 46634306,
+      "telegram_date": "2025-08-11T15:58:05+00:00",
+      "title": "2026 대성마이맥 강대모의고사X 시즌1 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11145.png",
+      "sha256": "ec1b1c1319cfa96444fcb7198d53e4ef4c3c9b51157ab2d2f208866270a5ef97"
     }
   ],
   "duplicate_message_ids": [
