@@ -116101,6 +116101,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11260.png",
       "sha256": "43d0942b0c13ceaa6e081a3cb9a560a53bd4cd5f43baf288d994a8c4f3d75c25"
+    },
+    {
+      "message_id": 11257,
+      "filename": "현돌모_시즌1_1회_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11257_._.1_1._.pdf",
+      "size_bytes": 6550988,
+      "telegram_date": "2025-08-11T15:58:51+00:00",
+      "title": "현돌모_시즌1_1회_문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11257.png",
+      "sha256": "3266d94edfe133393e87596f8bc61114f35bf80795a624f6f62def36c6032acc"
     }
   ],
   "duplicate_message_ids": [
