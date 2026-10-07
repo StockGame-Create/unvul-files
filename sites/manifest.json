@@ -113553,6 +113553,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11443.png",
       "sha256": "bf9df1b4247ede6fc8fb1689d20a392ab8c206df04e9f672ca391f738590ccb9"
+    },
+    {
+      "message_id": 11442,
+      "filename": "2026_강대모의고사K_국어_3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11442_2026_.K_._3.pdf",
+      "size_bytes": 5920867,
+      "telegram_date": "2025-08-11T15:59:27+00:00",
+      "title": "2026_강대모의고사K_국어_3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11442.png",
+      "sha256": "fb47db5d160f3e5130cc8d7c2b2036d98b7c5c25b78f4c2844b8246b976ef541"
     }
   ],
   "duplicate_message_ids": [
