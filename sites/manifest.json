@@ -111873,6 +111873,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11629.png",
       "sha256": "c83b56ba3041113c025fd0c8e096fd43d027311a36144561c4655468a84d86d2"
+    },
+    {
+      "message_id": 11627,
+      "filename": "2026_신택스_이명학_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11627_2026_._._.pdf",
+      "size_bytes": 31313391,
+      "telegram_date": "2025-08-11T16:00:53+00:00",
+      "title": "유빈 아카이브: @yubin2archive",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11627.png",
+      "sha256": "0b5f61dff4c7a2957a44d8f3cfc4b8dbcdbab4538de8058cd56f85f33af15eda"
     }
   ],
   "duplicate_message_ids": [
