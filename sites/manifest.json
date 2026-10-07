@@ -113455,6 +113455,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11456.png",
       "sha256": "283dd6200d8bc1acd81d65b39b501cdb407f3a83830be4fc5a04072c6dce4f0f"
+    },
+    {
+      "message_id": 11455,
+      "filename": "2025 화2 브릿지 8~11회 정답과 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11455_2025.2.8.11.pdf",
+      "size_bytes": 5055554,
+      "telegram_date": "2025-08-11T15:59:30+00:00",
+      "title": "2025 화2 브릿지 8~11회 정답과 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11455.png",
+      "sha256": "35311069baa8575ec6526e06d747489d2dd473fbf19544e1bdc9ca715ec7bde7"
     }
   ],
   "duplicate_message_ids": [
