@@ -113091,6 +113091,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11511.png",
       "sha256": "5474ab3df9b2f7033ab8921c3710663825ea6573dd2719d1e7c30820e5c37014"
+    },
+    {
+      "message_id": 11510,
+      "filename": "2026 정석민 문학 상황 추론 하드코어.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11510_2026.pdf",
+      "size_bytes": 44251664,
+      "telegram_date": "2025-08-11T16:00:40+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11510.png",
+      "sha256": "5e25cac27e31df5fc14d2c6246bdd1f92d3339db28a2c385c20a87b512b93ee4"
     }
   ],
   "duplicate_message_ids": [
