@@ -15,6 +15,20 @@
       "sha256": "a893f0ecc39b9c750180c09b00f92025cf20a6d3a51d0261c949296e5e2fed57"
     },
     {
+      "message_id": 25087,
+      "filename": "김민정 모의고사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25087_.pdf",
+      "size_bytes": 214535702,
+      "telegram_date": "2026-10-07T09:44:05+00:00",
+      "title": "국어 김민정 모의고사 1~3회",
+      "year": "2027",
+      "instructor": "김민정",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25087.png",
+      "sha256": "26b8021d258f6943262c16f477f7457afccc8f9634abfc96fd1556a7c93df26b"
+    },
+    {
       "message_id": 25066,
       "filename": "강K 지구 17회.pdf",
       "stored_as": null,
