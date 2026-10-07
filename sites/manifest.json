@@ -112531,6 +112531,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11554.png",
       "sha256": "145ed80f44719f3049ec1ab16610c724a1823fd93069e2a53e960d09bb73b1b3"
+    },
+    {
+      "message_id": 11553,
+      "filename": "해설 생2 엑셀3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11553_.2.3.pdf",
+      "size_bytes": 4727963,
+      "telegram_date": "2025-08-11T16:00:44+00:00",
+      "title": "해설 생2 엑셀3",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11553.png",
+      "sha256": "0374372912b6801753ff453ecfbe08b029dca3114ef0cac1c723aedf2cc2fac8"
     }
   ],
   "duplicate_message_ids": [
