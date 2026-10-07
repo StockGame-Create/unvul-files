@@ -117627,6 +117627,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11095.png",
       "sha256": "e380d6550b739f61833023393b28998a32f0b905e438da2fb697c0c3c36b1a3a"
+    },
+    {
+      "message_id": 11094,
+      "filename": "윤도영 에펙 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11094_.3.pdf",
+      "size_bytes": 3791049,
+      "telegram_date": "2025-08-11T15:58:02+00:00",
+      "title": "윤도영 에펙 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11094.png",
+      "sha256": "1a0f6da2256f95de79fcf5b406445b29bca07946f3fd282f9c4edb257d8dd53b"
     }
   ],
   "duplicate_message_ids": [
