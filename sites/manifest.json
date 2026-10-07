@@ -112349,6 +112349,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11578.png",
       "sha256": "9a937468300c6301a7752ed6f4ed5aefdef71e8cb6fa5d230e1df88210b8202c"
+    },
+    {
+      "message_id": 11576,
+      "filename": "[화작,해설]_이감5-3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11576_._.5-3.pdf",
+      "size_bytes": 38611044,
+      "telegram_date": "2025-08-11T16:00:45+00:00",
+      "title": "[화작,해설]_이감5-3",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11576.png",
+      "sha256": "8d7a2a97cd08c571b3eecf07a26e6d073f3af4e2eab835144635d4efd95396e5"
     }
   ],
   "duplicate_message_ids": [
