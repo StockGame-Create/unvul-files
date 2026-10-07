@@ -118229,6 +118229,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11043.png",
       "sha256": "c40abd21820c58a71cc41b48f17519df6385cc7abab1cd0948fffbe141d9021c"
+    },
+    {
+      "message_id": 11042,
+      "filename": "2025_CG모의고사_한국지리_1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11042_2025_CG._._1.pdf",
+      "size_bytes": 22015373,
+      "telegram_date": "2025-08-11T15:57:56+00:00",
+      "title": "2025_CG모의고사_한국지리_1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11042.png",
+      "sha256": "d56f77495030cc685a599a0f8c5f255bc6efc453cdb45013e8a8c1578c6c280c"
     }
   ],
   "duplicate_message_ids": [
