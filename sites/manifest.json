@@ -113385,6 +113385,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11471.png",
       "sha256": "3af371ed49d9bf0d514b587e9a6edfc5296558e9c5f8fcbdd9e86ccbcbed9ad1"
+    },
+    {
+      "message_id": 11466,
+      "filename": "2026_이기상_이것이_알짜기출이다_한지_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11466_2026_._._._._.pdf",
+      "size_bytes": 376271416,
+      "telegram_date": "2025-08-11T15:59:31+00:00",
+      "title": "2026_이기상_이것이_알짜기출이다_한지_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11466.png",
+      "sha256": "ea3995fa38e968d945045ea661cf3f393e4032d4bf99e35dc3bf9ec2b5e4163d"
     }
   ],
   "duplicate_message_ids": [
