@@ -111593,6 +111593,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11666.png",
       "sha256": "eb294371978dc0f3056ca42fc6c79a9624e54c0b0e5ce7cdc9808a4864cc425b"
+    },
+    {
+      "message_id": 11665,
+      "filename": "2026 강대모의고사K 화학1 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11665_2026.K.1.6.pdf",
+      "size_bytes": 1230486,
+      "telegram_date": "2025-08-11T16:00:55+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11665.png",
+      "sha256": "33916f10c3e9dbd69566435dc0239e263bacbb283701c6a8fa8fbda29270bbcf"
     }
   ],
   "duplicate_message_ids": [
