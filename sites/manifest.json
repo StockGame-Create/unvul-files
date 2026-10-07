@@ -115947,6 +115947,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11276.png",
       "sha256": "a56b9a221b17bd3c20f0c03bcf4ac7c89ef466e6aa70c6191fb225e78414f60e"
+    },
+    {
+      "message_id": 11274,
+      "filename": "퀴즈 4주차 해설 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11274_.4.1.pdf",
+      "size_bytes": 1594190,
+      "telegram_date": "2025-08-11T15:58:52+00:00",
+      "title": "퀴즈 4주차 해설 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11274.png",
+      "sha256": "080a8734268fcec04c550565e6e8222dc1124e1d191324ab6495d01dbf7a40fc"
     }
   ],
   "duplicate_message_ids": [
