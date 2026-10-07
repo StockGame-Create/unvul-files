@@ -113623,6 +113623,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11438.png",
       "sha256": "263d3c44558e6649ec271a4332628d22396924e583acd0362afabe0d05488167"
+    },
+    {
+      "message_id": 11437,
+      "filename": "김현우_스탠_서브모_1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11437_._._._1.pdf",
+      "size_bytes": 3206622,
+      "telegram_date": "2025-08-11T15:59:27+00:00",
+      "title": "김현우_스탠_서브모_1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11437.png",
+      "sha256": "bad085ff3c50ea62f8d50683a9c84c126b102c841729ff5bb1ed6f8e8bf49c31"
     }
   ],
   "duplicate_message_ids": [
