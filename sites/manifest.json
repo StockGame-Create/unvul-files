@@ -111733,6 +111733,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11652.png",
       "sha256": "e44dbd300b72eb63a3f1fcc48d996fb521bd6c3bd91d5251478e83631b3143fb"
+    },
+    {
+      "message_id": 11646,
+      "filename": "2025 수학 김범준 김범준 모의고사 9회 .pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11646_2025.9.pdf",
+      "size_bytes": 1667739,
+      "telegram_date": "2025-08-11T16:00:54+00:00",
+      "title": "📚 2025 수학 김범준 김범준 모의고사 9회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11646.png",
+      "sha256": "36fcbba9cb06f3c599c782f20d424261047cf37e97349b23f0a3a6e83c87d23f"
     }
   ],
   "duplicate_message_ids": [
