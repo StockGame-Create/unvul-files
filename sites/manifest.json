@@ -117753,6 +117753,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11086.png",
       "sha256": "f5359d33960301012d5fecb7d5aacb0325b2ce4c76f17a2c2f629e36d7ddf6cb"
+    },
+    {
+      "message_id": 11085,
+      "filename": "한국지리_파이널_브릿지_1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11085_._._._1.pdf",
+      "size_bytes": 6677079,
+      "telegram_date": "2025-08-11T15:57:59+00:00",
+      "title": "한국지리_파이널_브릿지_1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11085.png",
+      "sha256": "38fc96591e584fc299076872610cad0a8069a5c2b18d8215ec56b577a4f2c471"
     }
   ],
   "duplicate_message_ids": [
