@@ -114575,6 +114575,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11374.png",
       "sha256": "7b369d5ce74e960830d38e8d50fba71543fab96e2c68725e965e18a2bf327974"
+    },
+    {
+      "message_id": 11373,
+      "filename": "허들링_공통_6주차_본교재.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11373_._._6._.pdf",
+      "size_bytes": 78505563,
+      "telegram_date": "2025-08-11T15:59:06+00:00",
+      "title": "허들링_공통_6주차_본교재",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11373.png",
+      "sha256": "71211bf2c6222ff5dba124f1f8b7b6212811a2c290299a1793d03e672ae64f64"
     }
   ],
   "duplicate_message_ids": [
