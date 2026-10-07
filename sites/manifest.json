@@ -118187,6 +118187,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11048.png",
       "sha256": "74a531d1a77d6eb9ac46d675995ff62ccd4eeddc81647ca421b6fcf2f5bce849"
+    },
+    {
+      "message_id": 11045,
+      "filename": "지구과학 서바 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11045_.1.pdf",
+      "size_bytes": 31715466,
+      "telegram_date": "2025-08-11T15:57:56+00:00",
+      "title": "지구과학 서바 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11045.png",
+      "sha256": "6ec449372dbd79deba7d41d14e0f65b355c7cf7e8ef3d6a2cf8f55ae9e2fc359"
     }
   ],
   "duplicate_message_ids": [
