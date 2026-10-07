@@ -118075,6 +118075,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11056.png",
       "sha256": "03c6aa396f6f72c33abd7837207e5e6e103f294f96a7a8a0c4e2a21e2eaa6560"
+    },
+    {
+      "message_id": 11055,
+      "filename": "2026 김상훈 시즌4 모의고사 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11055_2026.4.1.pdf",
+      "size_bytes": 4214702,
+      "telegram_date": "2025-08-11T15:57:57+00:00",
+      "title": "2026 김상훈 시즌4 모의고사 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11055.png",
+      "sha256": "fa618c20b8453e23ceeeb5bbdb2a9dc05c71be1d39ed438016e826d6a463ff85"
     }
   ],
   "duplicate_message_ids": [
