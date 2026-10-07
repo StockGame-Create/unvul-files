@@ -114827,6 +114827,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11352.png",
       "sha256": "c7881283acf30f276416fd5f6d12a405ab61af0c7e2d3ec92e31d4629d7573af"
+    },
+    {
+      "message_id": 11351,
+      "filename": "2026 시대인재 서바이벌 국어 3회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11351_2026.3.pdf",
+      "size_bytes": 17222453,
+      "telegram_date": "2025-08-11T15:59:02+00:00",
+      "title": "2026 시대인재 서바이벌 국어 3회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11351.png",
+      "sha256": "1d39f0876499abaea8f411a2ccf9fc5e0b3a88f382500f518493cd6065bddb23"
     }
   ],
   "duplicate_message_ids": [
