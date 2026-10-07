@@ -113105,6 +113105,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11510.png",
       "sha256": "5e25cac27e31df5fc14d2c6246bdd1f92d3339db28a2c385c20a87b512b93ee4"
+    },
+    {
+      "message_id": 11503,
+      "filename": "2026_물리1_현정훈_스프린트_스팀팩_1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11503_2026_.1_._._._1.pdf",
+      "size_bytes": 37738597,
+      "telegram_date": "2025-08-11T16:00:40+00:00",
+      "title": "📚 2026 물리1 현정훈 스프린트 스팀팩 1권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11503.png",
+      "sha256": "fb337fbc4a315e29e4088a6527a15fef4c08621af65903b0317bc7034b3a94f2"
     }
   ],
   "duplicate_message_ids": [
