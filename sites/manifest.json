@@ -113343,6 +113343,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11474.png",
       "sha256": "56efbbadfd3e9a98e4d38991f878dd4b494a48fbe3717498715ea793897491c2"
+    },
+    {
+      "message_id": 11473,
+      "filename": "2025 화2 서바 1-12, 15, 16회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11473_2025.2.1-12.15.16.pdf",
+      "size_bytes": 60598499,
+      "telegram_date": "2025-08-11T16:00:38+00:00",
+      "title": "2025 화2 서바 1-12, 15, 16회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11473.png",
+      "sha256": "0aba6b1321e1d5732e11756d47aa304a14f91a4e89e1618309c2d097c1cd3459"
     }
   ],
   "duplicate_message_ids": [
