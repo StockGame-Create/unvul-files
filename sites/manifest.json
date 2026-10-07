@@ -116703,6 +116703,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11197.png",
       "sha256": "066ea0bf12cbb9cf5ed4a4da54c2f7ab48c89e4e9c99d9d5b3b9f635b83bdbe9"
+    },
+    {
+      "message_id": 11196,
+      "filename": "2026 시대인재 서바이벌 생명과학1 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11196_2026.1.1.pdf",
+      "size_bytes": 9329954,
+      "telegram_date": "2025-08-11T15:58:45+00:00",
+      "title": "2026 시대인재 서바이벌 생명과학1 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11196.png",
+      "sha256": "65f400006dc9f7593b4d3904ec711c224f550ad83c1d21833e1c273d7241e7c2"
     }
   ],
   "duplicate_message_ids": [
