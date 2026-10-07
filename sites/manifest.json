@@ -114407,6 +114407,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11390.png",
       "sha256": "90ab67138a4b8561bb162954a14880a8a691e6d544695e110c8b6da1603cfddf"
+    },
+    {
+      "message_id": 11389,
+      "filename": "2026_이감_N제_화법과_작문_25회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11389_2026_._N._._._25.pdf",
+      "size_bytes": 183829155,
+      "telegram_date": "2025-08-11T15:59:24+00:00",
+      "title": "2026_이감_N제_화법과_작문_25회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11389.png",
+      "sha256": "e7f0ab187b3a2808cd087876634f79a14854474dc8c3142b3f0ce33d76bc6562"
     }
   ],
   "duplicate_message_ids": [
