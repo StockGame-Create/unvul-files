@@ -116675,6 +116675,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11201.png",
       "sha256": "b1569b42afbe664e0cefacd4d337082c3069511661f692681c11fe481475c272"
+    },
+    {
+      "message_id": 11200,
+      "filename": "2026 시대인재 물리학1 전국 서바이벌 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11200_2026.1.1.pdf",
+      "size_bytes": 18017371,
+      "telegram_date": "2025-08-11T15:58:45+00:00",
+      "title": "2026 시대인재 물리학1 전국 서바이벌 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11200.png",
+      "sha256": "90f083196e27e26bbdca484773301d478891060ff10ae6d684e4dbd4b3c86f71"
     }
   ],
   "duplicate_message_ids": [
