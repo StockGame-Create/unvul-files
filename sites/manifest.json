@@ -111439,6 +111439,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11684.png",
       "sha256": "2ac08b6166ad8b032dc75397758ee606c44baffade6eb2c34176d8061961c43b"
+    },
+    {
+      "message_id": 11683,
+      "filename": "2026 시대인재 Final 브릿지 생명과학1 2회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11683_2026.Final.1.2.pdf",
+      "size_bytes": 8118287,
+      "telegram_date": "2025-08-11T16:00:56+00:00",
+      "title": "2026 시대인재 Final 브릿지 생명과학1 2회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11683.png",
+      "sha256": "47691480f1587dda5ddcb5ee1cd362baea7f58865fc3a5e586a0446f39c37b6e"
     }
   ],
   "duplicate_message_ids": [
