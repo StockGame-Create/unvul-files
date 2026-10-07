@@ -114967,6 +114967,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11338.png",
       "sha256": "8c1b386f57a4aa8cc69b2990107c96030e0631988b2e7da48a28654af39f6e76"
+    },
+    {
+      "message_id": 11337,
+      "filename": "2026 수학 전국 서바이벌 1회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11337_2026.1.pdf",
+      "size_bytes": 11633612,
+      "telegram_date": "2025-08-11T15:59:02+00:00",
+      "title": "2026 수학 전국 서바이벌 1회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11337.png",
+      "sha256": "6944cf31391770764fb90a994d05988e75b99f9e9c2693de1b3cf014de6e83a6"
     }
   ],
   "duplicate_message_ids": [
