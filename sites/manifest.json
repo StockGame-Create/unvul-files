@@ -141,6 +141,20 @@
       "sha256": "da1a34c6a005000fa3db2ca266bef1ec5ab3623522f086c1b09a7246b2e1b5f2"
     },
     {
+      "message_id": 25069,
+      "filename": "27_N기출_확통_정답_X.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25069_27_N._._._X.pdf",
+      "size_bytes": 13711796,
+      "telegram_date": "2026-10-07T09:43:46+00:00",
+      "title": "수학 N기출 확률과 통계",
+      "year": null,
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25069.png",
+      "sha256": "4fd9d736a8b0b083bcf7bf4e2d53ad128997c7b4994e8ad6606efd3789271dc4"
+    },
+    {
       "message_id": 25066,
       "filename": "강K 지구 17회.pdf",
       "stored_as": null,
