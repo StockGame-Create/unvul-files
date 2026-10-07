@@ -112307,6 +112307,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11582.png",
       "sha256": "94c39cf654db3bf575b5cb9dd5d551d6a9a58c3b82bea6499bef5e32c8a2553d"
+    },
+    {
+      "message_id": 11580,
+      "filename": "피드백_인문_철학_250719_140505.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11580_._._._250719_140505.pdf",
+      "size_bytes": 80214743,
+      "telegram_date": "2025-08-11T16:00:45+00:00",
+      "title": "피드백_인문_철학_250719_140505",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11580.png",
+      "sha256": "f489d7e3d75aacfdbe1b9431a8c3cedca43d2d0a1776c20ef6cc8c1fd13a08e5"
     }
   ],
   "duplicate_message_ids": [
