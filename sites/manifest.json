@@ -115639,6 +115639,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11303.png",
       "sha256": "b0b7048446e448b5c71a84bdc540191d3b9dbdde21b60e5c4c474d69c35761d3"
+    },
+    {
+      "message_id": 11301,
+      "filename": "김O수_미적분_모의고사_4회_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11301_.O._._._4._.pdf",
+      "size_bytes": 5125025,
+      "telegram_date": "2025-08-11T15:59:00+00:00",
+      "title": "김O수_미적분_모의고사_4회_해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11301.png",
+      "sha256": "7804a97fb29492a1b5618c9f1f28ca968918ae2678018a9a175bfbc257da643a"
     }
   ],
   "duplicate_message_ids": [
