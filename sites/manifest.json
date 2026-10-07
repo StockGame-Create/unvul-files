@@ -114421,6 +114421,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11389.png",
       "sha256": "e7f0ab187b3a2808cd087876634f79a14854474dc8c3142b3f0ce33d76bc6562"
+    },
+    {
+      "message_id": 11388,
+      "filename": "홍준용 블리츠 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11388_.pdf",
+      "size_bytes": 16029911,
+      "telegram_date": "2025-08-11T15:59:24+00:00",
+      "title": "홍준용 블리츠 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11388.png",
+      "sha256": "6c932026384cff8878be9d3ba6b79b00fecc824afbfd6dde727fd27aa3218a65"
     }
   ],
   "duplicate_message_ids": [
