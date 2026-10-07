@@ -117305,6 +117305,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11127.png",
       "sha256": "613f9d9558df24ccf89894be16542f0420ba7676f19f7b92e2406f5d9264eb95"
+    },
+    {
+      "message_id": 11126,
+      "filename": "2026_화학1_헬리오스_문제_250718_183607.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11126_2026_.1_._._250718_183607.pdf",
+      "size_bytes": 15050431,
+      "telegram_date": "2025-08-11T15:58:04+00:00",
+      "title": "2026_화학1_헬리오스_문제_250718_183607",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11126.png",
+      "sha256": "c89b7ad52c761ac3a4f044da1c393e900304385e664547b9629cdac8dd7b8a6f"
     }
   ],
   "duplicate_message_ids": [
