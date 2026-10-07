@@ -117641,6 +117641,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11094.png",
       "sha256": "1a0f6da2256f95de79fcf5b406445b29bca07946f3fd282f9c4edb257d8dd53b"
+    },
+    {
+      "message_id": 11093,
+      "filename": "현정훈_더레드_시즌_2_1회_pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11093_._._._2_1._pdf.pdf",
+      "size_bytes": 2237340,
+      "telegram_date": "2025-08-11T15:57:59+00:00",
+      "title": "현정훈_더레드_시즌_2_1회_pdf",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11093.png",
+      "sha256": "df0217bb86dbedb74e37f4c0de353710206946d56bf930cdd0adb42afb3cf4ac"
     }
   ],
   "duplicate_message_ids": [
