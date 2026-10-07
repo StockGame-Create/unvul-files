@@ -29,6 +29,20 @@
       "sha256": "26b8021d258f6943262c16f477f7457afccc8f9634abfc96fd1556a7c93df26b"
     },
     {
+      "message_id": 25085,
+      "filename": "문실정 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25085_.6.pdf",
+      "size_bytes": 24243587,
+      "telegram_date": "2026-10-07T09:44:03+00:00",
+      "title": "국어 정석 문학 모의고사 6회",
+      "year": "2027",
+      "instructor": "정석민",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25085.png",
+      "sha256": "7cf900bf2c464d4a2e31d5d719b6be0ac2124916f1ede7d0ab3f489f5d8c20a2"
+    },
+    {
       "message_id": 25066,
       "filename": "강K 지구 17회.pdf",
       "stored_as": null,
