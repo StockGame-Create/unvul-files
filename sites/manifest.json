@@ -112951,6 +112951,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11521.png",
       "sha256": "44f3882bda227208ee5811086968c6166709483017180831917c5b91ea1164a7"
+    },
+    {
+      "message_id": 11520,
+      "filename": "2026 강대모의고사K+ 생명과학1 1회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11520_2026.K%2B.1.1.pdf",
+      "size_bytes": 3376284,
+      "telegram_date": "2025-08-11T16:00:41+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11520.png",
+      "sha256": "9b73d0a031cac2ebf0bd1ddf96466de0183502ae478719297159e4731b1468bd"
     }
   ],
   "duplicate_message_ids": [
