@@ -111985,6 +111985,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11616.png",
       "sha256": "3bf1418d9d9f1f83f16ec4ee0434b6af362cf3c199b2fbc65dab5874be74002a"
+    },
+    {
+      "message_id": 11615,
+      "filename": "2026 시대인재 Final 브릿지 지구과학1 2회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11615_2026.Final.1.2.pdf",
+      "size_bytes": 13380052,
+      "telegram_date": "2025-08-11T16:00:48+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11615.png",
+      "sha256": "0a36e60bffaeb0d4dca0f2283fce42331f0c846ae77777e356b4b3dee7f48346"
     }
   ],
   "duplicate_message_ids": [
