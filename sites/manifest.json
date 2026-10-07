@@ -114687,6 +114687,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11366.png",
       "sha256": "5f3c6c6830f64d471c42b0e496bf0d129e0d3155771ece07d59041702bd2e445"
+    },
+    {
+      "message_id": 11365,
+      "filename": "허들링_2주차_필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11365_._2._.pdf",
+      "size_bytes": 8507659,
+      "telegram_date": "2025-08-11T15:59:06+00:00",
+      "title": "허들링_2주차_필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11365.png",
+      "sha256": "f6992c41d5c7d92f3a77017fdca8489f6fb12064c2255ef390f81f84edce3b3b"
     }
   ],
   "duplicate_message_ids": [
