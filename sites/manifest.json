@@ -116409,6 +116409,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11228.png",
       "sha256": "617561cb22725e736b14c51e0b66a2f2e42cb4e3c03782f68e10afee53aa9684"
+    },
+    {
+      "message_id": 11225,
+      "filename": "국어 서바이벌 2회차 소퀄.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11225_.2.pdf",
+      "size_bytes": 44456220,
+      "telegram_date": "2025-08-11T15:58:47+00:00",
+      "title": "국어 서바이벌 2회차 소퀄",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11225.png",
+      "sha256": "66b1b2607b97772835fa57072235968b72a08c1ffbf804d2a7993f6f3c1f4109"
     }
   ],
   "duplicate_message_ids": [
