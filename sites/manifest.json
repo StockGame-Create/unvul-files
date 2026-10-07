@@ -115975,6 +115975,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11272.png",
       "sha256": "e3e28f0050fb708ca550df10f31547ff04823593ac0daec87f2554d328b03ff3"
+    },
+    {
+      "message_id": 11271,
+      "filename": "퀴즈 10주차 해설 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11271_.10.1.pdf",
+      "size_bytes": 5199421,
+      "telegram_date": "2025-08-11T15:58:52+00:00",
+      "title": "퀴즈 10주차 해설 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11271.png",
+      "sha256": "aa8d739d7bbefae65cfe8792b3be2b1b6d979082e503eb3c508dada1d638a8d8"
     }
   ],
   "duplicate_message_ids": [
