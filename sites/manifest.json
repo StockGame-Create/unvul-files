@@ -117949,6 +117949,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11067.png",
       "sha256": "836e947dc7390c351d319965459af95deb7bf978f8d7bf94391e2cb4df2b2f92"
+    },
+    {
+      "message_id": 11064,
+      "filename": "7월 더프 사문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11064_7.pdf",
+      "size_bytes": 2475690,
+      "telegram_date": "2025-08-11T15:57:57+00:00",
+      "title": "7월 더프 사문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11064.png",
+      "sha256": "485111b900f312d57259e3bd89b29c472a0e132683a8235b46b738bde16d4bfb"
     }
   ],
   "duplicate_message_ids": [
