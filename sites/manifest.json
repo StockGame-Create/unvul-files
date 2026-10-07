@@ -113651,6 +113651,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11436.png",
       "sha256": "acd610e11e1a94ef4f78733eb5e2e3ff68b82b67d40d36edd5a7f7190e20ec6d"
+    },
+    {
+      "message_id": 11429,
+      "filename": "강k 국어 2회 언매.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11429_.k.2.pdf",
+      "size_bytes": 58051064,
+      "telegram_date": "2025-08-11T15:59:26+00:00",
+      "title": "강k 국어 2회 언매",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11429.png",
+      "sha256": "991441efd1a30770b3b31d98c0e29b99af05deba301a5e5810dae2a41d463ed4"
     }
   ],
   "duplicate_message_ids": [
