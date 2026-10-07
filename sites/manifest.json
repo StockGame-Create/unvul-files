@@ -111943,6 +111943,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11622.png",
       "sha256": "d914d1ac2310294409f892ed1620a3592a0f0563a5af5e9f1b95d4ed1c87f5ae"
+    },
+    {
+      "message_id": 11621,
+      "filename": "2026_허들링_수학2_본교재.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11621_2026_._.2_.pdf",
+      "size_bytes": 338645242,
+      "telegram_date": "2025-08-11T16:00:53+00:00",
+      "title": "유빈 아카이브: @yubin2archive",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11621.png",
+      "sha256": "9d3da032979eab81f3e4a56db22ebb34ac7dece7f1f6de370b200d808396c884"
     }
   ],
   "duplicate_message_ids": [
