@@ -111677,6 +111677,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11657.png",
       "sha256": "8f78116f4fad0e6b602251b71773390d3fcd90006498d2da6db42aebfb290596"
+    },
+    {
+      "message_id": 11655,
+      "filename": "2025_김범준_모의_4회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11655_2025_._._4._.pdf",
+      "size_bytes": 7733376,
+      "telegram_date": "2025-08-11T16:00:55+00:00",
+      "title": "📚 2025 김범준 모의 4회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11655.png",
+      "sha256": "3cbde3a643944bc6f6ed6876fc9cb77f0340309df3a085e1d45dac4c8e498dd2"
     }
   ],
   "duplicate_message_ids": [
