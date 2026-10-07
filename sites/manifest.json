@@ -117767,6 +117767,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11085.png",
       "sha256": "38fc96591e584fc299076872610cad0a8069a5c2b18d8215ec56b577a4f2c471"
+    },
+    {
+      "message_id": 11084,
+      "filename": "한지_파이널_브릿지_1회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11084_._._._1._.pdf",
+      "size_bytes": 5259652,
+      "telegram_date": "2025-08-11T15:57:59+00:00",
+      "title": "한지_파이널_브릿지_1회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11084.png",
+      "sha256": "4690c208983cc94466d770f5894590519b8d69bba8a3a38be750ae6194f6fa5e"
     }
   ],
   "duplicate_message_ids": [
