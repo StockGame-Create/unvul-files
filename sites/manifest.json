@@ -117193,6 +117193,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11141.png",
       "sha256": "6871fb8d2cb726c5998a4933be6132f452d076fbb784b3c948fbd0e51dc36657"
+    },
+    {
+      "message_id": 11140,
+      "filename": "서바2회_확미폰스캔.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11140_.2._.pdf",
+      "size_bytes": 19376540,
+      "telegram_date": "2025-08-11T15:58:05+00:00",
+      "title": "서바2회_확미폰스캔",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11140.png",
+      "sha256": "977f05f7637006dc98553daa5109367f241c377b9bad8b8ca1f6917ab258e0da"
     }
   ],
   "duplicate_message_ids": [
