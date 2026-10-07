@@ -111341,6 +111341,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11691.png",
       "sha256": "b4757b81611eea9b923c7bd6efeac8a476e5c35403299649634f0cd1b01a27c3"
+    },
+    {
+      "message_id": 11690,
+      "filename": "2024 화학 브릿지 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11690_2024.3.pdf",
+      "size_bytes": 24934917,
+      "telegram_date": "2025-08-11T16:00:59+00:00",
+      "title": "📚 2024 화학 브릿지 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11690.png",
+      "sha256": "d1ea89957297e566214e3cec0613f45d79bc5db37cbbe7d7332bc4c30a7c8365"
     }
   ],
   "duplicate_message_ids": [
