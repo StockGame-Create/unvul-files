@@ -112335,6 +112335,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11579.png",
       "sha256": "772949edd34d41d32e4cc96ca683d1ad23496ad96dfbc05bad74e169fe94811c"
+    },
+    {
+      "message_id": 11578,
+      "filename": "피드백_경제_법_사회_250719_140344.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11578_._._._._250719_140344.pdf",
+      "size_bytes": 69280782,
+      "telegram_date": "2025-08-11T16:00:45+00:00",
+      "title": "피드백_경제_법_사회_250719_140344",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11578.png",
+      "sha256": "9a937468300c6301a7752ed6f4ed5aefdef71e8cb6fa5d230e1df88210b8202c"
     }
   ],
   "duplicate_message_ids": [
