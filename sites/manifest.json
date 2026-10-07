@@ -116353,6 +116353,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11235.png",
       "sha256": "6ea199385b688b8ab83ef27cb02f50b9bcfcdfe8f5c63514a8f644f20251bbbe"
+    },
+    {
+      "message_id": 11234,
+      "filename": "2026 시대인재 SHORTCUT 수학2 01.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11234_2026.SHORTCUT.2.01.pdf",
+      "size_bytes": 48023387,
+      "telegram_date": "2025-08-11T15:58:47+00:00",
+      "title": "2026 시대인재 SHORTCUT 수학2 01",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11234.png",
+      "sha256": "20399f52b4e4aff23c68570c3ff7145bdde76e4210f285cb287617854ffc48aa"
     }
   ],
   "duplicate_message_ids": [
