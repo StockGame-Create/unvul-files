@@ -116787,6 +116787,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11191.png",
       "sha256": "c2a90ac8d1c961bbb555a685863274dfce2aec74d8b5883a98f6a4e946fa9da6"
+    },
+    {
+      "message_id": 11190,
+      "filename": "2026 시대인재 생명과학1 파이널 브릿지 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11190_2026.1.1.pdf",
+      "size_bytes": 19381800,
+      "telegram_date": "2025-08-11T15:58:45+00:00",
+      "title": "2026 시대인재 생명과학1 파이널 브릿지 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11190.png",
+      "sha256": "405223deb8c4149dae51646fb5320dd391a079f6ff8365eb0303488c990e0389"
     }
   ],
   "duplicate_message_ids": [
