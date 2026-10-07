@@ -111915,6 +111915,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11625.png",
       "sha256": "482c094e5fd25e474d5477990449f43adfe7a579c82b7cf5c25b128fe8cb2a1a"
+    },
+    {
+      "message_id": 11624,
+      "filename": "2026학년도_이미지_N티켓_시즌1_확률과통계_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11624_2026._._N._.1_._.pdf",
+      "size_bytes": 11801723,
+      "telegram_date": "2025-08-11T16:00:53+00:00",
+      "title": "유빈 아카이브: @yubin2archive",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11624.png",
+      "sha256": "0790105aa1186022986a0f0b2bd7c0085f2baae1a0ba1a244463658d8a9ea02f"
     }
   ],
   "duplicate_message_ids": [
