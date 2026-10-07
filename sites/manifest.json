@@ -112713,6 +112713,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11541.png",
       "sha256": "1500cff15bef486991eafcf2dfbc3a3f75dcff4cfd202c6dbc9b0c1cec0adfae"
+    },
+    {
+      "message_id": 11540,
+      "filename": "2026 강대모의고사K 지구과학1 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11540_2026.K.1.1.pdf",
+      "size_bytes": 586862,
+      "telegram_date": "2025-08-11T16:00:42+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11540.png",
+      "sha256": "5e9a7441f9441c062affdada21545d631e2a1d3ee3809e7dc47e38ec2d0d19dd"
     }
   ],
   "duplicate_message_ids": [
