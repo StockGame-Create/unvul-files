@@ -112391,6 +112391,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11572.png",
       "sha256": "174c9ec9b2ee380786e63b1fefdf1962e66c60c2848a829b56c9e0dbd13b3b52"
+    },
+    {
+      "message_id": 11568,
+      "filename": "2026 국어 이감 시즌5 간쓸개 3권 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11568_2026.5.3.pdf",
+      "size_bytes": 50607101,
+      "telegram_date": "2025-08-11T16:00:45+00:00",
+      "title": "2026 국어 이감 시즌5 간쓸개 3권 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11568.png",
+      "sha256": "60cecbe525b59709d82e25982c61120649fe497ceed93ae78bf4cdbf163e59ec"
     }
   ],
   "duplicate_message_ids": [
