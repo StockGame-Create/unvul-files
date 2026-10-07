@@ -113273,6 +113273,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11484.png",
       "sha256": "8f6da044d96e14d1191b4e2be60e2c5f14947ea1cb0736244dbed4a1cef7cd6d"
+    },
+    {
+      "message_id": 11483,
+      "filename": "22_생2_브릿지_9_22회_14회분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11483_22_.2_._9_22._14.pdf",
+      "size_bytes": 37516893,
+      "telegram_date": "2025-08-11T16:00:39+00:00",
+      "title": "22_생2_브릿지_9_22회_14회분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11483.png",
+      "sha256": "be90a84f7409e5c2ee59df74654bc35235fffae514a76d7a56d66fdc5fc98073"
     }
   ],
   "duplicate_message_ids": [
