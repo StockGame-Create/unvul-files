@@ -29,6 +29,20 @@
       "sha256": "9b1cef69b8bec9b002d02c0f5bce914aefa4a9c863af5c167c902d6aedc10c3b"
     },
     {
+      "message_id": 25133,
+      "filename": "2027 김기병 단어장 VOCATION.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25133_2027.VOCATION.pdf",
+      "size_bytes": 149413399,
+      "telegram_date": "2026-10-07T15:30:22+00:00",
+      "title": "영어 김기병 단어장 VOCATION",
+      "year": "2027",
+      "instructor": "김기병",
+      "subject": "영어",
+      "thumbnail": "thumbnails/25133.png",
+      "sha256": "7123d04de2cb2219d8975c9a5db39049d8bb873c0dd5d017fc251ef19d683f2b"
+    },
+    {
       "message_id": 25104,
       "filename": "오메가 블랙 사문 12회 + 답지 (4).pdf",
       "stored_as": null,
