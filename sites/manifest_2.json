@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07T14:28:37+00:00",
+  "updated_at": "2026-10-07T23:20:14+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -481,6 +481,30 @@
       "failed_pages": [],
       "model": null,
       "problem_count": 0,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 25136,
+      "filename": "하프모 7회.pdf",
+      "title": "영어 강대모의고사K 독해 Half 모의고사 6, 7회 #강k",
+      "year": "2027",
+      "instructor": null,
+      "subject": "영어",
+      "sha256": "8bef2218572dd1e6238cefe0d310c8a9b17499356ebfe7af0207d0510e36171c",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/25136.json",
+      "updated_at": "2026-10-07T23:20:14+00:00",
+      "pages_total": 11,
+      "pages_done": 4,
+      "failed_pages": [
+        4
+      ],
+      "model": "gemini-3.7-flash",
+      "problem_count": 2,
       "solution_count": 0,
       "matched_count": 0,
       "with_answer": 0,
