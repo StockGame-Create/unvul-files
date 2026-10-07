@@ -117347,6 +117347,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11122.png",
       "sha256": "7b8535446c2928e4c8a1874aac00cd969533342608de3ccfcf74b64be4fdbdbb"
+    },
+    {
+      "message_id": 11119,
+      "filename": "책 2025년 7월 18일.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11119_.2025.7.18.pdf",
+      "size_bytes": 1853884,
+      "telegram_date": "2025-08-11T15:58:04+00:00",
+      "title": "책 2025년 7월 18일",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11119.png",
+      "sha256": "4b665905f35d69a4a753f44176ae1d8638e05b89895f9ea2007bc910574c65d6"
     }
   ],
   "duplicate_message_ids": [
