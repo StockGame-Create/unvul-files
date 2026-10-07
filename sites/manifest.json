@@ -253,6 +253,20 @@
       "sha256": "6c93755d8bace5f5e4c5d2355f5632875c556c04d0dcb9ac03877c388ab1f889"
     },
     {
+      "message_id": 25117,
+      "filename": "2027 김기병 주간지 최종병기 12주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25117_2027.12.pdf",
+      "size_bytes": 49022199,
+      "telegram_date": "2026-10-07T15:30:01+00:00",
+      "title": "영어 김기병 최종병기 11~20주차",
+      "year": "2027",
+      "instructor": "김기병",
+      "subject": "영어",
+      "thumbnail": "thumbnails/25117.png",
+      "sha256": "515c3b83b40cea644a0f7fdb2bd6a5903e20970c0cd5d31c418fc5c2a75db2d9"
+    },
+    {
       "message_id": 25104,
       "filename": "오메가 블랙 사문 12회 + 답지 (4).pdf",
       "stored_as": null,
