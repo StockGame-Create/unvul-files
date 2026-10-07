@@ -114155,6 +114155,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11416.png",
       "sha256": "935dafbc9122109c77c8e2eacd8f7cb55fbd956c71f135f16f46a72c31e51b92"
+    },
+    {
+      "message_id": 11415,
+      "filename": "2026 정석민 매E네 시즌1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11415_2026.E.1.pdf",
+      "size_bytes": 98792279,
+      "telegram_date": "2025-08-11T15:59:25+00:00",
+      "title": "2026 정석민 매E네 시즌1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11415.png",
+      "sha256": "7d0a86376e84d7d80c0a783cf07f57b4667d19656bb9172cf8b64865b541a9e3"
     }
   ],
   "duplicate_message_ids": [
