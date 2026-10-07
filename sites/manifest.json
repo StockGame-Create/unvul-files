@@ -116367,6 +116367,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11234.png",
       "sha256": "20399f52b4e4aff23c68570c3ff7145bdde76e4210f285cb287617854ffc48aa"
+    },
+    {
+      "message_id": 11231,
+      "filename": "2026 현정훈 SPRINT 1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11231_2026.SPRINT.1.pdf",
+      "size_bytes": 97157014,
+      "telegram_date": "2025-08-11T15:58:47+00:00",
+      "title": "2026 현정훈 SPRINT 1권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11231.png",
+      "sha256": "902c194fd0857dc37b291a3c54e55ee61d3349b3b8dcd8eb750337b224a14a56"
     }
   ],
   "duplicate_message_ids": [
