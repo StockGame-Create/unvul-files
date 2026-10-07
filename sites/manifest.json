@@ -112377,6 +112377,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11573.png",
       "sha256": "a0f8ddc987a563ee6aafc77c5808c0f554a50a7b325475a91199e36ded01402d"
+    },
+    {
+      "message_id": 11572,
+      "filename": "박종민 모의고사 2회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11572_.2.pdf",
+      "size_bytes": 10007717,
+      "telegram_date": "2025-08-11T16:00:45+00:00",
+      "title": "박종민 모의고사 2회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11572.png",
+      "sha256": "174c9ec9b2ee380786e63b1fefdf1962e66c60c2848a829b56c9e0dbd13b3b52"
     }
   ],
   "duplicate_message_ids": [
