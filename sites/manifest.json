@@ -114631,6 +114631,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11370.png",
       "sha256": "a819449543bb2135ac624ca8af30cc7a46b772d39afd60735f7a3ec5fccc84a3"
+    },
+    {
+      "message_id": 11369,
+      "filename": "허들링_공통_3주차_필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11369_._._3._.pdf",
+      "size_bytes": 8271290,
+      "telegram_date": "2025-08-11T15:59:06+00:00",
+      "title": "허들링_공통_3주차_필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11369.png",
+      "sha256": "fd4fd7e9d643c25345b6b10d605ea322fbcbe1555aa186e35981b77c2d040305"
     }
   ],
   "duplicate_message_ids": [
