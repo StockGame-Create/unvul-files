@@ -112419,6 +112419,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11566.png",
       "sha256": "a67416758cf9a5f523196955444391268c324cc0332c7384342f339b1567a80f"
+    },
+    {
+      "message_id": 11563,
+      "filename": "기들기들 40제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11563_.40.pdf",
+      "size_bytes": 1701453,
+      "telegram_date": "2025-08-11T16:00:44+00:00",
+      "title": "기들기들 40제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11563.png",
+      "sha256": "87b619e634bb809458a020b4f47763ed69930e8805ed3502d5199f78fca4256c"
     }
   ],
   "duplicate_message_ids": [
