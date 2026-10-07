@@ -117781,6 +117781,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11084.png",
       "sha256": "4690c208983cc94466d770f5894590519b8d69bba8a3a38be750ae6194f6fa5e"
+    },
+    {
+      "message_id": 11083,
+      "filename": "강k_지구과학I_1회_2회,_강k_+_지구과학_1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11083_.k_.I_1._2._.k_%2B_._1.pdf",
+      "size_bytes": 8128427,
+      "telegram_date": "2025-08-11T15:57:58+00:00",
+      "title": "강k_지구과학I_1회_2회,_강k_+_지구과학_1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11083.png",
+      "sha256": "25cc287303ac0b21f06a37fcb629bad74f32f19cc27d2f5547b48c0b981c9d71"
     }
   ],
   "duplicate_message_ids": [
