@@ -112741,6 +112741,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11538.png",
       "sha256": "f6001fae9a8ef7dd449ce637550f0ce7306c3537a2c0e1b0faa40376cba26403"
+    },
+    {
+      "message_id": 11537,
+      "filename": "2026 OMEGA 수학 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11537_2026.OMEGA.6.pdf",
+      "size_bytes": 1276290,
+      "telegram_date": "2025-08-11T16:00:42+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11537.png",
+      "sha256": "e90113ea0fd6f1ea2c3ec51bf2ef604228766435b7e1380b5e2e1a88b9d86192"
     }
   ],
   "duplicate_message_ids": [
