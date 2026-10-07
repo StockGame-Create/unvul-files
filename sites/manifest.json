@@ -116199,6 +116199,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11249.png",
       "sha256": "da051d81ae41520139f110930caac6222f397789659e54252507e341de480e3f"
+    },
+    {
+      "message_id": 11248,
+      "filename": "2026 시대인재 CURATION 05.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11248_2026.CURATION.05.pdf",
+      "size_bytes": 4933605,
+      "telegram_date": "2025-08-11T15:58:48+00:00",
+      "title": "2026 시대인재 CURATION 05",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11248.png",
+      "sha256": "fff7f51a7b74a624de3994a0b9719745757dc291a482ff338d6b73a7fd2344e7"
     }
   ],
   "duplicate_message_ids": [
