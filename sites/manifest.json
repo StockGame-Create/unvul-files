@@ -116045,6 +116045,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11265.png",
       "sha256": "2117878d055eda34f9e5a05bb166c8e707d38c1f575dd009a77df36499c80d4d"
+    },
+    {
+      "message_id": 11263,
+      "filename": "수학 서바 시즌3 1주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11263_.3.1.pdf",
+      "size_bytes": 3804235,
+      "telegram_date": "2025-08-11T15:58:51+00:00",
+      "title": "수학 서바 시즌3 1주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11263.png",
+      "sha256": "14180d6bfae1834e3c6580fb371495f0d16602cbf18bedc866df52c7fbc6886d"
     }
   ],
   "duplicate_message_ids": [
