@@ -111523,6 +111523,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11678.png",
       "sha256": "dec8084a49b81cf4523b4f30d9113ac2effc2cff3e7befe9f0e86a2f0ba632a1"
+    },
+    {
+      "message_id": 11677,
+      "filename": "2026 시대인재 서바이벌 생명과학1 2회 정답표.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11677_2026.1.2.pdf",
+      "size_bytes": 183682,
+      "telegram_date": "2025-08-11T16:00:56+00:00",
+      "title": "📚 2026 시대인재 서바이벌 생명과학1 2회 정답표",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11677.png",
+      "sha256": "070309b02aa1a2d976a804f29fe298f2dcdd1cf063dc38d0d98fb8974fa22fae"
     }
   ],
   "duplicate_message_ids": [
