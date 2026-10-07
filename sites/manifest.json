@@ -117711,6 +117711,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11089.png",
       "sha256": "a43d541a8808b79b14e01df971bc0bb65fdcb5360d9132d4ed9e2206a3d7ec2e"
+    },
+    {
+      "message_id": 11088,
+      "filename": "2026 7월 더 프리미엄 한국사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11088_2026.7.pdf",
+      "size_bytes": 4776709,
+      "telegram_date": "2025-08-11T15:57:59+00:00",
+      "title": "2026 7월 더 프리미엄 한국사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11088.png",
+      "sha256": "1f278c8a66fd12230f13be1e909b5682ecec9042c53638eb2c61729cd429e098"
     }
   ],
   "duplicate_message_ids": [
