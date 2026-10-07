@@ -112629,6 +112629,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11547.png",
       "sha256": "b5bc0d163d1449bf86ab0f54c90057a52d4cdab8ee9b754357ca340ca4c73a09"
+    },
+    {
+      "message_id": 11546,
+      "filename": "생2 엑셀6.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11546_.2.6.pdf",
+      "size_bytes": 842462,
+      "telegram_date": "2025-08-11T16:00:43+00:00",
+      "title": "생2 엑셀6",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11546.png",
+      "sha256": "1ff5d7c171ecc68df7a363457854ede24944f773f7b3da05489dfaf825b49834"
     }
   ],
   "duplicate_message_ids": [
