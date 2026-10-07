@@ -111845,6 +111845,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11631.png",
       "sha256": "0caa5cae306cd8387fd8ae62d5f7683179eda750e9488af0c0670661205e4b7e"
+    },
+    {
+      "message_id": 11630,
+      "filename": "2026 Sapiens trial 2회_250726_000834.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11630_2026.Sapiens.trial.2._250726_000834.pdf",
+      "size_bytes": 510312,
+      "telegram_date": "2025-08-11T16:00:53+00:00",
+      "title": "유빈 아카이브: @yubin2archive",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11630.png",
+      "sha256": "bf53a62eb15810b40aab3916ca70b51c6f4de48566344db33e6e650656a0da90"
     }
   ],
   "duplicate_message_ids": [
