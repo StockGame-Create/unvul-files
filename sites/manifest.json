@@ -111957,6 +111957,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11621.png",
       "sha256": "9d3da032979eab81f3e4a56db22ebb34ac7dece7f1f6de370b200d808396c884"
+    },
+    {
+      "message_id": 11617,
+      "filename": "2026 이신혁 모의평가 시즌2 4회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11617_2026.2.4.pdf",
+      "size_bytes": 7068402,
+      "telegram_date": "2025-08-11T16:00:48+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11617.png",
+      "sha256": "fde3452cc6b790fc23d5ec7d4b39b6086d75eeb130b786d8071e74304341e55b"
     }
   ],
   "duplicate_message_ids": [
