@@ -114869,6 +114869,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11346.png",
       "sha256": "8106514e42907295452c977a7f8944aac773b1169af0f9ec4e504fd8ea04c25f"
+    },
+    {
+      "message_id": 11344,
+      "filename": "26학년도_상상_3_3_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11344_26._._3_3_.pdf",
+      "size_bytes": 3551938,
+      "telegram_date": "2025-08-11T15:59:02+00:00",
+      "title": "26학년도_상상_3_3_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11344.png",
+      "sha256": "e2010b9a7f5a146164468f0102ca6f508e372b2a31d0e1e6b5d5495777514502"
     }
   ],
   "duplicate_message_ids": [
