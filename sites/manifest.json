@@ -114225,6 +114225,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11410.png",
       "sha256": "3ae9ab9e16f64ef1e2eb8cf7636d7384489d06c1fff15ae64ba14c503f0eda7d"
+    },
+    {
+      "message_id": 11408,
+      "filename": "서프 영어 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11408_.1.pdf",
+      "size_bytes": 6773847,
+      "telegram_date": "2025-08-11T15:59:25+00:00",
+      "title": "서프 영어 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11408.png",
+      "sha256": "783deaddf353b23d1e30f6a2c164d070ca862c7068601bcc9c7d61a3b2439aa0"
     }
   ],
   "duplicate_message_ids": [
