@@ -112825,6 +112825,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11532.png",
       "sha256": "0866dee8325505622ecf4f7138471ab07ab0b5fb365116d2ed94d555f08e772a"
+    },
+    {
+      "message_id": 11531,
+      "filename": "2026 정석민 매E네 시즌2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11531_2026.E.2.pdf",
+      "size_bytes": 87943026,
+      "telegram_date": "2025-08-11T16:00:41+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11531.png",
+      "sha256": "4fabe5bc8339132ac76f62db6d5c334898da1acd0d34226b4ed052593a11eca2"
     }
   ],
   "duplicate_message_ids": [
