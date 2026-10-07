@@ -113371,6 +113371,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11472.png",
       "sha256": "05b7c8635b8ea75e461145ddedc347ff3ecd223205faad0802abaf314b66e335"
+    },
+    {
+      "message_id": 11471,
+      "filename": "강K_국어_4회_문제지_언어와매체_세로버전_250725_144206.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11471_.K_._4._._._._250725_144206.pdf",
+      "size_bytes": 48732410,
+      "telegram_date": "2025-08-11T16:00:38+00:00",
+      "title": "강K_국어_4회_문제지_언어와매체_세로버전_250725_144206",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11471.png",
+      "sha256": "3af371ed49d9bf0d514b587e9a6edfc5296558e9c5f8fcbdd9e86ccbcbed9ad1"
     }
   ],
   "duplicate_message_ids": [
