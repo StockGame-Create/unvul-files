@@ -113077,6 +113077,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11512.png",
       "sha256": "af762d30ecd621c65b7c36295284cd0b383f50038fd1c93307da475f5d03edd6"
+    },
+    {
+      "message_id": 11511,
+      "filename": "2026_정석민_문학_상황_추론_하드코어_셀프_트레이닝.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11511_2026_._._._._._._.pdf",
+      "size_bytes": 44802577,
+      "telegram_date": "2025-08-11T16:00:40+00:00",
+      "title": "병신독스: @병신독스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11511.png",
+      "sha256": "5474ab3df9b2f7033ab8921c3710663825ea6573dd2719d1e7c30820e5c37014"
     }
   ],
   "duplicate_message_ids": [
