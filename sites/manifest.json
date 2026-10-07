@@ -111495,6 +111495,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11680.png",
       "sha256": "a8db2c7c8b3bd3099c1e08ee4c1d4320742113006aa1bc04b87a33069c9c4250"
+    },
+    {
+      "message_id": 11679,
+      "filename": "2026_시대인재_서바이벌_전국_생명과학1_2회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11679_2026_._._._.1_2._.pdf",
+      "size_bytes": 7333319,
+      "telegram_date": "2025-08-11T16:00:56+00:00",
+      "title": "📚 2026 시대인재 서바이벌 전국 생명과학1 2회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11679.png",
+      "sha256": "4ba3e9fc4d22f18592ea88e954cc34b3e573b317c2cfa6d290b65140e9f164cd"
     }
   ],
   "duplicate_message_ids": [
