@@ -112405,6 +112405,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11568.png",
       "sha256": "60cecbe525b59709d82e25982c61120649fe497ceed93ae78bf4cdbf163e59ec"
+    },
+    {
+      "message_id": 11566,
+      "filename": "2026_국어_이감_시즌5_간쓸개_3권_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11566_2026_._._.5_._3._.pdf",
+      "size_bytes": 35778873,
+      "telegram_date": "2025-08-11T16:00:44+00:00",
+      "title": "2026_국어_이감_시즌5_간쓸개_3권_문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11566.png",
+      "sha256": "a67416758cf9a5f523196955444391268c324cc0332c7384342f339b1567a80f"
     }
   ],
   "duplicate_message_ids": [
