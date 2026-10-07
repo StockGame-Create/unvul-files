@@ -43,6 +43,20 @@
       "sha256": "7cf900bf2c464d4a2e31d5d719b6be0ac2124916f1ede7d0ab3f489f5d8c20a2"
     },
     {
+      "message_id": 25083,
+      "filename": "2027 시대 Acclerator 국어 16회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25083_2027.Acclerator.16.pdf",
+      "size_bytes": 92530219,
+      "telegram_date": "2026-10-07T09:43:59+00:00",
+      "title": "국어 2027 엑셀러레이터 16호",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25083.png",
+      "sha256": "decdb89507f06ccb28d0a452a56bd8f3d17e0dab8f3c1b905ef2ae1296c56150"
+    },
+    {
       "message_id": 25066,
       "filename": "강K 지구 17회.pdf",
       "stored_as": null,
