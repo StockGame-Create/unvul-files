@@ -116885,6 +116885,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11167.png",
       "sha256": "15cd767e1b24ae66196f374a61b08b5287ac78bbc4cb0662290cb46d9a6ccf3a"
+    },
+    {
+      "message_id": 11166,
+      "filename": "2026 바탕 모의고사 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11166_2026.6.pdf",
+      "size_bytes": 5582892,
+      "telegram_date": "2025-08-11T15:58:10+00:00",
+      "title": "2026 바탕 모의고사 6회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11166.png",
+      "sha256": "101932bc9b492af951fdff5eb51e9c5325a4c3c1c68dd28e1d4082ee1eb17c0d"
     }
   ],
   "duplicate_message_ids": [
