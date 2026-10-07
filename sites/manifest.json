@@ -115009,6 +115009,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11330.png",
       "sha256": "c476bc775877cb5912d10cc149bc487c3fd6a777aba2ac8d39c17396816c87de"
+    },
+    {
+      "message_id": 11329,
+      "filename": "2026 지구과학 이신혁 신혁모 시즌2 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11329_2026.2.2.pdf",
+      "size_bytes": 14470433,
+      "telegram_date": "2025-08-11T15:59:01+00:00",
+      "title": "2026 지구과학 이신혁 신혁모 시즌2 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11329.png",
+      "sha256": "5fb239146ffb04ea2a152b26eaa7807f57d1fd60d159b29cc3f35e919add89ab"
     }
   ],
   "duplicate_message_ids": [
