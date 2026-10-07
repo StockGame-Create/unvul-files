@@ -115191,6 +115191,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11306.png",
       "sha256": "5c97bd9096c8aed61421f0aa419ff3dba2b742ba548e06ae5e045bd798b6ba42"
+    },
+    {
+      "message_id": 11305,
+      "filename": "2026 생명과학 I LCS Exam Extenders Core 5회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11305_2026.I.LCS.Exam.Extenders.Core.5.pdf",
+      "size_bytes": 5024648,
+      "telegram_date": "2025-08-11T15:59:00+00:00",
+      "title": "2026 생명과학 I LCS Exam Extenders Core 5회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11305.png",
+      "sha256": "6f51d92735aebb1ff16d561c38db6fcdc0685540ee4901a100f313bd306e765f"
     }
   ],
   "duplicate_message_ids": [
