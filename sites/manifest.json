@@ -114323,6 +114323,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11396.png",
       "sha256": "c9d26f75ce9d842bf8bc5a5f7ce7c5fbef349b11f481c1ae1fb4eb1aa4b1d947"
+    },
+    {
+      "message_id": 11395,
+      "filename": "정담온T 3모 대비 모의고사(정답 및 해설).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11395_.T.3.pdf",
+      "size_bytes": 189831,
+      "telegram_date": "2025-08-11T15:59:24+00:00",
+      "title": "정담온T 3모 대비 모의고사(정답 및 해설)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11395.png",
+      "sha256": "576af2ee92fd0e4580e6f4bbf0634146417d5f022341eafaa54b00499d3c16ab"
     }
   ],
   "duplicate_message_ids": [
