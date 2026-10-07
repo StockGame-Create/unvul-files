@@ -118103,6 +118103,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11054.png",
       "sha256": "7185ddb76f10bed45f7ac5b4512c249b385dfb6de7d4af141f19146c124d6d3f"
+    },
+    {
+      "message_id": 11053,
+      "filename": "2021_시대인재_N_서바이벌_모의고사_생명과학II_3회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11053_2021_._N_._._.II_3._.pdf",
+      "size_bytes": 510906,
+      "telegram_date": "2025-08-11T15:57:57+00:00",
+      "title": "2021_시대인재_N_서바이벌_모의고사_생명과학II_3회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11053.png",
+      "sha256": "1c31b5a3d46fce7847d3a1cb32ed5026c9fb03c67d4ce6fac8f9f9f00d1f1009"
     }
   ],
   "duplicate_message_ids": [
