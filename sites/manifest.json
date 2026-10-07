@@ -116143,6 +116143,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11255.png",
       "sha256": "87f24359196a8648de0adb2248145697657186569b878bf4c49af482a646b58b"
+    },
+    {
+      "message_id": 11253,
+      "filename": "2026 손창빈 주간과제 시즌3 1주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11253_2026.3.1.pdf",
+      "size_bytes": 66755232,
+      "telegram_date": "2025-08-11T15:58:48+00:00",
+      "title": "2026 손창빈 주간과제 시즌3 1주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11253.png",
+      "sha256": "442536ca6b5e9672ec8c60afa67e4045e686d35b999963fc1e79fa0329158605"
     }
   ],
   "duplicate_message_ids": [
