@@ -111775,6 +111775,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11640.png",
       "sha256": "fa0c4644d765af54b39052ee038078fefac386af4b8ac5f5abfb8a733f668ae5"
+    },
+    {
+      "message_id": 11635,
+      "filename": "2026 강대 CIRCUIT 수학 23~24회_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11635_2026.CIRCUIT.23.24._.pdf",
+      "size_bytes": 3109901,
+      "telegram_date": "2025-08-11T16:00:54+00:00",
+      "title": "📚 2026 강대 CIRCUIT 수학 23~24회 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11635.png",
+      "sha256": "804e07dbe6a312f27bdd0e9ba8101ab8db92d1dcbd8ca445c63408d2e639b71d"
     }
   ],
   "duplicate_message_ids": [
