@@ -116801,6 +116801,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11190.png",
       "sha256": "405223deb8c4149dae51646fb5320dd391a079f6ff8365eb0303488c990e0389"
+    },
+    {
+      "message_id": 11188,
+      "filename": "2026 시대인재 생명과학1 전국 서바이벌 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11188_2026.1.1.pdf",
+      "size_bytes": 16530397,
+      "telegram_date": "2025-08-11T15:58:45+00:00",
+      "title": "2026 시대인재 생명과학1 전국 서바이벌 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11188.png",
+      "sha256": "ec2dec920aff02d54612dfc70584e3e2c39f9f10b5c00ccc1e2cb16fd814bb9d"
     }
   ],
   "duplicate_message_ids": [
