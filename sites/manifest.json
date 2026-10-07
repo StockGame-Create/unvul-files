@@ -117851,6 +117851,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11078.png",
       "sha256": "38f9a67f5c22ee847452cce30329db683b67321b3525f0ffdfedc423102663c5"
+    },
+    {
+      "message_id": 11077,
+      "filename": "2025-공통수학2 (4)도형의 이동(level-3).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11077_2025-.2.4.level-3.pdf",
+      "size_bytes": 2456158,
+      "telegram_date": "2025-08-11T15:57:58+00:00",
+      "title": "2025-공통수학2 (4)도형의 이동(level-3)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11077.png",
+      "sha256": "5dd041373f58f2816fc00cfe785a4f827b0cdb6d34c69b48a3aab9758bb41139"
     }
   ],
   "duplicate_message_ids": [
