@@ -141,6 +141,20 @@
       "sha256": "4117bab72dba4c5470395c4f7dd7b0d8b5f4ddb5227e8d25626922aaefdb0dde"
     },
     {
+      "message_id": 25092,
+      "filename": "27한지_서바c_04회_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25092_27._.c_04._.pdf",
+      "size_bytes": 5250259,
+      "telegram_date": "2026-10-07T11:47:47+00:00",
+      "title": "한지 시대인재 서바이벌 C 단독 모의고사 4회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "한국지리",
+      "thumbnail": "thumbnails/25092.png",
+      "sha256": "a22efc0280b70008d2a2bec9971b518eac64cd08523e2bac9b40724a085f2856"
+    },
+    {
       "message_id": 25088,
       "filename": "김민정 모의고사_해설.pdf",
       "stored_as": null,
