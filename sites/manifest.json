@@ -115667,6 +115667,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11300.png",
       "sha256": "09c28c38e02eba0edeca6a1c48c90ae26082fe332884b2aee58f46ac997528d6"
+    },
+    {
+      "message_id": 11299,
+      "filename": "the contact.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11299_the.contact.pdf",
+      "size_bytes": 107580005,
+      "telegram_date": "2025-08-11T15:59:00+00:00",
+      "title": "the contact",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11299.png",
+      "sha256": "1b3f4c7c31dfa23ebc34a775bf66d0729a8aab0d26fdb875cc7a33fb66557441"
     }
   ],
   "duplicate_message_ids": [
