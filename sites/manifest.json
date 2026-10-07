@@ -117809,6 +117809,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11082.png",
       "sha256": "a11547f7df80f2fb1d3f502987052340ba7cfce5bc3aaa3331f2dd3f4695a7df"
+    },
+    {
+      "message_id": 11080,
+      "filename": "2026_7월_더프_사회탐구_정답_및_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11080_2026_7._._._._._.pdf",
+      "size_bytes": 30167272,
+      "telegram_date": "2025-08-11T15:57:58+00:00",
+      "title": "2026_7월_더프_사회탐구_정답_및_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11080.png",
+      "sha256": "6eaa8aacbe44af662c92c3b82e77dae7b2ebd172fb98b9af1afb577ee0ff9898"
     }
   ],
   "duplicate_message_ids": [
