@@ -120287,6 +120287,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10828.png",
       "sha256": "9f40777789de8507f9e001c30d8fd43b909b190419ac1ced11cd8be3c87d43c8"
+    },
+    {
+      "message_id": 10825,
+      "filename": "서바 1회 확통.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10825_.1.pdf",
+      "size_bytes": 1667035,
+      "telegram_date": "2025-08-11T15:57:34+00:00",
+      "title": "서바 1회 확통",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10825.png",
+      "sha256": "81c872c8b41bdef5a3b7406206cc8e05736035f5e20ec1a7c2d6bc6393afb3b8"
     }
   ],
   "duplicate_message_ids": [
