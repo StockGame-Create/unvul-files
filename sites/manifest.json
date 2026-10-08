@@ -119923,6 +119923,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10862.png",
       "sha256": "1477cc77dc123755f24c34bdf6188d10a85ead8055f6116ef103b963a725e3a8"
+    },
+    {
+      "message_id": 10861,
+      "filename": "2025_지구과학_2_나진환_CLOVER_N_유체_1편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10861_2025_._2_._CLOVER_N_._1.pdf",
+      "size_bytes": 44899559,
+      "telegram_date": "2025-08-11T15:57:38+00:00",
+      "title": "2025_지구과학_2_나진환_CLOVER_N_유체_1편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10861.png",
+      "sha256": "98d4aede2dcf9d840fc70341c518ba5fdf45a01ec0b7b25b5d8da34ef7864015"
     }
   ],
   "duplicate_message_ids": [
