@@ -120329,6 +120329,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10823.png",
       "sha256": "868fd13e8619f23fd3d23f8d7866c5a06ada3c15e1cae3a88526a155a628bfc5"
+    },
+    {
+      "message_id": 10822,
+      "filename": "서바 사문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10822_.pdf",
+      "size_bytes": 9034823,
+      "telegram_date": "2025-08-11T15:57:34+00:00",
+      "title": "서바 사문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10822.png",
+      "sha256": "7e942357998cc17a5d9d5888d0b44c91fcd94ed7dc04d3c993fdd835d2770448"
     }
   ],
   "duplicate_message_ids": [
