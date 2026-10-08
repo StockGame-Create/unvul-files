@@ -120357,6 +120357,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10821.png",
       "sha256": "9f4a473b56d588f4d7d708318faf1cca86d38f7a8387a9b1112b3e1e922b8f9b"
+    },
+    {
+      "message_id": 10820,
+      "filename": "파이널_브릿지_1회_물리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10820_._._1._.pdf",
+      "size_bytes": 2742667,
+      "telegram_date": "2025-08-11T15:57:33+00:00",
+      "title": "파이널_브릿지_1회_물리",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10820.png",
+      "sha256": "a3f0969110f3df235314224497d93c24b33be31fdb0f0e2fc32ef4efefcd7ed3"
     }
   ],
   "duplicate_message_ids": [
