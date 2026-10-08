@@ -169,6 +169,20 @@
       "sha256": "3c3a968616fbd9be6d5c20d7ca9585bcce86ea16ce4fb70d6edf6a391e2ef3de"
     },
     {
+      "message_id": 25155,
+      "filename": "REAL_F_파이널_한지_4회차_정답_.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25155_REAL_F_._._4._._.pdf",
+      "size_bytes": 3128302,
+      "telegram_date": "2026-10-08T13:29:35+00:00",
+      "title": "한지 기승전결 모의고사(9월 대비 모의고사 1, 2회, EBS 변형, 파이널 1회)",
+      "year": "2027",
+      "instructor": "이승헌",
+      "subject": "한국지리",
+      "thumbnail": "thumbnails/25155.png",
+      "sha256": "01f54e65ef380069c8494835e3268ec842fd71384326de40db230881c94172e5"
+    },
+    {
       "message_id": 25136,
       "filename": "하프모 7회.pdf",
       "stored_as": null,
