@@ -122009,6 +122009,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10681.png",
       "sha256": "11682b7915d625cf8aa9b7b9abf0487581b543eb0d30512dbd057289c187cb3d"
+    },
+    {
+      "message_id": 10680,
+      "filename": "2026 시대인재 브릿지 FINAL 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10680_2026.FINAL.1.pdf",
+      "size_bytes": 3520744,
+      "telegram_date": "2025-08-11T15:56:18+00:00",
+      "title": "2026 시대인재 브릿지 FINAL 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10680.png",
+      "sha256": "27bc250ad6b269b0929713fd1ea2688110a19a7c3717cd2330938a9dfb311270"
     }
   ],
   "duplicate_message_ids": [
