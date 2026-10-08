@@ -118565,6 +118565,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11015.png",
       "sha256": "e5e8b34432a370f62605bf20fedbb46d3ab1f9e5d27a48e48b490e209fa4cf8e"
+    },
+    {
+      "message_id": 11014,
+      "filename": "2026 홍준용 PRISM Vol.1 Traning 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11014_2026.PRISM.Vol.1.Traning.pdf",
+      "size_bytes": 47944941,
+      "telegram_date": "2025-08-11T15:57:53+00:00",
+      "title": "2026 홍준용 PRISM Vol.1 Traning 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11014.png",
+      "sha256": "fa58597faef1d48cb85b41eab100c2b69422e81339de300f6f3a5e44839a78f8"
     }
   ],
   "duplicate_message_ids": [
