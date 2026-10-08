@@ -120945,6 +120945,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10764.png",
       "sha256": "35fe4ef6298bb81d939589caa80acb3c7af2f410266c3cf35e424d7c410b0906"
+    },
+    {
+      "message_id": 10763,
+      "filename": "하프컬렉션_시즌1_1회_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10763_._.1_1._.pdf",
+      "size_bytes": 3765851,
+      "telegram_date": "2025-08-11T15:56:25+00:00",
+      "title": "하프컬렉션_시즌1_1회_답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10763.png",
+      "sha256": "14eaf0eec7402a5ce3fd21c6dfcd4d7c3e9627943ce23cb3639db13ce5b37771"
     }
   ],
   "duplicate_message_ids": [
