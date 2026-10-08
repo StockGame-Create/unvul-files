@@ -119909,6 +119909,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10863.png",
       "sha256": "2b6173de3d121ffdb7f62d49fc15578b2093122870708ede4be8a39e4358a54e"
+    },
+    {
+      "message_id": 10862,
+      "filename": "2025_지구과학_2_나진환_대E변_고체_1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10862_2025_._2_._.E._._1.pdf",
+      "size_bytes": 29064116,
+      "telegram_date": "2025-08-11T15:57:38+00:00",
+      "title": "2025_지구과학_2_나진환_대E변_고체_1권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10862.png",
+      "sha256": "1477cc77dc123755f24c34bdf6188d10a85ead8055f6116ef103b963a725e3a8"
     }
   ],
   "duplicate_message_ids": [
