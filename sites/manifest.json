@@ -122177,6 +122177,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10668.png",
       "sha256": "4fabe30fe2a304f717b6fae0cba8497dee2b1b94dc3aff182daee497bba39613"
+    },
+    {
+      "message_id": 10667,
+      "filename": "시대인재 2020학년도 독서 기출.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10667_.2020.pdf",
+      "size_bytes": 97266886,
+      "telegram_date": "2025-08-11T15:56:17+00:00",
+      "title": "시대인재 2020학년도 독서 기출",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10667.png",
+      "sha256": "d5ad0ac66113b7c4db785cc45914233e67129616d23790227f3bd1ef14ab0df4"
     }
   ],
   "duplicate_message_ids": [
