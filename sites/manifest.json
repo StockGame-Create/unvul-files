@@ -119643,6 +119643,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10891.png",
       "sha256": "701187c27d5089ab86522a02561714b4db01641d82567587a19e2f66b564f9d1"
+    },
+    {
+      "message_id": 10890,
+      "filename": "2026_김현우T_파이널_2주차_수업_프리뷰테스트_빠답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10890_2026_.T_._2._._._.pdf",
+      "size_bytes": 18706,
+      "telegram_date": "2025-08-11T15:57:45+00:00",
+      "title": "2026_김현우T_파이널_2주차_수업_프리뷰테스트_빠답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10890.png",
+      "sha256": "2a4ed7f08d8ab38aa963c72d4a3d697318d5e30d7aca96528d2dad2f3e8a5fab"
     }
   ],
   "duplicate_message_ids": [
