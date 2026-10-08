@@ -119153,6 +119153,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10941.png",
       "sha256": "38c0dcdbffe8e528d7a10067c16eda060b92e1ea8e227a0af8db84967f7ebe6b"
+    },
+    {
+      "message_id": 10938,
+      "filename": "사문_시즌3_1주차_서바_브릿지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10938_._.3_1._._.pdf",
+      "size_bytes": 85706101,
+      "telegram_date": "2025-08-11T15:57:48+00:00",
+      "title": "사문_시즌3_1주차_서바_브릿지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10938.png",
+      "sha256": "7e78ffb36b0fb30e85a177cfa9714d44b9dfe6618ddbb820d917dbaed0e7ba90"
     }
   ],
   "duplicate_message_ids": [
