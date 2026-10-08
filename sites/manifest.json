@@ -119573,6 +119573,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10898.png",
       "sha256": "739a5b22dfee491573cf20d545499c172ed919d4028de33aacaa1b4d0c8b134b"
+    },
+    {
+      "message_id": 10897,
+      "filename": "서바 시즌 3 1주차 국어.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10897_.3.1.pdf",
+      "size_bytes": 31731453,
+      "telegram_date": "2025-08-11T15:57:45+00:00",
+      "title": "서바 시즌 3 1주차 국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10897.png",
+      "sha256": "6f76d0e7ce9383ef8b3256e14830d92f4108dc2455ef47211191cb4adf97e655"
     }
   ],
   "duplicate_message_ids": [
