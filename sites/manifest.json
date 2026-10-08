@@ -119587,6 +119587,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10897.png",
       "sha256": "6f76d0e7ce9383ef8b3256e14830d92f4108dc2455ef47211191cb4adf97e655"
+    },
+    {
+      "message_id": 10896,
+      "filename": "스캔_문서,_2025_7_19_오후_7_25_32.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10896_._._2025_7_19_._7_25_32.pdf",
+      "size_bytes": 5536895,
+      "telegram_date": "2025-08-11T15:57:45+00:00",
+      "title": "스캔_문서,_2025_7_19_오후_7_25_32",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10896.png",
+      "sha256": "e208f33382f0945f1b12bce40492c5562836cecc430921eb57b1cbae6b575daf"
     }
   ],
   "duplicate_message_ids": [
