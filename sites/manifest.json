@@ -119069,6 +119069,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10949.png",
       "sha256": "0133f88bf24741545967d030a4c1eaee6e137bfa85b08be1e397f2650cd6ef3a"
+    },
+    {
+      "message_id": 10946,
+      "filename": "26 큐레이션 05.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10946_26.05.pdf",
+      "size_bytes": 4935828,
+      "telegram_date": "2025-08-11T15:57:48+00:00",
+      "title": "26 큐레이션 05",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10946.png",
+      "sha256": "34d1697413e16616495db7c63b732a4ad3d1d7f64885357c34433a1260ff74bb"
     }
   ],
   "duplicate_message_ids": [
