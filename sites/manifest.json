@@ -119209,6 +119209,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10935.png",
       "sha256": "c8ac76789a51fefcf4358a666a9ec64307619d9b23cce438f92920b7c80c37e0"
+    },
+    {
+      "message_id": 10934,
+      "filename": "2026_지구과학1_이신혁_모의고사_시즌2_1회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10934_2026_.1_._._.2_1._.pdf",
+      "size_bytes": 6844205,
+      "telegram_date": "2025-08-11T15:57:47+00:00",
+      "title": "2026_지구과학1_이신혁_모의고사_시즌2_1회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10934.png",
+      "sha256": "a4d95c1163a99c57149d9ab11181f291f5555398e8b3f3abfde027547ac74cf4"
     }
   ],
   "duplicate_message_ids": [
