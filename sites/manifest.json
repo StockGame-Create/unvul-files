@@ -121449,6 +121449,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10743.png",
       "sha256": "dcfdb023295fbdf82ea4c8761abba12b36c75deebd399779a640d84a17909282"
+    },
+    {
+      "message_id": 10742,
+      "filename": "2026 한완기 테마 수학2_250502_154221.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10742_2026.2_250502_154221.pdf",
+      "size_bytes": 48449633,
+      "telegram_date": "2025-08-11T15:56:24+00:00",
+      "title": "2026 한완기 테마 수학2_250502_154221",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10742.png",
+      "sha256": "93e62810f9104aebb6444a55aa52c9dac36795717f9ef115c4f9d5ad9cee9f71"
     }
   ],
   "duplicate_message_ids": [
