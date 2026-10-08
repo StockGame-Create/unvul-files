@@ -120455,6 +120455,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10811.png",
       "sha256": "244afa7e8004f3608e4dfbab61bf30b64f53975620c9a48568beebf6122ec10b"
+    },
+    {
+      "message_id": 10810,
+      "filename": "강대N제 미적분_compressed.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10810_.N._compressed.pdf",
+      "size_bytes": 13851085,
+      "telegram_date": "2025-08-11T15:57:33+00:00",
+      "title": "강대N제 미적분_compressed",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10810.png",
+      "sha256": "4ffe5d4393f08741df2b70a14cdf5d186417719805a02dc8809f7d5e10b6801f"
     }
   ],
   "duplicate_message_ids": [
