@@ -121463,6 +121463,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10742.png",
       "sha256": "93e62810f9104aebb6444a55aa52c9dac36795717f9ef115c4f9d5ad9cee9f71"
+    },
+    {
+      "message_id": 10741,
+      "filename": "2026 한완기 테마 기하_250428_190703.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10741_2026._250428_190703.pdf",
+      "size_bytes": 23720896,
+      "telegram_date": "2025-08-11T15:56:24+00:00",
+      "title": "2026 한완기 테마 기하_250428_190703",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10741.png",
+      "sha256": "1be487e314b8a6058c2123ea528d816c260f0f4386a7668365efe6a8f4a403f8"
     }
   ],
   "duplicate_message_ids": [
