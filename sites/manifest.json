@@ -122149,6 +122149,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10670.png",
       "sha256": "6d0d1c43036f5b2c74382935475aaec00f53e041adfba56b44342e7934db1b2b"
+    },
+    {
+      "message_id": 10669,
+      "filename": "시대인재 2021학년도 독서 기출.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10669_.2021.pdf",
+      "size_bytes": 88846911,
+      "telegram_date": "2025-08-11T15:56:17+00:00",
+      "title": "시대인재 2021학년도 독서 기출",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10669.png",
+      "sha256": "8c7de447ef784dc1f9368bfb88cff22abee1c335116c497f871d3a3b917ca533"
     }
   ],
   "duplicate_message_ids": [
