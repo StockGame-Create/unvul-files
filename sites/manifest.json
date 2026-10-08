@@ -120371,6 +120371,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10820.png",
       "sha256": "a3f0969110f3df235314224497d93c24b33be31fdb0f0e2fc32ef4efefcd7ed3"
+    },
+    {
+      "message_id": 10819,
+      "filename": "서바이벌_전국_1회_물리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10819_._._1._.pdf",
+      "size_bytes": 3039133,
+      "telegram_date": "2025-08-11T15:57:33+00:00",
+      "title": "서바이벌_전국_1회_물리",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10819.png",
+      "sha256": "df75e5124fbec0369f1edbb420f42f23dbf295c55fa57a1f5b81808c74f92167"
     }
   ],
   "duplicate_message_ids": [
