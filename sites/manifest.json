@@ -120035,6 +120035,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10853.png",
       "sha256": "b11ff5e70ae1b2ecaa489a4186e589a5f6eb910892f584913b2a44529a5f2a5a"
+    },
+    {
+      "message_id": 10852,
+      "filename": "EBS_2026_수능완성_제2외국어·한문영역_중국어Ⅰ20250604220803397.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10852_EBS_2026_._.2._.20250604220803397.pdf",
+      "size_bytes": 13170427,
+      "telegram_date": "2025-08-11T15:57:35+00:00",
+      "title": "EBS_2026_수능완성_제2외국어·한문영역_중국어Ⅰ20250604220803397",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10852.png",
+      "sha256": "17e407f85ac17cfe2c50bb90b21f46dae430a81fa251205a35e9dba7a8bceb18"
     }
   ],
   "duplicate_message_ids": [
