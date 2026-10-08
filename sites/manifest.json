@@ -119545,6 +119545,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10900.png",
       "sha256": "e70c665fbf30bf78592a6331966cde760f89126a82fdd3b729fdf2a0f433e68b"
+    },
+    {
+      "message_id": 10899,
+      "filename": "2026_수능특강_사회･문화_분석.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10899_2026_._._.pdf",
+      "size_bytes": 1740120,
+      "telegram_date": "2025-08-11T15:57:45+00:00",
+      "title": "2026_수능특강_사회･문화_분석",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10899.png",
+      "sha256": "d9c36996ee8010acf57b124b88714e78e503538b8d97b4bec247950e0c86a869"
     }
   ],
   "duplicate_message_ids": [
