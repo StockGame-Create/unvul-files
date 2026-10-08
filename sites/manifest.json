@@ -119475,6 +119475,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10905.png",
       "sha256": "9ff68c43a306e54cdc16a2fbafcc49c0272dbee9814e20666a005ad3dbfc6262"
+    },
+    {
+      "message_id": 10904,
+      "filename": "강K 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10904_.K.2.pdf",
+      "size_bytes": 36852682,
+      "telegram_date": "2025-08-11T15:57:46+00:00",
+      "title": "강K 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10904.png",
+      "sha256": "4db17e3fe5002b7a6d613b5dcebaebd1a016eec54ddaa495e409013b965f94a9"
     }
   ],
   "duplicate_message_ids": [
