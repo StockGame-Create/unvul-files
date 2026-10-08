@@ -119335,6 +119335,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10925.png",
       "sha256": "fca611b9275c0fe7767fbd4095797621966ba61de68a00e52d46b939fc50b073"
+    },
+    {
+      "message_id": 10924,
+      "filename": "2026 7월 THE PREMIUM 모의고사 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10924_2026.7.THE.PREMIUM.pdf",
+      "size_bytes": 14085588,
+      "telegram_date": "2025-08-11T15:57:47+00:00",
+      "title": "2026 7월 THE PREMIUM 모의고사 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10924.png",
+      "sha256": "a107c3afbd541465b8f68428d2f685bf539d191c927d02aac1fd99263f93635c"
     }
   ],
   "duplicate_message_ids": [
