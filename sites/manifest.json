@@ -118677,6 +118677,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11000.png",
       "sha256": "8e4ed4d6c48082487170a05140a3f9fb67912279a56a9456d7cec6b7b4bd4775"
+    },
+    {
+      "message_id": 10999,
+      "filename": "윤도영_에펙_1,2,3회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10999_._._1.2.3._.pdf",
+      "size_bytes": 6899093,
+      "telegram_date": "2025-08-11T15:57:52+00:00",
+      "title": "윤도영_에펙_1,2,3회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10999.png",
+      "sha256": "3bb8085c21ee2535748747d16e776a7549069d9be6a3869e440db798684f848c"
     }
   ],
   "duplicate_message_ids": [
