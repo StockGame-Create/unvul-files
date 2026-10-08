@@ -122163,6 +122163,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10669.png",
       "sha256": "8c7de447ef784dc1f9368bfb88cff22abee1c335116c497f871d3a3b917ca533"
+    },
+    {
+      "message_id": 10668,
+      "filename": "시대인재 2017학년도 독서 기출.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10668_.2017.pdf",
+      "size_bytes": 95518258,
+      "telegram_date": "2025-08-11T15:56:17+00:00",
+      "title": "시대인재 2017학년도 독서 기출",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10668.png",
+      "sha256": "4fabe30fe2a304f717b6fae0cba8497dee2b1b94dc3aff182daee497bba39613"
     }
   ],
   "duplicate_message_ids": [
