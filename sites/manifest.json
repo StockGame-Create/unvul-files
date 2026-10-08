@@ -120875,6 +120875,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10771.png",
       "sha256": "8abe4885445534a5b7df478a23c1867e4d78a318b4f262b8124a0fcaa8cdd0b1"
+    },
+    {
+      "message_id": 10770,
+      "filename": "2026 수능완성 상업경제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10770_2026.pdf",
+      "size_bytes": 6882315,
+      "telegram_date": "2025-08-11T15:56:26+00:00",
+      "title": "2026 수능완성 상업경제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10770.png",
+      "sha256": "129fdd10ca5c7c5bb6b57a1ae7b1551a3bd25987605beca9a35b589e3f217731"
     }
   ],
   "duplicate_message_ids": [
