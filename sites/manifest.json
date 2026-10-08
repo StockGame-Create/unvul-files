@@ -118607,6 +118607,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11012.png",
       "sha256": "b6b1f47d77afc3be1f6c6669ab323f15ca3f9f5da9175673122882603465c4f2"
+    },
+    {
+      "message_id": 11011,
+      "filename": "OMEGA 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11011_OMEGA.7.pdf",
+      "size_bytes": 5612066,
+      "telegram_date": "2025-08-11T15:57:53+00:00",
+      "title": "OMEGA 7회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11011.png",
+      "sha256": "b8d202cb52c28c64692a1598b998b693202f1773d5ee3995844c348ddb65ea26"
     }
   ],
   "duplicate_message_ids": [
