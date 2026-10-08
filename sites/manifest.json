@@ -118845,6 +118845,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10981.png",
       "sha256": "6143713127c3ee74c68c2ec2fbb899e7f9cd5e4ce7d80a67c154d7e4686c7e0d"
+    },
+    {
+      "message_id": 10980,
+      "filename": "2026 공통 모의고사 1회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10980_2026.1.pdf",
+      "size_bytes": 486082,
+      "telegram_date": "2025-08-11T15:57:51+00:00",
+      "title": "2026 공통 모의고사 1회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10980.png",
+      "sha256": "9b9f8222da2d03900529decca1021078d1936bf43d1479ef4527cd9823743f16"
     }
   ],
   "duplicate_message_ids": [
