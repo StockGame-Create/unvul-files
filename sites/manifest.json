@@ -119839,6 +119839,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10868.png",
       "sha256": "d051bababc590bc4cba3d734a53244ade4d5f059dce185aba7cfacc87ca70782"
+    },
+    {
+      "message_id": 10867,
+      "filename": "44모 12회 답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10867_44.12.pdf",
+      "size_bytes": 1683884,
+      "telegram_date": "2025-08-11T15:57:38+00:00",
+      "title": "44모 12회 답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10867.png",
+      "sha256": "77c46942f32e831ab3655a73187fed85d2269a1581ad1f6eecf92e2efc2434af"
     }
   ],
   "duplicate_message_ids": [
