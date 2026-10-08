@@ -120679,6 +120679,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10787.png",
       "sha256": "4b62f7c50e4453e874388631a146a927b182e005d0306f48ad000dbe2d26d125"
+    },
+    {
+      "message_id": 10785,
+      "filename": "김O수_미적분_모의고사_2회_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10785_.O._._._2._.pdf",
+      "size_bytes": 1225541,
+      "telegram_date": "2025-08-11T15:57:32+00:00",
+      "title": "김O수_미적분_모의고사_2회_문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10785.png",
+      "sha256": "df06d9415cb532a41228306269bacc83e84b8ca36333f6bbe18c3f2d5fa50dea"
     }
   ],
   "duplicate_message_ids": [
