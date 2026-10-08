@@ -121841,6 +121841,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10698.png",
       "sha256": "71317e21b44fe57a578a5408512ce6c6d0e310ada79add959f1a4116a0407ab0"
+    },
+    {
+      "message_id": 10697,
+      "filename": "2026 믿어봐 문장편 복습북_250625_122130.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10697_2026._250625_122130.pdf",
+      "size_bytes": 86972798,
+      "telegram_date": "2025-08-11T15:56:19+00:00",
+      "title": "2026 믿어봐 문장편 복습북_250625_122130",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10697.png",
+      "sha256": "e5b40c78ecf652cee2fd7956175d802fb39f9d70acdf7e15032fb793af396a68"
     }
   ],
   "duplicate_message_ids": [
