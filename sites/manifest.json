@@ -119825,6 +119825,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10869.png",
       "sha256": "fe6ef2bb49ee8ac869f535063c824946fdf00908040f33a27168fb1b64d8ce80"
+    },
+    {
+      "message_id": 10868,
+      "filename": "26 이형수 개념완성.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10868_26.pdf",
+      "size_bytes": 90733282,
+      "telegram_date": "2025-08-11T15:57:38+00:00",
+      "title": "26 이형수 개념완성",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10868.png",
+      "sha256": "d051bababc590bc4cba3d734a53244ade4d5f059dce185aba7cfacc87ca70782"
     }
   ],
   "duplicate_message_ids": [
