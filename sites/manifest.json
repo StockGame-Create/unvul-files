@@ -120063,6 +120063,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10851.png",
       "sha256": "58e6c69cc1a4a8440761aedf1cb55beecc4972820223812b9a7ee9e9ba09aa19"
+    },
+    {
+      "message_id": 10850,
+      "filename": "2026 시대인재 서바이벌 수학 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10850_2026.1.pdf",
+      "size_bytes": 849973,
+      "telegram_date": "2025-08-11T15:57:35+00:00",
+      "title": "2026 시대인재 서바이벌 수학 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10850.png",
+      "sha256": "ea18547b2c8c53a0e70d76c52467ee802929677cc9b776d93e50b7a649500c74"
     }
   ],
   "duplicate_message_ids": [
