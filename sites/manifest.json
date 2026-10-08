@@ -99,6 +99,20 @@
       "sha256": "a3d86bf484b1238e73103ac3f8eeaf57905b8e800e179d900e371a61bfadc9ff"
     },
     {
+      "message_id": 25163,
+      "filename": "2027 파이널 V 스피드.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25163_2027.V.pdf",
+      "size_bytes": 80896425,
+      "telegram_date": "2026-10-08T13:29:44+00:00",
+      "title": "영어 김지영 파이널 V 스피드",
+      "year": "2027",
+      "instructor": "김지영",
+      "subject": "영어",
+      "thumbnail": "thumbnails/25163.png",
+      "sha256": "75e619e7b6691b4b4d52e14c48e51f43b19e1474298d02ee75fd8ec94efa76ab"
+    },
+    {
       "message_id": 25136,
       "filename": "하프모 7회.pdf",
       "stored_as": null,
