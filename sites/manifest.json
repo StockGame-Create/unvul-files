@@ -120175,6 +120175,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10841.png",
       "sha256": "5801b2fcefa464611d2b30ac8f5b9801c6231f05545714359da866ba0796fe8a"
+    },
+    {
+      "message_id": 10836,
+      "filename": "물2 N서바 1회 선명도 올림.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10836_.2.N.1.pdf",
+      "size_bytes": 1142421,
+      "telegram_date": "2025-08-11T15:57:34+00:00",
+      "title": "물2 N서바 1회 선명도 올림",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10836.png",
+      "sha256": "ba3f485a0cd52438809dd09b7bc71cf4c3ffa5a14eb1beb9f12084abac963055"
     }
   ],
   "duplicate_message_ids": [
