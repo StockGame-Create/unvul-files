@@ -120847,6 +120847,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10773.png",
       "sha256": "b4778236f9d537cbf4790f80b0bf77e13ef1014951854526132f6a1a1982c3b5"
+    },
+    {
+      "message_id": 10772,
+      "filename": "2026 수능완성 한문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10772_2026.pdf",
+      "size_bytes": 14411312,
+      "telegram_date": "2025-08-11T15:56:26+00:00",
+      "title": "2026 수능완성 한문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10772.png",
+      "sha256": "57afb09e6b830cdc15f80eba15d3dc79f17f9c22da71653e5c8ae06176012077"
     }
   ],
   "duplicate_message_ids": [
