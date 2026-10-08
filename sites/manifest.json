@@ -121925,6 +121925,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10691.png",
       "sha256": "4d21a3f9b9e203d2441017f2bcfafaf7e4334ca5acf07c4360e1564b2aa8fa11"
+    },
+    {
+      "message_id": 10689,
+      "filename": "세계지리_이것이_위치다.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10689_._._.pdf",
+      "size_bytes": 77515191,
+      "telegram_date": "2025-08-11T15:56:18+00:00",
+      "title": "세계지리_이것이_위치다",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10689.png",
+      "sha256": "df65afa79b44767d6062937a0dbbb3510e7f41f1f75b55ec338482b88eed17c6"
     }
   ],
   "duplicate_message_ids": [
