@@ -211,6 +211,20 @@
       "sha256": "4200831153dae6baa9584413ff99316fddb636a05151f24c88fec8bcc4a03bc3"
     },
     {
+      "message_id": 25152,
+      "filename": "REAL-F 파이널 한지 1회차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25152_REAL-F.1.pdf",
+      "size_bytes": 4143950,
+      "telegram_date": "2026-10-08T13:29:29+00:00",
+      "title": "한지 기승전결 모의고사(9월 대비 모의고사 1, 2회, EBS 변형, 파이널 1회)",
+      "year": "2027",
+      "instructor": "이승헌",
+      "subject": "한국지리",
+      "thumbnail": "thumbnails/25152.png",
+      "sha256": "9f72b319222fadb5c99cd7f031da2052417a5fd03356135f92259a5945daf09f"
+    },
+    {
       "message_id": 25136,
       "filename": "하프모 7회.pdf",
       "stored_as": null,
