@@ -118901,6 +118901,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10972.png",
       "sha256": "0c9de5d847b1d0b8a58f0a9e50d9e45b577051b272c19ff5633ae96af83ae8a3"
+    },
+    {
+      "message_id": 10971,
+      "filename": "2026 LCS EE CORE 생명과학1 12회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10971_2026.LCS.EE.CORE.1.12.pdf",
+      "size_bytes": 9551851,
+      "telegram_date": "2025-08-11T15:57:51+00:00",
+      "title": "2026 LCS EE CORE 생명과학1 12회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10971.png",
+      "sha256": "fa66efa72407e4fdd0879d500898eb8e7a6f33afd66568724fe943a71f42d17f"
     }
   ],
   "duplicate_message_ids": [
