@@ -118439,6 +118439,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11025.png",
       "sha256": "bd7f2a0ddea0ba3e967d41f5933d0cd757789507916983ec83ae111953935885"
+    },
+    {
+      "message_id": 11023,
+      "filename": "2026학년도_모의고사_국어_서바이벌PRO_7월_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11023_2026._._._.PRO_7._.pdf",
+      "size_bytes": 1053188,
+      "telegram_date": "2025-08-11T15:57:55+00:00",
+      "title": "2026학년도_모의고사_국어_서바이벌PRO_7월_해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11023.png",
+      "sha256": "de5d1ec1df2cf30c3ff40a0fee3e3a840fb968d88f06d3b9e3091eee4da82492"
     }
   ],
   "duplicate_message_ids": [
