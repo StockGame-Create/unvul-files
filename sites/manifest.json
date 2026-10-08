@@ -120805,6 +120805,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10776.png",
       "sha256": "33f067b9f8805cb52a3d125e14df53c7a8f684430ef2859b9e77fbb343b7ecad"
+    },
+    {
+      "message_id": 10775,
+      "filename": "2026 수능완성 스페인어 I.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10775_2026.I.pdf",
+      "size_bytes": 12372758,
+      "telegram_date": "2025-08-11T15:56:26+00:00",
+      "title": "2026 수능완성 스페인어 I",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10775.png",
+      "sha256": "be307a08b11dda803a01d813e631c3d7abdef6d2f6f9213d661f7ebea4f559dc"
     }
   ],
   "duplicate_message_ids": [
