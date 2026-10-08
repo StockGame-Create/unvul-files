@@ -118663,6 +118663,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11001.png",
       "sha256": "c4ca5e03c5a227e896758560417590cb6bd7ddf8579cf668fe2d2dc7e2728c19"
+    },
+    {
+      "message_id": 11000,
+      "filename": "2026 강K+ 1회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11000_2026.K%2B.1.pdf",
+      "size_bytes": 4821401,
+      "telegram_date": "2025-08-11T15:57:52+00:00",
+      "title": "2026 강K+ 1회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11000.png",
+      "sha256": "8e4ed4d6c48082487170a05140a3f9fb67912279a56a9456d7cec6b7b4bd4775"
     }
   ],
   "duplicate_message_ids": [
