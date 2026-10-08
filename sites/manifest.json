@@ -119293,6 +119293,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10929.png",
       "sha256": "48c5986df538beb8823f410df2a0977e7add66881f3ab8adbf7176f28935fb0e"
+    },
+    {
+      "message_id": 10928,
+      "filename": "2026 7월 THE PREMIUM 모의고사 사회탐구.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10928_2026.7.THE.PREMIUM.pdf",
+      "size_bytes": 6247870,
+      "telegram_date": "2025-08-11T15:57:47+00:00",
+      "title": "2026 7월 THE PREMIUM 모의고사 사회탐구",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10928.png",
+      "sha256": "2f73ab596d5ddc7e7791ade6f334c07a5bfba976ff6d9cd66e7fa5f923b09239"
     }
   ],
   "duplicate_message_ids": [
