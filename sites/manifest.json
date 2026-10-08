@@ -122037,6 +122037,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10679.png",
       "sha256": "bab2b24a79fae2af63bf8cf176012c9b3f47e8f21a2b3d7c4bb929506d36241b"
+    },
+    {
+      "message_id": 10678,
+      "filename": "2026_정병호_스피드러너_3회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10678_2026_._._3._.pdf",
+      "size_bytes": 7208359,
+      "telegram_date": "2025-08-11T15:56:18+00:00",
+      "title": "2026_정병호_스피드러너_3회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10678.png",
+      "sha256": "3e09a111e38a8182d68ed8a6c186765f4ac8258e7012e59d45dfb5b2894c10ac"
     }
   ],
   "duplicate_message_ids": [
