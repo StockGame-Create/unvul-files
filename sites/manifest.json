@@ -119447,6 +119447,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10907.png",
       "sha256": "0e4d71c2ec61e8c3410298f45acfe91e754984c37aed0159720f18c7e9b57d0a"
+    },
+    {
+      "message_id": 10906,
+      "filename": "시대인재 엑셀 22회, 브릿지 13-14회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10906_.22.13-14.pdf",
+      "size_bytes": 37911074,
+      "telegram_date": "2025-08-11T15:57:46+00:00",
+      "title": "시대인재 엑셀 22회, 브릿지 13-14회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10906.png",
+      "sha256": "bb1762b11e9c4d299fd0c63d9652d6dcb55a5d187382efc902960f93b5118d61"
     }
   ],
   "duplicate_message_ids": [
