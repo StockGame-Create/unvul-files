@@ -118523,6 +118523,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11018.png",
       "sha256": "05255d2218451f4b4d072f7cbd63227f617ecc4ad1fd7bc537a96fc0d6052859"
+    },
+    {
+      "message_id": 11017,
+      "filename": "2026 홍준용 PRISM Vol.3 Archive 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11017_2026.PRISM.Vol.3.Archive.pdf",
+      "size_bytes": 37673806,
+      "telegram_date": "2025-08-11T15:57:53+00:00",
+      "title": "2026 홍준용 PRISM Vol.3 Archive 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11017.png",
+      "sha256": "4b36ef4c6b308c3048f1e67e39400e978900ff129bb823a5547815c68505e186"
     }
   ],
   "duplicate_message_ids": [
