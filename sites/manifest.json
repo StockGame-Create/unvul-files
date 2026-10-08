@@ -120091,6 +120091,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10849.png",
       "sha256": "c18f5330de788a45077f54392f5cb557e0be1505a65c806f7b2ee3c274c3e99a"
+    },
+    {
+      "message_id": 10848,
+      "filename": "2026 시대인재 서바이벌 리부트 수학 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10848_2026.1.pdf",
+      "size_bytes": 918143,
+      "telegram_date": "2025-08-11T15:57:35+00:00",
+      "title": "2026 시대인재 서바이벌 리부트 수학 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10848.png",
+      "sha256": "870a67cc3036d1c29aba2f61fe71e8e4c9bff971cc1c6a9478e32f8e3de48934"
     }
   ],
   "duplicate_message_ids": [
