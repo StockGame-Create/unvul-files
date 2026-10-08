@@ -119041,6 +119041,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10951.png",
       "sha256": "e852636ab41adbeaa6d0742daf69956aa51ff7dad0ce191f5657bf42d716830f"
+    },
+    {
+      "message_id": 10950,
+      "filename": "omega 모의고사 지구과학1 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10950_omega.1.7.pdf",
+      "size_bytes": 6110010,
+      "telegram_date": "2025-08-11T15:57:48+00:00",
+      "title": "omega 모의고사 지구과학1 7회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10950.png",
+      "sha256": "c7988b01b4323374293249be69d76c346bdf2c4bb5294bdf74e400c63a650fb6"
     }
   ],
   "duplicate_message_ids": [
