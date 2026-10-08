@@ -122093,6 +122093,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10674.png",
       "sha256": "45cd954acc107f79c64449ead3fd038ce45cfd855fb99f19e230d5e2b99ed18a"
+    },
+    {
+      "message_id": 10673,
+      "filename": "시대인재 2019학년도 독서 기출.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10673_.2019.pdf",
+      "size_bytes": 97302515,
+      "telegram_date": "2025-08-11T15:56:17+00:00",
+      "title": "시대인재 2019학년도 독서 기출",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10673.png",
+      "sha256": "18a29516f6a9c0d01e32946a88125810b7152fac39d3e6b20e88fe0dec37ea04"
     }
   ],
   "duplicate_message_ids": [
