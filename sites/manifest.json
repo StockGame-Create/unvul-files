@@ -121953,6 +121953,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10688.png",
       "sha256": "a34348c1a0cf677cf13aa8f0cab3ea636b66a021bc2aaed2aa8a164053899969"
+    },
+    {
+      "message_id": 10687,
+      "filename": "2023_배기범_물1_플랜비_비역학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10687_2023_._.1_._.pdf",
+      "size_bytes": 33714481,
+      "telegram_date": "2025-08-11T15:56:18+00:00",
+      "title": "2023_배기범_물1_플랜비_비역학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10687.png",
+      "sha256": "b3f914d0b1f99ca782a966c3e1e9f25aa7b187b333fa4a6671e48e0c7fba5438"
     }
   ],
   "duplicate_message_ids": [
