@@ -121659,6 +121659,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10728.png",
       "sha256": "36bc658a3267387f22a829b0958a1d3534019d18a5eb2d299fd32b558d0dd81f"
+    },
+    {
+      "message_id": 10727,
+      "filename": "2026 한완기 수학 I 교사경_250507_082745.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10727_2026.I._250507_082745.pdf",
+      "size_bytes": 172156275,
+      "telegram_date": "2025-08-11T15:56:23+00:00",
+      "title": "2026 한완기 수학 I 교사경_250507_082745",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10727.png",
+      "sha256": "0b45de022e5a0efb0ff83a3a7f81a081f249f2b9dab0816c45cccab0b450533e"
     }
   ],
   "duplicate_message_ids": [
