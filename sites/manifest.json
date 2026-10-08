@@ -119223,6 +119223,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10934.png",
       "sha256": "a4d95c1163a99c57149d9ab11181f291f5555398e8b3f3abfde027547ac74cf4"
+    },
+    {
+      "message_id": 10933,
+      "filename": "2026 이감 5-2(파이널1 제2차) 문제+정답.해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10933_2026.5-2.1.2.%2B.pdf",
+      "size_bytes": 94421436,
+      "telegram_date": "2025-08-11T15:57:47+00:00",
+      "title": "2026 이감 5-2(파이널1 제2차) 문제+정답.해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10933.png",
+      "sha256": "052d3cee93764f5fbbafca88c210a0e0db3186ad214be97a69fb41e7a0cc1557"
     }
   ],
   "duplicate_message_ids": [
