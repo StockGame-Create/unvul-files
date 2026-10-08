@@ -121715,6 +121715,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10724.png",
       "sha256": "0c97706db0bbda728c94a2dfb2c568b41d10741f66f5c179ea4a69de80d1ae95"
+    },
+    {
+      "message_id": 10723,
+      "filename": "2026 한완기 수학 II 평수능_250614_175926.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10723_2026.II._250614_175926.pdf",
+      "size_bytes": 138356932,
+      "telegram_date": "2025-08-11T15:56:23+00:00",
+      "title": "2026 한완기 수학 II 평수능_250614_175926",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10723.png",
+      "sha256": "ec4ca01c7a7795fdc7569744518d33db418ca509284d94d4bef2aea1da353105"
     }
   ],
   "duplicate_message_ids": [
