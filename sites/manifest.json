@@ -120385,6 +120385,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10819.png",
       "sha256": "df75e5124fbec0369f1edbb420f42f23dbf295c55fa57a1f5b81808c74f92167"
+    },
+    {
+      "message_id": 10818,
+      "filename": "서바이벌 1회(물리).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10818_.1.pdf",
+      "size_bytes": 2686707,
+      "telegram_date": "2025-08-11T15:57:33+00:00",
+      "title": "서바이벌 1회(물리)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10818.png",
+      "sha256": "5ba9ca50f2e955c6bbb643bbaa970258333938307f2560fd64d74a3aaceada15"
     }
   ],
   "duplicate_message_ids": [
