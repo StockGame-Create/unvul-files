@@ -119125,6 +119125,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10943.png",
       "sha256": "ba7be38ae7a8100f38e1e917cb66e87fda8c0f7113b6536cb0efc408467338b0"
+    },
+    {
+      "message_id": 10942,
+      "filename": "빅포텐 시즌2 수2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10942_.2.2.pdf",
+      "size_bytes": 13185473,
+      "telegram_date": "2025-08-11T15:57:48+00:00",
+      "title": "빅포텐 시즌2 수2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10942.png",
+      "sha256": "a28b1feed1457a923f96d255d27b40f896e635b7b339d8b0057a3c2d31b90f23"
     }
   ],
   "duplicate_message_ids": [
