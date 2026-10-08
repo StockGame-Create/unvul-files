@@ -119237,6 +119237,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10933.png",
       "sha256": "052d3cee93764f5fbbafca88c210a0e0db3186ad214be97a69fb41e7a0cc1557"
+    },
+    {
+      "message_id": 10932,
+      "filename": "2026 이감 5-1(파이널1 제1차) 문제+정답.해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10932_2026.5-1.1.1.%2B.pdf",
+      "size_bytes": 88337946,
+      "telegram_date": "2025-08-11T15:57:47+00:00",
+      "title": "2026 이감 5-1(파이널1 제1차) 문제+정답.해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10932.png",
+      "sha256": "bd6061a1b4316fdebd9eba047e0491140ea167971b4fe49d23fc262f257b710e"
     }
   ],
   "duplicate_message_ids": [
