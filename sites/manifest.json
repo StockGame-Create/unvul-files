@@ -119433,6 +119433,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10908.png",
       "sha256": "7f411aa2b8e29356254a470e46d453784ef37bf7282891e1a717ad95166044f3"
+    },
+    {
+      "message_id": 10907,
+      "filename": "7월 더프(한국사).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10907_7.pdf",
+      "size_bytes": 805638,
+      "telegram_date": "2025-08-11T15:57:46+00:00",
+      "title": "7월 더프(한국사)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10907.png",
+      "sha256": "0e4d71c2ec61e8c3410298f45acfe91e754984c37aed0159720f18c7e9b57d0a"
     }
   ],
   "duplicate_message_ids": [
