@@ -119531,6 +119531,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10901.png",
       "sha256": "bd69d3017859bf21f48d1c13a36dc561fb5fddd271f12405680cf04f45443587"
+    },
+    {
+      "message_id": 10900,
+      "filename": "이신혁.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10900_.pdf",
+      "size_bytes": 6449904,
+      "telegram_date": "2025-08-11T15:57:46+00:00",
+      "title": "이신혁",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10900.png",
+      "sha256": "e70c665fbf30bf78592a6331966cde760f89126a82fdd3b729fdf2a0f433e68b"
     }
   ],
   "duplicate_message_ids": [
