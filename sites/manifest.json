@@ -119419,6 +119419,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10909.png",
       "sha256": "18a51f9e68e93d1f2419afd5f7dfe60108200634afd7831eb18fc9435f184ca2"
+    },
+    {
+      "message_id": 10908,
+      "filename": "7월 더프(과탐).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10908_7.pdf",
+      "size_bytes": 4749968,
+      "telegram_date": "2025-08-11T15:57:46+00:00",
+      "title": "7월 더프(과탐)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10908.png",
+      "sha256": "7f411aa2b8e29356254a470e46d453784ef37bf7282891e1a717ad95166044f3"
     }
   ],
   "duplicate_message_ids": [
