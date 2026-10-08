@@ -43,6 +43,20 @@
       "sha256": "092fdd195e9cf8dc54ebde6c8ef461eb979b33f9b8297cfe6f9c997de1349764"
     },
     {
+      "message_id": 25169,
+      "filename": "불꽃모 02회_261008_154555.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25169_.02._261008_154555.pdf",
+      "size_bytes": 3967649,
+      "telegram_date": "2026-10-08T13:29:47+00:00",
+      "title": "수학 김성은 불꽃 모의고사 2회",
+      "year": "2027",
+      "instructor": "김성은",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25169.png",
+      "sha256": "b09488f352ebe968a5e23d721e3a76250c31b71c56385221ea06a394fdeacf04"
+    },
+    {
       "message_id": 25136,
       "filename": "하프모 7회.pdf",
       "stored_as": null,
