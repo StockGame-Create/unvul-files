@@ -121771,6 +121771,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10720.png",
       "sha256": "c14e297ea8ae3e653004830b058f343970aca37dcc7dfb3f3895a4d199a64c7a"
+    },
+    {
+      "message_id": 10719,
+      "filename": "2026 이해원 N제 시즌1 수학 II 해설_250507_080358.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10719_2026.N.1.II._250507_080358.pdf",
+      "size_bytes": 90182421,
+      "telegram_date": "2025-08-11T15:56:22+00:00",
+      "title": "2026 이해원 N제 시즌1 수학 II 해설_250507_080358",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10719.png",
+      "sha256": "c977419f54bbee653b762505250a8be3503d56945664c682d701e95835b6e34f"
     }
   ],
   "duplicate_message_ids": [
