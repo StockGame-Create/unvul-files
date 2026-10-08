@@ -122121,6 +122121,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10672.png",
       "sha256": "ef9aaf4d48cf0b02daa191a9e48948a6f7b73f992e40d9405095f42755f7f814"
+    },
+    {
+      "message_id": 10671,
+      "filename": "시대인재 2023학년도 독서 기출.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10671_.2023.pdf",
+      "size_bytes": 113238980,
+      "telegram_date": "2025-08-11T15:56:17+00:00",
+      "title": "시대인재 2023학년도 독서 기출",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10671.png",
+      "sha256": "cbf8bd9ee04e1692dfd97d416ce7978d24cc9164a8ceb0910ba61bdecdfcfaf0"
     }
   ],
   "duplicate_message_ids": [
