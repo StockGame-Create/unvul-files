@@ -118551,6 +118551,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11016.png",
       "sha256": "f1029105ca1d64c00a1e81cc1a842b9311818ca66905f1767a8dfc659d31e6a2"
+    },
+    {
+      "message_id": 11015,
+      "filename": "2026 홍준용 PRISM Vol.2 Essence.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11015_2026.PRISM.Vol.2.Essence.pdf",
+      "size_bytes": 44314033,
+      "telegram_date": "2025-08-11T15:57:53+00:00",
+      "title": "2026 홍준용 PRISM Vol.2 Essence",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11015.png",
+      "sha256": "e5e8b34432a370f62605bf20fedbb46d3ab1f9e5d27a48e48b490e209fa4cf8e"
     }
   ],
   "duplicate_message_ids": [
