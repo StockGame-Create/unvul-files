@@ -295,6 +295,20 @@
       "sha256": "f5d1290cdd5849b16580d54ddf3cbf3a6ecb4b425df5c52d5b25167cac38bcbf"
     },
     {
+      "message_id": 25145,
+      "filename": "정석 6_10.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25145_.6_10.pdf",
+      "size_bytes": 54876505,
+      "telegram_date": "2026-10-08T13:29:21+00:00",
+      "title": "국어 정석 문학 모의고사 6~10회",
+      "year": "2027",
+      "instructor": "정석민",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25145.png",
+      "sha256": "0ecc5f3a75407445ae77f0214c11828c8cf72ad300df96de43b4fc391432a347"
+    },
+    {
       "message_id": 25136,
       "filename": "하프모 7회.pdf",
       "stored_as": null,
