@@ -120931,6 +120931,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10765.png",
       "sha256": "39414316c241f80858e8dabc63b98862c1b53a1a2b2957c4d5ed3f02c6d74092"
+    },
+    {
+      "message_id": 10764,
+      "filename": "2026_하프컬렉션_시즌1_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10764_2026_._.1_2.pdf",
+      "size_bytes": 2799874,
+      "telegram_date": "2025-08-11T15:56:26+00:00",
+      "title": "2026_하프컬렉션_시즌1_2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10764.png",
+      "sha256": "35fe4ef6298bb81d939589caa80acb3c7af2f410266c3cf35e424d7c410b0906"
     }
   ],
   "duplicate_message_ids": [
