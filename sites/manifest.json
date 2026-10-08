@@ -120343,6 +120343,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10822.png",
       "sha256": "7e942357998cc17a5d9d5888d0b44c91fcd94ed7dc04d3c993fdd835d2770448"
+    },
+    {
+      "message_id": 10821,
+      "filename": "2026_학년도_서바이벌_사문_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10821_2026_._._._.pdf",
+      "size_bytes": 10407348,
+      "telegram_date": "2025-08-11T15:57:33+00:00",
+      "title": "2026_학년도_서바이벌_사문_답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10821.png",
+      "sha256": "9f4a473b56d588f4d7d708318faf1cca86d38f7a8387a9b1112b3e1e922b8f9b"
     }
   ],
   "duplicate_message_ids": [
