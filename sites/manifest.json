@@ -120609,6 +120609,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10793.png",
       "sha256": "38bfc0d21d1fd26df64b23f9d1f4b07da49df2cf1ed5bf87fdb8ca4043654300"
+    },
+    {
+      "message_id": 10792,
+      "filename": "2025-공통수학2 (1)기본도형과 평면좌표(level-3).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10792_2025-.2.1.level-3.pdf",
+      "size_bytes": 5629646,
+      "telegram_date": "2025-08-11T15:57:32+00:00",
+      "title": "2025-공통수학2 (1)기본도형과 평면좌표(level-3)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10792.png",
+      "sha256": "92649daf1a3409ad17e26c3bf682aa53924dc3fa55e422d5aa4854b3e8d7136c"
     }
   ],
   "duplicate_message_ids": [
