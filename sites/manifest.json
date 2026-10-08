@@ -120903,6 +120903,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10769.png",
       "sha256": "19c45ed4ba8ede863269f453e6500d34830ce22e08e6f65551552139d6cdf045"
+    },
+    {
+      "message_id": 10766,
+      "filename": "2026_강민철의_기출_분석_독서_익힘책_문제_및_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10766_2026_._._._._._._._.pdf",
+      "size_bytes": 265162720,
+      "telegram_date": "2025-08-11T15:56:26+00:00",
+      "title": "2026_강민철의_기출_분석_독서_익힘책_문제_및_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10766.png",
+      "sha256": "970f2652020b9eaed470122001ab2bd1d29e8c7c90bc557acf8a0e562a4997b3"
     }
   ],
   "duplicate_message_ids": [
