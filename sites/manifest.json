@@ -253,6 +253,20 @@
       "sha256": "6e6a00a44a8a1d8ef1cc065433f1274c2e4e06334e91283e5095c94fac4b5ed0"
     },
     {
+      "message_id": 25149,
+      "filename": "2027학년도_C단독_지구과학I_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25149_2027._C._.I_.pdf",
+      "size_bytes": 5887800,
+      "telegram_date": "2026-10-08T13:29:27+00:00",
+      "title": "지1 시대인재 서바이벌 C 단독 모의고사 15~16회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25149.png",
+      "sha256": "e22e271d1bae260fcf0c56a844831175c09087b712123832f754689c38ff2dce"
+    },
+    {
       "message_id": 25136,
       "filename": "하프모 7회.pdf",
       "stored_as": null,
