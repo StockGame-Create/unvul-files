@@ -120231,6 +120231,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10833.png",
       "sha256": "e9ed391b4b0dcd2dda48453503e52171e7cbfa16c95c336b0ee2ab33797d6228"
+    },
+    {
+      "message_id": 10832,
+      "filename": "2025-공통수학2 (2)직선의 방정식(level-4).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10832_2025-.2.2.level-4.pdf",
+      "size_bytes": 3338813,
+      "telegram_date": "2025-08-11T15:57:34+00:00",
+      "title": "2025-공통수학2 (2)직선의 방정식(level-4)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10832.png",
+      "sha256": "ef2af31fbafae237a63aaacf80004c31c3ce9bfb9b76e97a378c55254ea43aa1"
     }
   ],
   "duplicate_message_ids": [
