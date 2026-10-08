@@ -119769,6 +119769,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10873.png",
       "sha256": "0c4fe6e7cafa794516450a5ce0d2c791483a08cf01f6932b3c985f87f3646772"
+    },
+    {
+      "message_id": 10872,
+      "filename": "2026_시대인재_생1_파이널브릿지_1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10872_2026_._.1_._1.pdf",
+      "size_bytes": 8351834,
+      "telegram_date": "2025-08-11T15:57:38+00:00",
+      "title": "2026_시대인재_생1_파이널브릿지_1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10872.png",
+      "sha256": "9f12ff8667db12de7e7330b293f0965cdfdee7dbe8c23534973fcca0d4e05e19"
     }
   ],
   "duplicate_message_ids": [
