@@ -120273,6 +120273,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10829.png",
       "sha256": "2b5915cd3e096b900c3870ea469f2ca2d692ef344cd00a3432f20089ef87173f"
+    },
+    {
+      "message_id": 10828,
+      "filename": "서바 리부트 1회 확통.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10828_.1.pdf",
+      "size_bytes": 1212321,
+      "telegram_date": "2025-08-11T15:57:34+00:00",
+      "title": "서바 리부트 1회 확통",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10828.png",
+      "sha256": "9f40777789de8507f9e001c30d8fd43b909b190419ac1ced11cd8be3c87d43c8"
     }
   ],
   "duplicate_message_ids": [
