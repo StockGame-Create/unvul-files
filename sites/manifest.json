@@ -120413,6 +120413,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10817.png",
       "sha256": "4879e07caecbba0c012fd189ca95e7fbffcacc85973b5830241c2bf410593a19"
+    },
+    {
+      "message_id": 10816,
+      "filename": "2026 이감 4-1 문제+정답.해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10816_2026.4-1.%2B.pdf",
+      "size_bytes": 77860279,
+      "telegram_date": "2025-08-11T15:57:33+00:00",
+      "title": "2026 이감 4-1 문제+정답.해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10816.png",
+      "sha256": "cf9c4c852f1f8069971204b577a50326f1831def57835c5539844d31b657fac5"
     }
   ],
   "duplicate_message_ids": [
