@@ -121939,6 +121939,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10689.png",
       "sha256": "df65afa79b44767d6062937a0dbbb3510e7f41f1f75b55ec338482b88eed17c6"
+    },
+    {
+      "message_id": 10688,
+      "filename": "2023 배기범 물1 플랜비 비역학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10688_2023.1.pdf",
+      "size_bytes": 33698867,
+      "telegram_date": "2025-08-11T15:56:18+00:00",
+      "title": "2023 배기범 물1 플랜비 비역학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10688.png",
+      "sha256": "a34348c1a0cf677cf13aa8f0cab3ea636b66a021bc2aaed2aa8a164053899969"
     }
   ],
   "duplicate_message_ids": [
