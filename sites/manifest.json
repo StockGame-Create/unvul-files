@@ -122275,6 +122275,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10652.png",
       "sha256": "7d49d85fa1e0924f05d58d518055c95f82237865f04e925d2a56fe96a526878b"
+    },
+    {
+      "message_id": 10651,
+      "filename": "국일만_너를_국어1등급으로_만들어주마_문학편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10651_._._.1._._.pdf",
+      "size_bytes": 119796344,
+      "telegram_date": "2025-08-11T15:56:16+00:00",
+      "title": "국일만_너를_국어1등급으로_만들어주마_문학편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10651.png",
+      "sha256": "b86f2d3b5844f5df708d4738e0637afffc5db8404e80354c6926188c9cdcd122"
     }
   ],
   "duplicate_message_ids": [
