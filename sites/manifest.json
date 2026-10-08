@@ -119517,6 +119517,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10902.png",
       "sha256": "23c438cf7fcb81f543092fd73675c07260e29fe7d5b240e28da44fd84c238e34"
+    },
+    {
+      "message_id": 10901,
+      "filename": "강K 1회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10901_.K.1.pdf",
+      "size_bytes": 37614168,
+      "telegram_date": "2025-08-11T15:57:46+00:00",
+      "title": "강K 1회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10901.png",
+      "sha256": "bd69d3017859bf21f48d1c13a36dc561fb5fddd271f12405680cf04f45443587"
     }
   ],
   "duplicate_message_ids": [
