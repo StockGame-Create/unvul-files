@@ -118621,6 +118621,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11011.png",
       "sha256": "b8d202cb52c28c64692a1598b998b693202f1773d5ee3995844c348ddb65ea26"
+    },
+    {
+      "message_id": 11010,
+      "filename": "수학_미적분_엑셀_5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11010_._._._5.pdf",
+      "size_bytes": 3268035,
+      "telegram_date": "2025-08-11T15:57:53+00:00",
+      "title": "수학_미적분_엑셀_5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11010.png",
+      "sha256": "b3ecd161e5a465be87712ebc9d73103e74b690940b1cb48ad6bda0280f60af64"
     }
   ],
   "duplicate_message_ids": [
