@@ -118481,6 +118481,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11021.png",
       "sha256": "3f1b89e59c4bbff3c7a6e1c540d8865090f79ee09e04a5d291719749100f5b24"
+    },
+    {
+      "message_id": 11020,
+      "filename": "2026 시대인재 REVIVAL 생명과학1 03.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11020_2026.REVIVAL.1.03.pdf",
+      "size_bytes": 84866736,
+      "telegram_date": "2025-08-11T15:57:53+00:00",
+      "title": "2026 시대인재 REVIVAL 생명과학1 03",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11020.png",
+      "sha256": "488497128b8d49d9e7f45fd33ac80a9f35e6a8faef8c2371a1435df2abbd1e47"
     }
   ],
   "duplicate_message_ids": [
