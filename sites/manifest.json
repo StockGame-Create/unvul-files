@@ -122107,6 +122107,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10673.png",
       "sha256": "18a29516f6a9c0d01e32946a88125810b7152fac39d3e6b20e88fe0dec37ea04"
+    },
+    {
+      "message_id": 10672,
+      "filename": "시대인재 수능기출문제집 확통 more.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10672_.more.pdf",
+      "size_bytes": 107543700,
+      "telegram_date": "2025-08-11T15:56:17+00:00",
+      "title": "시대인재 수능기출문제집 확통 more",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10672.png",
+      "sha256": "ef9aaf4d48cf0b02daa191a9e48948a6f7b73f992e40d9405095f42755f7f814"
     }
   ],
   "duplicate_message_ids": [
