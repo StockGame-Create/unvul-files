@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 25174,
+      "filename": "한수 파이널1 7-10회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25174_.1.7-10._.pdf",
+      "size_bytes": 120593415,
+      "telegram_date": "2026-10-08T15:23:06+00:00",
+      "title": "국어 한수 파이널1 제 7~10차 모의고사",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25174.png",
+      "sha256": "a4cd89b9b7565e0c68d71f11cb9f1ea6ac0603784bb5f53ab1a0edb506acdb48"
+    },
+    {
       "message_id": 25136,
       "filename": "하프모 7회.pdf",
       "stored_as": null,
