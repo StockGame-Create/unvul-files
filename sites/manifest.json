@@ -122233,6 +122233,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10663.png",
       "sha256": "38cc9e8f2258eedbc364c36fc59b3b88d303acc3f5f25a7e8fae6da3f5c676ee"
+    },
+    {
+      "message_id": 10658,
+      "filename": "2026 킬링캠프 Season1 OMR.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10658_2026.Season1.OMR.pdf",
+      "size_bytes": 226891,
+      "telegram_date": "2025-08-11T15:56:17+00:00",
+      "title": "2026 킬링캠프 Season1 OMR",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10658.png",
+      "sha256": "3a78b9cb074714830b99fe025cb3065b5d9f0082ce52d6d0b67155f1a4398bca"
     }
   ],
   "duplicate_message_ids": [
