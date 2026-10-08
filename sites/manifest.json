@@ -323,6 +323,20 @@
       "sha256": "a9ac68ab6d0ac2b0729a669eea21c2fe0391b8d04bc7fc27904568c0ea40de39"
     },
     {
+      "message_id": 25142,
+      "filename": "전형태 파이널_rotated.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25142_._rotated.pdf",
+      "size_bytes": 209265659,
+      "telegram_date": "2026-10-08T13:29:19+00:00",
+      "title": "국어 전형태 파이널 모의고사 1~3회",
+      "year": "2027",
+      "instructor": "전형태",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25142.png",
+      "sha256": "53024ebf0025a96cdd09ae0f4f0270461e69cec2a4217292f738aa0ebf0d2459"
+    },
+    {
       "message_id": 25136,
       "filename": "하프모 7회.pdf",
       "stored_as": null,
