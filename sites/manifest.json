@@ -122219,6 +122219,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10664.png",
       "sha256": "ba3a6edc0915220c332e1fa0874ae5accbe7dd3be91aae2b0ec86ffc59e288c2"
+    },
+    {
+      "message_id": 10663,
+      "filename": "시대인재 2022학년도 독서 기출.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10663_.2022.pdf",
+      "size_bytes": 108758698,
+      "telegram_date": "2025-08-11T15:56:17+00:00",
+      "title": "시대인재 2022학년도 독서 기출",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10663.png",
+      "sha256": "38cc9e8f2258eedbc364c36fc59b3b88d303acc3f5f25a7e8fae6da3f5c676ee"
     }
   ],
   "duplicate_message_ids": [
