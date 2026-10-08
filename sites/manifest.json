@@ -120483,6 +120483,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10806.png",
       "sha256": "b09b49df6490bcf91deca0df896d7a9edcf2e2bf225d9f7e9d79d0f004136ed1"
+    },
+    {
+      "message_id": 10805,
+      "filename": "44모 11회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10805_44.11.pdf",
+      "size_bytes": 2713386,
+      "telegram_date": "2025-08-11T15:57:33+00:00",
+      "title": "44모 11회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10805.png",
+      "sha256": "8b3b5652b4ad0aa31c97dc63728759f5672b7a112bcb22ab9c57bf08a38a5fa2"
     }
   ],
   "duplicate_message_ids": [
