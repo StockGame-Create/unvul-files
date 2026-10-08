@@ -119979,6 +119979,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10858.png",
       "sha256": "28242e300c407c576ee1a62f001c86bd02d18712e376c1ca95a1c3737edd99a3"
+    },
+    {
+      "message_id": 10856,
+      "filename": "김O수_미적분_모의고사_3회_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10856_.O._._._3._.pdf",
+      "size_bytes": 5952084,
+      "telegram_date": "2025-08-11T15:57:35+00:00",
+      "title": "김O수_미적분_모의고사_3회_해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10856.png",
+      "sha256": "4915c7be1a44fc1e3792d481fae7a2c80184fb2bf2f9624beec4c8e51ecf8430"
     }
   ],
   "duplicate_message_ids": [
