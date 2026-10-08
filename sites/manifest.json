@@ -120315,6 +120315,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10824.png",
       "sha256": "c0cedd1320137a08183e33c1edc9b9d9ed58cd58253d77300b3debdae0f7dd29"
+    },
+    {
+      "message_id": 10823,
+      "filename": "2026학년도_이미지_N티켓_시즌1_수학1_본문_250702_231234.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10823_2026._._N._.1_.1_._250702_231234.pdf",
+      "size_bytes": 9996144,
+      "telegram_date": "2025-08-11T15:57:34+00:00",
+      "title": "2026학년도_이미지_N티켓_시즌1_수학1_본문_250702_231234",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10823.png",
+      "sha256": "868fd13e8619f23fd3d23f8d7866c5a06ada3c15e1cae3a88526a155a628bfc5"
     }
   ],
   "duplicate_message_ids": [
