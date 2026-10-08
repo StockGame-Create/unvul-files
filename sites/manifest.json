@@ -120581,6 +120581,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10795.png",
       "sha256": "b01646aa76f847b4007fe290bab34ecddef3534d6b8238a7478d054631bb175b"
+    },
+    {
+      "message_id": 10794,
+      "filename": "서킷 22회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10794_.22.pdf",
+      "size_bytes": 2658957,
+      "telegram_date": "2025-08-11T15:57:32+00:00",
+      "title": "서킷 22회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10794.png",
+      "sha256": "b9858fe0c4c3a5ddb5670a97f53fb3ea40cef7ba3f07f63719d0b9904465bdb1"
     }
   ],
   "duplicate_message_ids": [
