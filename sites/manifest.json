@@ -119797,6 +119797,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10871.png",
       "sha256": "9ee99de71a85c4fe5226fac181ed8335ee551d15b523b636b4ec24a3b3992225"
+    },
+    {
+      "message_id": 10870,
+      "filename": "26 이형수 자료분석.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10870_26.pdf",
+      "size_bytes": 63531058,
+      "telegram_date": "2025-08-11T15:57:38+00:00",
+      "title": "26 이형수 자료분석",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10870.png",
+      "sha256": "bd1b18ac713f89dd526d4706e454cfb31bdae2da0290ab2adff3f306d7b554c1"
     }
   ],
   "duplicate_message_ids": [
