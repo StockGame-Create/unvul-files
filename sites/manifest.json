@@ -119559,6 +119559,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10899.png",
       "sha256": "d9c36996ee8010acf57b124b88714e78e503538b8d97b4bec247950e0c86a869"
+    },
+    {
+      "message_id": 10898,
+      "filename": "서바 시즌3-1 빠답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10898_.3-1.pdf",
+      "size_bytes": 1466774,
+      "telegram_date": "2025-08-11T15:57:45+00:00",
+      "title": "서바 시즌3-1 빠답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10898.png",
+      "sha256": "739a5b22dfee491573cf20d545499c172ed919d4028de33aacaa1b4d0c8b134b"
     }
   ],
   "duplicate_message_ids": [
