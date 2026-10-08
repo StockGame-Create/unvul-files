@@ -118383,6 +118383,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11030.png",
       "sha256": "8116ef339b78745322671083a2682751696b8ec83656dd578c5261affae3c0d5"
+    },
+    {
+      "message_id": 11028,
+      "filename": "문해원 워크북.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11028_.pdf",
+      "size_bytes": 49553011,
+      "telegram_date": "2025-08-11T15:57:55+00:00",
+      "title": "문해원 워크북",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11028.png",
+      "sha256": "37baa9b3bc97e7ac0a0bc2a151b7b11f3530d80e2849a30323018746bd1d29ca"
     }
   ],
   "duplicate_message_ids": [
