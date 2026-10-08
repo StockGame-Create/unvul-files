@@ -122247,6 +122247,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10658.png",
       "sha256": "3a78b9cb074714830b99fe025cb3065b5d9f0082ce52d6d0b67155f1a4398bca"
+    },
+    {
+      "message_id": 10653,
+      "filename": "CIRCUIT21회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10653_CIRCUIT21.pdf",
+      "size_bytes": 2879698,
+      "telegram_date": "2025-08-11T15:56:16+00:00",
+      "title": "CIRCUIT21회 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10653.png",
+      "sha256": "1bcd7a9e2395ab66ad7b5dda507c2503bbf6198221a969b29a92a84837692536"
     }
   ],
   "duplicate_message_ids": [
