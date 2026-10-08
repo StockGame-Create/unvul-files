@@ -337,6 +337,20 @@
       "sha256": "53024ebf0025a96cdd09ae0f4f0270461e69cec2a4217292f738aa0ebf0d2459"
     },
     {
+      "message_id": 25140,
+      "filename": "2027학년도_정병호_스피드러너_모의고사_FINAL_시즌1_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25140_2027._._._._FINAL_.1_.pdf",
+      "size_bytes": 21658244,
+      "telegram_date": "2026-10-08T13:29:18+00:00",
+      "title": "수학 호형훈제 스피드러너 모의고사 FINAL 시즌1 1~4회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25140.png",
+      "sha256": "a6fd4a837b07ee1a1803d4c2b13013f47ff706a69ffff7d387b69b36016617b4"
+    },
+    {
       "message_id": 25136,
       "filename": "하프모 7회.pdf",
       "stored_as": null,
