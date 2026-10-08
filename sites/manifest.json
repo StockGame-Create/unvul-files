@@ -121869,6 +121869,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10696.png",
       "sha256": "cbe35cff92258b1cfeefcec46d44a2965a2e7721923bb4c2b216ef984a862d46"
+    },
+    {
+      "message_id": 10694,
+      "filename": "2026 오지훈 유형별 자료 분석.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10694_2026.pdf",
+      "size_bytes": 129891918,
+      "telegram_date": "2025-08-11T15:56:19+00:00",
+      "title": "2026 오지훈 유형별 자료 분석",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10694.png",
+      "sha256": "e2a82ec6770a9be68e3082689b8f322a64b20902e3832537ce6ef95cf4abb8db"
     }
   ],
   "duplicate_message_ids": [
