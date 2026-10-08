@@ -119895,6 +119895,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10864.png",
       "sha256": "0276bf21bd6cc56ae9ffaec75940ba57dc3fc10afdd7cf5c297a0c6ccb29dfc1"
+    },
+    {
+      "message_id": 10863,
+      "filename": "듄탁해 현대산문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10863_.pdf",
+      "size_bytes": 301452297,
+      "telegram_date": "2025-08-11T15:57:38+00:00",
+      "title": "듄탁해 현대산문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10863.png",
+      "sha256": "2b6173de3d121ffdb7f62d49fc15578b2093122870708ede4be8a39e4358a54e"
     }
   ],
   "duplicate_message_ids": [
