@@ -122191,6 +122191,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10667.png",
       "sha256": "d5ad0ac66113b7c4db785cc45914233e67129616d23790227f3bd1ef14ab0df4"
+    },
+    {
+      "message_id": 10665,
+      "filename": "시대인재 2024학년도 독서 기출.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10665_.2024.pdf",
+      "size_bytes": 109400484,
+      "telegram_date": "2025-08-11T15:56:17+00:00",
+      "title": "시대인재 2024학년도 독서 기출",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10665.png",
+      "sha256": "22f0562c325bbf8c2dab0e61c96580f34417355cbefe22fa3d0797c5b677cc88"
     }
   ],
   "duplicate_message_ids": [
