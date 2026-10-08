@@ -119727,6 +119727,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10879.png",
       "sha256": "2d7b946953bc13af55256dd4f7018643d965e6b5044545fd09ae1928cd32681f"
+    },
+    {
+      "message_id": 10877,
+      "filename": "6평_대비_시즌1_1회_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10877_6._._.1_1._.pdf",
+      "size_bytes": 5529082,
+      "telegram_date": "2025-08-11T15:57:39+00:00",
+      "title": "6평_대비_시즌1_1회_문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10877.png",
+      "sha256": "7bda8a9df03be0dddbd655d1695cd720aadfc7078cef505a6004cbf81567a249"
     }
   ],
   "duplicate_message_ids": [
