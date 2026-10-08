@@ -118411,6 +118411,20 @@
       "subject": null,
       "thumbnail": "thumbnails/11027.png",
       "sha256": "b6f9186ad1a51df34a5d5b47104ceb94912d18df1a8cbb1b6d86e763540f1c3f"
+    },
+    {
+      "message_id": 11026,
+      "filename": "2026학년도_모의고사_과학탐구_화학1_서바이벌PRO_7월_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/11026_2026._._._.1_.PRO_7._.pdf",
+      "size_bytes": 307373,
+      "telegram_date": "2025-08-11T15:57:55+00:00",
+      "title": "2026학년도_모의고사_과학탐구_화학1_서바이벌PRO_7월_해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/11026.png",
+      "sha256": "2a758e12589f0c84bf52aeee61ab600aaddbd5d857f41c51f6bdfa073a1d188f"
     }
   ],
   "duplicate_message_ids": [
