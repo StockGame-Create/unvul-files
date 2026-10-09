@@ -122849,6 +122849,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10579.png",
       "sha256": "ef9a19085eb6f5be35eebe907c87282be4c25b7ad27a666dccdd813d9d02311a"
+    },
+    {
+      "message_id": 10578,
+      "filename": "2026_강대_수학_서킷_20회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10578_2026_._._._20.pdf",
+      "size_bytes": 3066952,
+      "telegram_date": "2025-08-11T15:55:21+00:00",
+      "title": "2026_강대_수학_서킷_20회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10578.png",
+      "sha256": "c90e3d13bd8a80d5411fdbf7a282bbcc0d9bcaba7f24570eb97c908a5a09e668"
     }
   ],
   "duplicate_message_ids": [
