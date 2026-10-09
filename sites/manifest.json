@@ -125103,6 +125103,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10342.png",
       "sha256": "93b42ca89dcb5c9226ac1fe20018d7384ed93a6105cf09b630dc8d61f625a86c"
+    },
+    {
+      "message_id": 10341,
+      "filename": "2026_특강_독서_적용학습_과학기술_06_파이토크롬_기출_변형.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10341_2026_._._._._06_._._.pdf",
+      "size_bytes": 301043,
+      "telegram_date": "2025-08-11T15:54:52+00:00",
+      "title": "2026_특강_독서_적용학습_과학기술_06_파이토크롬_기출_변형",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10341.png",
+      "sha256": "e960c08b9ec4d1ea155342c2cb230dc2b318b746846d658a211cd240baa0d1c5"
     }
   ],
   "duplicate_message_ids": [
