@@ -125061,6 +125061,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10346.png",
       "sha256": "9ead811ce092174a3e4a9b3c98758b2bdae9301da4fac9012ed66ba3cd0037a4"
+    },
+    {
+      "message_id": 10345,
+      "filename": "이창무_문해전_공통_미적분,_해설X.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10345_._._._._.X.pdf",
+      "size_bytes": 28557051,
+      "telegram_date": "2025-08-11T15:54:52+00:00",
+      "title": "이창무_문해전_공통_미적분,_해설X",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10345.png",
+      "sha256": "bb6485274d4e997f7e5ca860cc4e47e893fd07efef1e79fd5971e257762a1110"
     }
   ],
   "duplicate_message_ids": [
