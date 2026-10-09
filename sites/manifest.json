@@ -122415,6 +122415,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10639.png",
       "sha256": "1d46193e2b8befece0ddd41c42864c7851cfcde2febe85fac6224a1059556cd2"
+    },
+    {
+      "message_id": 10638,
+      "filename": "2026 OMEGA BLUE 4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10638_2026.OMEGA.BLUE.4.pdf",
+      "size_bytes": 22979754,
+      "telegram_date": "2025-08-11T15:56:15+00:00",
+      "title": "2026 OMEGA BLUE 4회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10638.png",
+      "sha256": "9185f953fc6bcb2f5b4e6362848fec457f2c29dc2ced2dfb90faf1b6aadb531b"
     }
   ],
   "duplicate_message_ids": [
