@@ -122667,6 +122667,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10620.png",
       "sha256": "a807b80ff583e0f44a2b8f9755f06d7696e92a951d82b1c2ec61729113f494f6"
+    },
+    {
+      "message_id": 10617,
+      "filename": "2026학년도_지인선×정병호_80제_최종본_0623.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10617_2026._.x._80._._0623.pdf",
+      "size_bytes": 710911,
+      "telegram_date": "2025-08-11T15:55:26+00:00",
+      "title": "2026학년도_지인선×정병호_80제_최종본_0623",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10617.png",
+      "sha256": "7115ee18a00ba60161fc0ec3b6402345dd3319b2cf38bf67a184ebe8df35bf72"
     }
   ],
   "duplicate_message_ids": [
