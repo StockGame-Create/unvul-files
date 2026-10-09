@@ -125579,6 +125579,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10295.png",
       "sha256": "7d114c1fcd70efe7ef5a505a82df8e7fb0714cc45cba1c35dae45bf40c1aea12"
+    },
+    {
+      "message_id": 10294,
+      "filename": "2026시대인재최지욱_몰딩Molding_6주차_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10294_2026._.Molding_6._.pdf",
+      "size_bytes": 1394958,
+      "telegram_date": "2025-08-11T15:54:06+00:00",
+      "title": "2026시대인재최지욱_몰딩Molding_6주차_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10294.png",
+      "sha256": "a53d3c9186f703c5acd86f2e283398ae4e0c39e0e1e3fb40c08d7761668ebf5b"
     }
   ],
   "duplicate_message_ids": [
