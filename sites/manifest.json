@@ -124963,6 +124963,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10358.png",
       "sha256": "d91a3ac96eceac03b87091fd8953871734cb9ec70a12eb2b43248a61db52d48e"
+    },
+    {
+      "message_id": 10357,
+      "filename": "2025 문제해결전략S2 수학 I.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10357_2025.S2.I.pdf",
+      "size_bytes": 69869082,
+      "telegram_date": "2025-08-11T15:54:53+00:00",
+      "title": "2025 문제해결전략S2 수학 I",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10357.png",
+      "sha256": "f4c69f969ddb8ee44c002b0e9306b99ebc0bb5e087918b097e3a86419c71597e"
     }
   ],
   "duplicate_message_ids": [
