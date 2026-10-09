@@ -124711,6 +124711,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10408.png",
       "sha256": "0a7f1637bb7c34025c01260baf4ef0c680d301099df6625a5fb1938cb6e5fbbe"
+    },
+    {
+      "message_id": 10407,
+      "filename": "2026 물리 현정훈 모의고사 시즌1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10407_2026.1.pdf",
+      "size_bytes": 65208146,
+      "telegram_date": "2025-08-11T15:54:57+00:00",
+      "title": "2026 물리 현정훈 모의고사 시즌1 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10407.png",
+      "sha256": "d48e408f47e084da9c5f41d0f7b664b7d39901201cdacbacc4e38d6b0708ceeb"
     }
   ],
   "duplicate_message_ids": [
