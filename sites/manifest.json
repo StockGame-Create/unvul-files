@@ -124207,6 +124207,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10462.png",
       "sha256": "49115bf005856eb090e00f6bdac3f8cd97f604c287c01f08fe2ab729aa4a2bc1"
+    },
+    {
+      "message_id": 10461,
+      "filename": "C25DC56788LA011_APR.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10461_C25DC56788LA011_APR.pdf",
+      "size_bytes": 11719465,
+      "telegram_date": "2025-08-11T15:55:05+00:00",
+      "title": "C25DC56788LA011_APR",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10461.png",
+      "sha256": "e95927ca4c901da970180f5964c37bd6d855a34dacbd6ea4b614cab3226d033b"
     }
   ],
   "duplicate_message_ids": [
