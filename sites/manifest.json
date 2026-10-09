@@ -123773,6 +123773,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10503.png",
       "sha256": "966ae3e406c5a854dd89711b340e5e9ddd95dcb6767fe343a2d449965be63f6e"
+    },
+    {
+      "message_id": 10502,
+      "filename": "에스원 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10502_.7.pdf",
+      "size_bytes": 4766656,
+      "telegram_date": "2025-08-11T15:55:07+00:00",
+      "title": "에스원 7회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10502.png",
+      "sha256": "a7fc0b6b85e21f1f6f24484376b80eb54423493c88798398b74df1090f625a1c"
     }
   ],
   "duplicate_message_ids": [
