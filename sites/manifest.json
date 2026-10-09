@@ -122583,6 +122583,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10626.png",
       "sha256": "663e3ec882140bd2e38715202bd66ba171a19c53665002b4f59c6a6dd3258ec8"
+    },
+    {
+      "message_id": 10625,
+      "filename": "잘푸모 4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10625_.4.pdf",
+      "size_bytes": 984473,
+      "telegram_date": "2025-08-11T15:55:26+00:00",
+      "title": "잘푸모 4회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10625.png",
+      "sha256": "134168eff0c7f6175f2e9c7a804e1a0a3347eec0afd20ba0833d09df2509d46a"
     }
   ],
   "duplicate_message_ids": [
