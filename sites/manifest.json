@@ -125803,6 +125803,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10277.png",
       "sha256": "14b24f6b1ffc5e742634426fa405829feb1bfede2a734ea1fe5c25b84e9156a9"
+    },
+    {
+      "message_id": 10276,
+      "filename": "2025. 5. 16. 오후 7:09 Microsoft Lens.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10276_2025.5.16.7.09.Microsoft.Lens.pdf",
+      "size_bytes": 1761969,
+      "telegram_date": "2025-08-11T15:54:05+00:00",
+      "title": "2025. 5. 16. 오후 7:09 Microsoft Lens",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10276.png",
+      "sha256": "a10484785d52111508cc502274ad4c45012e07ac1b2f4e40f94585e6268aa1dd"
     }
   ],
   "duplicate_message_ids": [
