@@ -124851,6 +124851,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10373.png",
       "sha256": "05e45ca2bad1cfa53571fbc68736af91283070bce0eee5c4a190d6a01f652e12"
+    },
+    {
+      "message_id": 10372,
+      "filename": "2024 설맞이 기하 아카이브 정답과 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10372_2024.pdf",
+      "size_bytes": 23543404,
+      "telegram_date": "2025-08-11T15:54:54+00:00",
+      "title": "2024 설맞이 기하 아카이브 정답과 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10372.png",
+      "sha256": "8f96d0b9f90f3b274e8e196f59cff1524dcae9fd0f1e45fcf84ad34b7398d9a7"
     }
   ],
   "duplicate_message_ids": [
