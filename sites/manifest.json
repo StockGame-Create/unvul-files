@@ -125117,6 +125117,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10341.png",
       "sha256": "e960c08b9ec4d1ea155342c2cb230dc2b318b746846d658a211cd240baa0d1c5"
+    },
+    {
+      "message_id": 10339,
+      "filename": "2026_특강_독서_적용학습_주제통합_05_헤로도토스와_폴리비오스의.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10339_2026_._._._._05_._.pdf",
+      "size_bytes": 302006,
+      "telegram_date": "2025-08-11T15:54:52+00:00",
+      "title": "2026_특강_독서_적용학습_주제통합_05_헤로도토스와_폴리비오스의",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10339.png",
+      "sha256": "1eb3bcb526dce0a16ec3d98a3c2867b735ddd32ddfe813da01cb9cba100b6c66"
     }
   ],
   "duplicate_message_ids": [
