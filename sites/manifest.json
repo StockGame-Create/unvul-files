@@ -122905,6 +122905,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10572.png",
       "sha256": "79b6cd42f93d43f3b5387e58ee44cfc72a90a926a0f4cbeede646424c322914b"
+    },
+    {
+      "message_id": 10570,
+      "filename": "2026 샤인미 N제 수학2 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10570_2026.N.2.pdf",
+      "size_bytes": 130522590,
+      "telegram_date": "2025-08-11T15:55:21+00:00",
+      "title": "2026 샤인미 N제 수학2 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10570.png",
+      "sha256": "8287ee9b5c5db7cbc01e41ed95cbd7b29b1793fb71d2fdbedf5b51e9112ca3ff"
     }
   ],
   "duplicate_message_ids": [
