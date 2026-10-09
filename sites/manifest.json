@@ -124473,6 +124473,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10432.png",
       "sha256": "687b6a1f075f01483cc54f7c81979bbb901cef87adc5cbbcc048b3ca8d919773"
+    },
+    {
+      "message_id": 10431,
+      "filename": "2026 물리학 I 현정훈 모의고사 시즌 2 2nd 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10431_2026.I.2.2nd.2.pdf",
+      "size_bytes": 10520360,
+      "telegram_date": "2025-08-11T15:54:58+00:00",
+      "title": "2026 물리학 I 현정훈 모의고사 시즌 2 2nd 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10431.png",
+      "sha256": "72b56cef9d42e0687c47464c6b9697827fcfb0ae8e7f6bb1e80a12dd3cb229ce"
     }
   ],
   "duplicate_message_ids": [
