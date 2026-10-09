@@ -124599,6 +124599,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10422.png",
       "sha256": "acaaa90825a4c2198073d5095f73bd0c0a2efffebe072bc453a0b98f6a1bca9b"
+    },
+    {
+      "message_id": 10420,
+      "filename": "For_2026_P_I_R_A_M_국어_생각의_전개_독서편_지문_1권+2권_1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10420_For_2026_P_I_R_A_M_._._._._._1.%2B2._1.pdf",
+      "size_bytes": 3910163,
+      "telegram_date": "2025-08-11T15:54:58+00:00",
+      "title": "For_2026_P_I_R_A_M_국어_생각의_전개_독서편_지문_1권+2권_1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10420.png",
+      "sha256": "95c1c24f0d29200d7c9505bbe443598307a8b7e24fc7dae567257f33e2e41964"
     }
   ],
   "duplicate_message_ids": [
