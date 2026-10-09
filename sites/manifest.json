@@ -124137,6 +124137,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10467.png",
       "sha256": "836001d9c5771985d2f9aa9296a481f6d8e6deeea81b8019f26ec56fae7df822"
+    },
+    {
+      "message_id": 10466,
+      "filename": "배기범 AP7.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10466_.AP7.pdf",
+      "size_bytes": 156891928,
+      "telegram_date": "2025-08-11T15:55:05+00:00",
+      "title": "배기범 AP7",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10466.png",
+      "sha256": "3def02896733347863387971b590158d637e87d271fad719a45d7ae805163944"
     }
   ],
   "duplicate_message_ids": [
