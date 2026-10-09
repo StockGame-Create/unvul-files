@@ -125915,6 +125915,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10265.png",
       "sha256": "1b987475bb737e2bf2e66866e9f841dc554a1aaf1883852f1ecf1bebe7f153a3"
+    },
+    {
+      "message_id": 10264,
+      "filename": "2026_적자생존_모의고사_시즌_1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10264_2026_._._._1.pdf",
+      "size_bytes": 26144950,
+      "telegram_date": "2025-08-11T15:53:58+00:00",
+      "title": "2026_적자생존_모의고사_시즌_1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10264.png",
+      "sha256": "bcc679c323c40d7b1147bcbfb6b1205b7be2c046f96ba33abc1e7957d50871f5"
     }
   ],
   "duplicate_message_ids": [
