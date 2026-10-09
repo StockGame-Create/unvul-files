@@ -125411,6 +125411,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10314.png",
       "sha256": "fb877261d8af85efa4f05fae9446d188d44ac4d5a15d94265841220033457918"
+    },
+    {
+      "message_id": 10313,
+      "filename": "2026 화학 강준호 화잘주스 8주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10313_2026.8.pdf",
+      "size_bytes": 61044451,
+      "telegram_date": "2025-08-11T15:54:50+00:00",
+      "title": "2026 화학 강준호 화잘주스 8주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10313.png",
+      "sha256": "6a42a60ca09ba49b75ce23d27be8913d431bf6a8b51e69cae4e6341c935973cf"
     }
   ],
   "duplicate_message_ids": [
