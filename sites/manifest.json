@@ -122709,6 +122709,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10612.png",
       "sha256": "b0105dc7e9c4dc6597292fbb5c9a3ac784859d496a53cb12857b85e250e13655"
+    },
+    {
+      "message_id": 10607,
+      "filename": "2025년 출판 Runner's High vol1 선과제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10607_2025.Runner.s.High.vol1.pdf",
+      "size_bytes": 2096857,
+      "telegram_date": "2025-08-11T15:55:25+00:00",
+      "title": "2025년 출판 Runner's High vol1 선과제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10607.png",
+      "sha256": "9abd365211b9dc6999eab20fc2b5c28628db2c3019b11c2a5547275b8ef992c3"
     }
   ],
   "duplicate_message_ids": [
