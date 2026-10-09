@@ -123003,6 +123003,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10562.png",
       "sha256": "4f86f033d392af8af07507eaa56601e24562eb92e3dcd7b1355fb79c9eeafa82"
+    },
+    {
+      "message_id": 10560,
+      "filename": "리앤로순삽.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10560_.pdf",
+      "size_bytes": 94643288,
+      "telegram_date": "2025-08-11T15:55:20+00:00",
+      "title": "리앤로순삽",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10560.png",
+      "sha256": "9e08a18d62febe581f48cc53aa1d91164ea0e532349d053dac71aef500df25bb"
     }
   ],
   "duplicate_message_ids": [
