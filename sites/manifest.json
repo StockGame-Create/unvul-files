@@ -123409,6 +123409,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10522.png",
       "sha256": "0e188abb070e375b56badaa3dba6cc792d0801b9dd17c7b5f080a379f068736b"
+    },
+    {
+      "message_id": 10521,
+      "filename": "새기분 문학 1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10521_.1.pdf",
+      "size_bytes": 249740618,
+      "telegram_date": "2025-08-11T15:55:11+00:00",
+      "title": "새기분 문학 1 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10521.png",
+      "sha256": "805fd28a7b280288a945837fcd57ee0469fd05d2e2a915ffeadd7cf972b84fc9"
     }
   ],
   "duplicate_message_ids": [
