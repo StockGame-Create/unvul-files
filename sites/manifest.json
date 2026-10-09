@@ -124669,6 +124669,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10412.png",
       "sha256": "0bbfa9c64e9077305080ce9d76f7a7d1c2fa96a7b0a3603ab5959fd2e230d01a"
+    },
+    {
+      "message_id": 10411,
+      "filename": "한끝(정답,해설).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10411_.pdf",
+      "size_bytes": 2956577,
+      "telegram_date": "2025-08-11T15:54:57+00:00",
+      "title": "한끝(정답,해설)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10411.png",
+      "sha256": "792e7bcfe1e0b4db7553038dca03f95e4a06830e20ca48f55b4f4bf7b55b798d"
     }
   ],
   "duplicate_message_ids": [
