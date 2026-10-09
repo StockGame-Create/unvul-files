@@ -126195,6 +126195,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10242.png",
       "sha256": "58b6247be0742fbb3215dd7f510b380d2f062bed70d4c1b0413c1cb861ba148f"
+    },
+    {
+      "message_id": 10241,
+      "filename": "2026 시대인재 REVIVAL 세계지리 03.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10241_2026.REVIVAL.03.pdf",
+      "size_bytes": 102792494,
+      "telegram_date": "2025-08-11T15:53:54+00:00",
+      "title": "2026 시대인재 REVIVAL 세계지리 03",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10241.png",
+      "sha256": "b9f830f63601aabb1a677c610431f21b4cf3ec044e0c93443685f6d57eb2f966"
     }
   ],
   "duplicate_message_ids": [
