@@ -126153,6 +126153,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10245.png",
       "sha256": "5bbb7a2588516232bb0a53b442c5a8ce0389a179ae83729416e1718b91334192"
+    },
+    {
+      "message_id": 10244,
+      "filename": "2026 강대 CIRCUIT 수학 17회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10244_2026.CIRCUIT.17.pdf",
+      "size_bytes": 12302358,
+      "telegram_date": "2025-08-11T15:53:57+00:00",
+      "title": "2026 강대 CIRCUIT 수학 17회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10244.png",
+      "sha256": "8552baf26ffd4353975858195e312f8fbc609cadf89218e5bcd51847b5c37070"
     }
   ],
   "duplicate_message_ids": [
