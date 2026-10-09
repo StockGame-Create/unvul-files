@@ -125229,6 +125229,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10328.png",
       "sha256": "85aef8e292f890721d1e5bd366fedcfccf1f0e8a35d0de893b0c49aa898ec047"
+    },
+    {
+      "message_id": 10327,
+      "filename": "2026 최지욱 Arch 수학2+미적분 REVIEW TEST 8주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10327_2026.Arch.2%2B.REVIEW.TEST.8.pdf",
+      "size_bytes": 2198775,
+      "telegram_date": "2025-08-11T15:54:51+00:00",
+      "title": "2026 최지욱 Arch 수학2+미적분 REVIEW TEST 8주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10327.png",
+      "sha256": "b8d7ce7acb68773b8af8c7081feb8e1bf85f9337cba33e52d046d4535e7ce402"
     }
   ],
   "duplicate_message_ids": [
