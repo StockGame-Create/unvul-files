@@ -122373,6 +122373,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10642.png",
       "sha256": "23b42456f73724489247730576b2cf4cb3aa4e2cbb8e62481c994351a2cd3b6f"
+    },
+    {
+      "message_id": 10641,
+      "filename": "2026 김승리 매월승리 5호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10641_2026.5.pdf",
+      "size_bytes": 195285248,
+      "telegram_date": "2025-08-11T15:56:15+00:00",
+      "title": "2026 김승리 매월승리 5호",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10641.png",
+      "sha256": "9852c3d107166547b0fa8b3398dd042b09e6df4cd1aba6d07992499175db71a6"
     }
   ],
   "duplicate_message_ids": [
