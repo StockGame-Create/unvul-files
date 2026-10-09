@@ -125887,6 +125887,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10269.png",
       "sha256": "f38a5724d4eddfd012f3f88c0f000c9177dbdb637260e41d30c03708347a8547"
+    },
+    {
+      "message_id": 10267,
+      "filename": "2022 시대인재 브릿지 모의고사 물리학2 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10267_2022.2.3.pdf",
+      "size_bytes": 8103133,
+      "telegram_date": "2025-08-11T15:53:58+00:00",
+      "title": "2022 시대인재 브릿지 모의고사 물리학2 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10267.png",
+      "sha256": "a753564daf0b85154fc8e158c865feb48570220c1bfbabc31b22d91007bb113f"
     }
   ],
   "duplicate_message_ids": [
