@@ -124907,6 +124907,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10369.png",
       "sha256": "cd0f8bd85dce8e2c92832eafcac2965cbbb5428008bba26991c40bbb1f732c61"
+    },
+    {
+      "message_id": 10368,
+      "filename": "기하 N제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10368_.N.pdf",
+      "size_bytes": 23906074,
+      "telegram_date": "2025-08-11T15:54:53+00:00",
+      "title": "기하 N제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10368.png",
+      "sha256": "3133f4379b73ae9d7418557e6fda768daad6dcef032850103a6c7b09da5f4f52"
     }
   ],
   "duplicate_message_ids": [
