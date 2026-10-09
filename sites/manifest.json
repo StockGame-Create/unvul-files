@@ -123857,6 +123857,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10497.png",
       "sha256": "6a430da5ba052031ecee51856cbcad177af7d92c825ec516d1ea3ac18bcfcaa0"
+    },
+    {
+      "message_id": 10496,
+      "filename": "에스원 4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10496_.4.pdf",
+      "size_bytes": 4525636,
+      "telegram_date": "2025-08-11T15:55:07+00:00",
+      "title": "에스원 4회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10496.png",
+      "sha256": "70dd5e82fcf564eee37984ba87ed014b42dab48e2ada7ff72a5fd61f4c146add"
     }
   ],
   "duplicate_message_ids": [
