@@ -124571,6 +124571,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10425.png",
       "sha256": "a1433717e388d581d19f53c91a27ddb97ca76e9e0e97d471281bd1eca718e3f7"
+    },
+    {
+      "message_id": 10424,
+      "filename": "2026_박종민_공통_16주차_프리뷰테스트_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10424_2026_._._16._._.pdf",
+      "size_bytes": 203604,
+      "telegram_date": "2025-08-11T15:54:58+00:00",
+      "title": "2026_박종민_공통_16주차_프리뷰테스트_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10424.png",
+      "sha256": "a02ad70c6fdaef41c186da2a2e8b5569ca294a153aa1c6befab66977b9765bbf"
     }
   ],
   "duplicate_message_ids": [
