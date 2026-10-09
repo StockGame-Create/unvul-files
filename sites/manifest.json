@@ -125495,6 +125495,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10308.png",
       "sha256": "6cb8622e9908a3bfb33a8c01f6d2009826cdc6e9953b13057c0a91b0c74f43d7"
+    },
+    {
+      "message_id": 10307,
+      "filename": "2026 화1 화잘주스 1주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10307_2026.1.1.pdf",
+      "size_bytes": 42204029,
+      "telegram_date": "2025-08-11T15:54:50+00:00",
+      "title": "2026 화1 화잘주스 1주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10307.png",
+      "sha256": "a774d4af15762c4aa02be3769ab0674e95ecc7899f8e6317eae009fa5322e121"
     }
   ],
   "duplicate_message_ids": [
