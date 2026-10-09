@@ -123647,6 +123647,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10513.png",
       "sha256": "ae69edf3c79b4412cdd4f63d041893aff86536111bb19bda3b8b2d8445ff6ae5"
+    },
+    {
+      "message_id": 10511,
+      "filename": "2026_정병호_스피드러너_1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10511_2026_._._1.pdf",
+      "size_bytes": 17731167,
+      "telegram_date": "2025-08-11T15:55:08+00:00",
+      "title": "2026_정병호_스피드러너_1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10511.png",
+      "sha256": "febbbb547b35d9ff20e937a06a6cfd8476ac82ed774720f9ede326608a7c1762"
     }
   ],
   "duplicate_message_ids": [
