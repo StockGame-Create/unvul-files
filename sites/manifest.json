@@ -122345,6 +122345,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10644.png",
       "sha256": "505135c02b57fb7508f23be9f51b591fc47c1a33467ad33c79294b6da9111599"
+    },
+    {
+      "message_id": 10643,
+      "filename": "간쓸개 4-2 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10643_.4-2.pdf",
+      "size_bytes": 32752885,
+      "telegram_date": "2025-08-11T15:56:16+00:00",
+      "title": "간쓸개 4-2 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10643.png",
+      "sha256": "520cda20430fcf3b11d82f7b2f843c38dd06ed35893d6b7fad3d626c16bab177"
     }
   ],
   "duplicate_message_ids": [
