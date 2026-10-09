@@ -122653,6 +122653,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10621.png",
       "sha256": "bec9fa75dabc4065c031a365b3e4df4d83ff0f2a8400d1599881716d6a7016f8"
+    },
+    {
+      "message_id": 10620,
+      "filename": "2026 시대인재 서바이벌 전국 모의고사 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10620_2026.3.pdf",
+      "size_bytes": 8469239,
+      "telegram_date": "2025-08-11T15:55:26+00:00",
+      "title": "2026 시대인재 서바이벌 전국 모의고사 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10620.png",
+      "sha256": "a807b80ff583e0f44a2b8f9755f06d7696e92a951d82b1c2ec61729113f494f6"
     }
   ],
   "duplicate_message_ids": [
