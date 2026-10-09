@@ -123171,6 +123171,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10543.png",
       "sha256": "1e12cd7b050485d520f04a70bc0490cecbe1fe8183b69a4e5b51bdadbd9580bb"
+    },
+    {
+      "message_id": 10542,
+      "filename": "명불허전_기출분석_연도별_기출편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10542_._._._.pdf",
+      "size_bytes": 443350646,
+      "telegram_date": "2025-08-11T15:55:19+00:00",
+      "title": "명불허전_기출분석_연도별_기출편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10542.png",
+      "sha256": "c2b7a896071fcb21f965541c9c1bb8180074d8795a319ba2907a76a4a699df12"
     }
   ],
   "duplicate_message_ids": [
