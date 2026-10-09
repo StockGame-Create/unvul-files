@@ -126181,6 +126181,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10243.png",
       "sha256": "039d0b2e88d4b75b616ec4e37e79e0dd4b01dc717d565d6eae2000d5e792fad3"
+    },
+    {
+      "message_id": 10242,
+      "filename": "2026 또선생 PRIMER 기초 구문 독해.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10242_2026.PRIMER.pdf",
+      "size_bytes": 54384242,
+      "telegram_date": "2025-08-11T15:53:57+00:00",
+      "title": "2026 또선생 PRIMER 기초 구문 독해",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10242.png",
+      "sha256": "58b6247be0742fbb3215dd7f510b380d2f062bed70d4c1b0413c1cb861ba148f"
     }
   ],
   "duplicate_message_ids": [
