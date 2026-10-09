@@ -126013,6 +126013,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10255.png",
       "sha256": "e9ca72ea6c855e3e91742aedc619a083005eaccb11fb5ba6170bef978a197ac5"
+    },
+    {
+      "message_id": 10254,
+      "filename": "2025 정법 서바 전국 02.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10254_2025.02.pdf",
+      "size_bytes": 25557354,
+      "telegram_date": "2025-08-11T15:53:57+00:00",
+      "title": "2025 정법 서바 전국 02",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10254.png",
+      "sha256": "0dccc023ba394f0b256aa5d89c8ba2b59c46d1c2b9979d1b456c40d1ca3cbcf4"
     }
   ],
   "duplicate_message_ids": [
