@@ -124879,6 +124879,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10371.png",
       "sha256": "cf358e29888ade4606e61c9a50bba5f09b35591c462728c07f59f10ad6f5186d"
+    },
+    {
+      "message_id": 10370,
+      "filename": "2026 수학 CSM 107제 기하(해설) 공공재.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10370_2026.CSM.107.pdf",
+      "size_bytes": 23404527,
+      "telegram_date": "2025-08-11T15:54:53+00:00",
+      "title": "2026 수학 CSM 107제 기하(해설) 공공재",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10370.png",
+      "sha256": "6449be5382759098760bed6b2b2fa2096356758b11d0691073de9e2954440526"
     }
   ],
   "duplicate_message_ids": [
