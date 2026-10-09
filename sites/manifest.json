@@ -123059,6 +123059,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10551.png",
       "sha256": "3c2c0e9ddbcb8fd4fdc5d23321a3d90b1bfe964b3158f66fe665778ecd71d3ac"
+    },
+    {
+      "message_id": 10550,
+      "filename": "26_물1_현정훈_러쉬_스팀팩_11.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10550_26_.1_._._._11.pdf",
+      "size_bytes": 71227486,
+      "telegram_date": "2025-08-11T15:55:20+00:00",
+      "title": "26_물1_현정훈_러쉬_스팀팩_11",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10550.png",
+      "sha256": "06592516c674fddd65bcb5cb3a69095af95f57760cf3a50c32a47e011037ea0d"
     }
   ],
   "duplicate_message_ids": [
