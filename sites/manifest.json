@@ -124221,6 +124221,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10461.png",
       "sha256": "e95927ca4c901da970180f5964c37bd6d855a34dacbd6ea4b614cab3226d033b"
+    },
+    {
+      "message_id": 10460,
+      "filename": "사회문화_출제자의_눈_개념완성_워크북.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10460_._._._._.pdf",
+      "size_bytes": 76194937,
+      "telegram_date": "2025-08-11T15:55:05+00:00",
+      "title": "사회문화_출제자의_눈_개념완성_워크북",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10460.png",
+      "sha256": "ef7d52189dc3f2185f2d2043a50aeb390454d10d9357147a08b1b6efcd490947"
     }
   ],
   "duplicate_message_ids": [
