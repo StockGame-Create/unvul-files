@@ -123087,6 +123087,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10549.png",
       "sha256": "f9d8bb106e59d402182cd2afcd1d00419be60136f8713291069a382ab2d9f802"
+    },
+    {
+      "message_id": 10548,
+      "filename": "2026_물리1_현정훈_러쉬스팀팩_4권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10548_2026_.1_._._4.pdf",
+      "size_bytes": 51411791,
+      "telegram_date": "2025-08-11T15:55:19+00:00",
+      "title": "2026_물리1_현정훈_러쉬스팀팩_4권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10548.png",
+      "sha256": "ed4249f8f03e561c7bae2670b877504dc872e49e83c525c9dd57fadbfa3ec56d"
     }
   ],
   "duplicate_message_ids": [
