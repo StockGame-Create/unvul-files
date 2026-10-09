@@ -122793,6 +122793,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10585.png",
       "sha256": "ad0947f77088e17317ae4641d98483daa9fb403ccbd9e1a50496f70605b377f6"
+    },
+    {
+      "message_id": 10584,
+      "filename": "강대x 시즌1 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10584_.x.1.2.pdf",
+      "size_bytes": 6374461,
+      "telegram_date": "2025-08-11T15:55:22+00:00",
+      "title": "강대x 시즌1 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10584.png",
+      "sha256": "ed0912612ee812b70d649c0b5794504c1b2978fb1ffdcae19094075c329b9165"
     }
   ],
   "duplicate_message_ids": [
