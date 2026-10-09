@@ -125075,6 +125075,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10345.png",
       "sha256": "bb6485274d4e997f7e5ca860cc4e47e893fd07efef1e79fd5971e257762a1110"
+    },
+    {
+      "message_id": 10343,
+      "filename": "2026_특강_독서_2_적용학습_과학기술_07_에이전트_기출_변형.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10343_2026_._._2_._._07_._._.pdf",
+      "size_bytes": 322944,
+      "telegram_date": "2025-08-11T15:54:52+00:00",
+      "title": "2026_특강_독서_2_적용학습_과학기술_07_에이전트_기출_변형",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10343.png",
+      "sha256": "b67ea2d371aaaa1cf42430fb6438318b651dd7ecc11e678385236ecee7161518"
     }
   ],
   "duplicate_message_ids": [
