@@ -124809,6 +124809,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10379.png",
       "sha256": "3ed6078a71170a284114bbab708a094f4f42daa4ed67d234abdbe207281cf1fb"
+    },
+    {
+      "message_id": 10378,
+      "filename": "UPTO 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10378_UPTO.5.pdf",
+      "size_bytes": 1050557,
+      "telegram_date": "2025-08-11T15:54:55+00:00",
+      "title": "UPTO 5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10378.png",
+      "sha256": "2dc6a43c1aab3f88a7572f6f6071264b276e9b44ef9e442408c659501810d683"
     }
   ],
   "duplicate_message_ids": [
