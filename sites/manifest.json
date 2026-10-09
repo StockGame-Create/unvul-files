@@ -123017,6 +123017,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10560.png",
       "sha256": "9e08a18d62febe581f48cc53aa1d91164ea0e532349d053dac71aef500df25bb"
+    },
+    {
+      "message_id": 10553,
+      "filename": "2026_물리1_현정훈_스팀팩_8권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10553_2026_.1_._._8.pdf",
+      "size_bytes": 56276693,
+      "telegram_date": "2025-08-11T15:55:20+00:00",
+      "title": "2026_물리1_현정훈_스팀팩_8권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10553.png",
+      "sha256": "f4dce1a7f592b0d98d6966754a6c6ab1ca4c111c0e8d76f508716213b2908a12"
     }
   ],
   "duplicate_message_ids": [
