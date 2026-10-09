@@ -15,6 +15,20 @@
       "sha256": "6ccf0dad99f6cb40f7b5a1fb27b33f9dea3ba33041119fc38da618338e1bef0c"
     },
     {
+      "message_id": 25188,
+      "filename": "REAL-S:9모대비 세지 3회차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/25188_REAL-S.9.3.pdf",
+      "size_bytes": 4423186,
+      "telegram_date": "2026-10-09T06:25:15+00:00",
+      "title": "세지 기승전결 모의고사(9월 대비 모의고사 1~4회)",
+      "year": "2027",
+      "instructor": "이승헌",
+      "subject": "세계지리",
+      "thumbnail": "thumbnails/25188.png",
+      "sha256": "243082aaf958381cc024fd9802b7435f4b730c506f84c0c7653b585b9a9411e7"
+    },
+    {
       "message_id": 25174,
       "filename": "한수 파이널1 7-10회_해설.pdf",
       "stored_as": null,
