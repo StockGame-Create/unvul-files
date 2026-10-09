@@ -122989,6 +122989,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10563.png",
       "sha256": "f532ca5e7d79f52168f3f15a4e6c89f6c7489c117813973afcc2b38e3746045f"
+    },
+    {
+      "message_id": 10562,
+      "filename": "2026학년도 시그모 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10562_2026.2.pdf",
+      "size_bytes": 4421043,
+      "telegram_date": "2025-08-11T15:55:20+00:00",
+      "title": "2026학년도 시그모 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10562.png",
+      "sha256": "4f86f033d392af8af07507eaa56601e24562eb92e3dcd7b1355fb79c9eeafa82"
     }
   ],
   "duplicate_message_ids": [
