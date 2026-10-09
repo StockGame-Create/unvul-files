@@ -122625,6 +122625,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10623.png",
       "sha256": "9827d068f580d016035ca59a1e6c2577d94c4362b0614b2fe3bb623e4a8439af"
+    },
+    {
+      "message_id": 10622,
+      "filename": "잘푸모 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10622_.3.pdf",
+      "size_bytes": 787740,
+      "telegram_date": "2025-08-11T15:55:26+00:00",
+      "title": "잘푸모 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10622.png",
+      "sha256": "f2cc04bda480bae0917a255427770c5820f404425b89a886d1e7fceb221ac71f"
     }
   ],
   "duplicate_message_ids": [
