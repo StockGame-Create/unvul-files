@@ -124935,6 +124935,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10364.png",
       "sha256": "7ff9b4e137c1ee269b2784fa17c6e2c86db2ec4b48b3c51fee42ecf53547933e"
+    },
+    {
+      "message_id": 10359,
+      "filename": "2025 이창무 문해전 시즌2 수2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10359_2025.2.2.pdf",
+      "size_bytes": 61877696,
+      "telegram_date": "2025-08-11T15:54:53+00:00",
+      "title": "2025 이창무 문해전 시즌2 수2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10359.png",
+      "sha256": "8d798e7902a31e709822b4aa51c84b34b5dea0f2c80510f97d648eb4c42e4335"
     }
   ],
   "duplicate_message_ids": [
