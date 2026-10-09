@@ -122751,6 +122751,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10596.png",
       "sha256": "9d4cfb24f53ee994a27361231c4f9980b6e922087cda039edcab9cd02dd2dbe3"
+    },
+    {
+      "message_id": 10590,
+      "filename": "2026 이감 N제 화법과 작문 25회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10590_2026.N.25.pdf",
+      "size_bytes": 263423222,
+      "telegram_date": "2025-08-11T15:55:22+00:00",
+      "title": "2026 이감 N제 화법과 작문 25회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10590.png",
+      "sha256": "b3083dee4bcaa4414c7becb8f83f60bb362afb9bc2a0e2bd9656888b98bd9c54"
     }
   ],
   "duplicate_message_ids": [
