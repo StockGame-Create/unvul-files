@@ -125859,6 +125859,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10271.png",
       "sha256": "1e3345539aa158a1a9ab099abf21c50b2b0f67d8fb1e3d5c6794f7d6dc7fbba6"
+    },
+    {
+      "message_id": 10270,
+      "filename": "식센모_화이트_1_10회_해설_2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10270_._._1_10._._2.pdf",
+      "size_bytes": 36354822,
+      "telegram_date": "2025-08-11T15:53:58+00:00",
+      "title": "식센모_화이트_1_10회_해설_2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10270.png",
+      "sha256": "2068e21582c0e32cc0e93de1dd8b5922a12ada34b13050a0f4a25448620bddba"
     }
   ],
   "duplicate_message_ids": [
