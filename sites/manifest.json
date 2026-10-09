@@ -125005,6 +125005,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10350.png",
       "sha256": "13aebb751dd6e058368b94a2beda6adaa735b3d734acd2021c1cd66dd04df79f"
+    },
+    {
+      "message_id": 10349,
+      "filename": "적자생존_모의고사_시즌1_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10349_._._.1_2.pdf",
+      "size_bytes": 4742072,
+      "telegram_date": "2025-08-11T15:54:52+00:00",
+      "title": "적자생존_모의고사_시즌1_2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10349.png",
+      "sha256": "f874ccec8d6fce092e4a8aa3b2c76ee6549cfcd6174e9b6d2ca970f799fa2b21"
     }
   ],
   "duplicate_message_ids": [
