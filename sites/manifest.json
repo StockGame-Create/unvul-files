@@ -125439,6 +125439,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10312.png",
       "sha256": "e4311736d3f9d4bf6a26f895071bf2154762b811e73ed74b2167bc7e41b8ec5b"
+    },
+    {
+      "message_id": 10311,
+      "filename": "2026 강준호 화잘주스 5주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10311_2026.5.pdf",
+      "size_bytes": 56605788,
+      "telegram_date": "2025-08-11T15:54:50+00:00",
+      "title": "2026 강준호 화잘주스 5주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10311.png",
+      "sha256": "e3ae1c46e6eb72d4a316204eb9693cfd9dddac703697741fa21086fe6b0d0f5e"
     }
   ],
   "duplicate_message_ids": [
