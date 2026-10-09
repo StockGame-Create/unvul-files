@@ -123353,6 +123353,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10526.png",
       "sha256": "4c1dd8c719a2b842148bbd0349bcecccb6fd3e816a38fb3c6e60e96d5de486d3"
+    },
+    {
+      "message_id": 10525,
+      "filename": "2026 김범준 THE HURDING 미적분 도형 2주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10525_2026.THE.HURDING.2.pdf",
+      "size_bytes": 17773503,
+      "telegram_date": "2025-08-11T15:55:11+00:00",
+      "title": "2026 김범준 THE HURDING 미적분 도형 2주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10525.png",
+      "sha256": "e3ac3f575ca38625e741dbbbe49f2c1eeaabbdd70dd1d1c8333e6363ce52d68f"
     }
   ],
   "duplicate_message_ids": [
