@@ -124123,6 +124123,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10468.png",
       "sha256": "cbb712a7db2c6d8a3cbd17aa4a9751ff7dcb747300a3471babda2e8a6bdc6914"
+    },
+    {
+      "message_id": 10467,
+      "filename": "2026학년도_마더텅_세계지리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10467_2026._._.pdf",
+      "size_bytes": 413447807,
+      "telegram_date": "2025-08-11T15:55:05+00:00",
+      "title": "2026학년도_마더텅_세계지리",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10467.png",
+      "sha256": "836001d9c5771985d2f9aa9296a481f6d8e6deeea81b8019f26ec56fae7df822"
     }
   ],
   "duplicate_message_ids": [
