@@ -124067,6 +124067,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10473.png",
       "sha256": "81d3e5468610847e99ff7d1f0c2dd040512374636ed83ad84886b3c5c6029ebc"
+    },
+    {
+      "message_id": 10471,
+      "filename": "김승리의_선택_언어와매체_워크북.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10471_._._._.pdf",
+      "size_bytes": 31177825,
+      "telegram_date": "2025-08-11T15:55:05+00:00",
+      "title": "김승리의_선택_언어와매체_워크북",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10471.png",
+      "sha256": "fae9e30c81677cb73ab36c76d99905e56c15bdd2631a1f4bd4f97fc1474767a3"
     }
   ],
   "duplicate_message_ids": [
