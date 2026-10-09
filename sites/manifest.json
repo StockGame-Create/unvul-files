@@ -123927,6 +123927,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10486.png",
       "sha256": "11f641123ab9b8dc62a3a1c3876cb0046434fd37bdb02ba87e7352aec29f2aab"
+    },
+    {
+      "message_id": 10485,
+      "filename": "강기분 언매 문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10485_.pdf",
+      "size_bytes": 310709395,
+      "telegram_date": "2025-08-11T15:55:06+00:00",
+      "title": "강기분 언매 문제편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10485.png",
+      "sha256": "374d1e4ac209aa4a94c83b263dd5b613a87073a74149d39035d0d7467406c394"
     }
   ],
   "duplicate_message_ids": [
