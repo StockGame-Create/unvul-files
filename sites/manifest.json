@@ -123815,6 +123815,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10500.png",
       "sha256": "1c47eb6aa6360c51c311779c087a146eec713cd32906382938fe62bbeb49e2e5"
+    },
+    {
+      "message_id": 10499,
+      "filename": "에스원 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10499_.5.pdf",
+      "size_bytes": 4718210,
+      "telegram_date": "2025-08-11T15:55:07+00:00",
+      "title": "에스원 5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10499.png",
+      "sha256": "1163b091b060aef843eb942be38cb896ee0e5259f039be7028f23c7fbb8ad1f2"
     }
   ],
   "duplicate_message_ids": [
