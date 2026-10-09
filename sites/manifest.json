@@ -123983,6 +123983,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10482.png",
       "sha256": "03c8089c1349f3ebe9e54e132ec398cc075130f3a5add58281c3b0b6f9d45def"
+    },
+    {
+      "message_id": 10481,
+      "filename": "2025_이지은모의고사_지옥.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10481_2025_._.pdf",
+      "size_bytes": 38142014,
+      "telegram_date": "2025-08-11T15:55:06+00:00",
+      "title": "2025_이지은모의고사_지옥",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10481.png",
+      "sha256": "307fb29b0d72d75a71f5a1ba4c4a68d75e2da415fa29925913850855a58461b1"
     }
   ],
   "duplicate_message_ids": [
