@@ -123913,6 +123913,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10493.png",
       "sha256": "275357a62f6145caa298a3cbef1ad3d6c8e22c878d5496370620bb4f4c869621"
+    },
+    {
+      "message_id": 10486,
+      "filename": "비독원_베이스_피드백.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10486_._._.pdf",
+      "size_bytes": 114299962,
+      "telegram_date": "2025-08-11T15:55:06+00:00",
+      "title": "비독원_베이스_피드백",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10486.png",
+      "sha256": "11f641123ab9b8dc62a3a1c3876cb0046434fd37bdb02ba87e7352aec29f2aab"
     }
   ],
   "duplicate_message_ids": [
