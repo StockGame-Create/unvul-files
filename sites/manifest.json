@@ -123885,6 +123885,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10495.png",
       "sha256": "96288193d834a6c19be8eb47312fa8e8f7528aecd4ca911a459e046bcfbd13c4"
+    },
+    {
+      "message_id": 10494,
+      "filename": "에스원 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10494_.2.pdf",
+      "size_bytes": 4576189,
+      "telegram_date": "2025-08-11T15:55:07+00:00",
+      "title": "에스원 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10494.png",
+      "sha256": "24222bf65d9b5d2c4f7acd3ba3e4329467325cc2f922445f1ec0848a43454520"
     }
   ],
   "duplicate_message_ids": [
