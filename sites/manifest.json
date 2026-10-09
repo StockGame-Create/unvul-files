@@ -123395,6 +123395,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10523.png",
       "sha256": "ca7fea9a2c9d7060f73e8a2e005c6ea865e4cf2287e2be64eb2783634703c39d"
+    },
+    {
+      "message_id": 10522,
+      "filename": "새기분 문학 익힘.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10522_.pdf",
+      "size_bytes": 208517780,
+      "telegram_date": "2025-08-11T15:55:11+00:00",
+      "title": "새기분 문학 익힘",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10522.png",
+      "sha256": "0e188abb070e375b56badaa3dba6cc792d0801b9dd17c7b5f080a379f068736b"
     }
   ],
   "duplicate_message_ids": [
