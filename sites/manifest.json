@@ -122317,6 +122317,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10646.png",
       "sha256": "d047016e1c8696fe9ea6ba3b69301d0ff56cd37525e1ef6e96c5cf85010865e8"
+    },
+    {
+      "message_id": 10645,
+      "filename": "간쓸개 s4 02.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10645_.s4.02.pdf",
+      "size_bytes": 28455543,
+      "telegram_date": "2025-08-11T15:56:16+00:00",
+      "title": "간쓸개 s4 02",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10645.png",
+      "sha256": "dc634584c6c062fdcbbaf0cc7766106245aa143e26a655992e8474c40a074b95"
     }
   ],
   "duplicate_message_ids": [
