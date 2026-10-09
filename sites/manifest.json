@@ -124389,6 +124389,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10443.png",
       "sha256": "6bc4ec81f9cad818a6c1c34270d19c7c9e98bec04d166db3eecbdb2c2707000c"
+    },
+    {
+      "message_id": 10437,
+      "filename": "시그모part1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10437_.part1.pdf",
+      "size_bytes": 11566343,
+      "telegram_date": "2025-08-11T15:55:04+00:00",
+      "title": "시그모part1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10437.png",
+      "sha256": "d6931eb06710df46a8e21a97c4fad0637e5fdb8938f4c0ad55bb008cc80dd2ab"
     }
   ],
   "duplicate_message_ids": [
