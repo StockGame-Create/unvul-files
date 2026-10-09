@@ -123143,6 +123143,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10545.png",
       "sha256": "8234ab6f0ec898b4fcc4bec506790be063494c12cbd2c44ee615d5819da89119"
+    },
+    {
+      "message_id": 10544,
+      "filename": "2026 Rush Stimpack 13주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10544_2026.Rush.Stimpack.13.pdf",
+      "size_bytes": 43008005,
+      "telegram_date": "2025-08-11T15:55:19+00:00",
+      "title": "2026 Rush Stimpack 13주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10544.png",
+      "sha256": "b0cf19928e6a111f9498fb3309965a0b1506bf406ceb5de89240db1ee3a2acd7"
     }
   ],
   "duplicate_message_ids": [
