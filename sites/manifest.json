@@ -123423,6 +123423,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10521.png",
       "sha256": "805fd28a7b280288a945837fcd57ee0469fd05d2e2a915ffeadd7cf972b84fc9"
+    },
+    {
+      "message_id": 10520,
+      "filename": "새기분 독서2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10520_.2.pdf",
+      "size_bytes": 196042266,
+      "telegram_date": "2025-08-11T15:55:11+00:00",
+      "title": "새기분 독서2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10520.png",
+      "sha256": "8da39c4944db18e8d613840063c0728bd9e5422a42fabd02e483afbbd1f38142"
     }
   ],
   "duplicate_message_ids": [
