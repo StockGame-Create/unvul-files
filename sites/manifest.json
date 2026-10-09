@@ -125033,6 +125033,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10348.png",
       "sha256": "7dd721fb305d96fa5c1ef72ec6d88a734f24881b931d8eae84159da9734dd010"
+    },
+    {
+      "message_id": 10347,
+      "filename": "한석원의_4의_규칙_미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10347_._4._._.pdf",
+      "size_bytes": 43704502,
+      "telegram_date": "2025-08-11T15:54:52+00:00",
+      "title": "한석원의_4의_규칙_미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10347.png",
+      "sha256": "129c7eaa43e8e299de4febb28ef76214c2141273dd3ed5ae21375e58e672592e"
     }
   ],
   "duplicate_message_ids": [
