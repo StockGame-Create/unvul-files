@@ -123619,6 +123619,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10515.png",
       "sha256": "33d728a89c5332c5e7c606a3767c5a2333250835a5e3fa13e98c8eab40ec8fa3"
+    },
+    {
+      "message_id": 10514,
+      "filename": "2026_강민철_인강민철_3호_문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10514_2026_._._3._.pdf",
+      "size_bytes": 147602098,
+      "telegram_date": "2025-08-11T15:55:10+00:00",
+      "title": "2026_강민철_인강민철_3호_문제편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10514.png",
+      "sha256": "a86f0c18a6c5052be93e44a95015750d4d854e4a26cdd096f3f6458b9ce8eac7"
     }
   ],
   "duplicate_message_ids": [
