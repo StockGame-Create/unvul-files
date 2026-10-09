@@ -123269,6 +123269,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10532.png",
       "sha256": "fa79bc47013dc964c882f5f22b15fa3d154a0b2bc6bf769bb18b87e66e6db6ad"
+    },
+    {
+      "message_id": 10531,
+      "filename": "2026 Hidden Kice 모의고사 시즌1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10531_2026.Hidden.Kice.1.pdf",
+      "size_bytes": 7712161,
+      "telegram_date": "2025-08-11T15:55:11+00:00",
+      "title": "2026 Hidden Kice 모의고사 시즌1 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10531.png",
+      "sha256": "d2218dbacce2f51b84365ce6ba3b1687ed7313f2c60565545d4ff711abaedfb2"
     }
   ],
   "duplicate_message_ids": [
