@@ -124165,6 +124165,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10465.png",
       "sha256": "9239d4220d5fcc716803cd30216602637a907d7df39895ee32cb4db3a65de7bb"
+    },
+    {
+      "message_id": 10464,
+      "filename": "Copy_of_김승리의_선택_화법과_작문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10464_Copy_of_._._._.pdf",
+      "size_bytes": 78782565,
+      "telegram_date": "2025-08-11T15:55:05+00:00",
+      "title": "Copy_of_김승리의_선택_화법과_작문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10464.png",
+      "sha256": "00d8b239c30da1a8572530d81fb54dee0e52bcf97b26b2d14958ed75db2856a4"
     }
   ],
   "duplicate_message_ids": [
