@@ -124501,6 +124501,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10430.png",
       "sha256": "dc24c47abcc112f5c75ac7d7bba9949e1c7efdb4760d4aa60714461693655ad1"
+    },
+    {
+      "message_id": 10429,
+      "filename": "2026 물리학 I 시대인재 Bridge 10회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10429_2026.I.Bridge.10.pdf",
+      "size_bytes": 17910353,
+      "telegram_date": "2025-08-11T15:54:58+00:00",
+      "title": "2026 물리학 I 시대인재 Bridge 10회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10429.png",
+      "sha256": "80ab94894f087812700a58affc3c50d3cfe768379309c11fa26d6ef330e64b42"
     }
   ],
   "duplicate_message_ids": [
