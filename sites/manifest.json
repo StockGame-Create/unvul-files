@@ -125789,6 +125789,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10278.png",
       "sha256": "238302e4d48460e539d440d87cea4229a0878f4deb62fd130f1c3e98631db477"
+    },
+    {
+      "message_id": 10277,
+      "filename": "2026시대인재최지욱_아치Arch_5주차_필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10277_2026._.Arch_5._.pdf",
+      "size_bytes": 356692,
+      "telegram_date": "2025-08-11T15:54:06+00:00",
+      "title": "2026시대인재최지욱_아치Arch_5주차_필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10277.png",
+      "sha256": "14b24f6b1ffc5e742634426fa405829feb1bfede2a734ea1fe5c25b84e9156a9"
     }
   ],
   "duplicate_message_ids": [
