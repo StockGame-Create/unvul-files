@@ -125131,6 +125131,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10339.png",
       "sha256": "1eb3bcb526dce0a16ec3d98a3c2867b735ddd32ddfe813da01cb9cba100b6c66"
+    },
+    {
+      "message_id": 10338,
+      "filename": "2026_특강_독서_적용학습_과학기술_05_낮은_열팽창_계수를.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10338_2026_._._._._05_._._.pdf",
+      "size_bytes": 325158,
+      "telegram_date": "2025-08-11T15:54:52+00:00",
+      "title": "2026_특강_독서_적용학습_과학기술_05_낮은_열팽창_계수를",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10338.png",
+      "sha256": "20727b4bbcd36ec654cdb165d35e8ab54d10609686eb6bc017c7266ad8fa1eef"
     }
   ],
   "duplicate_message_ids": [
