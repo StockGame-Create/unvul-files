@@ -124529,6 +124529,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10428.png",
       "sha256": "a1d8738559629d246923d64a717f98a6193b0c2b55faf0486ee753406dab194b"
+    },
+    {
+      "message_id": 10427,
+      "filename": "2026_박종민_공통_QED_N_5권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10427_2026_._._QED_N_5.pdf",
+      "size_bytes": 15909148,
+      "telegram_date": "2025-08-11T15:54:58+00:00",
+      "title": "2026_박종민_공통_QED_N_5권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10427.png",
+      "sha256": "128a0d2bfaec36df1ba54ef49ef396f18130c0450b58d66262e324ac857a9fd3"
     }
   ],
   "duplicate_message_ids": [
