@@ -124277,6 +124277,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10455.png",
       "sha256": "23f397e94720b9d7fd46c7b48c737e0fabe8ccfa06ba9ea844cd5b61ea13cfc7"
+    },
+    {
+      "message_id": 10454,
+      "filename": "2026 시대인재 6월 월례고사 수학 (기하).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10454_2026.6.pdf",
+      "size_bytes": 9927618,
+      "telegram_date": "2025-08-11T15:55:05+00:00",
+      "title": "2026 시대인재 6월 월례고사 수학 (기하)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10454.png",
+      "sha256": "06dc33cd33ea17592b05608a6e11eeee49cb9213d1bd722d7500649c848c2cb9"
     }
   ],
   "duplicate_message_ids": [
