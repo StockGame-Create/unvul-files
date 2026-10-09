@@ -124053,6 +124053,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10474.png",
       "sha256": "71fd78bc9dff5811d98b04a6d42b446f95d407a90c4ba1996794f24c49b5a9ee"
+    },
+    {
+      "message_id": 10473,
+      "filename": "2026 마더텅 사회문화.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10473_2026.pdf",
+      "size_bytes": 694162520,
+      "telegram_date": "2025-08-11T15:55:05+00:00",
+      "title": "2026 마더텅 사회문화",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10473.png",
+      "sha256": "81d3e5468610847e99ff7d1f0c2dd040512374636ed83ad84886b3c5c6029ebc"
     }
   ],
   "duplicate_message_ids": [
