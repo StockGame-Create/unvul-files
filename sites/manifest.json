@@ -124361,6 +124361,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10447.png",
       "sha256": "a470fdfe5718f46b86074c9cfc3c9f7d8394b1fe34de878ba8b2848e609f987a"
+    },
+    {
+      "message_id": 10445,
+      "filename": "2026 DCAF 시놉시스 모의고사 시즌1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10445_2026.DCAF.1.pdf",
+      "size_bytes": 22895882,
+      "telegram_date": "2025-08-11T15:55:04+00:00",
+      "title": "2026 DCAF 시놉시스 모의고사 시즌1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10445.png",
+      "sha256": "2cb4a8e027673f2acbca8aced7e2b6e167ddf300427306d0c5a754e130c6b2c9"
     }
   ],
   "duplicate_message_ids": [
