@@ -123311,6 +123311,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10529.png",
       "sha256": "3012b6cc1589af147a3d42ee79181ec9238b5e7d10d615999c1a162b9c38675f"
+    },
+    {
+      "message_id": 10528,
+      "filename": "2026 강기원 어싸인먼트 22주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10528_2026.22.pdf",
+      "size_bytes": 94917783,
+      "telegram_date": "2025-08-11T15:55:11+00:00",
+      "title": "2026 강기원 어싸인먼트 22주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10528.png",
+      "sha256": "70a09b2665380c0bf8173831f744ee539105bab4e51c21141a3a08110a9b24f3"
     }
   ],
   "duplicate_message_ids": [
