@@ -124949,6 +124949,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10359.png",
       "sha256": "8d798e7902a31e709822b4aa51c84b34b5dea0f2c80510f97d648eb4c42e4335"
+    },
+    {
+      "message_id": 10358,
+      "filename": "2025 문해전 미적 시즌2 p224.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10358_2025.2.p224.pdf",
+      "size_bytes": 53730607,
+      "telegram_date": "2025-08-11T15:54:53+00:00",
+      "title": "2025 문해전 미적 시즌2 p224",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10358.png",
+      "sha256": "d91a3ac96eceac03b87091fd8953871734cb9ec70a12eb2b43248a61db52d48e"
     }
   ],
   "duplicate_message_ids": [
