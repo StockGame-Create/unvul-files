@@ -124403,6 +124403,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10437.png",
       "sha256": "d6931eb06710df46a8e21a97c4fad0637e5fdb8938f4c0ad55bb008cc80dd2ab"
+    },
+    {
+      "message_id": 10436,
+      "filename": "이그나이트 시즌2 1+2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10436_.2.1%2B2.pdf",
+      "size_bytes": 51526726,
+      "telegram_date": "2025-08-11T15:55:04+00:00",
+      "title": "이그나이트 시즌2 1+2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10436.png",
+      "sha256": "74357c17f1c1b523099f030e550103734d433331c434f7c09153176eb139cc7a"
     }
   ],
   "duplicate_message_ids": [
