@@ -122821,6 +122821,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10583.png",
       "sha256": "b3ee4fc9c2c21bfd855494a3addc0aa4838234187d92d62e907478895ef202d3"
+    },
+    {
+      "message_id": 10582,
+      "filename": "생1 OMEGA 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10582_.1.OMEGA.5.pdf",
+      "size_bytes": 3644546,
+      "telegram_date": "2025-08-11T15:55:22+00:00",
+      "title": "생1 OMEGA 5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10582.png",
+      "sha256": "22218ced7fe2c443314b55c622270bc2378673805cee336811b32eab8486edb1"
     }
   ],
   "duplicate_message_ids": [
