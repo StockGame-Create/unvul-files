@@ -122933,6 +122933,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10569.png",
       "sha256": "07b3ec3e3850404bdd395b1d461c0982465cc2131f8acbad7b1bbf9c70fdcd28"
+    },
+    {
+      "message_id": 10568,
+      "filename": "2026 현정훈 STIMPACK 시즌2 8주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10568_2026.STIMPACK.2.8.pdf",
+      "size_bytes": 77003617,
+      "telegram_date": "2025-08-11T15:55:21+00:00",
+      "title": "2026 현정훈 STIMPACK 시즌2 8주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10568.png",
+      "sha256": "b6eb764f9af9a6a5d5a2ff34858fb1f40e1b3694de5f3684d63a301e198346f1"
     }
   ],
   "duplicate_message_ids": [
