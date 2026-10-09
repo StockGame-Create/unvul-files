@@ -122289,6 +122289,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10651.png",
       "sha256": "b86f2d3b5844f5df708d4738e0637afffc5db8404e80354c6926188c9cdcd122"
+    },
+    {
+      "message_id": 10647,
+      "filename": "7월_서바이벌_프로_지구과학2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10647_7._._._.2.pdf",
+      "size_bytes": 3643033,
+      "telegram_date": "2025-08-11T15:56:16+00:00",
+      "title": "7월_서바이벌_프로_지구과학2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10647.png",
+      "sha256": "e6323385aaf498f328728d7338ad69aae9aa96c46b250c5198086f45d1365d20"
     }
   ],
   "duplicate_message_ids": [
