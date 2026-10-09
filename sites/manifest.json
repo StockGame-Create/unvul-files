@@ -124319,6 +124319,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10451.png",
       "sha256": "81dbe1a56c7518bce639f0a0bb6eb739506fd709c1aab0e35459a9e24c849cff"
+    },
+    {
+      "message_id": 10450,
+      "filename": "2026 DCAF 트레일러 모의고사 시즌1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-9/10450_2026.DCAF.1.pdf",
+      "size_bytes": 93934358,
+      "telegram_date": "2025-08-11T15:55:04+00:00",
+      "title": "2026 DCAF 트레일러 모의고사 시즌1 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10450.png",
+      "sha256": "bb51a5e7377824f0a15ca7e5c4e1b684c4d602e8fa43c8f4a3b412bb2006be25"
     }
   ],
   "duplicate_message_ids": [
