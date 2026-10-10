@@ -130339,6 +130339,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9936.png",
       "sha256": "669879de0ba27007d1466e0aa8f90100e3a065fb36af30e1e729ebff255fe664"
+    },
+    {
+      "message_id": 9935,
+      "filename": "Quel 생명 H-02.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9935_Quel.H-02.pdf",
+      "size_bytes": 3267526,
+      "telegram_date": "2025-08-11T15:53:04+00:00",
+      "title": "Quel 생명 H-02",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9935.png",
+      "sha256": "68947b22b506ad69a61a81877ee4858a4f3f26c5c5e78badcabf74db0bfa3e07"
     }
   ],
   "duplicate_message_ids": [
