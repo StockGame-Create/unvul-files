@@ -113,6 +113,20 @@
       "sha256": "c83e1ca9046b1534b1778c34d4e0d8fc93e376824ae4b79b5f9d451bdf3237f5"
     },
     {
+      "message_id": 25253,
+      "filename": "C26IB60300ED061_OCT.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25253_C26IB60300ED061_OCT.PDF",
+      "size_bytes": 1987047,
+      "telegram_date": "2026-10-10T12:08:18+00:00",
+      "title": "수학 김성은 불꽃 모의고사 3회",
+      "year": "2027",
+      "instructor": "김성은",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25253.png",
+      "sha256": "c939d2ab3450188034d7898aa27fb650538428631e169d98aa3c642e79d43b32"
+    },
+    {
       "message_id": 25228,
       "filename": "10섶 물2.pdf",
       "stored_as": null,
