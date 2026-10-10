@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10T13:43:44+00:00",
+  "updated_at": "2026-10-10T21:51:04+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -1157,6 +1157,28 @@
       ],
       "model": "gemini-3.6-flash",
       "problem_count": 20,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 25280,
+      "filename": "문학 진또배기 편집본.pdf",
+      "title": "국어 유대종 문학 진또배기",
+      "year": "2027",
+      "instructor": "유대종",
+      "subject": "국어",
+      "sha256": "1f360ba06e58c84bc0da1f688e301c20f06aede6dec2e2d810b08b13ecd8e6b4",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/25280.json",
+      "updated_at": "2026-10-10T21:51:04+00:00",
+      "pages_total": 131,
+      "pages_done": 8,
+      "failed_pages": [],
+      "model": "gemini-3.8-flash",
+      "problem_count": 1,
       "solution_count": 0,
       "matched_count": 0,
       "with_answer": 0,
