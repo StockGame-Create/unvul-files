@@ -125455,6 +125455,20 @@
       "sha256": "d47aa49fe9dd71cfcbe9ed88d7c0bdcadb3ff1cc8a9276a681218e748277c508"
     },
     {
+      "message_id": 10415,
+      "filename": "독서 워크북 해설 1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10415_.1.pdf",
+      "size_bytes": 228493939,
+      "telegram_date": "2025-08-11T15:54:58+00:00",
+      "title": "독서 워크북 해설 1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10415.png",
+      "sha256": "6d09aa0b311624413bd4a82ba9de8108d6bdd640aa5193059964e870e5bb58b5"
+    },
+    {
       "message_id": 10413,
       "filename": "2026학년도_양승진_미적N코드_본문.pdf",
       "stored_as": null,
