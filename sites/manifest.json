@@ -128995,6 +128995,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10010.png",
       "sha256": "d7eadfe71770feb86008eb9b14995898a6ce54b2b2fc8ccb393ddbfdee1b588a"
+    },
+    {
+      "message_id": 10008,
+      "filename": "2026 이신혁 모의평가 5회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10008_2026.5.pdf",
+      "size_bytes": 6064899,
+      "telegram_date": "2025-08-11T15:53:09+00:00",
+      "title": "2026 이신혁 모의평가 5회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10008.png",
+      "sha256": "f72ce083f1db835dbc14d6c7b7bbca2196d45394dca0cb17dadb09fd7650849e"
     }
   ],
   "duplicate_message_ids": [
