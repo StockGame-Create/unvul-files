@@ -128589,6 +128589,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10048.png",
       "sha256": "1cb33e65a3f1e1d7aab9a7756005cad0edabd19d094932d7a5700bdb60f99532"
+    },
+    {
+      "message_id": 10047,
+      "filename": "26_자이스토리_사문_해설편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10047_26_._._.pdf",
+      "size_bytes": 503780790,
+      "telegram_date": "2025-08-11T15:53:11+00:00",
+      "title": "26_자이스토리_사문_해설편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10047.png",
+      "sha256": "b9882ae72f07f356c4937215f2e418ad88eaf3128223e8588582029d7cdf82da"
     }
   ],
   "duplicate_message_ids": [
