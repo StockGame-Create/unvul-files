@@ -130059,6 +130059,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9976.png",
       "sha256": "ed0019cb2f5e5d8ab0414eeaa550b06273d286053d655a8bc31ec5112288c6be"
+    },
+    {
+      "message_id": 9975,
+      "filename": "2026_프로메테우스_미적분_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9975_2026_._._.pdf",
+      "size_bytes": 24143371,
+      "telegram_date": "2025-08-11T15:53:06+00:00",
+      "title": "2026_프로메테우스_미적분_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9975.png",
+      "sha256": "09fc86b4458ea759b86ae616f4a9dca4c4ce6f3f1fff4f0a4fd4cafd6ba06337"
     }
   ],
   "duplicate_message_ids": [
