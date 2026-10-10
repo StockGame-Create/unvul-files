@@ -126699,6 +126699,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10219.png",
       "sha256": "830569bdfd78fb0cd768b53f423940da10f2803941540a035b963b3914deb304"
+    },
+    {
+      "message_id": 10218,
+      "filename": "5회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10218_5.pdf",
+      "size_bytes": 14528444,
+      "telegram_date": "2025-08-11T15:53:53+00:00",
+      "title": "5회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10218.png",
+      "sha256": "6aded8e6eaa22e9762c2c4b5e39e6db0fcb96efc80214a02d05e396d64b190b6"
     }
   ],
   "duplicate_message_ids": [
