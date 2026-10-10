@@ -127861,6 +127861,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10123.png",
       "sha256": "d624f406a5a3d26cf1c8af98e58e02f83414e1d92b815c6cfb72a76aefdf3bcf"
+    },
+    {
+      "message_id": 10122,
+      "filename": "2026_김현우_수학2_1권_프리뷰_테스트_빠른_정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10122_2026_._.2_1._._._._.pdf",
+      "size_bytes": 17489,
+      "telegram_date": "2025-08-11T15:53:23+00:00",
+      "title": "2026_김현우_수학2_1권_프리뷰_테스트_빠른_정답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10122.png",
+      "sha256": "2eab81e812c29ad78527f95fc477844682d923269d82e24b68d1fe7e28352878"
     }
   ],
   "duplicate_message_ids": [
