@@ -128463,6 +128463,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10060.png",
       "sha256": "1b8f8dcb977c97fdf15b09316940120824d0cf7e2852ad0c650fdd13fd253b70"
+    },
+    {
+      "message_id": 10059,
+      "filename": "2026 PIRAM 생각의 전개 문학 2권 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10059_2026.PIRAM.2.pdf",
+      "size_bytes": 299134016,
+      "telegram_date": "2025-08-11T15:53:14+00:00",
+      "title": "2026 PIRAM 생각의 전개 문학 2권 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10059.png",
+      "sha256": "79242f5d77551c69e656d350e9d6003f22d1ae3e3acd14a80eeac128f9ddba6c"
     }
   ],
   "duplicate_message_ids": [
