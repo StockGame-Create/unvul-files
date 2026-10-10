@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 25275,
+      "filename": "2027 이지영 심.기.일.전 생활과 윤리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25275_2027.pdf",
+      "size_bytes": 504836847,
+      "telegram_date": "2026-10-10T13:36:14+00:00",
+      "title": "생윤 이지영 심기일전",
+      "year": "2027",
+      "instructor": "이지영",
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/25275.png",
+      "sha256": "c482b78ce926097f56570e5434b3ea415464872c47e94f9404dd8a8e745cea07"
+    },
+    {
       "message_id": 25262,
       "filename": "백호 시즌2 2회.pdf",
       "stored_as": null,
