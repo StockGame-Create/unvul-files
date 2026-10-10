@@ -128561,6 +128561,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10050.png",
       "sha256": "083e118467cbe2b0d9f13e7d7b84ef848f2894402faf04682640e95c69aa299f"
+    },
+    {
+      "message_id": 10049,
+      "filename": "2026 수학 강윤구 기하 필수유형공략법.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10049_2026.pdf",
+      "size_bytes": 196292324,
+      "telegram_date": "2025-08-11T15:53:11+00:00",
+      "title": "2026 수학 강윤구 기하 필수유형공략법",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10049.png",
+      "sha256": "816ff16d7acff419f59cf543a165cb6efec4cf58e8e8bd50e6f9768ae3bb5a3f"
     }
   ],
   "duplicate_message_ids": [
