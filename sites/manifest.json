@@ -126407,6 +126407,20 @@
       "sha256": "ac5535b43893ffda583df23ede7adfafda3fec865a1d2b0db0d6d5d8c51a1c93"
     },
     {
+      "message_id": 10331,
+      "filename": "2026 이형수 기출분석 사회문화 손글씨 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10331_2026.pdf",
+      "size_bytes": 163483122,
+      "telegram_date": "2025-08-11T15:54:51+00:00",
+      "title": "2026 이형수 기출분석 사회문화 손글씨 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10331.png",
+      "sha256": "f8125d48d95d94f667cdc97d77ea0f81f9a8fbc9159be55bb13961136962669f"
+    },
+    {
       "message_id": 10318,
       "filename": "2026 화학 강준호 화잘주스 12주차.pdf",
       "stored_as": null,
