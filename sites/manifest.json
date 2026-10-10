@@ -29,6 +29,20 @@
       "sha256": "5f68efcd8b9edb3705c8f3ca946d4039c3ab9a2320828a1cb3bc7ea9d8939893"
     },
     {
+      "message_id": 25267,
+      "filename": "서바이벌_C단독_모의고사_물리학I_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25267_._C._._.I_.pdf",
+      "size_bytes": 12073636,
+      "telegram_date": "2026-10-10T13:36:05+00:00",
+      "title": "물1 시대인재 서바이벌 C 단독 모의고사 13회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/25267.png",
+      "sha256": "c51d8652fd6052d99e43f79199e37878fb445ede15e54e9be2a740054af6d082"
+    },
+    {
       "message_id": 25262,
       "filename": "백호 시즌2 2회.pdf",
       "stored_as": null,
