@@ -128603,6 +128603,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10047.png",
       "sha256": "b9882ae72f07f356c4937215f2e418ad88eaf3128223e8588582029d7cdf82da"
+    },
+    {
+      "message_id": 10045,
+      "filename": "2023_시대인재_엑셀러레이터_물리학ll_31_50회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10045_2023_._._.ll_31_50.pdf",
+      "size_bytes": 83307184,
+      "telegram_date": "2025-08-11T15:53:11+00:00",
+      "title": "2023_시대인재_엑셀러레이터_물리학ll_31_50회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10045.png",
+      "sha256": "ca8754e1ba463e2557f85bc19f631e700c166f84c8fd6bde78ade9774932ee05"
     }
   ],
   "duplicate_message_ids": [
