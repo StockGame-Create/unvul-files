@@ -130129,6 +130129,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9955.png",
       "sha256": "d33bd8e514439ebbb18bd4a1217914e516863cc9493d0d9c6ef5458023269f94"
+    },
+    {
+      "message_id": 9954,
+      "filename": "2026 시대인재 수학 공통 트러스 1-20회 합본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9954_2026.1-20.pdf",
+      "size_bytes": 255464141,
+      "telegram_date": "2025-08-11T15:53:05+00:00",
+      "title": "2026 시대인재 수학 공통 트러스 1-20회 합본",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9954.png",
+      "sha256": "584e38578967c987d7e8eac15799b9fd5314ca7b3f8353df0feac6956d564b90"
     }
   ],
   "duplicate_message_ids": [
