@@ -127749,6 +127749,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10131.png",
       "sha256": "ce44bb6989e38e1ef31400b8d30137a91f7f974512be41f9b49a9352b3c59e63"
+    },
+    {
+      "message_id": 10130,
+      "filename": "2026 김현우 스탠다드 수학2 1권 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10130_2026.2.1.pdf",
+      "size_bytes": 38553559,
+      "telegram_date": "2025-08-11T15:53:24+00:00",
+      "title": "2026 김현우 스탠다드 수학2 1권 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10130.png",
+      "sha256": "8d615bb24a660cca52c7aed6a65967ac82e4711301830c12b9d8fcd2d4c7f9b6"
     }
   ],
   "duplicate_message_ids": [
