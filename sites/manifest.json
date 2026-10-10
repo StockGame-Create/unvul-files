@@ -130549,6 +130549,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9919.png",
       "sha256": "b8f06daa7f8049c9a5c269fe7962f62ea5719982a9e537378a7b6891d570eee7"
+    },
+    {
+      "message_id": 9918,
+      "filename": "2023 배기범 필수본 물리학2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9918_2023.2.pdf",
+      "size_bytes": 237814224,
+      "telegram_date": "2025-08-11T15:53:03+00:00",
+      "title": "2023 배기범 필수본 물리학2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9918.png",
+      "sha256": "cf792251d6f7792c29fc85e0bbc38328a1348f67cec37fe203317311ceb5c5ad"
     }
   ],
   "duplicate_message_ids": [
