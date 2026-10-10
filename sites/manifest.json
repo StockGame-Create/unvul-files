@@ -128827,6 +128827,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10030.png",
       "sha256": "62206692a725f545c0c75a2701b50b5f0d5a0f2166af2a130d755bb76fa80358"
+    },
+    {
+      "message_id": 10029,
+      "filename": "수학1 스블.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10029_.1.pdf",
+      "size_bytes": 179021123,
+      "telegram_date": "2025-08-11T15:53:10+00:00",
+      "title": "수학1 스블",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10029.png",
+      "sha256": "fc15626425942d331dc572dd6da86e432fa9fae7939e49836ed3a4cd48486d42"
     }
   ],
   "duplicate_message_ids": [
