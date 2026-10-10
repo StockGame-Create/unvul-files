@@ -169,6 +169,20 @@
       "sha256": "b2bbd7a8ef9b03bf1cd9ff32503c7421d1b65f8d57fec02718cc9d6b8c7aa126"
     },
     {
+      "message_id": 25247,
+      "filename": "오메가 블랙 수학 12회 (확,미,기) + 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25247_.12.%2B.pdf",
+      "size_bytes": 23323880,
+      "telegram_date": "2026-10-10T09:37:41+00:00",
+      "title": "수학 2027 OMEGA black 모의고사 12회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25247.png",
+      "sha256": "c76e8418f64f37cf03b31dd4ad167b0b69ee3f5a3c06539f038b9142f630f202"
+    },
+    {
       "message_id": 25228,
       "filename": "10섶 물2.pdf",
       "stored_as": null,
