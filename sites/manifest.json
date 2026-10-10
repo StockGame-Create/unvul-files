@@ -15,6 +15,20 @@
       "sha256": "47a12aa690ddf2bf2466aa4b03fbece489907949e524e02883b569fae4a8a7c6"
     },
     {
+      "message_id": 25193,
+      "filename": "2027 생1 VERDI 모의고사 s2,3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25193_2027.1.VERDI.s2.3.pdf",
+      "size_bytes": 33510857,
+      "telegram_date": "2026-10-10T01:23:04+00:00",
+      "title": "생1 VERADI 실전 모의고사 시즌2, 3",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/25193.png",
+      "sha256": "7861ad64d26c1a3de3ed88a2acceaf068290ae93e25f77fd971f349d4c4f1b8e"
+    },
+    {
       "message_id": 25189,
       "filename": "REAL_S:9모대비_세지_4회차_정답_.pdf",
       "stored_as": null,
