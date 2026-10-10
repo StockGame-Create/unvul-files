@@ -125203,6 +125203,20 @@
       "sha256": "74357c17f1c1b523099f030e550103734d433331c434f7c09153176eb139cc7a"
     },
     {
+      "message_id": 10446,
+      "filename": "2026 DCAF 시놉시스 모의고사 시즌1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10446_2026.DCAF.1.pdf",
+      "size_bytes": 152391025,
+      "telegram_date": "2025-08-11T15:55:04+00:00",
+      "title": "2026 DCAF 시놉시스 모의고사 시즌1 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10446.png",
+      "sha256": "2725579053970348d873fc6bb8a24c16ed9bba1c6b2058023fe85c60daf7f092"
+    },
+    {
       "message_id": 10435,
       "filename": "2026 물리학 I 현정훈 모의고사 시즌 2 2nd 3회.pdf",
       "stored_as": null,
