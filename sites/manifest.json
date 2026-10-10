@@ -126713,6 +126713,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10218.png",
       "sha256": "6aded8e6eaa22e9762c2c4b5e39e6db0fcb96efc80214a02d05e396d64b190b6"
+    },
+    {
+      "message_id": 10217,
+      "filename": "1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10217_1.pdf",
+      "size_bytes": 13734452,
+      "telegram_date": "2025-08-11T15:53:53+00:00",
+      "title": "1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10217.png",
+      "sha256": "bac2ae9d5756a1be77cb789e2542414bb534ee89a2720a03d1b1644785d1c238"
     }
   ],
   "duplicate_message_ids": [
