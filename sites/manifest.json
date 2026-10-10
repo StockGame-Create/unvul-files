@@ -130003,6 +130003,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9988.png",
       "sha256": "6ccd05c7f4a969847344bf40ffc49e7a8f6d50c39e03f5c21ac4d0f62e4374cd"
+    },
+    {
+      "message_id": 9984,
+      "filename": "2026 이신혁 테스트 14주차 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9984_2026.14.pdf",
+      "size_bytes": 424663,
+      "telegram_date": "2025-08-11T15:53:08+00:00",
+      "title": "2026 이신혁 테스트 14주차 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9984.png",
+      "sha256": "66825c72edbb8af9164697be91efcea846ad146c22b5b8926c3490a003821759"
     }
   ],
   "duplicate_message_ids": [
