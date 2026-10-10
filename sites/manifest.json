@@ -127455,6 +127455,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10153.png",
       "sha256": "a25d8d1fe329452251f2f8b12475d36477cafac18ecdfe8f12a66378654a66a0"
+    },
+    {
+      "message_id": 10152,
+      "filename": "2026 박종민 Q.E.D. 위클리콤 04.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10152_2026.Q.E.D.04.pdf",
+      "size_bytes": 39906879,
+      "telegram_date": "2025-08-11T15:53:27+00:00",
+      "title": "2026 박종민 Q.E.D. 위클리콤 04",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10152.png",
+      "sha256": "bbb381a67e309450574beffe79546379ad25c56c60566bc81bfe46863135d997"
     }
   ],
   "duplicate_message_ids": [
