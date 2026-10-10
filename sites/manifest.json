@@ -128743,6 +128743,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10036.png",
       "sha256": "c160469304f094034a1985f32c5c5863851952346b1e66017e20d44569357553"
+    },
+    {
+      "message_id": 10035,
+      "filename": "엔티켓 수2 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10035_.2.pdf",
+      "size_bytes": 30802416,
+      "telegram_date": "2025-08-11T15:53:11+00:00",
+      "title": "엔티켓 수2 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10035.png",
+      "sha256": "31ebc79792ff8132be81a41816091ac68a9c622a1ba7ff29ffc6c3e9c1c99f01"
     }
   ],
   "duplicate_message_ids": [
