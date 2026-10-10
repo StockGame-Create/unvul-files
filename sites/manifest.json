@@ -128281,6 +128281,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10091.png",
       "sha256": "6dfddbca65cebc4c600cceaaeebae27161a0d151f629c42b453583526f12e824"
+    },
+    {
+      "message_id": 10088,
+      "filename": "2026 이신혁 Apollo.n 시즌2 1호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10088_2026.Apollo.n.2.1.pdf",
+      "size_bytes": 56658725,
+      "telegram_date": "2025-08-11T15:53:21+00:00",
+      "title": "2026 이신혁 Apollo.n 시즌2 1호",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10088.png",
+      "sha256": "35820b300a88c9df3fc5d32b4685f7dd48acdfc540981be61452faa76ede563f"
     }
   ],
   "duplicate_message_ids": [
