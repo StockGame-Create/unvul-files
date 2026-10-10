@@ -128029,6 +128029,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10111.png",
       "sha256": "5f8b69de3052bfbee22203a73af4f1e3c686428a7d64d46d62f6366866f6f597"
+    },
+    {
+      "message_id": 10110,
+      "filename": "2026 강기원 STEP2 어싸 1주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10110_2026.STEP2.1.pdf",
+      "size_bytes": 80250497,
+      "telegram_date": "2025-08-11T15:53:23+00:00",
+      "title": "2026 강기원 STEP2 어싸 1주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10110.png",
+      "sha256": "25da76ae2a84095179ba1e6067faf0213dd95dee53964ce3686e19ae7fd1c92a"
     }
   ],
   "duplicate_message_ids": [
