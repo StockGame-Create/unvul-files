@@ -130451,6 +130451,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9928.png",
       "sha256": "775a9164d29bb9c1605538a7e79b3c80a4dca02e7690234be1719facec20339b"
+    },
+    {
+      "message_id": 9927,
+      "filename": "입문N코드 (1회~2회).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9927_.N.1.2.pdf",
+      "size_bytes": 1934808,
+      "telegram_date": "2025-08-11T15:53:04+00:00",
+      "title": "입문N코드 (1회~2회)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9927.png",
+      "sha256": "88750c8044faed70cf6453e73d0133857c67abd1a8033d732ff94e07bb00b2e9"
     }
   ],
   "duplicate_message_ids": [
