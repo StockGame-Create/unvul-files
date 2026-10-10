@@ -129009,6 +129009,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10008.png",
       "sha256": "f72ce083f1db835dbc14d6c7b7bbca2196d45394dca0cb17dadb09fd7650849e"
+    },
+    {
+      "message_id": 10007,
+      "filename": "2026 이신혁 모의평가 시즌1 4회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10007_2026.1.4.pdf",
+      "size_bytes": 6174722,
+      "telegram_date": "2025-08-11T15:53:09+00:00",
+      "title": "2026 이신혁 모의평가 시즌1 4회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10007.png",
+      "sha256": "77452cfb3bffaac8327e44abeee63350e8994d619f9705877b5a9e22e9380a85"
     }
   ],
   "duplicate_message_ids": [
