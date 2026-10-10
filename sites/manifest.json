@@ -126573,6 +126573,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10228.png",
       "sha256": "d9922832039f92c2bdd17f68f02e7384798bee25ee150dfa2a51e0e78824c5ad"
+    },
+    {
+      "message_id": 10227,
+      "filename": "2025 정법 파브 11.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10227_2025.11.pdf",
+      "size_bytes": 25321342,
+      "telegram_date": "2025-08-11T15:53:53+00:00",
+      "title": "2025 정법 파브 11",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10227.png",
+      "sha256": "946cac4d5d19ae81b834f16628cff665c27209da0f4f259f0fe3350d639c6788"
     }
   ],
   "duplicate_message_ids": [
