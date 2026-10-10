@@ -128239,6 +128239,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10096.png",
       "sha256": "657ae3fb5c60c917a04a4aba60998ef12530d331a9fde9f0c3510dc596546bc6"
+    },
+    {
+      "message_id": 10094,
+      "filename": "2026 손창빈 주간교재 시즌2 4주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10094_2026.2.4.pdf",
+      "size_bytes": 46697690,
+      "telegram_date": "2025-08-11T15:53:22+00:00",
+      "title": "2026 손창빈 주간교재 시즌2 4주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10094.png",
+      "sha256": "9f419eafb2682bb9d356268203361cb0e89cf11907641357164537af467b8a3c"
     }
   ],
   "duplicate_message_ids": [
