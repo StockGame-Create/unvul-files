@@ -57,6 +57,20 @@
       "sha256": "6f38ce9d9e37a58d53f642ee8e33118130436cd6674e0bae817c4d0e6f20b67a"
     },
     {
+      "message_id": 25265,
+      "filename": "2027학년도_C단독_모의고사_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25265_2027._C._._.pdf",
+      "size_bytes": 6004020,
+      "telegram_date": "2026-10-10T13:36:04+00:00",
+      "title": "지1 시대인재 서바이벌 C 단독 모의고사 13회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25265.png",
+      "sha256": "9e58d4525da4924e5a3b63ab86c10aac8ec3d46438252ba9c83c2d6aab2a16ce"
+    },
+    {
       "message_id": 25262,
       "filename": "백호 시즌2 2회.pdf",
       "stored_as": null,
