@@ -130045,6 +130045,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9979.png",
       "sha256": "ed6ec665f241b9f24ec05c5af459e56f9da6b59ce33e2550dfada9c454833da9"
+    },
+    {
+      "message_id": 9976,
+      "filename": "2026 박종민 Q.E.D. 미적분 해설 18주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9976_2026.Q.E.D.18.pdf",
+      "size_bytes": 25323855,
+      "telegram_date": "2025-08-11T15:53:07+00:00",
+      "title": "2026 박종민 Q.E.D. 미적분 해설 18주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9976.png",
+      "sha256": "ed0019cb2f5e5d8ab0414eeaa550b06273d286053d655a8bc31ec5112288c6be"
     }
   ],
   "duplicate_message_ids": [
