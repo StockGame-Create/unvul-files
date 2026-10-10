@@ -127049,6 +127049,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10179.png",
       "sha256": "6a8514956091a04be22e9cb20d78e481c3da03287a06cf22636857d452c71934"
+    },
+    {
+      "message_id": 10177,
+      "filename": "21주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10177_21.pdf",
+      "size_bytes": 1803783,
+      "telegram_date": "2025-08-11T15:53:50+00:00",
+      "title": "21주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10177.png",
+      "sha256": "28d0c8891f9cf67cd5e1134d08b23ab1658800fe8cf47dfb520436ca5099e0a3"
     }
   ],
   "duplicate_message_ids": [
