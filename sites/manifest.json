@@ -126309,6 +126309,20 @@
       "sha256": "d30ba054ee495e35f5dd4ff4e4d2d3c4d7802a5083da6bd40988658a78e88b69"
     },
     {
+      "message_id": 10262,
+      "filename": "기출 분석 손글씨 해설_2025_06_24_12_24_14.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10262_._2025_06_24_12_24_14.PDF",
+      "size_bytes": 190636212,
+      "telegram_date": "2025-08-11T15:53:58+00:00",
+      "title": "기출 분석 손글씨 해설_2025_06_24_12_24_14",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10262.png",
+      "sha256": "b0210622f6a28654c94783e32e7c8e8a9756aa89073ed82c27798c17a44bf1bc"
+    },
+    {
       "message_id": 10255,
       "filename": "2025 정법 서바 전국 06.pdf",
       "stored_as": null,
