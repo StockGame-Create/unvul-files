@@ -127343,6 +127343,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10163.png",
       "sha256": "0e8ea79bf2f116e57b502199a48288d2b0dfc5d5047ad014a39bfd8ffbf42e93"
+    },
+    {
+      "message_id": 10162,
+      "filename": "2026 박종민 Q.E.D. 미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10162_2026.Q.E.D.pdf",
+      "size_bytes": 22345429,
+      "telegram_date": "2025-08-11T15:53:28+00:00",
+      "title": "2026 박종민 Q.E.D. 미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10162.png",
+      "sha256": "83151dc8940bbf28d7c5c7eba543c2263ac7996b11295f2e33a89d916c9d8df9"
     }
   ],
   "duplicate_message_ids": [
