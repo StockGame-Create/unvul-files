@@ -128729,6 +128729,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10037.png",
       "sha256": "c98c91312d17dd65d7a990e12d4f3a927a48189c4bba408f16722e98c5fd4fc6"
+    },
+    {
+      "message_id": 10036,
+      "filename": "엔티켓 미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10036_.pdf",
+      "size_bytes": 90784326,
+      "telegram_date": "2025-08-11T15:53:11+00:00",
+      "title": "엔티켓 미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10036.png",
+      "sha256": "c160469304f094034a1985f32c5c5863851952346b1e66017e20d44569357553"
     }
   ],
   "duplicate_message_ids": [
