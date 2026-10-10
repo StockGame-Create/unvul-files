@@ -130255,6 +130255,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9943.png",
       "sha256": "e2330c708076b635b04f671cea17a707000c47579cc8d89493d22b09ceb94e47"
+    },
+    {
+      "message_id": 9942,
+      "filename": "박광일 거북이의 축지법 1회 .pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9942_.1.pdf",
+      "size_bytes": 38933833,
+      "telegram_date": "2025-08-11T15:53:04+00:00",
+      "title": "박광일 거북이의 축지법 1회 ",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9942.png",
+      "sha256": "5110cec28ce8626323cb41c831f84b4597b63d8c3749606d7f69d794ef4d518b"
     }
   ],
   "duplicate_message_ids": [
