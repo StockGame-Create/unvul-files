@@ -130017,6 +130017,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9984.png",
       "sha256": "66825c72edbb8af9164697be91efcea846ad146c22b5b8926c3490a003821759"
+    },
+    {
+      "message_id": 9983,
+      "filename": "2026 현정훈 RUSH (하).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9983_2026.RUSH.pdf",
+      "size_bytes": 94461839,
+      "telegram_date": "2025-08-11T15:53:08+00:00",
+      "title": "2026 현정훈 RUSH (하)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9983.png",
+      "sha256": "b3f116918d9d0f13466bdea1cac36fc2ae19fee9fde907d79dba0708ce614f86"
     }
   ],
   "duplicate_message_ids": [
