@@ -128169,6 +128169,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10101.png",
       "sha256": "acd058479cb90cef47c616a3e6d9e0ba6223dec742be7c2b805c912b8f13f734"
+    },
+    {
+      "message_id": 10100,
+      "filename": "2026 손창빈 주간교재 시즌2 3주차 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10100_2026.2.3.pdf",
+      "size_bytes": 12810097,
+      "telegram_date": "2025-08-11T15:53:22+00:00",
+      "title": "2026 손창빈 주간교재 시즌2 3주차 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10100.png",
+      "sha256": "05f76e1d62d37277e6a52162129a8294679f67fe95e0a91ccc50a3735ca59db3"
     }
   ],
   "duplicate_message_ids": [
