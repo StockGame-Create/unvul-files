@@ -337,6 +337,20 @@
       "sha256": "5865391996aa737f674a8d62026e5acabf76ffbc3633bde510b0b56aed6f62d9"
     },
     {
+      "message_id": 25198,
+      "filename": "강대K 9회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25198_.K.9.pdf",
+      "size_bytes": 75807734,
+      "telegram_date": "2026-10-10T01:23:07+00:00",
+      "title": "국어 강대모의고사K 8~10회 (인쇄소퀄) #강k",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25198.png",
+      "sha256": "d9edaffa034ca84b459bf9e14e6cc29dd459851f19cc2dd032ae4a16f97809b7"
+    },
+    {
       "message_id": 25193,
       "filename": "2027 생1 VERDI 모의고사 s2,3.pdf",
       "stored_as": null,
