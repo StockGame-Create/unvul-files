@@ -183,6 +183,20 @@
       "sha256": "73c8f8f3df432eee6506bbd17d2778f1165fd2c6a26434c1520a767168995e97"
     },
     {
+      "message_id": 25213,
+      "filename": "1회 정답과해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25213_1.pdf",
+      "size_bytes": 1378851,
+      "telegram_date": "2026-10-10T01:23:24+00:00",
+      "title": "물2 강대모의고사K 1~6회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "물리학2",
+      "thumbnail": "thumbnails/25213.png",
+      "sha256": "3d9d79f03884b1634ad4912f9c4a480446ac37ea7b66069b353045d18d5b3840"
+    },
+    {
       "message_id": 25199,
       "filename": "강대K 10회 문제.pdf",
       "stored_as": null,
