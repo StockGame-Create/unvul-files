@@ -128253,6 +128253,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10094.png",
       "sha256": "9f419eafb2682bb9d356268203361cb0e89cf11907641357164537af467b8a3c"
+    },
+    {
+      "message_id": 10093,
+      "filename": "2026 PIRAM 생각의 전개 독서 1권 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10093_2026.PIRAM.1.pdf",
+      "size_bytes": 205141842,
+      "telegram_date": "2025-08-11T15:53:22+00:00",
+      "title": "2026 PIRAM 생각의 전개 독서 1권 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10093.png",
+      "sha256": "b390492203e3e942c39856d6f1688750e311b148daf2c37e952b777db9e0684b"
     }
   ],
   "duplicate_message_ids": [
