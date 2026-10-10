@@ -126923,6 +126923,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10194.png",
       "sha256": "dfa93fca5e7394c0707eb2ea99daa71afa5ad792c06930bda025830356cc014b"
+    },
+    {
+      "message_id": 10193,
+      "filename": "2026_서바이벌_N_전용_지구과학_I_8회9회_해설포함.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10193_2026_._N_._._I_8.9._.pdf",
+      "size_bytes": 14102134,
+      "telegram_date": "2025-08-11T15:53:51+00:00",
+      "title": "2026_서바이벌_N_전용_지구과학_I_8회9회_해설포함",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10193.png",
+      "sha256": "1f2805318566209aa7b96c2f00cfe5a60b697cb2e6d447f68dee924554f17848"
     }
   ],
   "duplicate_message_ids": [
