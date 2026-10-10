@@ -239,6 +239,20 @@
       "sha256": "bcf2c79097143d3f3bba9802e722e248f656ae226912d0cd72e0b755788a20bb"
     },
     {
+      "message_id": 25206,
+      "filename": "제 4교시.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25206_.4.pdf",
+      "size_bytes": 11338338,
+      "telegram_date": "2026-10-10T01:23:16+00:00",
+      "title": "윤사 시대인재 10월 전국모의평가 #서프",
+      "year": "2027",
+      "instructor": null,
+      "subject": "윤리와사상",
+      "thumbnail": "thumbnails/25206.png",
+      "sha256": "64ace03bb89c8c47b2552f61c8793c86d7f85bd535c6a003d5dd0c14edc79805"
+    },
+    {
       "message_id": 25199,
       "filename": "강대K 10회 문제.pdf",
       "stored_as": null,
