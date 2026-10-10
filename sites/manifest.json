@@ -130101,6 +130101,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9957.png",
       "sha256": "93cc96cb048983037866bdb358890870182b5e586d8103d93b2086a591506a90"
+    },
+    {
+      "message_id": 9956,
+      "filename": "2026 국어 박광일 훈련도감 V2 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9956_2026.V2.pdf",
+      "size_bytes": 69545775,
+      "telegram_date": "2025-08-11T15:53:05+00:00",
+      "title": "2026 국어 박광일 훈련도감 V2 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9956.png",
+      "sha256": "a15059217a066b88b82fe7fcd9db6184a4b2852f0456191ce4400aecb896bc6c"
     }
   ],
   "duplicate_message_ids": [
