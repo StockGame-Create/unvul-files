@@ -127301,6 +127301,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10166.png",
       "sha256": "722bc65c39fa902b2176b86d94365d3500067c40b960d0ae18494d817d001d9e"
+    },
+    {
+      "message_id": 10165,
+      "filename": "2026 박종민 Limit X 모의고사 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10165_2026.Limit.X.6.pdf",
+      "size_bytes": 3746206,
+      "telegram_date": "2025-08-11T15:53:28+00:00",
+      "title": "해설 X",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10165.png",
+      "sha256": "ed44d336a7cb5c7a09da0c603117cd63e73b4635e5586319a3e7ce184dd70b34"
     }
   ],
   "duplicate_message_ids": [
