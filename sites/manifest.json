@@ -127875,6 +127875,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10122.png",
       "sha256": "2eab81e812c29ad78527f95fc477844682d923269d82e24b68d1fe7e28352878"
+    },
+    {
+      "message_id": 10121,
+      "filename": "2026 김현우 STANDARD 수학2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10121_2026.STANDARD.2.pdf",
+      "size_bytes": 58594334,
+      "telegram_date": "2025-08-11T15:53:23+00:00",
+      "title": "2026 김현우 STANDARD 수학2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10121.png",
+      "sha256": "fdba636286d27d1030e8bd1d1d5b003d4a54ef4e703c72e6bd1dcfeade471d22"
     }
   ],
   "duplicate_message_ids": [
