@@ -281,6 +281,20 @@
       "sha256": "6a67de2f5e369168fee2bb4d9f4cf139f40829b1793f5fd763b7b251184773d7"
     },
     {
+      "message_id": 25202,
+      "filename": "한수 11차 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25202_.11.pdf",
+      "size_bytes": 22866540,
+      "telegram_date": "2026-10-10T01:23:13+00:00",
+      "title": "국어 한수 파이널2 제 11, 12차 모의고사",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25202.png",
+      "sha256": "15942ad1bba2b422426aaff01a8df562a1e19850b0e94902ba8b3818ee6d41bc"
+    },
+    {
       "message_id": 25199,
       "filename": "강대K 10회 문제.pdf",
       "stored_as": null,
