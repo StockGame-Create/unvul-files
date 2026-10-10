@@ -127021,6 +127021,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10181.png",
       "sha256": "e3ee64883b8b427d7c0988cf955ab6ce5446fcf3f2762f29da37e113e141ce67"
+    },
+    {
+      "message_id": 10180,
+      "filename": "RuleBreakers_물리학2_수능대비_모의고사_Season1_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10180_RuleBreakers_.2_._._Season1_2.pdf",
+      "size_bytes": 774177,
+      "telegram_date": "2025-08-11T15:53:51+00:00",
+      "title": "RuleBreakers_물리학2_수능대비_모의고사_Season1_2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10180.png",
+      "sha256": "f6d8c832a4740ad36ce586528749b6b4ee4e33de6f9a941539d1245f6ff968f0"
     }
   ],
   "duplicate_message_ids": [
