@@ -225,6 +225,20 @@
       "sha256": "0cc41ce0b547e0e35aff43beb413f06e827b550d24259102ef12c541e4a1dbc9"
     },
     {
+      "message_id": 25209,
+      "filename": "이신혁하프모의고사5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25209_.5.pdf",
+      "size_bytes": 4794755,
+      "telegram_date": "2026-10-10T01:23:22+00:00",
+      "title": "지1 이신혁 하프 모의고사 5회",
+      "year": "2027",
+      "instructor": "이신혁",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25209.png",
+      "sha256": "bcf2c79097143d3f3bba9802e722e248f656ae226912d0cd72e0b755788a20bb"
+    },
+    {
       "message_id": 25199,
       "filename": "강대K 10회 문제.pdf",
       "stored_as": null,
