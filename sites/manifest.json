@@ -281,6 +281,20 @@
       "sha256": "7ef6743883590493aeda38f1a96ec33c70e2859f9945eabed9f389c993dc3bd2"
     },
     {
+      "message_id": 25236,
+      "filename": "REAL_S:9모대비_한지_2회차_정답_.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25236_REAL_S.9._._2._._.pdf",
+      "size_bytes": 2971620,
+      "telegram_date": "2026-10-10T09:37:27+00:00",
+      "title": "한지 기승전결 모의고사(9월 대비 모의고사 S 1~4회)",
+      "year": "2027",
+      "instructor": "이승헌",
+      "subject": "한국지리",
+      "thumbnail": "thumbnails/25236.png",
+      "sha256": "15dbc3c8a36c32ccb6756e3fe7dd5ea0cf8703d6e6142aa119eeff152d4797e5"
+    },
+    {
       "message_id": 25228,
       "filename": "10섶 물2.pdf",
       "stored_as": null,
