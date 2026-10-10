@@ -127413,6 +127413,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10158.png",
       "sha256": "08cf76145647fe31e7a790a1e76681e8e58309c477a83ac2157d292b3a717bb5"
+    },
+    {
+      "message_id": 10156,
+      "filename": "2026 박종민 Q.E.D. 수학1 해설 16주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10156_2026.Q.E.D.1.16.pdf",
+      "size_bytes": 33608652,
+      "telegram_date": "2025-08-11T15:53:28+00:00",
+      "title": "2026 박종민 Q.E.D. 수학1 해설 16주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10156.png",
+      "sha256": "af22f29ceda3c2900137868d0faa5890d085f6b0878761d575ecc30ca5a87708"
     }
   ],
   "duplicate_message_ids": [
