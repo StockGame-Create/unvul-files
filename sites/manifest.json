@@ -15,6 +15,20 @@
       "sha256": "ed6941768ce51f64b824fa532cfcffcad170a2e774582c8f0e1e58701584f6e2"
     },
     {
+      "message_id": 25261,
+      "filename": "백호 시즌2 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25261_.2.3.pdf",
+      "size_bytes": 6041826,
+      "telegram_date": "2026-10-10T12:08:26+00:00",
+      "title": "생1 백호 실전 모의고사 시즌2 1~7회",
+      "year": "2027",
+      "instructor": "백호",
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/25261.png",
+      "sha256": "67176e0d5a59f27df85f344ba2fe897e68644b7049c1e8322d151bd697e6a25b"
+    },
+    {
       "message_id": 25228,
       "filename": "10섶 물2.pdf",
       "stored_as": null,
