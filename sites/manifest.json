@@ -128645,6 +128645,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10043.png",
       "sha256": "9fd26f6a16536073b9717afd8fd5cc55671eb7486fde717acc9d259c5b64dd79"
+    },
+    {
+      "message_id": 10042,
+      "filename": "2026_수학_강대_CIRCUIT_미적분ㆍ기하ㆍ확통_6회문제_및_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10042_2026_._._CIRCUIT_._6._._.pdf",
+      "size_bytes": 47580387,
+      "telegram_date": "2025-08-11T15:53:11+00:00",
+      "title": "2026_수학_강대_CIRCUIT_미적분ㆍ기하ㆍ확통_6회문제_및_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10042.png",
+      "sha256": "b389a2913b3f32b26fea40cc4ef43c7eab2488ed2b66be5c5e3d21126e1396f4"
     }
   ],
   "duplicate_message_ids": [
