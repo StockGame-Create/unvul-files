@@ -141,6 +141,20 @@
       "sha256": "50a3ea6bed8dd776317c19fff7b9f5b548ca1356d61f3170650c19d914962012"
     },
     {
+      "message_id": 25250,
+      "filename": "강k 생명 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25250_.k.1.pdf",
+      "size_bytes": 6262150,
+      "telegram_date": "2026-10-10T09:45:42+00:00",
+      "title": "생1 강대모의고사K 1회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/25250.png",
+      "sha256": "c7b6c548ecdb7b327b058dac6245086cb721605bafa421ebf39e566b953c6d7b"
+    },
+    {
       "message_id": 25228,
       "filename": "10섶 물2.pdf",
       "stored_as": null,
