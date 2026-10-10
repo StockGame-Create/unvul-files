@@ -127945,6 +127945,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10117.png",
       "sha256": "38de5507d58fe5d923f1028d8b87b8d371d7524c556a231bfb120ac8b672973e"
+    },
+    {
+      "message_id": 10116,
+      "filename": "2026 강기원 STEP2 필기노트 4주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10116_2026.STEP2.4.pdf",
+      "size_bytes": 1684479,
+      "telegram_date": "2025-08-11T15:53:23+00:00",
+      "title": "2026 강기원 STEP2 필기노트 4주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10116.png",
+      "sha256": "df05f888728a9cf42f1556d0313869ee0592b66c0a74854bb4976f10936d6a9f"
     }
   ],
   "duplicate_message_ids": [
