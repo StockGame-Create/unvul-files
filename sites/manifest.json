@@ -128981,6 +128981,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10012.png",
       "sha256": "5f5ee8cdb3e8c6668750b0a702f0f7b59b687aa082a6aa978f056130f532eef7"
+    },
+    {
+      "message_id": 10010,
+      "filename": "2026 이신혁 복습테스트 시즌2 6주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10010_2026.2.6.pdf",
+      "size_bytes": 548310,
+      "telegram_date": "2025-08-11T15:53:09+00:00",
+      "title": "2026 이신혁 복습테스트 시즌2 6주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10010.png",
+      "sha256": "d7eadfe71770feb86008eb9b14995898a6ce54b2b2fc8ccb393ddbfdee1b588a"
     }
   ],
   "duplicate_message_ids": [
