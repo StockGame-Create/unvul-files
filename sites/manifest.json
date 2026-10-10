@@ -128547,6 +128547,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10052.png",
       "sha256": "680507dcdfbf4b43b2d1cefbd81a630d9e80a18530358e607313490d9d520953"
+    },
+    {
+      "message_id": 10050,
+      "filename": "2026_프로메테우스_미적분_본문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10050_2026_._._.pdf",
+      "size_bytes": 54957142,
+      "telegram_date": "2025-08-11T15:53:13+00:00",
+      "title": "2026_프로메테우스_미적분_본문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10050.png",
+      "sha256": "083e118467cbe2b0d9f13e7d7b84ef848f2894402faf04682640e95c69aa299f"
     }
   ],
   "duplicate_message_ids": [
