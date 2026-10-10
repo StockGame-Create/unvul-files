@@ -128127,6 +128127,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10104.png",
       "sha256": "186d9c646e3980a042a968c89c897fb01312803515f2cb1342f0512ecfddd60f"
+    },
+    {
+      "message_id": 10103,
+      "filename": "2026 손창빈 주간교재 시즌2 5주차 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10103_2026.2.5.pdf",
+      "size_bytes": 14108809,
+      "telegram_date": "2025-08-11T15:53:22+00:00",
+      "title": "2026 손창빈 주간교재 시즌2 5주차 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10103.png",
+      "sha256": "f015681526e178184a8df31dc62c13f714fd9de97e0d6082dd8df4890793acee"
     }
   ],
   "duplicate_message_ids": [
