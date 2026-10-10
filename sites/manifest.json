@@ -130353,6 +130353,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9935.png",
       "sha256": "68947b22b506ad69a61a81877ee4858a4f3f26c5c5e78badcabf74db0bfa3e07"
+    },
+    {
+      "message_id": 9934,
+      "filename": "Quel 생명 H-02 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9934_Quel.H-02.pdf",
+      "size_bytes": 2792420,
+      "telegram_date": "2025-08-11T15:53:04+00:00",
+      "title": "Quel 생명 H-02 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9934.png",
+      "sha256": "c344e4c8c89e31cb038dddc61a2faeae4c5dfc323bb7f8cc3927299669d3128e"
     }
   ],
   "duplicate_message_ids": [
