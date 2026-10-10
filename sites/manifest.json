@@ -128533,6 +128533,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10053.png",
       "sha256": "c54bc444872f0f3b64f1341ecefcb30ebc37d4552d854eab4aa651a35f803703"
+    },
+    {
+      "message_id": 10052,
+      "filename": "2025_미적분_김기현_킥오프_본교재.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10052_2025_._._._.pdf",
+      "size_bytes": 7709876,
+      "telegram_date": "2025-08-11T15:53:13+00:00",
+      "title": "2025_미적분_김기현_킥오프_본교재",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10052.png",
+      "sha256": "680507dcdfbf4b43b2d1cefbd81a630d9e80a18530358e607313490d9d520953"
     }
   ],
   "duplicate_message_ids": [
