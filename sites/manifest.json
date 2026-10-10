@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 25228,
+      "filename": "10섶 물2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25228_10.2.pdf",
+      "size_bytes": 6621866,
+      "telegram_date": "2026-10-10T01:23:41+00:00",
+      "title": "과학 시대인재 10월 전국모의평가 (II 과목) #서프",
+      "year": "2027",
+      "instructor": null,
+      "subject": "과학탐구",
+      "thumbnail": "thumbnails/25228.png",
+      "sha256": "8956386f692e125ff4607e57d69c288e8eff36ed6152530e6ecffb773c5d3249"
+    },
+    {
       "message_id": 25199,
       "filename": "강대K 10회 문제.pdf",
       "stored_as": null,
