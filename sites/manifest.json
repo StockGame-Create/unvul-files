@@ -127973,6 +127973,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10115.png",
       "sha256": "1eb9be0b41051e9de2135fcefee51230880b1d4722120a4560eabca9fe0e64a1"
+    },
+    {
+      "message_id": 10114,
+      "filename": "2026 강기원 STEP2 Review TEST 3주차 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10114_2026.STEP2.Review.TEST.3.pdf",
+      "size_bytes": 2030662,
+      "telegram_date": "2025-08-11T15:53:23+00:00",
+      "title": "2026 강기원 STEP2 Review TEST 3주차 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10114.png",
+      "sha256": "b8d25243511ac995e35043d61d8b673d847b54e50ad281341cba16f83a944c5a"
     }
   ],
   "duplicate_message_ids": [
