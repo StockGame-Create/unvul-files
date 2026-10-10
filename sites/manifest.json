@@ -130367,6 +130367,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9934.png",
       "sha256": "c344e4c8c89e31cb038dddc61a2faeae4c5dfc323bb7f8cc3927299669d3128e"
+    },
+    {
+      "message_id": 9933,
+      "filename": "서바이벌 전국 모의고사 생명 정답 및 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9933_.pdf",
+      "size_bytes": 3839041,
+      "telegram_date": "2025-08-11T15:53:04+00:00",
+      "title": "서바이벌 전국 모의고사 생명 정답 및 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9933.png",
+      "sha256": "a3351e5c97961d400544e3fb3120b9b2d97a8a3a0c23031f3ef131f3b602327f"
     }
   ],
   "duplicate_message_ids": [
