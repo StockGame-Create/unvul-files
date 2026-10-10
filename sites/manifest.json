@@ -126029,6 +126029,20 @@
       "sha256": "721d5948704ee893db91ce16d686a3149248adce3ebca8206074903bccd32a92"
     },
     {
+      "message_id": 10355,
+      "filename": "2026 PIRAM 생각의 전개 독서 워크북 해설 2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10355_2026.PIRAM.2.pdf",
+      "size_bytes": 205366132,
+      "telegram_date": "2025-08-11T15:54:53+00:00",
+      "title": "2026 PIRAM 생각의 전개 독서 워크북 해설 2권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10355.png",
+      "sha256": "1cd718eed927a490a69a51b2e4e9f8f988a2defe34183014fc32d627980d5237"
+    },
+    {
       "message_id": 10350,
       "filename": "적자생존_모의고사_시즌_1_2회_정답해설.pdf",
       "stored_as": null,
