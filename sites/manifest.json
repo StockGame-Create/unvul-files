@@ -127707,6 +127707,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10134.png",
       "sha256": "97d9b2fb83338e72d7dc21bc1beafbcae119f3820c2aa398d03b4ba56890dc26"
+    },
+    {
+      "message_id": 10133,
+      "filename": "2026 박종민 Q.E.D. 수학2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10133_2026.Q.E.D.2.pdf",
+      "size_bytes": 16261892,
+      "telegram_date": "2025-08-11T15:53:24+00:00",
+      "title": "2026 박종민 Q.E.D. 수학2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10133.png",
+      "sha256": "9998aea1021df8215575ece6774c1eebfbe983f58a89549ba9eca7c966b558bd"
     }
   ],
   "duplicate_message_ids": [
