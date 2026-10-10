@@ -126797,6 +126797,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10206.png",
       "sha256": "2ab4267d5fa529a3b7ac588605505c69ebd246bca604acb228065722b30b6269"
+    },
+    {
+      "message_id": 10205,
+      "filename": "2025 정법 서바 05.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10205_2025.05.pdf",
+      "size_bytes": 51981246,
+      "telegram_date": "2025-08-11T15:53:52+00:00",
+      "title": "2025 정법 서바 05",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10205.png",
+      "sha256": "b210ebf8028653f1a472d981d61f5e18dfb5d57385f16eb4733338a4360e084a"
     }
   ],
   "duplicate_message_ids": [
