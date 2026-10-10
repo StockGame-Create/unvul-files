@@ -126895,6 +126895,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10196.png",
       "sha256": "3c38d1a4e3148c5526bf769e66242bd6c6dbadc533d6a4dca0cec1b334a87008"
+    },
+    {
+      "message_id": 10195,
+      "filename": "사만다 파이널.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10195_.pdf",
+      "size_bytes": 26279296,
+      "telegram_date": "2025-08-11T15:53:51+00:00",
+      "title": "사만다 파이널",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10195.png",
+      "sha256": "472ae5302bf71c696ba9eaf752fa01cdb3473d2dade7579f2f079ce71cb8f66a"
     }
   ],
   "duplicate_message_ids": [
