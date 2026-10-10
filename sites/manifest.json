@@ -128771,6 +128771,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10034.png",
       "sha256": "be886ef3ec885c9b1ada762ce09612b69ee28f7ccf5facc70e30e1b53656604c"
+    },
+    {
+      "message_id": 10033,
+      "filename": "엔티켓 수2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10033_.2.pdf",
+      "size_bytes": 104186412,
+      "telegram_date": "2025-08-11T15:53:11+00:00",
+      "title": "엔티켓 수2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10033.png",
+      "sha256": "9523ff78b5c2cf9851166a12413730fd49fc27aae8220fe481ecce339d27ea64"
     }
   ],
   "duplicate_message_ids": [
