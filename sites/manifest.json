@@ -130395,6 +130395,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9932.png",
       "sha256": "e5dcea1918a1dcc1e27bc5df172d3086e932a7caea98430c30c37ed23a2e08c0"
+    },
+    {
+      "message_id": 9931,
+      "filename": "Final 브릿지 전국 모의고사 생명 정답 및 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9931_Final.pdf",
+      "size_bytes": 3720132,
+      "telegram_date": "2025-08-11T15:53:04+00:00",
+      "title": "Final 브릿지 전국 모의고사 생명 정답 및 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9931.png",
+      "sha256": "271f33be8e6ac6228bbf71cec1010a46783f3fdf63d153d506229e943c41813d"
     }
   ],
   "duplicate_message_ids": [
