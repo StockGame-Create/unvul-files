@@ -128575,6 +128575,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10049.png",
       "sha256": "816ff16d7acff419f59cf543a165cb6efec4cf58e8e8bd50e6f9768ae3bb5a3f"
+    },
+    {
+      "message_id": 10048,
+      "filename": "C25CC56395KJI191_JUN-2.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10048_C25CC56395KJI191_JUN-2.PDF",
+      "size_bytes": 13912464,
+      "telegram_date": "2025-08-11T15:53:11+00:00",
+      "title": "C25CC56395KJI191_JUN-2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10048.png",
+      "sha256": "1cb33e65a3f1e1d7aab9a7756005cad0edabd19d094932d7a5700bdb60f99532"
     }
   ],
   "duplicate_message_ids": [
