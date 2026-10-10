@@ -130423,6 +130423,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9930.png",
       "sha256": "d9283bc9b02c096269ca5bb10eb7101ea4aeed9f34932c06f0d2e27de3a4388e"
+    },
+    {
+      "message_id": 9929,
+      "filename": "이그나이트 시즌1 9+10.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9929_.1.9%2B10.pdf",
+      "size_bytes": 36512389,
+      "telegram_date": "2025-08-11T15:53:04+00:00",
+      "title": "이그나이트 시즌1 9+10",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9929.png",
+      "sha256": "d39a4f54229f2e88630660fc19df7e5e5cf4a5e22ae9967cd43893260aa2f13b"
     }
   ],
   "duplicate_message_ids": [
