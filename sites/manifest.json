@@ -309,6 +309,20 @@
       "sha256": "6651171219dbc5c26cd879ecceb17eeb217b2fa9d153b6eea412bd3016696385"
     },
     {
+      "message_id": 25233,
+      "filename": "2027_유베가는길_해설상.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25233_2027_._.pdf",
+      "size_bytes": 73075457,
+      "telegram_date": "2026-10-10T09:37:25+00:00",
+      "title": "영어 유베 가는 길 (상), (하)",
+      "year": "2027",
+      "instructor": "이영수",
+      "subject": "영어",
+      "thumbnail": "thumbnails/25233.png",
+      "sha256": "e7178d774cd286c49936962289bc1e68746ffc48a57568482941646adb1d0baa"
+    },
+    {
       "message_id": 25228,
       "filename": "10섶 물2.pdf",
       "stored_as": null,
