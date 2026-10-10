@@ -129821,6 +129821,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10007.png",
       "sha256": "77452cfb3bffaac8327e44abeee63350e8994d619f9705877b5a9e22e9380a85"
+    },
+    {
+      "message_id": 10005,
+      "filename": "2026 이신혁 필기노트 18주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10005_2026.18.pdf",
+      "size_bytes": 21927287,
+      "telegram_date": "2025-08-11T15:53:09+00:00",
+      "title": "2026 이신혁 필기노트 18주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10005.png",
+      "sha256": "ba480632a75bb9263a69ce82630f865fcd29ad317d41be59b3e052355c0a4be6"
     }
   ],
   "duplicate_message_ids": [
