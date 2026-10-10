@@ -128953,6 +128953,20 @@
       "subject": null,
       "thumbnail": "thumbnails/10014.png",
       "sha256": "8b02ac8575c54824b2c431cff9b1ecc384eca195402fa8fb0c8353a7f448c794"
+    },
+    {
+      "message_id": 10013,
+      "filename": "2026 이신혁 필기노트 19주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10013_2026.19.pdf",
+      "size_bytes": 25095546,
+      "telegram_date": "2025-08-11T15:53:09+00:00",
+      "title": "2026 이신혁 필기노트 19주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10013.png",
+      "sha256": "c227ddee893a9d28c53a18d89e34c802bd1e03e84f53613c5e4b5998feb3b47e"
     }
   ],
   "duplicate_message_ids": [
