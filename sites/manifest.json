@@ -126953,6 +126953,20 @@
       "sha256": "8e75038418d217666fe269f2c7f496044e253c397881b4eea6e322f476323a73"
     },
     {
+      "message_id": 10207,
+      "filename": "2025 정법 엣지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/10207_2025.pdf",
+      "size_bytes": 401042522,
+      "telegram_date": "2025-08-11T15:53:52+00:00",
+      "title": "2025 정법 엣지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/10207.png",
+      "sha256": "fc98923e5b8f4cd63254fe11428ce07565a9ee83593a6670f43cb1f7d80d7498"
+    },
+    {
       "message_id": 10195,
       "filename": "사만다 파이널.pdf",
       "stored_as": null,
