@@ -131823,6 +131823,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9825.png",
       "sha256": "74575cdec482d8bb54abf3e07dc863043202beec2e7c384a3e4f7ef7bcb0469c"
+    },
+    {
+      "message_id": 9824,
+      "filename": "2026학년도_시대인재_서바이벌_전국_모의고사_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9824_2026._._._._._2.pdf",
+      "size_bytes": 5886009,
+      "telegram_date": "2025-08-11T15:52:12+00:00",
+      "title": "2026학년도_시대인재_서바이벌_전국_모의고사_2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9824.png",
+      "sha256": "78cca9334e1a7d6e7ad25c07131537bff4138fc887d3a311de7a3c852779832e"
     }
   ],
   "duplicate_message_ids": [
