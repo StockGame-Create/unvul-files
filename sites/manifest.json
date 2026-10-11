@@ -133769,6 +133769,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9610.png",
       "sha256": "f113faa3ed558c5ae19d06d2e6d0eec27534876dce79d51e7521eb0f51272176"
+    },
+    {
+      "message_id": 9609,
+      "filename": "2026_잡기술_특강_1_삼사차함수_비율관계와_거리곱_기본편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9609_2026_._._1_._._._.pdf",
+      "size_bytes": 2822591,
+      "telegram_date": "2025-08-11T15:50:59+00:00",
+      "title": "2026_잡기술_특강_1_삼사차함수_비율관계와_거리곱_기본편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9609.png",
+      "sha256": "bcdebf665d6f93b1df3e5930a9751e170eff6df401409a2b03e849c7985228a2"
     }
   ],
   "duplicate_message_ids": [
