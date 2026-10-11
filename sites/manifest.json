@@ -133153,6 +133153,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9685.png",
       "sha256": "6dcc886ea8054bd61e38c3e8722df93d8f5e0e287d0b05c3cf79d3834688b851"
+    },
+    {
+      "message_id": 9684,
+      "filename": "2026 지구과학 1 이신혁 도킹 6, 7호 선별.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9684_2026.1.6.7.pdf",
+      "size_bytes": 1646578,
+      "telegram_date": "2025-08-11T15:51:58+00:00",
+      "title": "2026 지구과학 1 이신혁 도킹 6, 7호 선별",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9684.png",
+      "sha256": "9bea0b0c231ea90a14d10b1e5b034139a3c5a2937c76105b0de49c9b27da11e3"
     }
   ],
   "duplicate_message_ids": [
