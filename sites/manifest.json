@@ -132215,6 +132215,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9776.png",
       "sha256": "92681905d824bbf1b66b59f491b5b61f0dd80778b176a302473b4fd145612274"
+    },
+    {
+      "message_id": 9771,
+      "filename": "2026 시대인재 REVIVAL 화학2 01.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9771_2026.REVIVAL.2.01.pdf",
+      "size_bytes": 17545350,
+      "telegram_date": "2025-08-11T15:52:04+00:00",
+      "title": "2026 시대인재 REVIVAL 화학2 01",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9771.png",
+      "sha256": "0fabcbc2f499295153f0064a7cea7d9d9463a11dafdab25a9903bea05382e18d"
     }
   ],
   "duplicate_message_ids": [
