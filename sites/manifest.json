@@ -132761,6 +132761,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9710.png",
       "sha256": "8fa89c58eb550ea85130ff7bf8851aef5c18ddd51b97aaee9900721088559f80"
+    },
+    {
+      "message_id": 9709,
+      "filename": "2026_지구과학_1_이신혁_칼레이도스코프_개념_유체편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9709_2026_._1_._._._.pdf",
+      "size_bytes": 94149855,
+      "telegram_date": "2025-08-11T15:51:59+00:00",
+      "title": "2026_지구과학_1_이신혁_칼레이도스코프_개념_유체편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9709.png",
+      "sha256": "be48af9ccc4aa7915982ce1d4b24570930b357be00c26c4c213ef6b7392e36df"
     }
   ],
   "duplicate_message_ids": [
