@@ -133335,6 +133335,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9651.png",
       "sha256": "812e8761a649982e4ade93a8ae4ff08cc822c03327689f0d53dc76b03b251545"
+    },
+    {
+      "message_id": 9650,
+      "filename": "2026_시대인재_생활과_윤리_브릿지3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9650_2026_._._._.3.pdf",
+      "size_bytes": 6812136,
+      "telegram_date": "2025-08-11T15:51:55+00:00",
+      "title": "2026_시대인재_생활과_윤리_브릿지3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9650.png",
+      "sha256": "b52f75c0a5836d89dbb507a9685e03fe8700ddf3f6382dc27fec9e03a504c7fc"
     }
   ],
   "duplicate_message_ids": [
