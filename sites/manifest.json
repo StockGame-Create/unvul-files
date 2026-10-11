@@ -132047,6 +132047,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9797.png",
       "sha256": "a0a73b362002ea2384a3b3d7e147e73515cad93fc147076b17d74fc80a09d63b"
+    },
+    {
+      "message_id": 9796,
+      "filename": "단_하나의_언매_00_문법_개념_사전.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9796_._._._00_._._.pdf",
+      "size_bytes": 57097745,
+      "telegram_date": "2025-08-11T15:52:11+00:00",
+      "title": "단_하나의_언매_00_문법_개념_사전",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9796.png",
+      "sha256": "5907e3fddf6e1aaa98d0c4a1e1d1cb6923b89467cfd1a1da3ee2e4fe9df45871"
     }
   ],
   "duplicate_message_ids": [
