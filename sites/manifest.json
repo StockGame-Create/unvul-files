@@ -132747,6 +132747,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9711.png",
       "sha256": "a1463ffdebea1f283013578e0b38088b1a20c9b9d58ef83c49b46361afcc349a"
+    },
+    {
+      "message_id": 9710,
+      "filename": "2026_지구과학_1_이신혁_칼레이도스코프_기출_천체편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9710_2026_._1_._._._.pdf",
+      "size_bytes": 301686764,
+      "telegram_date": "2025-08-11T15:51:59+00:00",
+      "title": "2026_지구과학_1_이신혁_칼레이도스코프_기출_천체편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9710.png",
+      "sha256": "8fa89c58eb550ea85130ff7bf8851aef5c18ddd51b97aaee9900721088559f80"
     }
   ],
   "duplicate_message_ids": [
