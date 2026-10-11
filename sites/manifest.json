@@ -133741,6 +133741,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9612.png",
       "sha256": "b45f1175a1d96bad8585ddf94c2f7731bea6ff106f23a1499d7fe68d07f45355"
+    },
+    {
+      "message_id": 9611,
+      "filename": "현돌 6평 특강.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9611_.6.pdf",
+      "size_bytes": 946681,
+      "telegram_date": "2025-08-11T15:51:53+00:00",
+      "title": "현돌 6평 특강",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9611.png",
+      "sha256": "fbdb10fb501cc8772e7f1675ed6d8065f0e87f552f6f6796edda74c049b19889"
     }
   ],
   "duplicate_message_ids": [
