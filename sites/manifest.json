@@ -133923,6 +133923,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9596.png",
       "sha256": "b5bb95366e0dd375cb88fad61d3b88527e5c30e4526e7e4c47f6f8486108c0d8"
+    },
+    {
+      "message_id": 9595,
+      "filename": "2026_수능특강_독서_인문예술01_로티의_자유주의_변형문제01.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9595_2026_._._.01_._._.01.pdf",
+      "size_bytes": 327306,
+      "telegram_date": "2025-08-11T15:50:56+00:00",
+      "title": "2026_수능특강_독서_인문예술01_로티의_자유주의_변형문제01",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9595.png",
+      "sha256": "cc5477aa8267b31f3bcd1fd0ae5b0c33e0c55c99586ce54180acec0a34715334"
     }
   ],
   "duplicate_message_ids": [
