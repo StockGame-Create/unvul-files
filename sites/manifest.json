@@ -133853,6 +133853,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9603.png",
       "sha256": "0711d002f0ce88288d5fc2b617f09d44af5aa03c1e17df62ff775af2429ebab8"
+    },
+    {
+      "message_id": 9602,
+      "filename": "김기현 아이디어 수학2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9602_.2.pdf",
+      "size_bytes": 233629542,
+      "telegram_date": "2025-08-11T15:50:56+00:00",
+      "title": "김기현 아이디어 수학2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9602.png",
+      "sha256": "ac47673b30f5911d01c95be72380fd3f9e4e15c04a38b82e991ed0b203e0f1d5"
     }
   ],
   "duplicate_message_ids": [
