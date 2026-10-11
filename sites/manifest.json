@@ -133223,6 +133223,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9680.png",
       "sha256": "27e28781af53bb04a733a537054975166cf46441cac63f69c3672eaac6a19d5d"
+    },
+    {
+      "message_id": 9668,
+      "filename": "2025-수학Ⅰ(대수) (9)수열의 합(level-5,6)-sample.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9668_2025-.9.level-5.6.-sample.pdf",
+      "size_bytes": 863978,
+      "telegram_date": "2025-08-11T15:51:56+00:00",
+      "title": "2025-수학Ⅰ(대수) (9)수열의 합(level-5,6)-sample",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9668.png",
+      "sha256": "863290ead1dcbd3d85cb7890eeb2cce72989f7a26544e1e177af8085bed87f1a"
     }
   ],
   "duplicate_message_ids": [
