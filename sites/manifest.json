@@ -133895,6 +133895,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9598.png",
       "sha256": "8db8086b2b5019421c9f761da809e5616e4daf2284119d3e52d527e0cf083a28"
+    },
+    {
+      "message_id": 9597,
+      "filename": "2026_수능특강_독서_사회문화03_환위험_관리_변형문제01.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9597_2026_._._.03_._._.01.pdf",
+      "size_bytes": 359533,
+      "telegram_date": "2025-08-11T15:50:56+00:00",
+      "title": "2026_수능특강_독서_사회문화03_환위험_관리_변형문제01",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9597.png",
+      "sha256": "bda59b6a176eabf53f2c20d7c2458f808d00089c8bd884c7ff00ea1c2f56d463"
     }
   ],
   "duplicate_message_ids": [
