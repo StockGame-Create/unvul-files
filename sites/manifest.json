@@ -183,6 +183,20 @@
       "sha256": "9d42c27cf9a5d2ac094d2e502a6d23b079e8fd3d65aecbac1da7794e260857d0"
     },
     {
+      "message_id": 25284,
+      "filename": "2027_화학1_서바이벌_전국_14회_해설포함.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25284_2027_.1_._._14._.pdf",
+      "size_bytes": 6578659,
+      "telegram_date": "2026-10-11T02:27:56+00:00",
+      "title": "화1 시대인재 서바이벌 전국 모의고사 14회 #서바전국",
+      "year": "2027",
+      "instructor": null,
+      "subject": "화학1",
+      "thumbnail": "thumbnails/25284.png",
+      "sha256": "5755e157f68de24a35cc7ad16f822c824ccca56932035e4365b04af529cff303"
+    },
+    {
       "message_id": 25280,
       "filename": "문학 진또배기 편집본.pdf",
       "stored_as": null,
