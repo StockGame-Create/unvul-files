@@ -133083,6 +133083,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9690.png",
       "sha256": "f9ee0984a2fdcf5101d65a871e7dd0b668c921047f1ff71e3a0ab612f26718b0"
+    },
+    {
+      "message_id": 9689,
+      "filename": "2026 지구과학 1 이신혁 모의고사 시즌1 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9689_2026.1.1.8.pdf",
+      "size_bytes": 13048707,
+      "telegram_date": "2025-08-11T15:51:58+00:00",
+      "title": "2026 지구과학 1 이신혁 모의고사 시즌1 8회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9689.png",
+      "sha256": "a5ca715c00cba695500f9bef73a60cb7905227b2ab81d61f5c1a74292f43c2f4"
     }
   ],
   "duplicate_message_ids": [
