@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 25347,
+      "filename": "김승모 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25347_.8.pdf",
+      "size_bytes": 19572020,
+      "telegram_date": "2026-10-11T16:25:10+00:00",
+      "title": "국어 김승리 실전 모의고사 8회 #김승모",
+      "year": "2027",
+      "instructor": "김승리",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25347.png",
+      "sha256": "c8d3e5f83f637a919bd21d368a051d7c7b79fed84ea2d673b16de645b0131d15"
+    },
+    {
       "message_id": 25332,
       "filename": "김승모_7회+화작_폰스캔.pdf",
       "stored_as": null,
