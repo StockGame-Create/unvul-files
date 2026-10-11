@@ -131991,6 +131991,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9801.png",
       "sha256": "0275f50acdfe52c4d3293f52aa6eb8eaf2c255a770363441a8fe119f9db5c854"
+    },
+    {
+      "message_id": 9800,
+      "filename": "단_하나의_언매_03_데일리_학습_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9800_._._._03_._._.pdf",
+      "size_bytes": 231353506,
+      "telegram_date": "2025-08-11T15:52:11+00:00",
+      "title": "단_하나의_언매_03_데일리_학습_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9800.png",
+      "sha256": "b72fd550b15966f3707080d075456fffab42c2b6971e895a4d5bb9d5e7116e9f"
     }
   ],
   "duplicate_message_ids": [
