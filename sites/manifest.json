@@ -132257,6 +132257,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9768.png",
       "sha256": "8baf2de86efb4d1089b3f4a51879163bdfef858ef0d1f4b26e59fe189726e024"
+    },
+    {
+      "message_id": 9767,
+      "filename": "2026학년도_대성_더_콘스탄트_12회_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9767_2026._._._._12._.pdf",
+      "size_bytes": 1627229,
+      "telegram_date": "2025-08-11T15:52:03+00:00",
+      "title": "2026학년도_대성_더_콘스탄트_12회_문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9767.png",
+      "sha256": "dfbb143252f032e2a128b62cdf6c77b31e43d3e95743602e039ea8d966f68969"
     }
   ],
   "duplicate_message_ids": [
