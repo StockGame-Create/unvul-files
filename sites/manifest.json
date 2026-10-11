@@ -130829,6 +130829,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9888.png",
       "sha256": "579596e1a285919273be337b367585db0ac725699b38654b3a49441243dfcdc5"
+    },
+    {
+      "message_id": 9887,
+      "filename": "2025_시대인재_브릿지_8회_생윤.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9887_2025_._._8._.pdf",
+      "size_bytes": 13595240,
+      "telegram_date": "2025-08-11T15:52:35+00:00",
+      "title": "2025_시대인재_브릿지_8회_생윤",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9887.png",
+      "sha256": "2fe0726bf72d6d7d1ce0777e55c84ba5eedaab94bda62065f9b5e67c5fc199ab"
     }
   ],
   "duplicate_message_ids": [
