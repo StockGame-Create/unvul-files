@@ -155,6 +155,20 @@
       "sha256": "c1f445a9ed25ad8f44d6c1d4238c1e76728931f6665e5a320c0e1d401590debf"
     },
     {
+      "message_id": 25288,
+      "filename": "빠답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25288_.pdf",
+      "size_bytes": 1242599,
+      "telegram_date": "2026-10-11T02:27:58+00:00",
+      "title": "지1 시대인재 서바이벌 전국 모의고사 14회 #서바전국",
+      "year": "2027",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25288.png",
+      "sha256": "971fdb80caf753a79f34bfb2a2728411f3af6f0bb933757e9a4246e5364cb121"
+    },
+    {
       "message_id": 25280,
       "filename": "문학 진또배기 편집본.pdf",
       "stored_as": null,
