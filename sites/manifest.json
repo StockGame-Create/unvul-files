@@ -131011,6 +131011,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9873.png",
       "sha256": "ee3b538634c9f749141dec6af563665a48c35636aa265eda376e23fd0760c8c6"
+    },
+    {
+      "message_id": 9871,
+      "filename": "지구 기출픽.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9871_.pdf",
+      "size_bytes": 107158663,
+      "telegram_date": "2025-08-11T15:52:18+00:00",
+      "title": "지구 기출픽",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9871.png",
+      "sha256": "459679299dea87c87e50c46aab17ccf4504670949aa6a24da4704a5da6f424d0"
     }
   ],
   "duplicate_message_ids": [
