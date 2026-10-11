@@ -132145,6 +132145,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9788.png",
       "sha256": "4fd183944ee1b8ab48a2ddcddbf84eeaa719ecac065fbca6d972d82d94390697"
+    },
+    {
+      "message_id": 9787,
+      "filename": "2025_수학Ⅰ대수_10수학적귀납법level_0,1,2_sample.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9787_2025_._10.level_0.1.2_sample.pdf",
+      "size_bytes": 1070003,
+      "telegram_date": "2025-08-11T15:52:10+00:00",
+      "title": "2025_수학Ⅰ대수_10수학적귀납법level_0,1,2_sample",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9787.png",
+      "sha256": "ce49fcebb66c5a23006ef66710b6d2cfb0ae4622034f2eb5017b8e6f56292d66"
     }
   ],
   "duplicate_message_ids": [
