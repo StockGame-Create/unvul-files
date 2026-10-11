@@ -133699,6 +133699,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9619.png",
       "sha256": "5a09cc0cb3ef6e41ec118f0a9764790e43b33fb13bdd5d43864b02a6739cf742"
+    },
+    {
+      "message_id": 9614,
+      "filename": "26 BRIDGE 3회차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9614_26.BRIDGE.3.pdf",
+      "size_bytes": 6720562,
+      "telegram_date": "2025-08-11T15:51:53+00:00",
+      "title": "26 BRIDGE 3회차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9614.png",
+      "sha256": "057412b74514678f48249c367d5fa3a4c0a225519d3782d3df0a67811400f84e"
     }
   ],
   "duplicate_message_ids": [
