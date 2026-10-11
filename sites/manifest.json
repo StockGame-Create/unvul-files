@@ -132677,6 +132677,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9716.png",
       "sha256": "971d28f604777330d0eec3bd4442908f494903d0446a8c9103e03e8dc3484cc7"
+    },
+    {
+      "message_id": 9715,
+      "filename": "2026 지구과학 1 이신혁 필기노트 4주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9715_2026.1.4.pdf",
+      "size_bytes": 51766752,
+      "telegram_date": "2025-08-11T15:52:00+00:00",
+      "title": "2026 지구과학 1 이신혁 필기노트 4주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9715.png",
+      "sha256": "1131618c413e36296c146a3d8eeca7929926489584ca610f431ac7b8b58f046d"
     }
   ],
   "duplicate_message_ids": [
