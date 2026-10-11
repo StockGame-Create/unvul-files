@@ -133377,6 +133377,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9646.png",
       "sha256": "e8551a7e0a3f9355011204ce60a266bd5b0fa76003437d3ff319d909b41b17a9"
+    },
+    {
+      "message_id": 9644,
+      "filename": "사화·문화.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9644_.pdf",
+      "size_bytes": 229835176,
+      "telegram_date": "2025-08-11T15:51:55+00:00",
+      "title": "사화·문화",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9644.png",
+      "sha256": "88d610dedbd37388ba8f1f57311555009fbb7f9449fbede52fdc68cca3edcdd1"
     }
   ],
   "duplicate_message_ids": [
