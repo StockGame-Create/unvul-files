@@ -169,6 +169,20 @@
       "sha256": "971fdb80caf753a79f34bfb2a2728411f3af6f0bb933757e9a4246e5364cb121"
     },
     {
+      "message_id": 25286,
+      "filename": "12회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25286_12.pdf",
+      "size_bytes": 15179346,
+      "telegram_date": "2026-10-11T02:27:57+00:00",
+      "title": "생1 인간실격 모의고사P 12회",
+      "year": "2027",
+      "instructor": "정석준",
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/25286.png",
+      "sha256": "9d42c27cf9a5d2ac094d2e502a6d23b079e8fd3d65aecbac1da7794e260857d0"
+    },
+    {
       "message_id": 25280,
       "filename": "문학 진또배기 편집본.pdf",
       "stored_as": null,
