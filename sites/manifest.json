@@ -132691,6 +132691,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9715.png",
       "sha256": "1131618c413e36296c146a3d8eeca7929926489584ca610f431ac7b8b58f046d"
+    },
+    {
+      "message_id": 9714,
+      "filename": "2026_지구과학_1_이신혁_칼레이도스코프_기출_유체편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9714_2026_._1_._._._.pdf",
+      "size_bytes": 147142578,
+      "telegram_date": "2025-08-11T15:52:00+00:00",
+      "title": "2026_지구과학_1_이신혁_칼레이도스코프_기출_유체편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9714.png",
+      "sha256": "c62314e54d586a40e68ea4ae3a447953119a8c8eb0c3590b6bebaee9ffde0f2b"
     }
   ],
   "duplicate_message_ids": [
