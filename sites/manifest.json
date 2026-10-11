@@ -131053,6 +131053,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9869.png",
       "sha256": "45e7c845944d9a8ffbeada2cefe658b1e7324b8dba59a2ee08de047a185a000d"
+    },
+    {
+      "message_id": 9868,
+      "filename": "2026_규토_라이트_N제_미적분_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9868_2026_._._N._._.pdf",
+      "size_bytes": 46491092,
+      "telegram_date": "2025-08-11T15:52:17+00:00",
+      "title": "샤인미 n제 수2는 없냐?",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9868.png",
+      "sha256": "e8f2816034935bbddd15a790d452dc4f1997c93353db53277cd7f95355c5e4cf"
     }
   ],
   "duplicate_message_ids": [
