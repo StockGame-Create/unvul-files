@@ -132957,6 +132957,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9707.png",
       "sha256": "855468ee06a406995655dabfdbc1a3d3c8a9fae58570198ba39b282116ed90af"
+    },
+    {
+      "message_id": 9703,
+      "filename": "2026 지구과학 1 이신혁 아폴로 12주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9703_2026.1.12.pdf",
+      "size_bytes": 31684595,
+      "telegram_date": "2025-08-11T15:51:59+00:00",
+      "title": "2026 지구과학 1 이신혁 아폴로 12주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9703.png",
+      "sha256": "694ddfe41d59cfc6013e99501582440e3b8ad2642feec5c57352ed4e96458c74"
     }
   ],
   "duplicate_message_ids": [
