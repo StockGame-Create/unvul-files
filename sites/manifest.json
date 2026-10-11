@@ -130675,6 +130675,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9910.png",
       "sha256": "b91686614da84eb933fc1e5b313bad66c3254e5510f2b099077c4ba3f261a1af"
+    },
+    {
+      "message_id": 9908,
+      "filename": "2023 배기범 3순환 물리학2 2ND.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9908_2023.3.2.2ND.pdf",
+      "size_bytes": 87301273,
+      "telegram_date": "2025-08-11T15:53:03+00:00",
+      "title": "2023 배기범 3순환 물리학2 2ND",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9908.png",
+      "sha256": "4a4a11917966310d6403698300dcc6d56e092d0c537282200afa5612ca5eb160"
     }
   ],
   "duplicate_message_ids": [
