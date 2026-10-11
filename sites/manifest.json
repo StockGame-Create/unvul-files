@@ -132019,6 +132019,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9799.png",
       "sha256": "e67ba2e594663956e82a99ae3eab4e39d174da617746062e8c9443b38e985bf8"
+    },
+    {
+      "message_id": 9798,
+      "filename": "단_하나의_언매_02_빈출:고난도_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9798_._._._02_._.pdf",
+      "size_bytes": 91272443,
+      "telegram_date": "2025-08-11T15:52:11+00:00",
+      "title": "단_하나의_언매_02_빈출:고난도_문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9798.png",
+      "sha256": "a75cd81c49022efaa3bf68fe8d268514b784f45740275375c8bf2ffcbc7b023c"
     }
   ],
   "duplicate_message_ids": [
