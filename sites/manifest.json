@@ -132159,6 +132159,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9787.png",
       "sha256": "ce49fcebb66c5a23006ef66710b6d2cfb0ae4622034f2eb5017b8e6f56292d66"
+    },
+    {
+      "message_id": 9786,
+      "filename": "2023_정훈구_화학2_정답_개념완성.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9786_2023_._.2_._.pdf",
+      "size_bytes": 430873148,
+      "telegram_date": "2025-08-11T15:52:10+00:00",
+      "title": "2023_정훈구_화학2_정답_개념완성",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9786.png",
+      "sha256": "41b6884500fe2d94e58d90e482ccac27baf2fbaf209c24dce58e9e53f4707b25"
     }
   ],
   "duplicate_message_ids": [
