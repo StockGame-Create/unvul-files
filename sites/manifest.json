@@ -132229,6 +132229,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9771.png",
       "sha256": "0fabcbc2f499295153f0064a7cea7d9d9463a11dafdab25a9903bea05382e18d"
+    },
+    {
+      "message_id": 9770,
+      "filename": "2026 설레임 N제 수학1,2 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9770_2026.N.1.2.pdf",
+      "size_bytes": 200567235,
+      "telegram_date": "2025-08-11T15:52:03+00:00",
+      "title": "2026 설레임 N제 수학1,2 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9770.png",
+      "sha256": "f557bb3e6c3ba88e8697365709186c6bfa8896c4c281123401dd8773ce740965"
     }
   ],
   "duplicate_message_ids": [
