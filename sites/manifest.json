@@ -71,6 +71,20 @@
       "sha256": "d80161aec5f398bbd1c6a1f760510f777a0ce0522d5da20bfb010f5b1b6a5315"
     },
     {
+      "message_id": 25300,
+      "filename": "오메가 블랙 사문 13회 + 정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25300_.13.%2B.pdf",
+      "size_bytes": 19089384,
+      "telegram_date": "2026-10-11T02:28:09+00:00",
+      "title": "사문 OMEGA black 모의고사 13회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25300.png",
+      "sha256": "e803dd1841a86d0be457495d6d93955d343eb0695a6e6f6781f2648abecaae59"
+    },
+    {
       "message_id": 25280,
       "filename": "문학 진또배기 편집본.pdf",
       "stored_as": null,
