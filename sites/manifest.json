@@ -132299,6 +132299,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9753.png",
       "sha256": "11e0502f031e2a5afc0c9e4312211728f07ad459b0ed9e6adbd937fbb3497bf1"
+    },
+    {
+      "message_id": 9751,
+      "filename": "2026_김현우_스탠다드_모의고사_01회_빠답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9751_2026_._._._01._.pdf",
+      "size_bytes": 64042,
+      "telegram_date": "2025-08-11T15:52:02+00:00",
+      "title": "2026_김현우_스탠다드_모의고사_01회_빠답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9751.png",
+      "sha256": "e29e5b9fe46a438075fedaa3cf07c5fc2879921ad268f2a0a730782f78dc8a33"
     }
   ],
   "duplicate_message_ids": [
