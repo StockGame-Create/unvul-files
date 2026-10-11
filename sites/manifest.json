@@ -131711,6 +131711,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9833.png",
       "sha256": "b5cc5c9394c5155ece4200175969cbf4b95dc8786a3beb326ad1a0444344bc6f"
+    },
+    {
+      "message_id": 9832,
+      "filename": "2026_물1_시대인재_브릿지_전국_모의_4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9832_2026_.1_._._._._4.pdf",
+      "size_bytes": 22920986,
+      "telegram_date": "2025-08-11T15:52:13+00:00",
+      "title": "2026_물1_시대인재_브릿지_전국_모의_4회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9832.png",
+      "sha256": "00756d6618e4937910bd2ae676fe886303afc65c408e211d59dc8e5a290a1d59"
     }
   ],
   "duplicate_message_ids": [
