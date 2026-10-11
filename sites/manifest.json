@@ -85,6 +85,20 @@
       "sha256": "b462ffa89dd1baf0efee8095040d43d0161a9c9adbd1832f27056c58328f1d2d"
     },
     {
+      "message_id": 25312,
+      "filename": "2027 orca 지구 해설 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25312_2027.orca.2.pdf",
+      "size_bytes": 20412941,
+      "telegram_date": "2026-10-11T12:09:11+00:00",
+      "title": "지1 Orca 1st drop 2회 모의고사",
+      "year": "2027",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25312.png",
+      "sha256": "0018c67b4c3ffd12dc7b4f3015f960655c8a4a52f780e507195dedffa5d3307a"
+    },
+    {
       "message_id": 25308,
       "filename": "시대6회답.pdf",
       "stored_as": null,
