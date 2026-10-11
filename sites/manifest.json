@@ -127,6 +127,20 @@
       "sha256": "0551b7766e3f1c92e04a4163e5a064e0bff2553a13ee3e28f80ea8665f0f114b"
     },
     {
+      "message_id": 25291,
+      "filename": "서바이벌_C단독_생1_5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25291_._C._.1_5.pdf",
+      "size_bytes": 4819958,
+      "telegram_date": "2026-10-11T02:28:00+00:00",
+      "title": "생1 시대인재 서바이벌 C 단독 모의고사 3~6회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/25291.png",
+      "sha256": "a7402f03450b93575510dba7cba0daafe0ce35ea06b136a8745835059c513830"
+    },
+    {
       "message_id": 25280,
       "filename": "문학 진또배기 편집본.pdf",
       "stored_as": null,
