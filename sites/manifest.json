@@ -133209,6 +133209,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9681.png",
       "sha256": "b21e506e03e43b2175fa180e9194243a19d02e54ddb2a4ea676f1cce1cf8f420"
+    },
+    {
+      "message_id": 9680,
+      "filename": "2026 시대인재 브릿지 8회 화학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9680_2026.8.1.pdf",
+      "size_bytes": 7294205,
+      "telegram_date": "2025-08-11T15:51:57+00:00",
+      "title": "2026 시대인재 브릿지 8회 화학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9680.png",
+      "sha256": "27e28781af53bb04a733a537054975166cf46441cac63f69c3672eaac6a19d5d"
     }
   ],
   "duplicate_message_ids": [
