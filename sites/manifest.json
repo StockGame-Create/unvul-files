@@ -71,6 +71,20 @@
       "sha256": "f73c7ceb1646cb991c5a03a4e533e3369b4c8cc953b4e311a86ddfbb27a162c2"
     },
     {
+      "message_id": 25323,
+      "filename": "전형태_문법_N제_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25323_._._N._.pdf",
+      "size_bytes": 94274987,
+      "telegram_date": "2026-10-11T13:32:44+00:00",
+      "title": "국어 전형태 문법 N제",
+      "year": "2027",
+      "instructor": "전형태",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25323.png",
+      "sha256": "00dbc27955d65a6cb6e39e6fd9ffa23560810e97a9c46f43a7c1c9b16a852004"
+    },
+    {
       "message_id": 25320,
       "filename": "10월서프_국어_전체페이지_왼쪽90도회전.pdf",
       "stored_as": null,
