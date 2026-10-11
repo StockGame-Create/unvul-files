@@ -132187,6 +132187,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9784.png",
       "sha256": "ccaf1b080b8dbcf221c65a1bb8097cd37123dc288b43653b311b454060149114"
+    },
+    {
+      "message_id": 9783,
+      "filename": "Point two Traning 수2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9783_Point.two.Traning.2.pdf",
+      "size_bytes": 46771079,
+      "telegram_date": "2025-08-11T15:52:04+00:00",
+      "title": "Point two Traning 수2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9783.png",
+      "sha256": "046131fb60520e1a552dc37ef5b719863ba4a992c1b6a6f4f2dea7e17ef006d4"
     }
   ],
   "duplicate_message_ids": [
