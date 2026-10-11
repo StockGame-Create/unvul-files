@@ -131557,6 +131557,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9844.png",
       "sha256": "2fac70b59f7dcfc0cc1b977c61d48d44e0fcb9e6bb382b78df7b0b2dc78e00d9"
+    },
+    {
+      "message_id": 9843,
+      "filename": "Word master 수능 2000.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9843_Word.master.2000.pdf",
+      "size_bytes": 108512678,
+      "telegram_date": "2025-08-11T15:52:14+00:00",
+      "title": "이것도 같이 올려주세여",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9843.png",
+      "sha256": "bc75b46ce4fe7115e1399fe33470aab53a1963ec12a4175aaeb864d94ac928c6"
     }
   ],
   "duplicate_message_ids": [
