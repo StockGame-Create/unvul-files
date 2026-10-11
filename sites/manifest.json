@@ -131081,6 +131081,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9867.png",
       "sha256": "4f4dd02f58142e9e0c30310afac437fe8ccf96a097512e89f4497adbddad0094"
+    },
+    {
+      "message_id": 9866,
+      "filename": "언매(개념).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9866_.pdf",
+      "size_bytes": 157234172,
+      "telegram_date": "2025-08-11T15:52:17+00:00",
+      "title": "언매(개념)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9866.png",
+      "sha256": "0afde4f1e6212401aaa515dab4fe6ef0ce38e550241ebc226de94fc0acbd1c86"
     }
   ],
   "duplicate_message_ids": [
