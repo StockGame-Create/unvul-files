@@ -133909,6 +133909,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9597.png",
       "sha256": "bda59b6a176eabf53f2c20d7c2458f808d00089c8bd884c7ff00ea1c2f56d463"
+    },
+    {
+      "message_id": 9596,
+      "filename": "2026_수능특강_독서_과학기술06_파이토크롬_변형문제01.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9596_2026_._._.06_._.01.pdf",
+      "size_bytes": 362868,
+      "telegram_date": "2025-08-11T15:50:56+00:00",
+      "title": "2026_수능특강_독서_과학기술06_파이토크롬_변형문제01",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9596.png",
+      "sha256": "b5bb95366e0dd375cb88fad61d3b88527e5c30e4526e7e4c47f6f8486108c0d8"
     }
   ],
   "duplicate_message_ids": [
