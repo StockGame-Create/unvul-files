@@ -132201,6 +132201,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9783.png",
       "sha256": "046131fb60520e1a552dc37ef5b719863ba4a992c1b6a6f4f2dea7e17ef006d4"
+    },
+    {
+      "message_id": 9776,
+      "filename": "2026 한석원 4의규칙 시즌2 수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9776_2026.4.2.1.pdf",
+      "size_bytes": 36201005,
+      "telegram_date": "2025-08-11T15:52:04+00:00",
+      "title": "2026 한석원 4의규칙 시즌2 수학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9776.png",
+      "sha256": "92681905d824bbf1b66b59f491b5b61f0dd80778b176a302473b4fd145612274"
     }
   ],
   "duplicate_message_ids": [
