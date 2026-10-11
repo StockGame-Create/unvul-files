@@ -133531,6 +133531,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9632.png",
       "sha256": "8e130153ce0ddfd75ddc95811bde5c42571abe7b8e5de1398d284734cdc640e6"
+    },
+    {
+      "message_id": 9631,
+      "filename": "손창빈 주간교재 1-10.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9631_.1-10.pdf",
+      "size_bytes": 29033771,
+      "telegram_date": "2025-08-11T15:51:54+00:00",
+      "title": "손창빈 주간교재 1-10",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9631.png",
+      "sha256": "2d54b018ce6daac606f405e876b067b43d0dfe5ec393e2d9da1dd7d28f75608f"
     }
   ],
   "duplicate_message_ids": [
