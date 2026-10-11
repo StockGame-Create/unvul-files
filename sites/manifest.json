@@ -132495,6 +132495,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9721.png",
       "sha256": "00115ceb5f40d15f2f2c4f9a66b6aecffad9b934b2e03dc4735882e1e9384dd0"
+    },
+    {
+      "message_id": 9720,
+      "filename": "2026 지구과학 1 이신혁 필기노트 5주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9720_2026.1.5.pdf",
+      "size_bytes": 34773593,
+      "telegram_date": "2025-08-11T15:52:00+00:00",
+      "title": "2026 지구과학 1 이신혁 필기노트 5주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9720.png",
+      "sha256": "7a30f9c981ce1ba65392c73a3b49ddec05b53f889e9654fb758d3bb403d58965"
     }
   ],
   "duplicate_message_ids": [
