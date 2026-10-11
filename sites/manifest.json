@@ -131151,6 +131151,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9862.png",
       "sha256": "140b0a306e1418f8d2b59ab93451c51696a4e77f136ae413433c8771c4c8a70a"
+    },
+    {
+      "message_id": 9861,
+      "filename": "강기원T 수1 특강 1주차 주간지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9861_.T.1.1.pdf",
+      "size_bytes": 9120335,
+      "telegram_date": "2025-08-11T15:52:17+00:00",
+      "title": "강기원T 수1 특강 1주차 주간지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9861.png",
+      "sha256": "ec07c3cc2430dd6c814f43280701f79229a44d935316cfc266e48ba108020710"
     }
   ],
   "duplicate_message_ids": [
