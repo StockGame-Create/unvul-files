@@ -131921,6 +131921,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9807.png",
       "sha256": "242175ace0137f3c55cf6000e562c6dc4eff51d9c465f91bb77c7f85c6141474"
+    },
+    {
+      "message_id": 9806,
+      "filename": "2025_수학_강대모의고사_K_미적분_합본_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9806_2025_._._K_._._.pdf",
+      "size_bytes": 323114175,
+      "telegram_date": "2025-08-11T15:52:11+00:00",
+      "title": "2025_수학_강대모의고사_K_미적분_합본_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9806.png",
+      "sha256": "7dd6f95d81bcc60b64a5676c83d80be2bc48ff399891928bf9dd92c68f6e3b96"
     }
   ],
   "duplicate_message_ids": [
