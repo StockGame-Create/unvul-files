@@ -57,6 +57,20 @@
       "sha256": "dabb7f02f3710ba7ddc669a23881a85ed082f4b8ee3fe1c2f744d2eb7138198f"
     },
     {
+      "message_id": 25325,
+      "filename": "킬캠_시즌2_확통만.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25325_._.2_.pdf",
+      "size_bytes": 19513750,
+      "telegram_date": "2026-10-11T13:32:45+00:00",
+      "title": "수학 킬링캠프 시즌2 1~6회차 (확통만) #킬캠",
+      "year": "2027",
+      "instructor": "현우진",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25325.png",
+      "sha256": "f73c7ceb1646cb991c5a03a4e533e3369b4c8cc953b4e311a86ddfbb27a162c2"
+    },
+    {
       "message_id": 25320,
       "filename": "10월서프_국어_전체페이지_왼쪽90도회전.pdf",
       "stored_as": null,
