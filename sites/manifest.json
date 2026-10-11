@@ -130997,6 +130997,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9874.png",
       "sha256": "352655e01646451a52207f98f88539f7a7ead0edd3ce781ddd517f2c48d890f4"
+    },
+    {
+      "message_id": 9873,
+      "filename": "2025_랑데뷰실모_수학_series5.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9873_2025_._._series5.pdf",
+      "size_bytes": 945778,
+      "telegram_date": "2025-08-11T15:52:18+00:00",
+      "title": "2025_랑데뷰실모_수학_series5",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9873.png",
+      "sha256": "ee3b538634c9f749141dec6af563665a48c35636aa265eda376e23fd0760c8c6"
     }
   ],
   "duplicate_message_ids": [
