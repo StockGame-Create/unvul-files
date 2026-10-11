@@ -131851,6 +131851,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9820.png",
       "sha256": "16e894998bc6f6da4cfd61fe491e1b5b84a2ef241fe51674adab12ec3f7c33fe"
+    },
+    {
+      "message_id": 9813,
+      "filename": "2026 김준 CODE NO.2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9813_2026.CODE.NO.2.pdf",
+      "size_bytes": 95763884,
+      "telegram_date": "2025-08-11T15:52:12+00:00",
+      "title": "2026 김준 CODE NO.2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9813.png",
+      "sha256": "abf4c3f2b2cec6c12c7edfa42f865e7ddba527dc2a5b17191d6c0c77835b62c5"
     }
   ],
   "duplicate_message_ids": [
