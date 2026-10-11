@@ -133881,6 +133881,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9601.png",
       "sha256": "2dbe2635657fe17c21e2e8e7ef965590de8dbebe236bae638d5f6f8fa719a568"
+    },
+    {
+      "message_id": 9598,
+      "filename": "2026_수능특강_독서_사회문화06_소득_불평등과_변형문제01.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9598_2026_._._.06_._._.01.pdf",
+      "size_bytes": 340545,
+      "telegram_date": "2025-08-11T15:50:56+00:00",
+      "title": "2026_수능특강_독서_사회문화06_소득_불평등과_변형문제01",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9598.png",
+      "sha256": "8db8086b2b5019421c9f761da809e5616e4daf2284119d3e52d527e0cf083a28"
     }
   ],
   "duplicate_message_ids": [
