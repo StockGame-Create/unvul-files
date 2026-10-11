@@ -133517,6 +133517,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9635.png",
       "sha256": "1e8de8daf7cf90edccc9595ae1fae08cca4e7d77158b12fa00811c5872392c44"
+    },
+    {
+      "message_id": 9632,
+      "filename": "문학개념_매뉴얼_268S_250120.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9632_._._268S_250120.pdf",
+      "size_bytes": 226180289,
+      "telegram_date": "2025-08-11T15:51:54+00:00",
+      "title": "문학개념_매뉴얼_268S_250120",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9632.png",
+      "sha256": "8e130153ce0ddfd75ddc95811bde5c42571abe7b8e5de1398d284734cdc640e6"
     }
   ],
   "duplicate_message_ids": [
