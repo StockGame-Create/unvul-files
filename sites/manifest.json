@@ -133867,6 +133867,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9602.png",
       "sha256": "ac47673b30f5911d01c95be72380fd3f9e4e15c04a38b82e991ed0b203e0f1d5"
+    },
+    {
+      "message_id": 9601,
+      "filename": "이신혁 모고 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9601_.3.pdf",
+      "size_bytes": 13591930,
+      "telegram_date": "2025-08-11T15:50:56+00:00",
+      "title": "이신혁 모고 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9601.png",
+      "sha256": "2dbe2635657fe17c21e2e8e7ef965590de8dbebe236bae638d5f6f8fa719a568"
     }
   ],
   "duplicate_message_ids": [
