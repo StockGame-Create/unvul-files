@@ -133979,6 +133979,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9592.png",
       "sha256": "9858ac77c965eb6f097b3dbb4367ab20fc3bd0f4bd7676056de5535a9a618633"
+    },
+    {
+      "message_id": 9591,
+      "filename": "t1m 1주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9591_t1m.1.pdf",
+      "size_bytes": 34763699,
+      "telegram_date": "2025-08-11T15:50:56+00:00",
+      "title": "t1m 1주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9591.png",
+      "sha256": "8fa276dab2e6a691be2f99dab6244983ba2d7c31cdf0e628325169843b95839f"
     }
   ],
   "duplicate_message_ids": [
