@@ -133167,6 +133167,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9684.png",
       "sha256": "9bea0b0c231ea90a14d10b1e5b034139a3c5a2937c76105b0de49c9b27da11e3"
+    },
+    {
+      "message_id": 9683,
+      "filename": "2026 시대인재 브릿지 화학1 전국 모의고사 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9683_2026.1.7.pdf",
+      "size_bytes": 9120117,
+      "telegram_date": "2025-08-11T15:51:57+00:00",
+      "title": "2026 시대인재 브릿지 화학1 전국 모의고사 7회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9683.png",
+      "sha256": "a269108c75f2b9c0e7293f9b7fd0cce3857da72bab1e3496053bad5f6bc04c91"
     }
   ],
   "duplicate_message_ids": [
