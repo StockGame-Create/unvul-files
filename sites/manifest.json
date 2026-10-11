@@ -130773,6 +130773,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9896.png",
       "sha256": "ff3129b51632be024a9b8f1bb823ef7cba99f08d24d215b19820bbe2af0641c1"
+    },
+    {
+      "message_id": 9891,
+      "filename": "서바이벌_합본_한국지리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9891_._._.pdf",
+      "size_bytes": 116120925,
+      "telegram_date": "2025-08-11T15:52:36+00:00",
+      "title": "서바이벌_합본_한국지리",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9891.png",
+      "sha256": "ee082845fac4d88c53860bd2ee582829a4ac8d18734ebcbcb29d85955ae45a55"
     }
   ],
   "duplicate_message_ids": [
