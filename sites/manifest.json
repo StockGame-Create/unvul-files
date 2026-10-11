@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 25332,
+      "filename": "김승모_7회+화작_폰스캔.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25332_._7.%2B._.pdf",
+      "size_bytes": 9335487,
+      "telegram_date": "2026-10-11T13:32:54+00:00",
+      "title": "국어 김승리 실전 모의고사 7회 #김승모",
+      "year": "2027",
+      "instructor": "김승리",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25332.png",
+      "sha256": "c823310bc10f72e267177de3e9091db9ec4b2a26863d213b127b5e1cdca836fc"
+    },
+    {
       "message_id": 25320,
       "filename": "10월서프_국어_전체페이지_왼쪽90도회전.pdf",
       "stored_as": null,
