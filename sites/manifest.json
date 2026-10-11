@@ -131907,6 +131907,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9808.png",
       "sha256": "7dd09981311085a87fced8f233263190c0d686931598ab0d7e131a063bdeb63b"
+    },
+    {
+      "message_id": 9807,
+      "filename": "25년도 32회분 강k .pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9807_25.32.k.pdf",
+      "size_bytes": 358536803,
+      "telegram_date": "2025-08-11T15:52:11+00:00",
+      "title": "25년도 32회분 강k ",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9807.png",
+      "sha256": "242175ace0137f3c55cf6000e562c6dc4eff51d9c465f91bb77c7f85c6141474"
     }
   ],
   "duplicate_message_ids": [
