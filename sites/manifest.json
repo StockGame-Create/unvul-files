@@ -133279,6 +133279,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9665.png",
       "sha256": "4f91abfeac7b86f978724da36cd7edea75d77f001ca75bf01ab9c942a57a6a2f"
+    },
+    {
+      "message_id": 9662,
+      "filename": "2026 시대인재 서바이벌 전국 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9662_2026.1.pdf",
+      "size_bytes": 6725251,
+      "telegram_date": "2025-08-11T15:51:56+00:00",
+      "title": "2026 시대인재 서바이벌 전국 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9662.png",
+      "sha256": "6600fe686716934345caf526638e05fea2a32d13b5c3810cc47e0ce1e2831fd0"
     }
   ],
   "duplicate_message_ids": [
