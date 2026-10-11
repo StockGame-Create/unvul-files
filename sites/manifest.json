@@ -131515,6 +131515,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9847.png",
       "sha256": "bc6ba89335db822cc39b6116a591c4e366e0362dad49477d02dacc855fd72c13"
+    },
+    {
+      "message_id": 9846,
+      "filename": "[수학1 Step1 특강] 5주차 복습테스트 해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9846_.1.Step1.5.pdf",
+      "size_bytes": 1302765,
+      "telegram_date": "2025-08-11T15:52:14+00:00",
+      "title": "[수학1 Step1 특강] 5주차 복습테스트 해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9846.png",
+      "sha256": "b0381d72a8746f257243c1d8f37a7f264ffcb85205310ff5c74bb6ca8f2c5a6a"
     }
   ],
   "duplicate_message_ids": [
