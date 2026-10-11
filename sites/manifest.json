@@ -131431,6 +131431,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9856.png",
       "sha256": "6df0dec2e65fe3333c12d1f08411c253b8cd26d4d7c9b515411eb2a8c658e4d1"
+    },
+    {
+      "message_id": 9855,
+      "filename": "2026_물리학1_브릿지_전국_7회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9855_2026_.1_._._7._.pdf",
+      "size_bytes": 7691243,
+      "telegram_date": "2025-08-11T15:52:17+00:00",
+      "title": "2026_물리학1_브릿지_전국_7회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9855.png",
+      "sha256": "5c1d046ca81e23a21fa78fb33e2e4cdefc7676d0163c760519da3d254badf44e"
     }
   ],
   "duplicate_message_ids": [
