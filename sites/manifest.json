@@ -130969,6 +130969,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9876.png",
       "sha256": "370553f528d9e110ff1ee6ff18bb428f538495025b9ae314d02f1b343f386fc1"
+    },
+    {
+      "message_id": 9875,
+      "filename": "26 생윤 브릿지 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9875_26.8.pdf",
+      "size_bytes": 1269982,
+      "telegram_date": "2025-08-11T15:52:18+00:00",
+      "title": "26 생윤 브릿지 8회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9875.png",
+      "sha256": "df08e5fd5c2c54983584c2e74666966761ac2baaeb60cc57c81a4dec291bf3a7"
     }
   ],
   "duplicate_message_ids": [
