@@ -130731,6 +130731,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9899.png",
       "sha256": "9c4c5a473ce72ba2a6b7149d9b0eebd8ac5600803fb9655b80df4ebccee6b965"
+    },
+    {
+      "message_id": 9898,
+      "filename": "스키마_레벨1_1회_문제+해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9898_._.1_1._.%2B.pdf",
+      "size_bytes": 27391653,
+      "telegram_date": "2025-08-11T15:53:02+00:00",
+      "title": "스키마_레벨1_1회_문제+해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9898.png",
+      "sha256": "88e3c5d36e81cb1518b763ba62e10e41a71242562755f30b985de4a6d8b6f0f2"
     }
   ],
   "duplicate_message_ids": [
