@@ -132313,6 +132313,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9751.png",
       "sha256": "e29e5b9fe46a438075fedaa3cf07c5fc2879921ad268f2a0a730782f78dc8a33"
+    },
+    {
+      "message_id": 9743,
+      "filename": "2025 서바이벌 사문 합본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9743_2025.pdf",
+      "size_bytes": 26071177,
+      "telegram_date": "2025-08-11T15:52:01+00:00",
+      "title": "2025 서바이벌 사문 합본",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9743.png",
+      "sha256": "6d36e026b668ae64c6c3aba7dfa872b89509706f0656a438452a5489d6180920"
     }
   ],
   "duplicate_message_ids": [
