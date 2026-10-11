@@ -132327,6 +132327,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9743.png",
       "sha256": "6d36e026b668ae64c6c3aba7dfa872b89509706f0656a438452a5489d6180920"
+    },
+    {
+      "message_id": 9742,
+      "filename": "박종민_6평대비_모의_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9742_._6._._.pdf",
+      "size_bytes": 15647227,
+      "telegram_date": "2025-08-11T15:52:01+00:00",
+      "title": "박종민_6평대비_모의_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9742.png",
+      "sha256": "ec5a6136ed4025e663c249b8ea658a4c847a7ae882f0d7c07b7e247cebe80635"
     }
   ],
   "duplicate_message_ids": [
