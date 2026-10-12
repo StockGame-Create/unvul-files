@@ -134945,6 +134945,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9501.png",
       "sha256": "1f1c76059db02e61142e577c7611919723a661e61aee832f3914ed5ddf7b4ec0"
+    },
+    {
+      "message_id": 9500,
+      "filename": "2026 CIRCUIT 20회차 손필기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9500_2026.CIRCUIT.20.pdf",
+      "size_bytes": 4326563,
+      "telegram_date": "2025-08-11T15:50:44+00:00",
+      "title": "2026 CIRCUIT 20회차 손필기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9500.png",
+      "sha256": "3b45d88dc6fd6f6674b79328fd99441a99b595a906f8febdc875927dc044a132"
     }
   ],
   "duplicate_message_ids": [
