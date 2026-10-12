@@ -137115,6 +137115,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9297.png",
       "sha256": "f0a66621adf0323b90f81498a215d268c7593b1e8c0f5973494c5dfaf3cf9739"
+    },
+    {
+      "message_id": 9293,
+      "filename": "2026 상크스 스킬편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9293_2026.pdf",
+      "size_bytes": 47083841,
+      "telegram_date": "2025-08-11T15:49:18+00:00",
+      "title": "2026 상크스 스킬편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9293.png",
+      "sha256": "e8488708f444535b71737d0010a1d358a7d976f1ac77c14fcf351d65b2ce6203"
     }
   ],
   "duplicate_message_ids": [
