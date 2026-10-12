@@ -134147,6 +134147,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9580.png",
       "sha256": "6a21fa8d9d949fb2d30c9eaec2982ad3fd2fe906f1a839d937412e288ba09832"
+    },
+    {
+      "message_id": 9579,
+      "filename": "킥오프 확통.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9579_.pdf",
+      "size_bytes": 91833264,
+      "telegram_date": "2025-08-11T15:50:55+00:00",
+      "title": "킥오프 확통",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9579.png",
+      "sha256": "de430171d79ea3e3de510f790d476116707b713e73e1fd407f0f974cddc1643c"
     }
   ],
   "duplicate_message_ids": [
