@@ -134931,6 +134931,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9503.png",
       "sha256": "a3f91d00688715a81184badeb7466638c55724e9e54de6f5061c8b147406c46b"
+    },
+    {
+      "message_id": 9501,
+      "filename": "또선생 manual 빈칸 4_250613_020713 (3).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9501_.manual.4_250613_020713.3.pdf",
+      "size_bytes": 51707526,
+      "telegram_date": "2025-08-11T15:50:44+00:00",
+      "title": "또선생 manual 빈칸 4_250613_020713 (3)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9501.png",
+      "sha256": "1f1c76059db02e61142e577c7611919723a661e61aee832f3914ed5ddf7b4ec0"
     }
   ],
   "duplicate_message_ids": [
