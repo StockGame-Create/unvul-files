@@ -136653,6 +136653,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9370.png",
       "sha256": "5cc42807e7d30c58f75f62b245a8a1c357acb645f550d5326cde9cb17f3c8635"
+    },
+    {
+      "message_id": 9369,
+      "filename": "2026 수능완성 원본 화학 I.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9369_2026.I.pdf",
+      "size_bytes": 6714701,
+      "telegram_date": "2025-08-11T15:49:28+00:00",
+      "title": "2026 수능완성 원본 화학 I",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9369.png",
+      "sha256": "600df61ab31b4b37cd8cbf05c883110c78b67b1d1b3fa6de14de87ea5595e1e0"
     }
   ],
   "duplicate_message_ids": [
