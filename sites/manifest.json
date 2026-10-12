@@ -137185,6 +137185,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9281.png",
       "sha256": "1ed43b7263b49aa1b4ffc2b35eb71ccce696a8f62a46e4c8e0b827f951c7f2ef"
+    },
+    {
+      "message_id": 9280,
+      "filename": "서킷 15회_손해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9280_.15._.pdf",
+      "size_bytes": 3916339,
+      "telegram_date": "2025-08-11T15:49:17+00:00",
+      "title": "서킷 15회_손해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9280.png",
+      "sha256": "b8f495a3adb0bf020b14341a529dd49c6b95681a3b9b0c800bb6aaf438fd5537"
     }
   ],
   "duplicate_message_ids": [
