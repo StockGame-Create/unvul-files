@@ -135799,6 +135799,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9417.png",
       "sha256": "1f69c1865674563c68a30cfa4ecc5eb7914e0aa8aa3d56757c7a4a7352bdb646"
+    },
+    {
+      "message_id": 9414,
+      "filename": "2026_6월_평가원_지1_문항_해설_및_심층_분석_최종.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9414_2026_6._._.1_._._._._._.pdf",
+      "size_bytes": 4917233,
+      "telegram_date": "2025-08-11T15:49:33+00:00",
+      "title": "2026_6월_평가원_지1_문항_해설_및_심층_분석_최종",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9414.png",
+      "sha256": "c9a88a90cf9a06634134305ad92abec417ddae4b169396233be8ec51c34a7a85"
     }
   ],
   "duplicate_message_ids": [
