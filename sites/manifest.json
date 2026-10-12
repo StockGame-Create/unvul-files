@@ -136443,6 +136443,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9385.png",
       "sha256": "09bd783a3f7b44989c2e27a46f089ec4f491f9ecfc6924bd73475bf8bed0527b"
+    },
+    {
+      "message_id": 9384,
+      "filename": "2026학년도_대성_더_콘스탄트_6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9384_2026._._._._6.pdf",
+      "size_bytes": 6946305,
+      "telegram_date": "2025-08-11T15:49:29+00:00",
+      "title": "2026학년도_대성_더_콘스탄트_6회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9384.png",
+      "sha256": "2fc9804d766fc40ad5c3056311e03733647eb5c7997e447ce760c52f84c0c1cc"
     }
   ],
   "duplicate_message_ids": [
