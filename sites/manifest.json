@@ -137381,6 +137381,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9249.png",
       "sha256": "248cf4ea28747333dcc569454ede084397e12790a18096686eb957ef7ec236a1"
+    },
+    {
+      "message_id": 9247,
+      "filename": "2026_인강민철_2호_문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9247_2026_._2._.pdf",
+      "size_bytes": 159724017,
+      "telegram_date": "2025-08-11T15:49:14+00:00",
+      "title": "2026_인강민철_2호_문제편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9247.png",
+      "sha256": "6348e901bfebda7b82f726b17aedb4ad36241083d6e154975f7e88a032d3825c"
     }
   ],
   "duplicate_message_ids": [
