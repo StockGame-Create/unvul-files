@@ -135141,6 +135141,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9482.png",
       "sha256": "7857ef072a1c07e8fa0024fac13696a124887a36584838cc3bba93b561b9ff10"
+    },
+    {
+      "message_id": 9481,
+      "filename": "2025학년도_정치와_법_파이널_브릿지_전국_모의고사_3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9481_2025._._._._._._._3.pdf",
+      "size_bytes": 49063079,
+      "telegram_date": "2025-08-11T15:50:41+00:00",
+      "title": "2025학년도_정치와_법_파이널_브릿지_전국_모의고사_3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9481.png",
+      "sha256": "168f136e00be309b259c6712864753c2c949bcd7abd4f5c2d3eed2e6c8c99328"
     }
   ],
   "duplicate_message_ids": [
