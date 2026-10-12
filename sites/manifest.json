@@ -137045,6 +137045,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9311.png",
       "sha256": "0f6fec71219592b8ebd18708a4ef7bea45acb5ea192baf9fdb155c534435e34f"
+    },
+    {
+      "message_id": 9309,
+      "filename": "2026 수능완성 원본 세계지리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9309_2026.pdf",
+      "size_bytes": 42816592,
+      "telegram_date": "2025-08-11T15:49:21+00:00",
+      "title": "2026 수능완성 원본 세계지리",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9309.png",
+      "sha256": "4a4cef7cad39394298e7506d6909282c75f7d052fc611f575f053456e2bb82d3"
     }
   ],
   "duplicate_message_ids": [
