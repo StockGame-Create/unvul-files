@@ -135323,6 +135323,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9468.png",
       "sha256": "6e7b840717ff0eb2e50c3192e817b421c0c13962af53e69dbf085c3a894fa309"
+    },
+    {
+      "message_id": 9467,
+      "filename": "주간교재 11주차 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9467_.11.pdf",
+      "size_bytes": 40348413,
+      "telegram_date": "2025-08-11T15:50:40+00:00",
+      "title": "주간교재 11주차 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9467.png",
+      "sha256": "69d6cab8f5b6a8455e96af4f0f72cb7a8cfe36428f5790d4001aedd1e786f913"
     }
   ],
   "duplicate_message_ids": [
