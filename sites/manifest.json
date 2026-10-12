@@ -135253,6 +135253,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9473.png",
       "sha256": "70e913ce0cde47e5afb86d944e9885b78019cacdef74c894c21d25db031f3220"
+    },
+    {
+      "message_id": 9472,
+      "filename": "전국브릿지 8회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9472_.8.pdf",
+      "size_bytes": 11968946,
+      "telegram_date": "2025-08-11T15:50:40+00:00",
+      "title": "전국브릿지 8회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9472.png",
+      "sha256": "c9493af0c3dff287f2299cefca279cd496d735bd9a75e16963492a7f876c54ec"
     }
   ],
   "duplicate_message_ids": [
