@@ -134203,6 +134203,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9576.png",
       "sha256": "0fcd537fb166186feb2da83ae23d94d8aad3a8192877df258dc77ab44fe5d916"
+    },
+    {
+      "message_id": 9575,
+      "filename": "2026 영어 강남대성 Circuit 11회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9575_2026.Circuit.11.pdf",
+      "size_bytes": 365533,
+      "telegram_date": "2025-08-11T15:50:55+00:00",
+      "title": "2026 영어 강남대성 Circuit 11회 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9575.png",
+      "sha256": "e97e0c9a1a821915590ed6ac7d2a31b62d918c818f9e3aedb926419d9a241bfd"
     }
   ],
   "duplicate_message_ids": [
