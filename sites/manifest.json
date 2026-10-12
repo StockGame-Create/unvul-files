@@ -135491,6 +135491,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9449.png",
       "sha256": "e436643f5144f101da35773028d12e8e51037255daf7ad82a061c86782f7ee28"
+    },
+    {
+      "message_id": 9444,
+      "filename": "2026_강민철의_기출_분석_독서_2_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9444_2026_._._._._2_.pdf",
+      "size_bytes": 80116203,
+      "telegram_date": "2025-08-11T15:50:39+00:00",
+      "title": "2026_강민철의_기출_분석_독서_2_문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9444.png",
+      "sha256": "09f8ab473600c1519909f9f489ecdbe9f6da89bbf01e2ac2535a5bb8d10c6f81"
     }
   ],
   "duplicate_message_ids": [
