@@ -183,6 +183,20 @@
       "sha256": "1ba5969882de2dc4bd2916c92df4e1c99a7b874a8e14bf8725d348a165f5381f"
     },
     {
+      "message_id": 25372,
+      "filename": "2027_경제_오메가_6회_답지&N제_좌우분할.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25372_2027_._._6._.N._.pdf",
+      "size_bytes": 25585663,
+      "telegram_date": "2026-10-12T14:29:35+00:00",
+      "title": "경제 OMEGA 모의고사 6회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "경제",
+      "thumbnail": "thumbnails/25372.png",
+      "sha256": "8559f8c11d8343895d4cdb0736cd989c3a3ea9e81c6f4f6e6bc0d550dffc43e3"
+    },
+    {
       "message_id": 25370,
       "filename": "2027학년도_LAST_하프모의고사_1_5회_해설지_통합.pdf",
       "stored_as": null,
