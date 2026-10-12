@@ -136261,6 +136261,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9405.png",
       "sha256": "5abc09875bff86ccbdcbb51917ad4c2fbef22d1933c32d258af05ee67f1cb504"
+    },
+    {
+      "message_id": 9404,
+      "filename": "적중예감 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9404_.6.pdf",
+      "size_bytes": 8562503,
+      "telegram_date": "2025-08-11T15:49:32+00:00",
+      "title": "적중예감 6회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9404.png",
+      "sha256": "60bbdd48ba6926b8c29d90bb8fd2c731fa852188c1acac344ab2b7354b9e671a"
     }
   ],
   "duplicate_message_ids": [
