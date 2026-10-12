@@ -136905,6 +136905,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9327.png",
       "sha256": "157d4be7342f58710d6f88064f83dacf85b9bec7f28ad69af47530459fbd0622"
+    },
+    {
+      "message_id": 9326,
+      "filename": "25_파이널_전국_브릿지_사문_1_15회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9326_25_._._._._1_15._.pdf",
+      "size_bytes": 120808245,
+      "telegram_date": "2025-08-11T15:49:26+00:00",
+      "title": "25_파이널_전국_브릿지_사문_1_15회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9326.png",
+      "sha256": "8e1b61eb04aa64140871eb11fb4b046f5e4c08a09420fa2a23f7bf24ef018589"
     }
   ],
   "duplicate_message_ids": [
