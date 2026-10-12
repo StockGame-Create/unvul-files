@@ -134973,6 +134973,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9499.png",
       "sha256": "e2013b305981e7cb10aceb48c8be1e39c856291b44de23f08f9b7027279432dd"
+    },
+    {
+      "message_id": 9497,
+      "filename": "2026 매월승리 1호 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9497_2026.1.pdf",
+      "size_bytes": 449263,
+      "telegram_date": "2025-08-11T15:50:44+00:00",
+      "title": "2026 매월승리 1호 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9497.png",
+      "sha256": "1873327cbadf37c280991a83a4b1acec90b810db13d55656abae5704643c2e0e"
     }
   ],
   "duplicate_message_ids": [
