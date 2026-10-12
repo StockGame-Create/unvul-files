@@ -134861,6 +134861,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9510.png",
       "sha256": "5132b9b11a391bef18b5a2c76b2e756fbe1ba0b2d4859d9e6391c7ebaed2a44c"
+    },
+    {
+      "message_id": 9509,
+      "filename": "2024 폴라리스 지구과학Ⅱ 모의평가 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9509_2024.1.pdf",
+      "size_bytes": 1857473,
+      "telegram_date": "2025-08-11T15:50:45+00:00",
+      "title": "2024 폴라리스 지구과학Ⅱ 모의평가 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9509.png",
+      "sha256": "05e4763dc5d9af3f0d9059096f0a27629deab408aa7416ae677bb3414379d9a9"
     }
   ],
   "duplicate_message_ids": [
