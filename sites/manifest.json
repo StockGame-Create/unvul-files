@@ -136541,6 +136541,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9378.png",
       "sha256": "316051342ab05bbe691b3172a251ae075828ffd4e812acb401844c50cdd7010e"
+    },
+    {
+      "message_id": 9377,
+      "filename": "2025_수학Ⅰ대수_8등차수열과_등비수열_level_0,1,2_sample.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9377_2025_._8._._level_0.1.2_sample.pdf",
+      "size_bytes": 1380274,
+      "telegram_date": "2025-08-11T15:49:29+00:00",
+      "title": "2025_수학Ⅰ대수_8등차수열과_등비수열_level_0,1,2_sample",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9377.png",
+      "sha256": "f67fe5743cb2d6590d3a08060eb6096c976ecb13608cb083829de3ac3d7ab95b"
     }
   ],
   "duplicate_message_ids": [
