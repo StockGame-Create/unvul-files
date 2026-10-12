@@ -136289,6 +136289,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9402.png",
       "sha256": "de40c2713f6dc54c2fb52e361b5d990aaca2dd9e28e739774c1d9893ca3f795b"
+    },
+    {
+      "message_id": 9398,
+      "filename": "2026_김승리_kbs현대문학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9398_2026_._kbs.pdf",
+      "size_bytes": 633676833,
+      "telegram_date": "2025-08-11T15:49:30+00:00",
+      "title": "2026_김승리_kbs현대문학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9398.png",
+      "sha256": "4a90f51bf50b37d322da529b7d4b9c46dbfedc1401ea6ae20e0001dc610669de"
     }
   ],
   "duplicate_message_ids": [
