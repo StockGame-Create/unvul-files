@@ -57,6 +57,20 @@
       "sha256": "298e782c919e4665f4126fdc2f8eaeba1e01e7db784a08ae4bf792feb1570edb"
     },
     {
+      "message_id": 25387,
+      "filename": "2027 Killing Camp 시즌2 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25387_2027.Killing.Camp.2.3.pdf",
+      "size_bytes": 18204062,
+      "telegram_date": "2026-10-12T14:31:12+00:00",
+      "title": "수학 킬링캠프 시즌2 1~6회차 (인쇄소퀄) #킬캠",
+      "year": "2027",
+      "instructor": "현우진",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25387.png",
+      "sha256": "11782258bb6ef09eaf56d2848b3a792479c2a28ee6a5f0464b4e4faa7bef2e40"
+    },
+    {
       "message_id": 25370,
       "filename": "2027학년도_LAST_하프모의고사_1_5회_해설지_통합.pdf",
       "stored_as": null,
