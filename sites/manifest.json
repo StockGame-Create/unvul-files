@@ -134259,6 +134259,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9572.png",
       "sha256": "6348f130c5300b3c12c6e6c16046330725bc37ca46d12ae525d90bfa99362240"
+    },
+    {
+      "message_id": 9571,
+      "filename": "2026_김현우_스탠다드_수학1_해설_01_3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9571_2026_._._.1_._01_3.pdf",
+      "size_bytes": 3541854,
+      "telegram_date": "2025-08-11T15:50:55+00:00",
+      "title": "2026_김현우_스탠다드_수학1_해설_01_3",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9571.png",
+      "sha256": "b1cc594d9d6e570f3420178ad57c054c92917c5fdf44bfbb0be8951bbcd44bb4"
     }
   ],
   "duplicate_message_ids": [
