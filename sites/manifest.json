@@ -135463,6 +135463,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9453.png",
       "sha256": "e90829c361b26fc7696cd1bd150326a0c02551ee627e981d4fd6e22a6f0e32a6"
+    },
+    {
+      "message_id": 9451,
+      "filename": "전국브릿지 10회 .pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9451_.10.pdf",
+      "size_bytes": 3474531,
+      "telegram_date": "2025-08-11T15:50:39+00:00",
+      "title": "전국브릿지 10회 ",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9451.png",
+      "sha256": "d050f602f83c5236cd90681f899b318d9e57ef233251904c413afbebecd4e6e3"
     }
   ],
   "duplicate_message_ids": [
