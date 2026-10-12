@@ -134791,6 +134791,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9515.png",
       "sha256": "a7a8c5e53954d57064b981b6c1fbbcad4eb5bd3ef844cde9e330f296bd182b1f"
+    },
+    {
+      "message_id": 9514,
+      "filename": "임정환_사문_리얼트레이닝_리트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9514_._._._.pdf",
+      "size_bytes": 35373713,
+      "telegram_date": "2025-08-11T15:50:45+00:00",
+      "title": "임정환_사문_리얼트레이닝_리트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9514.png",
+      "sha256": "a988a45f8ec4384cb4e0a3f061fad1a68667467c006bc5094fd9e8cd1adf118d"
     }
   ],
   "duplicate_message_ids": [
