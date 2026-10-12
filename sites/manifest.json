@@ -134091,6 +134091,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9584.png",
       "sha256": "73083069da90ce287fcb024d21c453695cdee180f81ec4ac33a31fa03981bf41"
+    },
+    {
+      "message_id": 9583,
+      "filename": "2026 김승리 ALL OF KICE 문학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9583_2026.ALL.OF.KICE.pdf",
+      "size_bytes": 58899324,
+      "telegram_date": "2025-08-11T15:50:55+00:00",
+      "title": "2026 김승리 ALL OF KICE 문학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9583.png",
+      "sha256": "5119f46ea9cf6787e1719b3c8383a6c87e4747b7051de65825a61d2e591d1ddb"
     }
   ],
   "duplicate_message_ids": [
