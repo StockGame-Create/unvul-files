@@ -135295,6 +135295,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9470.png",
       "sha256": "2e896004b70bea98282e763f84bbafb502018427f7dc022e509a6f11aed2576a"
+    },
+    {
+      "message_id": 9469,
+      "filename": "전국브릿지 9회 .pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9469_.9.pdf",
+      "size_bytes": 3609638,
+      "telegram_date": "2025-08-11T15:50:40+00:00",
+      "title": "전국브릿지 9회 ",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9469.png",
+      "sha256": "7e9e39d78660f2d053b4e9a97e905ec4155cfac99bf85e3abdd02c945c41f058"
     }
   ],
   "duplicate_message_ids": [
