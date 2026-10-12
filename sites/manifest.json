@@ -137689,6 +137689,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9194.png",
       "sha256": "93d62ae83d397820282cc548740d593448553e58b3855c8c9e1d0c6dfd7618ea"
+    },
+    {
+      "message_id": 9193,
+      "filename": "리밋X 7회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9193_.X.7.pdf",
+      "size_bytes": 8088401,
+      "telegram_date": "2025-08-11T15:48:21+00:00",
+      "title": "리밋X 7회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9193.png",
+      "sha256": "b665330895c375acc2d1d9b1e88126fcb2485b17cd132ef9fbf496676a0f0181"
     }
   ],
   "duplicate_message_ids": [
