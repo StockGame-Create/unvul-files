@@ -15,6 +15,20 @@
       "sha256": "cebcde24e5c9b507c082c130cda68a631e56434babdf6b9263ba66988d625a36"
     },
     {
+      "message_id": 25353,
+      "filename": "TalkFile_2027학년도_시대인재_서바이벌_전국_모의고사_정치와법.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25353_TalkFile_2027._._._._._.pdf",
+      "size_bytes": 3483438,
+      "telegram_date": "2026-10-12T14:29:15+00:00",
+      "title": "정법 시대인재 서바이벌 전국 모의고사 12회 #서바전국",
+      "year": "2027",
+      "instructor": null,
+      "subject": "정치와법",
+      "thumbnail": "thumbnails/25353.png",
+      "sha256": "3e643c7849f76cfaabd65926615099bb1f535ed9fcdf7172244428c703c1e8bf"
+    },
+    {
       "message_id": 25350,
       "filename": "김승리_비연계_실전_모의고사_1회.pdf",
       "stored_as": null,
