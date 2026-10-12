@@ -134273,6 +134273,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9571.png",
       "sha256": "b1cc594d9d6e570f3420178ad57c054c92917c5fdf44bfbb0be8951bbcd44bb4"
+    },
+    {
+      "message_id": 9570,
+      "filename": "2026 이감 모의고사 시즌3 4회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9570_2026.3.4.pdf",
+      "size_bytes": 22595636,
+      "telegram_date": "2025-08-11T15:50:54+00:00",
+      "title": "2026 이감 모의고사 시즌3 4회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9570.png",
+      "sha256": "1cfe8b093c0b0452a702db43ab581521b4bdcfc3e8062b18060bff78b8b60c8c"
     }
   ],
   "duplicate_message_ids": [
