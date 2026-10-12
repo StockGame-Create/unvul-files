@@ -135855,6 +135855,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9411.png",
       "sha256": "a2bafb34cd975c1477ffe8accc560d89bd7df795337ccbfa51bd931f48a87013"
+    },
+    {
+      "message_id": 9410,
+      "filename": "주간교재 8주차 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9410_.8.pdf",
+      "size_bytes": 33802505,
+      "telegram_date": "2025-08-11T15:49:33+00:00",
+      "title": "주간교재 8주차 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9410.png",
+      "sha256": "fc3711dd61e369b1bfe51f6902d9ac3cb12d0053549e49e3573302ced9fc51c1"
     }
   ],
   "duplicate_message_ids": [
