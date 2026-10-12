@@ -137325,6 +137325,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9253.png",
       "sha256": "884ac191af54f916ab7ca102fa90dda5c1f53218012c7157236fbeff1d7729a1"
+    },
+    {
+      "message_id": 9252,
+      "filename": "2026 EBS 수능특강 문학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9252_2026.EBS.pdf",
+      "size_bytes": 13990834,
+      "telegram_date": "2025-08-11T15:49:15+00:00",
+      "title": "2026 EBS 수능특강 문학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9252.png",
+      "sha256": "633cf5e400d88598d0ede4b131a4531630572e3a744fd90aadc0bbd4c06e1aa4"
     }
   ],
   "duplicate_message_ids": [
