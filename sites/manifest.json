@@ -136569,6 +136569,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9376.png",
       "sha256": "2537f36f614b31f44e6ed3d96a2e776ce474d28a9190bc8cb5678872b01e3304"
+    },
+    {
+      "message_id": 9375,
+      "filename": "김승리의_선택_화작.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9375_._._.pdf",
+      "size_bytes": 169234054,
+      "telegram_date": "2025-08-11T15:49:28+00:00",
+      "title": "김승리의_선택_화작",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9375.png",
+      "sha256": "8ed7f749b6147610e9d0985de1ef66556943ec8b394d6f7f1950bc531f6e0eaa"
     }
   ],
   "duplicate_message_ids": [
