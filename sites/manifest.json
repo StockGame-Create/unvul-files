@@ -134287,6 +134287,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9570.png",
       "sha256": "1cfe8b093c0b0452a702db43ab581521b4bdcfc3e8062b18060bff78b8b60c8c"
+    },
+    {
+      "message_id": 9569,
+      "filename": "2026 이감 간쓸개 시즌3 4권 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9569_2026.3.4.pdf",
+      "size_bytes": 55752258,
+      "telegram_date": "2025-08-11T15:50:54+00:00",
+      "title": "2026 이감 간쓸개 시즌3 4권 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9569.png",
+      "sha256": "8495f77866066e088efe2898540652ed476b26a53014af86498255a83a82f446"
     }
   ],
   "duplicate_message_ids": [
