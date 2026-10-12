@@ -135729,6 +135729,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9423.png",
       "sha256": "662e33e117d84ba695046e1d0c066adf58abbe2df566fda0fa35cf089702683a"
+    },
+    {
+      "message_id": 9422,
+      "filename": "26_강철중_리믹스2_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9422_26_._.2_.pdf",
+      "size_bytes": 29404695,
+      "telegram_date": "2025-08-11T15:49:33+00:00",
+      "title": "26_강철중_리믹스2_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9422.png",
+      "sha256": "00624be8b2f97d8e4be6ad607b3993582907d2dc17399cb067c71b878acea916"
     }
   ],
   "duplicate_message_ids": [
