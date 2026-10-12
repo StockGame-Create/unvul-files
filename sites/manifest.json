@@ -137899,6 +137899,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9155.png",
       "sha256": "b34cbd4446f06afea1776008f7b82ce127b90e9c1bb0ed3bc19898872d4ad369"
+    },
+    {
+      "message_id": 9154,
+      "filename": "2026 김기현 KICK OFF 수학2 워크북.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9154_2026.KICK.OFF.2.pdf",
+      "size_bytes": 22580681,
+      "telegram_date": "2025-08-11T15:48:18+00:00",
+      "title": "2026 김기현 KICK OFF 수학2 워크북",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9154.png",
+      "sha256": "e81ec09089cc94feec80bbbf5fe25a8c5fd2885e627c56a6720a24f889331a3f"
     }
   ],
   "duplicate_message_ids": [
