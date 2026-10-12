@@ -136583,6 +136583,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9375.png",
       "sha256": "8ed7f749b6147610e9d0985de1ef66556943ec8b394d6f7f1950bc531f6e0eaa"
+    },
+    {
+      "message_id": 9374,
+      "filename": "2026 수능완성 원본 지구과학 II.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9374_2026.II.pdf",
+      "size_bytes": 19436453,
+      "telegram_date": "2025-08-11T15:49:28+00:00",
+      "title": "2026 수능완성 원본 지구과학 II",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9374.png",
+      "sha256": "3af0d8bffb0a29209b52bd9da58d19bff1acc90be90a7c099756e6adfbdea611"
     }
   ],
   "duplicate_message_ids": [
