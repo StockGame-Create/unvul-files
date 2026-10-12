@@ -29,6 +29,20 @@
       "sha256": "bef02e92af674a25d4da6875dc9ce752f8af5b37ed253d2fe2f01eb6ce098f78"
     },
     {
+      "message_id": 25367,
+      "filename": "서프 10월 경제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25367_.10.pdf",
+      "size_bytes": 5183571,
+      "telegram_date": "2026-10-12T14:29:27+00:00",
+      "title": "경제 시대인재 10월 전국모의평가 #서프",
+      "year": "2027",
+      "instructor": null,
+      "subject": "경제",
+      "thumbnail": "thumbnails/25367.png",
+      "sha256": "89dfdfe6051616327a85264cce0939de71a2a2899ba3283c26740e2ddb19db5a"
+    },
+    {
       "message_id": 25356,
       "filename": "2027+김현우T+파이널+14주차+수업자료.pdf",
       "stored_as": null,
