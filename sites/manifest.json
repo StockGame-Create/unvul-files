@@ -134385,6 +134385,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9554.png",
       "sha256": "4d815f013c289d5c860557f20fc9d1209776e15f266b1366e234be2bf954bcb7"
+    },
+    {
+      "message_id": 9553,
+      "filename": "공군의_정석3차_개정판.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9553_._.3._.pdf",
+      "size_bytes": 3294958,
+      "telegram_date": "2025-08-11T15:50:54+00:00",
+      "title": "공군의_정석3차_개정판",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9553.png",
+      "sha256": "8543610e04c4da568354bc71b85bcf6841144af0389e59eecafc931e0eb10e6c"
     }
   ],
   "duplicate_message_ids": [
