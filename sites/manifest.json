@@ -135239,6 +135239,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9475.png",
       "sha256": "6acd006b9d3daeb1617e0e8d37dc5351bbe6f13a1458ee8af4c01d2b772b5565"
+    },
+    {
+      "message_id": 9473,
+      "filename": "브릿지 9회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9473_.9.pdf",
+      "size_bytes": 6636357,
+      "telegram_date": "2025-08-11T15:50:40+00:00",
+      "title": "브릿지 9회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9473.png",
+      "sha256": "70e913ce0cde47e5afb86d944e9885b78019cacdef74c894c21d25db031f3220"
     }
   ],
   "duplicate_message_ids": [
