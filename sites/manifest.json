@@ -136331,6 +136331,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9393.png",
       "sha256": "25c4630e77bd4444899511c4e244af16b0929cfe859cc7474f0f1a79d6a11d51"
+    },
+    {
+      "message_id": 9392,
+      "filename": "사문 리바 2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9392_.2.pdf",
+      "size_bytes": 101317104,
+      "telegram_date": "2025-08-11T15:49:29+00:00",
+      "title": "사문 리바 2권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9392.png",
+      "sha256": "311aedf13afeedf2a5fa50a05dbc4c7fd50cc420fa0d4df05f2690337ffdaa06"
     }
   ],
   "duplicate_message_ids": [
