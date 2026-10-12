@@ -134511,6 +134511,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9545.png",
       "sha256": "c7f2834b7464fc9e82f42cb60c16d33b8e84e4fa85391fada3ae022e0902ec52"
+    },
+    {
+      "message_id": 9544,
+      "filename": "2025_강대K_국어_2회_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9544_2025_.K_._2._.pdf",
+      "size_bytes": 199944919,
+      "telegram_date": "2025-08-11T15:50:53+00:00",
+      "title": "2025_강대K_국어_2회_문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9544.png",
+      "sha256": "787a490a679980c77023ff32a94e79f47409b23b11efe648f5522a72c38c6763"
     }
   ],
   "duplicate_message_ids": [
