@@ -15,6 +15,20 @@
       "sha256": "3570562308dc1f08fef63922cf90af2af206165fdd32256928bc7cc4c7f8dae3"
     },
     {
+      "message_id": 25369,
+      "filename": "2027학년도_LAST_하프모의고사_1_5회_문제지_통합.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25369_2027._LAST_._1_5._._.pdf",
+      "size_bytes": 29044087,
+      "telegram_date": "2026-10-12T14:29:33+00:00",
+      "title": "지1 엄기은 LAST 하프 모의고사 1~5회",
+      "year": "2027",
+      "instructor": "엄기은",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25369.png",
+      "sha256": "bef02e92af674a25d4da6875dc9ce752f8af5b37ed253d2fe2f01eb6ce098f78"
+    },
+    {
       "message_id": 25356,
       "filename": "2027+김현우T+파이널+14주차+수업자료.pdf",
       "stored_as": null,
