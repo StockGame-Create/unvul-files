@@ -134175,6 +134175,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9578.png",
       "sha256": "0d06a10500d0f89750d8182b0b08c32651454c08b0a07ce42ac35b0931fbff5e"
+    },
+    {
+      "message_id": 9577,
+      "filename": "2026_홍준용_생명과학1_실전_모의고사_BLITZ_블리츠_00.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9577_2026_._.1_._._BLITZ_._00.pdf",
+      "size_bytes": 13638161,
+      "telegram_date": "2025-08-11T15:50:55+00:00",
+      "title": "2026_홍준용_생명과학1_실전_모의고사_BLITZ_블리츠_00",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9577.png",
+      "sha256": "fda6612441c014812e20d7456eaf95a39e3f9b28f72859d92d63e52674fd344a"
     }
   ],
   "duplicate_message_ids": [
