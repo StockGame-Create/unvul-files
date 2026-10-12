@@ -137101,6 +137101,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9298.png",
       "sha256": "dc8dca9517727f0b0595b2abe3dd420ef406457cbae0dbcb26c39de2d0200815"
+    },
+    {
+      "message_id": 9297,
+      "filename": "2026_시대인재_브릿지_모의고사_11회,_전국_11회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9297_2026_._._._11._._11.pdf",
+      "size_bytes": 62288807,
+      "telegram_date": "2025-08-11T15:49:18+00:00",
+      "title": "2026_시대인재_브릿지_모의고사_11회,_전국_11회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9297.png",
+      "sha256": "f0a66621adf0323b90f81498a215d268c7593b1e8c0f5973494c5dfaf3cf9739"
     }
   ],
   "duplicate_message_ids": [
