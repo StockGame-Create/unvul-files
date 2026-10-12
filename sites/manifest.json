@@ -134875,6 +134875,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9509.png",
       "sha256": "05e4763dc5d9af3f0d9059096f0a27629deab408aa7416ae677bb3414379d9a9"
+    },
+    {
+      "message_id": 9508,
+      "filename": "2021 폴라리스 지구과학Ⅱ (2015 개정교육).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9508_2021.2015.pdf",
+      "size_bytes": 216655093,
+      "telegram_date": "2025-08-11T15:50:45+00:00",
+      "title": "2021 폴라리스 지구과학Ⅱ (2015 개정교육)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9508.png",
+      "sha256": "01f5f95a889ee138a00b9ba0a0a9849a32a620256995b00a8f29f86d06903e5b"
     }
   ],
   "duplicate_message_ids": [
