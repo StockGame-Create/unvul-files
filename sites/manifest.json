@@ -137269,6 +137269,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9265.png",
       "sha256": "f135ba65b9079573a9249c332cb3fdfa6ae7970791f5155907413c0d2a67d311"
+    },
+    {
+      "message_id": 9256,
+      "filename": "2026 EBS 수능특강 언어와 매체.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9256_2026.EBS.pdf",
+      "size_bytes": 13086998,
+      "telegram_date": "2025-08-11T15:49:15+00:00",
+      "title": "2026 EBS 수능특강 언어와 매체",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9256.png",
+      "sha256": "fca78968b15896a215342a96c2e0e8c6d9ce8039052b21b4d0d8fa7a9eee1223"
     }
   ],
   "duplicate_message_ids": [
