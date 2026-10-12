@@ -134987,6 +134987,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9497.png",
       "sha256": "1873327cbadf37c280991a83a4b1acec90b810db13d55656abae5704643c2e0e"
+    },
+    {
+      "message_id": 9495,
+      "filename": "2026 매월승리 1호 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9495_2026.1.pdf",
+      "size_bytes": 263867,
+      "telegram_date": "2025-08-11T15:50:41+00:00",
+      "title": "2026 매월승리 1호 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9495.png",
+      "sha256": "6181e37205603f08d7b0f9abcf6a9099dc6dc08da95e3bab6438f7aad98ecc60"
     }
   ],
   "duplicate_message_ids": [
