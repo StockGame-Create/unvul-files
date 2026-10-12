@@ -137087,6 +137087,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9307.png",
       "sha256": "ff4d4340b1affe065ae5d6b1d5ed272eecfff7b90dc27905acf723877ec7fdaf"
+    },
+    {
+      "message_id": 9298,
+      "filename": "나기출 문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9298_.pdf",
+      "size_bytes": 213905240,
+      "telegram_date": "2025-08-11T15:49:18+00:00",
+      "title": "나기출 문제편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9298.png",
+      "sha256": "dc8dca9517727f0b0595b2abe3dd420ef406457cbae0dbcb26c39de2d0200815"
     }
   ],
   "duplicate_message_ids": [
