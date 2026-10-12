@@ -134595,6 +134595,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9537.png",
       "sha256": "313a083ae459dedd771f4cf6c70a0b29c6627c2e45c3404174b161d7e49197de"
+    },
+    {
+      "message_id": 9534,
+      "filename": "브릿지 7회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9534_.7.pdf",
+      "size_bytes": 6091793,
+      "telegram_date": "2025-08-11T15:50:53+00:00",
+      "title": "브릿지 7회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9534.png",
+      "sha256": "9d28d603369d09f71c3073053adf85932131464cee7081ac6c34f94c22d5e4ad"
     }
   ],
   "duplicate_message_ids": [
