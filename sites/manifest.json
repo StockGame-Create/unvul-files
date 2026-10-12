@@ -134805,6 +134805,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9514.png",
       "sha256": "a988a45f8ec4384cb4e0a3f061fad1a68667467c006bc5094fd9e8cd1adf118d"
+    },
+    {
+      "message_id": 9513,
+      "filename": "임정환_사문_하드트레이닝_하트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9513_._._._.pdf",
+      "size_bytes": 28213981,
+      "telegram_date": "2025-08-11T15:50:45+00:00",
+      "title": "임정환_사문_하드트레이닝_하트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9513.png",
+      "sha256": "bf0120f01315bd08013a18b747af166cbbd112c308936218e3f9427c20e5ddb0"
     }
   ],
   "duplicate_message_ids": [
