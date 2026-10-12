@@ -134399,6 +134399,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9553.png",
       "sha256": "8543610e04c4da568354bc71b85bcf6841144af0389e59eecafc931e0eb10e6c"
+    },
+    {
+      "message_id": 9552,
+      "filename": "2026 정병호 프로메테우스 기하.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9552_2026.pdf",
+      "size_bytes": 63908888,
+      "telegram_date": "2025-08-11T15:50:54+00:00",
+      "title": "정병호 선생님 강의 듣고 수학 만점 쟁취하자",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9552.png",
+      "sha256": "edcc128f87e9a9282849ee59c57cce53aa03a1074471d23d91ce8abacc496e66"
     }
   ],
   "duplicate_message_ids": [
