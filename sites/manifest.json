@@ -137003,6 +137003,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9319.png",
       "sha256": "ce1e8398da49e6dce2ecfa12ea3b18853baa64c6d7c51334b42254d0c8305574"
+    },
+    {
+      "message_id": 9318,
+      "filename": "사회문화 Revival 01.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9318_.Revival.01.pdf",
+      "size_bytes": 5686034,
+      "telegram_date": "2025-08-11T15:49:22+00:00",
+      "title": "사회문화 Revival 01",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9318.png",
+      "sha256": "9ba5dc0dc9514e229711f28d4da7afd8401a5528dd9b2a1d34404f345300a56c"
     }
   ],
   "duplicate_message_ids": [
