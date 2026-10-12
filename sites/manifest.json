@@ -135771,6 +135771,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9420.png",
       "sha256": "8e090092469bd8ff367f2c8dccb915427a9419ba5f4c9bd1a60cf2b31870851b"
+    },
+    {
+      "message_id": 9419,
+      "filename": "2026 강철중 플레이리스트 4권 정답과 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9419_2026.4.pdf",
+      "size_bytes": 3467910,
+      "telegram_date": "2025-08-11T15:49:33+00:00",
+      "title": "2026 강철중 플레이리스트 4권 정답과 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9419.png",
+      "sha256": "6b1f0897a4064481d97ef3a7622d3c8407583671c7468312dba0172fa0a28c37"
     }
   ],
   "duplicate_message_ids": [
