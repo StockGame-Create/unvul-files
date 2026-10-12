@@ -135687,6 +135687,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9428.png",
       "sha256": "ff32ae0cef0ebaf05b810108835dcfe2c9c12c1a931248c2e04eb8016a9a4423"
+    },
+    {
+      "message_id": 9427,
+      "filename": "2026 Starting Block 수1 필기노트(선별 스캔).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9427_2026.Starting.Block.1.pdf",
+      "size_bytes": 28906913,
+      "telegram_date": "2025-08-11T15:50:38+00:00",
+      "title": "2026 Starting Block 수1 필기노트(선별 스캔)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9427.png",
+      "sha256": "30af6a0fcb754c58c03d28c9e5558304b064a576a68fa111161f8c3baa14919b"
     }
   ],
   "duplicate_message_ids": [
