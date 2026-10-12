@@ -134413,6 +134413,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9552.png",
       "sha256": "edcc128f87e9a9282849ee59c57cce53aa03a1074471d23d91ce8abacc496e66"
+    },
+    {
+      "message_id": 9551,
+      "filename": "2026학년도_현우진_드릴드2_수학Ⅱ_본문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9551_2026._._.2_._.pdf",
+      "size_bytes": 6122074,
+      "telegram_date": "2025-08-11T15:50:54+00:00",
+      "title": "2026학년도_현우진_드릴드2_수학Ⅱ_본문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9551.png",
+      "sha256": "9063482cbad95df949d0b192d872c9d592b48330500dd8e719b3a2d62b9265fa"
     }
   ],
   "duplicate_message_ids": [
