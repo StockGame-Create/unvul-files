@@ -135071,6 +135071,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9488.png",
       "sha256": "53ea183c8e0a623a409c0216dae1321ce314d05d6af1eabce6d5317a5e1fab1d"
+    },
+    {
+      "message_id": 9487,
+      "filename": "~ 지인선 N제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9487_.N.pdf",
+      "size_bytes": 111389937,
+      "telegram_date": "2025-08-11T15:50:41+00:00",
+      "title": "~ 지인선 N제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9487.png",
+      "sha256": "dc3ab8f350df6a58f22b46b45593fb5cba41e92ada85c9abcc743a375c139b63"
     }
   ],
   "duplicate_message_ids": [
