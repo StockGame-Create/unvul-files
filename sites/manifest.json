@@ -137535,6 +137535,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9212.png",
       "sha256": "c9a64d83b5a63a6925ccca4646f0141442f66e479244343b9df559979f2b9121"
+    },
+    {
+      "message_id": 9211,
+      "filename": "수능연계_2026학년도_EBS수능특강_영어_상세분석_13강_아잉카.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9211_._2026._EBS._._._13._.pdf",
+      "size_bytes": 789293,
+      "telegram_date": "2025-08-11T15:49:13+00:00",
+      "title": "수능연계_2026학년도_EBS수능특강_영어_상세분석_13강_아잉카",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9211.png",
+      "sha256": "336f8982367da3f7facf02aa89b0383dcdac6c110291863cc77209ead20e0734"
     }
   ],
   "duplicate_message_ids": [
