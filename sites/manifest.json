@@ -135617,6 +135617,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9433.png",
       "sha256": "323517567f1c09740f02893e0ba1795eefac29c19ad5cd630921dc0d40c89eb3"
+    },
+    {
+      "message_id": 9432,
+      "filename": "2026 시대인재 REVIVAL 물리학1 02.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9432_2026.REVIVAL.1.02.pdf",
+      "size_bytes": 52853002,
+      "telegram_date": "2025-08-11T15:50:38+00:00",
+      "title": "2026 시대인재 REVIVAL 물리학1 02",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9432.png",
+      "sha256": "5b17e515fa426ba358c1fb3832da7a988e4d192955fd3f4ddeff0a17696306c3"
     }
   ],
   "duplicate_message_ids": [
