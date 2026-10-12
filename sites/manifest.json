@@ -137395,6 +137395,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9247.png",
       "sha256": "6348e901bfebda7b82f726b17aedb4ad36241083d6e154975f7e88a032d3825c"
+    },
+    {
+      "message_id": 9246,
+      "filename": "2026_현자의돌_생윤_기시감_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9246_2026_._._._.pdf",
+      "size_bytes": 958013848,
+      "telegram_date": "2025-08-11T15:49:14+00:00",
+      "title": "2026_현자의돌_생윤_기시감_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9246.png",
+      "sha256": "d97950d8338878363a7f2f46e9a426bb340bc1b83a66b4cf934e9a841e4c1530"
     }
   ],
   "duplicate_message_ids": [
