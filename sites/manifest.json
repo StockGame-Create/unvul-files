@@ -99,6 +99,20 @@
       "sha256": "0c5a606845d54af42d82723d77ced2ca294f89681cc4c6c511d4c25b352589c7"
     },
     {
+      "message_id": 25383,
+      "filename": "27 범모 1~11회 합본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25383_27.1.11.pdf",
+      "size_bytes": 83739997,
+      "telegram_date": "2026-10-12T14:29:46+00:00",
+      "title": "수학 김범준 모의고사 1~11회",
+      "year": "2027",
+      "instructor": "김범준",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25383.png",
+      "sha256": "f039920adf6450b3c4716c638c03f879dab85592c28cbe08fcc37949c79a6a45"
+    },
+    {
       "message_id": 25370,
       "filename": "2027학년도_LAST_하프모의고사_1_5회_해설지_통합.pdf",
       "stored_as": null,
