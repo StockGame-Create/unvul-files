@@ -135449,6 +135449,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9456.png",
       "sha256": "97e5bf842e895ca2946b667a0c7957622efafc96159c50bddc42e1b63a9f97a1"
+    },
+    {
+      "message_id": 9453,
+      "filename": "백호_생1_개념형_모의고사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9453_._.1_._.pdf",
+      "size_bytes": 224622160,
+      "telegram_date": "2025-08-11T15:50:39+00:00",
+      "title": "백호_생1_개념형_모의고사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9453.png",
+      "sha256": "e90829c361b26fc7696cd1bd150326a0c02551ee627e981d4fd6e22a6f0e32a6"
     }
   ],
   "duplicate_message_ids": [
