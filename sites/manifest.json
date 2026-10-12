@@ -134231,6 +134231,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9574.png",
       "sha256": "74ebb28a2e1007dd0c7cc12c995c1ac6339daeef977e8b4d025ad1ff3ce8b76f"
+    },
+    {
+      "message_id": 9573,
+      "filename": "2026_김현우T_6평대비_30제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9573_2026_.T_6._30.pdf",
+      "size_bytes": 26851852,
+      "telegram_date": "2025-08-11T15:50:55+00:00",
+      "title": "2026_김현우T_6평대비_30제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9573.png",
+      "sha256": "1f9ae4996ab16cffc27815fd075e463fc28d70414eb34d91166cdc79a0ff3bb9"
     }
   ],
   "duplicate_message_ids": [
