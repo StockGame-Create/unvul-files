@@ -135533,6 +135533,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9442.png",
       "sha256": "0a9d32a8af12f9053355df21cec2580dc5b9751bff3fc319af11d98894a10e57"
+    },
+    {
+      "message_id": 9441,
+      "filename": "2026 강민철의 기출 분석 문학 2 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9441_2026.2.pdf",
+      "size_bytes": 112153387,
+      "telegram_date": "2025-08-11T15:50:38+00:00",
+      "title": "2026 강민철의 기출 분석 문학 2 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9441.png",
+      "sha256": "6ce92b0ad6c7cbbe28610e32e93db308cedaa3bafcc1cf7b8942abc1a4dfaac5"
     }
   ],
   "duplicate_message_ids": [
