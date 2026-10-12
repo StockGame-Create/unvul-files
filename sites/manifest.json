@@ -134721,6 +134721,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9521.png",
       "sha256": "fc9ef62ef8f079a56aec123871478b1da8230bd27fe356e58c8fa299ef4ff7a0"
+    },
+    {
+      "message_id": 9520,
+      "filename": "2026_국어_바탕_본바탕_1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9520_2026_._._._1.pdf",
+      "size_bytes": 172405686,
+      "telegram_date": "2025-08-11T15:50:45+00:00",
+      "title": "2026_국어_바탕_본바탕_1권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9520.png",
+      "sha256": "171a6ab6331ad7868233456e8813eb0934a70d790d2a59c6354fe8accbbe4bba"
     }
   ],
   "duplicate_message_ids": [
