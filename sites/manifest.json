@@ -135407,6 +135407,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9460.png",
       "sha256": "58ea0ae146a2ad4e29f9dff0041a77fe7e0d84384a965de8b92088665f726364"
+    },
+    {
+      "message_id": 9459,
+      "filename": "브릿지 11회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9459_.11.pdf",
+      "size_bytes": 4036595,
+      "telegram_date": "2025-08-11T15:50:39+00:00",
+      "title": "브릿지 11회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9459.png",
+      "sha256": "85cedd4d81daf10c7e8d168cea3a81a43a9c9a0f13e64308c56d7c8b0ce3d6ae"
     }
   ],
   "duplicate_message_ids": [
