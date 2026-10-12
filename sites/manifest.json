@@ -137437,6 +137437,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9244.png",
       "sha256": "832bde9ae9a8a68bfcff609e050f097cec8e9907988201833cc85519de5e044e"
+    },
+    {
+      "message_id": 9228,
+      "filename": "2026 수능완성 원본 정치와 법.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9228_2026.pdf",
+      "size_bytes": 12502579,
+      "telegram_date": "2025-08-11T15:49:14+00:00",
+      "title": "2026 수능완성 원본 정치와 법",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9228.png",
+      "sha256": "249092fb95703664b8e018afe48a85de1d09f2ef493256eeb17e29773bed1568"
     }
   ],
   "duplicate_message_ids": [
