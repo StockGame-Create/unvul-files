@@ -136989,6 +136989,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9320.png",
       "sha256": "6a71023762f65b34cacfce616f4752254e8129bcc7baf7047d8cfb3363d9f2bd"
+    },
+    {
+      "message_id": 9319,
+      "filename": "국바 6모대비 02.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9319_.6.02.pdf",
+      "size_bytes": 14633232,
+      "telegram_date": "2025-08-11T15:49:22+00:00",
+      "title": "국바 6모대비 02",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9319.png",
+      "sha256": "ce1e8398da49e6dce2ecfa12ea3b18853baa64c6d7c51334b42254d0c8305574"
     }
   ],
   "duplicate_message_ids": [
