@@ -135561,6 +135561,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9440.png",
       "sha256": "71b84ae0d46050df210f865fffdab6aff94ceb205d6c27887ff096074d690c06"
+    },
+    {
+      "message_id": 9439,
+      "filename": "2026 강민철의 기출 분석 독서 1 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9439_2026.1.pdf",
+      "size_bytes": 92148003,
+      "telegram_date": "2025-08-11T15:50:38+00:00",
+      "title": "2026 강민철의 기출 분석 독서 1 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9439.png",
+      "sha256": "750a2930fd8ae94dbaa50b157d9ff7b77672561b2e0c85f486075425bc8a775b"
     }
   ],
   "duplicate_message_ids": [
