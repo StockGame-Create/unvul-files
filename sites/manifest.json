@@ -135421,6 +135421,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9459.png",
       "sha256": "85cedd4d81daf10c7e8d168cea3a81a43a9c9a0f13e64308c56d7c8b0ce3d6ae"
+    },
+    {
+      "message_id": 9457,
+      "filename": "2026_이다지_20시간의_기적_복습노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9457_2026_._20._._.pdf",
+      "size_bytes": 120060161,
+      "telegram_date": "2025-08-11T15:50:39+00:00",
+      "title": "2026_이다지_20시간의_기적_복습노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9457.png",
+      "sha256": "a2df46e5247db59a9d7cf7de848190e9a7851e4cfcd019cb36dc8cdf1b8b8564"
     }
   ],
   "duplicate_message_ids": [
