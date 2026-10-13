@@ -138529,6 +138529,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9084.png",
       "sha256": "f940420214a3d3cfeb417ccea4aaf9c634b735bbfd29ce0c5d2eaa59d0dcba47"
+    },
+    {
+      "message_id": 9083,
+      "filename": "수학_브릿지_8회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9083_._._8._.pdf",
+      "size_bytes": 11216058,
+      "telegram_date": "2025-08-11T15:48:06+00:00",
+      "title": "수학_브릿지_8회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9083.png",
+      "sha256": "252ab9a542a0ad1fbec11ed14935f83ffc3d7d88e2cee4e3332f6c6159bd1038"
     }
   ],
   "duplicate_message_ids": [
