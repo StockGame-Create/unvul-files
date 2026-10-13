@@ -141777,6 +141777,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8519.png",
       "sha256": "ebf932ed117fe9ca03f16287a98ca65966cbb8d611cafd0a520825ee9c6de1a7"
+    },
+    {
+      "message_id": 8513,
+      "filename": "2026 김연호 EX² TEST 09.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8513_2026.EX.TEST.09.pdf",
+      "size_bytes": 341730,
+      "telegram_date": "2025-08-11T15:43:10+00:00",
+      "title": "2026 김연호 EX² TEST 09",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8513.png",
+      "sha256": "4f443f582c3b9850ffc7bc9c4257a98db53e778dba32acf616b08c4fdee242e4"
     }
   ],
   "duplicate_message_ids": [
