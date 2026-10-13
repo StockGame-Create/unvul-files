@@ -142085,6 +142085,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8460.png",
       "sha256": "30206b5185d9adefded0a45612c1dcb409d8c32a9de397bb6b43807cf19ee083"
+    },
+    {
+      "message_id": 8459,
+      "filename": "강e분 수특 독서.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8459_.e.pdf",
+      "size_bytes": 216115580,
+      "telegram_date": "2025-08-11T15:42:57+00:00",
+      "title": "강e분 수특 독서",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8459.png",
+      "sha256": "50a357b573f8781d5ba401694dd0bb459dba43f826e7e79a4c45d481c35ae1ab"
     }
   ],
   "duplicate_message_ids": [
