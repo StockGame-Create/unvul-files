@@ -139607,6 +139607,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8977.png",
       "sha256": "8a10f7cf1e01419c6c4defaa3d6b9268995f32f276bd8a8fb14c100eaa09f486"
+    },
+    {
+      "message_id": 8976,
+      "filename": "2026 시대인재 트러스 지구과학1 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8976_2026.1.1.pdf",
+      "size_bytes": 21821548,
+      "telegram_date": "2025-08-11T15:46:02+00:00",
+      "title": "2026 시대인재 트러스 지구과학1 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8976.png",
+      "sha256": "5e2c48d77c7921575b8efd318c3d28b0b6e569501073960001bdf1a22ea231c5"
     }
   ],
   "duplicate_message_ids": [
