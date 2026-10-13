@@ -140937,6 +140937,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8729.png",
       "sha256": "a9b4807a74e80627eb9582bce55157fe1505dff7ea966425d60fa0be7b6388d8"
+    },
+    {
+      "message_id": 8726,
+      "filename": "물리 전국브릿지 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8726_.6.pdf",
+      "size_bytes": 6535798,
+      "telegram_date": "2025-08-11T15:43:52+00:00",
+      "title": "물리 전국브릿지 6회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8726.png",
+      "sha256": "92c15e477874bbd30db79efdc035be5a46ce9bff8602c675a77114e975428ac4"
     }
   ],
   "duplicate_message_ids": [
