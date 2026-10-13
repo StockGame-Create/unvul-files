@@ -139957,6 +139957,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8937.png",
       "sha256": "0b3a26db02cba476af60a4e91bd9d796d17f3bc5c32b633ee1e2c47b55ce808a"
+    },
+    {
+      "message_id": 8936,
+      "filename": "2026 시대인재 브릿지 지구과학1 4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8936_2026.1.4.pdf",
+      "size_bytes": 9902607,
+      "telegram_date": "2025-08-11T15:45:58+00:00",
+      "title": "2026 시대인재 브릿지 지구과학1 4회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8936.png",
+      "sha256": "2db92ba1a070b947c32b84643373f6a85d475026c58f39c94b7cc13d42057c64"
     }
   ],
   "duplicate_message_ids": [
