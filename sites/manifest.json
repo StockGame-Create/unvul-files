@@ -141511,6 +141511,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8554.png",
       "sha256": "d67787e7dcb53a1d6f31818fe0e9120f34630164d15d25f65545434cf44f70ad"
+    },
+    {
+      "message_id": 8553,
+      "filename": "2026 이신혁 필기노트 정오사항.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8553_2026.pdf",
+      "size_bytes": 99534,
+      "telegram_date": "2025-08-11T15:43:37+00:00",
+      "title": "2026 이신혁 필기노트 정오사항",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8553.png",
+      "sha256": "b7fe82197c6950c3c325b400890d712987a73b362a5a9221c6cc9605d3221433"
     }
   ],
   "duplicate_message_ids": [
