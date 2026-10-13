@@ -140573,6 +140573,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8888.png",
       "sha256": "d249d9ca6c739311663c47b300cb4ee7dbd445591bd71fd60b6091d95bb00692"
+    },
+    {
+      "message_id": 8887,
+      "filename": "2026 시대인재 서바이벌 N전용 지구과학1 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8887_2026.N.1.1.pdf",
+      "size_bytes": 2504750,
+      "telegram_date": "2025-08-11T15:45:08+00:00",
+      "title": "2026 시대인재 서바이벌 N전용 지구과학1 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8887.png",
+      "sha256": "5ab465938fa45d3c4e806173daf787a26376b287f467be9f8c48093e32e54c66"
     }
   ],
   "duplicate_message_ids": [
