@@ -139761,6 +139761,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8960.png",
       "sha256": "1821639919e6d49313b3e5cdfb797894ba8cee5aa8ca90cdd59359f5899c7808"
+    },
+    {
+      "message_id": 8959,
+      "filename": "2026 오지훈 OZ Basic 모의고사 LV.1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8959_2026.OZ.Basic.LV.1.pdf",
+      "size_bytes": 82772443,
+      "telegram_date": "2025-08-11T15:45:59+00:00",
+      "title": "2026 오지훈 OZ Basic 모의고사 LV.1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8959.png",
+      "sha256": "5293eebd998f8bc4154798fa5ae2fd1a1a974ca7d979a30ac9fabe33c7509922"
     }
   ],
   "duplicate_message_ids": [
