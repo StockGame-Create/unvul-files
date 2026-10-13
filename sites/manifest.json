@@ -142449,6 +142449,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8422.png",
       "sha256": "166f81cdd78149663e3534c82265ec5443f1587a97d52e32c95310027f702376"
+    },
+    {
+      "message_id": 8421,
+      "filename": "2026 이정환 METHOD ANALYSIS 미적분(상) 02.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8421_2026.METHOD.ANALYSIS.02.pdf",
+      "size_bytes": 3865649,
+      "telegram_date": "2025-08-11T15:42:55+00:00",
+      "title": "2026 이정환 METHOD ANALYSIS 미적분(상) 02",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8421.png",
+      "sha256": "927c52c920433805a81594c7b8ce0a60cfaef51085906eea7733a6831e9cd85d"
     }
   ],
   "duplicate_message_ids": [
