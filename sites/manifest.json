@@ -140769,6 +140769,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8810.png",
       "sha256": "f16fd6de2d13befbe6390c31b5cb5d0994c1b57c9a9d92405eafb93337c1b654"
+    },
+    {
+      "message_id": 8788,
+      "filename": "2026 션티 KISS LOGIC 순서ㆍ문삽편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8788_2026.KISS.LOGIC.pdf",
+      "size_bytes": 57944561,
+      "telegram_date": "2025-08-11T15:44:54+00:00",
+      "title": "2026 션티 KISS LOGIC 순서ㆍ문삽편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8788.png",
+      "sha256": "b8601c9adafad81df30077761da5616403b46acf6dcfaa7cbed35b57db74837f"
     }
   ],
   "duplicate_message_ids": [
