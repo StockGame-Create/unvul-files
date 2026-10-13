@@ -140979,6 +140979,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8724.png",
       "sha256": "be00b88368f7bc75bd476510bf0d1378d8eae1bdfbb85d2538db79c4de3ef80f"
+    },
+    {
+      "message_id": 8723,
+      "filename": "물리 브릿지 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8723_.7.pdf",
+      "size_bytes": 12219998,
+      "telegram_date": "2025-08-11T15:43:52+00:00",
+      "title": "물리 브릿지 7회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8723.png",
+      "sha256": "d55160cce0f4d84a822b7613234e9629bd6012a02708472657fa5b6d8a209872"
     }
   ],
   "duplicate_message_ids": [
