@@ -141539,6 +141539,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8551.png",
       "sha256": "780b114069999ec8c8d5d519369fd1a7087ff2569c7184ce3825048be4683b35"
+    },
+    {
+      "message_id": 8547,
+      "filename": "2026 이신혁 3월 직전 모의평가 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8547_2026.3.pdf",
+      "size_bytes": 228871,
+      "telegram_date": "2025-08-11T15:43:37+00:00",
+      "title": "2026 이신혁 3월 직전 모의평가 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8547.png",
+      "sha256": "7e9ca12a3781ecc6244192d1a2720271ec1bee486059d94b2cba97d734f00b18"
     }
   ],
   "duplicate_message_ids": [
