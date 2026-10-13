@@ -141567,6 +141567,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8546.png",
       "sha256": "37d67861c0520d0535454c4cc1d8c01b5b41f16f7f1692e22b085ab603539d7c"
+    },
+    {
+      "message_id": 8545,
+      "filename": "2026 이신혁 Apollo 10~13호 정오사항.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8545_2026.Apollo.10.13.pdf",
+      "size_bytes": 453403,
+      "telegram_date": "2025-08-11T15:43:37+00:00",
+      "title": "2026 이신혁 Apollo 10~13호 정오사항",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8545.png",
+      "sha256": "680836c93fdc038c0ef999aa1b068535d045e5bd25d69b6cded16e8f35b09147"
     }
   ],
   "duplicate_message_ids": [
