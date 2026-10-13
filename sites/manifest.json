@@ -140909,6 +140909,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8732.png",
       "sha256": "95295d5c880a16bec0d4dca62ee0c33737865f5e2a80174d742cf7136aa96f93"
+    },
+    {
+      "message_id": 8731,
+      "filename": "강k지학 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8731_.k.pdf",
+      "size_bytes": 84036033,
+      "telegram_date": "2025-08-11T15:43:55+00:00",
+      "title": "강k지학 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8731.png",
+      "sha256": "673f47399a3fc457f3d6699d07607be38a1d19ff2c86fbadf0b76b9952c03ce6"
     }
   ],
   "duplicate_message_ids": [
