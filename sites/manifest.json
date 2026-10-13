@@ -142295,6 +142295,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8433.png",
       "sha256": "0c519967f727a0378095dd79135f557e1ec0d917a3d48e9ce8e2cc8af3a33750"
+    },
+    {
+      "message_id": 8432,
+      "filename": "2026_이정환_METHOD_수학1상_복습테스트_3주차_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8432_2026_._METHOD_.1._._3._.pdf",
+      "size_bytes": 615851,
+      "telegram_date": "2025-08-11T15:42:56+00:00",
+      "title": "2026_이정환_METHOD_수학1상_복습테스트_3주차_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8432.png",
+      "sha256": "9c16eb2c7d81022172c827eeb3e76c594e0e02053871bc6302e4daf2d52d8a5c"
     }
   ],
   "duplicate_message_ids": [
