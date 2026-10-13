@@ -138725,6 +138725,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9067.png",
       "sha256": "133a701eaf3cc88000e52f63af344e10a3ab2cf8adc52775f13d65538b32b49f"
+    },
+    {
+      "message_id": 9060,
+      "filename": "물리_브릿지_전국_9회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9060_._._._9.pdf",
+      "size_bytes": 4901005,
+      "telegram_date": "2025-08-11T15:48:05+00:00",
+      "title": "물리_브릿지_전국_9회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9060.png",
+      "sha256": "3ac6928d94f99e53d882a09acd9463d1212ee9314da9cda71e359274b26a95c4"
     }
   ],
   "duplicate_message_ids": [
