@@ -141021,6 +141021,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8721.png",
       "sha256": "1cf4d40103d192394c96301ee86bcaa3b4e52c28e21ef2bd1b568509ba8362d9"
+    },
+    {
+      "message_id": 8710,
+      "filename": "2026 이신혁 19주차 브릿지 전국 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8710_2026.19.8.pdf",
+      "size_bytes": 14749080,
+      "telegram_date": "2025-08-11T15:43:51+00:00",
+      "title": "2026 이신혁 19주차 브릿지 전국 8회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8710.png",
+      "sha256": "d260fee32eb159c1acde20f014aba07ed85be93ce177fa7b0289715ebc4f5ace"
     }
   ],
   "duplicate_message_ids": [
