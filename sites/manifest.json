@@ -138501,6 +138501,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9088.png",
       "sha256": "4a45d084cac3bdc13b32aa23f1233b61fb386afd22e252aca7e5d28d932f9d28"
+    },
+    {
+      "message_id": 9087,
+      "filename": "2026_영어_강대_CIRCUIT_11_12회최은정_손글씨_해석.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9087_2026_._._CIRCUIT_11_12._._.pdf",
+      "size_bytes": 5347089,
+      "telegram_date": "2025-08-11T15:48:06+00:00",
+      "title": "2026_영어_강대_CIRCUIT_11_12회최은정_손글씨_해석",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9087.png",
+      "sha256": "eec75659122c348e6f57d3ffa496571cc988fef3fe779b84b1bc0540c12e684d"
     }
   ],
   "duplicate_message_ids": [
