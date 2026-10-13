@@ -138753,6 +138753,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9059.png",
       "sha256": "bf444970c50735f967028f28b95f0b7d342d3bfa9f17f4340ec0b0801f523c77"
+    },
+    {
+      "message_id": 9055,
+      "filename": "KICE ANATOMY 미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/9055_KICE.ANATOMY.pdf",
+      "size_bytes": 23093708,
+      "telegram_date": "2025-08-11T15:48:05+00:00",
+      "title": "KICE ANATOMY 미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9055.png",
+      "sha256": "f176bc35803c693545773924e4a53f7d20e0b8be770812df91e83bbf26eaf6f8"
     }
   ],
   "duplicate_message_ids": [
