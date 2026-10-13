@@ -139635,6 +139635,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8975.png",
       "sha256": "4c51bb758fa821fc56d903044957bc43f021976e4cb8c1f2a1109f70558f89e8"
+    },
+    {
+      "message_id": 8974,
+      "filename": "2026 시대인재 essence 미적분 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8974_2026.essence.pdf",
+      "size_bytes": 95162749,
+      "telegram_date": "2025-08-11T15:46:02+00:00",
+      "title": "2026 시대인재 essence 미적분 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8974.png",
+      "sha256": "f306ff9d3e4600222f25ec3aa366e094588309143e7c6969337fa74b551441d8"
     }
   ],
   "duplicate_message_ids": [
