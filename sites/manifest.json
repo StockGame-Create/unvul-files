@@ -139915,6 +139915,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8940.png",
       "sha256": "7c13e1aa99bdec4edf6417fde9018049dfc868db6921272cc19096a7e4625c4f"
+    },
+    {
+      "message_id": 8939,
+      "filename": "2026 현우진 6평 대비 킬링캠프.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8939_2026.6.pdf",
+      "size_bytes": 34019127,
+      "telegram_date": "2025-08-11T15:45:58+00:00",
+      "title": "2026 현우진 6평 대비 킬링캠프",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8939.png",
+      "sha256": "18a6414ef70005c3cf280c6fe9512aabddb7ff6b275c60ed651873d73d777fe6"
     }
   ],
   "duplicate_message_ids": [
