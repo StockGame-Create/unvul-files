@@ -138193,6 +138193,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9116.png",
       "sha256": "a466af57d020e259245067d9b16f62ea92868d4f0d46052cff5b075c0a2bb1b8"
+    },
+    {
+      "message_id": 9115,
+      "filename": "2026 김기현 IDEA 수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9115_2026.IDEA.1.pdf",
+      "size_bytes": 229653690,
+      "telegram_date": "2025-08-11T15:48:10+00:00",
+      "title": "2026 김기현 IDEA 수학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9115.png",
+      "sha256": "0c8a7310a808e82a718dec7659a59ebbfc5eef235595fd1cf8376ff7a74ac1b9"
     }
   ],
   "duplicate_message_ids": [
