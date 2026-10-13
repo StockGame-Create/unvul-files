@@ -141133,6 +141133,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8696.png",
       "sha256": "2c853895c541ebe823af9d9c8c0188de9cb6dca5cbc7974c1347d30f6776a8be"
+    },
+    {
+      "message_id": 8694,
+      "filename": "2026학년도_대학수학능력시험_지구1_POLARIS_COLLECTION_고체편_정답_및_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8694_2026._._.1_POLARIS_COLLECTION_._._._.pdf",
+      "size_bytes": 32336623,
+      "telegram_date": "2025-08-11T15:43:50+00:00",
+      "title": "2026학년도_대학수학능력시험_지구1_POLARIS_COLLECTION_고체편_정답_및_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8694.png",
+      "sha256": "e12cf6cc34b724fc307a99a017ed95f5e5e847b13948300823a1ac20483776b7"
     }
   ],
   "duplicate_message_ids": [
