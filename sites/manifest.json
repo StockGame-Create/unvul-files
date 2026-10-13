@@ -138025,6 +138025,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9143.png",
       "sha256": "29195b1d60d819e7fb6daa1d3a14802736886da463892c8b68e1174dd8bcbc2f"
+    },
+    {
+      "message_id": 9142,
+      "filename": "배기범 3순환 3rd.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9142_.3.3rd.pdf",
+      "size_bytes": 199288090,
+      "telegram_date": "2025-08-11T15:48:18+00:00",
+      "title": "배기범 3순환 3rd",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9142.png",
+      "sha256": "4fb911ad658ae718408cbbc8869954bb8ec6a010266ca1798deede2d4d84b385"
     }
   ],
   "duplicate_message_ids": [
