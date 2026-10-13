@@ -142071,6 +142071,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8461.png",
       "sha256": "3c67bc4c99932e0b49195adf7b7f6ccab55d90596433483b0416519b5a9e00a5"
+    },
+    {
+      "message_id": 8460,
+      "filename": "또선생 쉬운 유형.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8460_.pdf",
+      "size_bytes": 27987767,
+      "telegram_date": "2025-08-11T15:42:57+00:00",
+      "title": "또선생 쉬운 유형",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8460.png",
+      "sha256": "30206b5185d9adefded0a45612c1dcb409d8c32a9de397bb6b43807cf19ee083"
     }
   ],
   "duplicate_message_ids": [
