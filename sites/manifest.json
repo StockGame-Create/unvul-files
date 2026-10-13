@@ -141651,6 +141651,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8531.png",
       "sha256": "3831430b9ec29fc174f64642d71862970cde9ba269d4e9e3c81c40226848cfe6"
+    },
+    {
+      "message_id": 8528,
+      "filename": "2026 변춘수 PACEMAKER 복습테스트 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8528_2026.PACEMAKER.7.pdf",
+      "size_bytes": 691534,
+      "telegram_date": "2025-08-11T15:43:36+00:00",
+      "title": "2026 변춘수 PACEMAKER 복습테스트 7회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8528.png",
+      "sha256": "ea4ca067cb910321f9204b779925f63c57d6371af80a4eb0ed57abf1c987f686"
     }
   ],
   "duplicate_message_ids": [
