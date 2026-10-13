@@ -140349,6 +140349,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8908.png",
       "sha256": "f21c64042dc7e3413eccfb282e42bb1b5ae3ef82023a3eec40304a8ac9d9fabf"
+    },
+    {
+      "message_id": 8907,
+      "filename": "2026 시대인재 브릿지 전국 물리학1 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8907_2026.1.7.pdf",
+      "size_bytes": 10965563,
+      "telegram_date": "2025-08-11T15:45:56+00:00",
+      "title": "2026 시대인재 브릿지 전국 물리학1 7회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8907.png",
+      "sha256": "ea172e4e2f42c99612e9e27dc25bf91db3694fd414f28552e7c3475602cbc06c"
     }
   ],
   "duplicate_message_ids": [
