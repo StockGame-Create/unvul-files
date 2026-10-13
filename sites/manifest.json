@@ -141245,6 +141245,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8676.png",
       "sha256": "e7601feb9fbe25f231463fc19e20a3f80e96fd7c9f0eb59346fd5b41d9eb6d8c"
+    },
+    {
+      "message_id": 8674,
+      "filename": "2026 최지욱 Arch 수학2+미적분 필기노트 8주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8674_2026.Arch.2%2B.8.pdf",
+      "size_bytes": 18128682,
+      "telegram_date": "2025-08-11T15:43:49+00:00",
+      "title": "2026 최지욱 Arch 수학2+미적분 필기노트 8주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8674.png",
+      "sha256": "d8d87bfea1ae9e037d1ce43d69f99911aefa65d1839317d80fdf68f82e73e579"
     }
   ],
   "duplicate_message_ids": [
