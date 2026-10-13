@@ -141455,6 +141455,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8573.png",
       "sha256": "ae6445d27d8b95062f4b8cbc942f02b8a1eff77edd1e2f45895bccffd35ccb42"
+    },
+    {
+      "message_id": 8571,
+      "filename": "2026 강준호 FAST TRACK 화학1 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8571_2026.FAST.TRACK.1.2.pdf",
+      "size_bytes": 6146871,
+      "telegram_date": "2025-08-11T15:43:38+00:00",
+      "title": "2026 강준호 FAST TRACK 화학1 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8571.png",
+      "sha256": "d47d17a05167b05898b29d2414f5f3e4e49f709c9eed80716bd31b292a120369"
     }
   ],
   "duplicate_message_ids": [
