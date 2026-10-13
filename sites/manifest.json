@@ -142253,6 +142253,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8436.png",
       "sha256": "02713bccbb1da5bb14f3b54f0f2806a5abc25840e496e95bba6f7f07ea6a64bb"
+    },
+    {
+      "message_id": 8435,
+      "filename": "2026 손승연 강대모의고사X 0회 유사문항.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8435_2026.X.0.pdf",
+      "size_bytes": 1126368,
+      "telegram_date": "2025-08-11T15:42:56+00:00",
+      "title": "2026 손승연 강대모의고사X 0회 유사문항",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8435.png",
+      "sha256": "56ec8413ed0a24550c4218dc69236b819a93bf0d3ea89fee00bd9442b4311ed1"
     }
   ],
   "duplicate_message_ids": [
