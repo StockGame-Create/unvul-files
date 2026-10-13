@@ -141917,6 +141917,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8475.png",
       "sha256": "bdf991f5a5e0238b3d6974c332d5712a26651da8c72ec97f4f9c5b9e08633a30"
+    },
+    {
+      "message_id": 8474,
+      "filename": "2026 현정훈 TREADMILL 3주차 추가영상 자료.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8474_2026.TREADMILL.3.pdf",
+      "size_bytes": 2653552,
+      "telegram_date": "2025-08-11T15:42:58+00:00",
+      "title": "2026 현정훈 TREADMILL 3주차 추가영상 자료",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8474.png",
+      "sha256": "f6833849261e50aebd8e947cbd0f4c51eb29d6b65120798adfcc29ca0a46f2b7"
     }
   ],
   "duplicate_message_ids": [
