@@ -139327,6 +139327,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8997.png",
       "sha256": "943bda76f2c03969db5d7a10a91765d3cfc9da920970c9c4ee07bce6a12fd361"
+    },
+    {
+      "message_id": 8996,
+      "filename": "2026 김범준 강대 CIRCUIT 수학 4회 손필기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8996_2026.CIRCUIT.4.pdf",
+      "size_bytes": 3392629,
+      "telegram_date": "2025-08-11T15:46:17+00:00",
+      "title": "2026 김범준 강대 CIRCUIT 수학 4회 손필기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8996.png",
+      "sha256": "743aac912fe1c08ba489af05ef8eae79f8492543266737b007db770cb6389498"
     }
   ],
   "duplicate_message_ids": [
