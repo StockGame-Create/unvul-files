@@ -140013,6 +140013,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8933.png",
       "sha256": "6404788ae6e38b0de03a49b6f7d7e826cd3594d4604cb4bef59265c2df38e3da"
+    },
+    {
+      "message_id": 8932,
+      "filename": "2026 시대인재 브릿지 전국 지구과학1 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8932_2026.1.1.pdf",
+      "size_bytes": 17889780,
+      "telegram_date": "2025-08-11T15:45:58+00:00",
+      "title": "2026 시대인재 브릿지 전국 지구과학1 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8932.png",
+      "sha256": "f6c761b37d2bc89ab193c90518c253d743f8f19ff0cb45bf0d29f2717152c7ec"
     }
   ],
   "duplicate_message_ids": [
