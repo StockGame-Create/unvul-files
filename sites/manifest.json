@@ -140881,6 +140881,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8734.png",
       "sha256": "28a95e3ef68847e117206291f88803d5e2b5fdfba56af991d4484a5e56ea4106"
+    },
+    {
+      "message_id": 8733,
+      "filename": "2026 임정환 IMFACT 윤리와 사상.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8733_2026.IMFACT.pdf",
+      "size_bytes": 42313709,
+      "telegram_date": "2025-08-11T15:43:55+00:00",
+      "title": "2026 임정환 IMFACT 윤리와 사상",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8733.png",
+      "sha256": "b6c7c6351205b187e3d2a12cf3c4c6c3e104a00d9640ab1af0317b4573ad51c7"
     }
   ],
   "duplicate_message_ids": [
