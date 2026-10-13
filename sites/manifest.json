@@ -140237,6 +140237,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8916.png",
       "sha256": "d8cbac626c601eeecaa2e2380ee398f2daba8b43cff08aa9431e17b7a6db4b9c"
+    },
+    {
+      "message_id": 8915,
+      "filename": "2026 시대인재 브릿지 생명과학1 4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8915_2026.1.4.pdf",
+      "size_bytes": 8852352,
+      "telegram_date": "2025-08-11T15:45:57+00:00",
+      "title": "2026 시대인재 브릿지 생명과학1 4회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8915.png",
+      "sha256": "ac1b94c8dbb8142e37d305a720a2a785b533ce3342351c853c296bc1c6c37838"
     }
   ],
   "duplicate_message_ids": [
