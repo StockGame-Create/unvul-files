@@ -139061,6 +139061,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9017.png",
       "sha256": "9e885438afbf87a2cb161653c223b3ac6c087d108ff5896277aab52cabc7ab9c"
+    },
+    {
+      "message_id": 9016,
+      "filename": "2026 강대 CIRCUIT 물리학1 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/9016_2026.CIRCUIT.1.2.pdf",
+      "size_bytes": 7836908,
+      "telegram_date": "2025-08-11T15:46:18+00:00",
+      "title": "2026 강대 CIRCUIT 물리학1 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9016.png",
+      "sha256": "51bf3c96f14086940a20bb5dfec8c38d8ba2c8ce9fe3721ad2fadb17fcd7f97e"
     }
   ],
   "duplicate_message_ids": [
