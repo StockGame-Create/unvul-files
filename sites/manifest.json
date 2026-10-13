@@ -138599,6 +138599,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9079.png",
       "sha256": "73184636817b65663da6777b5d90fee014b8e8d3c4aa3f8169d961656c8a9d6e"
+    },
+    {
+      "message_id": 9078,
+      "filename": "2026 최지욱 Arch 수학1 특강 필기노트 2주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9078_2026.Arch.1.2.pdf",
+      "size_bytes": 22281206,
+      "telegram_date": "2025-08-11T15:48:06+00:00",
+      "title": "2026 최지욱 Arch 수학1 특강 필기노트 2주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9078.png",
+      "sha256": "e2760cd65f48cbaddb7ba01ffef4519b78cdc9bf833e48a610f63fed84a517ec"
     }
   ],
   "duplicate_message_ids": [
