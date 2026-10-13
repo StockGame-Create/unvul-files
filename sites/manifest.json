@@ -141763,6 +141763,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8520.png",
       "sha256": "d494896213e517aae0907b558699eb7dd6993557334c5a28e7960e6f2e431f7e"
+    },
+    {
+      "message_id": 8519,
+      "filename": "2026 변춘수 PACEMAKER 워크북 1주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8519_2026.PACEMAKER.1.pdf",
+      "size_bytes": 6626041,
+      "telegram_date": "2025-08-11T15:43:35+00:00",
+      "title": "2026 변춘수 PACEMAKER 워크북 1주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8519.png",
+      "sha256": "ebf932ed117fe9ca03f16287a98ca65966cbb8d611cafd0a520825ee9c6de1a7"
     }
   ],
   "duplicate_message_ids": [
