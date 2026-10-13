@@ -142211,6 +142211,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8440.png",
       "sha256": "eb018da760c2fbd3174309df0cfd06b077e332fcf44fc950642b3d0a3167e0d1"
+    },
+    {
+      "message_id": 8439,
+      "filename": "2025.6.4.-평가원 모의고사 수학 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8439_2025.6.4.-.pdf",
+      "size_bytes": 554644,
+      "telegram_date": "2025-08-11T15:42:56+00:00",
+      "title": "2025.6.4.-평가원 모의고사 수학 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8439.png",
+      "sha256": "f48831b1f36309fc3d964a6b231f6d5a46b74401c97b026f18f27b3f510725a9"
     }
   ],
   "duplicate_message_ids": [
