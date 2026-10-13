@@ -142421,6 +142421,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8424.png",
       "sha256": "e05065f5d375b375381809ccae53c160435e9fcdb82141848cebdd5295641bbd"
+    },
+    {
+      "message_id": 8423,
+      "filename": "2026_이정환_METHOD_수학2하_복습테스트_9주차_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8423_2026_._METHOD_.2._._9._.pdf",
+      "size_bytes": 1429020,
+      "telegram_date": "2025-08-11T15:42:55+00:00",
+      "title": "2026_이정환_METHOD_수학2하_복습테스트_9주차_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8423.png",
+      "sha256": "7cb81b7de197c58f08e055e0222dff39e87ca0322c7739531b02ca2816cea95d"
     }
   ],
   "duplicate_message_ids": [
