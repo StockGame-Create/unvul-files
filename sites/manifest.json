@@ -140461,6 +140461,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8900.png",
       "sha256": "63a53e7fb0bbc00d5ebbacb204f8393b5677cac67235937e4a9feabfbb513609"
+    },
+    {
+      "message_id": 8899,
+      "filename": "2026 시대인재 브릿지 물리학1 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8899_2026.1.5.pdf",
+      "size_bytes": 19860758,
+      "telegram_date": "2025-08-11T15:45:56+00:00",
+      "title": "2026 시대인재 브릿지 물리학1 5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8899.png",
+      "sha256": "6dabc07ec855488a74a717abc7a20542e4d525925d50a5125c826f85e6d9f4d3"
     }
   ],
   "duplicate_message_ids": [
