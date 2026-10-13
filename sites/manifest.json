@@ -139341,6 +139341,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8996.png",
       "sha256": "743aac912fe1c08ba489af05ef8eae79f8492543266737b007db770cb6389498"
+    },
+    {
+      "message_id": 8995,
+      "filename": "2026 강대 CIRCUIT 수학 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8995_2026.CIRCUIT.2.pdf",
+      "size_bytes": 791002,
+      "telegram_date": "2025-08-11T15:46:17+00:00",
+      "title": "2026 강대 CIRCUIT 수학 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8995.png",
+      "sha256": "20f539e1bab05be42a38a12526c3beea5dae19701e3478bffb8c6256865a8415"
     }
   ],
   "duplicate_message_ids": [
