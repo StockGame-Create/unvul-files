@@ -139131,6 +139131,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9012.png",
       "sha256": "b661469f4c28bfd65349525609111db63fc58435fa2d394115032891664d556d"
+    },
+    {
+      "message_id": 9011,
+      "filename": "2026 김범준 강대 CIRCUIT 수학 8회 손필기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/9011_2026.CIRCUIT.8.pdf",
+      "size_bytes": 3498292,
+      "telegram_date": "2025-08-11T15:46:18+00:00",
+      "title": "2026 김범준 강대 CIRCUIT 수학 8회 손필기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9011.png",
+      "sha256": "2e8ce882bc9a7ac3a0897fb48aa780dfe852836b2b92bb3dd83b3bf25506aff6"
     }
   ],
   "duplicate_message_ids": [
