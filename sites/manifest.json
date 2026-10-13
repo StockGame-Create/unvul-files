@@ -140755,6 +140755,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8826.png",
       "sha256": "88b462830c21a34a4a47873a5eb0b6d7e6acd863f54eace53219420522c17251"
+    },
+    {
+      "message_id": 8810,
+      "filename": "2026 시대인재 트러스 생명과학1 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8810_2026.1.6.pdf",
+      "size_bytes": 19083274,
+      "telegram_date": "2025-08-11T15:44:55+00:00",
+      "title": "2026 시대인재 트러스 생명과학1 6회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8810.png",
+      "sha256": "f16fd6de2d13befbe6390c31b5cb5d0994c1b57c9a9d92405eafb93337c1b654"
     }
   ],
   "duplicate_message_ids": [
