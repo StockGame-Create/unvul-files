@@ -138151,6 +138151,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9119.png",
       "sha256": "b5b50b908c88eaea3263c52d88158af38ccdb4e612dc080118779238269c8f94"
+    },
+    {
+      "message_id": 9118,
+      "filename": "2026 김기현 SINGLE CONNECTION 수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9118_2026.SINGLE.CONNECTION.1.pdf",
+      "size_bytes": 79948292,
+      "telegram_date": "2025-08-11T15:48:10+00:00",
+      "title": "2026 김기현 SINGLE CONNECTION 수학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9118.png",
+      "sha256": "727e70130fcf780ba85a83518ed54c83cdacae07ab9d558dc388a8010bf7abd5"
     }
   ],
   "duplicate_message_ids": [
