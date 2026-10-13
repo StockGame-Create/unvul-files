@@ -142365,6 +142365,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8428.png",
       "sha256": "d547b1ca00fc53f800f8ae6169481355881b2b7e6ac2a85f08e025e2ea7ce0e0"
+    },
+    {
+      "message_id": 8427,
+      "filename": "2026 이정환 METHOD 미적분(중) 복습테스트 4주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8427_2026.METHOD.4.pdf",
+      "size_bytes": 578427,
+      "telegram_date": "2025-08-11T15:42:55+00:00",
+      "title": "2026 이정환 METHOD 미적분(중) 복습테스트 4주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8427.png",
+      "sha256": "d4a3d0ec9f649aefdd6432b0bb7e5629ae933f64c6a9263a2b03b4f1b43d2a26"
     }
   ],
   "duplicate_message_ids": [
