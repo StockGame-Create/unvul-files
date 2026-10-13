@@ -141231,6 +141231,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8679.png",
       "sha256": "54275b58fe01ca1da33be2ad400499a8d81152308a748be2d2f7fc53cc8b1083"
+    },
+    {
+      "message_id": 8676,
+      "filename": "2026 강철중 플레이리스트 1권 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8676_2026.1.pdf",
+      "size_bytes": 39103498,
+      "telegram_date": "2025-08-11T15:43:49+00:00",
+      "title": "2026 강철중 플레이리스트 1권 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8676.png",
+      "sha256": "e7601feb9fbe25f231463fc19e20a3f80e96fd7c9f0eb59346fd5b41d9eb6d8c"
     }
   ],
   "duplicate_message_ids": [
