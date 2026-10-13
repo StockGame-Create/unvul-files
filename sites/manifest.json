@@ -141063,6 +141063,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8707.png",
       "sha256": "1243851e25770a83ca9752fdb4ca331199e2b74923e1f662fac321cf7a85e56e"
+    },
+    {
+      "message_id": 8706,
+      "filename": "이신혁_18주차_전국_브릿지_7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8706_._18._._._7.pdf",
+      "size_bytes": 16683469,
+      "telegram_date": "2025-08-11T15:43:51+00:00",
+      "title": "이신혁_18주차_전국_브릿지_7회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8706.png",
+      "sha256": "b4cdf5e57087dd143734e821c7cb8f039d0b2e30b168a8413434788799116bac"
     }
   ],
   "duplicate_message_ids": [
