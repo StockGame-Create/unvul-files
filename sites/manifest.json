@@ -141413,6 +141413,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8581.png",
       "sha256": "ea826788134f3d071cb887a98a6c8226a2aba1fa0e512242cd57c05314959a4b"
+    },
+    {
+      "message_id": 8578,
+      "filename": "2026 김연호 4주차 수업자료.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8578_2026.4.pdf",
+      "size_bytes": 311113,
+      "telegram_date": "2025-08-11T15:43:38+00:00",
+      "title": "2026 김연호 4주차 수업자료",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8578.png",
+      "sha256": "96f94718a6bfbf941c6e5bf4ac8ae77167be8f349b77b20a0261984c920851f5"
     }
   ],
   "duplicate_message_ids": [
