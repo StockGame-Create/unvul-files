@@ -139859,6 +139859,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8949.png",
       "sha256": "6be1b5dcbb870b160783381e481a8e43e3ce381ce55d9e6dcf024020c1c92ce3"
+    },
+    {
+      "message_id": 8947,
+      "filename": "2026 이해원 모의고사 시즌1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8947_2026.1.pdf",
+      "size_bytes": 63678959,
+      "telegram_date": "2025-08-11T15:45:58+00:00",
+      "title": "2026 이해원 모의고사 시즌1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8947.png",
+      "sha256": "470747a2c3d4b6a0b5c80114912dcc9b84a188d0df2511410576be1a548d441c"
     }
   ],
   "duplicate_message_ids": [
