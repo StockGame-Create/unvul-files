@@ -15,6 +15,20 @@
       "sha256": "50a4f3f084a48f7d962f01fab244efab4df9a06b59ceab2c4e60923f70609f30"
     },
     {
+      "message_id": 25396,
+      "filename": "서바 17.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25396_.17.pdf",
+      "size_bytes": 36004890,
+      "telegram_date": "2026-10-12T22:42:49+00:00",
+      "title": "수학 시대인재 서바이벌 모의고사 17회 (인쇄소퀄) #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25396.png",
+      "sha256": "a1c16ff0038931ae3055074f391c524ae3c0927737fc14639b101b1b2aeb926c"
+    },
+    {
       "message_id": 25391,
       "filename": "2027 Killing Camp 시즌2 6회.pdf",
       "stored_as": null,
