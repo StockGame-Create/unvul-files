@@ -142603,6 +142603,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8408.png",
       "sha256": "9527d15af909a5fb3db1ed8e8c1184d102f12be1cdbdedaba1235f2bc57b9bf5"
+    },
+    {
+      "message_id": 8407,
+      "filename": "정치와 법 1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8407_.1.pdf",
+      "size_bytes": 76299887,
+      "telegram_date": "2025-08-11T15:42:54+00:00",
+      "title": "정치와 법 1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8407.png",
+      "sha256": "a09ff7c6d693a5ecd9d01a3e850fb3f4177ba81f94a4e68f365bd83a7fa0eb2c"
     }
   ],
   "duplicate_message_ids": [
