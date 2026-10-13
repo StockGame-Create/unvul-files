@@ -141175,6 +141175,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8690.png",
       "sha256": "9ff11c0a779e03656924749904b59ae34b08e089d0099b477d6faf93acde4f2b"
+    },
+    {
+      "message_id": 8688,
+      "filename": "2026학년도_대학수학능력시험_지구1_POLARIS_COLLECTION_유체편_정답_및_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8688_2026._._.1_POLARIS_COLLECTION_._._._.pdf",
+      "size_bytes": 33462014,
+      "telegram_date": "2025-08-11T15:43:50+00:00",
+      "title": "2026학년도_대학수학능력시험_지구1_POLARIS_COLLECTION_유체편_정답_및_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8688.png",
+      "sha256": "aa1b4cd22eea4227e23742a7a569e28c8d3f46fbfc4daec82c26b67dc54bce9b"
     }
   ],
   "duplicate_message_ids": [
