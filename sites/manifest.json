@@ -141189,6 +141189,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8688.png",
       "sha256": "aa1b4cd22eea4227e23742a7a569e28c8d3f46fbfc4daec82c26b67dc54bce9b"
+    },
+    {
+      "message_id": 8685,
+      "filename": "김민정 해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8685_.pdf",
+      "size_bytes": 15387355,
+      "telegram_date": "2025-08-11T15:43:50+00:00",
+      "title": "김민정 해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8685.png",
+      "sha256": "d8305b57b4c7b596a250e470ac9cd73278f80e0db1f921aea93618bab17c4692"
     }
   ],
   "duplicate_message_ids": [
