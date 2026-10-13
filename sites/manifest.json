@@ -138669,6 +138669,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9073.png",
       "sha256": "00883fc2fdd8a12127470dc48fb9b1eb9e358d42293673c621bea657e81aa8f6"
+    },
+    {
+      "message_id": 9072,
+      "filename": "Print.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9072_Print.pdf",
+      "size_bytes": 90519858,
+      "telegram_date": "2025-08-11T15:48:06+00:00",
+      "title": "Print",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9072.png",
+      "sha256": "b36ed6a8f2c1ff0bf34807338be74889607ce9c68524318c2683cbc33bb2fec4"
     }
   ],
   "duplicate_message_ids": [
