@@ -140587,6 +140587,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8887.png",
       "sha256": "5ab465938fa45d3c4e806173daf787a26376b287f467be9f8c48093e32e54c66"
+    },
+    {
+      "message_id": 8886,
+      "filename": "2026 시대인재 서바이벌 N전용 화학1 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8886_2026.N.1.3.pdf",
+      "size_bytes": 10572013,
+      "telegram_date": "2025-08-11T15:45:08+00:00",
+      "title": "2026 시대인재 서바이벌 N전용 화학1 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8886.png",
+      "sha256": "9192ba48ce1cfcd57fece67fc72a50cf1d31aeec3e2d59428eb3d3b1bbbdc49c"
     }
   ],
   "duplicate_message_ids": [
