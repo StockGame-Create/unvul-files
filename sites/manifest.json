@@ -140629,6 +140629,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8884.png",
       "sha256": "b4ad64c4693a4da8a405593006ee8e65524f0e4c19bfa29a6476131d935c9423"
+    },
+    {
+      "message_id": 8883,
+      "filename": "2026_시대인재_서바이벌_6모_대비_국어_1회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8883_2026_._._6._._._1._.pdf",
+      "size_bytes": 3119694,
+      "telegram_date": "2025-08-11T15:45:08+00:00",
+      "title": "2026_시대인재_서바이벌_6모_대비_국어_1회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8883.png",
+      "sha256": "6dc943896fe01a6e029f58b04051d2a5aed4c5ff512802158c044bc51a536f34"
     }
   ],
   "duplicate_message_ids": [
