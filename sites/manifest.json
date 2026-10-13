@@ -138375,6 +138375,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9100.png",
       "sha256": "3a5eb2119b0e1779b22c33dabb8cfee045d47dfacf3b1d265ba1d17270593a1e"
+    },
+    {
+      "message_id": 9099,
+      "filename": "2026 강대 CIRCUIT 수학 13회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9099_2026.CIRCUIT.13.pdf",
+      "size_bytes": 9082816,
+      "telegram_date": "2025-08-11T15:48:07+00:00",
+      "title": "2026 강대 CIRCUIT 수학 13회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9099.png",
+      "sha256": "87052c8b41b79404caa01250aff656ef919d283291a347be85019e4b48807bbe"
     }
   ],
   "duplicate_message_ids": [
