@@ -141665,6 +141665,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8528.png",
       "sha256": "ea4ca067cb910321f9204b779925f63c57d6371af80a4eb0ed57abf1c987f686"
+    },
+    {
+      "message_id": 8527,
+      "filename": "2026 변춘수 보조자료 12주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8527_2026.12.pdf",
+      "size_bytes": 551067,
+      "telegram_date": "2025-08-11T15:43:36+00:00",
+      "title": "2026 변춘수 보조자료 12주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8527.png",
+      "sha256": "b03d5ffcd7db31d1f2a5c954ca61e8e3edd8ec0872262c2242d03cc2bc4935e9"
     }
   ],
   "duplicate_message_ids": [
