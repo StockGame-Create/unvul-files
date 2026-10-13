@@ -139775,6 +139775,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8959.png",
       "sha256": "5293eebd998f8bc4154798fa5ae2fd1a1a974ca7d979a30ac9fabe33c7509922"
+    },
+    {
+      "message_id": 8958,
+      "filename": "2026 빅선 SUNRISE 모의고사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8958_2026.SUNRISE.pdf",
+      "size_bytes": 12652050,
+      "telegram_date": "2025-08-11T15:45:59+00:00",
+      "title": "2026 빅선 SUNRISE 모의고사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8958.png",
+      "sha256": "b5028142a3a475211d75bb198062568e06b316942afdce2df03d55968096992c"
     }
   ],
   "duplicate_message_ids": [
