@@ -141329,6 +141329,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8626.png",
       "sha256": "11f92cac1af9cd74194846cc3d042deb1516c37cc5becf8ca5c8d36e541c3aa5"
+    },
+    {
+      "message_id": 8594,
+      "filename": "2026 현정훈 STIMPACK 물리학2 시즌1 08.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8594_2026.STIMPACK.2.1.08.pdf",
+      "size_bytes": 5007157,
+      "telegram_date": "2025-08-11T15:43:39+00:00",
+      "title": "2026 현정훈 STIMPACK 물리학2 시즌1 08",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8594.png",
+      "sha256": "692e26cc178edcfe90ce2ceb1224b748c17c5f26c100c7df653e0042b574f8e9"
     }
   ],
   "duplicate_message_ids": [
