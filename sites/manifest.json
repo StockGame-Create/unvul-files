@@ -139831,6 +139831,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8955.png",
       "sha256": "1c0624cb370f2bba9a30fd2ee528fe5bcb8bf6d9962d08a5014d8bcd2b17a3c0"
+    },
+    {
+      "message_id": 8953,
+      "filename": "2026 션티 KISS LOGIC_순서ㆍ문삽편 2주차 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8953_2026.KISS.LOGIC_.2.pdf",
+      "size_bytes": 101963733,
+      "telegram_date": "2025-08-11T15:45:59+00:00",
+      "title": "2026 션티 KISS LOGIC_순서ㆍ문삽편 2주차 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8953.png",
+      "sha256": "43511de583527e2def7a2a830cf55fd6c1427e257e1ebbcb69d6583631ce766a"
     }
   ],
   "duplicate_message_ids": [
