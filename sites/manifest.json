@@ -139285,6 +139285,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9000.png",
       "sha256": "b8849b9a17ced7eade0b3e396c17421741f7705f99bf075cf085210d03bbee98"
+    },
+    {
+      "message_id": 8999,
+      "filename": "2026 강대 CIRCUIT 수학 4회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8999_2026.CIRCUIT.4.pdf",
+      "size_bytes": 3316317,
+      "telegram_date": "2025-08-11T15:46:17+00:00",
+      "title": "2026 강대 CIRCUIT 수학 4회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8999.png",
+      "sha256": "c54fc6e33026a21af71d28b17bdb20b8fe6a831135917003ddcf16e0bfa05760"
     }
   ],
   "duplicate_message_ids": [
