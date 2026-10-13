@@ -141735,6 +141735,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8522.png",
       "sha256": "4844fe5b201ceb1140250a1e04df17f951058a0306311d0a38b52c18c510f348"
+    },
+    {
+      "message_id": 8521,
+      "filename": "2026 변춘수 PACEMAKER 필기노트 7주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8521_2026.PACEMAKER.7.pdf",
+      "size_bytes": 4359023,
+      "telegram_date": "2025-08-11T15:43:35+00:00",
+      "title": "2026 변춘수 PACEMAKER 필기노트 7주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8521.png",
+      "sha256": "998575ca81ee546a9cc98fdd21adfa80ae2c0aa1369065f67a55e606da20eed0"
     }
   ],
   "duplicate_message_ids": [
