@@ -142183,6 +142183,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8447.png",
       "sha256": "74069b57aa67c5c900c97a50954fec1f3fd8fde86fa8028074c45f2d1731caf3"
+    },
+    {
+      "message_id": 8441,
+      "filename": "오지훈 지구과학001.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8441_.001.pdf",
+      "size_bytes": 275724447,
+      "telegram_date": "2025-08-11T15:42:56+00:00",
+      "title": "오지훈 지구과학001",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8441.png",
+      "sha256": "ac5827ce745613e873e167b90c39f6e5882f3f2ca9993fc0f358f675e02b8b10"
     }
   ],
   "duplicate_message_ids": [
