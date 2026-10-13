@@ -142617,6 +142617,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8407.png",
       "sha256": "a09ff7c6d693a5ecd9d01a3e850fb3f4177ba81f94a4e68f365bd83a7fa0eb2c"
+    },
+    {
+      "message_id": 8405,
+      "filename": "26_6월_모평_한국사_정답표.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8405_26_6._._._.pdf",
+      "size_bytes": 45576,
+      "telegram_date": "2025-08-11T15:42:54+00:00",
+      "title": "26_6월_모평_한국사_정답표",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8405.png",
+      "sha256": "29dc423183c2d6efe7b3865586f9bcb8d15e635898ea17c1cb129465b3f64182"
     }
   ],
   "duplicate_message_ids": [
