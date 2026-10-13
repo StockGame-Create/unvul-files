@@ -142463,6 +142463,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8421.png",
       "sha256": "927c52c920433805a81594c7b8ce0a60cfaef51085906eea7733a6831e9cd85d"
+    },
+    {
+      "message_id": 8420,
+      "filename": "2026 이정환 METHOD 수학2(하) 복습테스트 11주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8420_2026.METHOD.2.11.pdf",
+      "size_bytes": 403055,
+      "telegram_date": "2025-08-11T15:42:55+00:00",
+      "title": "2026 이정환 METHOD 수학2(하) 복습테스트 11주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8420.png",
+      "sha256": "f4cfbc644de98b895d4ba1d03247696c89fba2fdc8879cc519d2438d75bd1f5c"
     }
   ],
   "duplicate_message_ids": [
