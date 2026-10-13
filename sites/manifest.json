@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 25398,
+      "filename": "디파인_파이널_사문_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/25398_._._._2.pdf",
+      "size_bytes": 2777710,
+      "telegram_date": "2026-10-12T22:42:50+00:00",
+      "title": "사문 D.Fine Final 2회 #디파인",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25398.png",
+      "sha256": "50a4f3f084a48f7d962f01fab244efab4df9a06b59ceab2c4e60923f70609f30"
+    },
+    {
       "message_id": 25391,
       "filename": "2027 Killing Camp 시즌2 6회.pdf",
       "stored_as": null,
