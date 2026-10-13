@@ -140209,6 +140209,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8918.png",
       "sha256": "972b9d351b0bf897e2c81cf2e5d7bc83161a382273f051d2f47002797ef59cce"
+    },
+    {
+      "message_id": 8917,
+      "filename": "2026 시대인재 브릿지 생명과학1 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8917_2026.1.8.pdf",
+      "size_bytes": 11791814,
+      "telegram_date": "2025-08-11T15:45:57+00:00",
+      "title": "2026 시대인재 브릿지 생명과학1 8회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8917.png",
+      "sha256": "4d5b448aaa87f3420fd9c22cc90641bfd165242beb7b75dfaf56ce1b17838225"
     }
   ],
   "duplicate_message_ids": [
