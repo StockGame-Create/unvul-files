@@ -142533,6 +142533,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8414.png",
       "sha256": "5f02eab628d95d6e672891d735eda0fea204aec472418044308062340735451c"
+    },
+    {
+      "message_id": 8413,
+      "filename": "엣지3-part-2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8413_.3-part-2.pdf",
+      "size_bytes": 174988357,
+      "telegram_date": "2025-08-11T15:42:55+00:00",
+      "title": "엣지3-part-2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8413.png",
+      "sha256": "7a251a219d1b6577a04d95dcda06469a67188ba4677dd26b8346b8b70fa1f683"
     }
   ],
   "duplicate_message_ids": [
