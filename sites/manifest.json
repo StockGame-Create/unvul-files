@@ -139733,6 +139733,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8966.png",
       "sha256": "eba79cf488a713ddbd278266a5bc5042a556df9f6027587646cd5dac79cb4b9e"
+    },
+    {
+      "message_id": 8965,
+      "filename": "2026 시대인재 essence 수학1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8965_2026.essence.1.pdf",
+      "size_bytes": 73430926,
+      "telegram_date": "2025-08-11T15:46:02+00:00",
+      "title": "2026 시대인재 essence 수학1 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8965.png",
+      "sha256": "13bb30cbf25671a7aadf0a72101a2c9745028de8d3f241e2e851d97ed665f7a9"
     }
   ],
   "duplicate_message_ids": [
