@@ -141273,6 +141273,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8667.png",
       "sha256": "3854caa30bdb4b14a415cd070c65b1680a5c88186793435b906e1a9871be2efb"
+    },
+    {
+      "message_id": 8656,
+      "filename": "2026 최지욱 Molding 7주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8656_2026.Molding.7.pdf",
+      "size_bytes": 995665,
+      "telegram_date": "2025-08-11T15:43:49+00:00",
+      "title": "2026 최지욱 Molding 7주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8656.png",
+      "sha256": "5ee7b602b9de56846a630012c31331422c81586e663843dd8ecaa129bc6c2fc9"
     }
   ],
   "duplicate_message_ids": [
