@@ -141427,6 +141427,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8578.png",
       "sha256": "96f94718a6bfbf941c6e5bf4ac8ae77167be8f349b77b20a0261984c920851f5"
+    },
+    {
+      "message_id": 8577,
+      "filename": "2026 김연호 EX² APPLICATION 01 정오사항.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8577_2026.EX.APPLICATION.01.pdf",
+      "size_bytes": 28690,
+      "telegram_date": "2025-08-11T15:43:38+00:00",
+      "title": "2026 김연호 EX² APPLICATION 01 정오사항",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8577.png",
+      "sha256": "b7874dd3d500cc21ef1c18382f889a1cefab3d2639ff2ab3a6a2ebc6ffce0fed"
     }
   ],
   "duplicate_message_ids": [
