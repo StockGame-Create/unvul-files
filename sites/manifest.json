@@ -141077,6 +141077,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8706.png",
       "sha256": "b4cdf5e57087dd143734e821c7cb8f039d0b2e30b168a8413434788799116bac"
+    },
+    {
+      "message_id": 8705,
+      "filename": "브릿지 전국 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8705_.6.pdf",
+      "size_bytes": 18163570,
+      "telegram_date": "2025-08-11T15:43:51+00:00",
+      "title": "브릿지 전국 6회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8705.png",
+      "sha256": "38776e1b28c1abaa0b411a29c557275c61a5c9a048d378f2681bd17710e14817"
     }
   ],
   "duplicate_message_ids": [
