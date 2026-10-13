@@ -138825,6 +138825,20 @@
       "sha256": "8684d48f4596caf20f41876d56f3e98957ac5f1a34196b90bc947a501196e05b"
     },
     {
+      "message_id": 9050,
+      "filename": "2026 수학 강기원 스텝1 본교재.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/9050_2026.1.pdf",
+      "size_bytes": 135758762,
+      "telegram_date": "2025-08-11T15:48:05+00:00",
+      "title": "2026 강기원T 시즌1 수업용 교재",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9050.png",
+      "sha256": "a5a25c8a5fe8cedaf2192752324ee37fe149c82ad467c92484a8654de862c460"
+    },
+    {
       "message_id": 9048,
       "filename": "2026한완수_미적분_교과개념_해설.pdf",
       "stored_as": null,
