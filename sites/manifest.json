@@ -142043,6 +142043,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8463.png",
       "sha256": "cfab1073ae941582e937915d441fb7d1f66bce10175b0c9c630b66069540a528"
+    },
+    {
+      "message_id": 8462,
+      "filename": "생각의 질서 수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8462_.1.pdf",
+      "size_bytes": 192881347,
+      "telegram_date": "2025-08-11T15:42:57+00:00",
+      "title": "생각의 질서 수학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8462.png",
+      "sha256": "aaf518e2298a700286bb8d8636bfa99d1f1213d7924f1324198d1933e0699798"
     }
   ],
   "duplicate_message_ids": [
