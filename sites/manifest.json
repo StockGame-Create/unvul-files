@@ -138543,6 +138543,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9083.png",
       "sha256": "252ab9a542a0ad1fbec11ed14935f83ffc3d7d88e2cee4e3332f6c6159bd1038"
+    },
+    {
+      "message_id": 9082,
+      "filename": "수학 전국 브릿지 8회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-10/9082_.8.pdf",
+      "size_bytes": 3544734,
+      "telegram_date": "2025-08-11T15:48:06+00:00",
+      "title": "수학 전국 브릿지 8회 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9082.png",
+      "sha256": "ee7028f66c526e7dd8233904b56ab9aaf456641a0461a069bb89eee8a0904cc2"
     }
   ],
   "duplicate_message_ids": [
