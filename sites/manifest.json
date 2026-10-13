@@ -138767,6 +138767,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9055.png",
       "sha256": "f176bc35803c693545773924e4a53f7d20e0b8be770812df91e83bbf26eaf6f8"
+    },
+    {
+      "message_id": 9048,
+      "filename": "2026한완수_미적분_교과개념_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/9048_2026._._._.pdf",
+      "size_bytes": 40990151,
+      "telegram_date": "2025-08-11T15:48:04+00:00",
+      "title": "2026한완수_미적분_교과개념_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9048.png",
+      "sha256": "3dbbf679c06cf392b9966094d4687aecb79e3ea6545b056f65013844025359ca"
     }
   ],
   "duplicate_message_ids": [
