@@ -141889,6 +141889,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8480.png",
       "sha256": "04a5d9858ae97b591e282566fa119dc4f5f077be67109769ad58758cf7d16346"
+    },
+    {
+      "message_id": 8476,
+      "filename": "2026 현정훈 TREADMILL 개념 Test 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8476_2026.TREADMILL.Test.1.pdf",
+      "size_bytes": 283644,
+      "telegram_date": "2025-08-11T15:42:58+00:00",
+      "title": "2026 현정훈 TREADMILL 개념 Test 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8476.png",
+      "sha256": "62184d814a36dbf384ce4c752e07c05906eb205ae6f78b25cf2565ffcc77a3cb"
     }
   ],
   "duplicate_message_ids": [
