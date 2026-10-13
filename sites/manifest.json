@@ -142141,6 +142141,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8450.png",
       "sha256": "3cb7da810cc728b0fb301828bb60b1bff5d7d7bf7062ee8f4f05fa8bc1617f7d"
+    },
+    {
+      "message_id": 8449,
+      "filename": "한완기_2026_6_해설_기하.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8449_._2026_6_._.pdf",
+      "size_bytes": 1915361,
+      "telegram_date": "2025-08-11T15:42:57+00:00",
+      "title": "한완기_2026_6_해설_기하",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8449.png",
+      "sha256": "feeceb66c7e94b53823a42b4f754380bdae6f3dcfc394820cb2128a356660900"
     }
   ],
   "duplicate_message_ids": [
