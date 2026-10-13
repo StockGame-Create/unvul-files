@@ -142267,6 +142267,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8435.png",
       "sha256": "56ec8413ed0a24550c4218dc69236b819a93bf0d3ea89fee00bd9442b4311ed1"
+    },
+    {
+      "message_id": 8434,
+      "filename": "2026 손승연 강대모의고사X 0회 변형문항.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8434_2026.X.0.pdf",
+      "size_bytes": 2683390,
+      "telegram_date": "2025-08-11T15:42:56+00:00",
+      "title": "2026 손승연 강대모의고사X 0회 변형문항",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8434.png",
+      "sha256": "de60c5daedcfb84c4ca0bf3fa43ef9ee96871d7a7d25acbd79916e180257e689"
     }
   ],
   "duplicate_message_ids": [
