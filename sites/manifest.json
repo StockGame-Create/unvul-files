@@ -141973,6 +141973,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8469.png",
       "sha256": "456337517ce6c87423c3dc5519469d371e4cfc42ee30a916546f6fff2d8053ee"
+    },
+    {
+      "message_id": 8468,
+      "filename": "2026 현정훈 TREADMILL 6주차 추가영상 자료.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8468_2026.TREADMILL.6.pdf",
+      "size_bytes": 7901078,
+      "telegram_date": "2025-08-11T15:42:58+00:00",
+      "title": "2026 현정훈 TREADMILL 6주차 추가영상 자료",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8468.png",
+      "sha256": "8616b998b1a3fa84541744f324f7b4196e85cfd9aadd07bc59a95b72f8b2ccf9"
     }
   ],
   "duplicate_message_ids": [
