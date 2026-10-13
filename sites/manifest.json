@@ -140853,6 +140853,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8742.png",
       "sha256": "8c49c29e63366ae27396e91a45b20c33a15344694ff3f0e9be1fe6c98679b268"
+    },
+    {
+      "message_id": 8741,
+      "filename": "2026 시대인재 서바이벌 N전용 생명과학1 4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8741_2026.N.1.4.pdf",
+      "size_bytes": 9140103,
+      "telegram_date": "2025-08-11T15:43:55+00:00",
+      "title": "2026 시대인재 서바이벌 N전용 생명과학1 4회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8741.png",
+      "sha256": "a00a382cb75741e603af6950a018823a60e57ad2b823ec22886c842011a56972"
     }
   ],
   "duplicate_message_ids": [
