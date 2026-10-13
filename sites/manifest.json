@@ -142505,6 +142505,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8418.png",
       "sha256": "439fa9a425bc5c943fdcb5fefe1596b225b518d9d393184512bb20d2cc1d00bb"
+    },
+    {
+      "message_id": 8417,
+      "filename": "2026 이정환 METHOD ANALYSIS 수학1(상) 02, 03.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8417_2026.METHOD.ANALYSIS.1.02.03.pdf",
+      "size_bytes": 4220128,
+      "telegram_date": "2025-08-11T15:42:55+00:00",
+      "title": "2026 이정환 METHOD ANALYSIS 수학1(상) 02, 03",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8417.png",
+      "sha256": "28c4d7a90c4c43d14d02deda559457ae4e03f4c33e625526c871ebfea4945c25"
     }
   ],
   "duplicate_message_ids": [
