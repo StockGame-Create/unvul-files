@@ -142099,6 +142099,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8459.png",
       "sha256": "50a357b573f8781d5ba401694dd0bb459dba43f826e7e79a4c45d481c35ae1ab"
+    },
+    {
+      "message_id": 8453,
+      "filename": "코드원_생활과_윤리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8453_._._.pdf",
+      "size_bytes": 338609821,
+      "telegram_date": "2025-08-11T15:42:57+00:00",
+      "title": "코드원_생활과_윤리",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8453.png",
+      "sha256": "a3e09332e6348473c639ebfc50587c581a04f71c6b20d597bacdc986e8cc04bc"
     }
   ],
   "duplicate_message_ids": [
