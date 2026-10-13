@@ -141385,6 +141385,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8586.png",
       "sha256": "8ec4d393bdeffc8116339357637f4ae803d9ec4b732fc0a400b89bc8e6aa6f9e"
+    },
+    {
+      "message_id": 8584,
+      "filename": "2026 이신혁 복습테스트 시즌1 8주차 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8584_2026.1.8.pdf",
+      "size_bytes": 304366,
+      "telegram_date": "2025-08-11T15:43:38+00:00",
+      "title": "2026 이신혁 복습테스트 시즌1 8주차 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8584.png",
+      "sha256": "88a81bc9d4d9f5fb10776b8402406016d4061ac3c424510e406ca367516c2e40"
     }
   ],
   "duplicate_message_ids": [
