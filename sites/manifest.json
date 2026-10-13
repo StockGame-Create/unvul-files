@@ -138865,6 +138865,20 @@
       "subject": null,
       "thumbnail": "thumbnails/9031.png",
       "sha256": "81752dde7e74a8855eb04f74ced41a3d5c83a74f02eec95f6b1e09a3bcd05442"
+    },
+    {
+      "message_id": 9030,
+      "filename": "2026 강대 CIRCUIT 생명과학1 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/9030_2026.CIRCUIT.1.6.pdf",
+      "size_bytes": 1796878,
+      "telegram_date": "2025-08-11T15:46:19+00:00",
+      "title": "2026 강대 CIRCUIT 생명과학1 6회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/9030.png",
+      "sha256": "4ebe3c13adfdb9edf67ff192d7bcf1a9dfe4b5664494bd7078fcaac56cc865e8"
     }
   ],
   "duplicate_message_ids": [
