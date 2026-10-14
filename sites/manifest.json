@@ -141177,6 +141177,20 @@
       "sha256": "a94bd28482fb7328e20629cfbd4e033205c13307622c57aa95e897ed57af7606"
     },
     {
+      "message_id": 8779,
+      "filename": "2026 이해원 모의고사 시즌1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8779_2026.1.pdf",
+      "size_bytes": 162388893,
+      "telegram_date": "2025-08-11T15:44:53+00:00",
+      "title": "2026 이해원 모의고사 시즌1 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8779.png",
+      "sha256": "2f06ca41a4874e77e98b16fb884c405be372491daf15cb40659a078d5220c715"
+    },
+    {
       "message_id": 8747,
       "filename": "2026 시대인재 서바이벌 N전용 지구과학1 2회.pdf",
       "stored_as": null,
