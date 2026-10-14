@@ -144843,6 +144843,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7763.png",
       "sha256": "40e60b904f77253fd47ac3e49871e018b67990f11c7497486c9475457545d23e"
+    },
+    {
+      "message_id": 7761,
+      "filename": "2025_생2_오르비_디올_수능_대비_1단계;_디올_ASSIGNMENT_0회10문항문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7761_2025_.2_._._._._1._._ASSIGNMENT_0.10.pdf",
+      "size_bytes": 969628,
+      "telegram_date": "2025-08-11T15:32:18+00:00",
+      "title": "2025_생2_오르비_디올_수능_대비_1단계;_디올_ASSIGNMENT_0회10문항문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7761.png",
+      "sha256": "c69dc7ac49f3eaa78cc660cc027036c590c5a3ada3d15826bac34a1389ae1547"
     }
   ],
   "duplicate_message_ids": [
