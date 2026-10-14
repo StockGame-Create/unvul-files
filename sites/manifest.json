@@ -365,6 +365,20 @@
       "sha256": "7b0585aa5c0e8321ffc257e504bb02788e8e1dd7bb83be2e56ad3ffb2c259649"
     },
     {
+      "message_id": 25439,
+      "filename": "강대k_영어_하프모_9_13회_합본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25439_.k_._._9_13._.pdf",
+      "size_bytes": 16503522,
+      "telegram_date": "2026-10-14T15:43:49+00:00",
+      "title": "영어 강대모의고사K 독해 Half 모의고사 9~13회 #강k",
+      "year": "2027",
+      "instructor": null,
+      "subject": "영어",
+      "thumbnail": "thumbnails/25439.png",
+      "sha256": "e16a80b40aadf99c5e3f9f271b22f6b39c45c246c7a3a3779d404fad4f17ca3f"
+    },
+    {
       "message_id": 25398,
       "filename": "디파인_파이널_사문_2회.pdf",
       "stored_as": null,
