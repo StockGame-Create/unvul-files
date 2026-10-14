@@ -145711,6 +145711,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7720.png",
       "sha256": "e1c6aac917b7eb79e1557a38fd25c29d037c1c8c4f9978429f121068593af325"
+    },
+    {
+      "message_id": 7719,
+      "filename": "에스컬레이드 H형.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7719_.H.pdf",
+      "size_bytes": 9825188,
+      "telegram_date": "2025-08-11T15:32:15+00:00",
+      "title": "에스컬레이드 H형",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7719.png",
+      "sha256": "0d9a4fc25510a5ce33f8be82521b16a03888605dd48770df3833f3acaa87c9e7"
     }
   ],
   "duplicate_message_ids": [
