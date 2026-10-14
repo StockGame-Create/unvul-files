@@ -142983,6 +142983,20 @@
       "sha256": "fcd5f9a3647f0ed39547be0b2ac1ccd4b3fcbbf7b4c168fab2b802fb21cff2d3"
     },
     {
+      "message_id": 8487,
+      "filename": "2026 김연호 EX² APPLICATION 03.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8487_2026.EX.APPLICATION.03.pdf",
+      "size_bytes": 65831303,
+      "telegram_date": "2025-08-11T15:43:01+00:00",
+      "title": "2026 김연호 EX² APPLICATION 03",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8487.png",
+      "sha256": "38abed0a3ba8ca9f51b65512020f2b4e746f521e29e2fda20d1a4793ab709c5a"
+    },
+    {
       "message_id": 8480,
       "filename": "2026 김연호 EX² TEST 05.pdf",
       "stored_as": null,
