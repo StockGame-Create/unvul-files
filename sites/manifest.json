@@ -143165,6 +143165,20 @@
       "sha256": "00d8b47f2e424bdd1000a8831c6e86b988cc6545fedad05f8fb6349d47f18f3a"
     },
     {
+      "message_id": 8473,
+      "filename": "2026 현정훈 모의고사 시즌1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8473_2026.1.pdf",
+      "size_bytes": 40926732,
+      "telegram_date": "2025-08-11T15:42:58+00:00",
+      "title": "2026 현정훈 모의고사 시즌1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8473.png",
+      "sha256": "e1e00bd95917657d816eccc88f2fc34666b66b0ef985b2ed96dbed0ac35a8f3e"
+    },
+    {
       "message_id": 8466,
       "filename": "2026 현정훈 TREADMILL 개념 Test 6회.pdf",
       "stored_as": null,
