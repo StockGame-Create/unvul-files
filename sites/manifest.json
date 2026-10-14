@@ -143849,6 +143849,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8404.png",
       "sha256": "9bd88da6649639828ea91486cb4033d01050910772ce2ec8f07e1e9dd9b69311"
+    },
+    {
+      "message_id": 8403,
+      "filename": "26 6월 모평 한국사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8403_26.6.pdf",
+      "size_bytes": 4902445,
+      "telegram_date": "2025-08-11T15:42:54+00:00",
+      "title": "26 6월 모평 한국사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8403.png",
+      "sha256": "0d8521a45111d30f4e6f9555f5f0add05cd531047161b4e5213a1d4700ded785"
     }
   ],
   "duplicate_message_ids": [
