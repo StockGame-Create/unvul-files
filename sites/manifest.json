@@ -145753,6 +145753,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7717.png",
       "sha256": "7b62f6790027489eac5c7804e7fccd0f81e77a1b1be6719839830bec74cb4cde"
+    },
+    {
+      "message_id": 7716,
+      "filename": "에스컬레이드_J형_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7716_._J._.pdf",
+      "size_bytes": 1936639,
+      "telegram_date": "2025-08-11T15:32:15+00:00",
+      "title": "에스컬레이드_J형_답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7716.png",
+      "sha256": "386373a6c5b3a7206aca367b61b69f4d859aa2a6f428a8d0d24f679d9be8f303"
     }
   ],
   "duplicate_message_ids": [
