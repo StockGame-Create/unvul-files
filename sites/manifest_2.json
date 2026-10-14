@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-14T13:05:19+00:00",
+  "updated_at": "2026-10-14T17:15:54+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -1700,6 +1700,28 @@
       ],
       "model": "gemini-3.7-flash",
       "problem_count": 7,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 25473,
+      "filename": "서바이벌 20회.pdf",
+      "title": "지1 시대인재 서바이벌 20회 #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "지구과학1",
+      "sha256": "5ba9945a8dc14446ea63147dd22c8c2e9fec57eede1c7857d75ebcdcedd779d8",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/25473.json",
+      "updated_at": "2026-10-14T17:15:54+00:00",
+      "pages_total": 4,
+      "pages_done": 0,
+      "failed_pages": [],
+      "model": null,
+      "problem_count": 0,
       "solution_count": 0,
       "matched_count": 0,
       "with_answer": 0,
