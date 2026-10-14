@@ -15,6 +15,20 @@
       "sha256": "5ba9945a8dc14446ea63147dd22c8c2e9fec57eede1c7857d75ebcdcedd779d8"
     },
     {
+      "message_id": 25470,
+      "filename": "2027학년도_이신햑_하프_모의고사_6회_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25470_2027._._._._6._.pdf",
+      "size_bytes": 2894303,
+      "telegram_date": "2026-10-14T15:44:19+00:00",
+      "title": "지1 이신혁 하프 모의고사 6회",
+      "year": "2027",
+      "instructor": "이신혁",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25470.png",
+      "sha256": "6dc1a337046c17eeff6edd7fc390a4832ce15e601161cfc0f2ec273b8b08d6e7"
+    },
+    {
       "message_id": 25398,
       "filename": "디파인_파이널_사문_2회.pdf",
       "stored_as": null,
