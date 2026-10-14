@@ -533,6 +533,20 @@
       "sha256": "c5429fcd7412a59c5ea28b4a204c3129d3b2005a95f85ef8b4f31b3abcdb8fe1"
     },
     {
+      "message_id": 25407,
+      "filename": "현돌 9평 분석서.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25407_.9.pdf",
+      "size_bytes": 74417495,
+      "telegram_date": "2026-10-14T14:37:26+00:00",
+      "title": "생윤 현자의 돌 6, 9평 분석서",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/25407.png",
+      "sha256": "350da3e12ee1f88fcdf8ed87264889e0554f6e3bbb0a95a684f7c0150d6f4477"
+    },
+    {
       "message_id": 25398,
       "filename": "디파인_파이널_사문_2회.pdf",
       "stored_as": null,
