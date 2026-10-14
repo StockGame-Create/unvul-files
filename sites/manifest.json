@@ -143933,6 +143933,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8386.png",
       "sha256": "a54bc0f378f1aa43d4a30e6bc6229f0f2157edc2b9e8393519cb7c52b42efce6"
+    },
+    {
+      "message_id": 8385,
+      "filename": "2025.6.4.-부산교육청-고1-사회탐구-문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8385_2025.6.4.-.-.1-.-.pdf",
+      "size_bytes": 2914820,
+      "telegram_date": "2025-08-11T15:42:41+00:00",
+      "title": "2025.6.4.-부산교육청-고1-사회탐구-문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8385.png",
+      "sha256": "1272f67e5b0273af58033bb89e621a7990328e88d2c34ec57b50a83d84894de5"
     }
   ],
   "duplicate_message_ids": [
