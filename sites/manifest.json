@@ -144619,6 +144619,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8168.png",
       "sha256": "3cbfa59591e0e03758e5cfc8b97358118aa3957af7ef788171918c9e23383b56"
+    },
+    {
+      "message_id": 8091,
+      "filename": "박종민_모의고사_6평대비.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8091_._._6.pdf",
+      "size_bytes": 10183827,
+      "telegram_date": "2025-08-11T15:35:16+00:00",
+      "title": "박종민_모의고사_6평대비",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8091.png",
+      "sha256": "492c67a07756ff9f85fcef5fba0964404ec9175e06d6aed0d1e8f8b533c32fb4"
     }
   ],
   "duplicate_message_ids": [
