@@ -144101,6 +144101,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8372.png",
       "sha256": "19f53db128850e11106f7037bf601e96893d68d72aaa022b458f48933362a44e"
+    },
+    {
+      "message_id": 8371,
+      "filename": "사회_문화_기출분석.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8371_._._.pdf",
+      "size_bytes": 9620123,
+      "telegram_date": "2025-08-11T15:42:37+00:00",
+      "title": "사회_문화_기출분석",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8371.png",
+      "sha256": "8f1964da11c351744f8aa2e82fcfc09d2020a86faa5cf13de6e89595135a0773"
     }
   ],
   "duplicate_message_ids": [
