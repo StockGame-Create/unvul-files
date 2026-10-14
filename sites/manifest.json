@@ -253,6 +253,20 @@
       "sha256": "d9497f839d8d3f9f045d114f9aa2c7bea84ee56951c2f665f325f634067022fb"
     },
     {
+      "message_id": 25451,
+      "filename": "2027_정석준_시즌3_테스트_인간실격L_4회_260728_235317.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25451_2027_._.3_._.L_4._260728_235317.pdf",
+      "size_bytes": 7949617,
+      "telegram_date": "2026-10-14T15:44:00+00:00",
+      "title": "생1 정석준 시즌3 인간실격 모의고사L 1~4회",
+      "year": "2027",
+      "instructor": "정석준",
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/25451.png",
+      "sha256": "f1a0479dc09902b306ba7a66af48d8eae0fc9ee786fdce19cc9d9cdc713e5e54"
+    },
+    {
       "message_id": 25398,
       "filename": "디파인_파이널_사문_2회.pdf",
       "stored_as": null,
