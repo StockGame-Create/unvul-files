@@ -141807,6 +141807,20 @@
       "sha256": "230e8dd4f9af9f213207f0289af87b3d5d7651bfc28e4cd54aae69911c4d44dd"
     },
     {
+      "message_id": 8657,
+      "filename": "2026 김범준 THE HURDLING 미적분 1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8657_2026.THE.HURDLING.1.pdf",
+      "size_bytes": 51963574,
+      "telegram_date": "2025-08-11T15:43:49+00:00",
+      "title": "2026 김범준 THE HURDLING 미적분 1권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8657.png",
+      "sha256": "7fca7545e874b763f8e367873e27372fa9257e3dd33f6d2773c7d52628a5ea71"
+    },
+    {
       "message_id": 8654,
       "filename": "2026 최지욱 Molding 1주차 해설.pdf",
       "stored_as": null,
