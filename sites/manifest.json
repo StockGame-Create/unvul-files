@@ -142017,6 +142017,20 @@
       "sha256": "bf8f1a9f849ce3b83f5f8e3c67d54628b4386f4a1fd33c52504bbadcadc2b873"
     },
     {
+      "message_id": 8632,
+      "filename": "2026 Another class 화학2 PART1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8632_2026.Another.class.2.PART1.pdf",
+      "size_bytes": 97199672,
+      "telegram_date": "2025-08-11T15:43:43+00:00",
+      "title": "2026 Another class 화학2 PART1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8632.png",
+      "sha256": "125000fcb061135d5efd21c779b144c7c5d5bb0b20c6b91b78d27cca14ac6bf1"
+    },
+    {
       "message_id": 8630,
       "filename": "2026 현정훈 STIMPACK 물리학2 시즌1 07.pdf",
       "stored_as": null,
