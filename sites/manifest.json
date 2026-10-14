@@ -144157,6 +144157,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8366.png",
       "sha256": "58e01c138e4d37697805c41d475f6db0044ba41ef56ac76ebb0a4b855e0a922c"
+    },
+    {
+      "message_id": 8363,
+      "filename": "26_6월_모평_국어_정답표.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8363_26_6._._._.pdf",
+      "size_bytes": 50495,
+      "telegram_date": "2025-08-11T15:42:37+00:00",
+      "title": "26_6월_모평_국어_정답표",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8363.png",
+      "sha256": "2abf7b77b9e8c00520053a21324f643e3404baa0ed2b1f9975761a5714ae1488"
     }
   ],
   "duplicate_message_ids": [
