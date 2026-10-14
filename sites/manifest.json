@@ -143877,6 +143877,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8402.png",
       "sha256": "ce73b972d28c4ddb3062a3d96f75afa1d1143cfa198cd4580f496853617585b1"
+    },
+    {
+      "message_id": 8394,
+      "filename": "2026 지인선 x 정병호 수학I+수학II 80제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8394_2026.x.I%2B.II.80.pdf",
+      "size_bytes": 2032559,
+      "telegram_date": "2025-08-11T15:42:41+00:00",
+      "title": "2026 지인선 x 정병호 수학I+수학II 80제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8394.png",
+      "sha256": "bf7e4127ef61d2e23e49c3087626a3271852020071f31752cbd59f974ab44ad0"
     }
   ],
   "duplicate_message_ids": [
