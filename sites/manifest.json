@@ -144507,6 +144507,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8273.png",
       "sha256": "b405143131492b66c1db0a520568c0545d1414c069f519232fe2d435c84be67f"
+    },
+    {
+      "message_id": 8214,
+      "filename": "2025_지구과학_2_나진환_대E변_천체_3권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8214_2025_._2_._.E._._3.pdf",
+      "size_bytes": 39908901,
+      "telegram_date": "2025-08-11T15:35:59+00:00",
+      "title": "2025_지구과학_2_나진환_대E변_천체_3권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8214.png",
+      "sha256": "bf2e50102bdc5a4b9aece39a9b274873cf1aa2993c1b2409b140c6d535bec645"
     }
   ],
   "duplicate_message_ids": [
