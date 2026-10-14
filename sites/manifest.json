@@ -145795,6 +145795,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7711.png",
       "sha256": "4c1841dc17d3e3ff104e48b986378e22917fdaa79410102c3134b1ada2ebff42"
+    },
+    {
+      "message_id": 7708,
+      "filename": "더데유데 시즌0 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7708_.0.3.pdf",
+      "size_bytes": 2407514,
+      "telegram_date": "2025-08-11T15:31:48+00:00",
+      "title": "더데유데 시즌0 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7708.png",
+      "sha256": "52e477e9882a794ad667836a8708742240ec364070b2c41a50f78f715a9c6a6f"
     }
   ],
   "duplicate_message_ids": [
