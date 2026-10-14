@@ -143179,6 +143179,20 @@
       "sha256": "e1e00bd95917657d816eccc88f2fc34666b66b0ef985b2ed96dbed0ac35a8f3e"
     },
     {
+      "message_id": 8471,
+      "filename": "2026 현정훈 STIMPACK 시즌1 7주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8471_2026.STIMPACK.1.7.pdf",
+      "size_bytes": 58742355,
+      "telegram_date": "2025-08-11T15:42:58+00:00",
+      "title": "2026 현정훈 STIMPACK 시즌1 7주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8471.png",
+      "sha256": "94db6377cce8b5540cd2b42f2804066ac4e16abf142d30e6213881482bd1f288"
+    },
+    {
       "message_id": 8466,
       "filename": "2026 현정훈 TREADMILL 개념 Test 6회.pdf",
       "stored_as": null,
