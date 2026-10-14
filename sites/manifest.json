@@ -323,6 +323,20 @@
       "sha256": "d449e58e2c907c92d9e7b8a836de7e6b07306810d677499a9ce20197b318f10c"
     },
     {
+      "message_id": 25444,
+      "filename": "2027_강대k_영어_8회_해설_포함_스캔.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25444_2027_.k_._8._._._.pdf",
+      "size_bytes": 32801633,
+      "telegram_date": "2026-10-14T15:43:52+00:00",
+      "title": "영어 강대모의고사K 8회 #강k",
+      "year": "2027",
+      "instructor": null,
+      "subject": "영어",
+      "thumbnail": "thumbnails/25444.png",
+      "sha256": "3d96fb47dafb900f0b06f6f846f0d4d0005bae5249710e9cac844af6835148a2"
+    },
+    {
       "message_id": 25398,
       "filename": "디파인_파이널_사문_2회.pdf",
       "stored_as": null,
