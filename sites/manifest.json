@@ -491,6 +491,20 @@
       "sha256": "960ce325ec87a5f190fb6482639f78aad6489bbdb9108f28be1f2bb60124b1ef"
     },
     {
+      "message_id": 25416,
+      "filename": "이감 화작 모고 7차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25416_.7.pdf",
+      "size_bytes": 10525527,
+      "telegram_date": "2026-10-14T14:37:36+00:00",
+      "title": "국어 이감 화법과 작문 제7차 예비평가 문제지",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25416.png",
+      "sha256": "3a0b9150dbb6ec9e032a4293ab616592e327cfef32dee154dbe4c9453573e1f2"
+    },
+    {
       "message_id": 25398,
       "filename": "디파인_파이널_사문_2회.pdf",
       "stored_as": null,
