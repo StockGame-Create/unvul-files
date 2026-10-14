@@ -141751,6 +141751,20 @@
       "sha256": "ca77fd5490375ce1b925cec1450b29841ce6957d4b6525bd79b134ff19e01e77"
     },
     {
+      "message_id": 8668,
+      "filename": "2026 최지욱 Arch 수학2+미적분 필기노트 7주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8668_2026.Arch.2%2B.7.pdf",
+      "size_bytes": 20079357,
+      "telegram_date": "2025-08-11T15:43:49+00:00",
+      "title": "2026 최지욱 Arch 수학2+미적분 필기노트 7주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8668.png",
+      "sha256": "0c787465fdc0c93e0d36a4761f11a2ed47ecb63332c8a48864d1177f493013a2"
+    },
+    {
       "message_id": 8654,
       "filename": "2026 최지욱 Molding 1주차 해설.pdf",
       "stored_as": null,
