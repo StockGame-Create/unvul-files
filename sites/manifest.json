@@ -144185,6 +144185,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8361.png",
       "sha256": "923a16e63f28fe1f26d478c6f6bb03306a16072c937671f3b06ca42857a78274"
+    },
+    {
+      "message_id": 8360,
+      "filename": "26_6월_모평_수학_정답표.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8360_26_6._._._.pdf",
+      "size_bytes": 50398,
+      "telegram_date": "2025-08-11T15:42:37+00:00",
+      "title": "26_6월_모평_수학_정답표",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8360.png",
+      "sha256": "d4ad8341f4dd844d610fa6c59ffbc0c29fb0ca62feafd24eabda749fbd421fbf"
     }
   ],
   "duplicate_message_ids": [
