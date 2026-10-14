@@ -142213,6 +142213,20 @@
       "sha256": "64840f85c3c9ca48c3ae9ef0673bbef50e50bed729e41a45531b01465d2d8890"
     },
     {
+      "message_id": 8596,
+      "filename": "2026 강준호 화잘주스 화학2 시즌1 14.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8596_2026.2.1.14.pdf",
+      "size_bytes": 30759583,
+      "telegram_date": "2025-08-11T15:43:39+00:00",
+      "title": "2026 강준호 화잘주스 화학2 시즌1 14",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8596.png",
+      "sha256": "4c727ace9ddedd409dc0dbb2cec7348cd53a5b3b35f7ac7eef4b8858679a4f6c"
+    },
+    {
       "message_id": 8584,
       "filename": "2026 이신혁 복습테스트 시즌1 8주차 해설.pdf",
       "stored_as": null,
