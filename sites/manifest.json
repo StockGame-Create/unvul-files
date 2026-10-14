@@ -144115,6 +144115,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8371.png",
       "sha256": "8f1964da11c351744f8aa2e82fcfc09d2020a86faa5cf13de6e89595135a0773"
+    },
+    {
+      "message_id": 8369,
+      "filename": "사회_문화_개념완성.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8369_._._.pdf",
+      "size_bytes": 10390540,
+      "telegram_date": "2025-08-11T15:42:37+00:00",
+      "title": "사회_문화_개념완성",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8369.png",
+      "sha256": "ac343d4eb2c9341442c599585025287082b19e7f4d6e55baaa1289bb0cd035fc"
     }
   ],
   "duplicate_message_ids": [
