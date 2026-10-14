@@ -145837,6 +145837,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7686.png",
       "sha256": "2fbe6911ee575afefb5e67f0f919c47551998fbaaeab469ca1705ef1f108375a"
+    },
+    {
+      "message_id": 7682,
+      "filename": "EBS final 생명과학1_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7682_EBS.final.1_.pdf",
+      "size_bytes": 3797750,
+      "telegram_date": "2025-08-11T15:31:47+00:00",
+      "title": "EBS final 생명과학1_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7682.png",
+      "sha256": "ef2066523266109b2568928176441997a84a36271c7b8554cf338e39f7f0cc8b"
     }
   ],
   "duplicate_message_ids": [
