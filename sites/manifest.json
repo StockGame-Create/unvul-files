@@ -144759,6 +144759,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7834.png",
       "sha256": "563363d81447f99bcbb6630fe3b662d7f64e53eb6dd4534000aeb8206f50d7eb"
+    },
+    {
+      "message_id": 7833,
+      "filename": "물리 브릿지 5회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7833_.5.pdf",
+      "size_bytes": 5926504,
+      "telegram_date": "2025-08-11T15:32:31+00:00",
+      "title": "물리 브릿지 5회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7833.png",
+      "sha256": "c6f423fb8621667a3a464fdf683d36e2fa364757ccb54f15b8ccc6732c8baa0c"
     }
   ],
   "duplicate_message_ids": [
