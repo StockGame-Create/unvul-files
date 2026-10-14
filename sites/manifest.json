@@ -142675,6 +142675,20 @@
       "sha256": "8d08e8212586f5e54ca70d0ed48e64f9b04ccd9fcf54830aa3daefa6473e7d04"
     },
     {
+      "message_id": 8543,
+      "filename": "2026 이신혁 Apollo 9호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8543_2026.Apollo.9.pdf",
+      "size_bytes": 38521706,
+      "telegram_date": "2025-08-11T15:43:36+00:00",
+      "title": "2026 이신혁 Apollo 9호",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8543.png",
+      "sha256": "831d08bab83af45cee9b8c506535e1c9f9911cd23446a248c9816086c7e781ca"
+    },
+    {
       "message_id": 8524,
       "filename": "2026 변춘수 보조자료 13주차.pdf",
       "stored_as": null,
