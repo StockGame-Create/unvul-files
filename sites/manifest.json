@@ -141835,6 +141835,20 @@
       "sha256": "7b9e662d3837ef70391de0f10ac77f4e3e1a026ee7d625e0a5d19c1c282831d0"
     },
     {
+      "message_id": 8652,
+      "filename": "2025 나진환 SPADE 모의고사 지구과학2 4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8652_2025.SPADE.2.4.pdf",
+      "size_bytes": 10608393,
+      "telegram_date": "2025-08-11T15:43:48+00:00",
+      "title": "2025 나진환 SPADE 모의고사 지구과학2 4회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8652.png",
+      "sha256": "3a470666f1d11dfaa3e7e818cca28204f33332adf135967ba3600928dd9b315a"
+    },
+    {
       "message_id": 8630,
       "filename": "2026 현정훈 STIMPACK 물리학2 시즌1 07.pdf",
       "stored_as": null,
