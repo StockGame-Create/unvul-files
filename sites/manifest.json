@@ -143961,6 +143961,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8384.png",
       "sha256": "37270f81d96fe2713e8d4e6a065d0eb350559b87f74d173eb62426618d2ac84c"
+    },
+    {
+      "message_id": 8383,
+      "filename": "2025.6.4.-부산교육청-고1-수학-문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8383_2025.6.4.-.-.1-.-.pdf",
+      "size_bytes": 345801,
+      "telegram_date": "2025-08-11T15:42:41+00:00",
+      "title": "2025.6.4.-부산교육청-고1-수학-문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8383.png",
+      "sha256": "93166ffd3d2b00df4f1a187f058df2864ccb44164ac4c92424182d2fed71187c"
     }
   ],
   "duplicate_message_ids": [
