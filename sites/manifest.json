@@ -547,6 +547,20 @@
       "sha256": "350da3e12ee1f88fcdf8ed87264889e0554f6e3bbb0a95a684f7c0150d6f4477"
     },
     {
+      "message_id": 25404,
+      "filename": "김승모 7회 언매.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25404_.7.pdf",
+      "size_bytes": 19385917,
+      "telegram_date": "2026-10-14T14:37:24+00:00",
+      "title": "국어 김승리 실전 모의고사 7회 (언매) #김승모",
+      "year": "2027",
+      "instructor": "김승리",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25404.png",
+      "sha256": "4304804ec794c02eaccbf03f580e77ac73a8201a59bc1928da3e8081f807d36e"
+    },
+    {
       "message_id": 25398,
       "filename": "디파인_파이널_사문_2회.pdf",
       "stored_as": null,
