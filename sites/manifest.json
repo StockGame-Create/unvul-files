@@ -142409,6 +142409,20 @@
       "sha256": "c0bcd8e5259403b0955ffc246ef3b720e1e27071457538c0bf8ccb5043907e39"
     },
     {
+      "message_id": 8572,
+      "filename": "2026 현정훈 STIMPACK 시즌1 04.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8572_2026.STIMPACK.1.04.pdf",
+      "size_bytes": 39856682,
+      "telegram_date": "2025-08-11T15:43:38+00:00",
+      "title": "2026 현정훈 STIMPACK 시즌1 04",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8572.png",
+      "sha256": "5f738316ee4d1241c4ec60d27bd7dc7f8a5aecd183d024d1b5ebd647aab0f79e"
+    },
+    {
       "message_id": 8557,
       "filename": "2026 이신혁 모의평가 ON 시즌1 2회.pdf",
       "stored_as": null,
