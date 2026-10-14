@@ -142549,6 +142549,20 @@
       "sha256": "680836c93fdc038c0ef999aa1b068535d045e5bd25d69b6cded16e8f35b09147"
     },
     {
+      "message_id": 8555,
+      "filename": "2026 이신혁 Apollo 11호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8555_2026.Apollo.11.pdf",
+      "size_bytes": 40267554,
+      "telegram_date": "2025-08-11T15:43:37+00:00",
+      "title": "2026 이신혁 Apollo 11호",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8555.png",
+      "sha256": "22ab6b0c324652013909cc7782ebe8b22cd2c97695929819ce1dc06027447909"
+    },
+    {
       "message_id": 8541,
       "filename": "2026 이신혁 Apollo 6~9호 정오사항.pdf",
       "stored_as": null,
