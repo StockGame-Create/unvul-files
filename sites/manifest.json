@@ -144871,6 +144871,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7760.png",
       "sha256": "bad31689400bd156dccc4a3b8f223c9dc7aee3d88a683e274acd29250d37b205"
+    },
+    {
+      "message_id": 7759,
+      "filename": "2024_생2_오르비_디올_6월_평가원_대비_디올_모의_1회문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7759_2024_.2_._._6._._._._._1.pdf",
+      "size_bytes": 3004544,
+      "telegram_date": "2025-08-11T15:32:18+00:00",
+      "title": "2024_생2_오르비_디올_6월_평가원_대비_디올_모의_1회문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7759.png",
+      "sha256": "912b59e9914106494b64f87a1b0abb1c0736f01497565e02325c38da4ea7e119"
     }
   ],
   "duplicate_message_ids": [
