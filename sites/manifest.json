@@ -145963,6 +145963,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7668.png",
       "sha256": "5ec015dfbf141e6a3378ca32706ab98fe3517da5f8f3fc601dd0623c93cce70f"
+    },
+    {
+      "message_id": 7665,
+      "filename": "시발점 대수 워크북.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7665_.pdf",
+      "size_bytes": 69542018,
+      "telegram_date": "2025-08-11T15:31:46+00:00",
+      "title": "시발점 대수 워크북",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7665.png",
+      "sha256": "016c6152c619fd9908258d77d54bcaf1d40cf3a8256d3a25a31994db16c6c760"
     }
   ],
   "duplicate_message_ids": [
