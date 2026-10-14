@@ -421,6 +421,20 @@
       "sha256": "3c28e3eff7007daaa720cd9d7bf5775b7d7bfb121814c64a4f015dcb1706ddea"
     },
     {
+      "message_id": 25430,
+      "filename": "이동준 엣지 모의고사 1~3회 (빠답.해설O).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25430_.1.3.O.pdf",
+      "size_bytes": 31339768,
+      "telegram_date": "2026-10-14T14:37:53+00:00",
+      "title": "수학 이동준 저스트 모의고사 EDGE 파이널 1~3회",
+      "year": "2027",
+      "instructor": "이동준",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25430.png",
+      "sha256": "f0ce6b0de5389b3564eb4be4f3d024da7ff2791a9f8579c6c450c356e571feaf"
+    },
+    {
       "message_id": 25398,
       "filename": "디파인_파이널_사문_2회.pdf",
       "stored_as": null,
