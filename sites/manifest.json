@@ -144605,6 +144605,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8169.png",
       "sha256": "91949ebe0dbcb7a0debe01bd46e23527980e4cfa50970d96b118135cca513956"
+    },
+    {
+      "message_id": 8168,
+      "filename": "2026학년도_EBS_수능특강_사회탐구영역_생활과_윤리_본문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8168_2026._EBS_._._._._.pdf",
+      "size_bytes": 5138785,
+      "telegram_date": "2025-08-11T15:35:48+00:00",
+      "title": "2026학년도_EBS_수능특강_사회탐구영역_생활과_윤리_본문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8168.png",
+      "sha256": "3cbfa59591e0e03758e5cfc8b97358118aa3957af7ef788171918c9e23383b56"
     }
   ],
   "duplicate_message_ids": [
