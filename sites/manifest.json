@@ -144171,6 +144171,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8363.png",
       "sha256": "2abf7b77b9e8c00520053a21324f643e3404baa0ed2b1f9975761a5714ae1488"
+    },
+    {
+      "message_id": 8361,
+      "filename": "26 6월 모평 수학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8361_26.6.pdf",
+      "size_bytes": 1532148,
+      "telegram_date": "2025-08-11T15:42:37+00:00",
+      "title": "26 6월 모평 수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8361.png",
+      "sha256": "923a16e63f28fe1f26d478c6f6bb03306a16072c937671f3b06ca42857a78274"
     }
   ],
   "duplicate_message_ids": [
