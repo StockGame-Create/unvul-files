@@ -144731,6 +144731,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7836.png",
       "sha256": "d2cb34858db6d2c76c213aa70f3dca45f7084181eb5aedba1d08d3d259a7a7a1"
+    },
+    {
+      "message_id": 7835,
+      "filename": "물리 브릿지 7회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7835_.7.pdf",
+      "size_bytes": 11119691,
+      "telegram_date": "2025-08-11T15:32:31+00:00",
+      "title": "물리 브릿지 7회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7835.png",
+      "sha256": "d01eb0dcf1a4b77a975c3e032c1096b061fc21565af1da129a110cab6293f5cd"
     }
   ],
   "duplicate_message_ids": [
