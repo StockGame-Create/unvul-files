@@ -145865,6 +145865,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7681.png",
       "sha256": "66da51ef383a88f6aae9d15a1246e73c47ec808d70386239212da8b77721751d"
+    },
+    {
+      "message_id": 7679,
+      "filename": "2026_수학_한석원_펀더멘탈_미적분_pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7679_2026_._._._._pdf.pdf",
+      "size_bytes": 37109804,
+      "telegram_date": "2025-08-11T15:31:46+00:00",
+      "title": "2026_수학_한석원_펀더멘탈_미적분_pdf",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7679.png",
+      "sha256": "9d84c1b536d81937ce446634af04cc9906bedae3033f4d1cf9cca6a3d3a339b5"
     }
   ],
   "duplicate_message_ids": [
