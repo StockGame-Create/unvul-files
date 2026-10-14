@@ -144017,6 +144017,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8378.png",
       "sha256": "5563e9beb4341abd05e64f94eca990e2039ae77da8afc52965dee9d05d37df40"
+    },
+    {
+      "message_id": 8377,
+      "filename": "2025.6.4.-부산교육청-고2-수학-문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8377_2025.6.4.-.-.2-.-.pdf",
+      "size_bytes": 918637,
+      "telegram_date": "2025-08-11T15:42:38+00:00",
+      "title": "2025.6.4.-부산교육청-고2-수학-문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8377.png",
+      "sha256": "7b87948543ac5d6c01ed9abcd8e29a5b9b9ad11f03635579301b32367eb49127"
     }
   ],
   "duplicate_message_ids": [
