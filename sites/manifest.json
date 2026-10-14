@@ -144227,6 +144227,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8334.png",
       "sha256": "9cac821414784eac9004e3451f006ba5005a3d4e253b2a99c448a9dd7508f9b4"
+    },
+    {
+      "message_id": 8329,
+      "filename": "2026 시대인재 브릿지 동아시아사 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8329_2026.1.pdf",
+      "size_bytes": 10217092,
+      "telegram_date": "2025-08-11T15:42:35+00:00",
+      "title": "2026 시대인재 브릿지 동아시아사 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8329.png",
+      "sha256": "29e459bb375410d7992e97e1ec7f4afdf9ff583a19aeccd8776e134453a0f07d"
     }
   ],
   "duplicate_message_ids": [
