@@ -144129,6 +144129,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8369.png",
       "sha256": "ac343d4eb2c9341442c599585025287082b19e7f4d6e55baaa1289bb0cd035fc"
+    },
+    {
+      "message_id": 8368,
+      "filename": "서킷 12회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8368_.12.pdf",
+      "size_bytes": 11484458,
+      "telegram_date": "2025-08-11T15:42:37+00:00",
+      "title": "서킷 12회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8368.png",
+      "sha256": "3c02c8cce55c1c4cfa9544bbef7f64ed674722b8ea43b97517fd239a45a7cd02"
     }
   ],
   "duplicate_message_ids": [
