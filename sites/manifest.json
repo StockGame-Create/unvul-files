@@ -144801,6 +144801,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7831.png",
       "sha256": "4f705c5eb0d9d5a3c5c04da6e0f35cd33aa0d8eb1dbcbb73e918e92efefd4558"
+    },
+    {
+      "message_id": 7776,
+      "filename": "2026_윤성훈_사문_개념.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7776_2026_._._.pdf",
+      "size_bytes": 35532467,
+      "telegram_date": "2025-08-11T15:32:18+00:00",
+      "title": "2026_윤성훈_사문_개념",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7776.png",
+      "sha256": "7c530ffc48a6931f73923161ea4017ca498714c6f877a45749c762cee4072fe5"
     }
   ],
   "duplicate_message_ids": [
