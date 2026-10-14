@@ -142409,6 +142409,20 @@
       "sha256": "d1500c686f1a8be68bb06406da723f6743f9ee633948f231d99e22c60ab7d498"
     },
     {
+      "message_id": 8675,
+      "filename": "2026 강철중 플레이리스트 1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8675_2026.1.pdf",
+      "size_bytes": 104908030,
+      "telegram_date": "2025-08-11T15:43:49+00:00",
+      "title": "2026 강철중 플레이리스트 1권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8675.png",
+      "sha256": "d0af757ae119ef2532e05b3e7b7d9af9bc6d80dd7b1902593962f61c4cc1e47d"
+    },
+    {
       "message_id": 8654,
       "filename": "2026 최지욱 Molding 1주차 해설.pdf",
       "stored_as": null,
