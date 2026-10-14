@@ -144815,6 +144815,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7776.png",
       "sha256": "7c530ffc48a6931f73923161ea4017ca498714c6f877a45749c762cee4072fe5"
+    },
+    {
+      "message_id": 7772,
+      "filename": "2026_6평_예열지문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7772_2026_6._.pdf",
+      "size_bytes": 1915336,
+      "telegram_date": "2025-08-11T15:32:18+00:00",
+      "title": "2026_6평_예열지문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7772.png",
+      "sha256": "a198e49d13a1eeca014dcf7616f3dda09ba466cd501b13896dd03e0acfdfd7e7"
     }
   ],
   "duplicate_message_ids": [
