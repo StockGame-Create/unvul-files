@@ -144213,6 +144213,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8359.png",
       "sha256": "004dfd2cd12ffe07e10410c7ae15406abf7cf9a7b5952d672fbf143b1e549b58"
+    },
+    {
+      "message_id": 8334,
+      "filename": "2026학년도 6월 평가원 모의고사-수학-문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8334_2026.6.-.-.pdf",
+      "size_bytes": 1170371,
+      "telegram_date": "2025-08-11T15:42:35+00:00",
+      "title": "2026학년도 6월 평가원 모의고사-수학-문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8334.png",
+      "sha256": "9cac821414784eac9004e3451f006ba5005a3d4e253b2a99c448a9dd7508f9b4"
     }
   ],
   "duplicate_message_ids": [
