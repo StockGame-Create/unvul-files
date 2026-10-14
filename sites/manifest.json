@@ -519,6 +519,20 @@
       "sha256": "af8c94c9f1c10aa31715b0cb9d26a309e678b9e323d783f562f4e79cd67bb1e8"
     },
     {
+      "message_id": 25409,
+      "filename": "8월 서프 사탐 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25409_8.pdf",
+      "size_bytes": 5742446,
+      "telegram_date": "2026-10-14T14:37:27+00:00",
+      "title": "사회 시대인재 8, 10월 전국모의평가 #서프",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회탐구",
+      "thumbnail": "thumbnails/25409.png",
+      "sha256": "c5429fcd7412a59c5ea28b4a204c3129d3b2005a95f85ef8b4f31b3abcdb8fe1"
+    },
+    {
       "message_id": 25398,
       "filename": "디파인_파이널_사문_2회.pdf",
       "stored_as": null,
