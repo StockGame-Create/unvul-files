@@ -144983,6 +144983,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7748.png",
       "sha256": "e8ed7085cc2a15eb85dd5ec3e4916d16a55f7c4f3a9efd8566731c9d2c3e9c32"
+    },
+    {
+      "message_id": 7747,
+      "filename": "드릴5 수학Ⅰ 워크북.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7747_.5.pdf",
+      "size_bytes": 65291806,
+      "telegram_date": "2025-08-11T15:32:17+00:00",
+      "title": "드릴5 수학Ⅰ 워크북",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7747.png",
+      "sha256": "babd974f67460f0d75f01d0fb880440271f3a5ec7d1f55d3701fed9ca7bae3c5"
     }
   ],
   "duplicate_message_ids": [
