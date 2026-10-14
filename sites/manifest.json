@@ -144059,6 +144059,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8375.png",
       "sha256": "b5cc67dc8e5d5c0d42eca6ce221d393e90a42822f08aa13199840369c0bebd4a"
+    },
+    {
+      "message_id": 8374,
+      "filename": "2026학년도 6월 평가원 모의고사-영어-정답표.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8374_2026.6.-.-.pdf",
+      "size_bytes": 45513,
+      "telegram_date": "2025-08-11T15:42:38+00:00",
+      "title": "2026학년도 6월 평가원 모의고사-영어-정답표",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8374.png",
+      "sha256": "1b72358ff5e41a6fcf20621fdb04dd8700db066d9603e190591ffae2eb6d3438"
     }
   ],
   "duplicate_message_ids": [
