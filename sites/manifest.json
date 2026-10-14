@@ -145725,6 +145725,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7719.png",
       "sha256": "0d9a4fc25510a5ce33f8be82521b16a03888605dd48770df3833f3acaa87c9e7"
+    },
+    {
+      "message_id": 7718,
+      "filename": "에스컬레이드 B형.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7718_.B.pdf",
+      "size_bytes": 9799935,
+      "telegram_date": "2025-08-11T15:32:15+00:00",
+      "title": "에스컬레이드 B형",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7718.png",
+      "sha256": "926628e60c2e8e32abb3c16fbbcdd81c205f7bc81c917043885c89c351294da1"
     }
   ],
   "duplicate_message_ids": [
