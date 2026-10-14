@@ -155,6 +155,20 @@
       "sha256": "514f852c8723ce67a8bc67e8b26a175f8fabdd955410b5c28bb2f91486de8f93"
     },
     {
+      "message_id": 25460,
+      "filename": "BOB 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25460_BOB.6.pdf",
+      "size_bytes": 4891766,
+      "telegram_date": "2026-10-14T15:44:10+00:00",
+      "title": "화1 김준 BOB 모의고사 1~10회",
+      "year": "2027",
+      "instructor": "김준",
+      "subject": "화학1",
+      "thumbnail": "thumbnails/25460.png",
+      "sha256": "68f9d274984f1c6948d17e181755d91850e45687404f46e3a3224e27fb3f8078"
+    },
+    {
       "message_id": 25398,
       "filename": "디파인_파이널_사문_2회.pdf",
       "stored_as": null,
