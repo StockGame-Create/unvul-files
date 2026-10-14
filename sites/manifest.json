@@ -143905,6 +143905,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8392.png",
       "sha256": "db264b9d4bc22b911e4c02808069a995dd5a009ad5c239c328534a9fe4f68497"
+    },
+    {
+      "message_id": 8391,
+      "filename": "2026 상상 모의고사 시즌3 3회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8391_2026.3.3.pdf",
+      "size_bytes": 8170798,
+      "telegram_date": "2025-08-11T15:42:41+00:00",
+      "title": "2026 상상 모의고사 시즌3 3회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8391.png",
+      "sha256": "c7226ad4338f66e03deab1f1666ee5c73d7aa520f9e5a1a03b4ee53871022d4e"
     }
   ],
   "duplicate_message_ids": [
