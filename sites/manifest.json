@@ -145081,6 +145081,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7739.png",
       "sha256": "b2949442288a48802ec890d5c601086ee18f2f91422bfd77bceadea87b941e45"
+    },
+    {
+      "message_id": 7738,
+      "filename": "2025 미적 허들링 10주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7738_2025.10.pdf",
+      "size_bytes": 3340319,
+      "telegram_date": "2025-08-11T15:32:16+00:00",
+      "title": "2025 미적 허들링 10주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7738.png",
+      "sha256": "b053ed62a118fe4fe8ea3cbc9e2417344362c62c455143f40b731339da9704bf"
     }
   ],
   "duplicate_message_ids": [
