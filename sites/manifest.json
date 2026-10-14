@@ -145039,6 +145039,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7744.png",
       "sha256": "4c490c837eb9dbe0c469562a8c0c0839990d26dad491d989b4956cebf9c62e78"
+    },
+    {
+      "message_id": 7742,
+      "filename": "2026_빅포텐_시즌1_수2_문제_및_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7742_2026_._.1_.2_._._.pdf",
+      "size_bytes": 44603503,
+      "telegram_date": "2025-08-11T15:32:17+00:00",
+      "title": "2026_빅포텐_시즌1_수2_문제_및_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7742.png",
+      "sha256": "8a25e6da949d1c50a7825b0eded09ab3cb7c11e155487441b620abee947ac3b0"
     }
   ],
   "duplicate_message_ids": [
