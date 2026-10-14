@@ -145067,6 +145067,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7741.png",
       "sha256": "167239b981bd3d5eb634b6ffd30caa76e93385f01228dc4eae261503a5cb5a0a"
+    },
+    {
+      "message_id": 7739,
+      "filename": "허들링 미적 10주차 손필기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7739_.10.pdf",
+      "size_bytes": 5275616,
+      "telegram_date": "2025-08-11T15:32:16+00:00",
+      "title": "허들링 미적 10주차 손필기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7739.png",
+      "sha256": "b2949442288a48802ec890d5c601086ee18f2f91422bfd77bceadea87b941e45"
     }
   ],
   "duplicate_message_ids": [
