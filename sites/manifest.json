@@ -145109,6 +145109,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7737.png",
       "sha256": "91131b087f4de55b64c4d8cac12363004f11ade5a863862dece1b0474a6224f1"
+    },
+    {
+      "message_id": 7722,
+      "filename": "에스컬레이드_T형_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7722_._T._.pdf",
+      "size_bytes": 3130327,
+      "telegram_date": "2025-08-11T15:32:16+00:00",
+      "title": "에스컬레이드_T형_답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7722.png",
+      "sha256": "2708ee353cf92a4f2bca913dc05ef8a081d68d70e0c69411a7df0299bbd0f0a9"
     }
   ],
   "duplicate_message_ids": [
