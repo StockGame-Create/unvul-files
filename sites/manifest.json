@@ -142353,6 +142353,20 @@
       "sha256": "6a8591af59e6f70d53ab60190613c8ff0d18fdf9adf8c435eaa651b0e83d6ba6"
     },
     {
+      "message_id": 8582,
+      "filename": "2026 이신혁 Apollo 7호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8582_2026.Apollo.7.pdf",
+      "size_bytes": 81147478,
+      "telegram_date": "2025-08-11T15:43:38+00:00",
+      "title": "2026 이신혁 Apollo 7호",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8582.png",
+      "sha256": "413c8c34b9a969813bfdd99ee685471b170331e9531ae68bccfb716a99c38f9e"
+    },
+    {
       "message_id": 8557,
       "filename": "2026 이신혁 모의평가 ON 시즌1 2회.pdf",
       "stored_as": null,
