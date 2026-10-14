@@ -505,6 +505,20 @@
       "sha256": "3a0b9150dbb6ec9e032a4293ab616592e327cfef32dee154dbe4c9453573e1f2"
     },
     {
+      "message_id": 25414,
+      "filename": "사만다_모의고사_사회_문화_3회분_해설,모의고사_원본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25414_._._._._3._._.pdf",
+      "size_bytes": 19807536,
+      "telegram_date": "2026-10-14T14:37:34+00:00",
+      "title": "사문 사만다 모의고사 시즌3 1~3회 (인쇄소퀄)",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25414.png",
+      "sha256": "af8c94c9f1c10aa31715b0cb9d26a309e678b9e323d783f562f4e79cd67bb1e8"
+    },
+    {
       "message_id": 25398,
       "filename": "디파인_파이널_사문_2회.pdf",
       "stored_as": null,
