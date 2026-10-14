@@ -144339,6 +144339,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8312.png",
       "sha256": "7558f14f7bbfb924fe7651027e51273d61c98af83efc78560ebdcd9bad8ff8ea"
+    },
+    {
+      "message_id": 8309,
+      "filename": "시대인재장재원6모대비모의고사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8309_.6.pdf",
+      "size_bytes": 6369767,
+      "telegram_date": "2025-08-11T15:42:34+00:00",
+      "title": "2026 장재원 6월 BROKER모의고사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8309.png",
+      "sha256": "71e78309e82a61065bd6d7a03831709974df2ce99a219a08f4ec74312a0db266"
     }
   ],
   "duplicate_message_ids": [
