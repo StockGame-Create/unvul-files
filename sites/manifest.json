@@ -144031,6 +144031,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8377.png",
       "sha256": "7b87948543ac5d6c01ed9abcd8e29a5b9b9ad11f03635579301b32367eb49127"
+    },
+    {
+      "message_id": 8376,
+      "filename": "2025.6.4.-부산교육청-고2-영어듣기대본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8376_2025.6.4.-.-.2-.pdf",
+      "size_bytes": 142905,
+      "telegram_date": "2025-08-11T15:42:38+00:00",
+      "title": "2025.6.4.-부산교육청-고2-영어듣기대본",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8376.png",
+      "sha256": "23a8d98c7d70d9a70ed7ff0f27a36136a95df8849495424d26b1c97a674aff7a"
     }
   ],
   "duplicate_message_ids": [
