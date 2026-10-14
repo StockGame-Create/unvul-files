@@ -142745,6 +142745,20 @@
       "sha256": "4e34a6ddfd9b223a5dcd3872a6decd15546b8f043eeaa709f47e366b8b0ee46b"
     },
     {
+      "message_id": 8529,
+      "filename": "2026 3월 학력평가 대비 변춘수 모의고사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8529_2026.3.pdf",
+      "size_bytes": 7169023,
+      "telegram_date": "2025-08-11T15:43:36+00:00",
+      "title": "2026 3월 학력평가 대비 변춘수 모의고사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8529.png",
+      "sha256": "655721c9c43a1b850588a67690756623aedcc32fe44beb45e8adba4763b7bec2"
+    },
+    {
       "message_id": 8524,
       "filename": "2026 변춘수 보조자료 13주차.pdf",
       "stored_as": null,
