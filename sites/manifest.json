@@ -141975,6 +141975,20 @@
       "sha256": "879de08b8ae8310bd3f819ad88059b669f1cc4a687155e596723fe828929f22b"
     },
     {
+      "message_id": 8635,
+      "filename": "2026 강준호 화잘주스 화학2 시즌1 13.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8635_2026.2.1.13.pdf",
+      "size_bytes": 25246236,
+      "telegram_date": "2025-08-11T15:43:43+00:00",
+      "title": "2026 강준호 화잘주스 화학2 시즌1 13",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8635.png",
+      "sha256": "1cc7cb798489ca74858500359e2a35d543dedf2e095401519241dbd1d25f7950"
+    },
+    {
       "message_id": 8630,
       "filename": "2026 현정훈 STIMPACK 물리학2 시즌1 07.pdf",
       "stored_as": null,
