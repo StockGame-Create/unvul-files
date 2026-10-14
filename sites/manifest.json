@@ -145013,6 +145013,20 @@
       "sha256": "18dbcdb06efac717b52ba6cfaa07a4eafadf85b148f46d6e06616f54f2b0b91f"
     },
     {
+      "message_id": 8321,
+      "filename": "지2 엣지 2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8321_.2.2.pdf",
+      "size_bytes": 151972764,
+      "telegram_date": "2025-08-11T15:42:35+00:00",
+      "title": "지2 엣지 2권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8321.png",
+      "sha256": "a5dc38a1cd563e152f69991ee98b5cffb8ead21abbb2c4c85609a1eebcc68094"
+    },
+    {
       "message_id": 8316,
       "filename": "미친기분_미적분_완성편.pdf",
       "stored_as": null,
