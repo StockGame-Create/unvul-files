@@ -239,6 +239,20 @@
       "sha256": "f9816ddafa3a65a58c379b48131202347331e267fb50f8c89f2992540690d483"
     },
     {
+      "message_id": 25453,
+      "filename": "Scan.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25453_Scan.pdf",
+      "size_bytes": 11677079,
+      "telegram_date": "2026-10-14T15:44:02+00:00",
+      "title": "윤사 임정환 REAL TRAINING 모의고사 1회",
+      "year": "2027",
+      "instructor": "임정환",
+      "subject": "윤리와사상",
+      "thumbnail": "thumbnails/25453.png",
+      "sha256": "d9497f839d8d3f9f045d114f9aa2c7bea84ee56951c2f665f325f634067022fb"
+    },
+    {
       "message_id": 25398,
       "filename": "디파인_파이널_사문_2회.pdf",
       "stored_as": null,
