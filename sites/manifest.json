@@ -142073,6 +142073,20 @@
       "sha256": "84bfaf596ef073b70a39ed990551977f74d5acaf56e1619e1922de40c9f8958b"
     },
     {
+      "message_id": 8628,
+      "filename": "2026 강대 CRUX 화학2 VOL.4.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8628_2026.CRUX.2.VOL.4.pdf",
+      "size_bytes": 62063718,
+      "telegram_date": "2025-08-11T15:43:42+00:00",
+      "title": "2026 강대 CRUX 화학2 VOL.4",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8628.png",
+      "sha256": "d22a867743ce3284fda1d7f3cb20b82aef819a20632bcbd1ab6ee0a974f448aa"
+    },
+    {
       "message_id": 8594,
       "filename": "2026 현정훈 STIMPACK 물리학2 시즌1 08.pdf",
       "stored_as": null,
