@@ -144563,6 +144563,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8211.png",
       "sha256": "829778bdcf2fef94567b0dcc4baacb8a37fb8b22d4ec8f2408fd82d4dd70ab22"
+    },
+    {
+      "message_id": 8209,
+      "filename": "2025_지구과학_2_나진환_CLOVER_N_천체_1편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8209_2025_._2_._CLOVER_N_._1.pdf",
+      "size_bytes": 42192570,
+      "telegram_date": "2025-08-11T15:35:58+00:00",
+      "title": "2025_지구과학_2_나진환_CLOVER_N_천체_1편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8209.png",
+      "sha256": "969d8f0bdf38dbc274a37a8a51b8ef38d68a43e0d043feae6319e3cf702670ce"
     }
   ],
   "duplicate_message_ids": [
