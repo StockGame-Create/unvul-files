@@ -146005,6 +146005,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7663.png",
       "sha256": "acd3bb0dbbec6378c44ec194310883dee8f2960eaa5f622ec1b5654b890507c1"
+    },
+    {
+      "message_id": 7661,
+      "filename": "시발점 미적분(하) 워크북.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7661_.pdf",
+      "size_bytes": 23573960,
+      "telegram_date": "2025-08-11T15:31:43+00:00",
+      "title": "시발점 미적분(하) 워크북",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7661.png",
+      "sha256": "cb2bf24e63ce772bdfb82f310b326eef699430148f1e417c2e21175fd187b9d0"
     }
   ],
   "duplicate_message_ids": [
