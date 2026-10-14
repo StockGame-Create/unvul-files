@@ -144857,6 +144857,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7761.png",
       "sha256": "c69dc7ac49f3eaa78cc660cc027036c590c5a3ada3d15826bac34a1389ae1547"
+    },
+    {
+      "message_id": 7760,
+      "filename": "2025_생2_오르비_디올_6월_모의평가_대비_TAC_모의_1회문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7760_2025_.2_._._6._._._TAC_._1.pdf",
+      "size_bytes": 3002897,
+      "telegram_date": "2025-08-11T15:32:18+00:00",
+      "title": "2025_생2_오르비_디올_6월_모의평가_대비_TAC_모의_1회문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7760.png",
+      "sha256": "bad31689400bd156dccc4a3b8f223c9dc7aee3d88a683e274acd29250d37b205"
     }
   ],
   "duplicate_message_ids": [
