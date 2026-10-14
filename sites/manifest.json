@@ -144269,6 +144269,20 @@
       "subject": null,
       "thumbnail": "thumbnails/8322.png",
       "sha256": "e9abc32bf10b39075362328ec859de96b486dd6fdad3f656fd44ecb769e6a965"
+    },
+    {
+      "message_id": 8316,
+      "filename": "미친기분_미적분_완성편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/8316_._._.pdf",
+      "size_bytes": 63144772,
+      "telegram_date": "2025-08-11T15:42:34+00:00",
+      "title": "미친기분_미적분_완성편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/8316.png",
+      "sha256": "fa66c387cec156e8622169abef986f57bad51d5dc59db43c92dcd0947f0b444e"
     }
   ],
   "duplicate_message_ids": [
