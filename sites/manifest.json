@@ -145809,6 +145809,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7708.png",
       "sha256": "52e477e9882a794ad667836a8708742240ec364070b2c41a50f78f715a9c6a6f"
+    },
+    {
+      "message_id": 7693,
+      "filename": "강e분_문학_N제_시즌1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7693_.e._._N._.1.pdf",
+      "size_bytes": 43908137,
+      "telegram_date": "2025-08-11T15:31:48+00:00",
+      "title": "강e분_문학_N제_시즌1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7693.png",
+      "sha256": "488873d1140e61fdaf3243c7f5f56c1358e81c305aa9dda4525b0f7801c3f980"
     }
   ],
   "duplicate_message_ids": [
