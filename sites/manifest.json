@@ -145781,6 +145781,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7715.png",
       "sha256": "59c4cfbb62135d39bce818829c937d0ff591cca3753b441d8aa0dfb66ce220a5"
+    },
+    {
+      "message_id": 7711,
+      "filename": "Midday_1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7711_Midday_1.pdf",
+      "size_bytes": 21532684,
+      "telegram_date": "2025-08-11T15:31:49+00:00",
+      "title": "박선 MIDDAY 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7711.png",
+      "sha256": "4c1841dc17d3e3ff104e48b986378e22917fdaa79410102c3134b1ada2ebff42"
     }
   ],
   "duplicate_message_ids": [
