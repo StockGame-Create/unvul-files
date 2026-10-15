@@ -281,6 +281,20 @@
       "sha256": "b806ef18c0ba79a8b560700956b28f8e5ef10a20cb98384f0fce6dfdc357cb7e"
     },
     {
+      "message_id": 25500,
+      "filename": "종로.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25500_.pdf",
+      "size_bytes": 5167943,
+      "telegram_date": "2026-10-15T14:54:55+00:00",
+      "title": "생윤 종로 8월 전국연합 학력평가",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/25500.png",
+      "sha256": "f0ddaf367b9501bb609b41a3f4505e93c40f7e199d2e31e123ad2e22b9b0bd52"
+    },
+    {
       "message_id": 25473,
       "filename": "서바이벌 20회.pdf",
       "stored_as": null,
