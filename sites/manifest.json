@@ -309,6 +309,20 @@
       "sha256": "1d52415ca10fea91ac72de0a39d33b243c1a0ba2e595b113df01e2a470232d22"
     },
     {
+      "message_id": 25498,
+      "filename": "2027 바탕 모의고사 9회 정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25498_2027.9.pdf",
+      "size_bytes": 63047703,
+      "telegram_date": "2026-10-15T14:54:49+00:00",
+      "title": "국어 바탕 9회 모의고사 #바탕",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25498.png",
+      "sha256": "df6726d34a6e03bbb1226b4fee21913bc5eb2c1a1a23065d4be12f8b66b5cef8"
+    },
+    {
       "message_id": 25473,
       "filename": "서바이벌 20회.pdf",
       "stored_as": null,
