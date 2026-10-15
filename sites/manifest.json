@@ -147951,6 +147951,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7561.png",
       "sha256": "e82083d597e9fa711af77326ff46e0ba310083018f062453d5440e87c223cf44"
+    },
+    {
+      "message_id": 7560,
+      "filename": "2026_이훈식_솔텍_N제_해설편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7560_2026_._._N._.pdf",
+      "size_bytes": 22365713,
+      "telegram_date": "2025-08-11T15:30:46+00:00",
+      "title": "2026_이훈식_솔텍_N제_해설편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7560.png",
+      "sha256": "7fa578e263f920e9345a9e15cde6b1ff48d9ae48febaa999de559decf067a3f2"
     }
   ],
   "duplicate_message_ids": [
