@@ -57,6 +57,20 @@
       "sha256": "c520912413a15b221dd1584eade3c4aa59064e0d0494d7d81af29abb273d2c72"
     },
     {
+      "message_id": 25520,
+      "filename": "10덮 사탐.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25520_10.pdf",
+      "size_bytes": 12859231,
+      "telegram_date": "2026-10-15T14:55:15+00:00",
+      "title": "사회 THE PREMIUM 10월 모의고사, 해설(+빠답) #더프",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회탐구",
+      "thumbnail": "thumbnails/25520.png",
+      "sha256": "d9624b18cbd44d90faa90a2759ac93ab07c91ecc351099431282eb66efaff643"
+    },
+    {
       "message_id": 25473,
       "filename": "서바이벌 20회.pdf",
       "stored_as": null,
