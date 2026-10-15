@@ -148035,6 +148035,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7545.png",
       "sha256": "1d7f8765bc5a01d27109ebc59bd9b78cc09dd198eae08dd5e334f06cf94f683a"
+    },
+    {
+      "message_id": 7542,
+      "filename": "김승리T_현장전용_찌라시1_자료.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7542_.T_._.1_.pdf",
+      "size_bytes": 12565679,
+      "telegram_date": "2025-08-11T15:30:40+00:00",
+      "title": "김승리T_현장전용_찌라시1_자료",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7542.png",
+      "sha256": "b96878797d6cfbd0058ecda6179d0375a73d6548848e9afa94fafec27b1d4451"
     }
   ],
   "duplicate_message_ids": [
