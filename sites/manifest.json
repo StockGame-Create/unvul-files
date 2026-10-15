@@ -435,6 +435,20 @@
       "sha256": "a486f7f6a989f855ce5f6745c5d092df7a8987f2778c383069c11f73c5ba47ed"
     },
     {
+      "message_id": 25482,
+      "filename": "2027_시대인재_수학_서바이벌_19회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25482_2027_._._._19._.pdf",
+      "size_bytes": 22453071,
+      "telegram_date": "2026-10-15T14:54:31+00:00",
+      "title": "수학 시대인재 서바이벌 모의고사 19회 #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25482.png",
+      "sha256": "559f6d7aa7f9e9e86e5be27d043409b03cb9562d8c46571898b35909dc4418ba"
+    },
+    {
       "message_id": 25473,
       "filename": "서바이벌 20회.pdf",
       "stored_as": null,
