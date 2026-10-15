@@ -147699,6 +147699,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7581.png",
       "sha256": "a284330d9fb0a9539da3c1ef15ab9f0f740beb8a3ab2c91de9e4263708869c45"
+    },
+    {
+      "message_id": 7580,
+      "filename": "물리 전국브릿지 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7580_.3.pdf",
+      "size_bytes": 10826208,
+      "telegram_date": "2025-08-11T15:30:48+00:00",
+      "title": "물리 전국브릿지 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7580.png",
+      "sha256": "4f14ece741e55f81e3f754ceef0d4d85f6d0718bba937824fb89d7e12e4bda02"
     }
   ],
   "duplicate_message_ids": [
