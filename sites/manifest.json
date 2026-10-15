@@ -147769,6 +147769,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7576.png",
       "sha256": "793507657638c07e4d8caeec5ab8196e4d4af5c8f80ba027f6e1752fee3773f3"
+    },
+    {
+      "message_id": 7575,
+      "filename": "물리 전국브릿지 2회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7575_.2.pdf",
+      "size_bytes": 10823188,
+      "telegram_date": "2025-08-11T15:30:47+00:00",
+      "title": "물리 전국브릿지 2회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7575.png",
+      "sha256": "a84e4c1ec49fcd195759811d2072537e6250536b6d0b67e08509a6232810257d"
     }
   ],
   "duplicate_message_ids": [
