@@ -149365,6 +149365,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7389.png",
       "sha256": "13b6c6b58be98eb0904e97ce72bef5534117df9e9bd9ee26794292455a10a161"
+    },
+    {
+      "message_id": 7388,
+      "filename": "6평대비 서바 정법.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7388_6.pdf",
+      "size_bytes": 5174214,
+      "telegram_date": "2025-08-11T15:29:42+00:00",
+      "title": "6평대비 서바 정법",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7388.png",
+      "sha256": "3ee1233d65e70c6787f79d6d4c1eeb1870246daa934f4a83fa8066b2ff778270"
     }
   ],
   "duplicate_message_ids": [
