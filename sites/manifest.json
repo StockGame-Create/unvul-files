@@ -421,6 +421,20 @@
       "sha256": "b97117e534b931a07b1791542753de1fcb9e4a55aa973415d999f477a64c96b5"
     },
     {
+      "message_id": 25484,
+      "filename": "생1 강K 4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25484_.1.K.4.pdf",
+      "size_bytes": 5367440,
+      "telegram_date": "2026-10-15T14:54:37+00:00",
+      "title": "생1 강대모의고사K 4회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/25484.png",
+      "sha256": "a486f7f6a989f855ce5f6745c5d092df7a8987f2778c383069c11f73c5ba47ed"
+    },
+    {
       "message_id": 25473,
       "filename": "서바이벌 20회.pdf",
       "stored_as": null,
