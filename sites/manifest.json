@@ -148945,6 +148945,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7448.png",
       "sha256": "0c39785ed13b50e67007de8c5b418b3c3d635d98886bf1f927519559eb43d3a5"
+    },
+    {
+      "message_id": 7447,
+      "filename": "화학 전국브릿지 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7447_.3.pdf",
+      "size_bytes": 8997974,
+      "telegram_date": "2025-08-11T15:29:58+00:00",
+      "title": "화학 전국브릿지 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7447.png",
+      "sha256": "a87f6a9fd49e249122bab9eb34144831c3410dc2748ff8682149a5f2a55a6a06"
     }
   ],
   "duplicate_message_ids": [
