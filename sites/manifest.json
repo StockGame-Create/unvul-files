@@ -148959,6 +148959,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7447.png",
       "sha256": "a87f6a9fd49e249122bab9eb34144831c3410dc2748ff8682149a5f2a55a6a06"
+    },
+    {
+      "message_id": 7446,
+      "filename": "화학 브릿지 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7446_.3.pdf",
+      "size_bytes": 8637432,
+      "telegram_date": "2025-08-11T15:29:57+00:00",
+      "title": "화학 브릿지 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7446.png",
+      "sha256": "b87d1fea7eced9d7eebacb8c2dbf4aa014172b50a01e878a7c3dfa35b2871c4c"
     }
   ],
   "duplicate_message_ids": [
