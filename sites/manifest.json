@@ -148511,6 +148511,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7501.png",
       "sha256": "09b8daf8098fcd2041db5256afed8d660e019c820aeb20568795b3959be66a54"
+    },
+    {
+      "message_id": 7499,
+      "filename": "8주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7499_8.pdf",
+      "size_bytes": 17453289,
+      "telegram_date": "2025-08-11T15:30:35+00:00",
+      "title": "8주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7499.png",
+      "sha256": "49dc47358ca6a9cf05021bd29e1d00775ee8737cc2cce1c74098ff068dc188c1"
     }
   ],
   "duplicate_message_ids": [
