@@ -337,6 +337,20 @@
       "sha256": "1c6b068cb005f1f81148c3af60e219a02126406de880e7ca00b44f81b7ac918d"
     },
     {
+      "message_id": 25495,
+      "filename": "2027_시대_지1_서바_전국_1_9회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25495_2027_._.1_._._1_9.pdf",
+      "size_bytes": 42947125,
+      "telegram_date": "2026-10-15T14:54:48+00:00",
+      "title": "지1 시대인재 서바이벌 전국 모의고사 1~9회 (인쇄소퀄) #서바전국",
+      "year": "2027",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25495.png",
+      "sha256": "a2c94fd085476b3ed01bde28c42f30ac83fd445cc57d56b0c2a10208146459a4"
+    },
+    {
       "message_id": 25473,
       "filename": "서바이벌 20회.pdf",
       "stored_as": null,
