@@ -148805,6 +148805,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7460.png",
       "sha256": "daa41d40235a914a174d860e6e7325e09994b4c7d3dde139e10d6d61593a778b"
+    },
+    {
+      "message_id": 7458,
+      "filename": "2026 마더텅 문법 개념 완성 2400제 정답 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7458_2026.2400.pdf",
+      "size_bytes": 164711753,
+      "telegram_date": "2025-08-11T15:30:32+00:00",
+      "title": "2026 마더텅 문법 개념 완성 2400제 정답 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7458.png",
+      "sha256": "2d348c83277f6276adfae3bf08c3bbe9f0b9395e357780ad7b2380e305249976"
     }
   ],
   "duplicate_message_ids": [
