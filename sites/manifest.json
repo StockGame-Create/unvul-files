@@ -147139,6 +147139,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7599.png",
       "sha256": "8d94365783a99fab3361e2d5a6ac82b1020f34824deed19f74fa6c4ba80061ab"
+    },
+    {
+      "message_id": 7598,
+      "filename": "2025 물1 장진우 UNOVA TRINITY 1권(해설).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7598_2025.1.UNOVA.TRINITY.1.pdf",
+      "size_bytes": 9886571,
+      "telegram_date": "2025-08-11T15:31:40+00:00",
+      "title": "2025 물1 장진우 UNOVA TRINITY 1권(해설)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7598.png",
+      "sha256": "4ce992b0354bf67d02ac4200622e3495a441ef046b36898b8435c4f7e87b2103"
     }
   ],
   "duplicate_message_ids": [
