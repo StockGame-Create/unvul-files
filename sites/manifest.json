@@ -148273,6 +148273,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7525.png",
       "sha256": "d2059ceefa49244d1c4cbb3084706f45b541ca14bcdf8c081f26b752b929a9d6"
+    },
+    {
+      "message_id": 7523,
+      "filename": "적중예감_시즌프리_1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7523_._._1.pdf",
+      "size_bytes": 5348857,
+      "telegram_date": "2025-08-11T15:30:36+00:00",
+      "title": "적중예감_시즌프리_1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7523.png",
+      "sha256": "1c327386fab3b109dd3e62888e12d3fc0835da0484fa50295e9bc986d40a8623"
     }
   ],
   "duplicate_message_ids": [
