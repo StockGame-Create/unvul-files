@@ -146175,6 +146175,20 @@
       "sha256": "6432b1ef5c54898e0c405762f1afc82e4bd2840cfaa01c8bbcead0ca581c14e2"
     },
     {
+      "message_id": 7698,
+      "filename": "2026 새기분 독서1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7698_2026.1.pdf",
+      "size_bytes": 189944065,
+      "telegram_date": "2025-08-11T15:31:48+00:00",
+      "title": "2026 새기분 독서1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7698.png",
+      "sha256": "4b676cc8d924b536cb5b1204b3d0312e42948b9d84483ef99f7a4c0c10bdabcc"
+    },
+    {
       "message_id": 7686,
       "filename": "더데유데 시즌0 2회차_20250601.pdf",
       "stored_as": null,
