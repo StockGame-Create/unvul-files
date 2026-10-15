@@ -148665,6 +148665,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7480.png",
       "sha256": "620f92a56cb7820f8b6e8a603ab1217f747e9d3aa9aa66806affd137f7ef88be"
+    },
+    {
+      "message_id": 7479,
+      "filename": "JUST 수학1 (상).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7479_JUST.1.pdf",
+      "size_bytes": 28070599,
+      "telegram_date": "2025-08-11T15:30:33+00:00",
+      "title": "JUST 수학1 (상)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7479.png",
+      "sha256": "c13b0f546d238440c6aa8c6de21abbf69ab06bb9a4627823217d5027edda0e9d"
     }
   ],
   "duplicate_message_ids": [
