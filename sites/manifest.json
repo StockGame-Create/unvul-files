@@ -149169,6 +149169,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7419.png",
       "sha256": "edb7894ccfaaf1c277184169fde86ff9547f2277cef8187e3285fc1e1989d7ec"
+    },
+    {
+      "message_id": 7414,
+      "filename": "2026학년도_시즌2_아폴로_N4호_다지선다.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7414_2026._.2_._N4._.pdf",
+      "size_bytes": 2942541,
+      "telegram_date": "2025-08-11T15:29:43+00:00",
+      "title": "2026학년도_시즌2_아폴로_N4호_다지선다",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7414.png",
+      "sha256": "dbe403d26fb2e2c9dea39c4bd03076d4eacc6b3a28241daa780f3b1b46f4d122"
     }
   ],
   "duplicate_message_ids": [
