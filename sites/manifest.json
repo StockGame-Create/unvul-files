@@ -148161,6 +148161,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7533.png",
       "sha256": "1afbbd802718d37985ec38a103ba6906335b6546fbab6037319ba10cdb1402a4"
+    },
+    {
+      "message_id": 7532,
+      "filename": "2026_김현우T_스탠다드_해설집_04.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7532_2026_.T_._._04.pdf",
+      "size_bytes": 25821906,
+      "telegram_date": "2025-08-11T15:30:39+00:00",
+      "title": "2026_김현우T_스탠다드_해설집_04",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7532.png",
+      "sha256": "b3ff1c41ed1fb887eb081042f18a5a6c710fd513c77420f0d88e36a754de1def"
     }
   ],
   "duplicate_message_ids": [
