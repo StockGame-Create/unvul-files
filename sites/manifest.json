@@ -148539,6 +148539,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7490.png",
       "sha256": "8d57b1603d3f260c09584902e12b5e9a2249f21831a84d1d66154748a4ce35bc"
+    },
+    {
+      "message_id": 7488,
+      "filename": "프리즘6.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7488_.6.pdf",
+      "size_bytes": 40006344,
+      "telegram_date": "2025-08-11T15:30:34+00:00",
+      "title": "프리즘6",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7488.png",
+      "sha256": "d98658c2181cc4369b16f5fa8c2b5fd9531d2d443054c87c4328ccd7af8b6b71"
     }
   ],
   "duplicate_message_ids": [
