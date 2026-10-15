@@ -148721,6 +148721,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7468.png",
       "sha256": "e1f379472791cc56b688797d62a574cbbbca84a10f4a4db502d9c2df3bb42d98"
+    },
+    {
+      "message_id": 7467,
+      "filename": "2026_매월승리_4호_문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7467_2026_._4._.pdf",
+      "size_bytes": 92204538,
+      "telegram_date": "2025-08-11T15:30:33+00:00",
+      "title": "2026_매월승리_4호_문제편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7467.png",
+      "sha256": "77c3d4237597e1a3cfdc125b52c5954944bcacd39169655cfa643a2c52e9017a"
     }
   ],
   "duplicate_message_ids": [
