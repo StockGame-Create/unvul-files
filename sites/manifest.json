@@ -146691,6 +146691,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7645.png",
       "sha256": "aec508e9a12a11e7575b71d27fd901fd20cdeebd44f7900c253f91d9f3cdc0fa"
+    },
+    {
+      "message_id": 7644,
+      "filename": "2026학년도 시냅스 확률과 통계.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7644_2026.pdf",
+      "size_bytes": 86467205,
+      "telegram_date": "2025-08-11T15:31:42+00:00",
+      "title": "2026학년도 시냅스 확률과 통계",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7644.png",
+      "sha256": "9d754ee770497d17d87b41b7532fdf2f7c36befc78a651ad3fa62206c0b2ebc4"
     }
   ],
   "duplicate_message_ids": [
