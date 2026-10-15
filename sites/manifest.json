@@ -197,6 +197,20 @@
       "sha256": "2e5d33bb7b7d58a9d84f604617105a3a40fd2013bbd819b598bf2709549f5db6"
     },
     {
+      "message_id": 25508,
+      "filename": "10월 서프 국어 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25508_10.pdf",
+      "size_bytes": 4508625,
+      "telegram_date": "2026-10-15T14:55:04+00:00",
+      "title": "국어 시대인재 8~10월 전국모의평가 (인쇄소퀄) #서프",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25508.png",
+      "sha256": "414d14698bdf02f1d089010d2fa93c70bf69fb1e3a8ecfd74725c4f093e69a00"
+    },
+    {
       "message_id": 25473,
       "filename": "서바이벌 20회.pdf",
       "stored_as": null,
