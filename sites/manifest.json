@@ -146565,6 +146565,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7655.png",
       "sha256": "73acaa79135edb1630c9e36fbe34e9a1f27f8f79ec75c6dd081ac1343e96629e"
+    },
+    {
+      "message_id": 7653,
+      "filename": "시발점 수학Ⅰ.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7653_.pdf",
+      "size_bytes": 543782517,
+      "telegram_date": "2025-08-11T15:31:42+00:00",
+      "title": "시발점 수학Ⅰ",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7653.png",
+      "sha256": "038b9d1861b21d9e28b9a75ce6e6d9266e61e089f2b920f792702e55ff1b76af"
     }
   ],
   "duplicate_message_ids": [
