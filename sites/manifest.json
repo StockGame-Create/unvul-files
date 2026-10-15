@@ -148861,6 +148861,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7454.png",
       "sha256": "85311e05f2034b56aad3c7897d6c8dc10426589eb43522edcad151ea20c847ca"
+    },
+    {
+      "message_id": 7453,
+      "filename": "화학 전국브릿지 2회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7453_.2.pdf",
+      "size_bytes": 573586,
+      "telegram_date": "2025-08-11T15:29:58+00:00",
+      "title": "화학 전국브릿지 2회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7453.png",
+      "sha256": "f76d437528194925d0a62ea36874c154787148a4df20b00cc1b8884314777ae9"
     }
   ],
   "duplicate_message_ids": [
