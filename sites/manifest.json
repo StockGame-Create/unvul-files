@@ -148651,6 +148651,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7481.png",
       "sha256": "c9abcfb9fcb14b099d95d03e762ea51e177d0af0457c0971c9f97ba10bb24ef6"
+    },
+    {
+      "message_id": 7480,
+      "filename": "2026_AttentioN_수학1_01.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7480_2026_AttentioN_.1_01.pdf",
+      "size_bytes": 1192593,
+      "telegram_date": "2025-08-11T15:30:34+00:00",
+      "title": "2026_AttentioN_수학1_01",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7480.png",
+      "sha256": "620f92a56cb7820f8b6e8a603ab1217f747e9d3aa9aa66806affd137f7ef88be"
     }
   ],
   "duplicate_message_ids": [
