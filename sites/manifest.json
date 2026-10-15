@@ -149141,6 +149141,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7422.png",
       "sha256": "746c78a3ceb7cf2a73e4e33e111a3ee9c469820a7cd5084211828b7f0460e9d9"
+    },
+    {
+      "message_id": 7420,
+      "filename": "2026 시즌0 꿀모 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7420_2026.0.2.pdf",
+      "size_bytes": 938759,
+      "telegram_date": "2025-08-11T15:29:43+00:00",
+      "title": "2026 시즌0 꿀모 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7420.png",
+      "sha256": "cfe14d7611bd86a1cdf950a275e208dbe605065f8429764a31cd7acd2a0d684e"
     }
   ],
   "duplicate_message_ids": [
