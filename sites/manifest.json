@@ -146789,6 +146789,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7638.png",
       "sha256": "cd29c99e1a357bda2f21307e835d52ef90a6e7486c3bfc131c61654e2ccaa429"
+    },
+    {
+      "message_id": 7635,
+      "filename": "2026학년도 뉴런 미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7635_2026.pdf",
+      "size_bytes": 148431433,
+      "telegram_date": "2025-08-11T15:31:42+00:00",
+      "title": "2026학년도 뉴런 미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7635.png",
+      "sha256": "edf0996beab55fb36b7bb5ca0745646cf20a98e33905b39375e05ae4f6389fe0"
     }
   ],
   "duplicate_message_ids": [
