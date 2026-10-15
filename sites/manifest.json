@@ -393,6 +393,20 @@
       "sha256": "9ca225db76b15a2ff7ae5fad2341f252a0454b2d5e852d629883807b8c1652d8"
     },
     {
+      "message_id": 25489,
+      "filename": "27이승헌 real-e 세지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25489_27.real-e.pdf",
+      "size_bytes": 163629885,
+      "telegram_date": "2026-10-15T14:54:39+00:00",
+      "title": "세지 이승헌 REAL-E",
+      "year": "2027",
+      "instructor": "이승헌",
+      "subject": "세계지리",
+      "thumbnail": "thumbnails/25489.png",
+      "sha256": "bdf85a14099105ac323647ad585bac456b4a7f911c6e54bb7a727bd13dc66177"
+    },
+    {
       "message_id": 25473,
       "filename": "서바이벌 20회.pdf",
       "stored_as": null,
