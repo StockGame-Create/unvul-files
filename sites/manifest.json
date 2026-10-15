@@ -146915,6 +146915,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7616.png",
       "sha256": "278296f3f9293174a3a330e1a371c5bc67e5869666a84c75b68add37683ad397"
+    },
+    {
+      "message_id": 7615,
+      "filename": "2025 물1 장진우 UNOVA Code One 1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7615_2025.1.UNOVA.Code.One.1.pdf",
+      "size_bytes": 121700060,
+      "telegram_date": "2025-08-11T15:31:41+00:00",
+      "title": "2025 물1 장진우 UNOVA Code One 1권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7615.png",
+      "sha256": "22ef56702a6f2376fad77ebb610205ed192d2e1de82edf1574c824c566aaf1b6"
     }
   ],
   "duplicate_message_ids": [
