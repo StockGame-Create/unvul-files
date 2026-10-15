@@ -146427,6 +146427,20 @@
       "sha256": "b747f4fcdb2189661ad75dff5470c556bc237a4a728da33511d0f7f2d843715d"
     },
     {
+      "message_id": 7671,
+      "filename": "시발점 공통수학Ⅰ 워크북.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7671_.pdf",
+      "size_bytes": 179939447,
+      "telegram_date": "2025-08-11T15:31:46+00:00",
+      "title": "시발점 공통수학Ⅰ 워크북",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7671.png",
+      "sha256": "468c82188181d783ac8849b7a3d8351fe0cf137c6c467a4eae6f68263c12a015"
+    },
+    {
       "message_id": 7663,
       "filename": "시발점 미적분(상).pdf",
       "stored_as": null,
