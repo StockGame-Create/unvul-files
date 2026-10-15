@@ -149113,6 +149113,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7428.png",
       "sha256": "89d325165dbd44b9617ddabc022de3a4d12fcbb55549ff61ce33773dcce9bebe"
+    },
+    {
+      "message_id": 7423,
+      "filename": "2026학년도_6월_대비_스포일러_모의고사_해설북.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7423_2026._6._._._._.pdf",
+      "size_bytes": 4844489,
+      "telegram_date": "2025-08-11T15:29:43+00:00",
+      "title": "2026학년도_6월_대비_스포일러_모의고사_해설북",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7423.png",
+      "sha256": "311e6f6ce37bcf9314605a28c4cc2cc9c643e8c2616edbe929fdc5be7fb54e26"
     }
   ],
   "duplicate_message_ids": [
