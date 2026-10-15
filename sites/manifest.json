@@ -407,6 +407,20 @@
       "sha256": "bdf85a14099105ac323647ad585bac456b4a7f911c6e54bb7a727bd13dc66177"
     },
     {
+      "message_id": 25486,
+      "filename": "2027_권용기_파모포식_동사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25486_2027_._._.pdf",
+      "size_bytes": 260995716,
+      "telegram_date": "2026-10-15T14:54:38+00:00",
+      "title": "동사 권용기 파이널 모의고사 1~5회",
+      "year": "2027",
+      "instructor": "권용기",
+      "subject": "동아시아사",
+      "thumbnail": "thumbnails/25486.png",
+      "sha256": "b97117e534b931a07b1791542753de1fcb9e4a55aa973415d999f477a64c96b5"
+    },
+    {
       "message_id": 25473,
       "filename": "서바이벌 20회.pdf",
       "stored_as": null,
