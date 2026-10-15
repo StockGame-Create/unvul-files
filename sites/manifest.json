@@ -147853,6 +147853,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7570.png",
       "sha256": "33aea521d28d346f33a197b73a1fa175058c4444df787997c3b37f28b75a76d2"
+    },
+    {
+      "message_id": 7569,
+      "filename": "물리 브릿지 4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7569_.4.pdf",
+      "size_bytes": 12860306,
+      "telegram_date": "2025-08-11T15:30:47+00:00",
+      "title": "물리 브릿지 4회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7569.png",
+      "sha256": "0b7449760a2d345eb00426568176dc1ff718b7618749663b1f58fbba8be1dc03"
     }
   ],
   "duplicate_message_ids": [
