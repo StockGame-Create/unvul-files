@@ -147741,6 +147741,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7578.png",
       "sha256": "5d4b19ba646efbade452ea42cf71bb91601a60eb6d38a74a5a2cc142e1614c73"
+    },
+    {
+      "message_id": 7577,
+      "filename": "물리 전국브릿지 4회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7577_.4.pdf",
+      "size_bytes": 10519857,
+      "telegram_date": "2025-08-11T15:30:47+00:00",
+      "title": "물리 전국브릿지 4회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7577.png",
+      "sha256": "b2d5435faa39f2bd72fdae35cc1a9fb4e9776b9c5cb450348650a81fd5352498"
     }
   ],
   "duplicate_message_ids": [
