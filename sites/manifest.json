@@ -148007,6 +148007,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7548.png",
       "sha256": "c97272024bba395acc27bc97e27f8d3f699c4ddb645e22d4af92f3298eaacc6a"
+    },
+    {
+      "message_id": 7547,
+      "filename": "원솔멀텍 수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7547_.1.pdf",
+      "size_bytes": 102093245,
+      "telegram_date": "2025-08-11T15:30:40+00:00",
+      "title": "원솔멀텍 수학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7547.png",
+      "sha256": "a4e4f52a7815e44ef2faf0b2dd2f1f856f9e5ba4d1bea5b08255e2ce79c12722"
     }
   ],
   "duplicate_message_ids": [
