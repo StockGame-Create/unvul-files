@@ -148021,6 +148021,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7547.png",
       "sha256": "a4e4f52a7815e44ef2faf0b2dd2f1f856f9e5ba4d1bea5b08255e2ce79c12722"
+    },
+    {
+      "message_id": 7545,
+      "filename": "2026_이해원_시즌1_수학_1_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7545_2026_._.1_._1_.pdf",
+      "size_bytes": 75798173,
+      "telegram_date": "2025-08-11T15:30:40+00:00",
+      "title": "2026_이해원_시즌1_수학_1_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7545.png",
+      "sha256": "1d7f8765bc5a01d27109ebc59bd9b78cc09dd198eae08dd5e334f06cf94f683a"
     }
   ],
   "duplicate_message_ids": [
