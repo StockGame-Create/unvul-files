@@ -149323,6 +149323,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7393.png",
       "sha256": "bbc0f9eca551f4b57f344608c3833014ac482c74d780b5b839cda3dd6ca8e1dc"
+    },
+    {
+      "message_id": 7392,
+      "filename": "2026 GT ANATOMY 2호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7392_2026.GT.ANATOMY.2.pdf",
+      "size_bytes": 12797047,
+      "telegram_date": "2025-08-11T15:29:42+00:00",
+      "title": "2026 GT ANATOMY 2호",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7392.png",
+      "sha256": "903feea110007f57157205ad5d5412511db29dde83f0439f36a906880101a7e9"
     }
   ],
   "duplicate_message_ids": [
