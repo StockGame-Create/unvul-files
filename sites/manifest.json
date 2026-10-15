@@ -146635,6 +146635,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7649.png",
       "sha256": "0c9b0184d37e8ae582189db4cfb8bfa62444ed5380b4e79cbef4fbdd361c568c"
+    },
+    {
+      "message_id": 7648,
+      "filename": "2026 수분감 수학I 해설편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7648_2026.I.pdf",
+      "size_bytes": 76932452,
+      "telegram_date": "2025-08-11T15:31:42+00:00",
+      "title": "2026 수분감 수학I 해설편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7648.png",
+      "sha256": "355d1fd98205074deb89b08dea957c9a23b77bfa06ae1bb4e20f4a879453f32c"
     }
   ],
   "duplicate_message_ids": [
