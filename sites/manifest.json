@@ -146663,6 +146663,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7647.png",
       "sha256": "3ec75f8d93d6c08cda9c70e0d4f64d59ba59acd122c09a5c3b4286b18c0f6451"
+    },
+    {
+      "message_id": 7646,
+      "filename": "2026 수분감 미적분 해설편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7646_2026.pdf",
+      "size_bytes": 101483965,
+      "telegram_date": "2025-08-11T15:31:42+00:00",
+      "title": "2026 수분감 미적분 해설편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7646.png",
+      "sha256": "aa8238c63dfc205814c7f75c325f445a475a42507a0259d3511c8919ca5188f3"
     }
   ],
   "duplicate_message_ids": [
