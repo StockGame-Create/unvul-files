@@ -145699,6 +145699,20 @@
       "sha256": "912b59e9914106494b64f87a1b0abb1c0736f01497565e02325c38da4ea7e119"
     },
     {
+      "message_id": 7775,
+      "filename": "2026학년도_대학수학능력시험_사회문화_도표통계_MSkill12.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7775_2026._._._._MSkill12.pdf",
+      "size_bytes": 256584612,
+      "telegram_date": "2025-08-11T15:32:18+00:00",
+      "title": "2026학년도_대학수학능력시험_사회문화_도표통계_MSkill12",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7775.png",
+      "sha256": "1042cea983372231030ff3b6b1319c74337e67acc274a7d99a48ac4db6c69a78"
+    },
+    {
       "message_id": 7757,
       "filename": "드릴드1 수학Ⅱ 해설.pdf",
       "stored_as": null,
