@@ -148385,6 +148385,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7515.png",
       "sha256": "f48b241700599ba96f2f1ef2e623cd09f797fa0bd1c81ee2185920bd661ecdec"
+    },
+    {
+      "message_id": 7511,
+      "filename": "이매진02.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7511_.02.pdf",
+      "size_bytes": 295151863,
+      "telegram_date": "2025-08-11T15:30:35+00:00",
+      "title": "이매진02",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7511.png",
+      "sha256": "274b2a45cf36b6042e9c0f7d7c67c9d0484e8dd8953815a0e0711e8be972a7c9"
     }
   ],
   "duplicate_message_ids": [
