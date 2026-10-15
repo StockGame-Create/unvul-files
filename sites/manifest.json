@@ -146579,6 +146579,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7653.png",
       "sha256": "038b9d1861b21d9e28b9a75ce6e6d9266e61e089f2b920f792702e55ff1b76af"
+    },
+    {
+      "message_id": 7652,
+      "filename": "2026 수분감 확률과 통계 해설편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7652_2026.pdf",
+      "size_bytes": 5229034,
+      "telegram_date": "2025-08-11T15:31:42+00:00",
+      "title": "2026 수분감 확률과 통계 해설편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7652.png",
+      "sha256": "58fbfa021900c3ad1ec72eea44d77bb5daaa87d4326e67e16e4323e6f19b1acb"
     }
   ],
   "duplicate_message_ids": [
