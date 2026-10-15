@@ -169,6 +169,20 @@
       "sha256": "51eba303a76d486edb19541bc74e72910fdcce6dbc020f15cd965dbbad47c6d1"
     },
     {
+      "message_id": 25510,
+      "filename": "8월 서프 수학 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25510_8.pdf",
+      "size_bytes": 953031,
+      "telegram_date": "2026-10-15T14:55:05+00:00",
+      "title": "수학 시대인재 8~10월 전국모의평가 (인쇄소퀄) #서프",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25510.png",
+      "sha256": "3dbc6f0da2db3b8c82d71a1d402d43aff8e34c57e241a14a8075fba835551270"
+    },
+    {
       "message_id": 25473,
       "filename": "서바이벌 20회.pdf",
       "stored_as": null,
