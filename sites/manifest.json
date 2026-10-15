@@ -146817,6 +146817,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7629.png",
       "sha256": "1db8a506ab1f26874d254598b49a803eacca63266bc307001a6c96983352941a"
+    },
+    {
+      "message_id": 7624,
+      "filename": "지2 25서바 합본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7624_.2.25.pdf",
+      "size_bytes": 54327128,
+      "telegram_date": "2025-08-11T15:31:41+00:00",
+      "title": "지2 25서바 합본",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7624.png",
+      "sha256": "03c1979686d0da9f624704f829a2298e37e97fab03876d5c9e0f33115e6e305f"
     }
   ],
   "duplicate_message_ids": [
