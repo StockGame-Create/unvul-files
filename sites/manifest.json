@@ -146441,6 +146441,20 @@
       "sha256": "468c82188181d783ac8849b7a3d8351fe0cf137c6c467a4eae6f68263c12a015"
     },
     {
+      "message_id": 7667,
+      "filename": "시발점 기하 워크북.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7667_.pdf",
+      "size_bytes": 116687017,
+      "telegram_date": "2025-08-11T15:31:46+00:00",
+      "title": "시발점 기하 워크북",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7667.png",
+      "sha256": "41af65a9c7c1e6c322e05e2298bb7c15b1faa4e3858e62852ffafaa0147d548d"
+    },
+    {
       "message_id": 7663,
       "filename": "시발점 미적분(상).pdf",
       "stored_as": null,
