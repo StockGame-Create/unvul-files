@@ -149225,6 +149225,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7404.png",
       "sha256": "f9df001b7c85ad84938f3c5e39efda10908d4f2922757f7754c1a78c8ac086ad"
+    },
+    {
+      "message_id": 7403,
+      "filename": "시대인재_수능기출_core_수학2_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7403_._._core_.2_.pdf",
+      "size_bytes": 103062157,
+      "telegram_date": "2025-08-11T15:29:43+00:00",
+      "title": "시대인재_수능기출_core_수학2_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7403.png",
+      "sha256": "8863468d870638ff48a41b95b095dbae7a35c988cc4200b6cecd1b7604d98097"
     }
   ],
   "duplicate_message_ids": [
