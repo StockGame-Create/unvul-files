@@ -146747,6 +146747,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7641.png",
       "sha256": "608a3241854b967fd4236bf9e7b6498f0cc23878765d03dcb7ce909e4a8ca71d"
+    },
+    {
+      "message_id": 7640,
+      "filename": "2026학년도 시냅스 미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7640_2026.pdf",
+      "size_bytes": 69925396,
+      "telegram_date": "2025-08-11T15:31:42+00:00",
+      "title": "2026학년도 시냅스 미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7640.png",
+      "sha256": "452d9d675f3c434756b17f1bbca48a6337e1e12b97cb911050cc324895f43348"
     }
   ],
   "duplicate_message_ids": [
