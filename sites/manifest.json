@@ -148413,6 +148413,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7509.png",
       "sha256": "92dbe15adf8b8e1ccbbd16ce32dbc6041ca923be72a2d4e1211c438102d21d2a"
+    },
+    {
+      "message_id": 7508,
+      "filename": "2026학년도_대학수학능력시험_수학_시대인재_샤인미_N제_수1_정답_및_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7508_2026._._._._._N._.1_._._.pdf",
+      "size_bytes": 114412758,
+      "telegram_date": "2025-08-11T15:30:35+00:00",
+      "title": "2026학년도_대학수학능력시험_수학_시대인재_샤인미_N제_수1_정답_및_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7508.png",
+      "sha256": "c0ebc4835d228de5fb8955c666221556904e51011567429e0fff6c99aca1456a"
     }
   ],
   "duplicate_message_ids": [
