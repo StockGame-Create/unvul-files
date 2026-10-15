@@ -148777,6 +148777,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7463.png",
       "sha256": "0704a5a6d5bb7d6e494253c0bef1dc228d55ba1f35f2671f834d957257be7cbd"
+    },
+    {
+      "message_id": 7462,
+      "filename": "TalkFile_EB_SCHEMA1_문학_해설편_pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7462_TalkFile_EB_SCHEMA1_._._pdf.pdf",
+      "size_bytes": 94483475,
+      "telegram_date": "2025-08-11T15:30:32+00:00",
+      "title": "TalkFile_EB_SCHEMA1_문학_해설편_pdf",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7462.png",
+      "sha256": "758e8932e9d6934ef41332dc55f2033771c11c6d5166e53ac9f1a083d6501ec6"
     }
   ],
   "duplicate_message_ids": [
