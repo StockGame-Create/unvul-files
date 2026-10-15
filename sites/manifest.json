@@ -463,6 +463,20 @@
       "sha256": "b93da9807a26d6cd1bc5e3075d3af2b8dccce885b88846ac3adf56b40973f573"
     },
     {
+      "message_id": 25476,
+      "filename": "이동준_저스트_모의고사_코어_13회_빠른답지,_14,15,21,22,27,28,29,30_해설_포함_20261013.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25476_._._._._13._._14.15.21.22.27.28.29.30_._._20261013.pdf",
+      "size_bytes": 31569854,
+      "telegram_date": "2026-10-15T14:54:28+00:00",
+      "title": "수학 이동준 저스트 모의고사 CORE 파이널 1~3회",
+      "year": "2027",
+      "instructor": "이동준",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25476.png",
+      "sha256": "e4725a6185ec02cc496f14ad7c03105926b01be58fb75a1b81170999ce5ee6cb"
+    },
+    {
       "message_id": 25473,
       "filename": "서바이벌 20회.pdf",
       "stored_as": null,
