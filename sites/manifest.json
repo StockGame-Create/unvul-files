@@ -148483,6 +148483,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7503.png",
       "sha256": "59df5db979748e102e8043fbd636a553cfc5d9f302a151072ba1c3cf11c84444"
+    },
+    {
+      "message_id": 7502,
+      "filename": "PACE MAKER 수학2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7502_PACE.MAKER.2.pdf",
+      "size_bytes": 99287560,
+      "telegram_date": "2025-08-11T15:30:35+00:00",
+      "title": "PACE MAKER 수학2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7502.png",
+      "sha256": "72697027beb8eaa21db45d78a2053b8103f131dbca7393991be628ff24857a96"
     }
   ],
   "duplicate_message_ids": [
