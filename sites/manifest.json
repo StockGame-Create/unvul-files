@@ -148343,6 +148343,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7519.png",
       "sha256": "6f8e51294bbf6ec2b89f0fd4942875f1aafa46690b49aa7a7a94e0ffd17f2b8e"
+    },
+    {
+      "message_id": 7517,
+      "filename": "이미지_6월대비_모의고사_공통.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7517_._6._._.pdf",
+      "size_bytes": 54472298,
+      "telegram_date": "2025-08-11T15:30:36+00:00",
+      "title": "이미지_6월대비_모의고사_공통",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7517.png",
+      "sha256": "320ff9ca8e67f2e14eab4cda93a1fe5be875f6a1b217de2c418313d36c7ef46d"
     }
   ],
   "duplicate_message_ids": [
