@@ -148973,6 +148973,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7446.png",
       "sha256": "b87d1fea7eced9d7eebacb8c2dbf4aa014172b50a01e878a7c3dfa35b2871c4c"
+    },
+    {
+      "message_id": 7443,
+      "filename": "크럭스 물리1 Vol.01.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7443_.1.Vol.01.pdf",
+      "size_bytes": 48655123,
+      "telegram_date": "2025-08-11T15:29:47+00:00",
+      "title": "크럭스 물리1 Vol.01",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7443.png",
+      "sha256": "aa038b4bcfdf0dc66ee1b1e0b07c94e96b5175621151bdbeceb0dbf968342447"
     }
   ],
   "duplicate_message_ids": [
