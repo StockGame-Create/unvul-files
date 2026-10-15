@@ -146455,6 +146455,20 @@
       "sha256": "41af65a9c7c1e6c322e05e2298bb7c15b1faa4e3858e62852ffafaa0147d548d"
     },
     {
+      "message_id": 7666,
+      "filename": "시발점 기하.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7666_.pdf",
+      "size_bytes": 220195916,
+      "telegram_date": "2025-08-11T15:31:46+00:00",
+      "title": "시발점 기하",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7666.png",
+      "sha256": "bcb7d858e15752f9a1c8f7076cdf0699196414e9b0155ff91b2328f0a2e155ed"
+    },
+    {
       "message_id": 7663,
       "filename": "시발점 미적분(상).pdf",
       "stored_as": null,
