@@ -148357,6 +148357,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7517.png",
       "sha256": "320ff9ca8e67f2e14eab4cda93a1fe5be875f6a1b217de2c418313d36c7ef46d"
+    },
+    {
+      "message_id": 7516,
+      "filename": "이미지_6모대비_모의고사_확통.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7516_._6._._.pdf",
+      "size_bytes": 34629462,
+      "telegram_date": "2025-08-11T15:30:35+00:00",
+      "title": "이미지_6모대비_모의고사_확통",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7516.png",
+      "sha256": "48d6665c7d3eff05a4ce7718a78d83421abbb3443323c2af75510ef0153947bf"
     }
   ],
   "duplicate_message_ids": [
