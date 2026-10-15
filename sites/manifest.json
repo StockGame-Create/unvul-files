@@ -547,6 +547,20 @@
       "sha256": "918cc646fef515d84b8697535af276b17214cdfa5201a6c9126b194b420e1e6b"
     },
     {
+      "message_id": 25411,
+      "filename": "10월 서프 사탐 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25411_10.pdf",
+      "size_bytes": 14961376,
+      "telegram_date": "2026-10-14T14:37:32+00:00",
+      "title": "사회 시대인재 8, 10월 전국모의평가 #서프",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회탐구",
+      "thumbnail": "thumbnails/25411.png",
+      "sha256": "d6b1d68e492b63ce3ade56c803a16e22bbf9ff8aae6a2b01efb03deaaa858348"
+    },
+    {
       "message_id": 25409,
       "filename": "8월 서프 사탐 문제.pdf",
       "stored_as": null,
