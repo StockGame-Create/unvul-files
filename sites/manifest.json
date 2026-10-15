@@ -365,6 +365,20 @@
       "sha256": "d8572ef182c0853627c5369ace2b375a416de99fb8cdccbb1ad969a95bec3a1e"
     },
     {
+      "message_id": 25492,
+      "filename": "현돌모_파이널_윤사_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25492_._._._2.pdf",
+      "size_bytes": 3353571,
+      "telegram_date": "2026-10-15T14:54:46+00:00",
+      "title": "윤사 현자의 돌 파이널 모의고사 2회 #현돌모",
+      "year": "2027",
+      "instructor": null,
+      "subject": "윤리와사상",
+      "thumbnail": "thumbnails/25492.png",
+      "sha256": "c5731df0ff2a02087dd694f030a138d77bb1c34bf561c818f051bd86477222f9"
+    },
+    {
       "message_id": 25473,
       "filename": "서바이벌 20회.pdf",
       "stored_as": null,
