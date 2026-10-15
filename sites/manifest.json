@@ -148497,6 +148497,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7502.png",
       "sha256": "72697027beb8eaa21db45d78a2053b8103f131dbca7393991be628ff24857a96"
+    },
+    {
+      "message_id": 7501,
+      "filename": "STARTING BLOCK 수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7501_STARTING.BLOCK.1.pdf",
+      "size_bytes": 178979717,
+      "telegram_date": "2025-08-11T15:30:35+00:00",
+      "title": "STARTING BLOCK 수학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7501.png",
+      "sha256": "09b8daf8098fcd2041db5256afed8d660e019c820aeb20568795b3959be66a54"
     }
   ],
   "duplicate_message_ids": [
