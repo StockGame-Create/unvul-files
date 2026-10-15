@@ -147671,6 +147671,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7590.png",
       "sha256": "d98daaf816096f673ea134fbdfef90973376b48fcf37598b18f41563942ff5ae"
+    },
+    {
+      "message_id": 7589,
+      "filename": "서킷 합본 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7589_.pdf",
+      "size_bytes": 129483657,
+      "telegram_date": "2025-08-11T15:31:39+00:00",
+      "title": "서킷 합본 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7589.png",
+      "sha256": "62c963faa24f11be903ff2ffb831b673fd2d71b9c3432c716a10ee2caa9ab66b"
     }
   ],
   "duplicate_message_ids": [
