@@ -148595,6 +148595,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7485.png",
       "sha256": "3c00fcfceff8a671da0e469dcb50be8ffb3513476a3fec90836109a600ffab05"
+    },
+    {
+      "message_id": 7484,
+      "filename": "2026_Prism_수학1_02.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7484_2026_Prism_.1_02.pdf",
+      "size_bytes": 1096092,
+      "telegram_date": "2025-08-11T15:30:34+00:00",
+      "title": "2026_Prism_수학1_02",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7484.png",
+      "sha256": "a2ea2b45e959ef5d98aa6370546a0ac6059e3ed8cd45230b6179a248582092eb"
     }
   ],
   "duplicate_message_ids": [
