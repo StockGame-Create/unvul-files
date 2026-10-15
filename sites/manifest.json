@@ -146775,6 +146775,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7639.png",
       "sha256": "4eb6dc4eb1b4b64026eff1d2a9657ff74dd0664c4dd6796d0640c8a37f2b27ed"
+    },
+    {
+      "message_id": 7638,
+      "filename": "2026학년도 뉴런 확률과 통계.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7638_2026.pdf",
+      "size_bytes": 94649469,
+      "telegram_date": "2025-08-11T15:31:42+00:00",
+      "title": "2026학년도 뉴런 확률과 통계",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7638.png",
+      "sha256": "cd29c99e1a357bda2f21307e835d52ef90a6e7486c3bfc131c61654e2ccaa429"
     }
   ],
   "duplicate_message_ids": [
