@@ -152781,6 +152781,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7017.png",
       "sha256": "a5522ad221e1d57a0a3892d39027869dc2481e2da7c834a47f30b81b25449a63"
+    },
+    {
+      "message_id": 7014,
+      "filename": "2026학년도_지구과학_시대인재_N전용_모의고사_6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/7014_2026._._._N._._6.pdf",
+      "size_bytes": 3154021,
+      "telegram_date": "2025-08-11T15:25:52+00:00",
+      "title": "2026학년도_지구과학_시대인재_N전용_모의고사_6회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7014.png",
+      "sha256": "6733fa93662b5c425c3200634a366c8a1c1215198743aa8ace3905d330a19638"
     }
   ],
   "duplicate_message_ids": [
