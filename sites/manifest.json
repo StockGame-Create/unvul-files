@@ -151045,6 +151045,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7189.png",
       "sha256": "89cdbf1c6f1f4f14af3c366c8444ef64e5409e3292e5714a219aa5206bf8b838"
+    },
+    {
+      "message_id": 7188,
+      "filename": "2026 5월 더프 국어.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7188_2026.5.pdf",
+      "size_bytes": 5463215,
+      "telegram_date": "2025-08-11T15:28:01+00:00",
+      "title": "2026 5월 더프 국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7188.png",
+      "sha256": "17ed0b8fc90ec2e24f477306844a5de3e251f0c5564f4ce1e0c76de1be61df62"
     }
   ],
   "duplicate_message_ids": [
