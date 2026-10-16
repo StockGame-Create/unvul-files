@@ -149379,6 +149379,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7388.png",
       "sha256": "3ee1233d65e70c6787f79d6d4c1eeb1870246daa934f4a83fa8066b2ff778270"
+    },
+    {
+      "message_id": 7376,
+      "filename": "26 허들링 미적 2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7376_26.2.pdf",
+      "size_bytes": 47474227,
+      "telegram_date": "2025-08-11T15:29:41+00:00",
+      "title": "26 허들링 미적 2권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7376.png",
+      "sha256": "c36ec541f18dd0dd2cb5c88a66f3909e99a02f54b8eb3ff09bb10e64cd050e96"
     }
   ],
   "duplicate_message_ids": [
