@@ -149393,6 +149393,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7376.png",
       "sha256": "c36ec541f18dd0dd2cb5c88a66f3909e99a02f54b8eb3ff09bb10e64cd050e96"
+    },
+    {
+      "message_id": 7375,
+      "filename": "26 허들링 미적 3권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7375_26.3.pdf",
+      "size_bytes": 52934353,
+      "telegram_date": "2025-08-11T15:29:41+00:00",
+      "title": "26 허들링 미적 3권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7375.png",
+      "sha256": "78405d8ea5b297d415659ed5b4d4a510f45a6b5aa2bee14e1d4f13bf6fedb297"
     }
   ],
   "duplicate_message_ids": [
