@@ -152697,6 +152697,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7025.png",
       "sha256": "844fcac98a2f96d97ebfc1a8b6f94c0e261c8e45eca527e07f2e2d360d7a5454"
+    },
+    {
+      "message_id": 7024,
+      "filename": "윤성훈_적중예감_시즌프리_1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/7024_._._._1.pdf",
+      "size_bytes": 12340865,
+      "telegram_date": "2025-08-11T15:25:53+00:00",
+      "title": "윤성훈_적중예감_시즌프리_1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7024.png",
+      "sha256": "5cfdf396af239b5991e7b70fa38c9c825d25d9555957a084d0817580e001977e"
     }
   ],
   "duplicate_message_ids": [
