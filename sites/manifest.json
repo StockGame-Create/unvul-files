@@ -150415,6 +150415,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7252.png",
       "sha256": "4e245cce9dde9b311b9d067d7e452cba19bbe75d5144eef2eeb567bb0de69784"
+    },
+    {
+      "message_id": 7251,
+      "filename": "2026 수학2미적분 스텝1 본교재 02.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7251_2026.2.1.02.pdf",
+      "size_bytes": 53585515,
+      "telegram_date": "2025-08-11T15:28:36+00:00",
+      "title": "2026 수학2미적분 스텝1 본교재 02",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7251.png",
+      "sha256": "6a5f4f3c8413413849ef3068c2f24c366c1f1374d758b17d3e5c18abcd8a5969"
     }
   ],
   "duplicate_message_ids": [
