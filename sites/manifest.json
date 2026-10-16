@@ -152501,6 +152501,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7042.png",
       "sha256": "670a44d85bc10f3191e38cf7bed14cc384fe51cd7a2765aaaf345a04967f1223"
+    },
+    {
+      "message_id": 7041,
+      "filename": "아이디어 - 확통 - III.통계 - 연습문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7041_.-.-.III.-.pdf",
+      "size_bytes": 8778599,
+      "telegram_date": "2025-08-11T15:25:54+00:00",
+      "title": "아이디어 - 확통 - III.통계 - 연습문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7041.png",
+      "sha256": "8eebe682fcd57c624142cf995c6905a7d39b263b6189e0644054c03a236e9764"
     }
   ],
   "duplicate_message_ids": [
