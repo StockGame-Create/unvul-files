@@ -149421,6 +149421,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7374.png",
       "sha256": "e7f90cd50934989a0231db953263cf9e9139289987a000eeb33a1c5669c46a2a"
+    },
+    {
+      "message_id": 7373,
+      "filename": "수능루틴5 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7373_.5.pdf",
+      "size_bytes": 128320522,
+      "telegram_date": "2025-08-11T15:29:41+00:00",
+      "title": "수능루틴5 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7373.png",
+      "sha256": "d2e70163870528f631c7f1da4be979391453404ca8441c22d4d38a0af016c34c"
     }
   ],
   "duplicate_message_ids": [
