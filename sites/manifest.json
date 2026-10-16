@@ -150471,6 +150471,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7244.png",
       "sha256": "dc64aba2b5165e05b773422ad9b7cb721a0711ad9c35b0a487153ebcda79c15f"
+    },
+    {
+      "message_id": 7240,
+      "filename": "2026 수학 강기원 어싸인먼트 12주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7240_2026.12.pdf",
+      "size_bytes": 91861356,
+      "telegram_date": "2025-08-11T15:28:36+00:00",
+      "title": "2026 수학 강기원 어싸인먼트 12주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7240.png",
+      "sha256": "f36c586ad87ebcab8115d8fafaa1dee8a5ee3006c96c3bba8742fd7d5831524e"
     }
   ],
   "duplicate_message_ids": [
