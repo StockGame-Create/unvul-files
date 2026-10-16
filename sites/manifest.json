@@ -150023,6 +150023,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7295.png",
       "sha256": "98ebe241292fd182d0365aab2b4238dbe2315a8c0c5a0df9fe9d61934f064226"
+    },
+    {
+      "message_id": 7294,
+      "filename": "2026 수학 강기원 어싸인먼트 4주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7294_2026.4.pdf",
+      "size_bytes": 80927132,
+      "telegram_date": "2025-08-11T15:29:09+00:00",
+      "title": "2026 수학 강기원 어싸인먼트 4주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7294.png",
+      "sha256": "38758050027a7e78291c5fb6f1be5c2c4a1eceddd29ccfa26ea35c9122114ea1"
     }
   ],
   "duplicate_message_ids": [
