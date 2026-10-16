@@ -29,6 +29,20 @@
       "sha256": "c118a09133b0c9fcc406f6f71734225ae1e1844c2ace3b193227bcff5a6132ce"
     },
     {
+      "message_id": 25536,
+      "filename": "2027_마더텅_수능기출_모의고사_25회_한국사_문제편_정답X.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25536_2027_._._._25._._._.X.pdf",
+      "size_bytes": 64010415,
+      "telegram_date": "2026-10-16T13:06:51+00:00",
+      "title": "한국사 2027 마더텅 수능기출 모의고사 25회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "한국사",
+      "thumbnail": "thumbnails/25536.png",
+      "sha256": "75ca3ef050aa0ae96f82829b55244323f079a47ce2ae5d88e4f4f870b9a270d6"
+    },
+    {
       "message_id": 25531,
       "filename": "10덮 과탐.pdf",
       "stored_as": null,
