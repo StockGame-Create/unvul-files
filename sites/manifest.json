@@ -152151,6 +152151,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7093.png",
       "sha256": "1a6feab6f6b99402e7179b2ef9c394c388bd1c4c8eae2b61610f506a8030139c"
+    },
+    {
+      "message_id": 7081,
+      "filename": "2026_수학_이정환_미적분하_8주_METHOD_복습_테스트해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7081_2026_._._._8._METHOD_._.pdf",
+      "size_bytes": 972399,
+      "telegram_date": "2025-08-11T15:25:58+00:00",
+      "title": "2026_수학_이정환_미적분하_8주_METHOD_복습_테스트해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7081.png",
+      "sha256": "e8cde4348c66a5975c61f076d9cefadd30aeb09ea49b70b16265e303effc7957"
     }
   ],
   "duplicate_message_ids": [
