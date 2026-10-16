@@ -149673,6 +149673,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7349.png",
       "sha256": "0f9858c44e29b7535559f0e19898dd7b832c3a8b47bf07b0ce0550db51c591e0"
+    },
+    {
+      "message_id": 7347,
+      "filename": "강기원 14주 테스트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7347_.14.pdf",
+      "size_bytes": 550935,
+      "telegram_date": "2025-08-11T15:29:13+00:00",
+      "title": "강기원 14주 테스트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7347.png",
+      "sha256": "b242c383a63df2cfc65d94197a9778c039cfd58db11249330dd1396ec791b37c"
     }
   ],
   "duplicate_message_ids": [
