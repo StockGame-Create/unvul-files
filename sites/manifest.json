@@ -153187,6 +153187,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6974.png",
       "sha256": "4863bc6831b296741a328c02412d5042615e9fd453ed0e279e3f41e2f41ac04a"
+    },
+    {
+      "message_id": 6972,
+      "filename": "2026 수학 시대인재 수1 트러스 모의 10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6972_2026.1.10.pdf",
+      "size_bytes": 13262596,
+      "telegram_date": "2025-08-11T15:23:20+00:00",
+      "title": "2026 수학 시대인재 수1 트러스 모의 10회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6972.png",
+      "sha256": "688ea77300619cb2e390e2836b8d130f6ad4ae9d65a85c979261a5dc3726d7fe"
     }
   ],
   "duplicate_message_ids": [
