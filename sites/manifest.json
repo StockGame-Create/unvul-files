@@ -153285,6 +153285,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6966.png",
       "sha256": "fed57559594ce395b08175e57f5a4a119554e7ced9c920486df516e62a40e0e0"
+    },
+    {
+      "message_id": 6965,
+      "filename": "2026 수학 송준혁 수1 smooth 2권(해설).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6965_2026.1.smooth.2.pdf",
+      "size_bytes": 30621096,
+      "telegram_date": "2025-08-11T15:23:20+00:00",
+      "title": "2026 수학 송준혁 수1 smooth 2권(해설)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6965.png",
+      "sha256": "04a9197d6595ea7762fb54e056122b5e91e94234db9205116c0fd58ce8ec5a01"
     }
   ],
   "duplicate_message_ids": [
