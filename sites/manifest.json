@@ -149715,6 +149715,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7345.png",
       "sha256": "acdcb14e7bca222aa4c96d5283e3eb90c5d72fc04d6daa2ed88c4ffa3414eaea"
+    },
+    {
+      "message_id": 7344,
+      "filename": "2026_수학2미적분_스텝1_13주차_복습테스트_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7344_2026_.2._.1_13._._.pdf",
+      "size_bytes": 1790637,
+      "telegram_date": "2025-08-11T15:29:13+00:00",
+      "title": "2026_수학2미적분_스텝1_13주차_복습테스트_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7344.png",
+      "sha256": "cb2dfec54a7ad9922de9f6675d1a56f438874454fc3a63b1f1a9d2d18245d488"
     }
   ],
   "duplicate_message_ids": [
