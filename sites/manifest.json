@@ -150401,6 +150401,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7253.png",
       "sha256": "354b49d1b6527636fc40959d87e148e4eca2d9e7a87fcb6511c946006d57e731"
+    },
+    {
+      "message_id": 7252,
+      "filename": "10주차 미적분 필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7252_10.pdf",
+      "size_bytes": 1490175,
+      "telegram_date": "2025-08-11T15:28:36+00:00",
+      "title": "10주차 미적분 필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7252.png",
+      "sha256": "4e245cce9dde9b311b9d067d7e452cba19bbe75d5144eef2eeb567bb0de69784"
     }
   ],
   "duplicate_message_ids": [
