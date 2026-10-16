@@ -150457,6 +150457,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7245.png",
       "sha256": "415492925a2be1d7fb4b1d60bac9f3aa855275192940e3a3928a73e5de5aabf2"
+    },
+    {
+      "message_id": 7244,
+      "filename": "2026 강기원 어싸인먼트 13주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7244_2026.13.pdf",
+      "size_bytes": 84536811,
+      "telegram_date": "2025-08-11T15:28:36+00:00",
+      "title": "2026 강기원 어싸인먼트 13주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7244.png",
+      "sha256": "dc64aba2b5165e05b773422ad9b7cb721a0711ad9c35b0a487153ebcda79c15f"
     }
   ],
   "duplicate_message_ids": [
