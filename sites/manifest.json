@@ -153145,6 +153145,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6977.png",
       "sha256": "e2c45900f8919aa84fe0a955f497e09617da59d90c34b1cfec1cf064db5c2acd"
+    },
+    {
+      "message_id": 6976,
+      "filename": "2026 지1 이신혁 복습 테스트 시즌2 3주 (16주).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6976_2026.1.2.3.16.pdf",
+      "size_bytes": 11099071,
+      "telegram_date": "2025-08-11T15:24:51+00:00",
+      "title": "2026 지1 이신혁 복습 테스트 시즌2 3주 (16주)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6976.png",
+      "sha256": "d7266311aff7828fcd2135449036b7239995b65553e313f05a82d8d6d2b5e79f"
     }
   ],
   "duplicate_message_ids": [
