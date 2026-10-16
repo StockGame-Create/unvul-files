@@ -151689,6 +151689,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7144.png",
       "sha256": "9979377227ef190b4ae0ca8f6daa3d9c5b17585c29ee75860adbac18b6822cf6"
+    },
+    {
+      "message_id": 7138,
+      "filename": "2025학년도 장영진 6월꿀모 모의고사 해설 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7138_2025.6.1.pdf",
+      "size_bytes": 9522889,
+      "telegram_date": "2025-08-11T15:27:09+00:00",
+      "title": "2025학년도 장영진 6월꿀모 모의고사 해설 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7138.png",
+      "sha256": "c5d97099d1b078f2c434481a77536fa6bada466db3dfcef89afc1a954417a06a"
     }
   ],
   "duplicate_message_ids": [
