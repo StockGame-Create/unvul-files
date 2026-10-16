@@ -151031,6 +151031,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7196.png",
       "sha256": "00ca4c95926a30729da1583340da07438b795464162b06831da86ee3236b9636"
+    },
+    {
+      "message_id": 7189,
+      "filename": "기본 폴더 - 6.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7189_.-.6.pdf",
+      "size_bytes": 6973846,
+      "telegram_date": "2025-08-11T15:28:01+00:00",
+      "title": "기본 폴더 - 6",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7189.png",
+      "sha256": "89cdbf1c6f1f4f14af3c366c8444ef64e5409e3292e5714a219aa5206bf8b838"
     }
   ],
   "duplicate_message_ids": [
