@@ -113,6 +113,20 @@
       "sha256": "c1d40a4228cf6b10edd8e9a7364d72853fd687a65c1a342b2f9d127d4e983de0"
     },
     {
+      "message_id": 25546,
+      "filename": "김진영_킬러_모의고사_3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25546_._._._3.pdf",
+      "size_bytes": 878123,
+      "telegram_date": "2026-10-16T14:16:03+00:00",
+      "title": "지1 김진영 모의고사 13회, 킬러 모의고사 3, 4회",
+      "year": "2027",
+      "instructor": "김진영",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25546.png",
+      "sha256": "771f77dfcbec5038a97787f42414bb45f7f7d8e00130f90caad9e59e683f4ccc"
+    },
+    {
       "message_id": 25539,
       "filename": "전대실모 생명.pdf",
       "stored_as": null,
