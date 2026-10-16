@@ -152711,6 +152711,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7024.png",
       "sha256": "5cfdf396af239b5991e7b70fa38c9c825d25d9555957a084d0817580e001977e"
+    },
+    {
+      "message_id": 7023,
+      "filename": "이감모고 시즌3 2회 t.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/7023_.3.2.t.pdf",
+      "size_bytes": 25670670,
+      "telegram_date": "2025-08-11T15:25:53+00:00",
+      "title": "이감모고 시즌3 2회 t",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7023.png",
+      "sha256": "fcddc1ac7364e89dce30eb035f90770d6e6139a5ab48cd0a725fbe1c7676181a"
     }
   ],
   "duplicate_message_ids": [
