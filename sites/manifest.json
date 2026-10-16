@@ -149659,6 +149659,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7350.png",
       "sha256": "0298c0a4e9d715913df32d15fc9139d36ea80fb01228f40e79fccaf282c86660"
+    },
+    {
+      "message_id": 7349,
+      "filename": "2026 한수 시즌2 1회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7349_2026.2.1.pdf",
+      "size_bytes": 35772814,
+      "telegram_date": "2025-08-11T15:29:40+00:00",
+      "title": "2026 한수 시즌2 1회 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7349.png",
+      "sha256": "0f9858c44e29b7535559f0e19898dd7b832c3a8b47bf07b0ce0550db51c591e0"
     }
   ],
   "duplicate_message_ids": [
