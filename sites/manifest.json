@@ -149505,6 +149505,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7368.png",
       "sha256": "adb7005d0ae4e37304f9b23f47007cbfce2f838f4221efa17f7fdf2d82d710fe"
+    },
+    {
+      "message_id": 7367,
+      "filename": "수능루틴2해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7367_.2.pdf",
+      "size_bytes": 126332169,
+      "telegram_date": "2025-08-11T15:29:41+00:00",
+      "title": "수능루틴2해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7367.png",
+      "sha256": "90884d40b1978e2864cf7f0c5e858e15ef4603327693266a7a13d49b12c71f2b"
     }
   ],
   "duplicate_message_ids": [
