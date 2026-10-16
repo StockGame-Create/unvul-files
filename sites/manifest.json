@@ -151479,6 +151479,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7147.png",
       "sha256": "41dde56f0237ddba0d14f57fab69f47d4a28d6f7c9b4003fceae0c75bd3fc537"
+    },
+    {
+      "message_id": 7146,
+      "filename": "EBS_2026_FINAL_실전모의고사_사회탐구영역_사회·문화.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7146_EBS_2026_FINAL_._._.pdf",
+      "size_bytes": 67888272,
+      "telegram_date": "2025-08-11T15:27:10+00:00",
+      "title": "EBS_2026_FINAL_실전모의고사_사회탐구영역_사회·문화",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7146.png",
+      "sha256": "2e853a86ab407705f53d72644f803a8ed97e588383cfb9cd323481f7aadceeb4"
     }
   ],
   "duplicate_message_ids": [
