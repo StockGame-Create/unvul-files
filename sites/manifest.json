@@ -150821,6 +150821,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7215.png",
       "sha256": "6ff82f12a9ce7e14edcee2a70dc1d77ab567a216665c76970ac31adaf37e8834"
+    },
+    {
+      "message_id": 7214,
+      "filename": "이개다 모고 10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7214_.10.pdf",
+      "size_bytes": 739729,
+      "telegram_date": "2025-08-11T15:28:34+00:00",
+      "title": "이개다 모고 10회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7214.png",
+      "sha256": "538c34a288437c9495f7cbb70566dc683a586d6bb7ff85923b410c4beb26f13a"
     }
   ],
   "duplicate_message_ids": [
