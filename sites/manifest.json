@@ -152893,6 +152893,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6996.png",
       "sha256": "3498e19e5f76f76e48c83a21c9952868dee3ed9807c89b11c1579bf118053a36"
+    },
+    {
+      "message_id": 6995,
+      "filename": "2026 기출정식 해설편(2025기출만).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6995_2026.2025.pdf",
+      "size_bytes": 44889185,
+      "telegram_date": "2025-08-11T15:25:51+00:00",
+      "title": "2026 기출정식 해설편(2025기출만)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6995.png",
+      "sha256": "9c5e7622b495c70437922a6a61ba1ecfcbdbf0fb2cd5c854eca2ae8a5657f7c9"
     }
   ],
   "duplicate_message_ids": [
