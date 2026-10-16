@@ -152375,6 +152375,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7051.png",
       "sha256": "576c758456caec34daf1eb2f119a4513535e036f9d559248338eab6d95f4de67"
+    },
+    {
+      "message_id": 7050,
+      "filename": "2026_Summit_영어8_Rebound_1회_문제_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7050_2026_Summit_.8_Rebound_1._._.pdf",
+      "size_bytes": 7886254,
+      "telegram_date": "2025-08-11T15:25:54+00:00",
+      "title": "2026_Summit_영어8_Rebound_1회_문제_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7050.png",
+      "sha256": "bd7219390cde1f2d5978a581fb9268f66eec5a6c3b6fc2bc0c5cacbb1c36f7eb"
     }
   ],
   "duplicate_message_ids": [
