@@ -152305,6 +152305,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7062.png",
       "sha256": "ef4adf28d8954b305d61ee04e09a8e7a21d78cd27050620f4f5a9b14475039ba"
+    },
+    {
+      "message_id": 7061,
+      "filename": "2026_적자생존_모의고사_시즌_1_정법_6평_대비.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7061_2026_._._._1_._6._.pdf",
+      "size_bytes": 26145741,
+      "telegram_date": "2025-08-11T15:25:55+00:00",
+      "title": "2026_적자생존_모의고사_시즌_1_정법_6평_대비",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7061.png",
+      "sha256": "fb910d28bb5160d9020891db59b79a9c626680f362b64e790b4e06c2f3902daa"
     }
   ],
   "duplicate_message_ids": [
