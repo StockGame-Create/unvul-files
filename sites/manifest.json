@@ -152767,6 +152767,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7019.png",
       "sha256": "28d118e1bf98a9238ffa8b9be05813f94fe3a1bee9692413f0dba9ecfaf5c754"
+    },
+    {
+      "message_id": 7017,
+      "filename": "써킷 11회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/7017_.11.pdf",
+      "size_bytes": 20473254,
+      "telegram_date": "2025-08-11T15:25:52+00:00",
+      "title": "써킷 11회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7017.png",
+      "sha256": "a5522ad221e1d57a0a3892d39027869dc2481e2da7c834a47f30b81b25449a63"
     }
   ],
   "duplicate_message_ids": [
