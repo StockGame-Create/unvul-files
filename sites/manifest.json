@@ -152823,6 +152823,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7006.png",
       "sha256": "d52fb7a640a23935261e73347d52add026bd081b20de364d4d0b69bfb45bb0f9"
+    },
+    {
+      "message_id": 7005,
+      "filename": "2026 이동준 Weekly 수학1 02.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/7005_2026.Weekly.1.02.pdf",
+      "size_bytes": 1257211,
+      "telegram_date": "2025-08-11T15:25:52+00:00",
+      "title": "2026 이동준 Weekly 수학1 02",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7005.png",
+      "sha256": "b3a3699b324cb598a1475a23f1d9048c83ecd80c00ce199da28ef82df3e93601"
     }
   ],
   "duplicate_message_ids": [
