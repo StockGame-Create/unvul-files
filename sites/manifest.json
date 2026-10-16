@@ -149407,6 +149407,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7375.png",
       "sha256": "78405d8ea5b297d415659ed5b4d4a510f45a6b5aa2bee14e1d4f13bf6fedb297"
+    },
+    {
+      "message_id": 7374,
+      "filename": "26 허들링 미적 4권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7374_26.4.pdf",
+      "size_bytes": 50483100,
+      "telegram_date": "2025-08-11T15:29:41+00:00",
+      "title": "26 허들링 미적 4권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7374.png",
+      "sha256": "e7f90cd50934989a0231db953263cf9e9139289987a000eeb33a1c5669c46a2a"
     }
   ],
   "duplicate_message_ids": [
