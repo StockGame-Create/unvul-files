@@ -149827,6 +149827,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7322.png",
       "sha256": "042f219da2699149e9e2eae97d1696a2339b93f52b7ebf5d653d90d94396b3b9"
+    },
+    {
+      "message_id": 7321,
+      "filename": "3주차 수1특강 필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7321_3.1.pdf",
+      "size_bytes": 2263268,
+      "telegram_date": "2025-08-11T15:29:11+00:00",
+      "title": "3주차 수1특강 필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7321.png",
+      "sha256": "a9911083754ce874ecd7568f9bb9cac437970eef2da127c4093874f985445d83"
     }
   ],
   "duplicate_message_ids": [
