@@ -152739,6 +152739,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7022.png",
       "sha256": "59571916bbed8837ba16ec6d5db02f8e96e43057a27dcf781c26594f0e500fd6"
+    },
+    {
+      "message_id": 7020,
+      "filename": "2025 지구과학2 크럭스 1~8권 해설편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/7020_2025.2.1.8.pdf",
+      "size_bytes": 100731000,
+      "telegram_date": "2025-08-11T15:25:52+00:00",
+      "title": "2025 지구과학2 크럭스 1~8권 해설편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7020.png",
+      "sha256": "546152fec93f95d789e377401d12a0bad9990125dd9aaaea26591902870e089a"
     }
   ],
   "duplicate_message_ids": [
