@@ -152053,6 +152053,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7103.png",
       "sha256": "e2f46699e931e4ded7c4d015a7153f8bf0386df8d155ea2bdae4ff3971a03d67"
+    },
+    {
+      "message_id": 7102,
+      "filename": "2026_수학_이정환_수학1중_3주_chapter1,_2_수정_사항.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7102_2026_._._.1._3._chapter1._2_._.pdf",
+      "size_bytes": 659770,
+      "telegram_date": "2025-08-11T15:27:07+00:00",
+      "title": "2026_수학_이정환_수학1중_3주_chapter1,_2_수정_사항",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7102.png",
+      "sha256": "e227e636881b767c1262d03d95447635e88519fce5f1c4ed293a4221bb88d729"
     }
   ],
   "duplicate_message_ids": [
