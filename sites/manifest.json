@@ -152389,6 +152389,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7050.png",
       "sha256": "bd7219390cde1f2d5978a581fb9268f66eec5a6c3b6fc2bc0c5cacbb1c36f7eb"
+    },
+    {
+      "message_id": 7049,
+      "filename": "2026_상상국어_모의고사_3_2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7049_2026_._._3_2.pdf",
+      "size_bytes": 19952430,
+      "telegram_date": "2025-08-11T15:25:54+00:00",
+      "title": "2026_상상국어_모의고사_3_2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7049.png",
+      "sha256": "c38370859d59c1bda126bb4aed5aa1a07ae53f1603896684fb31b231c8d1f516"
     }
   ],
   "duplicate_message_ids": [
