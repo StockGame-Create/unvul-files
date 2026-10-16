@@ -151395,6 +151395,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7155.png",
       "sha256": "2960f8e2cdf18b1c65a9f6c01317fc53d5cbec6557d09ac3891612f3f656d3f8"
+    },
+    {
+      "message_id": 7154,
+      "filename": "김승리 1회 화작 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7154_.1.pdf",
+      "size_bytes": 3784588,
+      "telegram_date": "2025-08-11T15:27:10+00:00",
+      "title": "김승리 1회 화작 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7154.png",
+      "sha256": "4496bf50ed458f99e0ed59d6c1354f5c8ffd74feef0f3b1e25a67816075215e4"
     }
   ],
   "duplicate_message_ids": [
