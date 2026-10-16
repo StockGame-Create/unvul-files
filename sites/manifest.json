@@ -149841,6 +149841,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7321.png",
       "sha256": "a9911083754ce874ecd7568f9bb9cac437970eef2da127c4093874f985445d83"
+    },
+    {
+      "message_id": 7320,
+      "filename": "[수학1 Step1 특강] 2주차 복습테스트 해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7320_.1.Step1.2.pdf",
+      "size_bytes": 1344796,
+      "telegram_date": "2025-08-11T15:29:11+00:00",
+      "title": "[수학1 Step1 특강] 2주차 복습테스트 해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7320.png",
+      "sha256": "1a2e359c0144a0f6a879e990cdff3046c8857470a73a340550930ae904e8b1da"
     }
   ],
   "duplicate_message_ids": [
