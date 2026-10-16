@@ -152515,6 +152515,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7041.png",
       "sha256": "8eebe682fcd57c624142cf995c6905a7d39b263b6189e0644054c03a236e9764"
+    },
+    {
+      "message_id": 7040,
+      "filename": "아이디어 - 확통 - II.확률 - 연습문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7040_.-.-.II.-.pdf",
+      "size_bytes": 6095021,
+      "telegram_date": "2025-08-11T15:25:54+00:00",
+      "title": "아이디어 - 확통 - II.확률 - 연습문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7040.png",
+      "sha256": "08c8020724107cd0f336086edd16d624174d918ec4cb08fe95cae46a0d70ea0d"
     }
   ],
   "duplicate_message_ids": [
