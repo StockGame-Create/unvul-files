@@ -152319,6 +152319,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7061.png",
       "sha256": "fb910d28bb5160d9020891db59b79a9c626680f362b64e790b4e06c2f3902daa"
+    },
+    {
+      "message_id": 7058,
+      "filename": "수특 문학 2부 고전산문-1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7058_.2.-1.pdf",
+      "size_bytes": 1487696,
+      "telegram_date": "2025-08-11T15:25:55+00:00",
+      "title": "수특 문학 2부 고전산문-1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7058.png",
+      "sha256": "c66d2cb8531d1573d9eb0a94bb7bd3641a5c535ad8c277a14509c0973b20c683"
     }
   ],
   "duplicate_message_ids": [
