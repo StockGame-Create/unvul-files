@@ -151073,6 +151073,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7187.png",
       "sha256": "37832793d123482528369d7911888946f2bfb6f0daaa19c80349066be8ab2d83"
+    },
+    {
+      "message_id": 7186,
+      "filename": "더프 국어 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7186_.pdf",
+      "size_bytes": 4886829,
+      "telegram_date": "2025-08-11T15:28:01+00:00",
+      "title": "더프 국어 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7186.png",
+      "sha256": "0736d556a0ac24ede0213a546187527cbaacfd55ab9f51813af3c0ad2486ee37"
     }
   ],
   "duplicate_message_ids": [
