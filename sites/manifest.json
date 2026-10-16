@@ -153131,6 +153131,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6978.png",
       "sha256": "0b602b1104d79884148b28f7a03ae0b7f20a67fd0246b966e74364e0b36023b3"
+    },
+    {
+      "message_id": 6977,
+      "filename": "2026_지1_이신혁_복습_테스트_시즌2_4주17주_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6977_2026_.1_._._._.2_4.17._.pdf",
+      "size_bytes": 567391,
+      "telegram_date": "2025-08-11T15:24:51+00:00",
+      "title": "2026_지1_이신혁_복습_테스트_시즌2_4주17주_문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6977.png",
+      "sha256": "e2c45900f8919aa84fe0a955f497e09617da59d90c34b1cfec1cf064db5c2acd"
     }
   ],
   "duplicate_message_ids": [
