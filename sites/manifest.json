@@ -151087,6 +151087,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7186.png",
       "sha256": "0736d556a0ac24ede0213a546187527cbaacfd55ab9f51813af3c0ad2486ee37"
+    },
+    {
+      "message_id": 7184,
+      "filename": "26학년도_5월_대성 더프_4교시_한국사_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7184_26._5._._4._._.pdf",
+      "size_bytes": 640150,
+      "telegram_date": "2025-08-11T15:27:14+00:00",
+      "title": "26학년도_5월_대성 더프_4교시_한국사_해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7184.png",
+      "sha256": "e5b0ccc7c16e7ba473181a0ce6ffed03ed067a4c063621ed972341b8b6ad7611"
     }
   ],
   "duplicate_message_ids": [
