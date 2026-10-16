@@ -149449,6 +149449,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7372.png",
       "sha256": "831a5ad773eb1d641f90825cacfaa680e4f7352439707bbc10c9e00b226ed6b8"
+    },
+    {
+      "message_id": 7371,
+      "filename": "수능루틴4 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7371_.4.pdf",
+      "size_bytes": 139207997,
+      "telegram_date": "2025-08-11T15:29:41+00:00",
+      "title": "수능루틴4 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7371.png",
+      "sha256": "cf1b7ae3002e3071bc3fe9c56881a2df3a8ec47639ef3428f4897a2c76590bdb"
     }
   ],
   "duplicate_message_ids": [
