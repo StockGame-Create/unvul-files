@@ -152291,6 +152291,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7063.png",
       "sha256": "99dec331c68d03125cdfc083e84df892ed69cb4e3c16d295f5e9bfa81de57f04"
+    },
+    {
+      "message_id": 7062,
+      "filename": "2026학년도_시대인재_엑셀러레이터_전국_13회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7062_2026._._._._13.pdf",
+      "size_bytes": 2223554,
+      "telegram_date": "2025-08-11T15:25:55+00:00",
+      "title": "2026학년도_시대인재_엑셀러레이터_전국_13회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7062.png",
+      "sha256": "ef4adf28d8954b305d61ee04e09a8e7a21d78cd27050620f4f5a9b14475039ba"
     }
   ],
   "duplicate_message_ids": [
