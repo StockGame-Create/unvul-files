@@ -152795,6 +152795,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7014.png",
       "sha256": "6733fa93662b5c425c3200634a366c8a1c1215198743aa8ace3905d330a19638"
+    },
+    {
+      "message_id": 7009,
+      "filename": "2026학년도 6월 모평 대비 이명학 insight 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/7009_2026.6.insight.pdf",
+      "size_bytes": 4831078,
+      "telegram_date": "2025-08-11T15:25:52+00:00",
+      "title": "2026학년도 6월 모평 대비 이명학 insight 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7009.png",
+      "sha256": "6d9d1498eab1e379bce54aa4621c30adc437d5e46048d09c5e440010dc314e38"
     }
   ],
   "duplicate_message_ids": [
