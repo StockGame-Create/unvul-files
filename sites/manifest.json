@@ -150905,6 +150905,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7209.png",
       "sha256": "8b696a3182657cb31401e92de723e36a59a80eb40871a40a7f3090b038edba6f"
+    },
+    {
+      "message_id": 7208,
+      "filename": "2026 수능특강 연계 모의고사 문제지 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7208_2026.1.pdf",
+      "size_bytes": 12152212,
+      "telegram_date": "2025-08-11T15:28:34+00:00",
+      "title": "2026 수능특강 연계 모의고사 문제지 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7208.png",
+      "sha256": "54a04b094769db4c42ded27e7c479f2ef0b8bc1d9eaf9b88b064d1f51dad955d"
     }
   ],
   "duplicate_message_ids": [
