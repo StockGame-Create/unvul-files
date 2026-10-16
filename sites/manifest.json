@@ -149981,6 +149981,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7298.png",
       "sha256": "d961389b6de8d06c211fbeae8bca15f4811799e7395b9934ab1e5239a3686bda"
+    },
+    {
+      "message_id": 7297,
+      "filename": "2026 수학 강기원 어싸인먼트 7주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7297_2026.7.pdf",
+      "size_bytes": 77544656,
+      "telegram_date": "2025-08-11T15:29:10+00:00",
+      "title": "2026 수학 강기원 어싸인먼트 7주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7297.png",
+      "sha256": "0d598deb2a51ac9bf87e0fc9517c506e3731cb9119dab137cb9520f4d5501eed"
     }
   ],
   "duplicate_message_ids": [
