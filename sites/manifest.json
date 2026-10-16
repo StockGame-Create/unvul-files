@@ -153103,6 +153103,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6980.png",
       "sha256": "852cbe445fde2b18f350c69daec2ae23d75e43a10f7b89f6e0ab61126567e899"
+    },
+    {
+      "message_id": 6979,
+      "filename": "2026 지1 이신혁 아폴로 시즌2 3주 (16주).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6979_2026.1.2.3.16.pdf",
+      "size_bytes": 278991145,
+      "telegram_date": "2025-08-11T15:24:51+00:00",
+      "title": "2026 지1 이신혁 아폴로 시즌2 3주 (16주)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6979.png",
+      "sha256": "2c6b9312d1e639b99e94d470cfcff99f693f2f6719550002ae8d894fac7b3886"
     }
   ],
   "duplicate_message_ids": [
