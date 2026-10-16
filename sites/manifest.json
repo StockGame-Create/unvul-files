@@ -151185,6 +151185,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7178.png",
       "sha256": "7d75e89020c72eb76bac5ae8747b9860bd409e499c556cc43853cb374af0c82c"
+    },
+    {
+      "message_id": 7176,
+      "filename": "26학년도_5월_대성 더프_3교시_영어_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7176_26._5._._3._._.pdf",
+      "size_bytes": 2633092,
+      "telegram_date": "2025-08-11T15:27:14+00:00",
+      "title": "26학년도_5월_대성 더프_3교시_영어_해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7176.png",
+      "sha256": "63c8d845bd1089566246af210088609879faab0b46a59b99b2a21e180e88bf5d"
     }
   ],
   "duplicate_message_ids": [
