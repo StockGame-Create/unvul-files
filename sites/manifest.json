@@ -152543,6 +152543,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7039.png",
       "sha256": "e47a40e340b42558f2783ef61421a63240c1e474a51080a8c52e983839759151"
+    },
+    {
+      "message_id": 7035,
+      "filename": "2026_강철중_플레이리스트_N1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7035_2026_._._N1.pdf",
+      "size_bytes": 105336788,
+      "telegram_date": "2025-08-11T15:25:53+00:00",
+      "title": "2026_강철중_플레이리스트_N1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7035.png",
+      "sha256": "e68fb7c1f4aa5e1e9877a71f83cde66578353b9adf45c7a2d11dd3ac48a2eb11"
     }
   ],
   "duplicate_message_ids": [
