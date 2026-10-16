@@ -151269,6 +151269,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7168.png",
       "sha256": "06900dfa5fab9b3d7cbf32088a8823faa2c733bd5a4c3eaacf0e60c68159495a"
+    },
+    {
+      "message_id": 7167,
+      "filename": "2026_B_Live_모의고사_6월_물리학Ⅰ_시험지_3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7167_2026_B_Live_._6._._._3.pdf",
+      "size_bytes": 3113841,
+      "telegram_date": "2025-08-11T15:27:13+00:00",
+      "title": "2026_B_Live_모의고사_6월_물리학Ⅰ_시험지_3",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7167.png",
+      "sha256": "27ac91ccc74739f7028d340064b42817c730344d8055d86c180a779add4ba6f3"
     }
   ],
   "duplicate_message_ids": [
