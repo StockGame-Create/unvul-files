@@ -150177,6 +150177,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7284.png",
       "sha256": "9a185506a5ead7e5e5df53ed1dc132d767c4fc41a5a65de1ac21c40c64274a6a"
+    },
+    {
+      "message_id": 7283,
+      "filename": "2026 수학 강기원 복습테스트 4주차 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7283_2026.4.pdf",
+      "size_bytes": 2749244,
+      "telegram_date": "2025-08-11T15:28:40+00:00",
+      "title": "2026 수학 강기원 복습테스트 4주차 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7283.png",
+      "sha256": "4dc5057c95aaed460b7dfccfc6154d06398d15ac86b71527bb4e1f4f50ca2334"
     }
   ],
   "duplicate_message_ids": [
