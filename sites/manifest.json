@@ -151829,6 +151829,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7125.png",
       "sha256": "e5b7ca86a4d225af86dbb32f71324d774d19fd1a9b26e0782720374694294f75"
+    },
+    {
+      "message_id": 7123,
+      "filename": "23 지2 엑셀.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7123_23.2.pdf",
+      "size_bytes": 304343802,
+      "telegram_date": "2025-08-11T15:27:09+00:00",
+      "title": "23 지2 엑셀",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7123.png",
+      "sha256": "3d090dba81a60aada3b36905825b1547c7ab18b4586100186f16ca4c1b301f4d"
     }
   ],
   "duplicate_message_ids": [
