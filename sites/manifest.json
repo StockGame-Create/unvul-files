@@ -149743,6 +149743,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7343.png",
       "sha256": "3e677c6c7f0722e75ed9daad21c7ee1a4d6e46fea7de10c96ebb2c26feca989e"
+    },
+    {
+      "message_id": 7342,
+      "filename": "2026 수학2미적분 스텝1 12주차 어싸빠답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7342_2026.2.1.12.pdf",
+      "size_bytes": 31746,
+      "telegram_date": "2025-08-11T15:29:13+00:00",
+      "title": "2026 수학2미적분 스텝1 12주차 어싸빠답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7342.png",
+      "sha256": "59e9b227c6a42ad7878d44329c9f43f71cd7e5c4d120e48fcc066fe5e7f267dc"
     }
   ],
   "duplicate_message_ids": [
