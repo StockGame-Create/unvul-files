@@ -150373,6 +150373,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7258.png",
       "sha256": "57e2330b25fffde58dda974d0a93d1eeb4828442317e8053409a07fec461aec7"
+    },
+    {
+      "message_id": 7254,
+      "filename": "11주차_미적분_필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7254_11._._.pdf",
+      "size_bytes": 1697408,
+      "telegram_date": "2025-08-11T15:28:36+00:00",
+      "title": "11주차_미적분_필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7254.png",
+      "sha256": "ee05ab22f85051c558f03e76f24ed0af0bce8746b80196b4dd3d8fe1a47f7a56"
     }
   ],
   "duplicate_message_ids": [
