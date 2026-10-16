@@ -150233,6 +150233,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7280.png",
       "sha256": "17eefb0c3cc63c176ebb02bd41f907ab8b639ef906b528ab474f1b26390d70bf"
+    },
+    {
+      "message_id": 7276,
+      "filename": "강기원T_정규반_STEP1_5주차_필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7276_.T_._STEP1_5._.pdf",
+      "size_bytes": 3183076,
+      "telegram_date": "2025-08-11T15:28:40+00:00",
+      "title": "강기원T_정규반_STEP1_5주차_필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7276.png",
+      "sha256": "0737f47f38fa02f8219946d803167acd74f590d88aa9f60c109b73c5f98cdb43"
     }
   ],
   "duplicate_message_ids": [
