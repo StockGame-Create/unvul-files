@@ -150723,6 +150723,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7222.png",
       "sha256": "c051a79fb09ffa7c8468ccd51c0cb93b3de82e476f02b881efceff7bcc3e2c24"
+    },
+    {
+      "message_id": 7221,
+      "filename": "2026_스탠다드_수학Ⅰ_1권_복습테스트_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7221_2026_._._1._._.pdf",
+      "size_bytes": 1040788,
+      "telegram_date": "2025-08-11T15:28:35+00:00",
+      "title": "2026_스탠다드_수학Ⅰ_1권_복습테스트_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7221.png",
+      "sha256": "fcd5598260c27f6ba6631e9a64f30a69f13b9fbf165b4103b705aa3c0ef79ab7"
     }
   ],
   "duplicate_message_ids": [
