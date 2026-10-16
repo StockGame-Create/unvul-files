@@ -149953,6 +149953,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7300.png",
       "sha256": "aa9fb72764765ad1c3f55802fe135b0bc3c3b868e92fdcae78c25c6b4992c915"
+    },
+    {
+      "message_id": 7299,
+      "filename": "2026 수학 강기원 어싸인먼트 1주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7299_2026.1.pdf",
+      "size_bytes": 97048308,
+      "telegram_date": "2025-08-11T15:29:10+00:00",
+      "title": "2026 수학 강기원 어싸인먼트 1주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7299.png",
+      "sha256": "02421c6e7ab9dd968ce9aa74a959e7cd6bd7c453a32f6b713505fa4aa4dcc513"
     }
   ],
   "duplicate_message_ids": [
