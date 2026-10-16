@@ -151283,6 +151283,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7167.png",
       "sha256": "27ac91ccc74739f7028d340064b42817c730344d8055d86c180a779add4ba6f3"
+    },
+    {
+      "message_id": 7166,
+      "filename": "2026 생1 시대인재 리바이벌(02).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7166_2026.1.02.pdf",
+      "size_bytes": 28605207,
+      "telegram_date": "2025-08-11T15:27:11+00:00",
+      "title": "2026 생1 시대인재 리바이벌(02)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7166.png",
+      "sha256": "f5cd90113aa4247fab029af005b5f5f4fc5e13ebfd5bd2765d27c2fd4bcfc87f"
     }
   ],
   "duplicate_message_ids": [
