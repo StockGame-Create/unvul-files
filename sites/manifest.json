@@ -150877,6 +150877,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7211.png",
       "sha256": "5d47c5d03cccc9643c1405e605bb0c4c9cb61e9cf5dd481980167506c82e3593"
+    },
+    {
+      "message_id": 7210,
+      "filename": "이개다 모고 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7210_.7.pdf",
+      "size_bytes": 4194610,
+      "telegram_date": "2025-08-11T15:28:34+00:00",
+      "title": "이개다 모고 7회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7210.png",
+      "sha256": "0c27497e6103a9bea6f4f1a2991de5945631069e90e6379fd5e1f1da052f2624"
     }
   ],
   "duplicate_message_ids": [
