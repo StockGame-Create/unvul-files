@@ -151885,6 +151885,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7117.png",
       "sha256": "f02aadd1eb2722fac1e79d7b9ab988302dee6426cb9c19a2e016caf454b7b22e"
+    },
+    {
+      "message_id": 7116,
+      "filename": "2026 수학 이정환 수학2(하) 9주 chapter1, 2, 3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7116_2026.2.9.chapter1.2.3.pdf",
+      "size_bytes": 8712376,
+      "telegram_date": "2025-08-11T15:27:08+00:00",
+      "title": "2026 수학 이정환 수학2(하) 9주 chapter1, 2, 3",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7116.png",
+      "sha256": "a22a0bcf27941619cb5b5dfab17febc737e71a8d9f2b0f609b492a18a321826f"
     }
   ],
   "duplicate_message_ids": [
