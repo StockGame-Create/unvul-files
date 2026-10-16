@@ -71,6 +71,20 @@
       "sha256": "6d707b3cf55a27e96c7218a266e491f79424cad7667d4f0a69082f58929f495e"
     },
     {
+      "message_id": 25552,
+      "filename": "이해원 기하 4-0 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25552_.4-0.pdf",
+      "size_bytes": 16284420,
+      "telegram_date": "2026-10-16T14:16:11+00:00",
+      "title": "수학 이해원 모의고사 시즌4 0~2회 (기하만) #이해원모의고사",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25552.png",
+      "sha256": "04c0ec1ef71eda24da9c850ff6c37827be5099e896a4b580d2368a470b5ce521"
+    },
+    {
       "message_id": 25539,
       "filename": "전대실모 생명.pdf",
       "stored_as": null,
