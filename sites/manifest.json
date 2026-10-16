@@ -29,6 +29,20 @@
       "sha256": "84733d0a8b79412b94450460d7377486dc12bd807e29ea0869080329b78b0f5e"
     },
     {
+      "message_id": 25556,
+      "filename": "2027학년도_디_아카이브_모의고사_제0회_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/25556_2027._._._._.0._.pdf",
+      "size_bytes": 12683733,
+      "telegram_date": "2026-10-16T14:16:13+00:00",
+      "title": "영어 D.Archive 0회 #디아카이브",
+      "year": "2027",
+      "instructor": null,
+      "subject": "영어",
+      "thumbnail": "thumbnails/25556.png",
+      "sha256": "5ee6349039031737829933ccceb1fca6ba99dca6bd558dbfb6c59487dfeb5ebe"
+    },
+    {
       "message_id": 25539,
       "filename": "전대실모 생명.pdf",
       "stored_as": null,
