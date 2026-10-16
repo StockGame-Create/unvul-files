@@ -149645,6 +149645,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7353.png",
       "sha256": "f268e1ae462574158f488105ea882f502abc4394783b5c59f35e5596b54941c3"
+    },
+    {
+      "message_id": 7350,
+      "filename": "2026 한수 시즌2 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7350_2026.2.1.pdf",
+      "size_bytes": 69465962,
+      "telegram_date": "2025-08-11T15:29:40+00:00",
+      "title": "2026 한수 시즌2 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7350.png",
+      "sha256": "0298c0a4e9d715913df32d15fc9139d36ea80fb01228f40e79fccaf282c86660"
     }
   ],
   "duplicate_message_ids": [
