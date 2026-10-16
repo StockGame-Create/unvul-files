@@ -152263,6 +152263,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7065.png",
       "sha256": "bba1517360bc1b19bfcfb6593d8e6e1d8e4329275ec91265abf0d6b27403cf58"
+    },
+    {
+      "message_id": 7064,
+      "filename": "2026 수학 이정환 METHOD 본교재 미적분(상).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7064_2026.METHOD.pdf",
+      "size_bytes": 22804797,
+      "telegram_date": "2025-08-11T15:25:55+00:00",
+      "title": "2026 수학 이정환 METHOD 본교재 미적분(상)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7064.png",
+      "sha256": "bd6310346aa18882a796529bef59754d4441ef3504097d3783f4da0c501d676c"
     }
   ],
   "duplicate_message_ids": [
