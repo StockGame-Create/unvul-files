@@ -152865,6 +152865,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7002.png",
       "sha256": "a3237ecab4c42e143283a9f715494ec9cb0b5bea9d7c4ecd92f3dd638d8824e6"
+    },
+    {
+      "message_id": 6997,
+      "filename": "2026학년도_6월_모평_대비_이명학_insight_모의고사_250515_142148.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6997_2026._6._._._._insight_._250515_142148.pdf",
+      "size_bytes": 10644974,
+      "telegram_date": "2025-08-11T15:25:51+00:00",
+      "title": "2026학년도_6월_모평_대비_이명학_insight_모의고사_250515_142148",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6997.png",
+      "sha256": "a398ef79c7c64cc3ef136923ab402809aa1d742670cf7edcdbc3f5a534c43830"
     }
   ],
   "duplicate_message_ids": [
