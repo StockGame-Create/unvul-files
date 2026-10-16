@@ -152249,6 +152249,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7066.png",
       "sha256": "7f19d1d9119059ad426dad52fab28f2e95532d063108673a82989097e2ee6674"
+    },
+    {
+      "message_id": 7065,
+      "filename": "2026 수학 이정환 METHOD 본교재 수학1(상).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7065_2026.METHOD.1.pdf",
+      "size_bytes": 21681249,
+      "telegram_date": "2025-08-11T15:25:55+00:00",
+      "title": "2026 수학 이정환 METHOD 본교재 수학1(상)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7065.png",
+      "sha256": "bba1517360bc1b19bfcfb6593d8e6e1d8e4329275ec91265abf0d6b27403cf58"
     }
   ],
   "duplicate_message_ids": [
