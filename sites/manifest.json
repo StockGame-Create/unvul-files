@@ -150261,6 +150261,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7272.png",
       "sha256": "97848ee4121af039d7e6687ff93251b37710e5d7bb835030d66fdbe61130aa6b"
+    },
+    {
+      "message_id": 7269,
+      "filename": "2026 수학 강기원 7주차 필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7269_2026.7.pdf",
+      "size_bytes": 2170037,
+      "telegram_date": "2025-08-11T15:28:37+00:00",
+      "title": "2026 수학 강기원 7주차 필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7269.png",
+      "sha256": "b51da85ccd844866ced6540516990ecff6ad804b751ffade34bb36032ff33c43"
     }
   ],
   "duplicate_message_ids": [
