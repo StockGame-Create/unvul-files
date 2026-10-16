@@ -152459,6 +152459,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7045.png",
       "sha256": "fb8440b160d08dce047e26eab9884cecdd7378af6d80297df7c930cf56eed95b"
+    },
+    {
+      "message_id": 7044,
+      "filename": "2026 김기현의 IDEA 확통 - 워크북 - 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7044_2026.IDEA.-.-.pdf",
+      "size_bytes": 13574080,
+      "telegram_date": "2025-08-11T15:25:54+00:00",
+      "title": "2026 김기현의 IDEA 확통 - 워크북 - 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7044.png",
+      "sha256": "6aefb61b7df1b31acb6e33da4d29395859cfc205f41ed070c94e79254a47371a"
     }
   ],
   "duplicate_message_ids": [
