@@ -150863,6 +150863,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7212.png",
       "sha256": "be32e86f8e9d6ee340c114f11b7afb98dfe0aa667b00415c38b9d30e6c0596a2"
+    },
+    {
+      "message_id": 7211,
+      "filename": "2025 강기본 고전시가_250525_141525.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7211_2025._250525_141525.pdf",
+      "size_bytes": 233970956,
+      "telegram_date": "2025-08-11T15:28:34+00:00",
+      "title": "2025 강기본 고전시가_250525_141525",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7211.png",
+      "sha256": "5d47c5d03cccc9643c1405e605bb0c4c9cb61e9cf5dd481980167506c82e3593"
     }
   ],
   "duplicate_message_ids": [
