@@ -149617,6 +149617,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7355.png",
       "sha256": "60be49c8701b3fce371f13800c2b272ae6c2d97a7cf2f42b0af24239dd2702fd"
+    },
+    {
+      "message_id": 7354,
+      "filename": "2026 수학 이창무 심화특강 미적분 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7354_2026.pdf",
+      "size_bytes": 36960923,
+      "telegram_date": "2025-08-11T15:29:40+00:00",
+      "title": "2026 수학 이창무 심화특강 미적분 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7354.png",
+      "sha256": "5a13f19863494c431c63acd7a191854f48f9cbee624bbd944d9246a57e5e9a1d"
     }
   ],
   "duplicate_message_ids": [
