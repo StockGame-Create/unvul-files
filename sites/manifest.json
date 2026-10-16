@@ -152221,6 +152221,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7073.png",
       "sha256": "3e97c7484cc71f2ed437cd69ea1e32523194007c02bfbd66546e5f9d1745a050"
+    },
+    {
+      "message_id": 7069,
+      "filename": "2026_수학_이정환_미적분중_2주_chapter1_예습자료.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7069_2026_._._._2._chapter1_.pdf",
+      "size_bytes": 2255795,
+      "telegram_date": "2025-08-11T15:25:58+00:00",
+      "title": "2026_수학_이정환_미적분중_2주_chapter1_예습자료",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7069.png",
+      "sha256": "ceda4b71d8295eeaff31e806eec20371872acec0ad81b67504f4a466e6750bff"
     }
   ],
   "duplicate_message_ids": [
