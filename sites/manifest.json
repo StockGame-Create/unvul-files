@@ -150919,6 +150919,20 @@
       "subject": null,
       "thumbnail": "thumbnails/7208.png",
       "sha256": "54a04b094769db4c42ded27e7c479f2ef0b8bc1d9eaf9b88b064d1f51dad955d"
+    },
+    {
+      "message_id": 7207,
+      "filename": "이감 모의고사 시즌3-3 문제+해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-11/7207_.3-3.%2B.pdf",
+      "size_bytes": 5177744,
+      "telegram_date": "2025-08-11T15:28:34+00:00",
+      "title": "이감 모의고사 시즌3-3 문제+해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/7207.png",
+      "sha256": "9858dcc28bf5794ae546db4019633e7664ffb9b473bb8b5df27cf2c022dca3b5"
     }
   ],
   "duplicate_message_ids": [
