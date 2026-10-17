@@ -157177,6 +157177,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6565.png",
       "sha256": "c4f991e007ddbf76598adbc64bc97a075ad85ec7b015d85ea930ad454ddd9db1"
+    },
+    {
+      "message_id": 6564,
+      "filename": "이그나이트 5+6.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6564_.5%2B6.pdf",
+      "size_bytes": 39733756,
+      "telegram_date": "2025-08-11T15:20:55+00:00",
+      "title": "이그나이트 5+6",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6564.png",
+      "sha256": "233a4dac9cc76ea49fad53d115887c507f4bcd3ffe6f61303e35767304a539ce"
     }
   ],
   "duplicate_message_ids": [
