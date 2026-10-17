@@ -155427,6 +155427,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6730.png",
       "sha256": "1b395d0d1575ab3645a883fb33e7fe465949e5ce0cc04be8feac3725244f32dc"
+    },
+    {
+      "message_id": 6729,
+      "filename": "2026 SDIJ Bridge 03-해설ㄴ.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6729_2026.SDIJ.Bridge.03-.pdf",
+      "size_bytes": 12992600,
+      "telegram_date": "2025-08-11T15:22:59+00:00",
+      "title": "2026 SDIJ Bridge 03-해설ㄴ",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6729.png",
+      "sha256": "7c1f195a22131cc73fcf09aaa33c1c9822d34a287d92c700aa2f412b1a387668"
     }
   ],
   "duplicate_message_ids": [
