@@ -154573,6 +154573,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6864.png",
       "sha256": "68bf94f5ad5763f47e82127f765451b2b81d5a0ae993a9da297a04efb42f557e"
+    },
+    {
+      "message_id": 6863,
+      "filename": "2026 생1 김연호 APPLICATION 3권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6863_2026.1.APPLICATION.3.pdf",
+      "size_bytes": 119753682,
+      "telegram_date": "2025-08-11T15:23:07+00:00",
+      "title": "2026 생1 김연호 APPLICATION 3권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6863.png",
+      "sha256": "f22ebe3c132d1b9474e012c1360819c54ac7f302b78bc7a9a1397a0f363ff4c7"
     }
   ],
   "duplicate_message_ids": [
