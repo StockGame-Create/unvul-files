@@ -153593,6 +153593,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6944.png",
       "sha256": "b427c03e7415e1e42108291152b7ced58e7f3c16f33d42f8d4029a5dcf39ade0"
+    },
+    {
+      "message_id": 6943,
+      "filename": "2026_수학_박종민_미적분_고수탑_위클리콤_1권_4주.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6943_2026_._._._._._1._4.pdf",
+      "size_bytes": 18313829,
+      "telegram_date": "2025-08-11T15:23:16+00:00",
+      "title": "2026_수학_박종민_미적분_고수탑_위클리콤_1권_4주",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6943.png",
+      "sha256": "5e772020042c4e86de57ebd3b09a223f8506907987691ea671dc24155acdd7e0"
     }
   ],
   "duplicate_message_ids": [
