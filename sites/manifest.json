@@ -153971,6 +153971,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6917.png",
       "sha256": "4da99366bf6b8fae5a950050b6c1a2d6cd56322d8c3c7d1ec4f81f8d15487a9f"
+    },
+    {
+      "message_id": 6916,
+      "filename": "2026 수학 CSM17 수1 Rebirth 변형편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6916_2026.CSM17.1.Rebirth.pdf",
+      "size_bytes": 216816969,
+      "telegram_date": "2025-08-11T15:23:15+00:00",
+      "title": "2026 수학 CSM17 수1 Rebirth 변형편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6916.png",
+      "sha256": "81c237e33e27ac84ef90eaf8bbd2fd454579331608d0c3eed31f7bad29b07f40"
     }
   ],
   "duplicate_message_ids": [
