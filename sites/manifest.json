@@ -156183,6 +156183,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6658.png",
       "sha256": "034201796234482208f4169b6ee415963c2fea44a9657eab6d347edcd02a361a"
+    },
+    {
+      "message_id": 6657,
+      "filename": "2026 국어 김승리 허슬테스트 제4회(문제).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6657_2026.4.pdf",
+      "size_bytes": 19483851,
+      "telegram_date": "2025-08-11T15:22:14+00:00",
+      "title": "2026 국어 김승리 허슬테스트 제4회(문제)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6657.png",
+      "sha256": "6e36e7bc07acec35223cc2be5d381961eb33a712512a6d56ba0baddf5ca9ea1f"
     }
   ],
   "duplicate_message_ids": [
