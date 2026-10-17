@@ -157191,6 +157191,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6564.png",
       "sha256": "233a4dac9cc76ea49fad53d115887c507f4bcd3ffe6f61303e35767304a539ce"
+    },
+    {
+      "message_id": 6563,
+      "filename": "[2025] BoosterN;1;1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6563_.2025.BoosterN.1.1.pdf",
+      "size_bytes": 103528772,
+      "telegram_date": "2025-08-11T15:20:55+00:00",
+      "title": "[2025] BoosterN;1;1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6563.png",
+      "sha256": "9dd9f52ee4f80b83196f23ee895e30f61255f7c0c5cdd6937e9302f5330c36ff"
     }
   ],
   "duplicate_message_ids": [
