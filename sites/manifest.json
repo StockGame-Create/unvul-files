@@ -155217,6 +155217,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6755.png",
       "sha256": "59502359b71e28b61cdd364b1d2ec9085dd25bf7e884a2b7eb825cea10e4f78f"
+    },
+    {
+      "message_id": 6754,
+      "filename": "러쉬 스팀팩 2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6754_.2.pdf",
+      "size_bytes": 79980506,
+      "telegram_date": "2025-08-11T15:23:00+00:00",
+      "title": "러쉬 스팀팩 2권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6754.png",
+      "sha256": "2af5c57ee4e6bcc9ab165ffe19be941c8a63868e5412b7f77bb738bfea98b811"
     }
   ],
   "duplicate_message_ids": [
