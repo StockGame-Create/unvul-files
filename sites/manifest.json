@@ -155385,6 +155385,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6736.png",
       "sha256": "f21ce240ad9c4b0f83685ab8d23536d9f2fe85d6884871ff061689074adb797c"
+    },
+    {
+      "message_id": 6735,
+      "filename": "LCS생명과학I_시험지_pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6735_LCS.I_._pdf.pdf",
+      "size_bytes": 1367324,
+      "telegram_date": "2025-08-11T15:22:59+00:00",
+      "title": "LCS생명과학I_시험지_pdf",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6735.png",
+      "sha256": "8c1410fc8269c8daa5cbcc8bb371994f54a25960690f36a0b7e79186cd3a744c"
     }
   ],
   "duplicate_message_ids": [
