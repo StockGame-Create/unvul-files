@@ -157079,6 +157079,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6575.png",
       "sha256": "a129e90173c8e849b84f1a7d34e32ada2df40578c9f17421db2413325f56f9f7"
+    },
+    {
+      "message_id": 6573,
+      "filename": "지구 브릿지 전국 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6573_.5.pdf",
+      "size_bytes": 18544915,
+      "telegram_date": "2025-08-11T15:20:56+00:00",
+      "title": "지구 브릿지 전국 5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6573.png",
+      "sha256": "454da234a9cf99ff458211e040933ca5d728cfb2f2e947567392428512d3a1ff"
     }
   ],
   "duplicate_message_ids": [
