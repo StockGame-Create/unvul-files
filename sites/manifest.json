@@ -155497,6 +155497,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6725.png",
       "sha256": "a569b3fe2382465efd3cbccda40979640ea72ff8ef7ff567efb2a3f4773e78a2"
+    },
+    {
+      "message_id": 6724,
+      "filename": "2026_국어_박광일_수특FUII-E_고전산문_업로드용.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6724_2026_._._.FUII-E_._.pdf",
+      "size_bytes": 214010581,
+      "telegram_date": "2025-08-11T15:22:58+00:00",
+      "title": "2026_국어_박광일_수특FUII-E_고전산문_업로드용",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6724.png",
+      "sha256": "a7a3037a4a3ff6ed988b7fb3b967afe94526b0d6ee53b1a75fb95704dc5bf298"
     }
   ],
   "duplicate_message_ids": [
