@@ -155189,6 +155189,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6757.png",
       "sha256": "1ef79f46b7f6606493b542ac2f1d85b6d112e2080c4d3000b5403678f52f8c14"
+    },
+    {
+      "message_id": 6756,
+      "filename": "홀수 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6756_.pdf",
+      "size_bytes": 13040553,
+      "telegram_date": "2025-08-11T15:23:00+00:00",
+      "title": "홀수 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6756.png",
+      "sha256": "23a65b1f652d003bf94bb3531d463323eb023018baa3ebf4f6e42da2a17a1a07"
     }
   ],
   "duplicate_message_ids": [
