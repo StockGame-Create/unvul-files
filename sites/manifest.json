@@ -156939,6 +156939,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6585.png",
       "sha256": "13679632e94cca0bcf591707ce62ba09bc7abf76ba5c38af1e568a16998fff29"
+    },
+    {
+      "message_id": 6584,
+      "filename": "2026 MDGC 유전편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6584_2026.MDGC.pdf",
+      "size_bytes": 230590685,
+      "telegram_date": "2025-08-11T15:20:59+00:00",
+      "title": "2026 MDGC 유전편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6584.png",
+      "sha256": "9893fb63796e2cf4e6afb55328cc057775da6f81fb3827b110cf7f2c58e5f4b7"
     }
   ],
   "duplicate_message_ids": [
