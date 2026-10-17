@@ -156967,6 +156967,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6583.png",
       "sha256": "1201fcafa68a4059466b3c2136765b19dc6186af6f0e08a1b571c10e01d5cd9c"
+    },
+    {
+      "message_id": 6582,
+      "filename": "천일문 기본 SB (pdf.io).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6582_.SB.pdf.io.pdf",
+      "size_bytes": 12397681,
+      "telegram_date": "2025-08-11T15:20:59+00:00",
+      "title": "천일문 기본 SB (pdf.io)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6582.png",
+      "sha256": "b219d79958f121aeb0a3abb634c91235658f40e37562f60a5f86799303998c59"
     }
   ],
   "duplicate_message_ids": [
