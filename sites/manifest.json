@@ -155203,6 +155203,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6756.png",
       "sha256": "23a65b1f652d003bf94bb3531d463323eb023018baa3ebf4f6e42da2a17a1a07"
+    },
+    {
+      "message_id": 6755,
+      "filename": "홀수 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6755_.pdf",
+      "size_bytes": 29449977,
+      "telegram_date": "2025-08-11T15:23:00+00:00",
+      "title": "홀수 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6755.png",
+      "sha256": "59502359b71e28b61cdd364b1d2ec9085dd25bf7e884a2b7eb825cea10e4f78f"
     }
   ],
   "duplicate_message_ids": [
