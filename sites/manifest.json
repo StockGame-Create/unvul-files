@@ -155735,6 +155735,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6701.png",
       "sha256": "f38d18a1e64e8bb2cf3e1cd33c7c7a145d6047f0aace5f8f4de38321acfee2e1"
+    },
+    {
+      "message_id": 6700,
+      "filename": "2025 UAA Trailer 7~10회 합본 (Final).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6700_2025.UAA.Trailer.7.10.Final.pdf",
+      "size_bytes": 11319988,
+      "telegram_date": "2025-08-11T15:22:19+00:00",
+      "title": "2025 UAA Trailer 7~10회 합본 (Final)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6700.png",
+      "sha256": "677217a5e61228eb9288f1574c566b2d4ef3a6db83a114688ecebbfbb721375e"
     }
   ],
   "duplicate_message_ids": [
