@@ -156827,6 +156827,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6598.png",
       "sha256": "945819258017b4f36bd2fa35b22c2590775d68d2ff706b048ac3b7b70133a026"
+    },
+    {
+      "message_id": 6597,
+      "filename": "서킷 5.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6597_.5.pdf",
+      "size_bytes": 770899,
+      "telegram_date": "2025-08-11T15:21:00+00:00",
+      "title": "서킷 5",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6597.png",
+      "sha256": "0d244861f6d8b028fb3ca261823b05666a369eb1e406f54a88eb606488cdcb08"
     }
   ],
   "duplicate_message_ids": [
