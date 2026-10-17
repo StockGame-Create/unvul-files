@@ -154517,6 +154517,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6874.png",
       "sha256": "3a47475292b99454e091124630026663054a0f1c72e19607dc6841bb965c6bea"
+    },
+    {
+      "message_id": 6870,
+      "filename": "2026_생1_시대인재북스_STEP2_스코어_기출문제집해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6870_2026_.1_._STEP2_._.pdf",
+      "size_bytes": 119773318,
+      "telegram_date": "2025-08-11T15:23:08+00:00",
+      "title": "2026_생1_시대인재북스_STEP2_스코어_기출문제집해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6870.png",
+      "sha256": "3cd7747e990f0aa1f6352f63db1474c688b47d9283427d5323d5ab9f48819e88"
     }
   ],
   "duplicate_message_ids": [
