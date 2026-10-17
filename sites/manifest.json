@@ -156561,6 +156561,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6619.png",
       "sha256": "56e4369d9726c99f09fd8ce3697931c803d8b0080d9e6cf2b449b94f1a017371"
+    },
+    {
+      "message_id": 6616,
+      "filename": "2505고3_정답표.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6616_2505.3_.pdf",
+      "size_bytes": 89151,
+      "telegram_date": "2025-08-11T15:22:12+00:00",
+      "title": "2505고3_정답표",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6616.png",
+      "sha256": "35f94b32b4f07046b3716ba4302df6598db91402c8d724448162a005fa767466"
     }
   ],
   "duplicate_message_ids": [
