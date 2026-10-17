@@ -154013,6 +154013,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6914.png",
       "sha256": "3a23a7c1f87cb5821134942b50f2a823d654d2bb498ff8779a396b8205088e8c"
+    },
+    {
+      "message_id": 6913,
+      "filename": "2026 수학 CSM17 미적분 Rebirth 빠른정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6913_2026.CSM17.Rebirth.pdf",
+      "size_bytes": 1296998,
+      "telegram_date": "2025-08-11T15:23:15+00:00",
+      "title": "2026 수학 CSM17 미적분 Rebirth 빠른정답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6913.png",
+      "sha256": "76e406ca8bfd6943fe024988c3f4dce01ed9d20cbffb46e6c247bd2532802953"
     }
   ],
   "duplicate_message_ids": [
