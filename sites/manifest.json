@@ -155539,6 +155539,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6722.png",
       "sha256": "6e23d5e3d42618684b1fe5ec941be72ba8eea56f4cfcfd228bf27e5700950996"
+    },
+    {
+      "message_id": 6718,
+      "filename": "2026 정석민 문법의 이론과 유형.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6718_2026.pdf",
+      "size_bytes": 173662937,
+      "telegram_date": "2025-08-11T15:22:58+00:00",
+      "title": "2026 정석민 문법의 이론과 유형",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6718.png",
+      "sha256": "82f28c88e16e3ec2d856ba3d1bfbdf74ee25bb831146e9c4574f744e71eb2ade"
     }
   ],
   "duplicate_message_ids": [
