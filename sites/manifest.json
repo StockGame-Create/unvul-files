@@ -154237,6 +154237,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6894.png",
       "sha256": "abde200c17224e33905f7b661dafa1c27397f1db841ce8b2183a751055898f6d"
+    },
+    {
+      "message_id": 6893,
+      "filename": "맑은N제_킬러편_미적분팩.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6893_.N._._.pdf",
+      "size_bytes": 79937650,
+      "telegram_date": "2025-08-11T15:23:14+00:00",
+      "title": "맑은N제_킬러편_미적분팩",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6893.png",
+      "sha256": "d06e2c5bb4502a723b8accc62ba8ee18be84dcfcd483357c817fd751ca43e6df"
     }
   ],
   "duplicate_message_ids": [
