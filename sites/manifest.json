@@ -157359,6 +157359,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6547.png",
       "sha256": "2d2e3e8b547af9828a207427a3c41e466f85234cf4ebc86c28ecd7f4d732ed14"
+    },
+    {
+      "message_id": 6546,
+      "filename": "02. 단 하나의 언매 문법 길라잡이..pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6546_02.pdf",
+      "size_bytes": 158896067,
+      "telegram_date": "2025-08-11T15:20:54+00:00",
+      "title": "02. 단 하나의 언매 문법 길라잡이.",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6546.png",
+      "sha256": "26413b674ff28a876e1fc8863c289de30b79d73693e0d7399f4d1e11c042ca47"
     }
   ],
   "duplicate_message_ids": [
