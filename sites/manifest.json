@@ -154503,6 +154503,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6875.png",
       "sha256": "c5b08e9c3b5ecb491019d95c8549de37c47e2138c2c809e79cbc8c62b8bb1b11"
+    },
+    {
+      "message_id": 6874,
+      "filename": "2026 영어 최은영 CHOI's Meta-cognition.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6874_2026.CHOI.s.Meta-cognition.pdf",
+      "size_bytes": 132090255,
+      "telegram_date": "2025-08-11T15:23:08+00:00",
+      "title": "2026 영어 최은영 CHOI's Meta-cognition",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6874.png",
+      "sha256": "3a47475292b99454e091124630026663054a0f1c72e19607dc6841bb965c6bea"
     }
   ],
   "duplicate_message_ids": [
