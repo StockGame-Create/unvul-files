@@ -154279,6 +154279,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6891.png",
       "sha256": "3c8c59deb2f897ef70284cd9b325972b6085aa8e01d3a8d4b73984eba4f30358"
+    },
+    {
+      "message_id": 6890,
+      "filename": "정답화학서브노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6890_.pdf",
+      "size_bytes": 84855941,
+      "telegram_date": "2025-08-11T15:23:14+00:00",
+      "title": "정답화학서브노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6890.png",
+      "sha256": "d24da0f41ea3664155776b96ecb9b9cbe85321acc66d630b1c629bf804008aba"
     }
   ],
   "duplicate_message_ids": [
