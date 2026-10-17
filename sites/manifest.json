@@ -154251,6 +154251,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6893.png",
       "sha256": "d06e2c5bb4502a723b8accc62ba8ee18be84dcfcd483357c817fd751ca43e6df"
+    },
+    {
+      "message_id": 6892,
+      "filename": "우주설 미적분 N제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6892_.N.pdf",
+      "size_bytes": 11798597,
+      "telegram_date": "2025-08-11T15:23:14+00:00",
+      "title": "우주설 미적분 N제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6892.png",
+      "sha256": "27b96fa19a498503d990bfacff81679c75cd5e90bd7b975adb64f56ba6857c92"
     }
   ],
   "duplicate_message_ids": [
