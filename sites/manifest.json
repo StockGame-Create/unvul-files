@@ -157331,6 +157331,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6552.png",
       "sha256": "7ea6d44f60534c73e4cf6058d9af3de171ea70a6f7bfe8ecc2bb26b02d587823"
+    },
+    {
+      "message_id": 6550,
+      "filename": "뉴런 미적 2026 빠답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6550_.2026.pdf",
+      "size_bytes": 380059,
+      "telegram_date": "2025-08-11T15:20:54+00:00",
+      "title": "뉴런 미적 2026 빠답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6550.png",
+      "sha256": "6ee5565f5818b8fe3c3f63e8dd88706aa11e91bb3d33eb328f4b7788a0f42dea"
     }
   ],
   "duplicate_message_ids": [
