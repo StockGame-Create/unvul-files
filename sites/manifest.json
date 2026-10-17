@@ -156505,6 +156505,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6623.png",
       "sha256": "6f0da33e062742d912c4c5a74ebd83102d49b854dbeafd4eabdaca7157553113"
+    },
+    {
+      "message_id": 6622,
+      "filename": "5월 서프 수학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6622_5.pdf",
+      "size_bytes": 6554380,
+      "telegram_date": "2025-08-11T15:22:12+00:00",
+      "title": "5월 서프 수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6622.png",
+      "sha256": "2b52a4f1242d93da4cb62bd5b1ab62f9e644ea43aecb451d3c3ead06da448b55"
     }
   ],
   "duplicate_message_ids": [
