@@ -154685,6 +154685,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6855.png",
       "sha256": "406a2143df4b1dd6d4a7746926bbec7cb7b24173097b31f92519ea324c4c96b5"
+    },
+    {
+      "message_id": 6854,
+      "filename": "2026_수학_현우진_6월_모의평가_대비_Killing_Camp_1회해설_공공재.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6854_2026_._._6._._._Killing_Camp_1._.pdf",
+      "size_bytes": 10104826,
+      "telegram_date": "2025-08-11T15:23:07+00:00",
+      "title": "2026_수학_현우진_6월_모의평가_대비_Killing_Camp_1회해설_공공재",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6854.png",
+      "sha256": "cbaa085fe9df097bcf8854907bd82c4d1c8b531ed3edbc33d5c862940aabbe8e"
     }
   ],
   "duplicate_message_ids": [
