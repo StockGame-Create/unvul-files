@@ -155315,6 +155315,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6747.png",
       "sha256": "03cc20f15bf5d1a9576d8c991a295a22cc12014f8de96edc72ef915c520ff27a"
+    },
+    {
+      "message_id": 6746,
+      "filename": "2026 유자분 지구1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6746_2026.1.pdf",
+      "size_bytes": 68190348,
+      "telegram_date": "2025-08-11T15:23:00+00:00",
+      "title": "2026 유자분 지구1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6746.png",
+      "sha256": "7354991828c083754b1b427b2adcf6e5dd0ec9e063351145bd0db033ef0c0817"
     }
   ],
   "duplicate_message_ids": [
