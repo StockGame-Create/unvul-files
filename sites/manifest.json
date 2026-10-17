@@ -156785,6 +156785,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6601.png",
       "sha256": "c065c0643bdb486f607c422627b4f19362584b4a27486a89d0592e3a510edbbf"
+    },
+    {
+      "message_id": 6600,
+      "filename": "2026 강E분 고전시가.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6600_2026.E.pdf",
+      "size_bytes": 87019036,
+      "telegram_date": "2025-08-11T15:21:00+00:00",
+      "title": "2026 강E분 고전시가",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6600.png",
+      "sha256": "5135050d75870c6a048bacdea9777278796e8a8dc4943f677202c844d069901c"
     }
   ],
   "duplicate_message_ids": [
