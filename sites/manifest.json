@@ -154223,6 +154223,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6895.png",
       "sha256": "79de6572c5d3a2ca547312799c5bdf011f0be5f9f16463b6bd4d832658040181"
+    },
+    {
+      "message_id": 6894,
+      "filename": "서프 미적 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6894_.pdf",
+      "size_bytes": 12333610,
+      "telegram_date": "2025-08-11T15:23:14+00:00",
+      "title": "서프 미적 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6894.png",
+      "sha256": "abde200c17224e33905f7b661dafa1c27397f1db841ce8b2183a751055898f6d"
     }
   ],
   "duplicate_message_ids": [
