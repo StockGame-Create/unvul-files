@@ -156351,6 +156351,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6641.png",
       "sha256": "936ef346624182533309f9d75cd52583d81224d79b14061dd98dd695cd00b5c6"
+    },
+    {
+      "message_id": 6638,
+      "filename": "본바탕 3권 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6638_.3.pdf",
+      "size_bytes": 134276027,
+      "telegram_date": "2025-08-11T15:22:13+00:00",
+      "title": "본바탕 3권 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6638.png",
+      "sha256": "93cc8e8b34c92abe463f27ffbbb125d3b71d36dda275be022574568813f76a4f"
     }
   ],
   "duplicate_message_ids": [
