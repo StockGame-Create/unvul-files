@@ -153369,6 +153369,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6960.png",
       "sha256": "04100a34905ce8892ffffb90ffc3426f6a62e7670f18dc0142c8d900fe6ae2a0"
+    },
+    {
+      "message_id": 6959,
+      "filename": "2026 수학 박종민 미적분 필기노트 5주.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6959_2026.5.pdf",
+      "size_bytes": 34599112,
+      "telegram_date": "2025-08-11T15:23:20+00:00",
+      "title": "2026 수학 박종민 미적분 필기노트 5주",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6959.png",
+      "sha256": "ac4d15ddc4d6d1f081231d4ac1753ea1eb8203db0060978a13c103c1c6bb4aa7"
     }
   ],
   "duplicate_message_ids": [
