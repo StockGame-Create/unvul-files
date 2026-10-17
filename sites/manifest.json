@@ -155301,6 +155301,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6748.png",
       "sha256": "b431d283b42acc75504eab354d996bcf579906acf1557ff423bfaa86321e703c"
+    },
+    {
+      "message_id": 6747,
+      "filename": "싱글커넥션 미적분 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6747_.pdf",
+      "size_bytes": 24475830,
+      "telegram_date": "2025-08-11T15:23:00+00:00",
+      "title": "싱글커넥션 미적분 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6747.png",
+      "sha256": "03cc20f15bf5d1a9576d8c991a295a22cc12014f8de96edc72ef915c520ff27a"
     }
   ],
   "duplicate_message_ids": [
