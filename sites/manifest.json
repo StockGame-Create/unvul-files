@@ -154209,6 +154209,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6897.png",
       "sha256": "2592b00f2603c795b8ca20d23382594089f3a8774e900b604a02ef0d1e6fd793"
+    },
+    {
+      "message_id": 6895,
+      "filename": "2026_생1_시대인재북스_TIMELINE_IN&DEL_기출문제집문제해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6895_2026_.1_._TIMELINE_IN.DEL_.pdf",
+      "size_bytes": 189605555,
+      "telegram_date": "2025-08-11T15:23:14+00:00",
+      "title": "2026_생1_시대인재북스_TIMELINE_IN&DEL_기출문제집문제해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6895.png",
+      "sha256": "79de6572c5d3a2ca547312799c5bdf011f0be5f9f16463b6bd4d832658040181"
     }
   ],
   "duplicate_message_ids": [
