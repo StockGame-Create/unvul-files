@@ -157163,6 +157163,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6566.png",
       "sha256": "5ed575dcef5a2a00b5135960b972da3642c562c490ec9df1e1ddf7052fce0e43"
+    },
+    {
+      "message_id": 6565,
+      "filename": "이명학 일리 수정판.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6565_.pdf",
+      "size_bytes": 63097617,
+      "telegram_date": "2025-08-11T15:20:55+00:00",
+      "title": "이명학 일리 수정판",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6565.png",
+      "sha256": "c4f991e007ddbf76598adbc64bc97a075ad85ec7b015d85ea930ad454ddd9db1"
     }
   ],
   "duplicate_message_ids": [
