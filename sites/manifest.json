@@ -156365,6 +156365,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6638.png",
       "sha256": "93cc8e8b34c92abe463f27ffbbb125d3b71d36dda275be022574568813f76a4f"
+    },
+    {
+      "message_id": 6637,
+      "filename": "본바탕 3권 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6637_.3.pdf",
+      "size_bytes": 488165197,
+      "telegram_date": "2025-08-11T15:22:13+00:00",
+      "title": "본바탕 3권 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6637.png",
+      "sha256": "638dd5010e3422b0b1ae1f5801ccd7164be4acd8d4806b9cb3f9ba77f8f18a5d"
     }
   ],
   "duplicate_message_ids": [
