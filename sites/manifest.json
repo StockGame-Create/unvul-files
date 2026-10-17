@@ -157779,6 +157779,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6508.png",
       "sha256": "a4fb0d53f35303fddc4d64adcbf45da64b062dfe95df8967098610da325231db"
+    },
+    {
+      "message_id": 6507,
+      "filename": "김강민 준킬러모의 5-6.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6507_.5-6.pdf",
+      "size_bytes": 608986,
+      "telegram_date": "2025-08-11T15:20:52+00:00",
+      "title": "김강민 준킬러모의 5-6",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6507.png",
+      "sha256": "59633065f9daff7a9329f673027861710ebf35f3daeb45471e37dbd1f20c5df7"
     }
   ],
   "duplicate_message_ids": [
