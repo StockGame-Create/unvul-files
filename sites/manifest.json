@@ -43,6 +43,20 @@
       "sha256": "0430129b9c4ec0cdd5598f5db9f7abebccda63171f428193e8943c389c8e3d07"
     },
     {
+      "message_id": 25564,
+      "filename": "2027 지1 김진영 모의고사 11회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25564_2027.1.11.pdf",
+      "size_bytes": 2450767,
+      "telegram_date": "2026-10-17T01:36:24+00:00",
+      "title": "지1 김진영 모의고사 11회",
+      "year": "2027",
+      "instructor": "김진영",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25564.png",
+      "sha256": "93f4331dd65134779168c7d298d93a7b460462e50d7af4b957a43819fc2bd425"
+    },
+    {
       "message_id": 25559,
       "filename": "27 사문 13주차 합본.pdf",
       "stored_as": null,
