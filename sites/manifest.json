@@ -157709,6 +157709,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6515.png",
       "sha256": "6787cce6ab63b9dd58eacfde80ff98dd501398fb72999e08c87b266969ed5770"
+    },
+    {
+      "message_id": 6514,
+      "filename": "TalkFile_STIMPACK 물리학 II 02.pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6514_TalkFile_STIMPACK.II.02.pdf.pdf",
+      "size_bytes": 4377316,
+      "telegram_date": "2025-08-11T15:20:52+00:00",
+      "title": "TalkFile_STIMPACK 물리학 II 02.pdf",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6514.png",
+      "sha256": "89704ca38e8b9397f854464070bc6dcc7d1586e2c0ca920ba392f6bd77a62b4d"
     }
   ],
   "duplicate_message_ids": [
