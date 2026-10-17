@@ -157261,6 +157261,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6557.png",
       "sha256": "944f95e1000d0b2ee25749e110dd8fca548e03966be078996e51ea8696114043"
+    },
+    {
+      "message_id": 6556,
+      "filename": "2026_훈련도감_v2_0_필기노트_모음_현대소설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6556_2026_._v2_0_._._.pdf",
+      "size_bytes": 51581157,
+      "telegram_date": "2025-08-11T15:20:55+00:00",
+      "title": "2026_훈련도감_v2_0_필기노트_모음_현대소설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6556.png",
+      "sha256": "03eae4f44c43c63f896a3ad78dd421a594ed9ce56d317412dad3a8049c276dde"
     }
   ],
   "duplicate_message_ids": [
