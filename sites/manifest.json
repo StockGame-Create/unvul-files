@@ -154083,6 +154083,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6907.png",
       "sha256": "c408a4fd070c40276eaac6f0f02b39a40dcc2586cee675a240c5277d65943b79"
+    },
+    {
+      "message_id": 6900,
+      "filename": "2026 생1 윤도영 Infinite Evolution 8주.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6900_2026.1.Infinite.Evolution.8.pdf",
+      "size_bytes": 55664603,
+      "telegram_date": "2025-08-11T15:23:14+00:00",
+      "title": "2026 생1 윤도영 Infinite Evolution 8주",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6900.png",
+      "sha256": "6413c9b8f14d7481688d9bc359ac85b6ff395a0e65da0f61a825dcabf333718b"
     }
   ],
   "duplicate_message_ids": [
