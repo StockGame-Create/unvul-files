@@ -155035,6 +155035,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6768.png",
       "sha256": "fd74b6af51c036d7994d1a64abf2dc7caac15112ebbd0ef59b73f954625e8072"
+    },
+    {
+      "message_id": 6767,
+      "filename": "2026 국어 강은양 Schema ④ 인문(해설).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6767_2026.Schema.pdf",
+      "size_bytes": 100527524,
+      "telegram_date": "2025-08-11T15:23:01+00:00",
+      "title": "2026 국어 강은양 Schema ④ 인문(해설)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6767.png",
+      "sha256": "a54f9612c79f6daf4af5fae239d7c697c9b71511b34bf01d06817508ea516b4e"
     }
   ],
   "duplicate_message_ids": [
