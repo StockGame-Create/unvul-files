@@ -153719,6 +153719,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6935.png",
       "sha256": "0ee662a31a04e8b896500c4cae6a5245d7c6d571d61e7056a715cfb3faaef026"
+    },
+    {
+      "message_id": 6934,
+      "filename": "2026 수학 강기원 수1 STEP1 특강 5주차 공공재.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6934_2026.1.STEP1.5.pdf",
+      "size_bytes": 104768025,
+      "telegram_date": "2025-08-11T15:23:16+00:00",
+      "title": "2026 수학 강기원 수1 STEP1 특강 5주차 공공재",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6934.png",
+      "sha256": "9186cf8d191ced41c5a8e51df0e6d421e98b3379abac30a51496364a8cd5cf6f"
     }
   ],
   "duplicate_message_ids": [
