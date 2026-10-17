@@ -157135,6 +157135,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6568.png",
       "sha256": "ffb1cfa8319e8deb8da8a1dbd68f68e0f9968bcd1a79d24da0690fdd7563394e"
+    },
+    {
+      "message_id": 6567,
+      "filename": "23서바 N 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6567_23.N.1.pdf",
+      "size_bytes": 6053593,
+      "telegram_date": "2025-08-11T15:20:55+00:00",
+      "title": "23서바 N 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6567.png",
+      "sha256": "bdbb162d4a28c586be92f565ebe52bd6ac1b0b1aeffd05ba6785912f72e80f90"
     }
   ],
   "duplicate_message_ids": [
