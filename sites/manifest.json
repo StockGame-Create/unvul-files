@@ -156113,6 +156113,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6663.png",
       "sha256": "b6d16dd8ce3aae0a0bbde8c684d428fed75a48edfa3d61d72627f66fb4311105"
+    },
+    {
+      "message_id": 6662,
+      "filename": "2026 수마캠 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6662_2026.pdf",
+      "size_bytes": 15813854,
+      "telegram_date": "2025-08-11T15:22:14+00:00",
+      "title": "2026 수마캠 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6662.png",
+      "sha256": "4bc1d94b4732dfc7ec7789adc3c546bb7288eb9475b37a72de5278fcb543b10c"
     }
   ],
   "duplicate_message_ids": [
