@@ -157387,6 +157387,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6545.png",
       "sha256": "fa9928c11071f0b87d0e1f0da6e65bb580e47290281f3ddd6532ae4dd1e66f3e"
+    },
+    {
+      "message_id": 6541,
+      "filename": "2026_박종민T_수학_Limit_α_02회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6541_2026_.T_._Limit_._02.pdf",
+      "size_bytes": 22801396,
+      "telegram_date": "2025-08-11T15:20:54+00:00",
+      "title": "2026_박종민T_수학_Limit_α_02회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6541.png",
+      "sha256": "7e1cb99e16044282bc26b45d6144a4784f632daf9e5683c3d212ca4a3d4488fc"
     }
   ],
   "duplicate_message_ids": [
