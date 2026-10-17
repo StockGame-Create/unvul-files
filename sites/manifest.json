@@ -154601,6 +154601,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6862.png",
       "sha256": "a0e1aa81ac79dfb78167519a21118b642213b760eecbaa5adadb11cc22e3eb26"
+    },
+    {
+      "message_id": 6861,
+      "filename": "2026_국어영어수학_메가스터디_러셀_OMEGA_주간지_8주.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6861_2026_._._._OMEGA_._8.pdf",
+      "size_bytes": 33603016,
+      "telegram_date": "2025-08-11T15:23:07+00:00",
+      "title": "2026_국어영어수학_메가스터디_러셀_OMEGA_주간지_8주",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6861.png",
+      "sha256": "55dc70581fd86191d15152346774855fc6377ddb93469171314ad05cb09438fc"
     }
   ],
   "duplicate_message_ids": [
