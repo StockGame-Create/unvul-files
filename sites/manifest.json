@@ -154349,6 +154349,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6886.png",
       "sha256": "bd0554862e5f3ad30046336e2d8dd8bf8ed959a841b5dac9e2cc67ebb5b90e22"
+    },
+    {
+      "message_id": 6885,
+      "filename": "2023_생1_윤도영_Infinite_Evolution_LIFE_SCIENCEⅠ_유전.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6885_2023_.1_._Infinite_Evolution_LIFE_SCIENCE._.pdf",
+      "size_bytes": 98927951,
+      "telegram_date": "2025-08-11T15:23:13+00:00",
+      "title": "2023_생1_윤도영_Infinite_Evolution_LIFE_SCIENCEⅠ_유전",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6885.png",
+      "sha256": "5d4be6317b982ad7fdcd6f46d8b5ce44b82519003b81febcc578be443585dfde"
     }
   ],
   "duplicate_message_ids": [
