@@ -153929,6 +153929,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6920.png",
       "sha256": "c88069b3b9e40437e83fb8f5237b9fa6f84ff7c2fef41d611a5e4b08049041c2"
+    },
+    {
+      "message_id": 6919,
+      "filename": "2026 수학 CSM17 수2 Rebirth 기출편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6919_2026.CSM17.2.Rebirth.pdf",
+      "size_bytes": 217628766,
+      "telegram_date": "2025-08-11T15:23:15+00:00",
+      "title": "2026 수학 CSM17 수2 Rebirth 기출편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6919.png",
+      "sha256": "dcb85b8e62215c8a9ed95917d1ff30fda9c6f944a3d1d1d248ceeff267aa2f77"
     }
   ],
   "duplicate_message_ids": [
