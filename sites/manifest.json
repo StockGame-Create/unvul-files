@@ -155175,6 +155175,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6758.png",
       "sha256": "a68f3f9dc37c35cf5af0983b7bb5f1dbcb6ffce8a1b943320c0c5145d4f0d1f1"
+    },
+    {
+      "message_id": 6757,
+      "filename": "2025 생1 디올 실전개념서 비유전.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6757_2025.1.pdf",
+      "size_bytes": 22979621,
+      "telegram_date": "2025-08-11T15:23:00+00:00",
+      "title": "2025 생1 디올 실전개념서 비유전",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6757.png",
+      "sha256": "1ef79f46b7f6606493b542ac2f1d85b6d112e2080c4d3000b5403678f52f8c14"
     }
   ],
   "duplicate_message_ids": [
