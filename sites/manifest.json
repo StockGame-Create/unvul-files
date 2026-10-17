@@ -157373,6 +157373,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6546.png",
       "sha256": "26413b674ff28a876e1fc8863c289de30b79d73693e0d7399f4d1e11c042ca47"
+    },
+    {
+      "message_id": 6545,
+      "filename": "01. 단 하나의 언매 문법 개념사전..pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6545_01.pdf",
+      "size_bytes": 51962218,
+      "telegram_date": "2025-08-11T15:20:54+00:00",
+      "title": "01. 단 하나의 언매 문법 개념사전.",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6545.png",
+      "sha256": "fa9928c11071f0b87d0e1f0da6e65bb580e47290281f3ddd6532ae4dd1e66f3e"
     }
   ],
   "duplicate_message_ids": [
