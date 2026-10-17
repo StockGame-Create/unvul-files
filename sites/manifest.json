@@ -156659,6 +156659,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6610.png",
       "sha256": "058a64d95cae570a51c9a3e6169ec54e7b58ebd8aebf5d172af8511b68ca6641"
+    },
+    {
+      "message_id": 6609,
+      "filename": "김강민 리퀄라이저 4회  해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6609_.4.pdf",
+      "size_bytes": 432041,
+      "telegram_date": "2025-08-11T15:22:12+00:00",
+      "title": "김강민 리퀄라이저 4회  해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6609.png",
+      "sha256": "74531eb07997dd11030fd4d962be870fe6831b9eeae3b81005016ad0c5c2a347"
     }
   ],
   "duplicate_message_ids": [
