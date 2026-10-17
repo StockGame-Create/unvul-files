@@ -156855,6 +156855,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6596.png",
       "sha256": "4aa60cc8b2cc5a8d838fc62f7f24c3c569519b318b302f40df7ad06a428edd3a"
+    },
+    {
+      "message_id": 6592,
+      "filename": "2026 Sapiens 도표 개념 & 유형서.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6592_2026.Sapiens.pdf",
+      "size_bytes": 1267116,
+      "telegram_date": "2025-08-11T15:21:00+00:00",
+      "title": "2026 Sapiens 도표 개념 & 유형서",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6592.png",
+      "sha256": "14d3b9cca1ec2a9ec574669efb14cf7793b0d5a6c6eecc32cbeafdea394d1b4f"
     }
   ],
   "duplicate_message_ids": [
