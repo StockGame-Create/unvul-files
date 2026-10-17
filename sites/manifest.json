@@ -154405,6 +154405,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6882.png",
       "sha256": "84c712521ae0f430cf26d36a62e89ef8af6e622d59ddfb3db2f51b8ad74dd4c0"
+    },
+    {
+      "message_id": 6881,
+      "filename": "2023 생1 윤도영 All About LIFE SCIENCEⅠ 유전 Book 2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6881_2023.1.All.About.LIFE.SCIENCE.Book.2.pdf",
+      "size_bytes": 103375471,
+      "telegram_date": "2025-08-11T15:23:13+00:00",
+      "title": "2023 생1 윤도영 All About LIFE SCIENCEⅠ 유전 Book 2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6881.png",
+      "sha256": "391f87541e371d65a99b059ca5a02e74a6795f7da25c0213f361c37df379dc3a"
     }
   ],
   "duplicate_message_ids": [
