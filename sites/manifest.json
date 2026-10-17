@@ -153789,6 +153789,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6930.png",
       "sha256": "0faa5af2dd212c254724b5771b7e3352406b7149477c6f7ddc02a588166ddae4"
+    },
+    {
+      "message_id": 6929,
+      "filename": "2026_수학_강기원_STEP_1_필기노트_수2_+_미적분_16주.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6929_2026_._._STEP_1_._.2_%2B_._16.pdf",
+      "size_bytes": 2431680,
+      "telegram_date": "2025-08-11T15:23:16+00:00",
+      "title": "2026_수학_강기원_STEP_1_필기노트_수2_+_미적분_16주",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6929.png",
+      "sha256": "40270122f8afb9b7757a45f1966a40df4af49397263306d7503dee6163d7f9eb"
     }
   ],
   "duplicate_message_ids": [
