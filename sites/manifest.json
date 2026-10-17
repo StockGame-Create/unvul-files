@@ -155791,6 +155791,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6697.png",
       "sha256": "cf46e524e5009163829542b2f3370db4cba690c5a3f9e329a4e08c1ff7327d7d"
+    },
+    {
+      "message_id": 6696,
+      "filename": "C24KC55640KJI191_1MAR.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6696_C24KC55640KJI191_1MAR.PDF",
+      "size_bytes": 349711,
+      "telegram_date": "2025-08-11T15:22:19+00:00",
+      "title": "C24KC55640KJI191_1MAR",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6696.png",
+      "sha256": "5d47c5047c78f105b9b8009b77e90530e4e5498b8115fe33f956c0a057d86b67"
     }
   ],
   "duplicate_message_ids": [
