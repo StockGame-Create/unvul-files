@@ -157485,6 +157485,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6535.png",
       "sha256": "928dddd87885ce3d993e1b1f6594deaf963ad567eb2d7720bcf3d8796880fd00"
+    },
+    {
+      "message_id": 6534,
+      "filename": "UNESKO 문학 해설 상.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6534_UNESKO.pdf",
+      "size_bytes": 149340307,
+      "telegram_date": "2025-08-11T15:20:54+00:00",
+      "title": "UNESKO 문학 해설 상",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6534.png",
+      "sha256": "872cfca2389a4c43d74bab3fb09be5c57b6d961ca1a1d89ec8c1eaf8f6dc4387"
     }
   ],
   "duplicate_message_ids": [
