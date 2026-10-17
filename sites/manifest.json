@@ -157919,6 +157919,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6491.png",
       "sha256": "daca25296ec518cb6849e2d771ce2111accfc70023e766b6a4d0ccd9fac9fecf"
+    },
+    {
+      "message_id": 6490,
+      "filename": "간쓸개 시즌2-2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6490_.2-2.pdf",
+      "size_bytes": 196083409,
+      "telegram_date": "2025-08-11T15:20:44+00:00",
+      "title": "간쓸개 시즌2-2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6490.png",
+      "sha256": "c0d818747ed3c666f8e7997605450754f43819d8ef89cb188eeab6f0c7fed12e"
     }
   ],
   "duplicate_message_ids": [
