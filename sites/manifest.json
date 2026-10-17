@@ -154895,6 +154895,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6779.png",
       "sha256": "fa9f8e92051b28ed0267e0a6ccec8cf658c9e07e1944be8182a134f24d0b688c"
+    },
+    {
+      "message_id": 6778,
+      "filename": "2026 국어 상상 시즌3 모의 1회(문제).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6778_2026.3.1.pdf",
+      "size_bytes": 29887758,
+      "telegram_date": "2025-08-11T15:23:01+00:00",
+      "title": "2026 국어 상상 시즌3 모의 1회(문제)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6778.png",
+      "sha256": "195a1484d4331f6aa0f0b10b11d1a42a4781d8f7889109c9e4d53d159f6a16f7"
     }
   ],
   "duplicate_message_ids": [
