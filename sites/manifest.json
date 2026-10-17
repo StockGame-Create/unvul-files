@@ -155987,6 +155987,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6674.png",
       "sha256": "82ba1d4f2d7247d2c100f72f54c1a00df6442745f144e6f658b143326974dba1"
+    },
+    {
+      "message_id": 6672,
+      "filename": "현정훈 러쉬 스팀팩 5권 ..pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6672_.5.pdf",
+      "size_bytes": 53688500,
+      "telegram_date": "2025-08-11T15:22:15+00:00",
+      "title": "현정훈 러쉬 스팀팩 5권 .",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6672.png",
+      "sha256": "d903b917faf697e653a53a229eb2c1fa26f53b878ef8782b20b1b5916eafe225"
     }
   ],
   "duplicate_message_ids": [
