@@ -154321,6 +154321,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6888.png",
       "sha256": "efc34730f1ad5492d59abca0615d70c5f2a27709bee2b5e4a68647e6c51abf77"
+    },
+    {
+      "message_id": 6887,
+      "filename": "2023_생1_윤도영_Ultimate_Technique_LIFE_SCIENCEⅠ_Book_2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6887_2023_.1_._Ultimate_Technique_LIFE_SCIENCE._Book_2.pdf",
+      "size_bytes": 105913064,
+      "telegram_date": "2025-08-11T15:23:13+00:00",
+      "title": "2023_생1_윤도영_Ultimate_Technique_LIFE_SCIENCEⅠ_Book_2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6887.png",
+      "sha256": "c9d1713e09007894de6f0a2d17a447a58da5091ca608b0ab586731b83f8ef82b"
     }
   ],
   "duplicate_message_ids": [
