@@ -155273,6 +155273,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6750.png",
       "sha256": "3a217baa0aac3cda0081e1e596ee89d685d8a4fefe7acee0badeaf9be7d21bd1"
+    },
+    {
+      "message_id": 6749,
+      "filename": "2026대학수학능혁시험_시즌3_제1차_예비평가_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6749_2026._.3_.1._._.pdf",
+      "size_bytes": 19297622,
+      "telegram_date": "2025-08-11T15:23:00+00:00",
+      "title": "2026대학수학능혁시험_시즌3_제1차_예비평가_문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6749.png",
+      "sha256": "99cfc051435fdbb0eb92da2f87f6427158d7ad45064d950bee8449759d115d62"
     }
   ],
   "duplicate_message_ids": [
