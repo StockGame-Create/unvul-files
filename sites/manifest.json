@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 25569,
+      "filename": "서바_2027_서바이벌_20회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25569_._2027_._20._.pdf",
+      "size_bytes": 4657224,
+      "telegram_date": "2026-10-17T01:36:27+00:00",
+      "title": "수학 시대인재 서바이벌 모의고사 20회 #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25569.png",
+      "sha256": "3051757814cc8a2b5a6b058de4ebf887144c537ee73b282d80dc9f783361eb51"
+    },
+    {
       "message_id": 25559,
       "filename": "27 사문 13주차 합본.pdf",
       "stored_as": null,
