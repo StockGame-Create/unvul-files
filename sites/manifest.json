@@ -155119,6 +155119,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6762.png",
       "sha256": "3e66fbab1d2576e0719711838f06f614789d093de55007d460a6064d5472d74a"
+    },
+    {
+      "message_id": 6761,
+      "filename": "2026 국어 강은양 e may(5월호).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6761_2026.e.may.5.pdf",
+      "size_bytes": 60467619,
+      "telegram_date": "2025-08-11T15:23:00+00:00",
+      "title": "2026 국어 강은양 e may(5월호)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6761.png",
+      "sha256": "b3ec3b6d890d444fdfc400ac7bd88b3de3fefe94b1c219461294736f95b4aba3"
     }
   ],
   "duplicate_message_ids": [
