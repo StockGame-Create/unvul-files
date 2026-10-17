@@ -156043,6 +156043,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6668.png",
       "sha256": "96ea14c24be5315af92fc7c8fd69cf9f1efc7a7a338a4669d21c5df11e4f9109"
+    },
+    {
+      "message_id": 6667,
+      "filename": "2026 생1 변춘수 페이스메이커 5주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6667_2026.1.5.pdf",
+      "size_bytes": 16583343,
+      "telegram_date": "2025-08-11T15:22:15+00:00",
+      "title": "2026 생1 변춘수 페이스메이커 5주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6667.png",
+      "sha256": "d063103986f5619b99f010ce3607d8b2101fefbfdf689e37899bdde16f2c1e0f"
     }
   ],
   "duplicate_message_ids": [
