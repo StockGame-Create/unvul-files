@@ -156239,6 +156239,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6654.png",
       "sha256": "00158c4bf21527de36435fc3f1ac0c035978a57bd1dd1c09f6e571682ee1b87d"
+    },
+    {
+      "message_id": 6653,
+      "filename": "2026 국어 김승리 허슬테스트 제1 ~ 7회 해설편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6653_2026.1.7.pdf",
+      "size_bytes": 143083513,
+      "telegram_date": "2025-08-11T15:22:14+00:00",
+      "title": "2026 국어 김승리 허슬테스트 제1 ~ 7회 해설편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6653.png",
+      "sha256": "4e10c4f5ec3ce31f3e244b7652e6c88d3c58fff6747bff08821f67fc50d916e8"
     }
   ],
   "duplicate_message_ids": [
