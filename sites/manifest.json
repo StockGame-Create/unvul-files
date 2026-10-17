@@ -156757,6 +156757,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6603.png",
       "sha256": "3d17e3322c7aa8f7901e8c6d83d5ed743311c100770705c11377887263f08dcd"
+    },
+    {
+      "message_id": 6602,
+      "filename": "김강민 딥러닝 산화환원 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6602_.pdf",
+      "size_bytes": 3587572,
+      "telegram_date": "2025-08-11T15:22:11+00:00",
+      "title": "김강민 딥러닝 산화환원 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6602.png",
+      "sha256": "688b12d6043e81f0774b016c17d5dd39aeb607b1e8c06e32555388fbe53be450"
     }
   ],
   "duplicate_message_ids": [
