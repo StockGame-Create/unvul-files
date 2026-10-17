@@ -155567,6 +155567,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6717.png",
       "sha256": "c7d08e03705394ba2d7c602c065f6acc8a8b680420c3a657520a03bf494f1b6a"
+    },
+    {
+      "message_id": 6716,
+      "filename": "서프 수학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6716_.pdf",
+      "size_bytes": 18324229,
+      "telegram_date": "2025-08-11T15:22:58+00:00",
+      "title": "서프 수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6716.png",
+      "sha256": "9ab78a367cb67c4d74335f3ef3f77207d97c586b972470103126fc6ee299c697"
     }
   ],
   "duplicate_message_ids": [
