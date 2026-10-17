@@ -157429,6 +157429,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6539.png",
       "sha256": "3a012a46348892784e8bbc3bb842937059293f7b9525f21b2c5f062024711bdd"
+    },
+    {
+      "message_id": 6538,
+      "filename": "2025 사회문화 사만다 기출분석서 본문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6538_2025.pdf",
+      "size_bytes": 326529641,
+      "telegram_date": "2025-08-11T15:20:54+00:00",
+      "title": "2025 사회문화 사만다 기출분석서 본문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6538.png",
+      "sha256": "6de311e19af747d1b9862ddd2f81102acb7f48470171fc1f59936e0661280338"
     }
   ],
   "duplicate_message_ids": [
