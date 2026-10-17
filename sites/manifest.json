@@ -154419,6 +154419,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6881.png",
       "sha256": "391f87541e371d65a99b059ca5a02e74a6795f7da25c0213f361c37df379dc3a"
+    },
+    {
+      "message_id": 6880,
+      "filename": "2026 지1 시대인재 브릿지 전국 모의 5회(해설).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6880_2026.1.5.pdf",
+      "size_bytes": 23480334,
+      "telegram_date": "2025-08-11T15:23:08+00:00",
+      "title": "2026 지1 시대인재 브릿지 전국 모의 5회(해설)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6880.png",
+      "sha256": "1a99b42d885e479dfed63e1f095d976dbd1a0c41d3ac01f46c4ea54eda4d53f8"
     }
   ],
   "duplicate_message_ids": [
