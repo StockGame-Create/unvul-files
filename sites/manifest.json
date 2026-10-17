@@ -156883,6 +156883,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6591.png",
       "sha256": "8e1ff53ea603d9c4dc6b9b3f0901ba0cb6fe7f85edd1f57840cba3ff00696828"
+    },
+    {
+      "message_id": 6590,
+      "filename": "생윤_임정환_리미티드_사탐학습지_02.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6590_._._._._02.pdf",
+      "size_bytes": 27116006,
+      "telegram_date": "2025-08-11T15:20:59+00:00",
+      "title": "생윤_임정환_리미티드_사탐학습지_02",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6590.png",
+      "sha256": "71f746d0434ee9f8b7de3b355ce46c7213da1ec464eb7295b1cfe0598b0adc03"
     }
   ],
   "duplicate_message_ids": [
