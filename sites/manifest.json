@@ -155469,6 +155469,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6727.png",
       "sha256": "7066ca7ebe79a8355ed150e5de14ed032a5438d5c6f8cd2404679db79ffad9ba"
+    },
+    {
+      "message_id": 6726,
+      "filename": "전국브릿지7.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6726_.7.pdf",
+      "size_bytes": 3294335,
+      "telegram_date": "2025-08-11T15:22:59+00:00",
+      "title": "전국브릿지7",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6726.png",
+      "sha256": "98ef549128132e906398131d4e1f7c4ba92c2675a46aff1ccbfc534d0b368ae0"
     }
   ],
   "duplicate_message_ids": [
