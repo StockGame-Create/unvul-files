@@ -154671,6 +154671,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6856.png",
       "sha256": "1107fb18490fe38b12af72aeaae0abd4320087ed66bd91d140c3847a0ad426d8"
+    },
+    {
+      "message_id": 6855,
+      "filename": "2026 수학심층 홍성철 9회 기출 문제 점검 하기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6855_2026.9.pdf",
+      "size_bytes": 1030066,
+      "telegram_date": "2025-08-11T15:23:07+00:00",
+      "title": "2026 수학심층 홍성철 9회 기출 문제 점검 하기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6855.png",
+      "sha256": "406a2143df4b1dd6d4a7746926bbec7cb7b24173097b31f92519ea324c4c96b5"
     }
   ],
   "duplicate_message_ids": [
