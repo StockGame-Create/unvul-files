@@ -154615,6 +154615,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6861.png",
       "sha256": "55dc70581fd86191d15152346774855fc6377ddb93469171314ad05cb09438fc"
+    },
+    {
+      "message_id": 6860,
+      "filename": "2026 국어 정석민 주간지 시즌2 16주.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6860_2026.2.16.pdf",
+      "size_bytes": 199396371,
+      "telegram_date": "2025-08-11T15:23:07+00:00",
+      "title": "2026 국어 정석민 주간지 시즌2 16주",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6860.png",
+      "sha256": "0e30700ed4a7309043e13e62f4fe35ac232ebd73ad531899ac06e5c7691e5b45"
     }
   ],
   "duplicate_message_ids": [
