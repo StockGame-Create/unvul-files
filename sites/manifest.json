@@ -155861,6 +155861,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6692.png",
       "sha256": "8b31e8227041d237ac33bc0bb035a45e14fa2b820a9ac374f23db37f0defffee"
+    },
+    {
+      "message_id": 6691,
+      "filename": "김종익_모고_3모대비_윤사_2회_답지.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6691_._._3._._2._.PDF",
+      "size_bytes": 228779,
+      "telegram_date": "2025-08-11T15:22:19+00:00",
+      "title": "김종익_모고_3모대비_윤사_2회_답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6691.png",
+      "sha256": "7b90ab70eb29adc2ce4798f913baae9b439e1777f2eaf672d971ff9c4f8d646d"
     }
   ],
   "duplicate_message_ids": [
