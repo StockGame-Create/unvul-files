@@ -155665,6 +155665,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6710.png",
       "sha256": "0366a88ac2035658e8fe992899bcda2adb4793894703f3e893bfd597e37e8ddf"
+    },
+    {
+      "message_id": 6709,
+      "filename": "25 화학2 CRUX 04.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6709_25.2.CRUX.04.pdf",
+      "size_bytes": 115977485,
+      "telegram_date": "2025-08-11T15:22:20+00:00",
+      "title": "25 화학2 CRUX 04",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6709.png",
+      "sha256": "37eedc6a9df9cecfc822c5539c64667b3a6b0c13dce88790fab4413e83e076f7"
     }
   ],
   "duplicate_message_ids": [
