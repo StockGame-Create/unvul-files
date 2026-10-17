@@ -154923,6 +154923,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6777.png",
       "sha256": "ea69cda99510772b7705484746813e16e9a8b6fdb0f16d8c7d82cf4ce4fc99fd"
+    },
+    {
+      "message_id": 6776,
+      "filename": "2026_국어_본바탕_공통_하프모의_3권문제_공공재.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6776_2026_._._._._3._.pdf",
+      "size_bytes": 134284238,
+      "telegram_date": "2025-08-11T15:23:01+00:00",
+      "title": "2026_국어_본바탕_공통_하프모의_3권문제_공공재",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6776.png",
+      "sha256": "4385476b4b469b93745d3bad697a85ee40b3b34b642aa8a9d2c1319c458eab48"
     }
   ],
   "duplicate_message_ids": [
