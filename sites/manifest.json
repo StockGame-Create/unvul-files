@@ -155063,6 +155063,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6766.png",
       "sha256": "a675086abada3527c23ed6a3e95de3de7d09437691d833d2ec4a2457914924a8"
+    },
+    {
+      "message_id": 6765,
+      "filename": "2026 국어 강은양 Schema ③ 과학(해설).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6765_2026.Schema.pdf",
+      "size_bytes": 48204331,
+      "telegram_date": "2025-08-11T15:23:01+00:00",
+      "title": "2026 국어 강은양 Schema ③ 과학(해설)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6765.png",
+      "sha256": "5ebba99cff458f3548b6b7ff4ede63ec01e8b5b412d58aebe13584c2ad62aebe"
     }
   ],
   "duplicate_message_ids": [
