@@ -154643,6 +154643,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6859.png",
       "sha256": "09d6d45c6edf0e2f3b04b412b420ce03ad17bfdddbe4502a41718438b01ecb79"
+    },
+    {
+      "message_id": 6858,
+      "filename": "2026_국어_이감_시즌3_수능_예비평가_제1회해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6858_2026_._._.3_._._.1.pdf",
+      "size_bytes": 21873140,
+      "telegram_date": "2025-08-11T15:23:07+00:00",
+      "title": "2026_국어_이감_시즌3_수능_예비평가_제1회해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6858.png",
+      "sha256": "ab4e89a1e771ecf8129a630043ca188f83c072595b90c5ac1ac437502b142ddd"
     }
   ],
   "duplicate_message_ids": [
