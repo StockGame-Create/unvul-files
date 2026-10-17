@@ -155581,6 +155581,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6716.png",
       "sha256": "9ab78a367cb67c4d74335f3ef3f77207d97c586b972470103126fc6ee299c697"
+    },
+    {
+      "message_id": 6715,
+      "filename": "2026 장재원 로비스트 9주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6715_2026.9.pdf",
+      "size_bytes": 62719211,
+      "telegram_date": "2025-08-11T15:22:58+00:00",
+      "title": "2026 장재원 로비스트 9주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6715.png",
+      "sha256": "075cbb8e6d6ecfc5476221f26a1b8116591edd37e19585b7449ad872fa74d565"
     }
   ],
   "duplicate_message_ids": [
