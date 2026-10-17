@@ -155553,6 +155553,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6718.png",
       "sha256": "82f28c88e16e3ec2d856ba3d1bfbdf74ee25bb831146e9c4574f744e71eb2ade"
+    },
+    {
+      "message_id": 6717,
+      "filename": "서프 국어.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6717_.pdf",
+      "size_bytes": 82684176,
+      "telegram_date": "2025-08-11T15:22:58+00:00",
+      "title": "서프 국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6717.png",
+      "sha256": "c7d08e03705394ba2d7c602c065f6acc8a8b680420c3a657520a03bf494f1b6a"
     }
   ],
   "duplicate_message_ids": [
