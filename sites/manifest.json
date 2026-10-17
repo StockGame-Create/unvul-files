@@ -154713,6 +154713,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6853.png",
       "sha256": "ed94cf98893658fdcb43a71dae9bcc4804d881b1bfb94f7c82511df4bba199b9"
+    },
+    {
+      "message_id": 6852,
+      "filename": "2026_수학_장재원_TRAIN_BROKER_수1,_2_공통_PRO_3주14주_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6852_2026_._._TRAIN_BROKER_.1._2_._PRO_3.14._.pdf",
+      "size_bytes": 2516634,
+      "telegram_date": "2025-08-11T15:23:06+00:00",
+      "title": "2026_수학_장재원_TRAIN_BROKER_수1,_2_공통_PRO_3주14주_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6852.png",
+      "sha256": "be040af14c1aa2b4ffcaae92f26d423ff03810fdcadbc120e95b7bb7b2d1a995"
     }
   ],
   "duplicate_message_ids": [
