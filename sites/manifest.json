@@ -153957,6 +153957,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6918.png",
       "sha256": "78a8d180643a093b80905b986228e61fd5ac489edf295fafb30b7fe30b0fcc51"
+    },
+    {
+      "message_id": 6917,
+      "filename": "2026 수학 CSM17 수1 Rebirth 빠른정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6917_2026.CSM17.1.Rebirth.pdf",
+      "size_bytes": 1299361,
+      "telegram_date": "2025-08-11T15:23:15+00:00",
+      "title": "2026 수학 CSM17 수1 Rebirth 빠른정답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6917.png",
+      "sha256": "4da99366bf6b8fae5a950050b6c1a2d6cd56322d8c3c7d1ec4f81f8d15487a9f"
     }
   ],
   "duplicate_message_ids": [
