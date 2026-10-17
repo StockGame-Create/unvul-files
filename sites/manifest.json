@@ -155329,6 +155329,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6746.png",
       "sha256": "7354991828c083754b1b427b2adcf6e5dd0ec9e063351145bd0db033ef0c0817"
+    },
+    {
+      "message_id": 6741,
+      "filename": "2026_김준_크리티컬_포인트_문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6741_2026_._._._.pdf",
+      "size_bytes": 78459272,
+      "telegram_date": "2025-08-11T15:22:59+00:00",
+      "title": "2026_김준_크리티컬_포인트_문제편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6741.png",
+      "sha256": "cc0f7c6962878ef99edbacb9f230fde56960af6311c6a587b0e1f9ce1da6b081"
     }
   ],
   "duplicate_message_ids": [
