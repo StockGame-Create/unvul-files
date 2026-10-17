@@ -154559,6 +154559,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6868.png",
       "sha256": "b7ae92ae1589d51a72427748d3502ba9c813335182a45b5bd0d90f0e5bec91bd"
+    },
+    {
+      "message_id": 6864,
+      "filename": "2026 생1 김연호 EXERCISE 3권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6864_2026.1.EXERCISE.3.pdf",
+      "size_bytes": 75264631,
+      "telegram_date": "2025-08-11T15:23:07+00:00",
+      "title": "2026 생1 김연호 EXERCISE 3권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6864.png",
+      "sha256": "68bf94f5ad5763f47e82127f765451b2b81d5a0ae993a9da297a04efb42f557e"
     }
   ],
   "duplicate_message_ids": [
