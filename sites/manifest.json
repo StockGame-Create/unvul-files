@@ -156533,6 +156533,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6621.png",
       "sha256": "47f9167ea831c9e63194f271c3c52e83df394562075ce39d3fa1779f33b0719e"
+    },
+    {
+      "message_id": 6620,
+      "filename": "26 생2 브릿지 2회 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6620_26.2.2.1.pdf",
+      "size_bytes": 5064761,
+      "telegram_date": "2025-08-11T15:22:12+00:00",
+      "title": "26 생2 브릿지 2회 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6620.png",
+      "sha256": "917a6f6c6776b86b0679954af501816b247cc15f4072e2cd29849fe2b84006ea"
     }
   ],
   "duplicate_message_ids": [
