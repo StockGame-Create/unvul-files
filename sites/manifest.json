@@ -154195,6 +154195,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6898.png",
       "sha256": "c8c4f1e703385407f524ecdcb90997e10dffdd72967253936e820734dd3cd426"
+    },
+    {
+      "message_id": 6897,
+      "filename": "2026 생1 윤도영 All About Mini LIFE SCIENCE Ⅰ(컬러).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6897_2026.1.All.About.Mini.LIFE.SCIENCE.pdf",
+      "size_bytes": 363872790,
+      "telegram_date": "2025-08-11T15:23:14+00:00",
+      "title": "2026 생1 윤도영 All About Mini LIFE SCIENCE Ⅰ(컬러)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6897.png",
+      "sha256": "2592b00f2603c795b8ca20d23382594089f3a8774e900b604a02ef0d1e6fd793"
     }
   ],
   "duplicate_message_ids": [
