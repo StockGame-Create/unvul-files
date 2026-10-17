@@ -156603,6 +156603,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6614.png",
       "sha256": "04e39d2697fff093b79f9ee85c62de74fc3e38c2b8d449f8695d889d8fe7d508"
+    },
+    {
+      "message_id": 6613,
+      "filename": "KICE ANATOMY 수학2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6613_KICE.ANATOMY.2.pdf",
+      "size_bytes": 33578974,
+      "telegram_date": "2025-08-11T15:22:12+00:00",
+      "title": "KICE ANATOMY 수학2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6613.png",
+      "sha256": "aa52ab3b50cf006202f334393f4e1d20730093547fb8df6e02e3e0da785639ac"
     }
   ],
   "duplicate_message_ids": [
