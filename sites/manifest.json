@@ -157107,6 +157107,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6572.png",
       "sha256": "fb678eb9dcfe513051ca34eed0e62f3ddd4e6baf86d0c454f624dd2cb24fed4e"
+    },
+    {
+      "message_id": 6569,
+      "filename": "23서바 N 4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6569_23.N.4.pdf",
+      "size_bytes": 8061764,
+      "telegram_date": "2025-08-11T15:20:55+00:00",
+      "title": "23서바 N 4회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6569.png",
+      "sha256": "e19f18e7c85dd7b6eff337ca6abb4976775dfc6fea2c4f112baca4c5660fec8d"
     }
   ],
   "duplicate_message_ids": [
