@@ -154853,6 +154853,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6783.png",
       "sha256": "c73e3a2fc9fb9f5a0510a2461b1ab06280c24a83254661c65b0113ccb7efa548"
+    },
+    {
+      "message_id": 6781,
+      "filename": "2026 국어 상상 이매진 May 3호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6781_2026.May.3.pdf",
+      "size_bytes": 300417135,
+      "telegram_date": "2025-08-11T15:23:02+00:00",
+      "title": "2026 국어 상상 이매진 May 3호",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6781.png",
+      "sha256": "afbbd212f0378d775347d8170d3597a87d83cf70e92d2264955ba517a4229ac4"
     }
   ],
   "duplicate_message_ids": [
