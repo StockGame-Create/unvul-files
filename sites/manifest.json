@@ -155287,6 +155287,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6749.png",
       "sha256": "99cfc051435fdbb0eb92da2f87f6427158d7ad45064d950bee8449759d115d62"
+    },
+    {
+      "message_id": 6748,
+      "filename": "싱글커넥션 미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6748_.pdf",
+      "size_bytes": 70679469,
+      "telegram_date": "2025-08-11T15:23:00+00:00",
+      "title": "싱글커넥션 미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6748.png",
+      "sha256": "b431d283b42acc75504eab354d996bcf579906acf1557ff423bfaa86321e703c"
     }
   ],
   "duplicate_message_ids": [
