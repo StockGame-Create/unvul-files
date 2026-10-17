@@ -155819,6 +155819,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6695.png",
       "sha256": "ae1ea1f0b395a6f3333730fc87c72432a982b062ff520f24df1f1cac66023205"
+    },
+    {
+      "message_id": 6694,
+      "filename": "김종익_모고_3모대비_윤사.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6694_._._3._.PDF",
+      "size_bytes": 335741,
+      "telegram_date": "2025-08-11T15:22:19+00:00",
+      "title": "김종익_모고_3모대비_윤사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6694.png",
+      "sha256": "37c5df7313549d75a8c7301a1452e72c3dd213e91ea57c31fee9473a90c8a965"
     }
   ],
   "duplicate_message_ids": [
