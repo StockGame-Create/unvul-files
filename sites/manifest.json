@@ -153663,6 +153663,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6939.png",
       "sha256": "96ebf8358930e723cc449ea0bd57961723ff996fbefdfb9279afdf7750af7dec"
+    },
+    {
+      "message_id": 6938,
+      "filename": "2026 수학 박종민 미적분 Re;sight 1권 ⑤.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6938_2026.Re.sight.1.pdf",
+      "size_bytes": 10461414,
+      "telegram_date": "2025-08-11T15:23:16+00:00",
+      "title": "2026 수학 박종민 미적분 Re;sight 1권 ⑤",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6938.png",
+      "sha256": "e3820fae0fac7f1d62219379599c341024f4627e2ebfd186992671863a0c0a55"
     }
   ],
   "duplicate_message_ids": [
