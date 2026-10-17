@@ -155945,6 +155945,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6686.png",
       "sha256": "5696465ff27a040c2a4fbf49884b4dcb2254b7e06c97361e0612ada1588a919f"
+    },
+    {
+      "message_id": 6683,
+      "filename": "2026 생1 시대인재북스 DCAF ADAPTER N제(문제).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6683_2026.1.DCAF.ADAPTER.N.pdf",
+      "size_bytes": 211195636,
+      "telegram_date": "2025-08-11T15:22:18+00:00",
+      "title": "2026 생1 시대인재북스 DCAF ADAPTER N제(문제)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6683.png",
+      "sha256": "bd7d5ea6d306536d1ee8efda61d7abbfe7cfa0c34029531d499981737e09978b"
     }
   ],
   "duplicate_message_ids": [
