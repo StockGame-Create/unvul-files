@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-16T21:20:48+00:00",
+  "updated_at": "2026-10-17T04:37:18+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -2013,6 +2013,28 @@
       "matched_count": 62,
       "with_answer": 20,
       "with_explanation": 20
+    },
+    {
+      "message_id": 25569,
+      "filename": "서바_2027_서바이벌_20회_해설.pdf",
+      "title": "수학 시대인재 서바이벌 모의고사 20회 #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "sha256": "3051757814cc8a2b5a6b058de4ebf887144c537ee73b282d80dc9f783361eb51",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/25569.json",
+      "updated_at": "2026-10-17T04:37:18+00:00",
+      "pages_total": 19,
+      "pages_done": 16,
+      "failed_pages": [],
+      "model": "gemini-3.6-flash",
+      "problem_count": 0,
+      "solution_count": 88,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
     }
   ]
 }
