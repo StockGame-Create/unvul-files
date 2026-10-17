@@ -157597,6 +157597,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6524.png",
       "sha256": "7717bf849e46a55e8b36ee1936d4258df6396ee5ca3880fd273086a0b707403d"
+    },
+    {
+      "message_id": 6523,
+      "filename": "2026 생1 시대인재 브릿지 전국 모의 2회(문제).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6523_2026.1.2.pdf",
+      "size_bytes": 3913546,
+      "telegram_date": "2025-08-11T15:20:53+00:00",
+      "title": "2026 생1 시대인재 브릿지 전국 모의 2회(문제)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6523.png",
+      "sha256": "2c0cd47516bada7e9df11e02f62c4f7570a367ecb894f24dfb69ea6c900e5c52"
     }
   ],
   "duplicate_message_ids": [
