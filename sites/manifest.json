@@ -157569,6 +157569,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6526.png",
       "sha256": "68b979dd732e3d17801e46865b73e31c90f5005df3f93748bde3efe07e6f7b4c"
+    },
+    {
+      "message_id": 6525,
+      "filename": "2026드릴 워크북 수학2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6525_2026.2.pdf",
+      "size_bytes": 78476245,
+      "telegram_date": "2025-08-11T15:20:53+00:00",
+      "title": "2026드릴 워크북 수학2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6525.png",
+      "sha256": "8176083015f871c983347fa56d216d5f74ab3eb7ca50a750a54d8e1f8b8eb43b"
     }
   ],
   "duplicate_message_ids": [
