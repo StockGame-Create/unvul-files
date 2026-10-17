@@ -155399,6 +155399,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6735.png",
       "sha256": "8c1410fc8269c8daa5cbcc8bb371994f54a25960690f36a0b7e79186cd3a744c"
+    },
+    {
+      "message_id": 6731,
+      "filename": "수능특강 현대시 연계N제-1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6731_.N.-1.pdf",
+      "size_bytes": 4643026,
+      "telegram_date": "2025-08-11T15:22:59+00:00",
+      "title": "수능특강 현대시 연계N제-1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6731.png",
+      "sha256": "9c89e7d0e2de9dcda6f14b01628b4d229419e54e3c622baea158315907dc1b44"
     }
   ],
   "duplicate_message_ids": [
