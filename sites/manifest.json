@@ -157737,6 +157737,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6511.png",
       "sha256": "a16339abf44f5b67ec9c3095d3fa0afd434d2d4cdd92d599aff566fa8eb55371"
+    },
+    {
+      "message_id": 6510,
+      "filename": "김강민 준킬러모의 11-12 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6510_.11-12.pdf",
+      "size_bytes": 382652,
+      "telegram_date": "2025-08-11T15:20:52+00:00",
+      "title": "김강민 준킬러모의 11-12 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6510.png",
+      "sha256": "e510b8ea44fe25d93cac4bdb26cf7a4cafebd6810f588447488518fdada895e0"
     }
   ],
   "duplicate_message_ids": [
