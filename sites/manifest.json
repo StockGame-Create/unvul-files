@@ -155357,6 +155357,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6740.png",
       "sha256": "f7748418eaff59874346796ea22351873b83239e153f018ea5b0d3122acab502"
+    },
+    {
+      "message_id": 6737,
+      "filename": "25서바 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6737_25.pdf",
+      "size_bytes": 29569812,
+      "telegram_date": "2025-08-11T15:22:59+00:00",
+      "title": "25서바 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6737.png",
+      "sha256": "bdca9dea25769c734d953f0c4f10c95e07f7a9d1c4deb6841abc7cd281b7d445"
     }
   ],
   "duplicate_message_ids": [
