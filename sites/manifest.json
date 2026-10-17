@@ -155021,6 +155021,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6769.png",
       "sha256": "ac4a758114129812c7a86ec33d8a0c2e2b4eb83cd5727b8f12a2ed002051abf3"
+    },
+    {
+      "message_id": 6768,
+      "filename": "2026_국어_류재민_오늘을_달리다_독서_시즌2_1주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6768_2026_._._._._._.2_1.pdf",
+      "size_bytes": 9518843,
+      "telegram_date": "2025-08-11T15:23:01+00:00",
+      "title": "2026_국어_류재민_오늘을_달리다_독서_시즌2_1주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6768.png",
+      "sha256": "fd74b6af51c036d7994d1a64abf2dc7caac15112ebbd0ef59b73f954625e8072"
     }
   ],
   "duplicate_message_ids": [
