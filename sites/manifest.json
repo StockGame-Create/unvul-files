@@ -153859,6 +153859,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6925.png",
       "sha256": "5c6a0a4f7f8ce766e0ba9249292057a80adcff5a742b520eaeee485cdabdb71b"
+    },
+    {
+      "message_id": 6924,
+      "filename": "2026 수학 CSM17 확률과 통계 Rebirth 변형편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6924_2026.CSM17.Rebirth.pdf",
+      "size_bytes": 229990312,
+      "telegram_date": "2025-08-11T15:23:15+00:00",
+      "title": "2026 수학 CSM17 확률과 통계 Rebirth 변형편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6924.png",
+      "sha256": "1760968c8afb371d022b2fdca3abec2496fef5277c99a952449260e50e863466"
     }
   ],
   "duplicate_message_ids": [
