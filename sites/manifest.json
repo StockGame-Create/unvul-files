@@ -154937,6 +154937,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6776.png",
       "sha256": "4385476b4b469b93745d3bad697a85ee40b3b34b642aa8a9d2c1319c458eab48"
+    },
+    {
+      "message_id": 6775,
+      "filename": "2026 국어 박광일 문학 홀수 기출 분석서(해설).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6775_2026.pdf",
+      "size_bytes": 592748789,
+      "telegram_date": "2025-08-11T15:23:01+00:00",
+      "title": "2026 국어 박광일 문학 홀수 기출 분석서(해설)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6775.png",
+      "sha256": "9904ff16dc5a912adcfc49a4a796ae8c486ecaf62450b1434d8be0467d743e10"
     }
   ],
   "duplicate_message_ids": [
