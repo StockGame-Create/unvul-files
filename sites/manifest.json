@@ -155973,6 +155973,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6675.png",
       "sha256": "6bd1d34092ad14197e9d89ee3b45fad5864dcc7fbb41358b442c6f1bd70690f7"
+    },
+    {
+      "message_id": 6674,
+      "filename": "2026_정석민_비독원_어드밴스드_.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6674_2026_._._._.pdf",
+      "size_bytes": 179080720,
+      "telegram_date": "2025-08-11T15:22:15+00:00",
+      "title": "2026_정석민_비독원_어드밴스드_",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6674.png",
+      "sha256": "82ba1d4f2d7247d2c100f72f54c1a00df6442745f144e6f658b143326974dba1"
     }
   ],
   "duplicate_message_ids": [
