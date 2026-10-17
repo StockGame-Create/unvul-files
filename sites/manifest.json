@@ -156407,6 +156407,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6635.png",
       "sha256": "461cdb91d281d0878f279048f54770e339d64fb917d1b3f3ca92668400e19a8d"
+    },
+    {
+      "message_id": 6634,
+      "filename": "6평_대비_벼락치기_STEP_0_공통+미적_정답과_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6634_6._._._STEP_0_.%2B._._.pdf",
+      "size_bytes": 290351,
+      "telegram_date": "2025-08-11T15:22:13+00:00",
+      "title": "6평_대비_벼락치기_STEP_0_공통+미적_정답과_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6634.png",
+      "sha256": "93272e5ea62b47ce2024adf509137d13721828913bc2662c2879be9cfa98a5a5"
     }
   ],
   "duplicate_message_ids": [
