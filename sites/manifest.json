@@ -156701,6 +156701,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6607.png",
       "sha256": "ee957378344529d28f1b13fd60719d6cc5289831ac801bb82aba32ad64e5c4db"
+    },
+    {
+      "message_id": 6606,
+      "filename": "김강민 리퀄라이저 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6606_.2.pdf",
+      "size_bytes": 442916,
+      "telegram_date": "2025-08-11T15:22:11+00:00",
+      "title": "김강민 리퀄라이저 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6606.png",
+      "sha256": "c86c7ac45f3d6eb1933f33a399afc72bba69b14464d7185eb37406bdc1c74db3"
     }
   ],
   "duplicate_message_ids": [
