@@ -155259,6 +155259,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6751.png",
       "sha256": "8b46fd618626413136fb0205a28200c74be45345eb258c696f1c7ea65b485a17"
+    },
+    {
+      "message_id": 6750,
+      "filename": "2026학년도_금승리_실전_모의고사_1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6750_2026._._._._1.pdf",
+      "size_bytes": 3040734,
+      "telegram_date": "2025-08-11T15:23:00+00:00",
+      "title": "2026학년도_금승리_실전_모의고사_1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6750.png",
+      "sha256": "3a217baa0aac3cda0081e1e596ee89d685d8a4fefe7acee0badeaf9be7d21bd1"
     }
   ],
   "duplicate_message_ids": [
