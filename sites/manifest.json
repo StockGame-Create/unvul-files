@@ -29,6 +29,20 @@
       "sha256": "2ec34ba049461d2dd518ba92cccff5d41473cfa3704fd4e5d37618a49ad04009"
     },
     {
+      "message_id": 25566,
+      "filename": "2027 10월 더 프리미엄 EX.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25566_2027.10.EX.pdf",
+      "size_bytes": 11537860,
+      "telegram_date": "2026-10-17T01:36:25+00:00",
+      "title": "수학 THE PREMIUM EX 10월 모의고사 문제지 #더프",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25566.png",
+      "sha256": "0430129b9c4ec0cdd5598f5db9f7abebccda63171f428193e8943c389c8e3d07"
+    },
+    {
       "message_id": 25559,
       "filename": "27 사문 13주차 합본.pdf",
       "stored_as": null,
