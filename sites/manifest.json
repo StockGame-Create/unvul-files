@@ -153453,6 +153453,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6954.png",
       "sha256": "4719c32b6b2899973a3002d81d91c136e52f61266dd41763698664048839ca5d"
+    },
+    {
+      "message_id": 6953,
+      "filename": "2026 수학 박종민 미적분 리뷰퀴즈 5주(해설).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6953_2026.5.pdf",
+      "size_bytes": 295868,
+      "telegram_date": "2025-08-11T15:23:17+00:00",
+      "title": "2026 수학 박종민 미적분 리뷰퀴즈 5주(해설)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6953.png",
+      "sha256": "c1fb350f2713156b84e04066a1fe4bc90845bceee0106ae2940418dac0369631"
     }
   ],
   "duplicate_message_ids": [
