@@ -158087,6 +158087,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6470.png",
       "sha256": "8e8780657422651e4b5f0d1d95bb13b29025a2b9d7d38ea32d64b68f46c49e30"
+    },
+    {
+      "message_id": 6469,
+      "filename": "2026_강은양T_시즌2_해설지_04.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6469_2026_.T_.2_._04.pdf",
+      "size_bytes": 126639389,
+      "telegram_date": "2025-08-11T15:20:42+00:00",
+      "title": "2026_강은양T_시즌2_해설지_04",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6469.png",
+      "sha256": "d08f12b91206f6d43616b2b7637563dc8487df6d7dd381011a2cc40840ab867f"
     }
   ],
   "duplicate_message_ids": [
