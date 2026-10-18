@@ -29,6 +29,20 @@
       "sha256": "224bde2c9c1e01472fb9301ddac628a6b4616836a96e3def0295caf0e794c414"
     },
     {
+      "message_id": 25596,
+      "filename": "신민우_신과함께_3회_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25596_._._3._.pdf",
+      "size_bytes": 13951866,
+      "telegram_date": "2026-10-18T07:20:26+00:00",
+      "title": "수학 신민우 신과함께 final 모의고사 3회",
+      "year": "2027",
+      "instructor": "신민우",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25596.png",
+      "sha256": "0b8f343b667ee74e3ba4c17ba31a7304b8016b360183704ee6253fc09c335938"
+    },
+    {
       "message_id": 25584,
       "filename": "2027_마더텅_수능기출_모의고사_25회_윤리와사상_빠른정답표.pdf",
       "stored_as": null,
