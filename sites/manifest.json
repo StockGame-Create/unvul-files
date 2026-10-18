@@ -159389,6 +159389,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6372.png",
       "sha256": "092a0516727f9ea10c40600cfa9c1d7e40d497a9bfec287a70b199034d9cd490"
+    },
+    {
+      "message_id": 6371,
+      "filename": "TIM_5주차 보충 자료.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6371_TIM_5.pdf",
+      "size_bytes": 1047750,
+      "telegram_date": "2025-08-11T15:19:53+00:00",
+      "title": "TIM_5주차 보충 자료",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6371.png",
+      "sha256": "4215e652f3a02b7dcc781786380cdf6ef746cfd9ce845a567cbf427b87a752a5"
     }
   ],
   "duplicate_message_ids": [
