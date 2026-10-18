@@ -159333,6 +159333,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6376.png",
       "sha256": "a794795d30b1f7ad64e508c652131f80f7e08c07812129c6f1f979b33299ff9d"
+    },
+    {
+      "message_id": 6375,
+      "filename": "2026 정석민 문이유.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6375_2026.pdf",
+      "size_bytes": 266344202,
+      "telegram_date": "2025-08-11T15:19:53+00:00",
+      "title": "2026 정석민 문이유",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6375.png",
+      "sha256": "79fa795a9de43a58d700250739a9afc8818a1cb93138ad18c9b5a71d669010b4"
     }
   ],
   "duplicate_message_ids": [
