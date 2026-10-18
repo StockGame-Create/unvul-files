@@ -99,6 +99,20 @@
       "sha256": "2fc04c0136cab57940fe6a8524b96562833bb6e2bd4aae66edb047ee0134b97c"
     },
     {
+      "message_id": 25586,
+      "filename": "C26IB60300ED082_OCT.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25586_C26IB60300ED082_OCT.PDF",
+      "size_bytes": 2149910,
+      "telegram_date": "2026-10-18T07:20:16+00:00",
+      "title": "수학 김성은 불꽃 모의고사 4회",
+      "year": "2027",
+      "instructor": "김성은",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25586.png",
+      "sha256": "3589ed3b3e5892f1fbdc58fb4f5ae0b4bc24d9a4e02ea84f37c180b7b5d5ba63"
+    },
+    {
       "message_id": 25584,
       "filename": "2027_마더텅_수능기출_모의고사_25회_윤리와사상_빠른정답표.pdf",
       "stored_as": null,
