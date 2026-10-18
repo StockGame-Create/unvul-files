@@ -158367,6 +158367,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6462.png",
       "sha256": "6eb61cd680f134fe7401454883edb0eaf70b34712f916822ffb31a35f5142a99"
+    },
+    {
+      "message_id": 6461,
+      "filename": "독서 해설편 2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6461_.2.pdf",
+      "size_bytes": 206308722,
+      "telegram_date": "2025-08-11T15:20:42+00:00",
+      "title": "독서 해설편 2권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6461.png",
+      "sha256": "1977ecca5eafbb19f4c1586b02b46ea3663c9ced6f7cf17d520b325303c7ea5c"
     }
   ],
   "duplicate_message_ids": [
