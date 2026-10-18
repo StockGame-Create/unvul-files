@@ -158381,6 +158381,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6461.png",
       "sha256": "1977ecca5eafbb19f4c1586b02b46ea3663c9ced6f7cf17d520b325303c7ea5c"
+    },
+    {
+      "message_id": 6460,
+      "filename": "독서 해설편 1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6460_.1.pdf",
+      "size_bytes": 229396327,
+      "telegram_date": "2025-08-11T15:20:42+00:00",
+      "title": "독서 해설편 1권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6460.png",
+      "sha256": "af6ac9b01b1bad31b17a60c7d82e6d87baa6f57618326cbd46d7b04fa3b23c38"
     }
   ],
   "duplicate_message_ids": [
