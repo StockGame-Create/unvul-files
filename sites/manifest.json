@@ -158339,6 +158339,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6464.png",
       "sha256": "5ed7441fd1c0ff7ecf7df9afe6b9d86a983ebab45ad11b9c5af3f474ca0a4c5c"
+    },
+    {
+      "message_id": 6463,
+      "filename": "문학 해설편 1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6463_.1.pdf",
+      "size_bytes": 277263730,
+      "telegram_date": "2025-08-11T15:20:42+00:00",
+      "title": "문학 해설편 1권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6463.png",
+      "sha256": "a1810440bef715097f0323649b35edda9da20df72e7bfd6264af1f8c9c20a783"
     }
   ],
   "duplicate_message_ids": [
