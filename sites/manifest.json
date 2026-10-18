@@ -159347,6 +159347,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6375.png",
       "sha256": "79fa795a9de43a58d700250739a9afc8818a1cb93138ad18c9b5a71d669010b4"
+    },
+    {
+      "message_id": 6374,
+      "filename": "[2026] KISSTART.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6374_.2026.KISSTART.pdf",
+      "size_bytes": 4969401,
+      "telegram_date": "2025-08-11T15:19:53+00:00",
+      "title": "[2026] KISSTART",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6374.png",
+      "sha256": "5683f6d6a392a6e2b90de00e75a281444dda89e568faba5750bbee17bef655a1"
     }
   ],
   "duplicate_message_ids": [
