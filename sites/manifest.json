@@ -159207,6 +159207,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6385.png",
       "sha256": "1c3745878f5e4695134201580d1727f83af46bbae120654efff21a271eb4a6d0"
+    },
+    {
+      "message_id": 6384,
+      "filename": "2026+신성규T+태도노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6384_2026%2B.T%2B.pdf",
+      "size_bytes": 22187425,
+      "telegram_date": "2025-08-11T15:19:54+00:00",
+      "title": "2026+신성규T+태도노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6384.png",
+      "sha256": "e416458af19f5844ef7d6af07975c827ebd4e3e5a9fdb27965bac9b563035b17"
     }
   ],
   "duplicate_message_ids": [
