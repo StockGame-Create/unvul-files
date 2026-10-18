@@ -159501,6 +159501,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6363.png",
       "sha256": "25786f69e2770563a1d950dd28ffad325d05433123cc7527cd15171a635732c5"
+    },
+    {
+      "message_id": 6362,
+      "filename": "2026 수학 이정환 수학1(중) chapter3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6362_2026.1.chapter3.pdf",
+      "size_bytes": 2393875,
+      "telegram_date": "2025-08-11T15:19:52+00:00",
+      "title": "2026 수학 이정환 수학1(중) chapter3",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6362.png",
+      "sha256": "8f4ddeb6d85a1a0f7c667392d45bf62cc97e4ea446c05cf3710bf5bb92735ba2"
     }
   ],
   "duplicate_message_ids": [
