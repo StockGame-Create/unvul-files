@@ -157989,6 +157989,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6486.png",
       "sha256": "7d85ea94b468bf22d4d79dfbdcba67f8728076f2419d92615dabce3f7011e53d"
+    },
+    {
+      "message_id": 6485,
+      "filename": "로비스트 10주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6485_.10.pdf",
+      "size_bytes": 76228967,
+      "telegram_date": "2025-08-11T15:20:44+00:00",
+      "title": "로비스트 10주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6485.png",
+      "sha256": "d038e6fb702c9c102afc3ce559a8832396cd5982de745daee7a15c8366415f43"
     }
   ],
   "duplicate_message_ids": [
