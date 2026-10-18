@@ -159361,6 +159361,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6374.png",
       "sha256": "5683f6d6a392a6e2b90de00e75a281444dda89e568faba5750bbee17bef655a1"
+    },
+    {
+      "message_id": 6373,
+      "filename": "12026_마더텅_수능기출_모의고사_25회_생활과_윤리_문제편_정답X.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6373_12026_._._._25._._._._.X.pdf",
+      "size_bytes": 250367007,
+      "telegram_date": "2025-08-11T15:19:53+00:00",
+      "title": "12026_마더텅_수능기출_모의고사_25회_생활과_윤리_문제편_정답X",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6373.png",
+      "sha256": "d8b80cda6433963f573ae61efa1611614ab879f220f44b5be8eab7cd89278dc3"
     }
   ],
   "duplicate_message_ids": [
