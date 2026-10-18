@@ -159571,6 +159571,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6358.png",
       "sha256": "d9988ec7e119b72ec18167c62466d173f8ca5957d173a28d7211e05b467df85a"
+    },
+    {
+      "message_id": 6357,
+      "filename": "2026_수학_강대_미적분_CONNEX_VOL_2_미분가능성의_판단.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6357_2026_._._._CONNEX_VOL_2_._.pdf",
+      "size_bytes": 32287018,
+      "telegram_date": "2025-08-11T15:19:52+00:00",
+      "title": "2026_수학_강대_미적분_CONNEX_VOL_2_미분가능성의_판단",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6357.png",
+      "sha256": "823320968d2d98ae38dda11a45f99ca640cba5831697a7364cff4684c415d99c"
     }
   ],
   "duplicate_message_ids": [
