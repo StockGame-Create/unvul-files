@@ -158353,6 +158353,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6463.png",
       "sha256": "a1810440bef715097f0323649b35edda9da20df72e7bfd6264af1f8c9c20a783"
+    },
+    {
+      "message_id": 6462,
+      "filename": "문학 문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6462_.pdf",
+      "size_bytes": 128263691,
+      "telegram_date": "2025-08-11T15:20:42+00:00",
+      "title": "문학 문제편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6462.png",
+      "sha256": "6eb61cd680f134fe7401454883edb0eaf70b34712f916822ffb31a35f5142a99"
     }
   ],
   "duplicate_message_ids": [
