@@ -158465,6 +158465,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6455.png",
       "sha256": "a5c90a59126488329ae1ac3e4abcbd2c6ef2bcf72f72f5aae167ae39e71fd918"
+    },
+    {
+      "message_id": 6454,
+      "filename": "2026 국어 강은양 문학개념어 1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6454_2026.1.pdf",
+      "size_bytes": 192870538,
+      "telegram_date": "2025-08-11T15:20:42+00:00",
+      "title": "2026 국어 강은양 문학개념어 1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6454.png",
+      "sha256": "c28babaddf06cd6c9fc7535fc35461033080307772cf0bc6cf43877b87d83c9a"
     }
   ],
   "duplicate_message_ids": [
