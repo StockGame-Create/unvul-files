@@ -158689,6 +158689,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6439.png",
       "sha256": "04149b63f113cd8726959e0fd882b10a76432a71d771ca80431a2e1c5ae6a5fe"
+    },
+    {
+      "message_id": 6438,
+      "filename": "허슬 7.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6438_.7.pdf",
+      "size_bytes": 39541497,
+      "telegram_date": "2025-08-11T15:20:41+00:00",
+      "title": "허슬 7",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6438.png",
+      "sha256": "0a3971f45ada2db831cf46f49ae1f9db9f36af0ea568d86b89dc0f887cc2fe2f"
     }
   ],
   "duplicate_message_ids": [
