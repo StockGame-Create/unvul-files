@@ -158409,6 +158409,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6459.png",
       "sha256": "ef7fb11ca82a0669b7af71eb54bf7a6cff2f43376710a541c89f3d13cc18e479"
+    },
+    {
+      "message_id": 6458,
+      "filename": "매주승리2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6458_.2.pdf",
+      "size_bytes": 194093281,
+      "telegram_date": "2025-08-11T15:20:42+00:00",
+      "title": "매주승리2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6458.png",
+      "sha256": "2163f06d8e58827456074565424ecba6959d8c12cf8b7378babe167c0f1afaf6"
     }
   ],
   "duplicate_message_ids": [
