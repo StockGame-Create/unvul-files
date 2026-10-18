@@ -159781,6 +159781,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6333.png",
       "sha256": "d3ca91189f98238691cdcec5c1566e76eddae9003208f4eb7b920d448fa84bd8"
+    },
+    {
+      "message_id": 6332,
+      "filename": "4의규칙 수학1 해설포함.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6332_4.1.pdf",
+      "size_bytes": 58220195,
+      "telegram_date": "2025-08-11T15:19:44+00:00",
+      "title": "4의규칙 수학1 해설포함",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6332.png",
+      "sha256": "a5e10f9b15803e05e44ba9ad016575091e972f157c8506430e19c9016f72500d"
     }
   ],
   "duplicate_message_ids": [
