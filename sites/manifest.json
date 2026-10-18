@@ -159949,6 +159949,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6321.png",
       "sha256": "74c2a97c4af7ae4923fd7d552669cf529b3019d014d9d9b17c8a4d9a91f41058"
+    },
+    {
+      "message_id": 6320,
+      "filename": "이감 파이널 1-8.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6320_.1-8.pdf",
+      "size_bytes": 123831101,
+      "telegram_date": "2025-08-11T15:19:41+00:00",
+      "title": "이감 파이널 1-8",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6320.png",
+      "sha256": "11a60e0bc449ab78b78b3d1dbfa0ac90eca1ed0d82200304d458dadeae662c80"
     }
   ],
   "duplicate_message_ids": [
