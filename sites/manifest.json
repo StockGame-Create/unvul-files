@@ -158059,6 +158059,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6480.png",
       "sha256": "35755d1e800d8754b0fc4d716bb8816bb41fbe94e5464f12e8d09eaeeda30117"
+    },
+    {
+      "message_id": 6471,
+      "filename": "2026_강은양T_경제_스키마_길라잡이.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6471_2026_.T_._._.pdf",
+      "size_bytes": 123509756,
+      "telegram_date": "2025-08-11T15:20:42+00:00",
+      "title": "2026_강은양T_경제_스키마_길라잡이",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6471.png",
+      "sha256": "080473a2ef7678e350fc0e7a50dca28bcf748f2a1dd4124b5904aa833b308f26"
     }
   ],
   "duplicate_message_ids": [
