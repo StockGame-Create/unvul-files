@@ -158073,6 +158073,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6471.png",
       "sha256": "080473a2ef7678e350fc0e7a50dca28bcf748f2a1dd4124b5904aa833b308f26"
+    },
+    {
+      "message_id": 6470,
+      "filename": "2026_강은양T_경제_스키마_해설집.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6470_2026_.T_._._.pdf",
+      "size_bytes": 137447133,
+      "telegram_date": "2025-08-11T15:20:42+00:00",
+      "title": "2026_강은양T_경제_스키마_해설집",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6470.png",
+      "sha256": "8e8780657422651e4b5f0d1d95bb13b29025a2b9d7d38ea32d64b68f46c49e30"
     }
   ],
   "duplicate_message_ids": [
