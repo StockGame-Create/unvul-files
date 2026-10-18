@@ -160005,6 +160005,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6317.png",
       "sha256": "59552a859fa44eb54092778d9731a6eb747e584714478cfb71ae341b1054cc5f"
+    },
+    {
+      "message_id": 6315,
+      "filename": "2026 커넥션 수1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6315_2026.1.pdf",
+      "size_bytes": 38417850,
+      "telegram_date": "2025-08-11T15:19:41+00:00",
+      "title": "2026 커넥션 수1 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6315.png",
+      "sha256": "7c60dbb8bd84ebe2104bd07591d11b57ee1b46edbd12e1bc50dc1cffa367841e"
     }
   ],
   "duplicate_message_ids": [
