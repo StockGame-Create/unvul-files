@@ -158927,6 +158927,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6424.png",
       "sha256": "57554e8e7751eb627bf522c97f9de2cafd2dec4c8771e81fd374d35dd35e311a"
+    },
+    {
+      "message_id": 6423,
+      "filename": "2026 국어 정석민 문기정 base.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6423_2026.base.pdf",
+      "size_bytes": 246181158,
+      "telegram_date": "2025-08-11T15:20:40+00:00",
+      "title": "2026 국어 정석민 문기정 base",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6423.png",
+      "sha256": "e3be710db75e5f963f30dd981a48d3c21d6e442d282b8bc12c551d79419913ef"
     }
   ],
   "duplicate_message_ids": [
