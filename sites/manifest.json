@@ -159263,6 +159263,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6381.png",
       "sha256": "88474edd09b4d4f2de43169ef34650c5efb3873c74775eee9eeba1ed3c2c0f67"
+    },
+    {
+      "message_id": 6380,
+      "filename": "2026년_수능특강_영어독해연습_9강163문제_변형문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6380_2026._._._9.163._.pdf",
+      "size_bytes": 943438,
+      "telegram_date": "2025-08-11T15:19:54+00:00",
+      "title": "2026년_수능특강_영어독해연습_9강163문제_변형문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6380.png",
+      "sha256": "82d40206fa2126d1604b3ff90abfe35c4709303ba9f0c2fa9ba442521fb3ce95"
     }
   ],
   "duplicate_message_ids": [
