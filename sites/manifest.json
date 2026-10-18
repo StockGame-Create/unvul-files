@@ -29,6 +29,20 @@
       "sha256": "412a20dd584daaf41cccc908047edb195f20df600dde4c06d408535991a4441c"
     },
     {
+      "message_id": 25581,
+      "filename": "2027_화학1_서바이벌_전국_15회_해설포함.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25581_2027_.1_._._15._.pdf",
+      "size_bytes": 7455773,
+      "telegram_date": "2026-10-18T03:34:41+00:00",
+      "title": "화1 시대인재 서바이벌 전국 모의고사 15회 #서바전국",
+      "year": "2027",
+      "instructor": null,
+      "subject": "화학1",
+      "thumbnail": "thumbnails/25581.png",
+      "sha256": "a891bf0fd2e1e1a54c6d9781cf751eef8e113c7f0f41f3d022cef8d72dbcc216"
+    },
+    {
       "message_id": 25569,
       "filename": "서바_2027_서바이벌_20회_해설.pdf",
       "stored_as": null,
