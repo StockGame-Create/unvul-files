@@ -159179,6 +159179,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6387.png",
       "sha256": "a3753b7dba2ca2b7642059befd9e8c5a5a3a14da5684fe2a4627d7c6de7a467e"
+    },
+    {
+      "message_id": 6386,
+      "filename": "2026 한완기 교사경 수능 기하 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6386_2026.pdf",
+      "size_bytes": 104884682,
+      "telegram_date": "2025-08-11T15:19:54+00:00",
+      "title": "2026 한완기 교사경 수능 기하 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6386.png",
+      "sha256": "cd078348235af1e12071812302a2acf8a2ed9ca62e84398fa8d5ff4d7f3472f9"
     }
   ],
   "duplicate_message_ids": [
