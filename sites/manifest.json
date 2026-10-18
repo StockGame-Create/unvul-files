@@ -158115,6 +158115,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6468.png",
       "sha256": "90503da684310b367361b83bae7363cd7f7bb849f0fc6794ee432a68a7364ee8"
+    },
+    {
+      "message_id": 6467,
+      "filename": "2026_강은양T_본교재+월간지_Mar.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6467_2026_.T_.%2B._Mar.pdf",
+      "size_bytes": 107593091,
+      "telegram_date": "2025-08-11T15:20:42+00:00",
+      "title": "2026_강은양T_본교재+월간지_Mar",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6467.png",
+      "sha256": "1be76688fde84ccaf8882cb6581b03ef5d8f1df65b117d1ac33bd7b399f08b53"
     }
   ],
   "duplicate_message_ids": [
