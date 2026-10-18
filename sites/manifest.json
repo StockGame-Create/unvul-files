@@ -158745,6 +158745,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6435.png",
       "sha256": "b2853389133100ee1e9b12c2a03babaabff02435b0c368de2c3ba5ce524893aa"
+    },
+    {
+      "message_id": 6430,
+      "filename": "2026 국어 김승리 매주승리 10호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6430_2026.10.pdf",
+      "size_bytes": 115860437,
+      "telegram_date": "2025-08-11T15:20:41+00:00",
+      "title": "2026 국어 김승리 매주승리 10호",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6430.png",
+      "sha256": "58368b0ef544e83509b0289684b74ed539e92c217bea62f94dace5a246e8611b"
     }
   ],
   "duplicate_message_ids": [
