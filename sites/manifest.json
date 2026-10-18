@@ -159067,6 +159067,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6405.png",
       "sha256": "99136fc0d89cbd30e9bdfe4d7b144b153510e33019e83e34af3d347d73206826"
+    },
+    {
+      "message_id": 6404,
+      "filename": "현우진 6월 킬캠 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6404_.6.1.pdf",
+      "size_bytes": 61237287,
+      "telegram_date": "2025-08-11T15:20:39+00:00",
+      "title": "현우진 6월 킬캠 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6404.png",
+      "sha256": "43363b944d16c2938624ea7532c8e6635518b2fc6d7a490576fc94266c81cbdf"
     }
   ],
   "duplicate_message_ids": [
