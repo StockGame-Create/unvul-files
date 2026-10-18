@@ -157975,6 +157975,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6487.png",
       "sha256": "45e7e2a255d92f3a5b315074fa03fbf22aa61e2c01082f95dbc043336b96c930"
+    },
+    {
+      "message_id": 6486,
+      "filename": "2026_시대인재_수2_볼텍스_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6486_2026_._.2_._.pdf",
+      "size_bytes": 50943347,
+      "telegram_date": "2025-08-11T15:20:44+00:00",
+      "title": "2026_시대인재_수2_볼텍스_문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6486.png",
+      "sha256": "7d85ea94b468bf22d4d79dfbdcba67f8728076f2419d92615dabce3f7011e53d"
     }
   ],
   "duplicate_message_ids": [
