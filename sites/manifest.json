@@ -159109,6 +159109,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6392.png",
       "sha256": "aaf6bbce5638574d929d9e70676c1ea2110de9e7ac1928f131ae5c0a02e67baf"
+    },
+    {
+      "message_id": 6391,
+      "filename": "한완수 기하 교과 실전개념 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6391_.pdf",
+      "size_bytes": 79462794,
+      "telegram_date": "2025-08-11T15:19:54+00:00",
+      "title": "한완수 기하 교과 실전개념 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6391.png",
+      "sha256": "6882204c2e60afe9e4d1343bf9305175ce06f16c0d358c667fdb92b5c31fc164"
     }
   ],
   "duplicate_message_ids": [
