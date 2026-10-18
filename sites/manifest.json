@@ -127,6 +127,20 @@
       "sha256": "6813d114dc213995864de0d7002bbd3657b201332c9ea21be79022343d6f3ba8"
     },
     {
+      "message_id": 25573,
+      "filename": "2027_Finale_기하_CT.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25573_2027_Finale_._CT.pdf",
+      "size_bytes": 5698061,
+      "telegram_date": "2026-10-18T03:34:32+00:00",
+      "title": "수학 강윤구 Finale 미적분, 기하, 확률과 통계",
+      "year": "2027",
+      "instructor": "강윤구",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25573.png",
+      "sha256": "83497cbc5422b7b06af8a8358a2498a8e11faec87dd9546d1fda3c0933301325"
+    },
+    {
       "message_id": 25569,
       "filename": "서바_2027_서바이벌_20회_해설.pdf",
       "stored_as": null,
