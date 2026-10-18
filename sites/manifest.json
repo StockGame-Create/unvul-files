@@ -43,6 +43,20 @@
       "sha256": "a891bf0fd2e1e1a54c6d9781cf751eef8e113c7f0f41f3d022cef8d72dbcc216"
     },
     {
+      "message_id": 25580,
+      "filename": "2027_물리학1_서바이벌_전국_15회_해설포함.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25580_2027_.1_._._15._.pdf",
+      "size_bytes": 7015009,
+      "telegram_date": "2026-10-18T03:34:40+00:00",
+      "title": "물1 시대인재 서바이벌 전국 모의고사 15회 #서바전국",
+      "year": "2027",
+      "instructor": null,
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/25580.png",
+      "sha256": "ea080840aa47d87a4efb9134c5a365bd67ff39f36a38a35d45691ad57b28fe35"
+    },
+    {
       "message_id": 25569,
       "filename": "서바_2027_서바이벌_20회_해설.pdf",
       "stored_as": null,
