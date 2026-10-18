@@ -159669,6 +159669,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6347.png",
       "sha256": "6e7e3d506f4dec4562b3d9175eaf2478a9875ebcc2e33a0442f8b1b0a788458b"
+    },
+    {
+      "message_id": 6343,
+      "filename": "2026 시대인재 3월 생2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6343_2026.3.2.pdf",
+      "size_bytes": 6629629,
+      "telegram_date": "2025-08-11T15:19:45+00:00",
+      "title": "2026 시대인재 3월 생2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6343.png",
+      "sha256": "37015a9543113b48b062c1bdaa5b40e4af2ecb0ef6d536db265748e0d7529bc9"
     }
   ],
   "duplicate_message_ids": [
