@@ -159221,6 +159221,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6384.png",
       "sha256": "e416458af19f5844ef7d6af07975c827ebd4e3e5a9fdb27965bac9b563035b17"
+    },
+    {
+      "message_id": 6383,
+      "filename": "2026년_수능특강_영어독해연습_10강177문제_변형문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6383_2026._._._10.177._.pdf",
+      "size_bytes": 1004176,
+      "telegram_date": "2025-08-11T15:19:54+00:00",
+      "title": "2026년_수능특강_영어독해연습_10강177문제_변형문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6383.png",
+      "sha256": "2225c33bb827ce13df0fa671764a48fd0847b8787dc76bf12c7cd81323f77f31"
     }
   ],
   "duplicate_message_ids": [
