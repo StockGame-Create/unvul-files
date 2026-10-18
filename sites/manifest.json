@@ -159711,6 +159711,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6338.png",
       "sha256": "9ee567d3b3ff19906d23c5765ec7ef2d6f5e628b3921d48985ac6d523a0f5ea4"
+    },
+    {
+      "message_id": 6337,
+      "filename": "22브릿지 6회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6337_22.6.pdf",
+      "size_bytes": 9844150,
+      "telegram_date": "2025-08-11T15:19:45+00:00",
+      "title": "22브릿지 6회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6337.png",
+      "sha256": "febfc1ef7561c9b63ebc1fd245f39864e23f5c4477502891f526913acbae64a7"
     }
   ],
   "duplicate_message_ids": [
