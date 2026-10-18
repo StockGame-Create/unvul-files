@@ -159963,6 +159963,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6320.png",
       "sha256": "11a60e0bc449ab78b78b3d1dbfa0ac90eca1ed0d82200304d458dadeae662c80"
+    },
+    {
+      "message_id": 6319,
+      "filename": "2026 커넥션 수2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6319_2026.2.pdf",
+      "size_bytes": 91425055,
+      "telegram_date": "2025-08-11T15:19:41+00:00",
+      "title": "2026 커넥션 수2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6319.png",
+      "sha256": "198a9305e3254313b4f1b14e3c4128ac01a94a09a80369cd1c1e6fd5974eb20d"
     }
   ],
   "duplicate_message_ids": [
