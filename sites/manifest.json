@@ -159011,6 +159011,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6409.png",
       "sha256": "424ccfcd8405451147e075bdf7168d3318adac0e07907d32e2447e12b4957623"
+    },
+    {
+      "message_id": 6408,
+      "filename": "2026_현우진_킬캠_1회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6408_2026_._._1._.pdf",
+      "size_bytes": 10061815,
+      "telegram_date": "2025-08-11T15:20:40+00:00",
+      "title": "2026_현우진_킬캠_1회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6408.png",
+      "sha256": "cc6a58927a0726f324cdb261167632fc98ad3329df7675b6a1173f1a9d35424d"
     }
   ],
   "duplicate_message_ids": [
