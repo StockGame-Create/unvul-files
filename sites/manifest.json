@@ -158731,6 +158731,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6436.png",
       "sha256": "8c2b9de617db51a9daff69eb628841ee30c3c02979ed23a7199e35dc91ca2ad4"
+    },
+    {
+      "message_id": 6435,
+      "filename": "2026 국어 강은양 단하나의key 해설지 10주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6435_2026.key.10.pdf",
+      "size_bytes": 198782702,
+      "telegram_date": "2025-08-11T15:20:41+00:00",
+      "title": "2026 국어 강은양 단하나의key 해설지 10주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6435.png",
+      "sha256": "b2853389133100ee1e9b12c2a03babaabff02435b0c368de2c3ba5ce524893aa"
     }
   ],
   "duplicate_message_ids": [
