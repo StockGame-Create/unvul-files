@@ -159235,6 +159235,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6383.png",
       "sha256": "2225c33bb827ce13df0fa671764a48fd0847b8787dc76bf12c7cd81323f77f31"
+    },
+    {
+      "message_id": 6382,
+      "filename": "2026년_수능특강_영어독해연습_5강193문제_변형문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6382_2026._._._5.193._.pdf",
+      "size_bytes": 1133170,
+      "telegram_date": "2025-08-11T15:19:54+00:00",
+      "title": "2026년_수능특강_영어독해연습_5강193문제_변형문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6382.png",
+      "sha256": "8091e65f19289ad2458847adafb5f87cfa1aa5cd159326053b86923c992d424e"
     }
   ],
   "duplicate_message_ids": [
