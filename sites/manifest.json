@@ -158003,6 +158003,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6485.png",
       "sha256": "d038e6fb702c9c102afc3ce559a8832396cd5982de745daee7a15c8366415f43"
+    },
+    {
+      "message_id": 6484,
+      "filename": "서바 프로 2과목.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6484_.2.pdf",
+      "size_bytes": 12456382,
+      "telegram_date": "2025-08-11T15:20:44+00:00",
+      "title": "서바 프로 2과목",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6484.png",
+      "sha256": "42c3586778385bc981d52e8a90ffd20bd7d202b87b60be8fc76b7dc28a64fad0"
     }
   ],
   "duplicate_message_ids": [
