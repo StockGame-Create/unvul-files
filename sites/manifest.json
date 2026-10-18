@@ -159025,6 +159025,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6408.png",
       "sha256": "cc6a58927a0726f324cdb261167632fc98ad3329df7675b6a1173f1a9d35424d"
+    },
+    {
+      "message_id": 6407,
+      "filename": "2026 현우진 킬캠 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6407_2026.1.pdf",
+      "size_bytes": 16855417,
+      "telegram_date": "2025-08-11T15:20:40+00:00",
+      "title": "2026 현우진 킬캠 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6407.png",
+      "sha256": "69ba273f3ebfa5fcb96c4622da3b5694d78464aec9bfd24ee9a445b32ef405d9"
     }
   ],
   "duplicate_message_ids": [
