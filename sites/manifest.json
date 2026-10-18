@@ -155,6 +155,20 @@
       "sha256": "13ac8db0f93bade0cfe016171730e16feab8c5f25dca7f6cf1e7778926f583fe"
     },
     {
+      "message_id": 25570,
+      "filename": "2027 수능특강 영어 듣기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25570_2027.pdf",
+      "size_bytes": 14016320,
+      "telegram_date": "2026-10-18T03:34:31+00:00",
+      "title": "영어 2027 수능특강 영여듣기",
+      "year": "2027",
+      "instructor": null,
+      "subject": "영어",
+      "thumbnail": "thumbnails/25570.png",
+      "sha256": "798d5e57800cda0a4c28041746c4cf6751895f48f152d4a27e7111c491c52a94"
+    },
+    {
       "message_id": 25569,
       "filename": "서바_2027_서바이벌_20회_해설.pdf",
       "stored_as": null,
