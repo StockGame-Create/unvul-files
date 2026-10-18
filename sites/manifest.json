@@ -158913,6 +158913,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6425.png",
       "sha256": "f6b24da848f72dc245149a39cdd3d6c36758ba82285f002b17b4c9a05f185e1b"
+    },
+    {
+      "message_id": 6424,
+      "filename": "2026 국어 박광일 독기본서.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6424_2026.pdf",
+      "size_bytes": 80099096,
+      "telegram_date": "2025-08-11T15:20:40+00:00",
+      "title": "2026 국어 박광일 독기본서",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6424.png",
+      "sha256": "57554e8e7751eb627bf522c97f9de2cafd2dec4c8771e81fd374d35dd35e311a"
     }
   ],
   "duplicate_message_ids": [
