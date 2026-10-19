@@ -161615,6 +161615,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5979.png",
       "sha256": "5107842f76137c3766764d21e93cba3cfd5255eee046108611e79ce957e1ad9f"
+    },
+    {
+      "message_id": 5978,
+      "filename": "2026 김현우 도형 프리뷰 테스트 빠른 정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5978_2026.pdf",
+      "size_bytes": 16817,
+      "telegram_date": "2025-08-11T15:17:06+00:00",
+      "title": "2026 김현우 도형 프리뷰 테스트 빠른 정답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5978.png",
+      "sha256": "48840518455f8eb38e1d8e9a260f0db3294f79b7bc923b4b2aa1d45126098223"
     }
   ],
   "duplicate_message_ids": [
