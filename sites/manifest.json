@@ -161097,6 +161097,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6060.png",
       "sha256": "feb93153727f1e1c12734b855a3b3e01f7abce75fd61fc64ea859a611aea4bb7"
+    },
+    {
+      "message_id": 6059,
+      "filename": "17회_해설 V2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6059_17._.V2.pdf",
+      "size_bytes": 721862,
+      "telegram_date": "2025-08-11T15:17:15+00:00",
+      "title": "17회_해설 V2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6059.png",
+      "sha256": "e9bd5dfc2d0861710e0b4d6b714f56a8e27244671b7cc88f594641dd35046c80"
     }
   ],
   "duplicate_message_ids": [
