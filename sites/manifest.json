@@ -160467,6 +160467,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6261.png",
       "sha256": "19d356c58add0f2baa08ca4979c18d8ffb13771560fc732040108455a444afd9"
+    },
+    {
+      "message_id": 6260,
+      "filename": "2026 수학 이승열 MANUAL Vol.1 수2 접선의 해석.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6260_2026.MANUAL.Vol.1.2.pdf",
+      "size_bytes": 34080894,
+      "telegram_date": "2025-08-11T15:19:38+00:00",
+      "title": "2026 수학 이승열 MANUAL Vol.1 수2 접선의 해석",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6260.png",
+      "sha256": "518307d906e17b14f252b0f3399edd33f26ad0bb71f7635a0538d5528f14e42a"
     }
   ],
   "duplicate_message_ids": [
