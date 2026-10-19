@@ -183,6 +183,20 @@
       "sha256": "6ab0976691bf6265b07845512941af48000fd33fe304ac92af2ecf49e31cabff"
     },
     {
+      "message_id": 25605,
+      "filename": "2027_정석준_시즌3_테스트_인간실격P_6회_260728_235540.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25605_2027_._.3_._.P_6._260728_235540.pdf",
+      "size_bytes": 7805722,
+      "telegram_date": "2026-10-19T14:37:51+00:00",
+      "title": "생1 정석준 시즌3 인간실격 모의고사P 6회",
+      "year": "2027",
+      "instructor": "정석준",
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/25605.png",
+      "sha256": "2b287d79150a281ec85181978fa720092618d94cabff305660ca1afbb545abc4"
+    },
+    {
       "message_id": 25599,
       "filename": "생1 서바 전국 12회.pdf",
       "stored_as": null,
