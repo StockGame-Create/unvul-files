@@ -155,6 +155,20 @@
       "sha256": "38014dffca3fd5ba83b649983735630a87023e1d145f69b241756caa7ee88960"
     },
     {
+      "message_id": 25608,
+      "filename": "16,17 이감 9,10차_rotated.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25608_16.17.9.10._rotated.pdf",
+      "size_bytes": 73398793,
+      "telegram_date": "2026-10-19T14:37:53+00:00",
+      "title": "국어 이감 제 9, 10차 예비평가 문제지",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25608.png",
+      "sha256": "522b46fb8463f11b194905ac7ca8dee75df32e2970e6102c3b044bf5b07fa391"
+    },
+    {
       "message_id": 25599,
       "filename": "생1 서바 전국 12회.pdf",
       "stored_as": null,
