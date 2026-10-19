@@ -161209,6 +161209,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6052.png",
       "sha256": "43ab900dd864c5d65b4e2be21be036c52b419f20a64bf283f3871c16d37a0993"
+    },
+    {
+      "message_id": 6051,
+      "filename": "14회_문제 V2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6051_14._.V2.pdf",
+      "size_bytes": 450744,
+      "telegram_date": "2025-08-11T15:17:15+00:00",
+      "title": "14회_문제 V2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6051.png",
+      "sha256": "0604e3848696f39871cb649b518bc8c2054b23cedac79e853c90f7d03a11a5c5"
     }
   ],
   "duplicate_message_ids": [
