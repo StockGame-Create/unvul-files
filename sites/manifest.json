@@ -160957,6 +160957,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6211.png",
       "sha256": "5abb0217fd1b479e8656464376ce65a7cbe628e85fac4ee6eaf29eca324a36f6"
+    },
+    {
+      "message_id": 6202,
+      "filename": "시대인재 3월례고사 수학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6202_.3.pdf",
+      "size_bytes": 2094695,
+      "telegram_date": "2025-08-11T15:18:55+00:00",
+      "title": "시대인재 3월례고사 수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6202.png",
+      "sha256": "1bdcc3f8d4bf11ec6b50f680715dc1a09ec0faa44504bbf65fd282e84048611d"
     }
   ],
   "duplicate_message_ids": [
