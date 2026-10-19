@@ -160551,6 +160551,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6255.png",
       "sha256": "ee9aac93a773947fb6b28ec9a8bea45ba75ed945e70a85ccf7d590b49e253c36"
+    },
+    {
+      "message_id": 6254,
+      "filename": "2026 이명학 수능루틴 2권 답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6254_2026.2.pdf",
+      "size_bytes": 262261605,
+      "telegram_date": "2025-08-11T15:19:38+00:00",
+      "title": "2026 이명학 수능루틴 2권 답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6254.png",
+      "sha256": "0c120ee80cb39c5e4d2108c7f084a52aa0befae8b8277e7a98a2acc0510913e0"
     }
   ],
   "duplicate_message_ids": [
