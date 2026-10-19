@@ -160047,6 +160047,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6303.png",
       "sha256": "9d6b1b476a4a01b50cf69b72423a6ee19d393843e6b4dce71d7ed9dddd0f4d2b"
+    },
+    {
+      "message_id": 6302,
+      "filename": "2026_영어_김동하_앗!답!이_보인다!_시즌2_5회_복습지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6302_2026_._._._._.2_5._.pdf",
+      "size_bytes": 129189025,
+      "telegram_date": "2025-08-11T15:19:41+00:00",
+      "title": "2026_영어_김동하_앗!답!이_보인다!_시즌2_5회_복습지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6302.png",
+      "sha256": "6684c3ba37691263651dc9f0a8e065045eda69f87844d2055491092112a15642"
     }
   ],
   "duplicate_message_ids": [
