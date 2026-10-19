@@ -160145,6 +160145,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6290.png",
       "sha256": "4b8cad45c4cb0b252eccff08e7e1e59dd27f13900794875ccb08369318263645"
+    },
+    {
+      "message_id": 6289,
+      "filename": "블랙라벨_미적분_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6289_._._.pdf",
+      "size_bytes": 5576190,
+      "telegram_date": "2025-08-11T15:19:40+00:00",
+      "title": "블랙라벨_미적분_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6289.png",
+      "sha256": "ef079679b7e98c2ab0d97c0f00595d6df85966b75f93e45c550225fc45ccd459"
     }
   ],
   "duplicate_message_ids": [
