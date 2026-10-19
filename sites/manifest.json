@@ -85,6 +85,20 @@
       "sha256": "f76b19ee56a3beb16c75dd52d74811a9853987b857ee051c0f577dcae530285b"
     },
     {
+      "message_id": 25617,
+      "filename": "TalkFile_기본 폴더.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25617_TalkFile_.pdf",
+      "size_bytes": 5905159,
+      "telegram_date": "2026-10-19T14:38:06+00:00",
+      "title": "사문 10월 전국 대단위 실전 모의고사 #전대실모",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25617.png",
+      "sha256": "c201d6073974dedccb89fc0f4d92f5a94db3b523785d1453b77fe0689a53ac31"
+    },
+    {
       "message_id": 25599,
       "filename": "생1 서바 전국 12회.pdf",
       "stored_as": null,
