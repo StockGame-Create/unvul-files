@@ -161643,6 +161643,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5970.png",
       "sha256": "cf811ff3e00fb876d8221da30131c4d42b0b95f913f52f0c1674264edb5a6738"
+    },
+    {
+      "message_id": 5969,
+      "filename": "26 지구 전국 브릿지 4회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5969_26.4.pdf",
+      "size_bytes": 2708789,
+      "telegram_date": "2025-08-11T15:17:06+00:00",
+      "title": "26 지구 전국 브릿지 4회 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5969.png",
+      "sha256": "71e9d8efee205c324f3ade71d2ff23e9ef77f36aaadd425d815776ff2943039d"
     }
   ],
   "duplicate_message_ids": [
