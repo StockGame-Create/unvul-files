@@ -160075,6 +160075,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6301.png",
       "sha256": "0f387bf6edb2996f60e6b98d42a3dfd798e03264c472255b0660f414a052c806"
+    },
+    {
+      "message_id": 6300,
+      "filename": "2026_영어_김동하_앗!답!이_보인다!_시즌2_5회_Week_3_필수_단어_확인.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6300_2026_._._._._.2_5._Week_3_._._.pdf",
+      "size_bytes": 598095,
+      "telegram_date": "2025-08-11T15:19:40+00:00",
+      "title": "2026_영어_김동하_앗!답!이_보인다!_시즌2_5회_Week_3_필수_단어_확인",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6300.png",
+      "sha256": "d62c2e058d645fda6d74afb5c48dc81b1f9f39038ca96b8c501fb390866f9844"
     }
   ],
   "duplicate_message_ids": [
