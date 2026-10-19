@@ -160201,6 +160201,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6284.png",
       "sha256": "e08892a8bdecd7fcd9bd2c8d13bd8ddced6324e1c96481f3f5981c17ccac54e8"
+    },
+    {
+      "message_id": 6280,
+      "filename": "2026학년도_수학능력시험_대비_DECEM_모의고사_2회차_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6280_2026._._._DECEM_._2._.pdf",
+      "size_bytes": 13842191,
+      "telegram_date": "2025-08-11T15:19:39+00:00",
+      "title": "2026학년도_수학능력시험_대비_DECEM_모의고사_2회차_문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6280.png",
+      "sha256": "9e8b10bf3e114597a5dcd8e1f9bd1ac2f39f787b965e8a4431366d3ca3978637"
     }
   ],
   "duplicate_message_ids": [
