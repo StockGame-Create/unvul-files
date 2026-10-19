@@ -160425,6 +160425,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6264.png",
       "sha256": "34c9a9eacf817c34e64b8bc6c6fd5b7278ed28cb6d3ecb9337c85013a049535f"
+    },
+    {
+      "message_id": 6263,
+      "filename": "2026 수학 이정환 미적분 chapter1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6263_2026.chapter1.pdf",
+      "size_bytes": 3068653,
+      "telegram_date": "2025-08-11T15:19:39+00:00",
+      "title": "2026 수학 이정환 미적분 chapter1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6263.png",
+      "sha256": "6d968c5da2435884e3f6c3823030135b464a35e1b61314102570d547060ac1e5"
     }
   ],
   "duplicate_message_ids": [
