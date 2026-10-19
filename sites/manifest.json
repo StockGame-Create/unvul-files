@@ -160649,6 +160649,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6242.png",
       "sha256": "ab050b6811db31ab25e3bc4190ae62fca22c0b63d3f4a8d2a406378a0f1ad728"
+    },
+    {
+      "message_id": 6241,
+      "filename": "2025_지구과학2_강대k_모의고사_13회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6241_2025_.2_.k_._13._.pdf",
+      "size_bytes": 4917857,
+      "telegram_date": "2025-08-11T15:19:03+00:00",
+      "title": "2025_지구과학2_강대k_모의고사_13회_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6241.png",
+      "sha256": "6bc99fad8f150b886f0c8ee44e647c3153a4e19654d38bb278e7c9b24ffa9ba8"
     }
   ],
   "duplicate_message_ids": [
