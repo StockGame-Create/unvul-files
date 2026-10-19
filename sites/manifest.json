@@ -160355,6 +160355,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6270.png",
       "sha256": "439dbf445efe793e9a122528dca51789f2a31ba5f37d0335db09a6fd39da6570"
+    },
+    {
+      "message_id": 6269,
+      "filename": "2026_강은양T_법_스키마_해설집.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6269_2026_.T_._._.pdf",
+      "size_bytes": 89434492,
+      "telegram_date": "2025-08-11T15:19:39+00:00",
+      "title": "2026_강은양T_법_스키마_해설집",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6269.png",
+      "sha256": "22ccbdb2b08995adc8cfb2887da1b422386315f8b503a6c4af5972e0e3ffca14"
     }
   ],
   "duplicate_message_ids": [
