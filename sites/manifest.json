@@ -160243,6 +160243,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6278.png",
       "sha256": "afa96b5ef0d36de7c36cad6241a23f6530bace9187abd394ae6abbd77d06bdbf"
+    },
+    {
+      "message_id": 6277,
+      "filename": "2026 기출코드 미적 문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6277_2026.pdf",
+      "size_bytes": 81236865,
+      "telegram_date": "2025-08-11T15:19:39+00:00",
+      "title": "2026 기출코드 미적 문제편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6277.png",
+      "sha256": "132b227d5c9322824535d9c20674ce826ba0cc46deed9012f93d55c93c6a9af8"
     }
   ],
   "duplicate_message_ids": [
