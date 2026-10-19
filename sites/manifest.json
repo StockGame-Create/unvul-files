@@ -161671,6 +161671,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5968.png",
       "sha256": "9701bdcf5cf983ce211cdac85a48798d2fc9357b2545ed2838517338f2b200af"
+    },
+    {
+      "message_id": 5967,
+      "filename": "26 지구 브릿지 4회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5967_26.4.pdf",
+      "size_bytes": 2915046,
+      "telegram_date": "2025-08-11T15:17:06+00:00",
+      "title": "26 지구 브릿지 4회 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5967.png",
+      "sha256": "d9b21a40373277ef7838533369d4cbeba765eeb9d3920a77dcb9065014bc489c"
     }
   ],
   "duplicate_message_ids": [
