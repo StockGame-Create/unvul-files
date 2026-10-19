@@ -160761,6 +160761,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6234.png",
       "sha256": "b4c5f5c1354eb0898a79a76cc196324661616912dd7a23cfc9ea44adb381e03b"
+    },
+    {
+      "message_id": 6225,
+      "filename": "주간교재 7주차 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6225_.7.pdf",
+      "size_bytes": 37561616,
+      "telegram_date": "2025-08-11T15:19:02+00:00",
+      "title": "주간교재 7주차 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6225.png",
+      "sha256": "26cfe69e34058358827ae99348a19690c2eef647288e48e46263f32b3debdad9"
     }
   ],
   "duplicate_message_ids": [
