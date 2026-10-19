@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-19T04:53:27+00:00",
+  "updated_at": "2026-10-19T13:51:46+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -2427,9 +2427,9 @@
       "schema_version": 1,
       "status": "partial",
       "data": "ai/25592.json",
-      "updated_at": "2026-10-19T04:53:27+00:00",
+      "updated_at": "2026-10-19T13:51:46+00:00",
       "pages_total": 265,
-      "pages_done": 124,
+      "pages_done": 180,
       "failed_pages": [
         55,
         65,
@@ -2441,14 +2441,35 @@
         121,
         122,
         123,
-        124
+        124,
+        129,
+        145,
+        146,
+        147,
+        148,
+        157,
+        158,
+        159,
+        160,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        177,
+        178,
+        179,
+        180
       ],
       "model": "gemini-3.7-flash",
-      "problem_count": 104,
-      "solution_count": 104,
-      "matched_count": 91,
-      "with_answer": 91,
-      "with_explanation": 91
+      "problem_count": 138,
+      "solution_count": 138,
+      "matched_count": 120,
+      "with_answer": 120,
+      "with_explanation": 120
     }
   ]
 }
