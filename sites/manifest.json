@@ -160159,6 +160159,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6289.png",
       "sha256": "ef079679b7e98c2ab0d97c0f00595d6df85966b75f93e45c550225fc45ccd459"
+    },
+    {
+      "message_id": 6288,
+      "filename": "2026_물리학_I_현정훈_모의고사_시즌_2_2회_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6288_2026_._I_._._._2_2._.pdf",
+      "size_bytes": 9855097,
+      "telegram_date": "2025-08-11T15:19:40+00:00",
+      "title": "2026_물리학_I_현정훈_모의고사_시즌_2_2회_문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6288.png",
+      "sha256": "f275f094046d64a7ef223145ae48cdf8db399aae2f37896f5b119e3599b6e8b1"
     }
   ],
   "duplicate_message_ids": [
