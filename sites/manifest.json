@@ -15,6 +15,20 @@
       "sha256": "7398bdb0b48a6c0b581c08cfdd940edc5141d09fc18d6c6c7efa601460a8ef76"
     },
     {
+      "message_id": 25628,
+      "filename": "스캔_문서,_2026_10_10_오후_9_51_44.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25628_._._2026_10_10_._9_51_44.pdf",
+      "size_bytes": 20632143,
+      "telegram_date": "2026-10-19T14:38:18+00:00",
+      "title": "생윤 잘 푸는 모의고사 시즌 2(파이널) 6회",
+      "year": "2027",
+      "instructor": "김종익",
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/25628.png",
+      "sha256": "a75013080e93fee74a891861c410beb3115f9017238a454c7e13b70e9dfcac69"
+    },
+    {
       "message_id": 25599,
       "filename": "생1 서바 전국 12회.pdf",
       "stored_as": null,
