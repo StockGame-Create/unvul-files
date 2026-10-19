@@ -211,6 +211,20 @@
       "sha256": "58a76afde699247bc8504f550bb301383817a6bae0a5476fe50d8c663086f5e5"
     },
     {
+      "message_id": 25602,
+      "filename": "박선 데이브레이크 30회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25602_.30.pdf",
+      "size_bytes": 4961190,
+      "telegram_date": "2026-10-19T14:37:49+00:00",
+      "title": "지1 박선 DAYBREAK 29, 30회",
+      "year": "2027",
+      "instructor": "박선",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25602.png",
+      "sha256": "ded033be096fd4adb9b05082dc9037a438f3b0c30faebc2040029bc9d1be9368"
+    },
+    {
       "message_id": 25599,
       "filename": "생1 서바 전국 12회.pdf",
       "stored_as": null,
