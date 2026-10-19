@@ -160103,6 +160103,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6299.png",
       "sha256": "43a92fe23ccf80a87857b380eb944662ea8b91256d6d7180522b9e8a252cb6e9"
+    },
+    {
+      "message_id": 6292,
+      "filename": "엑셀 20개.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6292_.20.pdf",
+      "size_bytes": 57716389,
+      "telegram_date": "2025-08-11T15:19:40+00:00",
+      "title": "엑셀 20개",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6292.png",
+      "sha256": "c5b1819de10a2ac25b8e0ddcbb64bec20a4c26b6c60f5411a284d5018fbb5a01"
     }
   ],
   "duplicate_message_ids": [
