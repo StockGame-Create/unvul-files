@@ -160747,6 +160747,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6235.png",
       "sha256": "6e192e9f88042d14e66b41ff868c59c508b20fa14b218f79372f6e2348d6b42e"
+    },
+    {
+      "message_id": 6234,
+      "filename": "2026_생1_정석준_시즌2_Safe_Drive_모의고사_1회_10주.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6234_2026_.1_._.2_Safe_Drive_._1._10.pdf",
+      "size_bytes": 3146918,
+      "telegram_date": "2025-08-11T15:19:03+00:00",
+      "title": "2026_생1_정석준_시즌2_Safe_Drive_모의고사_1회_10주",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6234.png",
+      "sha256": "b4c5f5c1354eb0898a79a76cc196324661616912dd7a23cfc9ea44adb381e03b"
     }
   ],
   "duplicate_message_ids": [
