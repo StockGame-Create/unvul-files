@@ -160593,6 +160593,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6252.png",
       "sha256": "95f464a51a8a1e4ad1e214c46f8b65843d4b08bae60e7265b86e97ba6b1579dc"
+    },
+    {
+      "message_id": 6251,
+      "filename": "수능루틴 1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6251_.1.pdf",
+      "size_bytes": 257552112,
+      "telegram_date": "2025-08-11T15:19:38+00:00",
+      "title": "수능루틴 1권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6251.png",
+      "sha256": "ebcb3000a8127cc36b3448467f663d93e0a659e63db453daea8646df06b753de"
     }
   ],
   "duplicate_message_ids": [
