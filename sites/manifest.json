@@ -160495,6 +160495,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6259.png",
       "sha256": "7b6a4867c4dbb03c8f938d0bcc6c1529f9bec7e08fa53ec296927a8b5cf2f122"
+    },
+    {
+      "message_id": 6258,
+      "filename": "2026_수학_강윤구_우일신_MINI모의고사_SEASON1_공통X미적.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6258_2026_._._._MINI._SEASON1_.X.pdf",
+      "size_bytes": 129054183,
+      "telegram_date": "2025-08-11T15:19:38+00:00",
+      "title": "2026_수학_강윤구_우일신_MINI모의고사_SEASON1_공통X미적",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6258.png",
+      "sha256": "f93c9505c6f79184abcee2da4ac251344093dc3ef818c7b88b77fbcbce754fcc"
     }
   ],
   "duplicate_message_ids": [
