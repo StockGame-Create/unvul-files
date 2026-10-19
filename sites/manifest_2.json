@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-19T13:51:46+00:00",
+  "updated_at": "2026-10-19T22:28:24+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -2470,6 +2470,50 @@
       "matched_count": 120,
       "with_answer": 120,
       "with_explanation": 120
+    },
+    {
+      "message_id": 25650,
+      "filename": "기본 폴더.pdf",
+      "title": "사문 시대인재 서바이벌 전국 모의고사 15회 #서바전국",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "sha256": "7398bdb0b48a6c0b581c08cfdd940edc5141d09fc18d6c6c7efa601460a8ef76",
+      "schema_version": 1,
+      "status": "done",
+      "data": "ai/25650.json",
+      "updated_at": "2026-10-19T22:25:12+00:00",
+      "pages_total": 4,
+      "pages_done": 4,
+      "failed_pages": [],
+      "model": "gemini-3.8-flash",
+      "problem_count": 20,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 25628,
+      "filename": "스캔_문서,_2026_10_10_오후_9_51_44.pdf",
+      "title": "생윤 잘 푸는 모의고사 시즌 2(파이널) 6회",
+      "year": "2027",
+      "instructor": "김종익",
+      "subject": "생활과윤리",
+      "sha256": "a75013080e93fee74a891861c410beb3115f9017238a454c7e13b70e9dfcac69",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/25628.json",
+      "updated_at": "2026-10-19T22:28:24+00:00",
+      "pages_total": 4,
+      "pages_done": 0,
+      "failed_pages": [],
+      "model": null,
+      "problem_count": 0,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
     }
   ]
 }
