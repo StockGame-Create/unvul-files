@@ -160929,6 +160929,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6213.png",
       "sha256": "6273811f0666487694eef18126cc3664965f0c7cf36d0922d605c44fdd94eeac"
+    },
+    {
+      "message_id": 6212,
+      "filename": "주간교재 1주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6212_.1.pdf",
+      "size_bytes": 25778546,
+      "telegram_date": "2025-08-11T15:18:55+00:00",
+      "title": "주간교재 1주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6212.png",
+      "sha256": "4537bb6c0731decf8d47cf178be537067b464b8a8c32616fef4c3f6d49177cf2"
     }
   ],
   "duplicate_message_ids": [
