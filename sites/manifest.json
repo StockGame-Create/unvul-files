@@ -160383,6 +160383,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6268.png",
       "sha256": "95d825caa5400aa9e736b6bc245c6f7dc0530ed1be496d1e9dd1578dac45b9d5"
+    },
+    {
+      "message_id": 6267,
+      "filename": "2026_강은양T_리비에스_고전문학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6267_2026_.T_._.pdf",
+      "size_bytes": 358454346,
+      "telegram_date": "2025-08-11T15:19:39+00:00",
+      "title": "2026_강은양T_리비에스_고전문학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6267.png",
+      "sha256": "0e11a6e356962689ac29eef18dc0aa78e0b8046fb75886a1ae57961dce5c4aea"
     }
   ],
   "duplicate_message_ids": [
