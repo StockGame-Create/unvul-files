@@ -161111,6 +161111,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6059.png",
       "sha256": "e9bd5dfc2d0861710e0b4d6b714f56a8e27244671b7cc88f594641dd35046c80"
+    },
+    {
+      "message_id": 6058,
+      "filename": "16회_해설_V2_문제중복_수정_9문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6058_16._._V2_._._9.pdf",
+      "size_bytes": 911322,
+      "telegram_date": "2025-08-11T15:17:15+00:00",
+      "title": "16회_해설_V2_문제중복_수정_9문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6058.png",
+      "sha256": "23a2d86d047fd67209fe6b2cac844ad8c4f72b6968f5b6ab23cb1bbceb28c1e5"
     }
   ],
   "duplicate_message_ids": [
