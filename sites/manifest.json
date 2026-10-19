@@ -57,6 +57,20 @@
       "sha256": "873a1f7597eaaafa585682cdc7c7fbdfcefc989fd30876c984910354a5b6f74e"
     },
     {
+      "message_id": 25624,
+      "filename": "이훈식_솔택_part_2_유체지구.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25624_._._part_2_.pdf",
+      "size_bytes": 6290026,
+      "telegram_date": "2026-10-19T14:38:11+00:00",
+      "title": "지1 이훈식 솔텍 part2",
+      "year": "2027",
+      "instructor": "이훈식",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25624.png",
+      "sha256": "dea4462b48c259970c2930a625f66ecea02fbf65047e871fd9399cbdb91fc561"
+    },
+    {
       "message_id": 25599,
       "filename": "생1 서바 전국 12회.pdf",
       "stored_as": null,
