@@ -160523,6 +160523,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6257.png",
       "sha256": "a9c35530f198fec992edde3498b0807960cbb6b8d7be620be43aee42d4692f11"
+    },
+    {
+      "message_id": 6256,
+      "filename": "이명학 수능루틴 3권 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6256_.3.pdf",
+      "size_bytes": 229106564,
+      "telegram_date": "2025-08-11T15:19:38+00:00",
+      "title": "이명학 수능루틴 3권 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6256.png",
+      "sha256": "8370b12f57524a25d91b0df59302a5b88be548ba54ae34e3147a9b512d7fbef0"
     }
   ],
   "duplicate_message_ids": [
