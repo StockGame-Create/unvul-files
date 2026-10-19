@@ -161559,6 +161559,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5989.png",
       "sha256": "8f9d3a32b32e5c7d8bd05c21f95c089578891c301ee125ce277bbf3bea5bcc82"
+    },
+    {
+      "message_id": 5988,
+      "filename": "11_탑재용_국어.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5988_11_._.pdf",
+      "size_bytes": 3394689,
+      "telegram_date": "2025-08-11T15:17:07+00:00",
+      "title": "11_탑재용_국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5988.png",
+      "sha256": "690a52c3f39f9e9e33ee5d9e07650cb9c88eba380d7d52f0cdf0b9215a04af9c"
     }
   ],
   "duplicate_message_ids": [
