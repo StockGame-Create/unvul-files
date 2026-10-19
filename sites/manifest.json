@@ -161545,6 +161545,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5990.png",
       "sha256": "fe3cbcafb2733948d4c95af7afc64c0eea88ae68c23d0b9827d153787734522b"
+    },
+    {
+      "message_id": 5989,
+      "filename": "1a_정답표_국어.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5989_1a_._.pdf",
+      "size_bytes": 99923,
+      "telegram_date": "2025-08-11T15:17:07+00:00",
+      "title": "1a_정답표_국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5989.png",
+      "sha256": "8f9d3a32b32e5c7d8bd05c21f95c089578891c301ee125ce277bbf3bea5bcc82"
     }
   ],
   "duplicate_message_ids": [
