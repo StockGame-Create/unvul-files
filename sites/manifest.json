@@ -160229,6 +160229,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6279.png",
       "sha256": "e88a7e3d2ff375e3fff5a02df1acc9aee50c9d77b7b1bbffb5291a84a6b10f39"
+    },
+    {
+      "message_id": 6278,
+      "filename": "2026 기출코드 미적 해설편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6278_2026.pdf",
+      "size_bytes": 59485960,
+      "telegram_date": "2025-08-11T15:19:39+00:00",
+      "title": "2026 기출코드 미적 해설편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6278.png",
+      "sha256": "afa96b5ef0d36de7c36cad6241a23f6530bace9187abd394ae6abbd77d06bdbf"
     }
   ],
   "duplicate_message_ids": [
