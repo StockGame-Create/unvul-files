@@ -160019,6 +160019,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6315.png",
       "sha256": "7c60dbb8bd84ebe2104bd07591d11b57ee1b46edbd12e1bc50dc1cffa367841e"
+    },
+    {
+      "message_id": 6308,
+      "filename": "2026_강준호_모의고사_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6308_2026_._._2.pdf",
+      "size_bytes": 2316668,
+      "telegram_date": "2025-08-11T15:19:41+00:00",
+      "title": "2026_강준호_모의고사_2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6308.png",
+      "sha256": "71607424390996152cd0f25ad4b5758c4876d91eaa8af65f30922f1b72f6e3ae"
     }
   ],
   "duplicate_message_ids": [
