@@ -160481,6 +160481,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6260.png",
       "sha256": "518307d906e17b14f252b0f3399edd33f26ad0bb71f7635a0538d5528f14e42a"
+    },
+    {
+      "message_id": 6259,
+      "filename": "2026_수학_김현우_스탠다드_미적분_1주개념+예제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6259_2026_._._._._1.%2B.pdf",
+      "size_bytes": 24949424,
+      "telegram_date": "2025-08-11T15:19:38+00:00",
+      "title": "2026_수학_김현우_스탠다드_미적분_1주개념+예제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6259.png",
+      "sha256": "7b6a4867c4dbb03c8f938d0bcc6c1529f9bec7e08fa53ec296927a8b5cf2f122"
     }
   ],
   "duplicate_message_ids": [
