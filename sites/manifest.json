@@ -161041,6 +161041,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6125.png",
       "sha256": "52ccf1a90935075e099f4ecf5ab3ae4852efb1599711384a7e555e823101ab80"
+    },
+    {
+      "message_id": 6113,
+      "filename": "생명 강대k+ 27 28답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6113_.k%2B.27.28.pdf",
+      "size_bytes": 3693060,
+      "telegram_date": "2025-08-11T15:17:21+00:00",
+      "title": "생명 강대k+ 27 28답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6113.png",
+      "sha256": "923483b8bead9d0aa5b7ecd0f12de0704d897ddffa02901528cd9c63e0c5aa03"
     }
   ],
   "duplicate_message_ids": [
