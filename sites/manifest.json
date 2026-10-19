@@ -160187,6 +160187,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6285.png",
       "sha256": "918a1debb2cf03cde58fe6265cc9453cb28d8a795ae179523f98528547974b39"
+    },
+    {
+      "message_id": 6284,
+      "filename": "2026 물리 현정훈 러쉬 물리학1 (상) 시즌2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6284_2026.1.2.pdf",
+      "size_bytes": 49502324,
+      "telegram_date": "2025-08-11T15:19:40+00:00",
+      "title": "2026 물리 현정훈 러쉬 물리학1 (상) 시즌2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6284.png",
+      "sha256": "e08892a8bdecd7fcd9bd2c8d13bd8ddced6324e1c96481f3f5981c17ccac54e8"
     }
   ],
   "duplicate_message_ids": [
