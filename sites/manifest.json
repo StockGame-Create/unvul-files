@@ -160271,6 +160271,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6276.png",
       "sha256": "dd4385bbff9a473441d6f89446e3dcb18ef5ce3a2cd924d2956997c946a7363a"
+    },
+    {
+      "message_id": 6275,
+      "filename": "보충_영상_K04,_05_문학_길라잡이.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6275_._._K04._05_._.pdf",
+      "size_bytes": 1198859,
+      "telegram_date": "2025-08-11T15:19:39+00:00",
+      "title": "보충_영상_K04,_05_문학_길라잡이",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6275.png",
+      "sha256": "566deb4e5a468547dad1faf82e0c407152811d7f7eae3fbf4fb361bb94e54095"
     }
   ],
   "duplicate_message_ids": [
