@@ -160173,6 +160173,20 @@
       "subject": null,
       "thumbnail": "thumbnails/6288.png",
       "sha256": "f275f094046d64a7ef223145ae48cdf8db399aae2f37896f5b119e3599b6e8b1"
+    },
+    {
+      "message_id": 6285,
+      "filename": "2026_물리1_현정훈_러쉬스팀팩_2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6285_2026_.1_._._2.pdf",
+      "size_bytes": 80000739,
+      "telegram_date": "2025-08-11T15:19:40+00:00",
+      "title": "2026_물리1_현정훈_러쉬스팀팩_2권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6285.png",
+      "sha256": "918a1debb2cf03cde58fe6265cc9453cb28d8a795ae179523f98528547974b39"
     }
   ],
   "duplicate_message_ids": [
