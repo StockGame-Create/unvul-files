@@ -162303,6 +162303,20 @@
       "sha256": "0459e1eae33b79beb876b242ce88f2d11d5775eeed105065b454ac2e2c2bf7fb"
     },
     {
+      "message_id": 6163,
+      "filename": "2026 수학 정병호 원솔멀텍 기하 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6163_2026.pdf",
+      "size_bytes": 22220031,
+      "telegram_date": "2025-08-11T15:18:50+00:00",
+      "title": "2026 수학 정병호 원솔멀텍 기하 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6163.png",
+      "sha256": "845f2ecc66071ae28e362672fd798c1ba9df5147ef958c98e2d748f42420513a"
+    },
+    {
       "message_id": 6139,
       "filename": "2026 수학 박종민 Limit X 1회.pdf",
       "stored_as": null,
