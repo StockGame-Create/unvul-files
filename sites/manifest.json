@@ -163591,6 +163591,20 @@
       "sha256": "a1214845d65c7a413dd89b9d7ca9607be9da071ce879131da07fa05aec9ad6dd"
     },
     {
+      "message_id": 6043,
+      "filename": "국어 이감 6-9.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6043_.6-9.pdf",
+      "size_bytes": 125270340,
+      "telegram_date": "2025-08-11T15:17:15+00:00",
+      "title": "국어 이감 6-9",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6043.png",
+      "sha256": "6516ee6c9a66e0c6a73544aa4ee943edd30870b5c722c1360b85e44350112fea"
+    },
+    {
       "message_id": 5995,
       "filename": "5a_과학탐구.pdf",
       "stored_as": null,
