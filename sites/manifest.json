@@ -161925,6 +161925,20 @@
       "sha256": "d2e6c68d8f37c5146d2b474ca27c801e449484bcb6f712523bb1f3a9ea11cd45"
     },
     {
+      "message_id": 6191,
+      "filename": "2026 수학 이창무 수2 96% 심화특강(해설).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6191_2026.2.96.pdf",
+      "size_bytes": 9404159,
+      "telegram_date": "2025-08-11T15:18:52+00:00",
+      "title": "2026 수학 이창무 수2 96% 심화특강(해설)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6191.png",
+      "sha256": "c50f3de0a4e6e2d215c6992297ca221549e40de41717f7cef022274c11957c99"
+    },
+    {
       "message_id": 6187,
       "filename": "2026 수학 박종민 수2 리뷰퀴즈 9주 (해설).pdf",
       "stored_as": null,
