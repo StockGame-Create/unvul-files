@@ -161981,6 +161981,20 @@
       "sha256": "1b702edb274b757dea90b49dc195629834be16329f6aced9c41af1f005b7e6aa"
     },
     {
+      "message_id": 6078,
+      "filename": "물1 빅뱅 모의고사 s4.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6078_.1.s4.pdf",
+      "size_bytes": 71452035,
+      "telegram_date": "2025-08-11T15:17:16+00:00",
+      "title": "물1 빅뱅 모의고사 s4",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6078.png",
+      "sha256": "f72aa145e6b0ffb4d1ceb56d0582705d94f8ae9190fd87ae3c7183cd655c49af"
+    },
+    {
       "message_id": 6060,
       "filename": "14회_해설 V2.pdf",
       "stored_as": null,
