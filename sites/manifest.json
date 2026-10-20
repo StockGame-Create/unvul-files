@@ -162121,6 +162121,20 @@
       "sha256": "48639156afc02d0ac642bdb1e04a5d1cc5ba3abce92004979822328d43d655dc"
     },
     {
+      "message_id": 6067,
+      "filename": "배모 5 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6067_.5.pdf",
+      "size_bytes": 131605643,
+      "telegram_date": "2025-08-11T15:17:16+00:00",
+      "title": "배모 5 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6067.png",
+      "sha256": "8d5604fcdd172ed4e5b19357ec1c1799d2edb514591f5ab503f02ffdcbbba3c0"
+    },
+    {
       "message_id": 6060,
       "filename": "14회_해설 V2.pdf",
       "stored_as": null,
