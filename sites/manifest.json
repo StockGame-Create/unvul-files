@@ -162079,6 +162079,20 @@
       "sha256": "a3ff1c80266495e25c9f3bdd878fbfb8fdb3587ae0a2dabce9fe78d13663f18f"
     },
     {
+      "message_id": 6179,
+      "filename": "2026 국어 손창빈 주간교재 10주(문제).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6179_2026.10.pdf",
+      "size_bytes": 29098169,
+      "telegram_date": "2025-08-11T15:18:51+00:00",
+      "title": "2026 국어 손창빈 주간교재 10주(문제)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6179.png",
+      "sha256": "25303477f60b22eddec688b22a5bb56aa2ef2b65b8d03b8498c2529030a403b6"
+    },
+    {
       "message_id": 6158,
       "filename": "2026학년도 이미지 N티켓 시즌1 수학2 해설.pdf",
       "stored_as": null,
