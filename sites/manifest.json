@@ -162233,6 +162233,20 @@
       "sha256": "0aa7c2d3d17350f27bb7a28c0fafcdb6180f3d684f83bd3ace88dad541f67e71"
     },
     {
+      "message_id": 6168,
+      "filename": "2025 지1 이신혁 필기노트 8주.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6168_2025.1.8.pdf",
+      "size_bytes": 33955472,
+      "telegram_date": "2025-08-11T15:18:51+00:00",
+      "title": "2025 지1 이신혁 필기노트 8주",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6168.png",
+      "sha256": "515f00faea62332a688c6c09a0479915c1f02d6fba3335d575907942d9c4e1a6"
+    },
+    {
       "message_id": 6158,
       "filename": "2026학년도 이미지 N티켓 시즌1 수학2 해설.pdf",
       "stored_as": null,
