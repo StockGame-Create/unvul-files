@@ -211,6 +211,20 @@
       "sha256": "9cd8bc6f09aea02abceb54ec02f0a8e03f1131283ecf1f93bd158f5764c5a3b4"
     },
     {
+      "message_id": 25634,
+      "filename": "27 적자생존 시즌4 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25634_27.4.pdf",
+      "size_bytes": 22195598,
+      "telegram_date": "2026-10-19T14:38:31+00:00",
+      "title": "사문 적자생존 모의고사 시즌4 (인쇄소퀄) #적생모",
+      "year": "2027",
+      "instructor": "최적",
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25634.png",
+      "sha256": "f6e353adec79d66c80f179bc36da9a81830a77c7a84d4ec44146d88af97e5518"
+    },
+    {
       "message_id": 25628,
       "filename": "스캔_문서,_2026_10_10_오후_9_51_44.pdf",
       "stored_as": null,
