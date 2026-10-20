@@ -161869,6 +161869,20 @@
       "sha256": "7c9cffcebfc7e0dca71d21bf022d02d7d0b5f2312051477026f07961921f3a1d"
     },
     {
+      "message_id": 6195,
+      "filename": "2026 지1 이신혁 Kaleidoscope 유체 기출편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6195_2026.1.Kaleidoscope.pdf",
+      "size_bytes": 364905588,
+      "telegram_date": "2025-08-11T15:18:52+00:00",
+      "title": "2026 지1 이신혁 Kaleidoscope 유체 기출편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6195.png",
+      "sha256": "96df1df3900dd1ca2bd3c25f1fcdcae7504204a518159bdee57d042f68806069"
+    },
+    {
       "message_id": 6187,
       "filename": "2026 수학 박종민 수2 리뷰퀴즈 9주 (해설).pdf",
       "stored_as": null,
