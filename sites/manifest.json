@@ -162037,6 +162037,20 @@
       "sha256": "19dc14bb1862776eb8304774d5edd67da164b1def9af0cdb0ad2a1fa3e23a882"
     },
     {
+      "message_id": 6073,
+      "filename": "파노라마 s3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6073_.s3.pdf",
+      "size_bytes": 46017702,
+      "telegram_date": "2025-08-11T15:17:16+00:00",
+      "title": "파노라마 s3",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6073.png",
+      "sha256": "1fe080cb4868d6f255405223c46614beeffb41c5be2f8af58d3f6204b7c2e8eb"
+    },
+    {
       "message_id": 6060,
       "filename": "14회_해설 V2.pdf",
       "stored_as": null,
