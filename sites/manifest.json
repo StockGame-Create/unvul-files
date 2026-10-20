@@ -163325,6 +163325,20 @@
       "sha256": "e712c80084e995cedd9444e0150653bdf17bcd4acba614fb7e2edbf2da7e436c"
     },
     {
+      "message_id": 6062,
+      "filename": "영어 조정식 tytd 2.0.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6062_.tytd.2.0.pdf",
+      "size_bytes": 112564769,
+      "telegram_date": "2025-08-11T15:17:16+00:00",
+      "title": "영어 조정식 tytd 2.0",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6062.png",
+      "sha256": "8c97d79b1ab215b29b593187541794bb4b63677f9eee8bd01e9bcc49a2126b1d"
+    },
+    {
       "message_id": 6060,
       "filename": "14회_해설 V2.pdf",
       "stored_as": null,
