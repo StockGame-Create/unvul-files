@@ -162359,6 +162359,20 @@
       "sha256": "c7783249e5dcdafd0ae30dd49abbdb51a494f53e8c73daf8eaa6bb5829fb5203"
     },
     {
+      "message_id": 6157,
+      "filename": "2026학년도 이미지 N티켓 시즌1 수학2 본문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6157_2026.N.1.2.pdf",
+      "size_bytes": 8949681,
+      "telegram_date": "2025-08-11T15:18:50+00:00",
+      "title": "2026학년도 이미지 N티켓 시즌1 수학2 본문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6157.png",
+      "sha256": "f6d337ab8066150134b80b68e41a7bb955fb6e358cf8357d8592f17def8ea189"
+    },
+    {
       "message_id": 6139,
       "filename": "2026 수학 박종민 Limit X 1회.pdf",
       "stored_as": null,
