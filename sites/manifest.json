@@ -162177,6 +162177,20 @@
       "sha256": "e7de50ade72786b02818ad56b8e142a537d54aa775071fd9522e8782c42fa889"
     },
     {
+      "message_id": 6063,
+      "filename": "영어 강대 16주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6063_.16.pdf",
+      "size_bytes": 107223373,
+      "telegram_date": "2025-08-11T15:17:16+00:00",
+      "title": "영어 강대 16주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6063.png",
+      "sha256": "e712c80084e995cedd9444e0150653bdf17bcd4acba614fb7e2edbf2da7e436c"
+    },
+    {
       "message_id": 6060,
       "filename": "14회_해설 V2.pdf",
       "stored_as": null,
