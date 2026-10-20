@@ -43,6 +43,20 @@
       "sha256": "cc2682561c845f3be3536d156e31aec8366c1e55fe02878b379aaa274bcefcaa"
     },
     {
+      "message_id": 25669,
+      "filename": "27 서바전국 사회문화 1~14.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25669_27.1.14.pdf",
+      "size_bytes": 271583984,
+      "telegram_date": "2026-10-20T14:44:26+00:00",
+      "title": "사문 시대인재 서바이벌 전국 모의고사 1~14회 통합본 (인쇄소퀄) #서바전국",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25669.png",
+      "sha256": "40b4056314f47bfc265d1f2b63766d790ed8f67923d7dc26a6d2c3e9c8b94611"
+    },
+    {
       "message_id": 25650,
       "filename": "기본 폴더.pdf",
       "stored_as": null,
