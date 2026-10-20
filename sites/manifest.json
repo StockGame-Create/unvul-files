@@ -183,6 +183,20 @@
       "sha256": "f1ff85325bdfbca0414b1aadb64bb05d0bebd71b17242e86573a8498fc6e5af4"
     },
     {
+      "message_id": 25636,
+      "filename": "27 강K+ 사회문화 1~12회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25636_27.K%2B.1.12.pdf",
+      "size_bytes": 159470109,
+      "telegram_date": "2026-10-19T14:38:32+00:00",
+      "title": "사문 강대모의고사K+ 1~12회 (인쇄소퀄) #강케플",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25636.png",
+      "sha256": "8bf943efa81144f40ca226c69c796ec18e63e776a4642f087dda228e3aabcb88"
+    },
+    {
       "message_id": 25628,
       "filename": "스캔_문서,_2026_10_10_오후_9_51_44.pdf",
       "stored_as": null,
