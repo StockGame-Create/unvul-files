@@ -161995,6 +161995,20 @@
       "sha256": "1dc70c85b7f05d3043d19814b0db216e80b858fc9942ba1a3cfd2b57ebbc6316"
     },
     {
+      "message_id": 6185,
+      "filename": "2026 수학 박종민 수2 필기노트 9권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6185_2026.2.9.pdf",
+      "size_bytes": 18443578,
+      "telegram_date": "2025-08-11T15:18:51+00:00",
+      "title": "2026 수학 박종민 수2 필기노트 9권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6185.png",
+      "sha256": "820af522ae68839d6aa78f9fee034741321b8f5b1429e7000ebfb153601f3f6f"
+    },
+    {
       "message_id": 6158,
       "filename": "2026학년도 이미지 N티켓 시즌1 수학2 해설.pdf",
       "stored_as": null,
