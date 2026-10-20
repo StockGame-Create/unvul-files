@@ -162093,6 +162093,20 @@
       "sha256": "ad95fc70282c72f62e5d48d4b6e5666073cb51ccc968bf7d31e38bae8ff2f3b6"
     },
     {
+      "message_id": 6069,
+      "filename": "물리 전국서바 15.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6069_.15.pdf",
+      "size_bytes": 26378756,
+      "telegram_date": "2025-08-11T15:17:16+00:00",
+      "title": "물리 전국서바 15",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6069.png",
+      "sha256": "26eee7633f1f812e4db141c25f34d16800dda5538c4b86b8bdcc91f27be269fd"
+    },
+    {
       "message_id": 6060,
       "filename": "14회_해설 V2.pdf",
       "stored_as": null,
