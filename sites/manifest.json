@@ -15,6 +15,20 @@
       "sha256": "3ddeaa0ee3f3ab5be72177d67702778037fe2659873e4bba7c9d5a2f0237e816"
     },
     {
+      "message_id": 25671,
+      "filename": "27 브릿지파이널 사회문화 1~14회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25671_27.1.14.pdf",
+      "size_bytes": 259540819,
+      "telegram_date": "2026-10-20T14:44:27+00:00",
+      "title": "사문 시대인재 Final 브릿지 전국 모의고사 1~14회 통합본 (인쇄소퀄) #파브전국",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25671.png",
+      "sha256": "bcb2810462a7c2fb8136425fcf42d2e76f02106e1da51fae1650aebeea51933f"
+    },
+    {
       "message_id": 25650,
       "filename": "기본 폴더.pdf",
       "stored_as": null,
