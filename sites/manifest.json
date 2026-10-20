@@ -161799,6 +161799,20 @@
       "sha256": "fa0ce228cc38889f310b69a9d34e84fa1bdd2942a5f31f463be4cd40a5599844"
     },
     {
+      "message_id": 6199,
+      "filename": "2026 국어 정석민 주간 시즌1 1주.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6199_2026.1.1.pdf",
+      "size_bytes": 306024741,
+      "telegram_date": "2025-08-11T15:18:54+00:00",
+      "title": "2026 국어 정석민 주간 시즌1 1주",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6199.png",
+      "sha256": "e39b36b89229d63f1732d7a95763eaea9ee8f50f113890f230d5974909d3845f"
+    },
+    {
       "message_id": 6188,
       "filename": "2026 수학 박종민 수2 리뷰퀴즈 9주 (문제).pdf",
       "stored_as": null,
