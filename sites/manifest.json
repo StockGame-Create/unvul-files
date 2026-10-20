@@ -197,6 +197,20 @@
       "sha256": "f5f23469b0cb2f53fce710dd602e88d6797fdca98c26e25eabc68e22ac41d1da"
     },
     {
+      "message_id": 25658,
+      "filename": "김승모10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25658_.10.pdf",
+      "size_bytes": 74773602,
+      "telegram_date": "2026-10-20T14:44:10+00:00",
+      "title": "국어 김승리 실전 모의고사 10회 #김승모",
+      "year": "2027",
+      "instructor": "김승리",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25658.png",
+      "sha256": "7014cb074ff513b58599956e64e753d8a2ad3eba26d788920603a8065af3e313"
+    },
+    {
       "message_id": 25650,
       "filename": "기본 폴더.pdf",
       "stored_as": null,
