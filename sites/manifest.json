@@ -161995,6 +161995,20 @@
       "sha256": "f72aa145e6b0ffb4d1ceb56d0582705d94f8ae9190fd87ae3c7183cd655c49af"
     },
     {
+      "message_id": 6077,
+      "filename": "물1 폴라리스.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6077_.1.pdf",
+      "size_bytes": 36244629,
+      "telegram_date": "2025-08-11T15:17:16+00:00",
+      "title": "물1 폴라리스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6077.png",
+      "sha256": "d55d8505dccdb653bdbc3f9a3ada9c6eaaf936fa4ac5f9ab8b7b2695271f7330"
+    },
+    {
       "message_id": 6060,
       "filename": "14회_해설 V2.pdf",
       "stored_as": null,
