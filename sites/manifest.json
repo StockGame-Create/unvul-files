@@ -127,6 +127,20 @@
       "sha256": "62576986ee8a34ba77d41c44dc4ec874725251d3e7aa6a998e21a93b32afbe95"
     },
     {
+      "message_id": 25640,
+      "filename": "27 강K 사회문화 5 6회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25640_27.K.5.6.pdf",
+      "size_bytes": 13770201,
+      "telegram_date": "2026-10-19T14:38:39+00:00",
+      "title": "사문 강대모의고사K 3~10회 (인쇄소퀄) #강k",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25640.png",
+      "sha256": "986b33c9405fe8f3a470f0c7620b18c17c430c79ade75a703e9f11ee582b408a"
+    },
+    {
       "message_id": 25628,
       "filename": "스캔_문서,_2026_10_10_오후_9_51_44.pdf",
       "stored_as": null,
