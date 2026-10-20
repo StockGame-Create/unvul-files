@@ -253,6 +253,20 @@
       "sha256": "3c6997bdcf19ca20948d99e560c4e2ec51e7223bb5e61b7b2d5afc1be15fee1a"
     },
     {
+      "message_id": 25652,
+      "filename": "2027학년도_시대인재_서바이벌_모의고사_22회_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25652_2027._._._._22._.pdf",
+      "size_bytes": 6323170,
+      "telegram_date": "2026-10-20T14:44:06+00:00",
+      "title": "지1 시대인재 서바이벌 22회 #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25652.png",
+      "sha256": "85af3b8743cc1668c4d81ce807d3fb73911d4790e95c37775213329596756261"
+    },
+    {
       "message_id": 25650,
       "filename": "기본 폴더.pdf",
       "stored_as": null,
