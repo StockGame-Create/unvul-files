@@ -225,6 +225,20 @@
       "sha256": "f6e353adec79d66c80f179bc36da9a81830a77c7a84d4ec44146d88af97e5518"
     },
     {
+      "message_id": 25633,
+      "filename": "27 적자생존 시즌4.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25633_27.4.pdf",
+      "size_bytes": 24243686,
+      "telegram_date": "2026-10-19T14:38:31+00:00",
+      "title": "사문 적자생존 모의고사 시즌3 (인쇄소퀄) #적생모",
+      "year": "2027",
+      "instructor": "최적",
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25633.png",
+      "sha256": "37f89665c38e2852c67c409cea72f33daf0161c061640eef267f7aa22d4fdd01"
+    },
+    {
       "message_id": 25628,
       "filename": "스캔_문서,_2026_10_10_오후_9_51_44.pdf",
       "stored_as": null,
