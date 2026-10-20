@@ -161491,6 +161491,20 @@
       "sha256": "9ea4303574ef3e7a88c1338e63e6e800dcc3747a8bc321ad314ac05fd18be413"
     },
     {
+      "message_id": 6207,
+      "filename": "2025 김재훈 여름특강 1주차 프린트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6207_2025.1.pdf",
+      "size_bytes": 160331327,
+      "telegram_date": "2025-08-11T15:18:55+00:00",
+      "title": "2025 김재훈 여름특강 1주차 프린트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6207.png",
+      "sha256": "78ecf3424434d2514869dab38ed2afdca75a2798236f4eb8b0374938ba52a71b"
+    },
+    {
       "message_id": 6188,
       "filename": "2026 수학 박종민 수2 리뷰퀴즈 9주 (문제).pdf",
       "stored_as": null,
