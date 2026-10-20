@@ -161771,6 +161771,20 @@
       "sha256": "78ecf3424434d2514869dab38ed2afdca75a2798236f4eb8b0374938ba52a71b"
     },
     {
+      "message_id": 6206,
+      "filename": "2023 ASAP 시즌3 지구과학2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6206_2023.ASAP.3.2.pdf",
+      "size_bytes": 64146330,
+      "telegram_date": "2025-08-11T15:18:55+00:00",
+      "title": "2023 ASAP 시즌3 지구과학2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6206.png",
+      "sha256": "7ca4aada26570f4c562cb88cca154554cc1d7a082ff01d2d755762e96f557e8b"
+    },
+    {
       "message_id": 6188,
       "filename": "2026 수학 박종민 수2 리뷰퀴즈 9주 (문제).pdf",
       "stored_as": null,
