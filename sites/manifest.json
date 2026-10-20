@@ -162261,6 +162261,20 @@
       "sha256": "7a05b69a1a1475083e6519278354f559f2b2ddf8f6f6e9d6377acb8ef03c80b5"
     },
     {
+      "message_id": 6167,
+      "filename": "2025 지1 이신혁 필기노트 5주.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6167_2025.1.5.pdf",
+      "size_bytes": 56919467,
+      "telegram_date": "2025-08-11T15:18:50+00:00",
+      "title": "2025 지1 이신혁 필기노트 5주",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6167.png",
+      "sha256": "6a9ffc01ff746188b4963a8fcf117ff93db73a7080092dbc735f9fbbbc904ad6"
+    },
+    {
       "message_id": 6139,
       "filename": "2026 수학 박종민 Limit X 1회.pdf",
       "stored_as": null,
