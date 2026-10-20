@@ -162135,6 +162135,20 @@
       "sha256": "8d5604fcdd172ed4e5b19357ec1c1799d2edb514591f5ab503f02ffdcbbba3c0"
     },
     {
+      "message_id": 6066,
+      "filename": "배모 시즌 5 2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6066_.5.2.pdf",
+      "size_bytes": 89232479,
+      "telegram_date": "2025-08-11T15:17:16+00:00",
+      "title": "배모 시즌 5 2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6066.png",
+      "sha256": "60eb851cccd43c1766ce7c2407fa33b4005bcc8d60be29ee5dd3285b108d3440"
+    },
+    {
       "message_id": 6060,
       "filename": "14회_해설 V2.pdf",
       "stored_as": null,
