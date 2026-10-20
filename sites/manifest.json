@@ -141,6 +141,20 @@
       "sha256": "9d8f1f70d1fc99b1db22488c15431ef5753a78ad16cbf6310a36c46ae6c54c16"
     },
     {
+      "message_id": 25662,
+      "filename": "27 서바 사회문화 7 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25662_27.7.8.pdf",
+      "size_bytes": 33237895,
+      "telegram_date": "2026-10-20T14:44:17+00:00",
+      "title": "사문 시대인재 서바이벌 1~10회 (인쇄소퀄)",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25662.png",
+      "sha256": "a7b5ad3e40bde62749fa7a63200991e1c6cf6a2919aa2f7c99359f1b42687667"
+    },
+    {
       "message_id": 25650,
       "filename": "기본 폴더.pdf",
       "stored_as": null,
