@@ -161631,6 +161631,20 @@
       "sha256": "a25d6dc611d29339dcf41890beaa064c7c3b6ace09a3c8c8b624190a3b1a8420"
     },
     {
+      "message_id": 6104,
+      "filename": "화1 시그모 s5.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6104_.1.s5.pdf",
+      "size_bytes": 79335505,
+      "telegram_date": "2025-08-11T15:17:20+00:00",
+      "title": "화1 시그모 s5",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6104.png",
+      "sha256": "da1b6128139e7b99eec22ddce4313697fb8e2f371c3eca95155dd630f8704dd9"
+    },
+    {
       "message_id": 6074,
       "filename": "(10.23) 현정훈 모의고사 FINAL 정오사항.pdf",
       "stored_as": null,
