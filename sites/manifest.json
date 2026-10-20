@@ -162345,6 +162345,20 @@
       "sha256": "edb11c3c4a8ed054cb2c000108f6a1285949c408aed3b8d5fcf276f0899910f1"
     },
     {
+      "message_id": 6159,
+      "filename": "스팀팩 시즌1합본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6159_.1.pdf",
+      "size_bytes": 596222566,
+      "telegram_date": "2025-08-11T15:18:50+00:00",
+      "title": "스팀팩 시즌1합본",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6159.png",
+      "sha256": "c7783249e5dcdafd0ae30dd49abbdb51a494f53e8c73daf8eaa6bb5829fb5203"
+    },
+    {
       "message_id": 6139,
       "filename": "2026 수학 박종민 Limit X 1회.pdf",
       "stored_as": null,
