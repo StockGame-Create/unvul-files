@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-20T12:31:44+00:00",
+  "updated_at": "2026-10-20T17:17:57+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -2672,10 +2672,15 @@
       "schema_version": 1,
       "status": "partial",
       "data": "ai/25643.json",
-      "updated_at": "2026-10-20T12:31:44+00:00",
+      "updated_at": "2026-10-20T17:17:57+00:00",
       "pages_total": 8,
-      "pages_done": 0,
-      "failed_pages": [],
+      "pages_done": 4,
+      "failed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
       "model": null,
       "problem_count": 0,
       "solution_count": 0,
