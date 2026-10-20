@@ -161771,6 +161771,20 @@
       "sha256": "c58536c60da8b95937a9756626024131d854faf934605334e987b65de51d6ab3"
     },
     {
+      "message_id": 6094,
+      "filename": "화학 파노라마 3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6094_.3.pdf",
+      "size_bytes": 113375729,
+      "telegram_date": "2025-08-11T15:17:20+00:00",
+      "title": "화학 파노라마 3",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6094.png",
+      "sha256": "62567d8cf52364df91c327e4c3be1084afb667dd27d119fdf4789e66e53dae10"
+    },
+    {
       "message_id": 6074,
       "filename": "(10.23) 현정훈 모의고사 FINAL 정오사항.pdf",
       "stored_as": null,
