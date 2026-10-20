@@ -162415,6 +162415,20 @@
       "sha256": "d75517acdbce4a63e1e6d3e91eb10179095bfffdb9b032f7563c5bc72908cb6e"
     },
     {
+      "message_id": 6151,
+      "filename": "2026 E-FFECT 독서 1 문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6151_2026.E-FFECT.1.pdf",
+      "size_bytes": 59173342,
+      "telegram_date": "2025-08-11T15:18:49+00:00",
+      "title": "2026 E-FFECT 독서 1 문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6151.png",
+      "sha256": "7816faa2cb42bc6c7c511f931f327f159ac426be58956e7cdd6470d4205c7f75"
+    },
+    {
       "message_id": 6125,
       "filename": "2026_하예은N제_화학1_1호_pdf.pdf",
       "stored_as": null,
