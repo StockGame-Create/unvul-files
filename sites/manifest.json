@@ -164961,6 +164961,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5941.png",
       "sha256": "7691ef53ec37d062edaaad23a92072c37b2b72f96cf7b0ed2658d9b9133baeae"
+    },
+    {
+      "message_id": 5940,
+      "filename": "2026 생명 김연호 주간지 9주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5940_2026.9.pdf",
+      "size_bytes": 208803712,
+      "telegram_date": "2025-08-11T15:17:04+00:00",
+      "title": "2026 생명 김연호 주간지 9주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5940.png",
+      "sha256": "65be9953f57f628032deafc148c535d8bd869f1c970f15fccef8826e37694341"
     }
   ],
   "duplicate_message_ids": [
