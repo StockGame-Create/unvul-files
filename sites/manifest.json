@@ -165955,6 +165955,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5867.png",
       "sha256": "533424949519764ef2712ae24a674b514bd1664e359943f6a125e71a14141541"
+    },
+    {
+      "message_id": 5866,
+      "filename": "메가스터디_N제_수학영역_확률과_통계_3점·4점_공략_246제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5866_._N._._._._3.4._._246.pdf",
+      "size_bytes": 3555438,
+      "telegram_date": "2025-08-11T15:16:59+00:00",
+      "title": "메가스터디_N제_수학영역_확률과_통계_3점·4점_공략_246제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5866.png",
+      "sha256": "736c80aba1b0ae9444f6353e9a65f2e9b3bc3e43dd532eb3f75d4f16ff349003"
     }
   ],
   "duplicate_message_ids": [
