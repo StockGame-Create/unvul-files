@@ -168041,6 +168041,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5662.png",
       "sha256": "d46c1270e025ae4d28ba5e8bc6dee876930f15b3fd4739a574f8c4ba55adb5df"
+    },
+    {
+      "message_id": 5661,
+      "filename": "특강_K07_수업프린트2p,_양면_1장.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5661_._K07_.2p._._1.pdf",
+      "size_bytes": 339803,
+      "telegram_date": "2025-08-11T15:14:24+00:00",
+      "title": "특강_K07_수업프린트2p,_양면_1장",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5661.png",
+      "sha256": "6d1bc7bf55a432a6161fbf1010ea6c4d274e2e5ad5886b96c31761cbd8069aa9"
     }
   ],
   "duplicate_message_ids": [
