@@ -168545,6 +168545,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5529.png",
       "sha256": "eb216c818d5df7de0cadda1e5ba769f4411e3a2128118f1101d0bafc8c92939a"
+    },
+    {
+      "message_id": 5525,
+      "filename": "범모 빠답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5525_.pdf",
+      "size_bytes": 541065,
+      "telegram_date": "2025-08-11T15:13:18+00:00",
+      "title": "범모 빠답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5525.png",
+      "sha256": "5ea681d72dbe9898f0948faf9ed4474328008ae28370dd3d599cdf2a0ff92766"
     }
   ],
   "duplicate_message_ids": [
