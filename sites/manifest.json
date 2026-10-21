@@ -164653,6 +164653,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5964.png",
       "sha256": "7a9eaaad3afa99dd33bc69b2a4a3974f23f775cadc590d10b0ca770ccd912855"
+    },
+    {
+      "message_id": 5963,
+      "filename": "지구과학_시대인재_컨텐츠_17,18주차서바X.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5963_._._._17.18.X.pdf",
+      "size_bytes": 20711448,
+      "telegram_date": "2025-08-11T15:17:06+00:00",
+      "title": "지구과학_시대인재_컨텐츠_17,18주차서바X",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5963.png",
+      "sha256": "53d2ecf4108d496fdb41f6e96c773ef647c1b95dfee4a2904e602c622990559a"
     }
   ],
   "duplicate_message_ids": [
