@@ -166599,6 +166599,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5792.png",
       "sha256": "bf2e08dfba4be4490e3eb84f106a8b4ae206242af6c6cb4cb289515a688d5417"
+    },
+    {
+      "message_id": 5791,
+      "filename": "브릿지 수학 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5791_.3.pdf",
+      "size_bytes": 1639629,
+      "telegram_date": "2025-08-11T15:14:39+00:00",
+      "title": "브릿지 수학 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5791.png",
+      "sha256": "feccd2381b69acbbf2c86b15f6e92f219e6fa9ff463c1beda23c939ab6af4f3d"
     }
   ],
   "duplicate_message_ids": [
