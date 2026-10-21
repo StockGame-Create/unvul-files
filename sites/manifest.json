@@ -167887,6 +167887,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5680.png",
       "sha256": "56e5888ed119d9bd99661b1e92f205f0919260b04e98f6c5d7f4b447230b34a7"
+    },
+    {
+      "message_id": 5679,
+      "filename": "강대 서킷 10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5679_.10.pdf",
+      "size_bytes": 11057999,
+      "telegram_date": "2025-08-11T15:14:25+00:00",
+      "title": "강대 서킷 10회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5679.png",
+      "sha256": "059c382500a17b57fb32109d3ed265f093b84b940050ad83395933bdc381142f"
     }
   ],
   "duplicate_message_ids": [
