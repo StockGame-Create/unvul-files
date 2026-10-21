@@ -164389,6 +164389,20 @@
       "sha256": "7286e747b6ac9e624135446805651eb9d5d7821eea62611390adc2b940c7a5f1"
     },
     {
+      "message_id": 5987,
+      "filename": "2026 E-FFECT 문학1 문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5987_2026.E-FFECT.1.pdf",
+      "size_bytes": 128423741,
+      "telegram_date": "2025-08-11T15:17:07+00:00",
+      "title": "2026 E-FFECT 문학1 문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5987.png",
+      "sha256": "03c1e0ca9248f6ef3038252133f3cde74e6fc7925e53d051f0013aa282297836"
+    },
+    {
       "message_id": 5980,
       "filename": "2026 김현우 미적분 복습테스트 11주차 해설.pdf",
       "stored_as": null,
