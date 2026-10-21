@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-21T12:20:30+00:00",
+  "updated_at": "2026-10-21T17:18:27+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -2741,6 +2741,28 @@
       "model": "gemini-3.6-flash",
       "problem_count": 0,
       "solution_count": 322,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 25698,
+      "filename": "2027_세계사_김종웅_모의고사_15회_빠답.pdf",
+      "title": "세사 김종웅 FINAL 실전 모의고사 1~5회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "세계사",
+      "sha256": "351d8fcc916c98298c8a77f7e8a8c2bf1dd61065ab8a6dee82100bedf90ee9aa",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/25698.json",
+      "updated_at": "2026-10-21T17:18:27+00:00",
+      "pages_total": 5,
+      "pages_done": 4,
+      "failed_pages": [],
+      "model": "gemini-3.6-flash",
+      "problem_count": 0,
+      "solution_count": 80,
       "matched_count": 0,
       "with_answer": 0,
       "with_explanation": 0
