@@ -166515,6 +166515,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5806.png",
       "sha256": "6419f2f457893f621fade9b47657607aba91a7725ece01fe59dc0c3814b3d1e3"
+    },
+    {
+      "message_id": 5803,
+      "filename": "2026_변춘수_생명1_3월학평_대비_모고.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5803_2026_._.1_3._._.pdf",
+      "size_bytes": 36228482,
+      "telegram_date": "2025-08-11T15:14:40+00:00",
+      "title": "2026_변춘수_생명1_3월학평_대비_모고",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5803.png",
+      "sha256": "9c48285261cc0693ed16fc13c9b6c47d080551986ee42dd2c29878927620add5"
     }
   ],
   "duplicate_message_ids": [
