@@ -165199,6 +165199,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5922.png",
       "sha256": "895c96d1a3817d5f68539179b4ab6d49dde608224bb9560ac39e48a9c536ace5"
+    },
+    {
+      "message_id": 5921,
+      "filename": "수학 샤인미 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5921_.3.pdf",
+      "size_bytes": 18519192,
+      "telegram_date": "2025-08-11T15:17:02+00:00",
+      "title": "수학 샤인미 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5921.png",
+      "sha256": "ae6e314052b64a8f16f562e35a7f6ee9d514fc23c55629581395ba589260bd61"
     }
   ],
   "duplicate_message_ids": [
