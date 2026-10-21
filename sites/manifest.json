@@ -164695,6 +164695,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5961.png",
       "sha256": "17f25b2a06ad460c0f77e06a6c1cf293cb7602f6358de94ee5165617358773be"
+    },
+    {
+      "message_id": 5960,
+      "filename": "서바노트25,26,27,28회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5960_.25.26.27.28.pdf",
+      "size_bytes": 121032979,
+      "telegram_date": "2025-08-11T15:17:05+00:00",
+      "title": "서바노트25,26,27,28회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5960.png",
+      "sha256": "2e1d7dfa3ae80a85757323737d7332eed29fea200321ebd1e0adae38b9db3670"
     }
   ],
   "duplicate_message_ids": [
