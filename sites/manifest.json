@@ -164779,6 +164779,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5956.png",
       "sha256": "16b07b91fb2e9256ad5e88028b4cbd1266ff1fa09c331dcfe3703b5e9bb71c9b"
+    },
+    {
+      "message_id": 5955,
+      "filename": "지구과학_서바이벌_전국_16회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5955_._._._16.pdf",
+      "size_bytes": 24431270,
+      "telegram_date": "2025-08-11T15:17:05+00:00",
+      "title": "지구과학_서바이벌_전국_16회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5955.png",
+      "sha256": "4b754ace6e3a07c0c6ef1a60a341393449189c835baaf515482929d69dc41aa8"
     }
   ],
   "duplicate_message_ids": [
