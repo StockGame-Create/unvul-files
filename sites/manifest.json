@@ -166067,6 +166067,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5857.png",
       "sha256": "35d182361ab2ceb0a3cbe9cf4fa50114fb0fff590a7b8ac4303c8def49977778"
+    },
+    {
+      "message_id": 5856,
+      "filename": "김상훈_과제_모의고사_2_3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5856_._._._2_3.pdf",
+      "size_bytes": 19664026,
+      "telegram_date": "2025-08-11T15:16:59+00:00",
+      "title": "김상훈_과제_모의고사_2_3",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5856.png",
+      "sha256": "f4538113e5770b3b2eb05025e8339d2e10c0d8ac1ac8e197d8624479df8d154e"
     }
   ],
   "duplicate_message_ids": [
