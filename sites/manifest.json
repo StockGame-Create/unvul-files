@@ -164849,6 +164849,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5950.png",
       "sha256": "524eb8a150a3367a2e5d8684208ddafa5bb5a8e669f3b1d01b0fd688a622018c"
+    },
+    {
+      "message_id": 5949,
+      "filename": "액티튜드 s4 해설 2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5949_.s4.2.pdf",
+      "size_bytes": 48577642,
+      "telegram_date": "2025-08-11T15:17:05+00:00",
+      "title": "액티튜드 s4 해설 2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5949.png",
+      "sha256": "244f2aa1831c582bd3ac30a8fd0e279b79d409cb28ec8e2129482abd4edc74b7"
     }
   ],
   "duplicate_message_ids": [
