@@ -166431,6 +166431,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5820.png",
       "sha256": "de144fd90c612faa3c12ce277ce83dabfcb4090789324ff7adfe7bc6d6c0acbd"
+    },
+    {
+      "message_id": 5813,
+      "filename": "양승진 3월_교육청_분석서.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5813_.3._._.pdf",
+      "size_bytes": 2871067,
+      "telegram_date": "2025-08-11T15:14:41+00:00",
+      "title": "양승진 3월_교육청_분석서",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5813.png",
+      "sha256": "0c41b6b0400acaf1bb46cdf78ae88e75dc938d0af2335ba06d555e4dd80cc73a"
     }
   ],
   "duplicate_message_ids": [
