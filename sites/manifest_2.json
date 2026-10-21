@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-21T04:59:17+00:00",
+  "updated_at": "2026-10-21T12:20:30+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -2689,6 +2689,28 @@
       "with_explanation": 0
     },
     {
+      "message_id": 25677,
+      "filename": "이감 파이널2 6차.pdf",
+      "title": "국어 이감 6-2 #이감",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "sha256": "2ca6b1df26c7f4a76f07b2f2b41aef8a95fcc78936fddb08d7bccccf260bd714",
+      "schema_version": 1,
+      "status": "done",
+      "data": "ai/25677.json",
+      "updated_at": "2026-10-21T12:06:48+00:00",
+      "pages_total": 20,
+      "pages_done": 20,
+      "failed_pages": [],
+      "model": "gemini-3.8-flash",
+      "problem_count": 56,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
       "message_id": 25672,
       "filename": "27 브릿지파이널 사회문화 1~14회 해설.pdf",
       "title": "사문 시대인재 Final 브릿지 전국 모의고사 1~14회 통합본 (인쇄소퀄) #파브전국",
@@ -2699,18 +2721,26 @@
       "schema_version": 1,
       "status": "partial",
       "data": "ai/25672.json",
-      "updated_at": "2026-10-21T04:59:17+00:00",
+      "updated_at": "2026-10-21T12:20:30+00:00",
       "pages_total": 82,
-      "pages_done": 20,
+      "pages_done": 68,
       "failed_pages": [
         5,
         6,
         7,
-        8
+        8,
+        45,
+        46,
+        47,
+        48,
+        61,
+        62,
+        63,
+        64
       ],
-      "model": "gemini-3.8-flash",
+      "model": "gemini-3.6-flash",
       "problem_count": 0,
-      "solution_count": 92,
+      "solution_count": 322,
       "matched_count": 0,
       "with_answer": 0,
       "with_explanation": 0
