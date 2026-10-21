@@ -141,6 +141,20 @@
       "sha256": "6294cfe770e0621155538f7f03732133e86f1584b19b452b84195bec98de76e1"
     },
     {
+      "message_id": 25682,
+      "filename": "세포실격모의고사_261016_194216.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25682_._261016_194216.pdf",
+      "size_bytes": 5391900,
+      "telegram_date": "2026-10-21T14:15:39+00:00",
+      "title": "생1 정석준 세포실격 모의고사",
+      "year": "2027",
+      "instructor": "정석준",
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/25682.png",
+      "sha256": "f28e15c98d28d89b4f82c5b25bbf04b13b1aa27599b6e388081fe6a6af584076"
+    },
+    {
       "message_id": 25677,
       "filename": "이감 파이널2 6차.pdf",
       "stored_as": null,
