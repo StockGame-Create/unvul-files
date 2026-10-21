@@ -165157,6 +165157,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5925.png",
       "sha256": "c2bcab9c2e1b67d176d73422127753d0a7de3d222b299dc0f12387e4ad682e39"
+    },
+    {
+      "message_id": 5924,
+      "filename": "수학 샤인미 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5924_.pdf",
+      "size_bytes": 57634195,
+      "telegram_date": "2025-08-11T15:17:02+00:00",
+      "title": "수학 샤인미 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5924.png",
+      "sha256": "6905ee96b7e2763d4e5956a03554aaf8592545f28cd146437c298072dc68e40a"
     }
   ],
   "duplicate_message_ids": [
