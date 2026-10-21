@@ -165115,6 +165115,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5929.png",
       "sha256": "2306d438086fe362ae22f74f0d963103a53d7266ae2974f9c8bb174fd909c988"
+    },
+    {
+      "message_id": 5927,
+      "filename": "서바 생명 21회 22회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5927_.21.22.pdf",
+      "size_bytes": 9554923,
+      "telegram_date": "2025-08-11T15:17:04+00:00",
+      "title": "서바 생명 21회 22회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5927.png",
+      "sha256": "d6a48b145d679d8569b93d1967a5d880085ce96d36fa2139124f1f67545ae491"
     }
   ],
   "duplicate_message_ids": [
