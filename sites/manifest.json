@@ -166263,6 +166263,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5842.png",
       "sha256": "19db016769287558ee7dc0cfd4fc4ecea96eafc65908de4dbb083899d6a1050a"
+    },
+    {
+      "message_id": 5839,
+      "filename": "2026 이신혁 필기노트 10주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5839_2026.10.pdf",
+      "size_bytes": 7645718,
+      "telegram_date": "2025-08-11T15:14:44+00:00",
+      "title": "2026 이신혁 필기노트 10주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5839.png",
+      "sha256": "db679c8cb94b2cfdd1d5692fc4922dac73c6f1b228e0bb015e0b10c512e3c9ef"
     }
   ],
   "duplicate_message_ids": [
