@@ -164709,6 +164709,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5960.png",
       "sha256": "2e1d7dfa3ae80a85757323737d7332eed29fea200321ebd1e0adae38b9db3670"
+    },
+    {
+      "message_id": 5959,
+      "filename": "지구과학_서바이벌_23,24.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5959_._._23.24.pdf",
+      "size_bytes": 29073128,
+      "telegram_date": "2025-08-11T15:17:05+00:00",
+      "title": "지구과학_서바이벌_23,24",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5959.png",
+      "sha256": "cbd568f7b18be9f69e5d90baa5c0bbeaaae748b87b409bcb83a2c1553f60606f"
     }
   ],
   "duplicate_message_ids": [
