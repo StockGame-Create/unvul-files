@@ -166193,6 +166193,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5848.png",
       "sha256": "5c2bd32754212e91bd92549410293609b32adbccdaeb4072c89760f02207a780"
+    },
+    {
+      "message_id": 5847,
+      "filename": "CRUX_화1_Vol_1_우리_생활_속의_화학_화학식량과_몰_반응식과.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5847_CRUX_.1_Vol_1_._._._._._._.pdf",
+      "size_bytes": 4574518,
+      "telegram_date": "2025-08-11T15:14:45+00:00",
+      "title": "CRUX_화1_Vol_1_우리_생활_속의_화학_화학식량과_몰_반응식과",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5847.png",
+      "sha256": "007da28f46601e8077855687cf01aa54b6bb42a47067dbc382ab62822554cfd3"
     }
   ],
   "duplicate_message_ids": [
