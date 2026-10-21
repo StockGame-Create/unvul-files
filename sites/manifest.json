@@ -166109,6 +166109,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5854.png",
       "sha256": "b3cfdebdb8e76c79b218733a96e334ee0f2850b472aca347130a4409a7c4d0a0"
+    },
+    {
+      "message_id": 5853,
+      "filename": "2026 THE BROKER 본교재.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5853_2026.THE.BROKER.pdf",
+      "size_bytes": 112796367,
+      "telegram_date": "2025-08-11T15:16:59+00:00",
+      "title": "2026 THE BROKER 본교재",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5853.png",
+      "sha256": "c03ec6773fe3467dcb2a1535882cdd00c4c58f49cad29811cd2d5cd6fabd0cad"
     }
   ],
   "duplicate_message_ids": [
