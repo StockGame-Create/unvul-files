@@ -165003,6 +165003,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5938.png",
       "sha256": "9a57541502647314f2c04ca55e8428a8dcbe9dfa99cdbf8183a7e4c88327303c"
+    },
+    {
+      "message_id": 5937,
+      "filename": "강k,k+ 31,32.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5937_.k.k%2B.31.32.pdf",
+      "size_bytes": 34234114,
+      "telegram_date": "2025-08-11T15:17:04+00:00",
+      "title": "강k,k+ 31,32",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5937.png",
+      "sha256": "100019d14bc5256c102c487191ab7f848dfd92326f5b3bb3c05b025cf79ad377"
     }
   ],
   "duplicate_message_ids": [
