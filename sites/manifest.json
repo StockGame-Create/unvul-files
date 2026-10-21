@@ -165633,6 +165633,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5890.png",
       "sha256": "8878c439ba7181a2b0d0464c2f20b36cdfa9808abe38cd1670f4f9b74f2bccf2"
+    },
+    {
+      "message_id": 5889,
+      "filename": "서킷 x 24.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5889_.x.24.pdf",
+      "size_bytes": 7557797,
+      "telegram_date": "2025-08-11T15:17:00+00:00",
+      "title": "서킷 x 24",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5889.png",
+      "sha256": "ebadaf421f576aa395ccde6ee6f356b2e1dd08dd108bf01689c3b5828b5f3cfb"
     }
   ],
   "duplicate_message_ids": [
