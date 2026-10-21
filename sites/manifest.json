@@ -166417,6 +166417,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5821.png",
       "sha256": "868f50b40da2c397e7245827439ef86520a7c60a54af99eca19929c9d19b480f"
+    },
+    {
+      "message_id": 5820,
+      "filename": "26 브릿지 전국 4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5820_26.4.pdf",
+      "size_bytes": 5505014,
+      "telegram_date": "2025-08-11T15:14:41+00:00",
+      "title": "26 브릿지 전국 4회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5820.png",
+      "sha256": "de144fd90c612faa3c12ce277ce83dabfcb4090789324ff7adfe7bc6d6c0acbd"
     }
   ],
   "duplicate_message_ids": [
