@@ -166543,6 +166543,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5801.png",
       "sha256": "a64db96152d0d8006b0272ee3d98d3f2710f8236f4826b7dc3c8c47e0b09536a"
+    },
+    {
+      "message_id": 5798,
+      "filename": "2026 최적소법전.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5798_2026.pdf",
+      "size_bytes": 28981175,
+      "telegram_date": "2025-08-11T15:14:40+00:00",
+      "title": "2026 최적소법전",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5798.png",
+      "sha256": "ebd679a9ebe7be9194aa68527517e966d577dc6be8f88c0777998e2071ee6ddb"
     }
   ],
   "duplicate_message_ids": [
