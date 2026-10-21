@@ -167733,6 +167733,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5696.png",
       "sha256": "ab62564fe394d5e351b80c243ad07bee20511ce8d7d43b154280aa7179a34d15"
+    },
+    {
+      "message_id": 5695,
+      "filename": "고3 N제 수학II_3점공략_교사용pdf_선생님 자료.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5695_.3.N.II_3._.pdf_.pdf",
+      "size_bytes": 4744350,
+      "telegram_date": "2025-08-11T15:14:26+00:00",
+      "title": "고3 N제 수학II_3점공략_교사용pdf_선생님 자료",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5695.png",
+      "sha256": "05aa475d7e7a2e3fbbc8cd756cd47aae761da65f2ad5403e9fc3525dc7c7c2c0"
     }
   ],
   "duplicate_message_ids": [
