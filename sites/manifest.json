@@ -164877,6 +164877,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5948.png",
       "sha256": "f24e53cc42790415ddc7ff18aee85ef47ba0e0b88b6b656cfd682b23ad410e24"
+    },
+    {
+      "message_id": 5947,
+      "filename": "식센모_블랙_1_10회_해설_2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5947_._._1_10._._2.pdf",
+      "size_bytes": 39087283,
+      "telegram_date": "2025-08-11T15:17:05+00:00",
+      "title": "식센모_블랙_1_10회_해설_2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5947.png",
+      "sha256": "0cc7ad05ab03405d8b48252ede9abc1e42b1626e41ef1626e180e698ed72079e"
     }
   ],
   "duplicate_message_ids": [
