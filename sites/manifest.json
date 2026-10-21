@@ -113,6 +113,20 @@
       "sha256": "d492c3313d8369b85e71766587cdb08e1bd5bd0e1dc9e00c69e8fc232634b692"
     },
     {
+      "message_id": 25686,
+      "filename": "2027년도_시대인재_서바이벌_리부트_모의고사_14회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25686_2027._._._._._14.pdf",
+      "size_bytes": 51493762,
+      "telegram_date": "2026-10-21T14:15:42+00:00",
+      "title": "수학 시대인재 서바이벌 리부트 모의고사 14회 #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25686.png",
+      "sha256": "93fffda5c52a0edcfeb0754244d0cd3fb6cb1294563a7cfe9b8ec8055091033e"
+    },
+    {
       "message_id": 25677,
       "filename": "이감 파이널2 6차.pdf",
       "stored_as": null,
