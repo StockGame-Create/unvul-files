@@ -168335,6 +168335,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5594.png",
       "sha256": "8561645f6768be575e826bd6ec67d8dbb0cb41f0fc8f807e775a3e78ddd6ad02"
+    },
+    {
+      "message_id": 5580,
+      "filename": "서킷 4 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5580_.4.pdf",
+      "size_bytes": 1570995,
+      "telegram_date": "2025-08-11T15:14:19+00:00",
+      "title": "서킷 4 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5580.png",
+      "sha256": "66927db2916c50cd38e2dd08b9b22ff7a75cd6568b974ff8dd5860e8f038799d"
     }
   ],
   "duplicate_message_ids": [
