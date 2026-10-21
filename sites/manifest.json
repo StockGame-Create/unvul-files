@@ -167369,6 +167369,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5726.png",
       "sha256": "2ea3972469cf5398a0f09c714271de1eb47380ee5a3ab97225f0b6d3535f5c88"
+    },
+    {
+      "message_id": 5725,
+      "filename": "2026 수학 시대인재 VORTEX 미적분(해설).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5725_2026.VORTEX.pdf",
+      "size_bytes": 29263454,
+      "telegram_date": "2025-08-11T15:14:30+00:00",
+      "title": "2026 수학 시대인재 VORTEX 미적분(해설)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5725.png",
+      "sha256": "f0fe02b6d418c1970e13cd71ff2a1fbe30585da2854f644f7b24bf89d5002a26"
     }
   ],
   "duplicate_message_ids": [
