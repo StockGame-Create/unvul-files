@@ -168027,6 +168027,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5663.png",
       "sha256": "9fc79ace2f00e2ca29aa0ce36717f6ee30e0448ce0b683612b8c8e73c167fe07"
+    },
+    {
+      "message_id": 5662,
+      "filename": "K08-2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5662_K08-2.pdf",
+      "size_bytes": 625070,
+      "telegram_date": "2025-08-11T15:14:24+00:00",
+      "title": "K08-2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5662.png",
+      "sha256": "d46c1270e025ae4d28ba5e8bc6dee876930f15b3fd4739a574f8c4ba55adb5df"
     }
   ],
   "duplicate_message_ids": [
