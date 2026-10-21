@@ -165871,6 +165871,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5873.png",
       "sha256": "b0ef6de4fcb63f73611d515693dc5f209e4e4227149f1e95d030782c520a0ae6"
+    },
+    {
+      "message_id": 5872,
+      "filename": "수학 전국서바 15.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5872_.15.pdf",
+      "size_bytes": 41356838,
+      "telegram_date": "2025-08-11T15:16:59+00:00",
+      "title": "수학 전국서바 15",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5872.png",
+      "sha256": "c318f243b1c2229ea786d6cc50d84e22f23b636ba4b85f8ff72c3d9838d98093"
     }
   ],
   "duplicate_message_ids": [
