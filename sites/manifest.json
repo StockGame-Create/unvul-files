@@ -164151,6 +164151,20 @@
       "sha256": "548bd6b1141f7d01387aa7afe91a9d9b66967c9db54e7a35b3924077c2629606"
     },
     {
+      "message_id": 6003,
+      "filename": "수학 서바 24회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6003_.24.pdf",
+      "size_bytes": 38664207,
+      "telegram_date": "2025-08-11T15:17:08+00:00",
+      "title": "수학 서바 24회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6003.png",
+      "sha256": "bc3fe3df72302bd33cbd3def0b0a94dbb52fe42f8455648f432c9b52df77feaf"
+    },
+    {
       "message_id": 5995,
       "filename": "5a_과학탐구.pdf",
       "stored_as": null,
