@@ -165311,6 +165311,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5913.png",
       "sha256": "83e9c5dc91a69479fc4ce418b23dac008ca68da6bd3e78d9fc492bdff90a450e"
+    },
+    {
+      "message_id": 5912,
+      "filename": "꿀모 시즌3 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5912_.3.3.pdf",
+      "size_bytes": 2869470,
+      "telegram_date": "2025-08-11T15:17:01+00:00",
+      "title": "꿀모 시즌3 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5912.png",
+      "sha256": "7ca06ca3eb8dbf21c341ff88d135832ab1c81213fe0520a26e578d064a44ad1e"
     }
   ],
   "duplicate_message_ids": [
