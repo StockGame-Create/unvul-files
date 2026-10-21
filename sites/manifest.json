@@ -43,6 +43,20 @@
       "sha256": "ab66ec72724d4eea30a276a48e6ee47a102ee668a5aa0248375b4c41d5dc7e31"
     },
     {
+      "message_id": 25695,
+      "filename": "2027 이감 모의고사 6-7.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25695_2027.6-7.pdf",
+      "size_bytes": 6388434,
+      "telegram_date": "2026-10-21T14:30:51+00:00",
+      "title": "국어 이감 파이널II(시즌6) 제 7차 예비평가 #이감",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25695.png",
+      "sha256": "9d82f58387cf04337c758f963bbd7a06abc0ee8b939500e8d8ed5134d8137558"
+    },
+    {
       "message_id": 25677,
       "filename": "이감 파이널2 6차.pdf",
       "stored_as": null,
