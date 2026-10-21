@@ -164025,6 +164025,20 @@
       "sha256": "1914bdc101b075d631a620d558118fef6114fb74fc54da7b5bd8269b0113afa0"
     },
     {
+      "message_id": 6012,
+      "filename": "FULLCOUNT 5회차 모의고사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6012_FULLCOUNT.5.pdf",
+      "size_bytes": 9785357,
+      "telegram_date": "2025-08-11T15:17:09+00:00",
+      "title": "FULLCOUNT 5회차 모의고사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6012.png",
+      "sha256": "6fdcaccae60c74a80de065c7409c0d7dfd9330dee0ecd3fdcee8f37c8b1a9498"
+    },
+    {
       "message_id": 5995,
       "filename": "5a_과학탐구.pdf",
       "stored_as": null,
