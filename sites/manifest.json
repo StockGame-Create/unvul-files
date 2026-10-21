@@ -57,6 +57,20 @@
       "sha256": "9d82f58387cf04337c758f963bbd7a06abc0ee8b939500e8d8ed5134d8137558"
     },
     {
+      "message_id": 25693,
+      "filename": "27 서바 사회문화 13 14회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25693_27.13.14.pdf",
+      "size_bytes": 36084515,
+      "telegram_date": "2026-10-21T14:30:50+00:00",
+      "title": "사문 시대인재 서바이벌 11~14회 (인쇄소퀄)",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25693.png",
+      "sha256": "d5c2476d5a0a4227511870c7689bcd3a53073136b492e649af9cd4f6db739327"
+    },
+    {
       "message_id": 25677,
       "filename": "이감 파이널2 6차.pdf",
       "stored_as": null,
