@@ -163619,6 +163619,20 @@
       "sha256": "d4d44b6d0a29a8f089ccf3381ef45b5eb85a89d843a8db5e170625cf352050f4"
     },
     {
+      "message_id": 6041,
+      "filename": "국어 서바 15회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6041_.15.pdf",
+      "size_bytes": 28817869,
+      "telegram_date": "2025-08-11T15:17:14+00:00",
+      "title": "국어 서바 15회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6041.png",
+      "sha256": "bf8c791d980441be8a9353149122f31771be9445e07124770fd89a8b25459c31"
+    },
+    {
       "message_id": 5995,
       "filename": "5a_과학탐구.pdf",
       "stored_as": null,
