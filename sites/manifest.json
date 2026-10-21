@@ -166123,6 +166123,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5853.png",
       "sha256": "c03ec6773fe3467dcb2a1535882cdd00c4c58f49cad29811cd2d5cd6fabd0cad"
+    },
+    {
+      "message_id": 5852,
+      "filename": "강e분_고전시가_폰스캔.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5852_.e._._.pdf",
+      "size_bytes": 100280741,
+      "telegram_date": "2025-08-11T15:16:58+00:00",
+      "title": "강e분_고전시가_폰스캔",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5852.png",
+      "sha256": "499a234528bca4ed9839098db5cbd64464bd48d88935cacbd959b8a63140b794"
     }
   ],
   "duplicate_message_ids": [
