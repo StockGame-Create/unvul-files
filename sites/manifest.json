@@ -168573,6 +168573,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5524.png",
       "sha256": "df041397c02efaec01fade679e5a4a4e22c1f7f942d227b3ac7cd109c6c6243b"
+    },
+    {
+      "message_id": 5512,
+      "filename": "2026기출의_테마_DNA_1_0_2주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5512_2026._._DNA_1_0_2.pdf",
+      "size_bytes": 648233,
+      "telegram_date": "2025-08-11T15:13:17+00:00",
+      "title": "2026기출의_테마_DNA_1_0_2주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5512.png",
+      "sha256": "a7f283e2772332121c1634730031638e8a1eddd7cf30859aad2ce320840925b3"
     }
   ],
   "duplicate_message_ids": [
