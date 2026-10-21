@@ -167355,6 +167355,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5727.png",
       "sha256": "49aca3e1ea0875975acd3ece48487c978bec9b673adfd895a68c37353ca307ac"
+    },
+    {
+      "message_id": 5726,
+      "filename": "장현국어_3_30비문학_특강_우리가_기출을_보는_이유.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5726_._3_30._._._._._.pdf",
+      "size_bytes": 503197,
+      "telegram_date": "2025-08-11T15:14:30+00:00",
+      "title": "장현국어_3_30비문학_특강_우리가_기출을_보는_이유",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5726.png",
+      "sha256": "2ea3972469cf5398a0f09c714271de1eb47380ee5a3ab97225f0b6d3535f5c88"
     }
   ],
   "duplicate_message_ids": [
