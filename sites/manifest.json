@@ -164933,6 +164933,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5944.png",
       "sha256": "39bef725ea4a4470a6021f8d87aa6fb232b8ded2cfb45cf028956d601a2bd3bf"
+    },
+    {
+      "message_id": 5942,
+      "filename": "지구_파이널_브릿지_15회_2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5942_._._._15._2.pdf",
+      "size_bytes": 28573601,
+      "telegram_date": "2025-08-11T15:17:04+00:00",
+      "title": "지구_파이널_브릿지_15회_2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5942.png",
+      "sha256": "8c31fe609cdfa551ea936c370813eef355e5f0f15f856bb5f0e2637cf00bde39"
     }
   ],
   "duplicate_message_ids": [
