@@ -167341,6 +167341,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5728.png",
       "sha256": "486adf98d92d74187026b438fb9c1261a0cfe47a72eb86caf24004133e27385e"
+    },
+    {
+      "message_id": 5727,
+      "filename": "2026_수특_영독_16강_어법_어휘_선택형_2025_03_30_00_32_09.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5727_2026_._._16._._._._2025_03_30_00_32_09.pdf",
+      "size_bytes": 653919,
+      "telegram_date": "2025-08-11T15:14:30+00:00",
+      "title": "2026_수특_영독_16강_어법_어휘_선택형_2025_03_30_00_32_09",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5727.png",
+      "sha256": "49aca3e1ea0875975acd3ece48487c978bec9b673adfd895a68c37353ca307ac"
     }
   ],
   "duplicate_message_ids": [
