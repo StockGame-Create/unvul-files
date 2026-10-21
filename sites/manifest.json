@@ -165731,6 +165731,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5883.png",
       "sha256": "178475d13da96601ff62fe3523844354ac13e98790bccfbb1a9a42ecc58c38d9"
+    },
+    {
+      "message_id": 5882,
+      "filename": "강x 4 - 14.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5882_.x.4.-.14.pdf",
+      "size_bytes": 19930049,
+      "telegram_date": "2025-08-11T15:17:00+00:00",
+      "title": "강x 4 - 14",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5882.png",
+      "sha256": "2f7711663e5d6a4dced5278ad916c739fcbc72298b6a54e8f986c617610db116"
     }
   ],
   "duplicate_message_ids": [
