@@ -164919,6 +164919,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5945.png",
       "sha256": "877838b2afa3c83eef7c67694c6d3e3b71a91080cb4011acf9ccf875bd1526de"
+    },
+    {
+      "message_id": 5944,
+      "filename": "지구_서바_21,22회_서바노트_2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5944_._._21.22._._2.pdf",
+      "size_bytes": 67991473,
+      "telegram_date": "2025-08-11T15:17:05+00:00",
+      "title": "지구_서바_21,22회_서바노트_2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5944.png",
+      "sha256": "39bef725ea4a4470a6021f8d87aa6fb232b8ded2cfb45cf028956d601a2bd3bf"
     }
   ],
   "duplicate_message_ids": [
