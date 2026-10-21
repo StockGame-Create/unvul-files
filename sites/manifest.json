@@ -167005,6 +167005,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5748.png",
       "sha256": "66e805182d90970ebc315b846d122618afddc4b3215284b2358aebc209dc4345"
+    },
+    {
+      "message_id": 5747,
+      "filename": "지구과학 브릿지 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5747_.3.pdf",
+      "size_bytes": 4406380,
+      "telegram_date": "2025-08-11T15:14:37+00:00",
+      "title": "지구과학 브릿지 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5747.png",
+      "sha256": "0242e9f804e6d971b2a35014db29b082741d6655d7e6ee2fef5ac566dc1bee5f"
     }
   ],
   "duplicate_message_ids": [
