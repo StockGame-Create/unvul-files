@@ -166907,6 +166907,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5756.png",
       "sha256": "a653fc3e2fd4de21d4dc35c4945b738139af1ffdd030c66b81d37cc404e51cb6"
+    },
+    {
+      "message_id": 5755,
+      "filename": "Natural Freedom.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5755_Natural.Freedom.pdf",
+      "size_bytes": 36250697,
+      "telegram_date": "2025-08-11T15:14:38+00:00",
+      "title": "Natural Freedom",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5755.png",
+      "sha256": "fc005c00c995c991f04f602951dfada2ce90c8b7ac59b1e59cc8a90d4849c576"
     }
   ],
   "duplicate_message_ids": [
