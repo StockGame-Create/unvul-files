@@ -165129,6 +165129,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5927.png",
       "sha256": "d6a48b145d679d8569b93d1967a5d880085ce96d36fa2139124f1f67545ae491"
+    },
+    {
+      "message_id": 5926,
+      "filename": "수학_브로커_파이널_2_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5926_._._._2_.pdf",
+      "size_bytes": 17510555,
+      "telegram_date": "2025-08-11T15:17:02+00:00",
+      "title": "수학_브로커_파이널_2_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5926.png",
+      "sha256": "ed6d981fc010393d59d19037d681e397352cdc0ffe71ae1d1c91f4e4b7bcfacd"
     }
   ],
   "duplicate_message_ids": [
