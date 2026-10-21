@@ -164947,6 +164947,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5942.png",
       "sha256": "8c31fe609cdfa551ea936c370813eef355e5f0f15f856bb5f0e2637cf00bde39"
+    },
+    {
+      "message_id": 5941,
+      "filename": "지구_서바이벌_전국_15회_2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5941_._._._15._2.pdf",
+      "size_bytes": 30328970,
+      "telegram_date": "2025-08-11T15:17:04+00:00",
+      "title": "지구_서바이벌_전국_15회_2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5941.png",
+      "sha256": "7691ef53ec37d062edaaad23a92072c37b2b72f96cf7b0ed2658d9b9133baeae"
     }
   ],
   "duplicate_message_ids": [
