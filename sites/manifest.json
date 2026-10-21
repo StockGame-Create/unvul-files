@@ -167551,6 +167551,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5713.png",
       "sha256": "6162047ba0877deea5ab9a1abaa9450c5fe478dde07887b354bb3c7c82768192"
+    },
+    {
+      "message_id": 5712,
+      "filename": "2025_굴욕감_1회_문제+해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5712_2025_._1._.%2B.pdf",
+      "size_bytes": 9633204,
+      "telegram_date": "2025-08-11T15:14:27+00:00",
+      "title": "2025_굴욕감_1회_문제+해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5712.png",
+      "sha256": "d19432b7d89c29678afd361fd97cba42f25c773921e815411506745d5d701968"
     }
   ],
   "duplicate_message_ids": [
