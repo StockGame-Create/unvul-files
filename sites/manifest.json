@@ -168111,6 +168111,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5657.png",
       "sha256": "a058425442bc01231326844981ea4d12f4b797288f7790d6256b26b969bd44f8"
+    },
+    {
+      "message_id": 5656,
+      "filename": "K04_수업프린트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5656_K04_.pdf",
+      "size_bytes": 643316,
+      "telegram_date": "2025-08-11T15:14:24+00:00",
+      "title": "K04_수업프린트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5656.png",
+      "sha256": "f4a6777e812814ef107564593b9c0a4baa9fa0e838c627276d3c54b44ad2eb07"
     }
   ],
   "duplicate_message_ids": [
