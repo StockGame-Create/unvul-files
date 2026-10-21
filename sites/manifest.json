@@ -165255,6 +165255,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5917.png",
       "sha256": "51472a95e039427863192531d3306b9bfbc28d1fb7923acc67e323f0b5a95b68"
+    },
+    {
+      "message_id": 5916,
+      "filename": "수학_벌크업꿀모_시즌3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5916_._._.3.pdf",
+      "size_bytes": 8068497,
+      "telegram_date": "2025-08-11T15:17:02+00:00",
+      "title": "수학_벌크업꿀모_시즌3",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5916.png",
+      "sha256": "93060389ca48f87b75c4f0597ccb7ec9c46210044ba394ab92cf854f764b839f"
     }
   ],
   "duplicate_message_ids": [
