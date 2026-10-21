@@ -168475,6 +168475,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5560.png",
       "sha256": "2b24b6ac7f50938d22549ed220408b7403e0abd40a3d4097f3b6c2c1a2d288eb"
+    },
+    {
+      "message_id": 5559,
+      "filename": "브릿지_수학_2회_답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5559_._._2._.pdf",
+      "size_bytes": 616473,
+      "telegram_date": "2025-08-11T15:13:22+00:00",
+      "title": "브릿지_수학_2회_답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5559.png",
+      "sha256": "3f777f4178ef601b19d2e5b1df9727714cb97e018627d9b2879dd23fc5bcb964"
     }
   ],
   "duplicate_message_ids": [
