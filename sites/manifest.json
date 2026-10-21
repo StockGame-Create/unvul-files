@@ -166053,6 +166053,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5858.png",
       "sha256": "184ccd2c47fdaa6fb74d1b32a265718d4592da388eae3f35aa44a782c288dd38"
+    },
+    {
+      "message_id": 5857,
+      "filename": "2026 바탕 모의고사 4회.pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5857_2026.4.pdf.pdf",
+      "size_bytes": 25760092,
+      "telegram_date": "2025-08-11T15:16:59+00:00",
+      "title": "2026 바탕 모의고사 4회.pdf",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5857.png",
+      "sha256": "35d182361ab2ceb0a3cbe9cf4fa50114fb0fff590a7b8ac4303c8def49977778"
     }
   ],
   "duplicate_message_ids": [
