@@ -167299,6 +167299,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5731.png",
       "sha256": "3c6861d43dd0d7b88654d818a4b4db097ca0d938bdafc878e4892db2786159fd"
+    },
+    {
+      "message_id": 5730,
+      "filename": "2026 수특 영독 1~9강 어순 배열_2025_03_30_00_32_00.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5730_2026.1.9._2025_03_30_00_32_00.pdf",
+      "size_bytes": 872915,
+      "telegram_date": "2025-08-11T15:14:30+00:00",
+      "title": "2026 수특 영독 1~9강 어순 배열_2025_03_30_00_32_00",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5730.png",
+      "sha256": "d9ece22c146a5649b963e3c836ca511edb8eec1e20f15ce5acd01d7a4d56e7a3"
     }
   ],
   "duplicate_message_ids": [
