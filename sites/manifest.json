@@ -165017,6 +165017,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5937.png",
       "sha256": "100019d14bc5256c102c487191ab7f848dfd92326f5b3bb3c05b025cf79ad377"
+    },
+    {
+      "message_id": 5936,
+      "filename": "강k,k+ 31,32답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5936_.k.k%2B.31.32.pdf",
+      "size_bytes": 28361775,
+      "telegram_date": "2025-08-11T15:17:04+00:00",
+      "title": "강k,k+ 31,32답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5936.png",
+      "sha256": "f5d251d4b29463cba1a257c64ac66f00b5340d7b62db5c11ebd36974e4d94942"
     }
   ],
   "duplicate_message_ids": [
