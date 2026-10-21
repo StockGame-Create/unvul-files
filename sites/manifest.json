@@ -166921,6 +166921,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5755.png",
       "sha256": "fc005c00c995c991f04f602951dfada2ce90c8b7ac59b1e59cc8a90d4849c576"
+    },
+    {
+      "message_id": 5754,
+      "filename": "정답 및 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5754_.pdf",
+      "size_bytes": 5588452,
+      "telegram_date": "2025-08-11T15:14:38+00:00",
+      "title": "정답 및 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5754.png",
+      "sha256": "ac8068f99147cb88c5f40e3c85e0ccc9bc82a786fc82003fcc04e40e184767b1"
     }
   ],
   "duplicate_message_ids": [
