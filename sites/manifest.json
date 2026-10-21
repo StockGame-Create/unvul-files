@@ -165745,6 +165745,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5882.png",
       "sha256": "2f7711663e5d6a4dced5278ad916c739fcbc72298b6a54e8f986c617610db116"
+    },
+    {
+      "message_id": 5881,
+      "filename": "수학 강대k 28회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5881_.k.28.pdf",
+      "size_bytes": 52882433,
+      "telegram_date": "2025-08-11T15:17:00+00:00",
+      "title": "수학 강대k 28회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5881.png",
+      "sha256": "7c18efb7dbee00477209bd9322689647d0612f0650a3317c8050de4da6e77d2a"
     }
   ],
   "duplicate_message_ids": [
