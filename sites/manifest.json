@@ -166557,6 +166557,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5798.png",
       "sha256": "ebd679a9ebe7be9194aa68527517e966d577dc6be8f88c0777998e2071ee6ddb"
+    },
+    {
+      "message_id": 5797,
+      "filename": "주간과제 7주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5797_.7.pdf",
+      "size_bytes": 109393917,
+      "telegram_date": "2025-08-11T15:14:40+00:00",
+      "title": "주간과제 7주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5797.png",
+      "sha256": "b8bdfd1b8344b98d29b3e505ae0a96a90a18229f7140f406a69b8c308608b0e9"
     }
   ],
   "duplicate_message_ids": [
