@@ -165227,6 +165227,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5919.png",
       "sha256": "c1649e5c1d51ebf33965a415a2aad3863aeb8134f75f9059f7a87db9fca775b5"
+    },
+    {
+      "message_id": 5918,
+      "filename": "수학_이감_파이널_2_5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5918_._._._2_5.pdf",
+      "size_bytes": 17348419,
+      "telegram_date": "2025-08-11T15:17:02+00:00",
+      "title": "수학_이감_파이널_2_5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5918.png",
+      "sha256": "c1895f9676202a245d7780e38ec13a9e4970cbd4957738bc968bb86f858987dc"
     }
   ],
   "duplicate_message_ids": [
