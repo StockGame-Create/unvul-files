@@ -164765,6 +164765,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5957.png",
       "sha256": "a27f9bcbbece6361b8a4500df6773fa1c0f09ca0ffd812ba4f2aa2cede8f7853"
+    },
+    {
+      "message_id": 5956,
+      "filename": "지구과학_파이널브릿지_전국_16회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5956_._._._16.pdf",
+      "size_bytes": 30203639,
+      "telegram_date": "2025-08-11T15:17:05+00:00",
+      "title": "지구과학_파이널브릿지_전국_16회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5956.png",
+      "sha256": "16b07b91fb2e9256ad5e88028b4cbd1266ff1fa09c331dcfe3703b5e9bb71c9b"
     }
   ],
   "duplicate_message_ids": [
