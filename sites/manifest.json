@@ -166627,6 +166627,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5784.png",
       "sha256": "b54b39b983f38da7ecf28ff70a9ed2628ef4c29c0d7304825dff7ab617e60779"
+    },
+    {
+      "message_id": 5783,
+      "filename": "26_엑셀러레이터_전국_3회_미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5783_26_._._3._.pdf",
+      "size_bytes": 2316361,
+      "telegram_date": "2025-08-11T15:14:39+00:00",
+      "title": "26_엑셀러레이터_전국_3회_미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5783.png",
+      "sha256": "6ea7e2edca1d040eda0b3fdd815f7567718b0d60181a898df1d51bd82682b72f"
     }
   ],
   "duplicate_message_ids": [
