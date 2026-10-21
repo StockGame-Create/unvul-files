@@ -168433,6 +168433,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5563.png",
       "sha256": "538db27b0c5b05df8a3ec963d1e8ffb58f580aa68cb19a3d7fe450fdb84a517f"
+    },
+    {
+      "message_id": 5562,
+      "filename": "브릿지 수학 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5562_.2.pdf",
+      "size_bytes": 453429,
+      "telegram_date": "2025-08-11T15:13:22+00:00",
+      "title": "브릿지 수학 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5562.png",
+      "sha256": "5ecd16087de81145df07f57ca644d9b832fe34dd356531cab54a448f78149d71"
     }
   ],
   "duplicate_message_ids": [
