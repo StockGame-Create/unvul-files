@@ -165675,6 +165675,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5887.png",
       "sha256": "07b424b52cb90bf39a8526e1fbdeec798b45d25ac4a62b3d6914fc23ded2e2b1"
+    },
+    {
+      "message_id": 5886,
+      "filename": "강x 시즌4 답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5886_.x.4.pdf",
+      "size_bytes": 110281580,
+      "telegram_date": "2025-08-11T15:17:00+00:00",
+      "title": "강x 시즌4 답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5886.png",
+      "sha256": "739e62c73506a22aa2f580a44c68d1846e1b1460f6a5f97f7049bd624e521a26"
     }
   ],
   "duplicate_message_ids": [
