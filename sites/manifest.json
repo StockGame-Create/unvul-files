@@ -167635,6 +167635,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5707.png",
       "sha256": "3d936e36b9df4d6d35f72253c5b86b2b1c2e936bc4a195e79494069fb0876b41"
+    },
+    {
+      "message_id": 5706,
+      "filename": "2026_EBS_수능특강사용설명서_독서_주제통합_실전.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5706_2026_EBS_._._._.pdf",
+      "size_bytes": 16672032,
+      "telegram_date": "2025-08-11T15:14:27+00:00",
+      "title": "2026_EBS_수능특강사용설명서_독서_주제통합_실전",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5706.png",
+      "sha256": "fabf213e0c9589e6a75d6b96dbcab92b159c137835548b1c975421df504d3c08"
     }
   ],
   "duplicate_message_ids": [
