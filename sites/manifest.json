@@ -167327,6 +167327,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5729.png",
       "sha256": "27f19d3b8c7a13460caa2cca475e224e8e08228f7ac4f0e168c0c316f809bf66"
+    },
+    {
+      "message_id": 5728,
+      "filename": "2026 수특 영독 1~9강 문장삽입_2025_03_30_00_32_06.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5728_2026.1.9._2025_03_30_00_32_06.pdf",
+      "size_bytes": 448589,
+      "telegram_date": "2025-08-11T15:14:30+00:00",
+      "title": "2026 수특 영독 1~9강 문장삽입_2025_03_30_00_32_06",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5728.png",
+      "sha256": "486adf98d92d74187026b438fb9c1261a0cfe47a72eb86caf24004133e27385e"
     }
   ],
   "duplicate_message_ids": [
