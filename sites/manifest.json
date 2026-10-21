@@ -165857,6 +165857,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5874.png",
       "sha256": "d95d0388fdec2d90b8ca3562d6f5a9554648fb36d1e1fb89229265e52cd8d4fe"
+    },
+    {
+      "message_id": 5873,
+      "filename": "수학_안가람_클러치n_15주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5873_._._.n_15.pdf",
+      "size_bytes": 49969263,
+      "telegram_date": "2025-08-11T15:17:00+00:00",
+      "title": "수학_안가람_클러치n_15주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5873.png",
+      "sha256": "b0ef6de4fcb63f73611d515693dc5f209e4e4227149f1e95d030782c520a0ae6"
     }
   ],
   "duplicate_message_ids": [
