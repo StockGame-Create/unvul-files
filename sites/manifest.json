@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 25677,
+      "filename": "이감 파이널2 6차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/25677_.2.6.pdf",
+      "size_bytes": 40380174,
+      "telegram_date": "2026-10-21T04:56:24+00:00",
+      "title": "국어 이감 6-2 #이감",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25677.png",
+      "sha256": "2ca6b1df26c7f4a76f07b2f2b41aef8a95fcc78936fddb08d7bccccf260bd714"
+    },
+    {
       "message_id": 25672,
       "filename": "27 브릿지파이널 사회문화 1~14회 해설.pdf",
       "stored_as": null,
