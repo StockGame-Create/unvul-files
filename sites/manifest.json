@@ -167859,6 +167859,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5682.png",
       "sha256": "4b414f7999f09b1c3c9656fee59ab1310b220da46ac432d438406df8215518e9"
+    },
+    {
+      "message_id": 5681,
+      "filename": "배기범_물리1_기범비급_합본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5681_._.1_._.pdf",
+      "size_bytes": 153082411,
+      "telegram_date": "2025-08-11T15:14:25+00:00",
+      "title": "배기범_물리1_기범비급_합본",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5681.png",
+      "sha256": "6e0b480e840028f3d70f4db5ebc16e0cad2451a9121c4791a72fca08eebc6993"
     }
   ],
   "duplicate_message_ids": [
