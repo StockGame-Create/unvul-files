@@ -163745,6 +163745,20 @@
       "sha256": "8216b9ecff5dadbbf007d1dc26e0cdcd3391c65f8c0b72c7de52cdfcef940b2f"
     },
     {
+      "message_id": 6032,
+      "filename": "국어 국바 14.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6032_.14.pdf",
+      "size_bytes": 27007128,
+      "telegram_date": "2025-08-11T15:17:14+00:00",
+      "title": "국어 국바 14",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6032.png",
+      "sha256": "e7e6faa6cf13f891eb40ea81556e236c357c8f8faf04c99b02955fabcec348f2"
+    },
+    {
       "message_id": 5995,
       "filename": "5a_과학탐구.pdf",
       "stored_as": null,
