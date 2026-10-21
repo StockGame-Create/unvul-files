@@ -167915,6 +167915,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5674.png",
       "sha256": "c5be523c59d7e0bfc1bf33b1d20f4038e84461687196cf36b54c67435b3a3000"
+    },
+    {
+      "message_id": 5673,
+      "filename": "2026_N기출_미적분_모의고사_Part1_3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5673_2026_N._._._Part1_3.pdf",
+      "size_bytes": 197300,
+      "telegram_date": "2025-08-11T15:14:25+00:00",
+      "title": "2026_N기출_미적분_모의고사_Part1_3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5673.png",
+      "sha256": "b8aa63ab59b330ac5b1bce0a1f5d56182ffabb69d52d2e7531a356b8731980f5"
     }
   ],
   "duplicate_message_ids": [
