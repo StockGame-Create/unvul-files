@@ -167985,6 +167985,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5666.png",
       "sha256": "8d071a8655a653309ab91d29646692df34d23a146a06c6803eeecd0f0096dfa4"
+    },
+    {
+      "message_id": 5665,
+      "filename": "2024_03_28_고3_국어영역_정답해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5665_2024_03_28_.3_._.pdf",
+      "size_bytes": 397080,
+      "telegram_date": "2025-08-11T15:14:25+00:00",
+      "title": "2024_03_28_고3_국어영역_정답해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5665.png",
+      "sha256": "7ee4bfa3aec3d44c9eb343dbb6030ff8f3fdda9579fe05db61cb888c3b6c26fe"
     }
   ],
   "duplicate_message_ids": [
