@@ -167705,6 +167705,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5702.png",
       "sha256": "ffc541401e370fc35b3ba82c1009a3dc7bd4e3d8fc4de9a794261a13d836a586"
+    },
+    {
+      "message_id": 5697,
+      "filename": "2026 수학 공통 엑셀 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5697_2026.3.pdf",
+      "size_bytes": 9607633,
+      "telegram_date": "2025-08-11T15:14:26+00:00",
+      "title": "2026 수학 공통 엑셀 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5697.png",
+      "sha256": "e1ead861da6284d49bb16e4081076a6e2bff94048e3c04da2342b339d764a420"
     }
   ],
   "duplicate_message_ids": [
