@@ -167831,6 +167831,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5686.png",
       "sha256": "22534d38a321cfefaafdb7b1a77cbfdf6b55301264e17c2d50f642dcb61257dc"
+    },
+    {
+      "message_id": 5685,
+      "filename": "문학 실전 개념 손필기_250407_124207_250407_180842.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5685_._250407_124207_250407_180842.pdf",
+      "size_bytes": 232780,
+      "telegram_date": "2025-08-11T15:14:26+00:00",
+      "title": "문학 실전 개념 손필기_250407_124207_250407_180842",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5685.png",
+      "sha256": "4358029bdb1c869bd524e0020b7303fc0df25a0bdc296442d4b4ab8c5085212a"
     }
   ],
   "duplicate_message_ids": [
