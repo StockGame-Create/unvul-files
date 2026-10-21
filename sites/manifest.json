@@ -165045,6 +165045,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5935.png",
       "sha256": "1122181a0cea09a5cd8c2fc5c444aac06ffc095a5b9d93936e8a39e60f3fb879"
+    },
+    {
+      "message_id": 5934,
+      "filename": "생명_파브_전국_15회_해설_.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5934_._._._15._._.pdf",
+      "size_bytes": 10182596,
+      "telegram_date": "2025-08-11T15:17:04+00:00",
+      "title": "생명_파브_전국_15회_해설_",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5934.png",
+      "sha256": "05f6c6dda0f756cdc0fb03f89c2f189bcfbf4270834718d80a5f06cbeff0795f"
     }
   ],
   "duplicate_message_ids": [
