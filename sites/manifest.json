@@ -167677,6 +167677,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5704.png",
       "sha256": "c0d8115c261558bdd9a6e7ae42262b37c6522d361b30a7d16793590b8218206f"
+    },
+    {
+      "message_id": 5703,
+      "filename": "2026 EBS 수능특강사용설명서 독서 인문예술.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5703_2026.EBS.pdf",
+      "size_bytes": 40095180,
+      "telegram_date": "2025-08-11T15:14:27+00:00",
+      "title": "2026 EBS 수능특강사용설명서 독서 인문예술",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5703.png",
+      "sha256": "33507b9e50b4ac391fe48641c08c8eb7b8f190bfe832208629eff85a49f56156"
     }
   ],
   "duplicate_message_ids": [
