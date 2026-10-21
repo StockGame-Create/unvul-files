@@ -168279,6 +168279,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5610.png",
       "sha256": "8abdc5d682abb9356275776ac0e494dedbcc2732029c29c3ba095be94f6700af"
+    },
+    {
+      "message_id": 5609,
+      "filename": "02.3월_고3_과학(화학1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5609_02.3._.3_.1.pdf",
+      "size_bytes": 568977,
+      "telegram_date": "2025-08-11T15:14:20+00:00",
+      "title": "02.3월_고3_과학(화학1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5609.png",
+      "sha256": "faeebcfa0cea2194dfa5673ea4656fdabe0f4b4373920e5fef31808f344a9988"
     }
   ],
   "duplicate_message_ids": [
