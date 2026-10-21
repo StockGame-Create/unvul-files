@@ -164081,6 +164081,20 @@
       "sha256": "d84fb5ca304ee3ff52bf5d171c11971494f458b063b7d664060e543ec8e53d63"
     },
     {
+      "message_id": 6008,
+      "filename": "이해원 final.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6008_.final.pdf",
+      "size_bytes": 35053572,
+      "telegram_date": "2025-08-11T15:17:09+00:00",
+      "title": "이해원 final",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6008.png",
+      "sha256": "2d938940c1634442bb401a1613cfbc58494d5dd068f1415532fd1b6f625d81dd"
+    },
+    {
       "message_id": 5995,
       "filename": "5a_과학탐구.pdf",
       "stored_as": null,
