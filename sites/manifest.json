@@ -166711,6 +166711,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5776.png",
       "sha256": "f328f48b15fbaf4c99c1ecf5545aa2f1f5db52de56c586403cbfd0ea5db48be2"
+    },
+    {
+      "message_id": 5774,
+      "filename": "2026 한완기 평수능 확통 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5774_2026.pdf",
+      "size_bytes": 15898954,
+      "telegram_date": "2025-08-11T15:14:39+00:00",
+      "title": "2026 한완기 평수능 확통 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5774.png",
+      "sha256": "b193095471f942289c820f17149d50b7f2337d08077b048aee77469d22a255fc"
     }
   ],
   "duplicate_message_ids": [
