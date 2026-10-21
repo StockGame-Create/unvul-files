@@ -155,6 +155,20 @@
       "sha256": "f28e15c98d28d89b4f82c5b25bbf04b13b1aa27599b6e388081fe6a6af584076"
     },
     {
+      "message_id": 25680,
+      "filename": "27_김성은_불찍파_확통.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25680_27_._._.pdf",
+      "size_bytes": 26838591,
+      "telegram_date": "2026-10-21T14:15:38+00:00",
+      "title": "수학 김성은 불찍파 확률과 통계",
+      "year": "2027",
+      "instructor": "김성은",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25680.png",
+      "sha256": "0886f1e53f237605dcf1dd4cac1c38d3f08c09991da17e0649f427fc3d30d212"
+    },
+    {
       "message_id": 25677,
       "filename": "이감 파이널2 6차.pdf",
       "stored_as": null,
