@@ -164821,6 +164821,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5953.png",
       "sha256": "49bb2109d74177cf554a91e7417b8d04780499f352d5b99363c36a12993ddca3"
+    },
+    {
+      "message_id": 5951,
+      "filename": "지1 폴라리스 s2 2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5951_.1.s2.2.pdf",
+      "size_bytes": 38826817,
+      "telegram_date": "2025-08-11T15:17:05+00:00",
+      "title": "지1 폴라리스 s2 2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5951.png",
+      "sha256": "521e905eba6d968c46441afe3c58c77871af45d6dd6ea3aaa80afeef5f297e43"
     }
   ],
   "duplicate_message_ids": [
