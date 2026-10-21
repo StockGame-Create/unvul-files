@@ -164583,6 +164583,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5976.png",
       "sha256": "73b0d3e665801c5b150eeadab03c74fcaec3b18ef7984a8758ebabfb22f022d0"
+    },
+    {
+      "message_id": 5974,
+      "filename": "26 이신혁 on 시즌1 1~3 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5974_26.on.1.1.3.pdf",
+      "size_bytes": 7595300,
+      "telegram_date": "2025-08-11T15:17:06+00:00",
+      "title": "26 이신혁 on 시즌1 1~3 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5974.png",
+      "sha256": "27e750b93b63be731dda27298cb7719b70b5441562f9385caeba2279cc675c25"
     }
   ],
   "duplicate_message_ids": [
