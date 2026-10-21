@@ -165101,6 +165101,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5930.png",
       "sha256": "43bb71127dbc7729c2244ad56ba1c508ae54f3e810c3e88765b039346111f959"
+    },
+    {
+      "message_id": 5929,
+      "filename": "생명 백호 s4.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5929_.s4.pdf",
+      "size_bytes": 117479681,
+      "telegram_date": "2025-08-11T15:17:04+00:00",
+      "title": "생명 백호 s4",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5929.png",
+      "sha256": "2306d438086fe362ae22f74f0d963103a53d7266ae2974f9c8bb174fd909c988"
     }
   ],
   "duplicate_message_ids": [
