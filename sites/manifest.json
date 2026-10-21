@@ -163647,6 +163647,20 @@
       "sha256": "80f2bd087c6ea05fb029ef610f8d552043f88dc0ece0dd2f5fbbf3284411c830"
     },
     {
+      "message_id": 6039,
+      "filename": "한수 14.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6039_.14.pdf",
+      "size_bytes": 128781258,
+      "telegram_date": "2025-08-11T15:17:14+00:00",
+      "title": "한수 14",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6039.png",
+      "sha256": "340f90ed4ca05df45f10ad0aa83e7940fb30ea7d8dc62006edbfb7e6442e45f0"
+    },
+    {
       "message_id": 5995,
       "filename": "5a_과학탐구.pdf",
       "stored_as": null,
