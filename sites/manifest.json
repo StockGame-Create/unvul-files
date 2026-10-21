@@ -168461,6 +168461,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5561.png",
       "sha256": "fb07cd648a2937cb043cce8268998c760ba7186e9bc1106832ecb04f0fe0b974"
+    },
+    {
+      "message_id": 5560,
+      "filename": "전국_브릿지_지구_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5560_._._._2.pdf",
+      "size_bytes": 793791,
+      "telegram_date": "2025-08-11T15:13:22+00:00",
+      "title": "전국_브릿지_지구_2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5560.png",
+      "sha256": "2b24b6ac7f50938d22549ed220408b7403e0abd40a3d4097f3b6c2c1a2d288eb"
     }
   ],
   "duplicate_message_ids": [
