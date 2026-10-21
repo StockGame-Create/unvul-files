@@ -168083,6 +168083,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5659.png",
       "sha256": "db87021cab963e7e6cc00908081d2863a84959c4465588c3cec53cfa7b93b867"
+    },
+    {
+      "message_id": 5658,
+      "filename": "K03 프린트(2025.01.08).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5658_K03.2025.01.08.pdf",
+      "size_bytes": 414121,
+      "telegram_date": "2025-08-11T15:14:24+00:00",
+      "title": "K03 프린트(2025.01.08)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5658.png",
+      "sha256": "c1cec6f78133a5adb81d16db56757290eeba15097ff68d35da70f9b8ec3b6bc2"
     }
   ],
   "duplicate_message_ids": [
