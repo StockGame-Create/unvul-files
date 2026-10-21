@@ -164193,6 +164193,20 @@
       "sha256": "efe4128a6480d63d2d20ae7c1075a420c47650fe7da8e508dabca03ae16afdf0"
     },
     {
+      "message_id": 6000,
+      "filename": "수학 브릿지 27.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6000_.27.pdf",
+      "size_bytes": 17552716,
+      "telegram_date": "2025-08-11T15:17:08+00:00",
+      "title": "수학 브릿지 27",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6000.png",
+      "sha256": "ce35719fe0b5237ca11b1e8d26435c35a3ffc43548636c6800b0b5d47d90aa81"
+    },
+    {
       "message_id": 5995,
       "filename": "5a_과학탐구.pdf",
       "stored_as": null,
