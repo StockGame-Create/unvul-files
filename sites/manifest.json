@@ -166753,6 +166753,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5772.png",
       "sha256": "adddbab6ccff2dc8a14dda59817ef9747c45d2961f92d4d70402ba6e469bd0ae"
+    },
+    {
+      "message_id": 5770,
+      "filename": "N기출_수1+수2_4점집중.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5770_N._.1%2B.2_4.pdf",
+      "size_bytes": 30137175,
+      "telegram_date": "2025-08-11T15:14:38+00:00",
+      "title": "N기출_수1+수2_4점집중",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5770.png",
+      "sha256": "691193988690e1429b82abc69e59bc1fd30fe614ab752a4dbef3d100cf298e8d"
     }
   ],
   "duplicate_message_ids": [
