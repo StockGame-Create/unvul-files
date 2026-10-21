@@ -167033,6 +167033,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5746.png",
       "sha256": "d818a1200dc01659cd52445a48c8990a25bd32f7cda55a531b296bc81d98a0e2"
+    },
+    {
+      "message_id": 5744,
+      "filename": "이신혁 아폴로 10주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5744_.10.pdf",
+      "size_bytes": 85109642,
+      "telegram_date": "2025-08-11T15:14:31+00:00",
+      "title": "이신혁 아폴로 10주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5744.png",
+      "sha256": "d2bd926beb01e70af209b1d498425f44ceda2a1a2e6bcd7298d509366957ce7e"
     }
   ],
   "duplicate_message_ids": [
