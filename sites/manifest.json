@@ -166935,6 +166935,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5754.png",
       "sha256": "ac8068f99147cb88c5f40e3c85e0ccc9bc82a786fc82003fcc04e40e184767b1"
+    },
+    {
+      "message_id": 5753,
+      "filename": "2026학년도_시대인재_브릿지_모의고사_3회_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5753_2026._._._._3._.pdf",
+      "size_bytes": 5661769,
+      "telegram_date": "2025-08-11T15:14:37+00:00",
+      "title": "2026학년도_시대인재_브릿지_모의고사_3회_문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5753.png",
+      "sha256": "055751215dd8c8912d5210c450f2b5ae7dfedb517ba3102008fe55ed1b4efaf3"
     }
   ],
   "duplicate_message_ids": [
