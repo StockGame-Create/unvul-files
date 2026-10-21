@@ -167789,6 +167789,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5689.png",
       "sha256": "2e5d63f8f88b20688aff754c8e514a4ef78e42bde434bc37454ddb675eeb9dad"
+    },
+    {
+      "message_id": 5688,
+      "filename": "이판사판.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5688_.pdf",
+      "size_bytes": 13548463,
+      "telegram_date": "2025-08-11T15:14:26+00:00",
+      "title": "이판사판",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5688.png",
+      "sha256": "8168ef9014c9346a5ac2a1c3f8f03aa01a845d047005105da66342997fe1ba8f"
     }
   ],
   "duplicate_message_ids": [
