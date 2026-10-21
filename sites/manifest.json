@@ -166585,6 +166585,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5794.png",
       "sha256": "dcaaaf558850f988adb923cfcf7ec239312e93f443f2c4a5950bb72de30895cf"
+    },
+    {
+      "message_id": 5792,
+      "filename": "브릿지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5792_.pdf",
+      "size_bytes": 2012805,
+      "telegram_date": "2025-08-11T15:14:40+00:00",
+      "title": "브릿지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5792.png",
+      "sha256": "bf2e08dfba4be4490e3eb84f106a8b4ae206242af6c6cb4cb289515a688d5417"
     }
   ],
   "duplicate_message_ids": [
