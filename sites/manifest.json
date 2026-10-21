@@ -164445,6 +164445,20 @@
       "sha256": "07793bc9cfe03ab7d52dfd9f94196f80b2df0b619ffa4851cf55fe3c6630099e"
     },
     {
+      "message_id": 5982,
+      "filename": "전국_브릿지_수학_1회_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5982_._._._1._.pdf",
+      "size_bytes": 6739433,
+      "telegram_date": "2025-08-11T15:17:07+00:00",
+      "title": "전국_브릿지_수학_1회_해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5982.png",
+      "sha256": "09dd25f9a6b11e9f97885a6cd0c4229fa162458ee1feccd4f1df35018abffd3c"
+    },
+    {
       "message_id": 5980,
       "filename": "2026 김현우 미적분 복습테스트 11주차 해설.pdf",
       "stored_as": null,
