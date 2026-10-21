@@ -165941,6 +165941,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5868.png",
       "sha256": "19601a7cd018302c6c40b33dd9936bb07e802c9193192711108cfa4a7d4ad676"
+    },
+    {
+      "message_id": 5867,
+      "filename": "메가스터디_N제_수학영역_미적분_3점·4점_공략_366제_정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5867_._N._._._3.4._._366._.pdf",
+      "size_bytes": 42688351,
+      "telegram_date": "2025-08-11T15:16:59+00:00",
+      "title": "메가스터디_N제_수학영역_미적분_3점·4점_공략_366제_정답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5867.png",
+      "sha256": "533424949519764ef2712ae24a674b514bd1664e359943f6a125e71a14141541"
     }
   ],
   "duplicate_message_ids": [
