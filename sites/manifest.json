@@ -166683,6 +166683,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5778.png",
       "sha256": "670c52670d0eb23492f710dbcd86a8190f88c5398edf3410796fe0b332e7a359"
+    },
+    {
+      "message_id": 5777,
+      "filename": "2026 수학 공통 엑셀 전국 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5777_2026.2.pdf",
+      "size_bytes": 9746804,
+      "telegram_date": "2025-08-11T15:14:39+00:00",
+      "title": "2026 수학 공통 엑셀 전국 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5777.png",
+      "sha256": "0c1ce2f2a5a63064cd45b8ffb0fe7cd54b234e4d64fc79eedf8e6afcc5ebad86"
     }
   ],
   "duplicate_message_ids": [
