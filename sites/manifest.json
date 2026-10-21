@@ -167425,6 +167425,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5722.png",
       "sha256": "8530db76b6978f24a9ed2bbf830b1f52640ebbf999de484c507e6b2ec03673d2"
+    },
+    {
+      "message_id": 5721,
+      "filename": "마더텅수2문제편(정답표포함).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5721_.2.pdf",
+      "size_bytes": 31664853,
+      "telegram_date": "2025-08-11T15:14:30+00:00",
+      "title": "마더텅수2문제편(정답표포함)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5721.png",
+      "sha256": "8758f9ed98f1b1bfae823ff473f11f22cb79b5310c7043883b606135840d337b"
     }
   ],
   "duplicate_message_ids": [
