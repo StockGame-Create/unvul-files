@@ -168405,6 +168405,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5565.png",
       "sha256": "144ac869a3cb12264283ac6b42dfb3e0b05e54d103b9db8dede76416f8cb5204"
+    },
+    {
+      "message_id": 5564,
+      "filename": "브릿지 2회 지구 답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5564_.2.pdf",
+      "size_bytes": 1133839,
+      "telegram_date": "2025-08-11T15:13:22+00:00",
+      "title": "브릿지 2회 지구 답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5564.png",
+      "sha256": "ed72daabeb462050d40bf68637b4e8ffccd9da8aae6d3fd14e9cb38d2bc755d1"
     }
   ],
   "duplicate_message_ids": [
