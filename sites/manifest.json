@@ -164067,6 +164067,20 @@
       "sha256": "94d16d6587967203fba5ac75826b9c1654718d53ec133e10078210dc779852ae"
     },
     {
+      "message_id": 6009,
+      "filename": "이해원 파이널 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6009_.pdf",
+      "size_bytes": 78579140,
+      "telegram_date": "2025-08-11T15:17:09+00:00",
+      "title": "이해원 파이널 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6009.png",
+      "sha256": "d84fb5ca304ee3ff52bf5d171c11971494f458b063b7d664060e543ec8e53d63"
+    },
+    {
       "message_id": 5995,
       "filename": "5a_과학탐구.pdf",
       "stored_as": null,
