@@ -167957,6 +167957,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5671.png",
       "sha256": "6eb77d95bc40503d7c9fae1214516850fdf7666a50c405e7a22d8f1a3df9a496"
+    },
+    {
+      "message_id": 5667,
+      "filename": "K10.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5667_K10.pdf",
+      "size_bytes": 1041258,
+      "telegram_date": "2025-08-11T15:14:25+00:00",
+      "title": "K10",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5667.png",
+      "sha256": "9c3106d2bc47cbbd7b9d104ce915d70ddc90746f0cb070fcbcd9ad93d4a51f15"
     }
   ],
   "duplicate_message_ids": [
