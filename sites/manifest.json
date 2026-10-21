@@ -164863,6 +164863,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5949.png",
       "sha256": "244f2aa1831c582bd3ac30a8fd0e279b79d409cb28ec8e2129482abd4edc74b7"
+    },
+    {
+      "message_id": 5948,
+      "filename": "지구_서바이벌_21,22회_문제_2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5948_._._21.22._._2.pdf",
+      "size_bytes": 29619377,
+      "telegram_date": "2025-08-11T15:17:05+00:00",
+      "title": "지구_서바이벌_21,22회_문제_2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5948.png",
+      "sha256": "f24e53cc42790415ddc7ff18aee85ef47ba0e0b88b6b656cfd682b23ad410e24"
     }
   ],
   "duplicate_message_ids": [
