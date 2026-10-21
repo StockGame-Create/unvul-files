@@ -165773,6 +165773,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5880.png",
       "sha256": "6a0438762d8f1e6f38d906ce3894e56869ec27dc04194f709a89934808b164d7"
+    },
+    {
+      "message_id": 5879,
+      "filename": "범모 9회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5879_.9.pdf",
+      "size_bytes": 41478411,
+      "telegram_date": "2025-08-11T15:17:00+00:00",
+      "title": "범모 9회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5879.png",
+      "sha256": "8f33a92a9149c70b68d82cbcad4f271f8c58dcca50ca55f99f6deefee3a7938f"
     }
   ],
   "duplicate_message_ids": [
