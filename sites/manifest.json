@@ -164975,6 +164975,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5940.png",
       "sha256": "65be9953f57f628032deafc148c535d8bd869f1c970f15fccef8826e37694341"
+    },
+    {
+      "message_id": 5939,
+      "filename": "생명 강k+29,30.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5939_.k%2B29.30.pdf",
+      "size_bytes": 31168259,
+      "telegram_date": "2025-08-11T15:17:04+00:00",
+      "title": "생명 강k+29,30",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5939.png",
+      "sha256": "0e0c1403412f294e561e643abc0817c4953e0cb364abdc51ed8f951f28a6df85"
     }
   ],
   "duplicate_message_ids": [
