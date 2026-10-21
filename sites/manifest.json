@@ -166207,6 +166207,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5847.png",
       "sha256": "007da28f46601e8077855687cf01aa54b6bb42a47067dbc382ab62822554cfd3"
+    },
+    {
+      "message_id": 5845,
+      "filename": "2026_생윤_트러스_전국_3회_문제+해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5845_2026_._._._3._.%2B.pdf",
+      "size_bytes": 6071769,
+      "telegram_date": "2025-08-11T15:14:44+00:00",
+      "title": "2026_생윤_트러스_전국_3회_문제+해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5845.png",
+      "sha256": "862664f286e04790da9b7dbdf914813bce5a9ee5a3c001e72b60bb829031a827"
     }
   ],
   "duplicate_message_ids": [
