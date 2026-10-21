@@ -166361,6 +166361,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5825.png",
       "sha256": "0213e7adafb6d9e65662d4de0ec0930e446bdaaf358ed1dbc7f12b4a8a8431bb"
+    },
+    {
+      "message_id": 5824,
+      "filename": "2026_박선우_생명1_고득점 양성의 바이블_파트2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5824_2026_._.1_._.2.pdf",
+      "size_bytes": 327591288,
+      "telegram_date": "2025-08-11T15:14:42+00:00",
+      "title": "2026_박선우_생명1_고득점 양성의 바이블_파트2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5824.png",
+      "sha256": "143874cd241f73c661e3482bcdf290465961647f9feeb78ea50f3221c81c2803"
     }
   ],
   "duplicate_message_ids": [
