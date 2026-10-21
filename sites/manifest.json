@@ -164179,6 +164179,20 @@
       "sha256": "df58260f231e8d1fff70b4e70689a281943b701c35d61142020bbc9d34600937"
     },
     {
+      "message_id": 6001,
+      "filename": "수학 강k 30회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6001_.k.30.pdf",
+      "size_bytes": 47795154,
+      "telegram_date": "2025-08-11T15:17:08+00:00",
+      "title": "수학 강k 30회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6001.png",
+      "sha256": "efe4128a6480d63d2d20ae7c1075a420c47650fe7da8e508dabca03ae16afdf0"
+    },
+    {
       "message_id": 5995,
       "filename": "5a_과학탐구.pdf",
       "stored_as": null,
