@@ -165479,6 +165479,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5901.png",
       "sha256": "5c356f4834dc6428502d0baaa64974ceb7fb3d11be3cac057e5df8aef2235149"
+    },
+    {
+      "message_id": 5900,
+      "filename": "이해원 4-0.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5900_.4-0.pdf",
+      "size_bytes": 18182995,
+      "telegram_date": "2025-08-11T15:17:01+00:00",
+      "title": "이해원 4-0",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5900.png",
+      "sha256": "74ea769e06554b01c274e846408aa39668d844373d9b1dac885162104d653207"
     }
   ],
   "duplicate_message_ids": [
