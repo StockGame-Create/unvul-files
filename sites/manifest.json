@@ -166795,6 +166795,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5768.png",
       "sha256": "7311ddac525b29be736342392210ece5ff2d7787e6cb74dc86607fa6c4088b6b"
+    },
+    {
+      "message_id": 5767,
+      "filename": "2026브릿지_영어_전국_5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5767_2026._._._5.pdf",
+      "size_bytes": 740651,
+      "telegram_date": "2025-08-11T15:14:38+00:00",
+      "title": "2026브릿지_영어_전국_5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5767.png",
+      "sha256": "6eb69280828395e44be5368a1a50c2821c05eba871f7f4d2d1a9904866f6405e"
     }
   ],
   "duplicate_message_ids": [
