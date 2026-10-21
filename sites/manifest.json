@@ -166151,6 +166151,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5851.png",
       "sha256": "cc3ed01af8bb264390c750d76fafd40c37d4e2ae7e88e483e4392783f62720b9"
+    },
+    {
+      "message_id": 5850,
+      "filename": "2026 Smooth 미적분 개념서 1권 예습문항 1주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5850_2026.Smooth.1.1.pdf",
+      "size_bytes": 564780,
+      "telegram_date": "2025-08-11T15:16:58+00:00",
+      "title": "2026 Smooth 미적분 개념서 1권 예습문항 1주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5850.png",
+      "sha256": "98e7b301a06e531d105152b2df3379c7c1718a61d34f2491c67b3271a781afba"
     }
   ],
   "duplicate_message_ids": [
