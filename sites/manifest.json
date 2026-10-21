@@ -168419,6 +168419,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5564.png",
       "sha256": "ed72daabeb462050d40bf68637b4e8ffccd9da8aae6d3fd14e9cb38d2bc755d1"
+    },
+    {
+      "message_id": 5563,
+      "filename": "지구 브릿지 2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5563_.2.pdf",
+      "size_bytes": 804940,
+      "telegram_date": "2025-08-11T15:13:22+00:00",
+      "title": "지구 브릿지 2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5563.png",
+      "sha256": "538db27b0c5b05df8a3ec963d1e8ffb58f580aa68cb19a3d7fe450fdb84a517f"
     }
   ],
   "duplicate_message_ids": [
