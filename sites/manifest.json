@@ -166837,6 +166837,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5762.png",
       "sha256": "c046bb34233b65c6634787cefb345fa51dcbb7887f7963959e25c66bd4de6766"
+    },
+    {
+      "message_id": 5761,
+      "filename": "2026_엑셀러레이터_전국_5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5761_2026_._._5.pdf",
+      "size_bytes": 1870843,
+      "telegram_date": "2025-08-11T15:14:38+00:00",
+      "title": "2026_엑셀러레이터_전국_5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5761.png",
+      "sha256": "2c3835d306cc3e0dc7b427bd7d63efdf69757818f10c3b812b3dc6c627ba2f78"
     }
   ],
   "duplicate_message_ids": [
