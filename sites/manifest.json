@@ -168195,6 +168195,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5621.png",
       "sha256": "07d05d9367bae9dcce43698e5f1c0c308b68127b95703d2b3a58e76bd3ef893f"
+    },
+    {
+      "message_id": 5615,
+      "filename": "1_2026손필기KBS수특_현대시_112.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5615_1_2026.KBS._._112.pdf",
+      "size_bytes": 639853,
+      "telegram_date": "2025-08-11T15:14:21+00:00",
+      "title": "1_2026손필기KBS수특_현대시_112",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5615.png",
+      "sha256": "58b9c65bb0a1f9e7aaac94a56094b3c1a93fb0cbd432f6bf80b19e710adfab70"
     }
   ],
   "duplicate_message_ids": [
