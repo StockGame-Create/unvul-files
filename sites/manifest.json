@@ -167411,6 +167411,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5723.png",
       "sha256": "93fc76b30f88a8d1fbdd46b4ec7143c28baa263304d2d284cf22ad8e213e4bf4"
+    },
+    {
+      "message_id": 5722,
+      "filename": "2026 미적 엑셀 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5722_2026.1.pdf",
+      "size_bytes": 2306717,
+      "telegram_date": "2025-08-11T15:14:30+00:00",
+      "title": "2026 미적 엑셀 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5722.png",
+      "sha256": "8530db76b6978f24a9ed2bbf830b1f52640ebbf999de484c507e6b2ec03673d2"
     }
   ],
   "duplicate_message_ids": [
