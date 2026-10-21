@@ -167397,6 +167397,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5724.png",
       "sha256": "1c67355fbc3e0704db6ca789cd34a4ab3986a1b3d878f8e28d45d1eac77d11e6"
+    },
+    {
+      "message_id": 5723,
+      "filename": "2026 공통 엑셀 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5723_2026.1.pdf",
+      "size_bytes": 2147538,
+      "telegram_date": "2025-08-11T15:14:30+00:00",
+      "title": "2026 공통 엑셀 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5723.png",
+      "sha256": "93fc76b30f88a8d1fbdd46b4ec7143c28baa263304d2d284cf22ad8e213e4bf4"
     }
   ],
   "duplicate_message_ids": [
