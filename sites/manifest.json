@@ -168307,6 +168307,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5608.png",
       "sha256": "8cec48ea7eb2c94cadeb64ba5bdffe8d97fda3781e7f3a750e74e46b9be8a2a2"
+    },
+    {
+      "message_id": 5607,
+      "filename": "04.3월_고3_과학(지구과학1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5607_04.3._.3_.1.pdf",
+      "size_bytes": 1025818,
+      "telegram_date": "2025-08-11T15:14:20+00:00",
+      "title": "04.3월_고3_과학(지구과학1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5607.png",
+      "sha256": "ed0f7222a1f0ccd6d5b877a08d1b773ed4fbd114c25eb55be95e09f819338773"
     }
   ],
   "duplicate_message_ids": [
