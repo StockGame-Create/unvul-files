@@ -165143,6 +165143,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5926.png",
       "sha256": "ed6d981fc010393d59d19037d681e397352cdc0ffe71ae1d1c91f4e4b7bcfacd"
+    },
+    {
+      "message_id": 5925,
+      "filename": "수학 전국 서바 16회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5925_.16.pdf",
+      "size_bytes": 40165658,
+      "telegram_date": "2025-08-11T15:17:02+00:00",
+      "title": "수학 전국 서바 16회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5925.png",
+      "sha256": "c2bcab9c2e1b67d176d73422127753d0a7de3d222b299dc0f12387e4ad682e39"
     }
   ],
   "duplicate_message_ids": [
