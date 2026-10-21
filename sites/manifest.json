@@ -164793,6 +164793,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5955.png",
       "sha256": "4b754ace6e3a07c0c6ef1a60a341393449189c835baaf515482929d69dc41aa8"
+    },
+    {
+      "message_id": 5954,
+      "filename": "지1 강대 16주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5954_.1.16.pdf",
+      "size_bytes": 88352604,
+      "telegram_date": "2025-08-11T15:17:05+00:00",
+      "title": "지1 강대 16주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5954.png",
+      "sha256": "f3bdba86ac05d5ae4b25bb186a97943fd241794782b6fc5a87f38bcc97736f4b"
     }
   ],
   "duplicate_message_ids": [
