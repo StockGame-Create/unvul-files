@@ -163983,6 +163983,20 @@
       "sha256": "6e44fa7b5b960a6cb7bbc62d4653a3e66e2475cad9a174374b947cde017bff8b"
     },
     {
+      "message_id": 6015,
+      "filename": "일브 29.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6015_.29.pdf",
+      "size_bytes": 17862532,
+      "telegram_date": "2025-08-11T15:17:13+00:00",
+      "title": "일브 29",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6015.png",
+      "sha256": "caca0f14bef52c00ccb960578dc9e0cb587fefd266c522b61723a351f1ffd616"
+    },
+    {
       "message_id": 5995,
       "filename": "5a_과학탐구.pdf",
       "stored_as": null,
