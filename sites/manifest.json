@@ -166039,6 +166039,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5859.png",
       "sha256": "2f01fbe49273c390707216ea3e675899f1d80a2967a18889e9957469005760e8"
+    },
+    {
+      "message_id": 5858,
+      "filename": "C25AF56118MX011_1RRJAN.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5858_C25AF56118MX011_1RRJAN.PDF",
+      "size_bytes": 4997478,
+      "telegram_date": "2025-08-11T15:16:59+00:00",
+      "title": "C25AF56118MX011_1RRJAN",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5858.png",
+      "sha256": "184ccd2c47fdaa6fb74d1b32a265718d4592da388eae3f35aa44a782c288dd38"
     }
   ],
   "duplicate_message_ids": [
