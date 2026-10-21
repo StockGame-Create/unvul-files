@@ -165381,6 +165381,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5908.png",
       "sha256": "ee4d001dbbb8a35d45a738a31ce7236b219ec075be1b8643267673562f80711b"
+    },
+    {
+      "message_id": 5907,
+      "filename": "스러너 f 2-3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5907_.f.2-3.pdf",
+      "size_bytes": 17295199,
+      "telegram_date": "2025-08-11T15:17:01+00:00",
+      "title": "스러너 f 2-3",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5907.png",
+      "sha256": "2783b520cb0a1dd0b44914a5bb8e72cd0aed0d303a1d46f4acb1c95da0f532d0"
     }
   ],
   "duplicate_message_ids": [
