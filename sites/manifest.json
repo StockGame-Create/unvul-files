@@ -167257,6 +167257,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5738.png",
       "sha256": "b547bf9838793284c0fb2696de99d8b0bd9021e615a11df49d4f0b2093808601"
+    },
+    {
+      "message_id": 5737,
+      "filename": "현정훈 시즌2 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5737_.2.1.pdf",
+      "size_bytes": 10028716,
+      "telegram_date": "2025-08-11T15:14:30+00:00",
+      "title": "현정훈 시즌2 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5737.png",
+      "sha256": "b9a5fc63073acd4706f3d787d3d4af0cfd94fccc97d61e82f2c752bd99e81d18"
     }
   ],
   "duplicate_message_ids": [
