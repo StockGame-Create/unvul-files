@@ -164165,6 +164165,20 @@
       "sha256": "bc3fe3df72302bd33cbd3def0b0a94dbb52fe42f8455648f432c9b52df77feaf"
     },
     {
+      "message_id": 6002,
+      "filename": "수학 브로커 파이널 2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/6002_.2.pdf",
+      "size_bytes": 17594183,
+      "telegram_date": "2025-08-11T15:17:08+00:00",
+      "title": "수학 브로커 파이널 2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/6002.png",
+      "sha256": "df58260f231e8d1fff70b4e70689a281943b701c35d61142020bbc9d34600937"
+    },
+    {
       "message_id": 5995,
       "filename": "5a_과학탐구.pdf",
       "stored_as": null,
