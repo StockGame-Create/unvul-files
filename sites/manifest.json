@@ -164723,6 +164723,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5959.png",
       "sha256": "cbd568f7b18be9f69e5d90baa5c0bbeaaae748b87b409bcb83a2c1553f60606f"
+    },
+    {
+      "message_id": 5958,
+      "filename": "지구과학_서바이벌_노트_23,24회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-12/5958_._._._23.24.pdf",
+      "size_bytes": 73034417,
+      "telegram_date": "2025-08-11T15:17:05+00:00",
+      "title": "지구과학_서바이벌_노트_23,24회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5958.png",
+      "sha256": "640dfec1c60e702d8050055dafa5f56f4146670a17ac6f4d15d4fb0cef573288"
     }
   ],
   "duplicate_message_ids": [
