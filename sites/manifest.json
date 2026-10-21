@@ -168139,6 +168139,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5648.png",
       "sha256": "b648dc247d163c4c1d2cf98cf202c275df0fc9f16faa64e280dfae8081007612"
+    },
+    {
+      "message_id": 5639,
+      "filename": "2025_3_공통_해설_한완기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5639_2025_3_._._.pdf",
+      "size_bytes": 1309580,
+      "telegram_date": "2025-08-11T15:14:22+00:00",
+      "title": "2025_3_공통_해설_한완기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5639.png",
+      "sha256": "5515902166a6d07e30f9ae18980f415ed40e0a30076af831d9d586efc49267a1"
     }
   ],
   "duplicate_message_ids": [
