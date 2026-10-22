@@ -85,6 +85,20 @@
       "sha256": "a0af5f5ff57c6961ef76b1cec0dafa0ebb2e73748602f50f6f1d2c338fc747fe"
     },
     {
+      "message_id": 25710,
+      "filename": "10섶 지구.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25710_10.pdf",
+      "size_bytes": 4511124,
+      "telegram_date": "2026-10-22T14:17:02+00:00",
+      "title": "지1 시대인재 10월 전국모의평가 #서프",
+      "year": "2027",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25710.png",
+      "sha256": "09e8a0a50a6a36ee563ec1cb3726ff978d329580e57cd79493ad952b97c3ea95"
+    },
+    {
       "message_id": 25698,
       "filename": "2027_세계사_김종웅_모의고사_15회_빠답.pdf",
       "stored_as": null,
