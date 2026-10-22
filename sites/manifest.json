@@ -168939,6 +168939,20 @@
       "sha256": "5d5f060fcecc965722e9f45df0194f8b5624364143dd710509ca420ceacbd27c"
     },
     {
+      "message_id": 5569,
+      "filename": "2026학년도_시대인재_트러스_모의고사_2회_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5569_2026._._._._2._.pdf",
+      "size_bytes": 7441811,
+      "telegram_date": "2025-08-11T15:14:18+00:00",
+      "title": "2026학년도_시대인재_트러스_모의고사_2회_문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5569.png",
+      "sha256": "fd83b91950dccc7eb42ced90235eecd1b69028f1ad1b0d2080e56b1414e28106"
+    },
+    {
       "message_id": 5567,
       "filename": "세지2.pdf",
       "stored_as": null,
