@@ -169525,6 +169525,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5190.png",
       "sha256": "936946fe0fdef6272255550c1d73d853157a853dca95279b91a2e7ea6a00fb71"
+    },
+    {
+      "message_id": 5182,
+      "filename": "김연호T_T05_다인자독립_학평.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5182_.T_T05_._.pdf",
+      "size_bytes": 161259,
+      "telegram_date": "2025-08-11T15:11:50+00:00",
+      "title": "김연호T_T05_다인자독립_학평",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5182.png",
+      "sha256": "f59fcc946e277bf674860b896318f271f600200fbec1a84b3cc75d2c6666353e"
     }
   ],
   "duplicate_message_ids": [
