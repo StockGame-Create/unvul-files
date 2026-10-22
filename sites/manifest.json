@@ -168741,6 +168741,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5418.png",
       "sha256": "37b7664d77755c3cf5d029dc84478dab7a62bafad39e3bcbbed8cb9a3808bbb6"
+    },
+    {
+      "message_id": 5417,
+      "filename": "3평 물리1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5417_3.1.pdf",
+      "size_bytes": 2149159,
+      "telegram_date": "2025-08-11T15:13:06+00:00",
+      "title": "3평 물리1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5417.png",
+      "sha256": "2ee780fb578cf15fe62b73dbdc29b91aef246d0751aab85c0ee41545409245c6"
     }
   ],
   "duplicate_message_ids": [
