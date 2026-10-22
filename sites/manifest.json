@@ -169359,6 +169359,20 @@
       "sha256": "40a62d04c98a926b87eb89d3975b4ff9dbe16c38f0171440fb0346b9d72c4f30"
     },
     {
+      "message_id": 5527,
+      "filename": "올림포스_독해의기본_1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5527_._._1.pdf",
+      "size_bytes": 139017472,
+      "telegram_date": "2025-08-11T15:13:18+00:00",
+      "title": "올림포스_독해의기본_1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5527.png",
+      "sha256": "45cb25ec3e5625a7f541594386e0f6e77be4be469d15e74bcfdd5139362edcf1"
+    },
+    {
       "message_id": 5512,
       "filename": "2026기출의_테마_DNA_1_0_2주차.pdf",
       "stored_as": null,
