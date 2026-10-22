@@ -169427,6 +169427,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5230.png",
       "sha256": "a72ec7c1452a1cb09efc153342eb2c8c4a08631795a301231084745222f880c8"
+    },
+    {
+      "message_id": 5229,
+      "filename": "현정훈_모의고사_시즌1_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5229_._._.1_2.pdf",
+      "size_bytes": 2795457,
+      "telegram_date": "2025-08-11T15:11:52+00:00",
+      "title": "현정훈_모의고사_시즌1_2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5229.png",
+      "sha256": "7257a11ae1b207cd2e5597803010335abe6ad452008710ffa18884a957604f2b"
     }
   ],
   "duplicate_message_ids": [
