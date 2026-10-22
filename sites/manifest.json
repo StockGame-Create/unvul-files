@@ -169107,6 +169107,20 @@
       "sha256": "63ee09e8f08dc5c7cfb74e375686be881af559ba31a8fa31d072765bd452a23e"
     },
     {
+      "message_id": 5557,
+      "filename": "범모해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5557_.pdf",
+      "size_bytes": 14097248,
+      "telegram_date": "2025-08-11T15:13:22+00:00",
+      "title": "범모해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5557.png",
+      "sha256": "90fedb50c4e1f84e6617cd25bd6dfcdc4d86093b4ab6b0ade9bf4967dce48b79"
+    },
+    {
       "message_id": 5532,
       "filename": "2026_더프_3월_수학_손해설_신성규T.pdf",
       "stored_as": null,
