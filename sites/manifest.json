@@ -168855,6 +168855,20 @@
       "sha256": "29572eaa4161228c3e36aae7c1d28835cbce9643fea868a1bb6d2b956ba12113"
     },
     {
+      "message_id": 5581,
+      "filename": "lcs4core-edge.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5581_lcs4core-edge.pdf",
+      "size_bytes": 23408665,
+      "telegram_date": "2025-08-11T15:14:19+00:00",
+      "title": "lcs4core-edge",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5581.png",
+      "sha256": "caac5ddb4c7c4f3cea5f261c520b5369a201c90c4c8ca2e035996ae216a74e77"
+    },
+    {
       "message_id": 5567,
       "filename": "세지2.pdf",
       "stored_as": null,
