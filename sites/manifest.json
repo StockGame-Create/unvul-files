@@ -168631,6 +168631,20 @@
       "sha256": "a8389cd4275b2d7f86585db0d004b8a1d23eabb74281b8b34e1098d5f0149536"
     },
     {
+      "message_id": 5597,
+      "filename": "엔티켓 수1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5597_.1.pdf",
+      "size_bytes": 32058497,
+      "telegram_date": "2025-08-11T15:14:20+00:00",
+      "title": "엔티켓 수1 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5597.png",
+      "sha256": "63cd64c94b9d441718a59c07595d28bc32d09240d3d6d0fe3bd91a44dcc979b8"
+    },
+    {
       "message_id": 5594,
       "filename": "정답.pdf",
       "stored_as": null,
