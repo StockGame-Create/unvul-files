@@ -169021,6 +169021,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5377.png",
       "sha256": "1f8a66cbd778870be7a1fcf828a380202597c0e825ca18dc5ffbe8f9842ca9e3"
+    },
+    {
+      "message_id": 5370,
+      "filename": "복테10주차해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5370_.10.pdf",
+      "size_bytes": 267179,
+      "telegram_date": "2025-08-11T15:13:03+00:00",
+      "title": "복테10주차해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5370.png",
+      "sha256": "8483c7a8193714f7f546e513156987e3cc6fdc30e93a4984852a97e3b65f3118"
     }
   ],
   "duplicate_message_ids": [
