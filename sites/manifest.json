@@ -169007,6 +169007,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5379.png",
       "sha256": "f8041b391cd458676080a51e83469a809741762922c4eac38dcc22193c21481a"
+    },
+    {
+      "message_id": 5377,
+      "filename": "2026 지인선 N제 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5377_2026.N.3.pdf",
+      "size_bytes": 980769,
+      "telegram_date": "2025-08-11T15:13:04+00:00",
+      "title": "2026 지인선 N제 3회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5377.png",
+      "sha256": "1f8a66cbd778870be7a1fcf828a380202597c0e825ca18dc5ffbe8f9842ca9e3"
     }
   ],
   "duplicate_message_ids": [
