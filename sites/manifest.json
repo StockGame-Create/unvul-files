@@ -168925,6 +168925,20 @@
       "sha256": "9f7657588633e77b31290df1f1b5b32aded4552032417f4a4436a7aeaaf2a58a"
     },
     {
+      "message_id": 5570,
+      "filename": "아폴로 시즌1 - 7주차 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5570_.1.-.7.1.pdf",
+      "size_bytes": 108188332,
+      "telegram_date": "2025-08-11T15:14:18+00:00",
+      "title": "아폴로 시즌1 - 7주차 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5570.png",
+      "sha256": "5d5f060fcecc965722e9f45df0194f8b5624364143dd710509ca420ceacbd27c"
+    },
+    {
       "message_id": 5567,
       "filename": "세지2.pdf",
       "stored_as": null,
