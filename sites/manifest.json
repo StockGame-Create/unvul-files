@@ -169135,6 +169135,20 @@
       "sha256": "17a7672455cf381f7d5b82e150727f73c1892941ab06dfde8a2c4ac0f3b24924"
     },
     {
+      "message_id": 5548,
+      "filename": "김현우T 스탠다드 미적분 해설집 01.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5548_.T.01.pdf",
+      "size_bytes": 24185745,
+      "telegram_date": "2025-08-11T15:13:21+00:00",
+      "title": "김현우T 스탠다드 미적분 해설집 01",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5548.png",
+      "sha256": "cec76581bda69ebb6806e157259ca24e03085a87e8a48621cf9a1a07175e8ac1"
+    },
+    {
       "message_id": 5532,
       "filename": "2026_더프_3월_수학_손해설_신성규T.pdf",
       "stored_as": null,
