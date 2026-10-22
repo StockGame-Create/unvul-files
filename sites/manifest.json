@@ -169301,6 +169301,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5274.png",
       "sha256": "c038f683f9ade12e6b00887d38da86ba1182258735812058fd94b95b917e578d"
+    },
+    {
+      "message_id": 5273,
+      "filename": "11주차_복습테스트_해설지_배포용.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5273_11._._._.pdf",
+      "size_bytes": 117859,
+      "telegram_date": "2025-08-11T15:11:57+00:00",
+      "title": "11주차_복습테스트_해설지_배포용",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5273.png",
+      "sha256": "952cbc0dab9493af33d72afcc79866305aa247d885c36899ad67c7beb860bce1"
     }
   ],
   "duplicate_message_ids": [
