@@ -168685,6 +168685,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5451.png",
       "sha256": "d21651e71c4c58697e568c36817858b3f597f8803bf30473e2bb24b37a9fc573"
+    },
+    {
+      "message_id": 5436,
+      "filename": "2026_스탠다드_도형_복습테스트_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5436_2026_._._._.pdf",
+      "size_bytes": 987335,
+      "telegram_date": "2025-08-11T15:13:08+00:00",
+      "title": "2026_스탠다드_도형_복습테스트_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5436.png",
+      "sha256": "96f9153ad1799a86440573c934206f8f3e19d822a6c7f198ef0674f2fdcf23aa"
     }
   ],
   "duplicate_message_ids": [
