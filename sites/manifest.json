@@ -168643,6 +168643,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5468.png",
       "sha256": "cb08b966e8cfebf26a859967ad9d7142974c8ea1d99eb214377d481a92d75053"
+    },
+    {
+      "message_id": 5463,
+      "filename": "더프 3월 수학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5463_.3.pdf",
+      "size_bytes": 6040698,
+      "telegram_date": "2025-08-11T15:13:10+00:00",
+      "title": "더프 3월 수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5463.png",
+      "sha256": "62810df1a8814a36aecbdcac4223336608d26fde2a9fe42c0d786da60c893a79"
     }
   ],
   "duplicate_message_ids": [
