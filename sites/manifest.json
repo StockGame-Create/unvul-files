@@ -168827,6 +168827,20 @@
       "sha256": "3ce4b2c4716bb2b8077e49fe95e7569a9025de372bffc3e3865625d8800ecef0"
     },
     {
+      "message_id": 5585,
+      "filename": "아폴로 4호_250123_154038.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5585_.4._250123_154038.pdf",
+      "size_bytes": 207673055,
+      "telegram_date": "2025-08-11T15:14:19+00:00",
+      "title": "아폴로 4호_250123_154038",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5585.png",
+      "sha256": "bdf4634e1603d25239a559f08ed71a2d06f0fba49927a91224f162cd311992f9"
+    },
+    {
       "message_id": 5567,
       "filename": "세지2.pdf",
       "stored_as": null,
