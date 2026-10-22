@@ -168589,6 +168589,20 @@
       "sha256": "0d15487ae25725ac39f9661ae075a48c20db74138e9c218397cf7b26633d4c24"
     },
     {
+      "message_id": 5601,
+      "filename": "2026_국어_박광일_GTR_문법.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5601_2026_._._GTR_.pdf",
+      "size_bytes": 183552370,
+      "telegram_date": "2025-08-11T15:14:20+00:00",
+      "title": "2026_국어_박광일_GTR_문법",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5601.png",
+      "sha256": "dac7f6db950d1b9a46d55d69c5d9a3c880aa0fe58609274326cdaaaa7abdeb9d"
+    },
+    {
       "message_id": 5594,
       "filename": "정답.pdf",
       "stored_as": null,
