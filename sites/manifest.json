@@ -168547,6 +168547,20 @@
       "sha256": "262f43f1d0369172ab154a8b324d8582f732e14584cdff30cde0198c4319b716"
     },
     {
+      "message_id": 5604,
+      "filename": "2026 홍준용 T&S 1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5604_2026.T.S.1.pdf",
+      "size_bytes": 126011893,
+      "telegram_date": "2025-08-11T15:14:20+00:00",
+      "title": "2026 홍준용 T&S 1권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5604.png",
+      "sha256": "e4b14160af427e05e48d876089bd6df5688794feb00aebd67a25ed3d7a472a95"
+    },
+    {
       "message_id": 5594,
       "filename": "정답.pdf",
       "stored_as": null,
