@@ -168629,6 +168629,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5476.png",
       "sha256": "bcd5f3bc3592c867f1beb484795f4c554aea2a17dd7f98454c6a531ee9f0d9c9"
+    },
+    {
+      "message_id": 5468,
+      "filename": "★공문_바로잡음_THE_PREMIUM_3월_고3_생명과학Ⅰ_문항_내용_정정_안내_250318_160454.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5468_._._THE_PREMIUM_3._.3_._._._._._250318_160454.pdf",
+      "size_bytes": 71845,
+      "telegram_date": "2025-08-11T15:13:10+00:00",
+      "title": "★공문_바로잡음_THE_PREMIUM_3월_고3_생명과학Ⅰ_문항_내용_정정_안내_250318_160454",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5468.png",
+      "sha256": "cb08b966e8cfebf26a859967ad9d7142974c8ea1d99eb214377d481a92d75053"
     }
   ],
   "duplicate_message_ids": [
