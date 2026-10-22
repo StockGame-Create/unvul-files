@@ -169261,6 +169261,20 @@
       "sha256": "b9c15a6dc679fc1f91bf7cd99f1c2e6d5e9968336a4739b5f28e498a5720a7d6"
     },
     {
+      "message_id": 5539,
+      "filename": "김현우T 스탠다드 미적분 문제집 01.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5539_.T.01.pdf",
+      "size_bytes": 24944828,
+      "telegram_date": "2025-08-11T15:13:18+00:00",
+      "title": "김현우T 스탠다드 미적분 문제집 01",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5539.png",
+      "sha256": "4b4bf871086ae3c411943697a8d8aa740adb43f3ea4cd364c131487e6cbaaeec"
+    },
+    {
       "message_id": 5512,
       "filename": "2026기출의_테마_DNA_1_0_2주차.pdf",
       "stored_as": null,
