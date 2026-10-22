@@ -71,6 +71,20 @@
       "sha256": "3f16cc491ee12ffde58be2dc02740f65b5fc42d8ddebcdab869199f8d6dbc95f"
     },
     {
+      "message_id": 25712,
+      "filename": "김승리_비연계_실전_모의고사_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25712_._._._._2.pdf",
+      "size_bytes": 24267110,
+      "telegram_date": "2026-10-22T14:17:03+00:00",
+      "title": "국어 김승리 비연계 실전 모의고사 2회",
+      "year": "2027",
+      "instructor": "김승리",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25712.png",
+      "sha256": "a0af5f5ff57c6961ef76b1cec0dafa0ebb2e73748602f50f6f1d2c338fc747fe"
+    },
+    {
       "message_id": 25698,
       "filename": "2027_세계사_김종웅_모의고사_15회_빠답.pdf",
       "stored_as": null,
