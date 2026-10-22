@@ -57,6 +57,20 @@
       "sha256": "db08eb17ff506627d30b8622aa6c26553ce3306996dfbfd2a87c2ab981c55d01"
     },
     {
+      "message_id": 25715,
+      "filename": "마스터피스 시즌2 3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25715_.2.3.pdf",
+      "size_bytes": 24434946,
+      "telegram_date": "2026-10-22T14:17:04+00:00",
+      "title": "영어 마스터피스 모의고사 시즌 Two 1~3회",
+      "year": "2027",
+      "instructor": "션티",
+      "subject": "영어",
+      "thumbnail": "thumbnails/25715.png",
+      "sha256": "3f16cc491ee12ffde58be2dc02740f65b5fc42d8ddebcdab869199f8d6dbc95f"
+    },
+    {
       "message_id": 25698,
       "filename": "2027_세계사_김종웅_모의고사_15회_빠답.pdf",
       "stored_as": null,
