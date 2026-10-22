@@ -169343,6 +169343,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5268.png",
       "sha256": "bb0823569a0fa400bac5a33861d04f718b3286729e3b1e3c7a94a6331056a7b8"
+    },
+    {
+      "message_id": 5263,
+      "filename": "김연호T_8주차복습테스트_Test07.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5263_.T_8._Test07.pdf",
+      "size_bytes": 350431,
+      "telegram_date": "2025-08-11T15:11:57+00:00",
+      "title": "김연호T_8주차복습테스트_Test07",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5263.png",
+      "sha256": "c20efa9f38b35408d9063947ffa29f593e0cef067d0aa4ca46c721083eef997e"
     }
   ],
   "duplicate_message_ids": [
