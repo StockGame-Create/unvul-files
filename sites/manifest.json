@@ -168587,6 +168587,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5512.png",
       "sha256": "a7f283e2772332121c1634730031638e8a1eddd7cf30859aad2ce320840925b3"
+    },
+    {
+      "message_id": 5481,
+      "filename": "Test_1s_rhythM_1_7회차_빠른정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5481_Test_1s_rhythM_1_7._.pdf",
+      "size_bytes": 520820,
+      "telegram_date": "2025-08-11T15:13:15+00:00",
+      "title": "Test_1s_rhythM_1_7회차_빠른정답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5481.png",
+      "sha256": "c762c33c5091ba24f7ace44aa7200a3d20a1ea32b055183f112571395b413c45"
     }
   ],
   "duplicate_message_ids": [
