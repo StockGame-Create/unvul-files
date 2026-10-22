@@ -169511,6 +169511,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5196.png",
       "sha256": "dfe042ede3d32d30891815ea4ea35b072c82f7a2218a2967628e90f94e83d79b"
+    },
+    {
+      "message_id": 5190,
+      "filename": "수2_미적분_9주차_교재파일.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5190_.2_._9._.pdf",
+      "size_bytes": 2321557,
+      "telegram_date": "2025-08-11T15:11:50+00:00",
+      "title": "수2_미적분_9주차_교재파일",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5190.png",
+      "sha256": "936946fe0fdef6272255550c1d73d853157a853dca95279b91a2e7ea6a00fb71"
     }
   ],
   "duplicate_message_ids": [
