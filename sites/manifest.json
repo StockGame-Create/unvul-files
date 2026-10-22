@@ -29,6 +29,20 @@
       "sha256": "c55fd26836deb0dbcd36e624784c3cfc3700d35aafc22dea02619aa24bc76438"
     },
     {
+      "message_id": 25718,
+      "filename": "마스터피스_시즌2_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25718_._.2_.pdf",
+      "size_bytes": 142819002,
+      "telegram_date": "2026-10-22T14:17:13+00:00",
+      "title": "영어 마스터피스 모의고사 시즌 Two 1~3회",
+      "year": "2027",
+      "instructor": "션티",
+      "subject": "영어",
+      "thumbnail": "thumbnails/25718.png",
+      "sha256": "21f3c1f9c64b0e8558d3ccc7c8ad0f9e74ec8ffdb1e4d59e093136c10a25cf8b"
+    },
+    {
       "message_id": 25717,
       "filename": "마스터피스 시즌2 1회.pdf",
       "stored_as": null,
