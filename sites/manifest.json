@@ -169455,6 +169455,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5225.png",
       "sha256": "eb4912e5f23eb257a8c69082cb02a24204f7984c08f531796bd9b833e2426873"
+    },
+    {
+      "message_id": 5218,
+      "filename": "미적분_비기너스5주차_필기본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5218_._.5._.pdf",
+      "size_bytes": 4468083,
+      "telegram_date": "2025-08-11T15:11:51+00:00",
+      "title": "미적분_비기너스5주차_필기본",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5218.png",
+      "sha256": "10bd505fba8ce0de80ad3063f2a30999466142b958f12c6f8f9875bf45824b92"
     }
   ],
   "duplicate_message_ids": [
