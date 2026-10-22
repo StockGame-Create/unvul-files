@@ -169345,6 +169345,20 @@
       "sha256": "928b34bbf6d57b0f8c21e3eab4189b7054ea778ee6fae2a84375125d57987239"
     },
     {
+      "message_id": 5531,
+      "filename": "김기현 싱글커넥션.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5531_.pdf",
+      "size_bytes": 18843752,
+      "telegram_date": "2025-08-11T15:13:18+00:00",
+      "title": "김기현 싱글커넥션",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5531.png",
+      "sha256": "40a62d04c98a926b87eb89d3975b4ff9dbe16c38f0171440fb0346b9d72c4f30"
+    },
+    {
       "message_id": 5512,
       "filename": "2026기출의_테마_DNA_1_0_2주차.pdf",
       "stored_as": null,
