@@ -169245,6 +169245,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5285.png",
       "sha256": "5ac20d425b7197da887eb61d04af996c74eb5580a6373a537da25a07c58e3f1f"
+    },
+    {
+      "message_id": 5279,
+      "filename": "8주차 복테.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5279_8.pdf",
+      "size_bytes": 534667,
+      "telegram_date": "2025-08-11T15:11:58+00:00",
+      "title": "8주차 복테",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5279.png",
+      "sha256": "7bf8eb40a03e11c65d2b56cf0d3f419b029a8c23ff2342b93157185d810ec9d5"
     }
   ],
   "duplicate_message_ids": [
