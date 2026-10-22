@@ -169093,6 +169093,20 @@
       "sha256": "0c7ae9cba88bcb604fd185daf174acd4c2021aea056efa656bcae7e6a88e251a"
     },
     {
+      "message_id": 5568,
+      "filename": "세지3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5568_.3.pdf",
+      "size_bytes": 4856832,
+      "telegram_date": "2025-08-11T15:13:22+00:00",
+      "title": "세지3",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5568.png",
+      "sha256": "63ee09e8f08dc5c7cfb74e375686be881af559ba31a8fa31d072765bd452a23e"
+    },
+    {
       "message_id": 5532,
       "filename": "2026_더프_3월_수학_손해설_신성규T.pdf",
       "stored_as": null,
