@@ -141,6 +141,20 @@
       "sha256": "519db839e6e93cd6ed27f0a40cbbc8ee429f588c53a1f27b42d88db688c1e2dd"
     },
     {
+      "message_id": 25701,
+      "filename": "1782306725984_22개정완자기출픽_고등한국지리탐구_정답_260601.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25701_1782306725984_22._._._260601.pdf",
+      "size_bytes": 4812481,
+      "telegram_date": "2026-10-22T14:16:52+00:00",
+      "title": "사회 완자 기출픽 한국지리탐구",
+      "year": null,
+      "instructor": null,
+      "subject": "사회",
+      "thumbnail": "thumbnails/25701.png",
+      "sha256": "287e9d7f6c67b821d5bea343d2ef4cbfa9c20f914df79cee694a5a3e7a117b01"
+    },
+    {
       "message_id": 25698,
       "filename": "2027_세계사_김종웅_모의고사_15회_빠답.pdf",
       "stored_as": null,
