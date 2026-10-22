@@ -168645,6 +168645,20 @@
       "sha256": "63cd64c94b9d441718a59c07595d28bc32d09240d3d6d0fe3bd91a44dcc979b8"
     },
     {
+      "message_id": 5596,
+      "filename": "펀데멘탈 미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5596_.pdf",
+      "size_bytes": 69230158,
+      "telegram_date": "2025-08-11T15:14:20+00:00",
+      "title": "펀데멘탈 미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5596.png",
+      "sha256": "b92c4db3822317ab6185521b077910dafd5ae82b67e548d71b52176a9d1628e9"
+    },
+    {
       "message_id": 5594,
       "filename": "정답.pdf",
       "stored_as": null,
