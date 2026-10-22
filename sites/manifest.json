@@ -127,6 +127,20 @@
       "sha256": "3085842ae1a2ed53240158f4f4fe65d3e0a0589a8e968b83713652b327155fdd"
     },
     {
+      "message_id": 25707,
+      "filename": "2027 김진영 모의고사 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25707_2027.1.pdf",
+      "size_bytes": 5206163,
+      "telegram_date": "2026-10-22T14:16:55+00:00",
+      "title": "지1 김진영 모의고사 1, 2회",
+      "year": "2027",
+      "instructor": "김진영",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25707.png",
+      "sha256": "248d6768535e8a39505a24f71edced9b309c3a5e2701daa6c824f4c8c5d609ba"
+    },
+    {
       "message_id": 25705,
       "filename": "27 사문 전국 서바 15회.pdf",
       "stored_as": null,
