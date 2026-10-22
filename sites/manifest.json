@@ -168757,6 +168757,20 @@
       "sha256": "d4e2d37deadc0a81cefed15ac60860f4527f6f604698a32da28ed67a014166b1"
     },
     {
+      "message_id": 5590,
+      "filename": "2026 수학 김현우 스탠다드 미적분 3권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5590_2026.3.pdf",
+      "size_bytes": 21586514,
+      "telegram_date": "2025-08-11T15:14:19+00:00",
+      "title": "2026 수학 김현우 스탠다드 미적분 3권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5590.png",
+      "sha256": "5c9bc66a1684f307663f4cdf2a61a5f3573ed55d17a586ac52b385bd883baace"
+    },
+    {
       "message_id": 5567,
       "filename": "세지2.pdf",
       "stored_as": null,
