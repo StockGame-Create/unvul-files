@@ -169091,6 +169091,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5347.png",
       "sha256": "69e0b9d3d27ef4c8838b4ff11ec7d0904a12204a1063a07d6368cb50ebe9f318"
+    },
+    {
+      "message_id": 5346,
+      "filename": "2025_QEDN_프리뷰퀴즈_1회_v6_업로드용.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5346_2025_QEDN_._1._v6_.pdf",
+      "size_bytes": 2166983,
+      "telegram_date": "2025-08-11T15:12:05+00:00",
+      "title": "2025_QEDN_프리뷰퀴즈_1회_v6_업로드용",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5346.png",
+      "sha256": "9b3825e435fe6ddf397ac3ad51a908a1b00ca1e8482d20e18da8a369a200ad92"
     }
   ],
   "duplicate_message_ids": [
