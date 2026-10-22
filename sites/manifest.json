@@ -169105,6 +169105,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5346.png",
       "sha256": "9b3825e435fe6ddf397ac3ad51a908a1b00ca1e8482d20e18da8a369a200ad92"
+    },
+    {
+      "message_id": 5342,
+      "filename": "써킷 1회차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5342_.1.pdf",
+      "size_bytes": 2543773,
+      "telegram_date": "2025-08-11T15:12:04+00:00",
+      "title": "써킷 1회차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5342.png",
+      "sha256": "b432fdd8abb34f1cdc47cb2031b5cdb1a0e7594830f171e34da39c992e25374c"
     }
   ],
   "duplicate_message_ids": [
