@@ -168951,6 +168951,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5395.png",
       "sha256": "8732fd55d05e30153e89ed1486924a9b4a69b00f33eb0b3e94a928392cfb3833"
+    },
+    {
+      "message_id": 5394,
+      "filename": "2026 수학1 강기원 Preview Test 0주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5394_2026.1.Preview.Test.0.pdf",
+      "size_bytes": 3782166,
+      "telegram_date": "2025-08-11T15:13:05+00:00",
+      "title": "2026 수학1 강기원 Preview Test 0주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5394.png",
+      "sha256": "35c9f51d2d6a7578cc4e23c6921cdd49793e4bf33c44dae54251653f4885e14b"
     }
   ],
   "duplicate_message_ids": [
