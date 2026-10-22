@@ -168783,6 +168783,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5412.png",
       "sha256": "1ba58be9871d12ddfdddea8751d11c7f3f951cca76f3bdf46bc4d23788df17cd"
+    },
+    {
+      "message_id": 5411,
+      "filename": "2026시대인재브릿지_전국_모의고사_1회_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5411_2026._._._1._.pdf",
+      "size_bytes": 1964893,
+      "telegram_date": "2025-08-11T15:13:05+00:00",
+      "title": "2026시대인재브릿지_전국_모의고사_1회_해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5411.png",
+      "sha256": "92598e45b7108952d49fce17e416134f2cad3bc4728c88b370a66bec7a502849"
     }
   ],
   "duplicate_message_ids": [
