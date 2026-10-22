@@ -168603,6 +168603,20 @@
       "sha256": "dac7f6db950d1b9a46d55d69c5d9a3c880aa0fe58609274326cdaaaa7abdeb9d"
     },
     {
+      "message_id": 5600,
+      "filename": "김범준 3월 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5600_.3.pdf",
+      "size_bytes": 16848791,
+      "telegram_date": "2025-08-11T15:14:20+00:00",
+      "title": "김범준 3월 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5600.png",
+      "sha256": "310339c2851bfcd737f3b60104c7a08a07e1e77cb46c1fcc9bd110832a02e26c"
+    },
+    {
       "message_id": 5594,
       "filename": "정답.pdf",
       "stored_as": null,
