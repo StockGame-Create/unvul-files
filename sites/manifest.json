@@ -169077,6 +169077,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5364.png",
       "sha256": "45c1a71ec08c15bed4a1151c66dcb58f8b07d7e73b941859bd7b22638c565ed3"
+    },
+    {
+      "message_id": 5347,
+      "filename": "오메가 위클리 2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5347_.2.pdf",
+      "size_bytes": 3991043,
+      "telegram_date": "2025-08-11T15:12:05+00:00",
+      "title": "오메가 위클리 2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5347.png",
+      "sha256": "69e0b9d3d27ef4c8838b4ff11ec7d0904a12204a1063a07d6368cb50ebe9f318"
     }
   ],
   "duplicate_message_ids": [
