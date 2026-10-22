@@ -168841,6 +168841,20 @@
       "sha256": "bdf4634e1603d25239a559f08ed71a2d06f0fba49927a91224f162cd311992f9"
     },
     {
+      "message_id": 5582,
+      "filename": "강E분 1,2,3,4,5,6,7,8,14,15.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5582_.E.1.2.3.4.5.6.7.8.14.15.pdf",
+      "size_bytes": 34464758,
+      "telegram_date": "2025-08-11T15:14:19+00:00",
+      "title": "강E분 1,2,3,4,5,6,7,8,14,15",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5582.png",
+      "sha256": "29572eaa4161228c3e36aae7c1d28835cbce9643fea868a1bb6d2b956ba12113"
+    },
+    {
       "message_id": 5567,
       "filename": "세지2.pdf",
       "stored_as": null,
