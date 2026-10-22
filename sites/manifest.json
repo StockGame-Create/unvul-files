@@ -168533,6 +168533,20 @@
       "sha256": "ed0f7222a1f0ccd6d5b877a08d1b773ed4fbd114c25eb55be95e09f819338773"
     },
     {
+      "message_id": 5606,
+      "filename": "2026 TECH TREE 개념.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5606_2026.TECH.TREE.pdf",
+      "size_bytes": 109539852,
+      "telegram_date": "2025-08-11T15:14:20+00:00",
+      "title": "2026 TECH TREE 개념",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5606.png",
+      "sha256": "262f43f1d0369172ab154a8b324d8582f732e14584cdff30cde0198c4319b716"
+    },
+    {
       "message_id": 5594,
       "filename": "정답.pdf",
       "stored_as": null,
