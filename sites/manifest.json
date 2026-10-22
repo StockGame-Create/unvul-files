@@ -168701,6 +168701,20 @@
       "sha256": "4f8b24672dca33e5d5959c0586cb4ec7e957a2f55dc6722795b9bc34f97a41c2"
     },
     {
+      "message_id": 5595,
+      "filename": "펀데멘탈 미적분 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5595_.pdf",
+      "size_bytes": 32110311,
+      "telegram_date": "2025-08-11T15:14:19+00:00",
+      "title": "펀데멘탈 미적분 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5595.png",
+      "sha256": "5857f2e6de0a7854135fced713ec98a0de74d8cbfbe0acd9672400cffe86df7c"
+    },
+    {
       "message_id": 5567,
       "filename": "세지2.pdf",
       "stored_as": null,
