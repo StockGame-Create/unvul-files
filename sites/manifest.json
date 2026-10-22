@@ -169471,6 +169471,20 @@
       "sha256": "052eb155f20b5a1f4703214d62f09168db89375789db73f0d5b04b852ba42281"
     },
     {
+      "message_id": 5514,
+      "filename": "해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5514_.pdf",
+      "size_bytes": 370328295,
+      "telegram_date": "2025-08-11T15:13:17+00:00",
+      "title": "해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5514.png",
+      "sha256": "145e6ebfd77c9d836e18c545375a8098f0b0a0d4c4b964508d4986c8a12402a1"
+    },
+    {
       "message_id": 5481,
       "filename": "Test_1s_rhythM_1_7회차_빠른정답.pdf",
       "stored_as": null,
