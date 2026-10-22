@@ -169399,6 +169399,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5242.png",
       "sha256": "3616fbe11ce8b25dabbea67427689dbfcfeb093af7a2286b84c9ffa160b29683"
+    },
+    {
+      "message_id": 5241,
+      "filename": "2026 지인선 N제 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5241_2026.N.1.pdf",
+      "size_bytes": 1066371,
+      "telegram_date": "2025-08-11T15:11:55+00:00",
+      "title": "2026 지인선 N제 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5241.png",
+      "sha256": "e81d4f26559f342c90c61dac819720a4cd194b1b75b5fdd1f4f813802b1f59fa"
     }
   ],
   "duplicate_message_ids": [
