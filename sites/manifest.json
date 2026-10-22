@@ -169035,6 +169035,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5370.png",
       "sha256": "8483c7a8193714f7f546e513156987e3cc6fdc30e93a4984852a97e3b65f3118"
+    },
+    {
+      "message_id": 5366,
+      "filename": "이기상_한지_회차별_모고.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5366_._._._.PDF",
+      "size_bytes": 4203373,
+      "telegram_date": "2025-08-11T15:13:03+00:00",
+      "title": "이기상_한지_회차별_모고",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5366.png",
+      "sha256": "e85104ae96ee51f62dedbefceab89652688b1eb9cb1679daccb89b1e71d57cf6"
     }
   ],
   "duplicate_message_ids": [
