@@ -168601,6 +168601,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5481.png",
       "sha256": "c762c33c5091ba24f7ace44aa7200a3d20a1ea32b055183f112571395b413c45"
+    },
+    {
+      "message_id": 5477,
+      "filename": "또선생_3월_학평대비_SNATCH_모의고사_문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5477_._3._._SNATCH_._.pdf",
+      "size_bytes": 954181,
+      "telegram_date": "2025-08-11T15:13:15+00:00",
+      "title": "또선생_3월_학평대비_SNATCH_모의고사_문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5477.png",
+      "sha256": "fe0a041dc57201b8622dcc184e210a0966cad4ff88259d72b9af2b496fe86ecc"
     }
   ],
   "duplicate_message_ids": [
