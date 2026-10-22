@@ -168713,6 +168713,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5433.png",
       "sha256": "ebfc5c86e935d49bed8ce6089828837f9aaa9a1ee38474cff041101caad0c761"
+    },
+    {
+      "message_id": 5427,
+      "filename": "세지4.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5427_.4.pdf",
+      "size_bytes": 4356678,
+      "telegram_date": "2025-08-11T15:13:07+00:00",
+      "title": "세지4",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5427.png",
+      "sha256": "8a8834b5299a82122b1042e96b4ed13e3b1917f1fa22892ad06f6cccaab10da6"
     }
   ],
   "duplicate_message_ids": [
