@@ -168575,6 +168575,20 @@
       "sha256": "212464d4b2da1a72f9787d26ca312ba443a8cdc0bc2d63219b159832a6b7abec"
     },
     {
+      "message_id": 5602,
+      "filename": "2026_수학_강윤구_필수유형공략법_미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5602_2026_._._._.pdf",
+      "size_bytes": 201340670,
+      "telegram_date": "2025-08-11T15:14:20+00:00",
+      "title": "2026_수학_강윤구_필수유형공략법_미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5602.png",
+      "sha256": "0d15487ae25725ac39f9661ae075a48c20db74138e9c218397cf7b26633d4c24"
+    },
+    {
       "message_id": 5594,
       "filename": "정답.pdf",
       "stored_as": null,
