@@ -168993,6 +168993,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5380.png",
       "sha256": "282f07a752b7f4f8ccf88d8d6ab1345d787fd889e840a4258c88256960c70eca"
+    },
+    {
+      "message_id": 5379,
+      "filename": "2026_김현우T_6주차_복습테스트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5379_2026_.T_6._.pdf",
+      "size_bytes": 4546193,
+      "telegram_date": "2025-08-11T15:13:04+00:00",
+      "title": "2026_김현우T_6주차_복습테스트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5379.png",
+      "sha256": "f8041b391cd458676080a51e83469a809741762922c4eac38dcc22193c21481a"
     }
   ],
   "duplicate_message_ids": [
