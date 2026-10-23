@@ -172145,6 +172145,20 @@
       "sha256": "dbd6e78617334f65c88fefbe49c42a76a0c06d7fa4ccbe8e5959cdc682fa7d1f"
     },
     {
+      "message_id": 5255,
+      "filename": "2026_한완기_교사경_확통_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5255_2026_._._._.pdf",
+      "size_bytes": 135055136,
+      "telegram_date": "2025-08-11T15:11:56+00:00",
+      "title": "2026_한완기_교사경_확통_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5255.png",
+      "sha256": "3f23982b5e1a3265b683e4a27c08b97a2ca1f55ee743cfe89273c2c279c4577c"
+    },
+    {
       "message_id": 5242,
       "filename": "2026 지인선 N제 2회.pdf",
       "stored_as": null,
