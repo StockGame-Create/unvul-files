@@ -170255,6 +170255,20 @@
       "sha256": "4242a5d20223cc4b03e70d6d511e1ad75b9bad51873e0c54d3ea8f44d3edabee"
     },
     {
+      "message_id": 5456,
+      "filename": "2026_SB_미적_8주차_손필기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5456_2026_SB_._8._.pdf",
+      "size_bytes": 5717413,
+      "telegram_date": "2025-08-11T15:13:09+00:00",
+      "title": "2026_SB_미적_8주차_손필기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5456.png",
+      "sha256": "8c7494da38dd109de69901fd5ebc1e146a6b7813d2ec3269adbdf5d89c985ae9"
+    },
+    {
       "message_id": 5436,
       "filename": "2026_스탠다드_도형_복습테스트_해설.pdf",
       "stored_as": null,
