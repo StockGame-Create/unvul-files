@@ -170171,6 +170171,20 @@
       "sha256": "55bf317fe31aef6d6ba835c456e285cb8e10a1121becdef37fd8e8b59816c289"
     },
     {
+      "message_id": 5460,
+      "filename": "2026_SB미적_1주차_손필기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5460_2026_SB._1._.pdf",
+      "size_bytes": 5189567,
+      "telegram_date": "2025-08-11T15:13:10+00:00",
+      "title": "2026_SB미적_1주차_손필기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5460.png",
+      "sha256": "09305f7d0a0ac40fe8827033f3c8ea7ca66ba8e91007abbc86bb4b2a75ffebe9"
+    },
+    {
       "message_id": 5453,
       "filename": "2026_SB미적_3주차_손필기.pdf",
       "stored_as": null,
