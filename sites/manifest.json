@@ -172285,6 +172285,20 @@
       "sha256": "b484a83c00a3a773f88430e2b0b03e5eca8f8ae6c6effcaa24851849e9190774"
     },
     {
+      "message_id": 5239,
+      "filename": "2026 상크스 스킬편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5239_2026.pdf",
+      "size_bytes": 47081755,
+      "telegram_date": "2025-08-11T15:11:55+00:00",
+      "title": "2026 상크스 스킬편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5239.png",
+      "sha256": "ea4627a83fde5c46dd4ff83cd16cde3c22b6e8330a33042af27b94888b4f7749"
+    },
+    {
       "message_id": 5230,
       "filename": "2026_김현우T_5주차_복습테스트.pdf",
       "stored_as": null,
