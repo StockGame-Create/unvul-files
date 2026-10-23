@@ -171123,6 +171123,20 @@
       "sha256": "1620eaf572b0ab92bd09fe99cb7391df8671a2becb149ef26129a2e00beb882e"
     },
     {
+      "message_id": 5352,
+      "filename": "문학론.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5352_.pdf",
+      "size_bytes": 316977738,
+      "telegram_date": "2025-08-11T15:13:02+00:00",
+      "title": "문학론",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5352.png",
+      "sha256": "8400e1ae07cbdeb106837d65d886fd0c290ee17238799eb2a9b690203fd7abb2"
+    },
+    {
       "message_id": 5347,
       "filename": "오메가 위클리 2.pdf",
       "stored_as": null,
