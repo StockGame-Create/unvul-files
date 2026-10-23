@@ -171921,6 +171921,20 @@
       "sha256": "50c523c6b578d51d4a5a90e6f1664a760d7e3ea3981521f8fabdf4e796fc23bd"
     },
     {
+      "message_id": 5290,
+      "filename": "2026학년도_대학수학능력시험_시즌2_제1차_모의고사_문제지&해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5290_2026._._.2_.1._._.pdf",
+      "size_bytes": 227543540,
+      "telegram_date": "2025-08-11T15:11:58+00:00",
+      "title": "2026학년도_대학수학능력시험_시즌2_제1차_모의고사_문제지&해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5290.png",
+      "sha256": "46f2e077b7b39c45d9a062dbb066544090f19170a286de5d84c9083c6f084246"
+    },
+    {
       "message_id": 5274,
       "filename": "A26복테11주차문제_250306_1838.pdf",
       "stored_as": null,
