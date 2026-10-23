@@ -170409,6 +170409,20 @@
       "sha256": "ab8a842a6c95781a391f8cd65837638b52a555f41f32b875ef2f09a247236c0d"
     },
     {
+      "message_id": 5434,
+      "filename": "키모.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5434_.pdf",
+      "size_bytes": 23625282,
+      "telegram_date": "2025-08-11T15:13:08+00:00",
+      "title": "키모",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5434.png",
+      "sha256": "a6823bf0d71338c05ad3b83111a5268a06e882df53e5053af9befc3140496955"
+    },
+    {
       "message_id": 5427,
       "filename": "세지4.pdf",
       "stored_as": null,
