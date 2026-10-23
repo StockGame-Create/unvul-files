@@ -172411,6 +172411,20 @@
       "sha256": "b4f58e4e6cf7c79a5244fd827b4bb08b63b0711c7b4a8d66bee7187efb1e33f6"
     },
     {
+      "message_id": 5224,
+      "filename": "2026_수학1_박종민_위클리콤도형.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5224_2026_.1_._.pdf",
+      "size_bytes": 47257212,
+      "telegram_date": "2025-08-11T15:11:52+00:00",
+      "title": "2026_수학1_박종민_위클리콤도형",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5224.png",
+      "sha256": "3e46febaa562fc826669608c8e30141f5d0ef4600e4968bf0f166f4a1522565d"
+    },
+    {
       "message_id": 5218,
       "filename": "미적분_비기너스5주차_필기본.pdf",
       "stored_as": null,
