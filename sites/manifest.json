@@ -141,6 +141,20 @@
       "sha256": "490017d53d07700e9acbd1f5fc9b491514f476774922133591e9a72b9fa63ca8"
     },
     {
+      "message_id": 25734,
+      "filename": "2027 이신혁 하프 모의고사 8회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25734_2027.8.pdf",
+      "size_bytes": 5139299,
+      "telegram_date": "2026-10-23T12:50:03+00:00",
+      "title": "지1 이신혁 하프 모의고사 8회",
+      "year": "2027",
+      "instructor": "이신혁",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25734.png",
+      "sha256": "4842c546e56f44439873478ee5cbe1e5cfed19240b6f1443c77ea35a5b931387"
+    },
+    {
       "message_id": 25721,
       "filename": "국어 서바 15.pdf",
       "stored_as": null,
