@@ -172439,6 +172439,20 @@
       "sha256": "a5b0b31cdc1d0fdb547234aa78a94bed294550b1588a9dc1a8145c5087c95cde"
     },
     {
+      "message_id": 5222,
+      "filename": "SB미적B 6주차 손필기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5222_SB.B.6.pdf",
+      "size_bytes": 6796628,
+      "telegram_date": "2025-08-11T15:11:52+00:00",
+      "title": "SB미적B 6주차 손필기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5222.png",
+      "sha256": "e0a3e1af9b4e9c1384cf6327eace04bb41087e5373257e5e20f6e6d7f2e91485"
+    },
+    {
       "message_id": 5218,
       "filename": "미적분_비기너스5주차_필기본.pdf",
       "stored_as": null,
