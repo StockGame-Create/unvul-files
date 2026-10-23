@@ -113,6 +113,20 @@
       "sha256": "11c67703c5f24b0c7f12f5f24f52060ccc1dfb561230bebfd7afef29e4239a82"
     },
     {
+      "message_id": 25736,
+      "filename": "2027 박선 데이브레이크 31, 32회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25736_2027.31.32.pdf",
+      "size_bytes": 8609943,
+      "telegram_date": "2026-10-23T12:50:04+00:00",
+      "title": "지1 박선 DAYBREAK 31, 32회",
+      "year": "2027",
+      "instructor": "박선",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25736.png",
+      "sha256": "af76d70457312158756fda4e7dba0958e502f59955227604d1d7c558ce7309b3"
+    },
+    {
       "message_id": 25721,
       "filename": "국어 서바 15.pdf",
       "stored_as": null,
