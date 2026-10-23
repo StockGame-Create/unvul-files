@@ -170241,6 +170241,20 @@
       "sha256": "aaadf38d91ea684d10d10f0e8e45bbbeeceafb30156118c1d8ef7d3455b3cdc5"
     },
     {
+      "message_id": 5457,
+      "filename": "2026_SB_미적_10주차_손필기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5457_2026_SB_._10._.pdf",
+      "size_bytes": 23764171,
+      "telegram_date": "2025-08-11T15:13:09+00:00",
+      "title": "2026_SB_미적_10주차_손필기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5457.png",
+      "sha256": "4242a5d20223cc4b03e70d6d511e1ad75b9bad51873e0c54d3ea8f44d3edabee"
+    },
+    {
       "message_id": 5436,
       "filename": "2026_스탠다드_도형_복습테스트_해설.pdf",
       "stored_as": null,
