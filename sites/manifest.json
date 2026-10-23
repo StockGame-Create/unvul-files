@@ -168533,6 +168533,20 @@
       "sha256": "917448c6006bf07169d9f13103b2fbfc906b4a10b7f1e2ea51e759ed1daafa90"
     },
     {
+      "message_id": 5640,
+      "filename": "2026 국어 강은양 k 2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5640_2026.k.2.pdf",
+      "size_bytes": 118499335,
+      "telegram_date": "2025-08-11T15:14:23+00:00",
+      "title": "2026 국어 강은양 k 2권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5640.png",
+      "sha256": "c348b111abb9e66dcb4cb62d4fb166294d72127062b26c4a93b8b814509d9e33"
+    },
+    {
       "message_id": 5639,
       "filename": "2025_3_공통_해설_한완기.pdf",
       "stored_as": null,
