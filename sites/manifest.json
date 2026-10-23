@@ -170143,6 +170143,20 @@
       "sha256": "62810df1a8814a36aecbdcac4223336608d26fde2a9fe42c0d786da60c893a79"
     },
     {
+      "message_id": 5462,
+      "filename": "마플교과서 미적분 해설_250315_214154.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5462_._250315_214154.pdf",
+      "size_bytes": 33537200,
+      "telegram_date": "2025-08-11T15:13:10+00:00",
+      "title": "마플교과서 미적분 해설_250315_214154",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5462.png",
+      "sha256": "f0c671bad39c985220c47054b947466449638d92afd3b1450a97c7845dcd141d"
+    },
+    {
       "message_id": 5453,
       "filename": "2026_SB미적_3주차_손필기.pdf",
       "stored_as": null,
