@@ -170927,6 +170927,20 @@
       "sha256": "05abb93d78e1bb02f38c09e9fa7307db6d9bdd5eaa0cce7478a12ac03611adf0"
     },
     {
+      "message_id": 5375,
+      "filename": "2026 미적분 박종민 필기노트 시즌 1 3주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5375_2026.1.3.pdf",
+      "size_bytes": 24703035,
+      "telegram_date": "2025-08-11T15:13:04+00:00",
+      "title": "2026 미적분 박종민 필기노트 시즌 1 3주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5375.png",
+      "sha256": "a228596ac8362789768fc902c01f319e83f336a68cfaa5e508f7220ca141dc77"
+    },
+    {
       "message_id": 5370,
       "filename": "복테10주차해설.pdf",
       "stored_as": null,
