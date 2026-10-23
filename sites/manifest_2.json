@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T05:03:56+00:00",
+  "updated_at": "2026-10-23T12:15:45+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -2858,22 +2858,57 @@
       "subject": "국어",
       "sha256": "7678255c32216f2ae66777028ab84479221112299fef3d1aa2473f34b1794d4b",
       "schema_version": 1,
-      "status": "partial",
+      "status": "done",
       "data": "ai/25721.json",
-      "updated_at": "2026-10-23T05:03:56+00:00",
+      "updated_at": "2026-10-23T12:09:42+00:00",
       "pages_total": 41,
-      "pages_done": 24,
+      "pages_done": 41,
       "failed_pages": [
         1,
         2,
         3,
         4
       ],
-      "model": "gemini-3.8-flash",
+      "model": "gemini-3.6-flash",
       "problem_count": 52,
-      "solution_count": 56,
-      "matched_count": 30,
+      "solution_count": 105,
+      "matched_count": 59,
       "with_answer": 30,
+      "with_explanation": 23
+    },
+    {
+      "message_id": 25719,
+      "filename": "서바 21회.pdf",
+      "title": "수학 시대인재 서바이벌 모의고사 21회 #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "sha256": "c55fd26836deb0dbcd36e624784c3cfc3700d35aafc22dea02619aa24bc76438",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/25719.json",
+      "updated_at": "2026-10-23T12:15:45+00:00",
+      "pages_total": 48,
+      "pages_done": 20,
+      "failed_pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "model": "gemini-3.6-flash",
+      "problem_count": 17,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
       "with_explanation": 0
     }
   ]
