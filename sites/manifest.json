@@ -170325,6 +170325,20 @@
       "sha256": "4947c9d604e206e408cc52711c7a9fcab656f12d531e26f33e0f568ab3249fb3"
     },
     {
+      "message_id": 5447,
+      "filename": "2026 수학 이창무 심화특강 수학2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5447_2026.2.pdf",
+      "size_bytes": 70101711,
+      "telegram_date": "2025-08-11T15:13:09+00:00",
+      "title": "2026 수학 이창무 심화특강 수학2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5447.png",
+      "sha256": "85bcccdd3e77ec1ca89c736f30c583626dbac79d4f9403b25d7794f7b31f6b45"
+    },
+    {
       "message_id": 5436,
       "filename": "2026_스탠다드_도형_복습테스트_해설.pdf",
       "stored_as": null,
