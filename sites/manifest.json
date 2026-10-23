@@ -171417,6 +171417,20 @@
       "sha256": "83a29362912a0c2dc24c8523b35c5d086a553586515ebe9057de7eeab4d1d186"
     },
     {
+      "message_id": 5325,
+      "filename": "2026 국어 이감 on 1차 모의고사 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5325_2026.on.1.pdf",
+      "size_bytes": 42622629,
+      "telegram_date": "2025-08-11T15:12:03+00:00",
+      "title": "2026 국어 이감 on 1차 모의고사 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5325.png",
+      "sha256": "be0769ec57e465c9105f670a80f2706d5e2c1f91e6232a69c956a7e15297e2bb"
+    },
+    {
       "message_id": 5314,
       "filename": "수학2+미적분_Step1_7주차_복습테스트.pdf",
       "stored_as": null,
