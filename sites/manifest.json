@@ -168589,6 +168589,20 @@
       "sha256": "3141925c4b33876da12b17c2f6760408bdab716bc08193007ba1d2d578002f67"
     },
     {
+      "message_id": 5635,
+      "filename": "한완수 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5635_.pdf",
+      "size_bytes": 73758575,
+      "telegram_date": "2025-08-11T15:14:22+00:00",
+      "title": "한완수 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5635.png",
+      "sha256": "b364e89642c9436782191b312facd7c1c35a095842a2e77f81087a60b095b5fb"
+    },
+    {
       "message_id": 5630,
       "filename": "현우진의고득점N제 Drilled2 공통수학II.pdf",
       "stored_as": null,
