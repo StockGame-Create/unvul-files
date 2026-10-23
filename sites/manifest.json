@@ -172187,6 +172187,20 @@
       "sha256": "2d9ef6440eca317cb7b5de0cc02b9e18cd51c719d6b201ac4df67793c9815299"
     },
     {
+      "message_id": 5252,
+      "filename": "2026 프솔 1단원.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5252_2026.1.pdf",
+      "size_bytes": 146504366,
+      "telegram_date": "2025-08-11T15:11:56+00:00",
+      "title": "2026 프솔 1단원",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5252.png",
+      "sha256": "301dfede48c6b4c9c6483e2420184698e1d48bf1b860a015c7878437ad9f1be9"
+    },
+    {
       "message_id": 5242,
       "filename": "2026 지인선 N제 2회.pdf",
       "stored_as": null,
