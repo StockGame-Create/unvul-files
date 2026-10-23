@@ -170941,6 +170941,20 @@
       "sha256": "a228596ac8362789768fc902c01f319e83f336a68cfaa5e508f7220ca141dc77"
     },
     {
+      "message_id": 5374,
+      "filename": "현정훈 모의고사_1회_선지답O.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5374_._1._.O.PDF",
+      "size_bytes": 12158106,
+      "telegram_date": "2025-08-11T15:13:04+00:00",
+      "title": "현정훈 모의고사_1회_선지답O",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5374.png",
+      "sha256": "5abae19d62369480a3b582be132dc030173a658a9e73c234aba7707146731b35"
+    },
+    {
       "message_id": 5370,
       "filename": "복테10주차해설.pdf",
       "stored_as": null,
