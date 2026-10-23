@@ -170395,6 +170395,20 @@
       "sha256": "f706599c8cc605a57befff872576cd97b515c570d205a4976dc4b0e5d64e8a54"
     },
     {
+      "message_id": 5444,
+      "filename": "T1m해설편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5444_T1m.pdf",
+      "size_bytes": 290401347,
+      "telegram_date": "2025-08-11T15:13:08+00:00",
+      "title": "T1m해설편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5444.png",
+      "sha256": "ab8a842a6c95781a391f8cd65837638b52a555f41f32b875ef2f09a247236c0d"
+    },
+    {
       "message_id": 5427,
       "filename": "세지4.pdf",
       "stored_as": null,
