@@ -170437,6 +170437,20 @@
       "sha256": "71d25b82ff8b60686f47067b8f46b1b85233f3fccc2f15768a05754f8ffcdb6f"
     },
     {
+      "message_id": 5430,
+      "filename": "이감 제3차 예비평가.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5430_.3.pdf",
+      "size_bytes": 19661419,
+      "telegram_date": "2025-08-11T15:13:08+00:00",
+      "title": "이감 제3차 예비평가",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5430.png",
+      "sha256": "e34cb55332d80f4244725b274da9aca80e2aa99a321c18bd9ff997abb7d17f63"
+    },
+    {
       "message_id": 5427,
       "filename": "세지4.pdf",
       "stored_as": null,
