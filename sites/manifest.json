@@ -170787,6 +170787,20 @@
       "sha256": "74f595427324e5813c5fa0ba92794a47a03baad89476fb345767ff14c4266c12"
     },
     {
+      "message_id": 5400,
+      "filename": "변춘수 7주차 주간지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5400_.7.pdf",
+      "size_bytes": 21831636,
+      "telegram_date": "2025-08-11T15:13:05+00:00",
+      "title": "변춘수 7주차 주간지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5400.png",
+      "sha256": "2513a664ca38d7efc2b2043b395f70342ee25daf377236bf34139339f5d6f1b6"
+    },
+    {
       "message_id": 5390,
       "filename": "26_브릿지_01.pdf",
       "stored_as": null,
