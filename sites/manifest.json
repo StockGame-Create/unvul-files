@@ -168855,6 +168855,20 @@
       "sha256": "8b5e35a4ad4572211c0568af0167e2e0cba4523478179b3e531b742df84a3d4e"
     },
     {
+      "message_id": 5620,
+      "filename": "고쟁이(공통수학1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5620_.1.pdf",
+      "size_bytes": 17321333,
+      "telegram_date": "2025-08-11T15:14:21+00:00",
+      "title": "고쟁이(공통수학1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5620.png",
+      "sha256": "cd024fcd52fabf128730e44679d6ffac8df83c1efd861a79045de60b0c67e800"
+    },
+    {
       "message_id": 5611,
       "filename": "01.3월_고3_영어_문제지.pdf",
       "stored_as": null,
