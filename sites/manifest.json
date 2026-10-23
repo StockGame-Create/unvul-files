@@ -57,6 +57,20 @@
       "sha256": "c795c347694d2b726f7b2baec39da7182f8b5dee3d22e7670d20b5ecbafab6e8"
     },
     {
+      "message_id": 25742,
+      "filename": "사만다N제 하.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25742_.N.pdf",
+      "size_bytes": 163222303,
+      "telegram_date": "2026-10-23T12:50:13+00:00",
+      "title": "생윤 사만다 Cement N제",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회탐구",
+      "thumbnail": "thumbnails/25742.png",
+      "sha256": "6eae3765471a4e237f87a8823213ed709f0a610d4805949df8aa7d2f61f4ea44"
+    },
+    {
       "message_id": 25721,
       "filename": "국어 서바 15.pdf",
       "stored_as": null,
