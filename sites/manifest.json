@@ -170465,6 +170465,20 @@
       "sha256": "8a8834b5299a82122b1042e96b4ed13e3b1917f1fa22892ad06f6cccaab10da6"
     },
     {
+      "message_id": 5429,
+      "filename": "이감 제2차 예비평가.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5429_.2.pdf",
+      "size_bytes": 19795710,
+      "telegram_date": "2025-08-11T15:13:07+00:00",
+      "title": "이감 제2차 예비평가",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5429.png",
+      "sha256": "6324a3468e80fc72522e6b169418f1b0ec47a631e435d426336e7665b0426804"
+    },
+    {
       "message_id": 5418,
       "filename": "3평 물리1 해설.pdf",
       "stored_as": null,
