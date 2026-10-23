@@ -168491,6 +168491,20 @@
       "sha256": "8dc8fd9e53593c6d4acc38c44aa6bc4e929ece94a1c7fc84ddb09757cfa7c6e7"
     },
     {
+      "message_id": 5645,
+      "filename": "2026 국어 강은양 만점부록 2권 가사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5645_2026.2.pdf",
+      "size_bytes": 244358843,
+      "telegram_date": "2025-08-11T15:14:24+00:00",
+      "title": "2026 국어 강은양 만점부록 2권 가사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5645.png",
+      "sha256": "8ca5c8f5fbcae4303f28b1ffac67b6529196384023221e17a34dd6d3fa6ec25c"
+    },
+    {
       "message_id": 5639,
       "filename": "2025_3_공통_해설_한완기.pdf",
       "stored_as": null,
