@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T12:15:45+00:00",
+  "updated_at": "2026-10-23T17:13:45+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -2906,6 +2906,28 @@
       ],
       "model": "gemini-3.6-flash",
       "problem_count": 17,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 25750,
+      "filename": "이감_파이널2_6차_재수정.pdf",
+      "title": "국어 이감 파이널II(시즌6) 제 6차 예비평가 (인쇄소퀄) #이감",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "sha256": "928beef837077ea87188bee16efeb0a143328e4ac16a3a3d7f89d62b6fe212ef",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/25750.json",
+      "updated_at": "2026-10-23T17:13:45+00:00",
+      "pages_total": 20,
+      "pages_done": 0,
+      "failed_pages": [],
+      "model": null,
+      "problem_count": 0,
       "solution_count": 0,
       "matched_count": 0,
       "with_answer": 0,
