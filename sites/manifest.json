@@ -211,6 +211,20 @@
       "sha256": "a26607b57ef8d1fd93ddfd5bab67aaf3dab8c2048ba4a8b528ef9ab0ae265715"
     },
     {
+      "message_id": 25729,
+      "filename": "2027 오리온 모의고사 리마스터 시즌1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25729_2027.1.pdf",
+      "size_bytes": 23315745,
+      "telegram_date": "2026-10-23T12:49:57+00:00",
+      "title": "지1 ORION FINAL, Remaster 시즌 1, 2, 시즌1",
+      "year": "2027",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25729.png",
+      "sha256": "10aabdbd31c19d9906fec59054d047791b15571446d913aff6845a14acaa096e"
+    },
+    {
       "message_id": 25721,
       "filename": "국어 서바 15.pdf",
       "stored_as": null,
