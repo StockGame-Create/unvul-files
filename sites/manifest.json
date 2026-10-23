@@ -172215,6 +172215,20 @@
       "sha256": "394ed8ca7d40cd7339e7d8c3b0f1f24b01d604bab219717d65b4fc80b56702b9"
     },
     {
+      "message_id": 5245,
+      "filename": "2026 수학 이창무 심화특강 수학1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5245_2026.1.pdf",
+      "size_bytes": 26232167,
+      "telegram_date": "2025-08-11T15:11:56+00:00",
+      "title": "2026 수학 이창무 심화특강 수학1 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5245.png",
+      "sha256": "5a8e305757092380ed90107ecc68fea1db7dc4d08204691e8aee2077525fe1db"
+    },
+    {
       "message_id": 5242,
       "filename": "2026 지인선 N제 2회.pdf",
       "stored_as": null,
