@@ -175965,6 +175965,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4898.png",
       "sha256": "d75203d772d11e771883013e25cd3348a5c07a2936b3531e58fff0231c5d4f8e"
+    },
+    {
+      "message_id": 4897,
+      "filename": "2026 OZ 지구과학1 입문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4897_2026.OZ.1.pdf",
+      "size_bytes": 27653696,
+      "telegram_date": "2025-08-11T14:59:04+00:00",
+      "title": "2026 OZ 지구과학1 입문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4897.png",
+      "sha256": "0f1e05f163544915826aa9a8f442c5093033debd569e8751c5d14e9e4c1419db"
     }
   ],
   "duplicate_message_ids": [
