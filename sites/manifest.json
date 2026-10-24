@@ -173109,6 +173109,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5159.png",
       "sha256": "3007dea65b6cbd3221a9ce0f0c2d030e77d84cdf40bf3f9d247e2dc8e652dc37"
+    },
+    {
+      "message_id": 5154,
+      "filename": "22개정_RPM_공통수학1_정답_및_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5154_22._RPM_.1_._._.pdf",
+      "size_bytes": 37939340,
+      "telegram_date": "2025-08-11T15:11:48+00:00",
+      "title": "22개정_RPM_공통수학1_정답_및_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5154.png",
+      "sha256": "55fd466eec0787984d065ca1dbb90807f446097acb5fc28f012b22bf099456dd"
     }
   ],
   "duplicate_message_ids": [
