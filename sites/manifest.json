@@ -173683,6 +173683,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5099.png",
       "sha256": "d2550b424bb6908f03b76441c76e6b1608aa897b1721850844dae8e3f4c29d5c"
+    },
+    {
+      "message_id": 5098,
+      "filename": "2026 영어 김기병 VOCATION.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5098_2026.VOCATION.pdf",
+      "size_bytes": 144924712,
+      "telegram_date": "2025-08-11T15:11:42+00:00",
+      "title": "2026 영어 김기병 VOCATION",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5098.png",
+      "sha256": "0b4921e6b02a15aa3a5e399a2b141a5ccfeea3099e86c520bc528d88d8ddd2bb"
     }
   ],
   "duplicate_message_ids": [
