@@ -175503,6 +175503,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4936.png",
       "sha256": "dff6b6614fd73d90300017eb85f9fe0f27d1836cc9fbdb4d3117894c056e591e"
+    },
+    {
+      "message_id": 4935,
+      "filename": "자이스토리 고3 수학Ⅰ - 문제편(2026).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4935_.3.-.2026.pdf",
+      "size_bytes": 226590078,
+      "telegram_date": "2025-08-11T14:59:08+00:00",
+      "title": "자이스토리 고3 수학Ⅰ - 문제편(2026)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4935.png",
+      "sha256": "ccbf0045f379ca49c82a9fdf81ed49196ed5740472c892ed7f5b4ca046363708"
     }
   ],
   "duplicate_message_ids": [
