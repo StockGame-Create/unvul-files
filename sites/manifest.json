@@ -175839,6 +175839,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4908.png",
       "sha256": "4322f8ea0910627fa4ccf1618e2e97f6c04c7eca3ea2022f1980681615f4572d"
+    },
+    {
+      "message_id": 4907,
+      "filename": "2026 EBS 수능특강 영어듣기 정답과 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4907_2026.EBS.pdf",
+      "size_bytes": 210985956,
+      "telegram_date": "2025-08-11T14:59:05+00:00",
+      "title": "2026 EBS 수능특강 영어듣기 정답과 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4907.png",
+      "sha256": "11797dd8be9f82060b8afbabf6c7e50299059db2ac02788592815a565e560be2"
     }
   ],
   "duplicate_message_ids": [
