@@ -175097,6 +175097,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4965.png",
       "sha256": "c7604bb68fe3ad2afd334b6aa449577d98f5dd5163246feb706528cb24bb2aa0"
+    },
+    {
+      "message_id": 4964,
+      "filename": "2026%20Smooth%20%EB%AF%B8%EC%A0%81%EB%B6%84%20%EA%B0%9C%EB%85%9.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4964_2026.20Smooth.20.EB.AF.B8.EC.A0.81.EB.B6.84.20.EA.B0.9C.EB.85.9.pdf",
+      "size_bytes": 811447,
+      "telegram_date": "2025-08-11T14:59:14+00:00",
+      "title": "2026%20Smooth%20%EB%AF%B8%EC%A0%81%EB%B6%84%20%EA%B0%9C%EB%85%9",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4964.png",
+      "sha256": "d1487273f304723d881ff19b8d71f999d7050e9087bef5bfc41c8de6978e966c"
     }
   ],
   "duplicate_message_ids": [
