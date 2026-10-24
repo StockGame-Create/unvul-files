@@ -175209,6 +175209,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4956.png",
       "sha256": "8084f414f7652a7a02da39ae65325c02e6c0e7c502ccdb6994548de5a9dcc114"
+    },
+    {
+      "message_id": 4955,
+      "filename": "2026학년도 마더텅 영어 영역 30회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4955_2026.30.pdf",
+      "size_bytes": 341250777,
+      "telegram_date": "2025-08-11T14:59:13+00:00",
+      "title": "2026학년도 마더텅 영어 영역 30회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4955.png",
+      "sha256": "efd21bb6ebb2972ea663cec21d480ed16285a01b9b35581498297d58bdb36ceb"
     }
   ],
   "duplicate_message_ids": [
