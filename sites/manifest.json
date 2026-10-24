@@ -173851,6 +173851,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5085.png",
       "sha256": "95a9b39070d9de92752943e8c85c78e757db44406bb614bb4448896dd4fb4ba5"
+    },
+    {
+      "message_id": 5084,
+      "filename": "트레드밀 5주차-new.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5084_.5.-new.pdf",
+      "size_bytes": 6753704,
+      "telegram_date": "2025-08-11T15:11:42+00:00",
+      "title": "트레드밀 5주차-new",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5084.png",
+      "sha256": "99e9f304879b90057033c98963df6044fdccda04b8a8031f7f42eb326d1e5104"
     }
   ],
   "duplicate_message_ids": [
