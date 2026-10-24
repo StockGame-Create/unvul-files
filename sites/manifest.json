@@ -176147,6 +176147,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4883.png",
       "sha256": "43180fe6b71abec2dbf03cc49a62c1e72b4e21629c9351008896b3630bc1c709"
+    },
+    {
+      "message_id": 4882,
+      "filename": "2026아폴로1호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4882_2026.1.pdf",
+      "size_bytes": 52412609,
+      "telegram_date": "2025-08-11T14:59:04+00:00",
+      "title": "2026아폴로1호",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4882.png",
+      "sha256": "5c30c8e334ed14a9b82cdfc10e443ee3a943710b3d3a8dadc9fce9bce6be0213"
     }
   ],
   "duplicate_message_ids": [
