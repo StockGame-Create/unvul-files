@@ -173039,6 +173039,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5164.png",
       "sha256": "09119e515f03a9029de00a4430b89d44aa01f17f012f66f8ad7fe8379211cf5e"
+    },
+    {
+      "message_id": 5163,
+      "filename": "[유형내신고쟁이]공통수학2_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5163_.2_.pdf",
+      "size_bytes": 7536648,
+      "telegram_date": "2025-08-11T15:11:49+00:00",
+      "title": "[유형내신고쟁이]공통수학2_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5163.png",
+      "sha256": "8b03509f2d52eec3046456cb9a050868bd1a0184ab652d9c0d0cf14c0e82e41d"
     }
   ],
   "duplicate_message_ids": [
