@@ -174369,6 +174369,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5036.png",
       "sha256": "f0d34c2a1274c1728580f0a67e78376787632f00a0b70637b024a5f6b6120868"
+    },
+    {
+      "message_id": 5035,
+      "filename": "2026 시즌1 6주차(4).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5035_2026.1.6.4.pdf",
+      "size_bytes": 5852416,
+      "telegram_date": "2025-08-11T15:10:53+00:00",
+      "title": "2026 시즌1 6주차(4)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5035.png",
+      "sha256": "3b5639d395372c4e45f8e2008401817551ea9030866e53e075a51693faa25a39"
     }
   ],
   "duplicate_message_ids": [
