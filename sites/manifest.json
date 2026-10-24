@@ -173389,6 +173389,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5129.png",
       "sha256": "18102bd8d529fcc74410ef919e63ecf3823fe076ae4f44776062d4379b12056f"
+    },
+    {
+      "message_id": 5128,
+      "filename": "해설지_미수록_스위치_모의고사_09_10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5128_._._._._09_10.pdf",
+      "size_bytes": 5162701,
+      "telegram_date": "2025-08-11T15:11:44+00:00",
+      "title": "해설지_미수록_스위치_모의고사_09_10회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5128.png",
+      "sha256": "d0fd583d7c1a90155c22f6dbc126a0ef83aafada653668008012a4d162de3be1"
     }
   ],
   "duplicate_message_ids": [
