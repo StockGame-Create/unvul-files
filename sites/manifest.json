@@ -71,6 +71,20 @@
       "sha256": "cc2ff1cb525733226d83ff00eaa3e6a9bc356b93a3c8291aa4a2f58271668cca"
     },
     {
+      "message_id": 25764,
+      "filename": "2027_강e분_고전소설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25764_2027_.e._.pdf",
+      "size_bytes": 345867097,
+      "telegram_date": "2026-10-24T13:20:59+00:00",
+      "title": "국어 강민철의 EBS 분석 수능특강 문학 고전소설 (인쇄소퀄) #강E분",
+      "year": "2027",
+      "instructor": "강민철",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25764.png",
+      "sha256": "09da2313b1f6788f34267f2be736f32429077eab0d548e0ba05c7e2b87fe8622"
+    },
+    {
       "message_id": 25750,
       "filename": "이감_파이널2_6차_재수정.pdf",
       "stored_as": null,
