@@ -172759,6 +172759,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5199.png",
       "sha256": "8819d515d13c85458db4b2364077ccf5ef1eb97759ff19d5295a8d0b44fc18e6"
+    },
+    {
+      "message_id": 5197,
+      "filename": "2026학년도_수능_대비_개념이다_4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5197_2026._._._._4.pdf",
+      "size_bytes": 11662817,
+      "telegram_date": "2025-08-11T15:11:50+00:00",
+      "title": "2026학년도_수능_대비_개념이다_4회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5197.png",
+      "sha256": "6509a768c7b0b43decb7f83d876268372ac07382d18d6c26f568241d71825ee7"
     }
   ],
   "duplicate_message_ids": [
