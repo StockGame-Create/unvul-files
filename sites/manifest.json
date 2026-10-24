@@ -176399,6 +176399,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4862.png",
       "sha256": "e4659e14d71d53aa85f9095c23c91113b6ecae84ac0bfadf4d76b68e7b64ce70"
+    },
+    {
+      "message_id": 4861,
+      "filename": "한완기 교사경 미적 해설 2026 수학 이해원.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4861_.2026.pdf",
+      "size_bytes": 308767962,
+      "telegram_date": "2025-08-11T14:59:02+00:00",
+      "title": "한완기 교사경 미적 해설 2026 수학 이해원",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4861.png",
+      "sha256": "23ad76247e372cf2b7bc7c77061bf74c2a0b79fd76e061033ad01362c87cdacc"
     }
   ],
   "duplicate_message_ids": [
