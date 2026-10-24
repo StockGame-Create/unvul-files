@@ -174565,6 +174565,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5019.png",
       "sha256": "72e2214268e08fe8100c855f0ee29d9baa14ee09ba5d11ed595133d01e1a5237"
+    },
+    {
+      "message_id": 5018,
+      "filename": "2026 시즌1 5주차 외부 은하와 우주 팽창(3).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5018_2026.1.5.3.pdf",
+      "size_bytes": 9418509,
+      "telegram_date": "2025-08-11T15:10:52+00:00",
+      "title": "2026 시즌1 5주차 외부 은하와 우주 팽창(3)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5018.png",
+      "sha256": "fb2ec9c1d1b5f2d023fa2b42c764ad67e6ed023af3842547a961d0a0e853ce83"
     }
   ],
   "duplicate_message_ids": [
