@@ -173613,6 +173613,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5107.png",
       "sha256": "2f14825a09a4d678e0ddc94fe6d33e098cba163a55349512f08f531d49048963"
+    },
+    {
+      "message_id": 5106,
+      "filename": "2026 수능특강 기하 정답 및 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5106_2026.pdf",
+      "size_bytes": 7987191,
+      "telegram_date": "2025-08-11T15:11:43+00:00",
+      "title": "2026 수능특강 기하 정답 및 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5106.png",
+      "sha256": "0e6a6ecfec08a7c860f5731f56a2fb2eb467a00bb4ed2ec881ba55508cf50a84"
     }
   ],
   "duplicate_message_ids": [
