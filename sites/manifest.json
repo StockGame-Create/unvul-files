@@ -172927,6 +172927,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5172.png",
       "sha256": "51995a34b43ba8611813bd4f16bd45252ec69a98c5b15fe86e114f9696342189"
+    },
+    {
+      "message_id": 5171,
+      "filename": "8주차 필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5171_8.pdf",
+      "size_bytes": 1315970,
+      "telegram_date": "2025-08-11T15:11:49+00:00",
+      "title": "8주차 필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5171.png",
+      "sha256": "b8fa13babd2f2b63740604716d45b9903e4a26727df27c5cc2bf1f374e619004"
     }
   ],
   "duplicate_message_ids": [
