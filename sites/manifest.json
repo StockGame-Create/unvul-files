@@ -173277,6 +173277,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5139.png",
       "sha256": "8e3c87cc272bf2dafb5febdb95093a828d6b288afdd4387f7ed176e3fac310fb"
+    },
+    {
+      "message_id": 5138,
+      "filename": "2026_한종철_캐치로직.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5138_2026_._.pdf",
+      "size_bytes": 60535094,
+      "telegram_date": "2025-08-11T15:11:44+00:00",
+      "title": "2026_한종철_캐치로직",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5138.png",
+      "sha256": "f851e3bc80c7c549f492f28e9b96feef13bee6b8f085344663778b083b43ea1a"
     }
   ],
   "duplicate_message_ids": [
