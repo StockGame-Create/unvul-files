@@ -173627,6 +173627,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5106.png",
       "sha256": "0e6a6ecfec08a7c860f5731f56a2fb2eb467a00bb4ed2ec881ba55508cf50a84"
+    },
+    {
+      "message_id": 5105,
+      "filename": "2026 수능특강 기하 본문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5105_2026.pdf",
+      "size_bytes": 23994008,
+      "telegram_date": "2025-08-11T15:11:43+00:00",
+      "title": "2026 수능특강 기하 본문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5105.png",
+      "sha256": "acef4b389650cde346775f1dede6e0da58f1bc2e6df309eecb1959d7d4aa9780"
     }
   ],
   "duplicate_message_ids": [
