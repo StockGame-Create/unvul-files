@@ -176231,6 +176231,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4876.png",
       "sha256": "399cce76bbd3163805a0bf481d1505848faa75ba98a2478b785cae3291370084"
+    },
+    {
+      "message_id": 4875,
+      "filename": "2026 수능특강 지구과학1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4875_2026.1.pdf",
+      "size_bytes": 47777379,
+      "telegram_date": "2025-08-11T14:59:03+00:00",
+      "title": "2026 수능특강 지구과학1 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4875.png",
+      "sha256": "30abc475a0f7e664d6c524c10f71d6fffdb856cc02dd96894484eaeb9030f427"
     }
   ],
   "duplicate_message_ids": [
