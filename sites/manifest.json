@@ -172969,6 +172969,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5169.png",
       "sha256": "ce5a36bef0b3b7b48e2a818eec5a26a7a78a44b27ebaa623fe4ff8d5f9b047ca"
+    },
+    {
+      "message_id": 5168,
+      "filename": "2026ver올오카 문학개념어_250222_094136.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5168_2026ver._250222_094136.pdf",
+      "size_bytes": 1334465,
+      "telegram_date": "2025-08-11T15:11:49+00:00",
+      "title": "2026ver올오카 문학개념어_250222_094136",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5168.png",
+      "sha256": "0ce6da05b90632984c482d99f2da17778a3bf9998f2228b7a8c06a437db86fdc"
     }
   ],
   "duplicate_message_ids": [
