@@ -175979,6 +175979,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4897.png",
       "sha256": "0f1e05f163544915826aa9a8f442c5093033debd569e8751c5d14e9e4c1419db"
+    },
+    {
+      "message_id": 4896,
+      "filename": "2026 국어 강은양 커리큘럼 안내.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4896_2026.pdf",
+      "size_bytes": 7693466,
+      "telegram_date": "2025-08-11T14:59:04+00:00",
+      "title": "2026 국어 강은양 커리큘럼 안내",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4896.png",
+      "sha256": "ce9807b36e4e9106c71018d5a362c39109ca3986dc444cee1364bfb2d915a112"
     }
   ],
   "duplicate_message_ids": [
