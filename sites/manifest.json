@@ -173235,6 +173235,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5142.png",
       "sha256": "b857e3e01703ead37e5c0d378fb5b3b18c1ddfdd367f8b4f4b21d25f2e40ee80"
+    },
+    {
+      "message_id": 5141,
+      "filename": "라이트쎈+고등+공통수학1_정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5141_.%2B.%2B.1_.pdf",
+      "size_bytes": 17930981,
+      "telegram_date": "2025-08-11T15:11:44+00:00",
+      "title": "라이트쎈+고등+공통수학1_정답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5141.png",
+      "sha256": "8fca72c7c23d3d0d74698b3a41068c3fbe9461424506dd5d87423bdde8975845"
     }
   ],
   "duplicate_message_ids": [
