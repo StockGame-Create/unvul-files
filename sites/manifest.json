@@ -175013,6 +175013,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4973.png",
       "sha256": "9ba0e16215fcc8636f5ad8ae6087fe1f92fd6999325f7b2b7201d971fe7541f0"
+    },
+    {
+      "message_id": 4972,
+      "filename": "2026 최적 단권화노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4972_2026.pdf",
+      "size_bytes": 106034652,
+      "telegram_date": "2025-08-11T14:59:15+00:00",
+      "title": "2026 최적 단권화노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4972.png",
+      "sha256": "15aa26dc2df2b961bbfca8e8d2cf0f53899a11fb0f7d44b2eeb92ea8c5fa0f51"
     }
   ],
   "duplicate_message_ids": [
