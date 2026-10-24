@@ -174453,6 +174453,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5030.png",
       "sha256": "be66d98e4bbc45d91a3592340363215ca1eaa1a31257ec824d72fa2c1c63bbb3"
+    },
+    {
+      "message_id": 5028,
+      "filename": "2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5028_2.pdf",
+      "size_bytes": 11620736,
+      "telegram_date": "2025-08-11T15:10:52+00:00",
+      "title": "2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5028.png",
+      "sha256": "0c0aa52b12a74a848296fddddbed845c43f625e1a73b8ca28b2bf2e4848cddea"
     }
   ],
   "duplicate_message_ids": [
