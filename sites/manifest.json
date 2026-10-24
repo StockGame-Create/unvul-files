@@ -127,6 +127,20 @@
       "sha256": "fc5d9f2e382e997cae858d9ce995436c269370265cb9c73688d9e739b15de75d"
     },
     {
+      "message_id": 25755,
+      "filename": "2027 JUST 모의고사 6평 대비 1회(문제+해설).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25755_2027.JUST.6.1.%2B.pdf",
+      "size_bytes": 3346287,
+      "telegram_date": "2026-10-24T13:20:50+00:00",
+      "title": "수학 6평대비 이동준T 저스트 모의고사 1, 2회",
+      "year": "2027",
+      "instructor": "이동준",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25755.png",
+      "sha256": "cae72b91c06f7a43659f962b7752343da30a028fe099cef058df9e2cea279b6a"
+    },
+    {
       "message_id": 25750,
       "filename": "이감_파이널2_6차_재수정.pdf",
       "stored_as": null,
