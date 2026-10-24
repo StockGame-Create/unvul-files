@@ -176021,6 +176021,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4894.png",
       "sha256": "901dfad0f09206471d7714f20b26dfd6fe1fed2317a7c711b767e0db722893e1"
+    },
+    {
+      "message_id": 4893,
+      "filename": "강윤구 출사표 미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4893_.pdf",
+      "size_bytes": 83295520,
+      "telegram_date": "2025-08-11T14:59:04+00:00",
+      "title": "강윤구 출사표 미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4893.png",
+      "sha256": "c6921f08712661dae99f3dd3ad680441172995b57e8f571d5a3d0b5ad5a995f6"
     }
   ],
   "duplicate_message_ids": [
