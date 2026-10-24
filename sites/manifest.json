@@ -174089,6 +174089,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5058.png",
       "sha256": "f765fc2b675d9f6b9fc94935a9429744830ae0e89f9182c0a6acf5aae6049de3"
+    },
+    {
+      "message_id": 5057,
+      "filename": "2026 수학1 박종민 리사이트 2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5057_2026.1.2.pdf",
+      "size_bytes": 10660245,
+      "telegram_date": "2025-08-11T15:10:55+00:00",
+      "title": "2026 수학1 박종민 리사이트 2권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5057.png",
+      "sha256": "1bc9149d841ad18f7c63499a1a237d9c4df5725703d75adc563824f3e60e1760"
     }
   ],
   "duplicate_message_ids": [
