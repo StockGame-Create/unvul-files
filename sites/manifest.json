@@ -175265,6 +175265,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4950.png",
       "sha256": "ff2af03c6d3457ee6887bfffc7947ee2a07f977b5405575c5b9be8429f9df32c"
+    },
+    {
+      "message_id": 4948,
+      "filename": "TalkFile_26_간쓸개_시즌1_1_해설_pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4948_TalkFile_26_._.1_1_._pdf.pdf",
+      "size_bytes": 29434622,
+      "telegram_date": "2025-08-11T14:59:09+00:00",
+      "title": "TalkFile_26_간쓸개_시즌1_1_해설_pdf",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4948.png",
+      "sha256": "4cd4367560a4bb021678d57b9bb9a5a4c3df397c7c6e24178c07c776a35b157a"
     }
   ],
   "duplicate_message_ids": [
