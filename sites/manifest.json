@@ -173697,6 +173697,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5098.png",
       "sha256": "0b4921e6b02a15aa3a5e399a2b141a5ccfeea3099e86c520bc528d88d8ddd2bb"
+    },
+    {
+      "message_id": 5097,
+      "filename": "EBS_2026학년도_수능특강_국어영역_언어와매체.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5097_EBS_2026._._._.pdf",
+      "size_bytes": 189298611,
+      "telegram_date": "2025-08-11T15:11:42+00:00",
+      "title": "EBS_2026학년도_수능특강_국어영역_언어와매체",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5097.png",
+      "sha256": "9005a5f31b37f71f8b1eda313c087d9c9357d5e0b6ba8ac44631d993b711d071"
     }
   ],
   "duplicate_message_ids": [
