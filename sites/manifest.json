@@ -174887,6 +174887,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4987.png",
       "sha256": "55a67876454ac212e6e6e0e3400cfbec57f7dc329d4128807f2f435927007a41"
+    },
+    {
+      "message_id": 4985,
+      "filename": "2026_김현우T_정규반_5주차_수업_예비과제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4985_2026_.T_._5._._.pdf",
+      "size_bytes": 835530,
+      "telegram_date": "2025-08-11T14:59:15+00:00",
+      "title": "2026_김현우T_정규반_5주차_수업_예비과제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4985.png",
+      "sha256": "3d248faabf4f0b3bda420282c66e3f57a2a756cd20047021446b78acebf3bb3d"
     }
   ],
   "duplicate_message_ids": [
