@@ -174663,6 +174663,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5008.png",
       "sha256": "1dfaa0d826f4af8eceb6309b08bec605c258eb9d629014d889b38d91f12d3b03"
+    },
+    {
+      "message_id": 5007,
+      "filename": "2026_이동준_복테_3_해설포함.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5007_2026_._._3_.pdf",
+      "size_bytes": 1460542,
+      "telegram_date": "2025-08-11T14:59:17+00:00",
+      "title": "2026_이동준_복테_3_해설포함",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5007.png",
+      "sha256": "ae2c5a1c87b3424086977791fbf5d95f8924dc23720e4b25c93fabc16cd17125"
     }
   ],
   "duplicate_message_ids": [
