@@ -175713,6 +175713,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4918.png",
       "sha256": "116f3b65b0bd059adc6230be0f0b28cacbff0eeceb2c35e813a4fd3e91c53138"
+    },
+    {
+      "message_id": 4917,
+      "filename": "김승리의_선택_언어와매체_평가원_기출분석.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4917_._._._._.pdf",
+      "size_bytes": 63995402,
+      "telegram_date": "2025-08-11T14:59:06+00:00",
+      "title": "김승리의_선택_언어와매체_평가원_기출분석",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4917.png",
+      "sha256": "2b34d126304bd06026816d0bf4d0e4b1a3aef99d30efee6e3589b34467fb89e4"
     }
   ],
   "duplicate_message_ids": [
