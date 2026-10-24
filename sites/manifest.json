@@ -175671,6 +175671,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4922.png",
       "sha256": "b188214bb9d235b74ee93b3be225f1033b5090b1d7526c3562e0eff8aae80ac1"
+    },
+    {
+      "message_id": 4920,
+      "filename": "김연호T_3주차_복습테스트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4920_.T_3._.pdf",
+      "size_bytes": 256723,
+      "telegram_date": "2025-08-11T14:59:07+00:00",
+      "title": "김연호T_3주차_복습테스트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4920.png",
+      "sha256": "f875d389047cb71e43ba11057a82c0785aec48c48c91b3e9fe29392423000a27"
     }
   ],
   "duplicate_message_ids": [
