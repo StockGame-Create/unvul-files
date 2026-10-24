@@ -173781,6 +173781,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5091.png",
       "sha256": "9bab1acf055db5972ff68d64ddeb4f9470eea41e3ff83dc800612e57ad55aeaa"
+    },
+    {
+      "message_id": 5090,
+      "filename": "한완수_공통_상_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5090_._._._.pdf",
+      "size_bytes": 55041643,
+      "telegram_date": "2025-08-11T15:11:42+00:00",
+      "title": "한완수_공통_상_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5090.png",
+      "sha256": "ed11456d705ce931dddd2c13d75ed0801382106b073230e4f6e97a34203b395e"
     }
   ],
   "duplicate_message_ids": [
