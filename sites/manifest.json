@@ -173809,6 +173809,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5089.png",
       "sha256": "443f5c59a1922d30c640b9558a9403d1ed14f4163f196d675510880cca8c2516"
+    },
+    {
+      "message_id": 5088,
+      "filename": "KICE_Anatomy_확률과_통계SB_미수록_문항.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5088_KICE_Anatomy_._.SB_._.pdf",
+      "size_bytes": 10627245,
+      "telegram_date": "2025-08-11T15:11:42+00:00",
+      "title": "KICE_Anatomy_확률과_통계SB_미수록_문항",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5088.png",
+      "sha256": "eb09e63117624a7578ae670e572f3bab1c901c54dde4d000d1aca12d18ec25af"
     }
   ],
   "duplicate_message_ids": [
