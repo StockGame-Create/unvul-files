@@ -176427,6 +176427,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4860.png",
       "sha256": "484ae0dcc68f72e5024c695d45a3b9ada277974d1cde9d88471eb267731739b2"
+    },
+    {
+      "message_id": 4859,
+      "filename": "한완기 교사경 수1 해설 2026 수학 이해원.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4859_.1.2026.pdf",
+      "size_bytes": 288050728,
+      "telegram_date": "2025-08-11T14:59:02+00:00",
+      "title": "한완기 교사경 수1 해설 2026 수학 이해원",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4859.png",
+      "sha256": "959d5b4cf3c0cbcb0ff83e7b1584dec5bd7c223c150f22246ed8af9af0cbc35f"
     }
   ],
   "duplicate_message_ids": [
