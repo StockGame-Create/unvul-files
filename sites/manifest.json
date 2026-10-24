@@ -173767,6 +173767,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5092.png",
       "sha256": "b89c0afd48dbc8f59aa307349bda0236a3b962a9fd072495c628b54cb5fd6c29"
+    },
+    {
+      "message_id": 5091,
+      "filename": "한완수 공통 중.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5091_.pdf",
+      "size_bytes": 282184574,
+      "telegram_date": "2025-08-11T15:11:42+00:00",
+      "title": "한완수 공통 중",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5091.png",
+      "sha256": "9bab1acf055db5972ff68d64ddeb4f9470eea41e3ff83dc800612e57ad55aeaa"
     }
   ],
   "duplicate_message_ids": [
