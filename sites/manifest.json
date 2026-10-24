@@ -175909,6 +175909,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4902.png",
       "sha256": "279561af2f9aea3574cc39a1b642013247f6a403a093f67cf1ba258285b9cb2e"
+    },
+    {
+      "message_id": 4901,
+      "filename": "2주차 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4901_2.pdf",
+      "size_bytes": 1837133,
+      "telegram_date": "2025-08-11T14:59:05+00:00",
+      "title": "2주차 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4901.png",
+      "sha256": "80149cba4be8f6259567a2dad4bd594bcf747cf81867bd9af0462fa4f042d69e"
     }
   ],
   "duplicate_message_ids": [
