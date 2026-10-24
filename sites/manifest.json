@@ -174705,6 +174705,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5003.png",
       "sha256": "51f53c8b14ad6e25b822781a9345e4ca897ad2f10654e34b5f9d70d5bf7ce267"
+    },
+    {
+      "message_id": 5002,
+      "filename": "2026년 EBS수능특강_영어 본문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5002_2026.EBS._.pdf",
+      "size_bytes": 4049614,
+      "telegram_date": "2025-08-11T14:59:16+00:00",
+      "title": "2026년 EBS수능특강_영어 본문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5002.png",
+      "sha256": "4cef657232a0cb79a8168c7cd9a50433527de6549668bdb439ab8e58e01260d7"
     }
   ],
   "duplicate_message_ids": [
