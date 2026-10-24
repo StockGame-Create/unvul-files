@@ -173249,6 +173249,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5141.png",
       "sha256": "8fca72c7c23d3d0d74698b3a41068c3fbe9461424506dd5d87423bdde8975845"
+    },
+    {
+      "message_id": 5140,
+      "filename": "라이트쎈_공통수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5140_._.1.pdf",
+      "size_bytes": 30738422,
+      "telegram_date": "2025-08-11T15:11:44+00:00",
+      "title": "라이트쎈_공통수학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5140.png",
+      "sha256": "411b7cc7f43fe3ebedbc3c4f26f4156727c7e78c1cfd3c1e89daa10835295f0d"
     }
   ],
   "duplicate_message_ids": [
