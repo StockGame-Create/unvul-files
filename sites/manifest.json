@@ -176301,6 +176301,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4871.png",
       "sha256": "e12b424859ee385a34eb82b6a4f6f91070cae5d13119b6e8950d4cf950e67ed3"
+    },
+    {
+      "message_id": 4870,
+      "filename": "2026 수능특강 화학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4870_2026.1.pdf",
+      "size_bytes": 108838829,
+      "telegram_date": "2025-08-11T14:59:03+00:00",
+      "title": "2026 수능특강 화학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4870.png",
+      "sha256": "f2a05cd10787fff68cc21c84b02a6a14c069557bf3c8a9bc7b04299fb7d0e79d"
     }
   ],
   "duplicate_message_ids": [
