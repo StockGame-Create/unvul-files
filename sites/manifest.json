@@ -175293,6 +175293,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4947.png",
       "sha256": "85379b02176d0f43c318ba6502d4bb031ed18b23904bdda3c2bcb5a2d2a4f100"
+    },
+    {
+      "message_id": 4944,
+      "filename": "2026_올오카_독서_theme_02_chapter3_손필기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4944_2026_._._theme_02_chapter3_.pdf",
+      "size_bytes": 678814,
+      "telegram_date": "2025-08-11T14:59:09+00:00",
+      "title": "2026_올오카_독서_theme_02_chapter3_손필기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4944.png",
+      "sha256": "12771daa0f5882f21ce4daebca932d32b6e10ace1d7f46862d9d324cfd3d91ed"
     }
   ],
   "duplicate_message_ids": [
