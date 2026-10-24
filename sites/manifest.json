@@ -173585,6 +173585,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5110.png",
       "sha256": "c8a625e9f6912d79e3b727b30554d91d7f20d1c195ada33faa50c15653749bda"
+    },
+    {
+      "message_id": 5108,
+      "filename": "이미지_T_엔티켓_시즌_1_수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5108_._T_._._1_.1.pdf",
+      "size_bytes": 82108246,
+      "telegram_date": "2025-08-11T15:11:43+00:00",
+      "title": "이미지_T_엔티켓_시즌_1_수학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5108.png",
+      "sha256": "7e53ac373cc204ef6602d2ef06c3af4c5a1ba437fb28fd5732a6bf1c3dc52f8c"
     }
   ],
   "duplicate_message_ids": [
