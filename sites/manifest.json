@@ -174789,6 +174789,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4997.png",
       "sha256": "3ac79283917ac3a515f89b0d40e8f70ccecad5af94a79865d75d5fb16a9f0c8f"
+    },
+    {
+      "message_id": 4996,
+      "filename": "2026_스키마_모의고사_level_2_2회_.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4996_2026_._._level_2_2._.pdf",
+      "size_bytes": 28962439,
+      "telegram_date": "2025-08-11T14:59:16+00:00",
+      "title": "2026_스키마_모의고사_level_2_2회_",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4996.png",
+      "sha256": "cc476c36f299e37822fd3c17f4224552d3da66aaa9eac8e998799b3b75823efb"
     }
   ],
   "duplicate_message_ids": [
