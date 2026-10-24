@@ -172829,6 +172829,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5188.png",
       "sha256": "c147733a4db23f99d6f5486f518a0056bf5f82eedff011cf194bf777b724f404"
+    },
+    {
+      "message_id": 5181,
+      "filename": "2026_수학2_박종민_위클리콤_7권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5181_2026_.2_._._7.pdf",
+      "size_bytes": 26843769,
+      "telegram_date": "2025-08-11T15:11:50+00:00",
+      "title": "2026_수학2_박종민_위클리콤_7권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5181.png",
+      "sha256": "c5aa236eb09065aa9e40011994dcd56f4018f130ee45b47bb1e9f0121983c628"
     }
   ],
   "duplicate_message_ids": [
