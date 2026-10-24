@@ -176455,6 +176455,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4858.png",
       "sha256": "d1984cd3a36c20e6bb7b0fa6e90503bcc80748b0edcae631947ab29a4e69b828"
+    },
+    {
+      "message_id": 4857,
+      "filename": "한완기 미적 해설 2026 수학 이해원.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4857_.2026.pdf",
+      "size_bytes": 416477974,
+      "telegram_date": "2025-08-11T14:59:02+00:00",
+      "title": "한완기 미적 해설 2026 수학 이해원",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4857.png",
+      "sha256": "0aaf45ef827944665b797b2f5ea51286065d2dd3fcb0c7ef47e7c0b78feff577"
     }
   ],
   "duplicate_message_ids": [
