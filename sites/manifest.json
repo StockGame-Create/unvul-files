@@ -175923,6 +175923,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4901.png",
       "sha256": "80149cba4be8f6259567a2dad4bd594bcf747cf81867bd9af0462fa4f042d69e"
+    },
+    {
+      "message_id": 4900,
+      "filename": "Oz basic 모고 Lv1_250217_122357.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4900_Oz.basic.Lv1_250217_122357.pdf",
+      "size_bytes": 382869680,
+      "telegram_date": "2025-08-11T14:59:04+00:00",
+      "title": "Oz basic 모고 Lv1_250217_122357",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4900.png",
+      "sha256": "5d78927f94469e61f90ffafc2623e96139dd565b063c655343ead9262057eb67"
     }
   ],
   "duplicate_message_ids": [
