@@ -175111,6 +175111,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4964.png",
       "sha256": "d1487273f304723d881ff19b8d71f999d7050e9087bef5bfc41c8de6978e966c"
+    },
+    {
+      "message_id": 4963,
+      "filename": "2026_박광일_독기본서_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4963_2026_._._.pdf",
+      "size_bytes": 92487013,
+      "telegram_date": "2025-08-11T14:59:14+00:00",
+      "title": "2026_박광일_독기본서_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4963.png",
+      "sha256": "98d2fb1c338eac4c511a91be31d23bcf30777ebf8a74263f93265c1775dbf57d"
     }
   ],
   "duplicate_message_ids": [
