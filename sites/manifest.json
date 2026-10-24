@@ -174831,6 +174831,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4993.png",
       "sha256": "20b5b0405e07d23fc86a86cdecdf84d3e881aa941288bd1edf223f78c831d5b7"
+    },
+    {
+      "message_id": 4992,
+      "filename": "쎈 공통수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4992_.1.pdf",
+      "size_bytes": 11472981,
+      "telegram_date": "2025-08-11T14:59:16+00:00",
+      "title": "쎈 공통수학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4992.png",
+      "sha256": "05f998becaf5c6f6debd7c47b72173baf606e5092e226594ed41892a7bf5f5cb"
     }
   ],
   "duplicate_message_ids": [
