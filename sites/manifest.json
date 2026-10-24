@@ -176287,6 +176287,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4872.png",
       "sha256": "92e53e57336eaa012e1feb9ef4a97ae37900eb9fd6815abc5c90a0dd5907c8e1"
+    },
+    {
+      "message_id": 4871,
+      "filename": "2026 수능특강 화학1 정답과 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4871_2026.1.pdf",
+      "size_bytes": 32284599,
+      "telegram_date": "2025-08-11T14:59:03+00:00",
+      "title": "2026 수능특강 화학1 정답과 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4871.png",
+      "sha256": "e12b424859ee385a34eb82b6a4f6f91070cae5d13119b6e8950d4cf950e67ed3"
     }
   ],
   "duplicate_message_ids": [
