@@ -174341,6 +174341,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5038.png",
       "sha256": "3316330dcb76683922d2e8a3abe29b27bc930ebe3aa7374f9182d610efcb06c1"
+    },
+    {
+      "message_id": 5037,
+      "filename": "펀더멘탈 수1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5037_.1.pdf",
+      "size_bytes": 2346773,
+      "telegram_date": "2025-08-11T15:10:53+00:00",
+      "title": "펀더멘탈 수1 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5037.png",
+      "sha256": "5884cc8133c4fd6baebd9fa57833f7ab4cf252b7fdf4f0d585104bafb73d10dd"
     }
   ],
   "duplicate_message_ids": [
