@@ -174817,6 +174817,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4995.png",
       "sha256": "f90fa752c209ae79ae4aaf8188af49a9a217dd1a234049e234f2fd892dd1fdce"
+    },
+    {
+      "message_id": 4993,
+      "filename": "2026_강민철의_기출분석_문학_익힘책_문제편_스캔본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4993_2026_._._._._._.pdf",
+      "size_bytes": 99420558,
+      "telegram_date": "2025-08-11T14:59:16+00:00",
+      "title": "2026_강민철의_기출분석_문학_익힘책_문제편_스캔본",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4993.png",
+      "sha256": "20b5b0405e07d23fc86a86cdecdf84d3e881aa941288bd1edf223f78c831d5b7"
     }
   ],
   "duplicate_message_ids": [
