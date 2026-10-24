@@ -174257,6 +174257,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5045.png",
       "sha256": "aad57d16d43377018f0f2d22c978b003f614b128de36a872bc4844dde9099cba"
+    },
+    {
+      "message_id": 5044,
+      "filename": "HOLYDAY_신기해_미적분_4주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5044_HOLYDAY_._._4.pdf",
+      "size_bytes": 8026804,
+      "telegram_date": "2025-08-11T15:10:54+00:00",
+      "title": "HOLYDAY_신기해_미적분_4주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5044.png",
+      "sha256": "6133fca2cad02e0c47d10af69c2852ecf053cb78e14ccc2111645885939304ca"
     }
   ],
   "duplicate_message_ids": [
