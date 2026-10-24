@@ -176539,6 +176539,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4851.png",
       "sha256": "0a38e10954a79e9a99c645efd89dde014ab59ae138254f1c045cba3e63e3399e"
+    },
+    {
+      "message_id": 4850,
+      "filename": "김기현 수학1 연습문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4850_.1.pdf",
+      "size_bytes": 82578613,
+      "telegram_date": "2025-08-11T14:59:02+00:00",
+      "title": "김기현 수학1 연습문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4850.png",
+      "sha256": "6757cf11056bf48c343157989b8983a5cb44ecb06198a5d01a54f1aab682533d"
     }
   ],
   "duplicate_message_ids": [
