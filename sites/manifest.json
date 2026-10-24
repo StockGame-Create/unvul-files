@@ -176315,6 +176315,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4870.png",
       "sha256": "f2a05cd10787fff68cc21c84b02a6a14c069557bf3c8a9bc7b04299fb7d0e79d"
+    },
+    {
+      "message_id": 4869,
+      "filename": "2026 수능특강 물리학1 정답과 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4869_2026.1.pdf",
+      "size_bytes": 43020627,
+      "telegram_date": "2025-08-11T14:59:03+00:00",
+      "title": "2026 수능특강 물리학1 정답과 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4869.png",
+      "sha256": "b4294705d8b3764d7aba41518db6387aa4c9d1c4eaeeb310632ac0a8a9320ab1"
     }
   ],
   "duplicate_message_ids": [
