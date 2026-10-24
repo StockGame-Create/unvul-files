@@ -173991,6 +173991,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5072.png",
       "sha256": "a02ebdeaf17c485cc34919c2c46430e87d97d53bdf9ff0cb7c3953b9ad0189f0"
+    },
+    {
+      "message_id": 5064,
+      "filename": "2026 수학1 박종민 필기노트 2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5064_2026.1.2.pdf",
+      "size_bytes": 18594269,
+      "telegram_date": "2025-08-11T15:10:55+00:00",
+      "title": "2026 수학1 박종민 필기노트 2권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5064.png",
+      "sha256": "68b67080a5912b982d8e209c45e78f4267fd4f47fdb687514020db3985bc92c6"
     }
   ],
   "duplicate_message_ids": [
