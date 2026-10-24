@@ -175741,6 +175741,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4916.png",
       "sha256": "bc22b2f98c35b2144d6d64b49a2a1281f621ac11402681e74b202edd08d83725"
+    },
+    {
+      "message_id": 4915,
+      "filename": "이개념 모고 1회.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4915_.1.PDF",
+      "size_bytes": 3955113,
+      "telegram_date": "2025-08-11T14:59:05+00:00",
+      "title": "이개념 모고 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4915.png",
+      "sha256": "a9961a3c6b69459909731d72d5245638eea69a08210c02b3efcfa5bb9b501e04"
     }
   ],
   "duplicate_message_ids": [
