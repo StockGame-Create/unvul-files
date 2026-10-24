@@ -172913,6 +172913,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5173.png",
       "sha256": "d0b7e9b48382f91035fd06156874227103ec1e571ffbee1024437f9d9ba17474"
+    },
+    {
+      "message_id": 5172,
+      "filename": "2026_수학1_박종민_수업필기노트_6권_250223_144954.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5172_2026_.1_._._6._250223_144954.pdf",
+      "size_bytes": 13740665,
+      "telegram_date": "2025-08-11T15:11:49+00:00",
+      "title": "2026_수학1_박종민_수업필기노트_6권_250223_144954",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5172.png",
+      "sha256": "51995a34b43ba8611813bd4f16bd45252ec69a98c5b15fe86e114f9696342189"
     }
   ],
   "duplicate_message_ids": [
