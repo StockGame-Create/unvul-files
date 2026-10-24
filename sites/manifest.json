@@ -174159,6 +174159,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5053.png",
       "sha256": "66f323300dffb2af0fc2aab657f2ed2cd4a7109a5a614e7d0e93dc14a1d908d1"
+    },
+    {
+      "message_id": 5052,
+      "filename": "531프로젝트_고전시가_S_본책_교사용.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5052_531._._S_._.pdf",
+      "size_bytes": 7197494,
+      "telegram_date": "2025-08-11T15:10:55+00:00",
+      "title": "531프로젝트_고전시가_S_본책_교사용",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5052.png",
+      "sha256": "e3ff68cd1a03b512eca219a7ce7e7b7b0db110f54914348ba26e3761c06d6590"
     }
   ],
   "duplicate_message_ids": [
