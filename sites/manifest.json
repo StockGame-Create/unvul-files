@@ -176553,6 +176553,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4850.png",
       "sha256": "6757cf11056bf48c343157989b8983a5cb44ecb06198a5d01a54f1aab682533d"
+    },
+    {
+      "message_id": 4846,
+      "filename": "마플시너지_미적분_정답과_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4846_._._._.pdf",
+      "size_bytes": 1648366048,
+      "telegram_date": "2025-08-11T14:59:02+00:00",
+      "title": "마플시너지_미적분_정답과_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4846.png",
+      "sha256": "b15499958f3029abdf31696f53af6edb1664cf9187217ca4a572ad1d3210d94c"
     }
   ],
   "duplicate_message_ids": [
