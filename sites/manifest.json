@@ -174173,6 +174173,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5052.png",
       "sha256": "e3ff68cd1a03b512eca219a7ce7e7b7b0db110f54914348ba26e3761c06d6590"
+    },
+    {
+      "message_id": 5051,
+      "filename": "강기원_수1특강_필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5051_._.1._.pdf",
+      "size_bytes": 10346335,
+      "telegram_date": "2025-08-11T15:10:55+00:00",
+      "title": "강기원_수1특강_필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5051.png",
+      "sha256": "2dd9a1e96e01778e4fd23121aa42c34c67d83076e4926333832b33b7e54f98ac"
     }
   ],
   "duplicate_message_ids": [
