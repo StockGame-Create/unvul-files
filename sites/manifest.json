@@ -175349,6 +175349,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4938.png",
       "sha256": "b13fa6c2685d3fb2a1424f51b1e024e65a59d5efec7ffda92ba75438715e8226"
+    },
+    {
+      "message_id": 4936,
+      "filename": "Clutch week4.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4936_Clutch.week4.pdf",
+      "size_bytes": 8538149,
+      "telegram_date": "2025-08-11T14:59:08+00:00",
+      "title": "Clutch week4",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4936.png",
+      "sha256": "dff6b6614fd73d90300017eb85f9fe0f27d1836cc9fbdb4d3117894c056e591e"
     }
   ],
   "duplicate_message_ids": [
