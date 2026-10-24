@@ -173081,6 +173081,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5161.png",
       "sha256": "130a29aa4431b2cdb86c278e6cbc9a729f647bc38e6d35fbc35f0199f22a2b86"
+    },
+    {
+      "message_id": 5160,
+      "filename": "개념ON_대표예제편_공통수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5160_.ON_._.1.pdf",
+      "size_bytes": 9472037,
+      "telegram_date": "2025-08-11T15:11:48+00:00",
+      "title": "개념ON_대표예제편_공통수학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5160.png",
+      "sha256": "bcb46737160238c9ffe26a7c4e70a95b3d5c6007c97cc44c7e02f75c3b576cfe"
     }
   ],
   "duplicate_message_ids": [
