@@ -176497,6 +176497,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4855.png",
       "sha256": "d19779206661bbdfbcd0d5a941be51e91f98d47e7ea378c7037e9ed241e16667"
+    },
+    {
+      "message_id": 4854,
+      "filename": "한완기 수1 2026 수학 이해원.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4854_.1.2026.pdf",
+      "size_bytes": 182591361,
+      "telegram_date": "2025-08-11T14:59:02+00:00",
+      "title": "한완기 수1 2026 수학 이해원",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4854.png",
+      "sha256": "7b907ec775085525858c43736fa02556656aaedce5387122f5bdeb0be13e1891"
     }
   ],
   "duplicate_message_ids": [
