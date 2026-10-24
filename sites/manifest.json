@@ -176511,6 +176511,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4854.png",
       "sha256": "7b907ec775085525858c43736fa02556656aaedce5387122f5bdeb0be13e1891"
+    },
+    {
+      "message_id": 4853,
+      "filename": "2026_김지영_하트시그널_V올인원.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4853_2026_._._V.pdf",
+      "size_bytes": 152794047,
+      "telegram_date": "2025-08-11T14:59:02+00:00",
+      "title": "2026_김지영_하트시그널_V올인원",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4853.png",
+      "sha256": "8fbf7b2f1d81ef6e3b100b43d2532b7f69c2b4c9319c22d1bffa1b376df91280"
     }
   ],
   "duplicate_message_ids": [
