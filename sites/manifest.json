@@ -174467,6 +174467,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5028.png",
       "sha256": "0c0aa52b12a74a848296fddddbed845c43f625e1a73b8ca28b2bf2e4848cddea"
+    },
+    {
+      "message_id": 5026,
+      "filename": "상상 리미스터링 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5026_.1.pdf",
+      "size_bytes": 15763608,
+      "telegram_date": "2025-08-11T15:10:52+00:00",
+      "title": "상상 리미스터링 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5026.png",
+      "sha256": "eeab35d6f0d455b31eae3c04c382ba6970faa9f65ee451c8d40cb602e040ada8"
     }
   ],
   "duplicate_message_ids": [
