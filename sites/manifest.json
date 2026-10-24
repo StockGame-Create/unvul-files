@@ -176077,6 +176077,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4889.png",
       "sha256": "785df38cd3005c9bb1a629e784684c80bfb2085778f3789fecc911760355f549"
+    },
+    {
+      "message_id": 4888,
+      "filename": "2026 이신혁 아폴로 2주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4888_2026.2.pdf",
+      "size_bytes": 91972570,
+      "telegram_date": "2025-08-11T14:59:04+00:00",
+      "title": "2026 이신혁 아폴로 2주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4888.png",
+      "sha256": "e97376ef21b72b931cb6de80bb18e3efb161eb23c4b8fb5974c5bccc21dcb88b"
     }
   ],
   "duplicate_message_ids": [
