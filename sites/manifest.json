@@ -175041,6 +175041,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4971.png",
       "sha256": "219b00adecb0829bb403436d1cf308dad5dc60fea2e2d20a0903aa3a3a7151db"
+    },
+    {
+      "message_id": 4970,
+      "filename": "시대인재_언어이해_제로.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4970_._._.pdf",
+      "size_bytes": 12372944,
+      "telegram_date": "2025-08-11T14:59:14+00:00",
+      "title": "시대인재_언어이해_제로",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4970.png",
+      "sha256": "ce974ebf0897bcf7357dd23304847eaa2803a26f51f5dd85218c341da36549ed"
     }
   ],
   "duplicate_message_ids": [
