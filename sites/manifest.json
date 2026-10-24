@@ -173935,6 +173935,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5078.png",
       "sha256": "08c688ab928c0be3334fe1f450c4e973598b6aee0c7402593c874b297b32a1b7"
+    },
+    {
+      "message_id": 5077,
+      "filename": "섬개완_문제편_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5077_._._.pdf",
+      "size_bytes": 8508247,
+      "telegram_date": "2025-08-11T15:11:41+00:00",
+      "title": "섬개완_문제편_해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5077.png",
+      "sha256": "a696775162c7a6026919ec5920dd7ba5f82d2f243b104cfeb891ef432649342b"
     }
   ],
   "duplicate_message_ids": [
