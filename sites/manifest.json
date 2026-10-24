@@ -173137,6 +173137,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5153.png",
       "sha256": "dfc14d18c84da0dd6b637f0ea4f0bc67d90ff6db405399a1effba958173c2eb7"
+    },
+    {
+      "message_id": 5152,
+      "filename": "22개정_RPM_공통수학1_(학생용).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5152_22._RPM_.1_.pdf",
+      "size_bytes": 44356289,
+      "telegram_date": "2025-08-11T15:11:47+00:00",
+      "title": "22개정_RPM_공통수학1_(학생용)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5152.png",
+      "sha256": "187f9ec94c44c629c830f7b893a491e94b8f06ad318cfd050fca0f7c19c7c643"
     }
   ],
   "duplicate_message_ids": [
