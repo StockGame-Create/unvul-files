@@ -172997,6 +172997,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5167.png",
       "sha256": "2d311b003cb2125ec4a9e8de034c4212a950c4b8ee5d884f3d041e4cdb748aa6"
+    },
+    {
+      "message_id": 5166,
+      "filename": "수학의바이블_개념ON_공통수학2 본책_배포용.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5166_._.ON_.2._.pdf",
+      "size_bytes": 49729716,
+      "telegram_date": "2025-08-11T15:11:49+00:00",
+      "title": "수학의바이블_개념ON_공통수학2 본책_배포용",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5166.png",
+      "sha256": "7219fe05270b3571942893df8bf2cb84818bd070288a9adf0fd40afb5a44138d"
     }
   ],
   "duplicate_message_ids": [
