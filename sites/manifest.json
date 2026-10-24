@@ -174929,6 +174929,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4982.png",
       "sha256": "b110c3d1d7b4c884a1f2c847cd23dcd404873a4117e5ecfb58c6db0c875eee77"
+    },
+    {
+      "message_id": 4981,
+      "filename": "강기원 스1 본교재.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4981_.1.pdf",
+      "size_bytes": 94453105,
+      "telegram_date": "2025-08-11T14:59:15+00:00",
+      "title": "강기원 스1 본교재",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4981.png",
+      "sha256": "c3d0c91c7b6d371d0ab0a873b368b2527c3b7fab199139bb90a5fe3573eb355f"
     }
   ],
   "duplicate_message_ids": [
