@@ -175811,6 +175811,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4910.png",
       "sha256": "73a5dab333f1d2b99a24eab37b6ac41b736895b2c4f90d5fb1fc4050d855040c"
+    },
+    {
+      "message_id": 4909,
+      "filename": "2026 EBS 수능특강 윤리와 사상 정답과 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4909_2026.EBS.pdf",
+      "size_bytes": 67726073,
+      "telegram_date": "2025-08-11T14:59:05+00:00",
+      "title": "2026 EBS 수능특강 윤리와 사상 정답과 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4909.png",
+      "sha256": "53b230794a606e4b22ea4c07ea00574b4baf45a6276bd11e45615b835711e3a9"
     }
   ],
   "duplicate_message_ids": [
