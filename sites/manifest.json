@@ -174845,6 +174845,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4992.png",
       "sha256": "05f998becaf5c6f6debd7c47b72173baf606e5092e226594ed41892a7bf5f5cb"
+    },
+    {
+      "message_id": 4991,
+      "filename": "강민철_문학_익힘_해설_2주차까지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4991_._._._._2.pdf",
+      "size_bytes": 76276873,
+      "telegram_date": "2025-08-11T14:59:16+00:00",
+      "title": "강민철_문학_익힘_해설_2주차까지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4991.png",
+      "sha256": "a939f00bce72262ce2109bede3695cbe385d6a901aa3e0b9a1360b599bbd1373"
     }
   ],
   "duplicate_message_ids": [
