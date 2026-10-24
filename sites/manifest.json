@@ -175083,6 +175083,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4966.png",
       "sha256": "0c89318950032c5281fef26110101cdde453b814aed37da5e68e6a4590483ce1"
+    },
+    {
+      "message_id": 4965,
+      "filename": "2026 최적 크로니클.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4965_2026.pdf",
+      "size_bytes": 67002141,
+      "telegram_date": "2025-08-11T14:59:14+00:00",
+      "title": "2026 최적 크로니클",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4965.png",
+      "sha256": "c7604bb68fe3ad2afd334b6aa449577d98f5dd5163246feb706528cb24bb2aa0"
     }
   ],
   "duplicate_message_ids": [
