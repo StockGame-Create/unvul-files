@@ -175573,6 +175573,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4931.png",
       "sha256": "07e5a3009e47a93ba075fc60ff7a62dd19dfbef291b6155890d9b75f832b7fbe"
+    },
+    {
+      "message_id": 4930,
+      "filename": "기시감생활과_윤리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4930_._.pdf",
+      "size_bytes": 31669899,
+      "telegram_date": "2025-08-11T14:59:07+00:00",
+      "title": "기시감생활과_윤리",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4930.png",
+      "sha256": "a757286edc45d282f8de17de14dc109281980a154ea6b1f6b8ac060223dfbabb"
     }
   ],
   "duplicate_message_ids": [
