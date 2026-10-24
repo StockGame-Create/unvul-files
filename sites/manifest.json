@@ -172731,6 +172731,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5182.png",
       "sha256": "f59fcc946e277bf674860b896318f271f600200fbec1a84b3cc75d2c6666353e"
+    },
+    {
+      "message_id": 5200,
+      "filename": "2026_수학_강기원_어싸인먼트_9주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5200_2026_._._._9.pdf",
+      "size_bytes": 87201679,
+      "telegram_date": "2025-08-11T15:11:50+00:00",
+      "title": "2026_수학_강기원_어싸인먼트_9주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5200.png",
+      "sha256": "fd28d1ccb977c00f4841845ea7177de325792ce95eec78821875fa8631e44281"
     }
   ],
   "duplicate_message_ids": [
