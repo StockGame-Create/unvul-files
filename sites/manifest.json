@@ -174313,6 +174313,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5040.png",
       "sha256": "a275fed81a4bd56e87246bd921face93ddea898f6a9a816e752f633ccd3f2151"
+    },
+    {
+      "message_id": 5039,
+      "filename": "펀더멘탈수2 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5039_.2.pdf",
+      "size_bytes": 2117213,
+      "telegram_date": "2025-08-11T15:10:53+00:00",
+      "title": "펀더멘탈수2 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5039.png",
+      "sha256": "78e0d2712da5fcc0b43b4601f65d833788dbb25dcd5a0bc364530c6e2ef32daa"
     }
   ],
   "duplicate_message_ids": [
