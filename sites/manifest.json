@@ -173949,6 +173949,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5077.png",
       "sha256": "a696775162c7a6026919ec5920dd7ba5f82d2f243b104cfeb891ef432649342b"
+    },
+    {
+      "message_id": 5074,
+      "filename": "2026 백호 생1 기출.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5074_2026.1.pdf",
+      "size_bytes": 120400337,
+      "telegram_date": "2025-08-11T15:11:41+00:00",
+      "title": "2026 백호 생1 기출",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5074.png",
+      "sha256": "456090f41627e1c3be1a968e08fcc0b6e0fc15fab9d18648a7f793581e5d39ee"
     }
   ],
   "duplicate_message_ids": [
