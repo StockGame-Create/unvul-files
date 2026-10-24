@@ -174761,6 +174761,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4999.png",
       "sha256": "9065b59c76bd27852eb1c82767dd17ab0a9e107b57d2221dab7b1636c0bebe60"
+    },
+    {
+      "message_id": 4998,
+      "filename": "2026_강민철의_기출_분석_화법과_작문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4998_2026_._._._._.pdf",
+      "size_bytes": 349712130,
+      "telegram_date": "2025-08-11T14:59:16+00:00",
+      "title": "2026_강민철의_기출_분석_화법과_작문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4998.png",
+      "sha256": "fa2184c7eac4c4133f44d3c31ac15d5bf26f87b0ab63cb3fb6091e61973c8c31"
     }
   ],
   "duplicate_message_ids": [
