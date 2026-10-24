@@ -174033,6 +174033,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5062.png",
       "sha256": "141bbd46d7e621693603bd695741c349c6f396eb62a064a064c820fd0b2a58b0"
+    },
+    {
+      "message_id": 5061,
+      "filename": "2026 수학1 박종민 위클리콤 1권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5061_2026.1.1.pdf",
+      "size_bytes": 25122631,
+      "telegram_date": "2025-08-11T15:10:55+00:00",
+      "title": "2026 수학1 박종민 위클리콤 1권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5061.png",
+      "sha256": "76f06d1139c1573c2df69f4e64093d962e9b60564a34f2eca6387524f3ded254"
     }
   ],
   "duplicate_message_ids": [
