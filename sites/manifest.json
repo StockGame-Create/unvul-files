@@ -173473,6 +173473,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5121.png",
       "sha256": "791ec8d5a831fe12ad4afd3d85557feb8e76667027db7a8592af24f497bfa06d"
+    },
+    {
+      "message_id": 5119,
+      "filename": "2026학년도 마더텅 동아시아사 정답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5119_2026.pdf",
+      "size_bytes": 657721,
+      "telegram_date": "2025-08-11T15:11:43+00:00",
+      "title": "2026학년도 마더텅 동아시아사 정답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5119.png",
+      "sha256": "898c32277bc707efdb02de624410eb7e5a3865d9c843c738294ac05b2d4dedb9"
     }
   ],
   "duplicate_message_ids": [
