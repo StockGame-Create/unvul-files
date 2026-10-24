@@ -176385,6 +176385,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4863.png",
       "sha256": "612e103d0b66629d6402d1079f1e5bce89a0dc705f6f809278cd20f9272a9189"
+    },
+    {
+      "message_id": 4862,
+      "filename": "한완기 교사경 수2 2026 수학 이해원.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4862_.2.2026.pdf",
+      "size_bytes": 118092568,
+      "telegram_date": "2025-08-11T14:59:03+00:00",
+      "title": "한완기 교사경 수2 2026 수학 이해원",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4862.png",
+      "sha256": "e4659e14d71d53aa85f9095c23c91113b6ecae84ac0bfadf4d76b68e7b64ce70"
     }
   ],
   "duplicate_message_ids": [
