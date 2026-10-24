@@ -174733,6 +174733,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5001.png",
       "sha256": "779351f0253a798610ef78b561644bfd6e6f0c2bc57e7cf7a4eebcd58572fec2"
+    },
+    {
+      "message_id": 5000,
+      "filename": "또선생 간접 쓰기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5000_.pdf",
+      "size_bytes": 18283177,
+      "telegram_date": "2025-08-11T14:59:16+00:00",
+      "title": "또선생 간접 쓰기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5000.png",
+      "sha256": "200b1678366867dba5559e955eed31deee2ef0a728a2bf5a69885911265cb33b"
     }
   ],
   "duplicate_message_ids": [
