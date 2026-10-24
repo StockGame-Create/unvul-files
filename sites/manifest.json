@@ -174621,6 +174621,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5015.png",
       "sha256": "b9a28000ff1cb461a804a57ce149abc7e79bd194fb727c23cba26ed762180a91"
+    },
+    {
+      "message_id": 5014,
+      "filename": "이명학-일리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5014_.-.pdf",
+      "size_bytes": 121868350,
+      "telegram_date": "2025-08-11T14:59:17+00:00",
+      "title": "이명학-일리",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5014.png",
+      "sha256": "1c5922e95723b5d8e18198bfd1d6795ffa141a1f372a171d0b4c16993b06b3e3"
     }
   ],
   "duplicate_message_ids": [
