@@ -175531,6 +175531,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4934.png",
       "sha256": "8824d02565c1f2390a4aa92d9b0eaafe19dc983114989956656de5b59e380b26"
+    },
+    {
+      "message_id": 4933,
+      "filename": "2026학년도_마더텅_수학_영역_30회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4933_2026._._._._30.pdf",
+      "size_bytes": 147632800,
+      "telegram_date": "2025-08-11T14:59:08+00:00",
+      "title": "2026학년도_마더텅_수학_영역_30회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4933.png",
+      "sha256": "82aa19084183f102647d749a07b17692c03db04abd5ff0a131a45965f5928ff2"
     }
   ],
   "duplicate_message_ids": [
