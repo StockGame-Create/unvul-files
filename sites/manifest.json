@@ -175069,6 +175069,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4968.png",
       "sha256": "2b9103516cc720cefc53aec8a50b474a69624a43e23ef0cf8cc5db5b16383190"
+    },
+    {
+      "message_id": 4966,
+      "filename": "2026 강기원 어싸 3주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4966_2026.3.pdf",
+      "size_bytes": 25774646,
+      "telegram_date": "2025-08-11T14:59:14+00:00",
+      "title": "2026 강기원 어싸 3주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4966.png",
+      "sha256": "0c89318950032c5281fef26110101cdde453b814aed37da5e68e6a4590483ce1"
     }
   ],
   "duplicate_message_ids": [
