@@ -175587,6 +175587,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4930.png",
       "sha256": "a757286edc45d282f8de17de14dc109281980a154ea6b1f6b8ac060223dfbabb"
+    },
+    {
+      "message_id": 4928,
+      "filename": "매3문_정답한눈에보기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4928_.3._.pdf",
+      "size_bytes": 571436,
+      "telegram_date": "2025-08-11T14:59:07+00:00",
+      "title": "매3문_정답한눈에보기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4928.png",
+      "sha256": "ee976cd7d13b6172556ebf6db4df40589c1ba7fc8fcd92a4d074fa1f6923e3a4"
     }
   ],
   "duplicate_message_ids": [
