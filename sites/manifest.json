@@ -173543,6 +173543,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5115.png",
       "sha256": "9c8e560f2cc820f5d9ff3eff11aaa07307e9a5ab9e2b56f4077cd5030fdc22fe"
+    },
+    {
+      "message_id": 5113,
+      "filename": "도킹_6,_7주차_선별_프린트_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5113_._6._7._._._.pdf",
+      "size_bytes": 430982,
+      "telegram_date": "2025-08-11T15:11:43+00:00",
+      "title": "도킹_6,_7주차_선별_프린트_해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5113.png",
+      "sha256": "bd93a2259c648ed64531d02898362829d0135e6e580bb31d127db4d82ca64f13"
     }
   ],
   "duplicate_message_ids": [
