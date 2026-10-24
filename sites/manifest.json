@@ -172871,6 +172871,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5178.png",
       "sha256": "1e04203245e43a7426ccfc2041089d9dc1a0500ad5fbe7e989584108331657a3"
+    },
+    {
+      "message_id": 5176,
+      "filename": "2026학년도_수능특강 사용설명서_문학_본문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5176_2026._._._.pdf",
+      "size_bytes": 371286748,
+      "telegram_date": "2025-08-11T15:11:49+00:00",
+      "title": "2026학년도_수능특강 사용설명서_문학_본문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5176.png",
+      "sha256": "a8de2a52d62d34f4de06e68a341cd4d0168a9b28e43661fa3d2b8147f6fbef65"
     }
   ],
   "duplicate_message_ids": [
