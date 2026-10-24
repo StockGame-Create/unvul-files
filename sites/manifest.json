@@ -172885,6 +172885,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5176.png",
       "sha256": "a8de2a52d62d34f4de06e68a341cd4d0168a9b28e43661fa3d2b8147f6fbef65"
+    },
+    {
+      "message_id": 5175,
+      "filename": "2026 강기원 STEP1 어싸 8주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5175_2026.STEP1.8.pdf",
+      "size_bytes": 37396206,
+      "telegram_date": "2025-08-11T15:11:49+00:00",
+      "title": "2026 강기원 STEP1 어싸 8주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5175.png",
+      "sha256": "2115cd9da676499d379ee90e146eaae49ebd9e3f1988f6bf4373aa1351048e12"
     }
   ],
   "duplicate_message_ids": [
