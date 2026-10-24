@@ -173193,6 +173193,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5145.png",
       "sha256": "9ccfd0bf0e88447289f26807d08b47d23b038c546535e61f4a82af06b1981eec"
+    },
+    {
+      "message_id": 5144,
+      "filename": "2026 EBS 수능특강 물리학2 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5144_2026.EBS.2.1.pdf",
+      "size_bytes": 10536461,
+      "telegram_date": "2025-08-11T15:11:45+00:00",
+      "title": "2026 EBS 수능특강 물리학2 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5144.png",
+      "sha256": "3e9113bcc812a56cbff009e9379f54500274a1004769491af8bad9d469401174"
     }
   ],
   "duplicate_message_ids": [
