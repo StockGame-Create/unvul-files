@@ -173893,6 +173893,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5082.png",
       "sha256": "90b8687194d0da373c23c97a16fe0025e57abbdf2216ef8e6f904ced4a2d6362"
+    },
+    {
+      "message_id": 5080,
+      "filename": "2026_정병호_레알_비기너스_기하.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5080_2026_._._._.pdf",
+      "size_bytes": 115231347,
+      "telegram_date": "2025-08-11T15:11:41+00:00",
+      "title": "2026_정병호_레알_비기너스_기하",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5080.png",
+      "sha256": "57555625f16d779c3797df3f7b2f0cd86e03310e23ddc414ae77858f468ac2a1"
     }
   ],
   "duplicate_message_ids": [
