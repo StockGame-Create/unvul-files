@@ -175699,6 +175699,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4919.png",
       "sha256": "43a313f09a2a445b288858500d06f9db471d37393dddb2e9ce47e748480ac500"
+    },
+    {
+      "message_id": 4918,
+      "filename": "전자책_맑은개념_수1&수2_맑은개념_수학시리즈_2024.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4918_._._.1.2_._._2024.pdf",
+      "size_bytes": 7290362,
+      "telegram_date": "2025-08-11T14:59:07+00:00",
+      "title": "전자책_맑은개념_수1&수2_맑은개념_수학시리즈_2024",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4918.png",
+      "sha256": "116f3b65b0bd059adc6230be0f0b28cacbff0eeceb2c35e813a4fd3e91c53138"
     }
   ],
   "duplicate_message_ids": [
