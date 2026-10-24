@@ -174803,6 +174803,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4996.png",
       "sha256": "cc476c36f299e37822fd3c17f4224552d3da66aaa9eac8e998799b3b75823efb"
+    },
+    {
+      "message_id": 4995,
+      "filename": "[2026][수능특강][수학1본문+해설].pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4995_.2026.1.%2B.pdf",
+      "size_bytes": 154521944,
+      "telegram_date": "2025-08-11T14:59:16+00:00",
+      "title": "[2026][수능특강][수학1본문+해설]",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4995.png",
+      "sha256": "f90fa752c209ae79ae4aaf8188af49a9a217dd1a234049e234f2fd892dd1fdce"
     }
   ],
   "duplicate_message_ids": [
