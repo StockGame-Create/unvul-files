@@ -174607,6 +174607,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5016.png",
       "sha256": "4087899430fbe235a1f9ebcbc4795de3508af85c6c1a2762ecdf05cb09564669"
+    },
+    {
+      "message_id": 5015,
+      "filename": "2026_수능특강_미적분_본문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5015_2026_._._.pdf",
+      "size_bytes": 28754673,
+      "telegram_date": "2025-08-11T14:59:17+00:00",
+      "title": "2026_수능특강_미적분_본문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5015.png",
+      "sha256": "b9a28000ff1cb461a804a57ce149abc7e79bd194fb727c23cba26ed762180a91"
     }
   ],
   "duplicate_message_ids": [
