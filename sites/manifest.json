@@ -172843,6 +172843,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5181.png",
       "sha256": "c5aa236eb09065aa9e40011994dcd56f4018f130ee45b47bb1e9f0121983c628"
+    },
+    {
+      "message_id": 5180,
+      "filename": "2026 훈련도감.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5180_2026.pdf",
+      "size_bytes": 240539026,
+      "telegram_date": "2025-08-11T15:11:49+00:00",
+      "title": "2026 훈련도감",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5180.png",
+      "sha256": "6c738951ac0a330d6d43a0f1d784e0a1be52378725f489bc05651273e2cad172"
     }
   ],
   "duplicate_message_ids": [
