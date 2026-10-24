@@ -172941,6 +172941,20 @@
       "subject": null,
       "thumbnail": "thumbnails/5171.png",
       "sha256": "b8fa13babd2f2b63740604716d45b9903e4a26727df27c5cc2bf1f374e619004"
+    },
+    {
+      "message_id": 5170,
+      "filename": "2026_스탠다드_미적분_8주차_수업_복습테스트_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/5170_2026_._._8._._._.pdf",
+      "size_bytes": 1518639,
+      "telegram_date": "2025-08-11T15:11:49+00:00",
+      "title": "2026_스탠다드_미적분_8주차_수업_복습테스트_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/5170.png",
+      "sha256": "84bc586ab3a529be68b055ecb0f3ea6bb0aef831f1654c359f663e2921f52f1a"
     }
   ],
   "duplicate_message_ids": [
