@@ -177015,6 +177015,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4813.png",
       "sha256": "12d1f5c97eb9f45467fe1ea7298a49d7e3fa64dce22a59fd5e8eedbcfb87478d"
+    },
+    {
+      "message_id": 4810,
+      "filename": "션티현장전용_독해모의고사_영어영역_W3_해설편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4810_._._._W3_.pdf",
+      "size_bytes": 57561003,
+      "telegram_date": "2025-08-11T14:58:59+00:00",
+      "title": "션티현장전용_독해모의고사_영어영역_W3_해설편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4810.png",
+      "sha256": "25fc44c06c68ee63397bd6944c21df6f96c8d616795854d8d97a8bcabb27b340"
     }
   ],
   "duplicate_message_ids": [
