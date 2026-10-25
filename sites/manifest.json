@@ -177449,6 +177449,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4775.png",
       "sha256": "322c567550de759b13572ba5e47a72eab7b8134ccb3a322b6b35d0ed867a9ea7"
+    },
+    {
+      "message_id": 4774,
+      "filename": "2026_신기해_미적분_1단원_손해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4774_2026_._._1._.pdf",
+      "size_bytes": 4162185,
+      "telegram_date": "2025-08-11T14:58:57+00:00",
+      "title": "2026_신기해_미적분_1단원_손해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4774.png",
+      "sha256": "b258d9daff7d336d02adeb1d62366fd09b1b89d90951d2453e4917c4b63670d5"
     }
   ],
   "duplicate_message_ids": [
