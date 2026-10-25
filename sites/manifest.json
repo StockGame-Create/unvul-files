@@ -183,6 +183,20 @@
       "sha256": "057b37f0798729d2fa148cea0dca0d7e2f311dbf6e48a61f581b4175b040f2e5"
     },
     {
+      "message_id": 25867,
+      "filename": "2027 김현우 스탠다드 모의고사 8회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25867_2027.8.pdf",
+      "size_bytes": 1239812,
+      "telegram_date": "2026-10-25T13:54:11+00:00",
+      "title": "수학 김현우 스탠다드 모의고사 1, 2, 4, 9회",
+      "year": "2027",
+      "instructor": "김현우",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25867.png",
+      "sha256": "df1fa19ae897111b0b797b6ec9a92624fd0ccbc046d6f35706493ec2f16acfee"
+    },
+    {
       "message_id": 25853,
       "filename": "사만다 Final 1회.pdf",
       "stored_as": null,
