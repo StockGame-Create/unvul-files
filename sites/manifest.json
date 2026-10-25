@@ -211,6 +211,20 @@
       "sha256": "6f70d29e5d1707c882a9753d6d8cbd336b60c19354701855d8aa5b5b4243ead4"
     },
     {
+      "message_id": 25821,
+      "filename": "최적_적자생존_시즌_3_7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25821_._._._3_7.pdf",
+      "size_bytes": 9597923,
+      "telegram_date": "2026-10-25T06:29:40+00:00",
+      "title": "정법 적자생존 모의고사 시즌3 7회 #적생모",
+      "year": "2027",
+      "instructor": "최적",
+      "subject": "정치와법",
+      "thumbnail": "thumbnails/25821.png",
+      "sha256": "6f637db0b1e9abf918417f71b59291203ebb27b2ef4b6299330401754d3f9919"
+    },
+    {
       "message_id": 25772,
       "filename": "S4해설.pdf",
       "stored_as": null,
