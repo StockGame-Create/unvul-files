@@ -179801,6 +179801,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4648.png",
       "sha256": "cecc576aeac264ad68ed340d08863b88ea962aa967109c1a74f8b75c495d8de0"
+    },
+    {
+      "message_id": 4641,
+      "filename": "2026 스탠다드 미적분 1주차 복습테스트 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4641_2026.1.pdf",
+      "size_bytes": 1183917,
+      "telegram_date": "2025-08-11T14:58:38+00:00",
+      "title": "2026 스탠다드 미적분 1주차 복습테스트 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4641.png",
+      "sha256": "4cb7141c8649b8c09fa5400e3dc7c199f58f2eef5dcfaf248fc09d2cf72c139c"
     }
   ],
   "duplicate_message_ids": [
