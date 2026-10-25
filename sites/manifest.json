@@ -177197,6 +177197,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4798.png",
       "sha256": "233b0a1b641cf437eab398c4d30079b33b2527f9acbe415e9543832b2519c449"
+    },
+    {
+      "message_id": 4797,
+      "filename": "화1 완자 기출픽.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4797_.1.pdf",
+      "size_bytes": 20459148,
+      "telegram_date": "2025-08-11T14:58:58+00:00",
+      "title": "화1 완자 기출픽",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4797.png",
+      "sha256": "60e6d6d7b2a0942789715ef3cfe8466ee4e6d3a09a44c3ebffac088fe71e020f"
     }
   ],
   "duplicate_message_ids": [
