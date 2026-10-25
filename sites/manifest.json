@@ -180739,6 +180739,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4544.png",
       "sha256": "031d9c6f11444e1356885531e68c3409193e5dc1ce4ef37218eeb16801916e55"
+    },
+    {
+      "message_id": 4543,
+      "filename": "2026 기출픽 지구과학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4543_2026.pdf",
+      "size_bytes": 335671198,
+      "telegram_date": "2025-08-11T14:58:28+00:00",
+      "title": "2026 기출픽 지구과학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4543.png",
+      "sha256": "dac22366eac8f7c78bbee50e3dc3dff94e2f10db09b175ec0a24715d39169d85"
     }
   ],
   "duplicate_message_ids": [
