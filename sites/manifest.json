@@ -178905,6 +178905,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4739.png",
       "sha256": "d6684c2ac2eb552a4bf03ccdba34bee2700d70f377bdb637fb6a51b0ad2a9741"
+    },
+    {
+      "message_id": 4736,
+      "filename": "TalkFile_이미지_세젤쉬_수1_pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4736_TalkFile_._._.1_pdf.pdf",
+      "size_bytes": 95672015,
+      "telegram_date": "2025-08-11T14:58:55+00:00",
+      "title": "TalkFile_이미지_세젤쉬_수1_pdf",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4736.png",
+      "sha256": "21e635df550f2432ec72aa133f54d8730e124963f6104cfaa37c3c1b5d996875"
     }
   ],
   "duplicate_message_ids": [
