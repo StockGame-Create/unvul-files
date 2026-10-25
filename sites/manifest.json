@@ -179969,6 +179969,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4619.png",
       "sha256": "432547941af89c6a939f372d84db95026742c2fd0da0d6be0b72bcd31a74893b"
+    },
+    {
+      "message_id": 4616,
+      "filename": "2026_현자의돌_기출로_시작하는_감각_비킬러_자료집.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4616_2026_._._._._._.pdf",
+      "size_bytes": 32654064,
+      "telegram_date": "2025-08-11T14:58:34+00:00",
+      "title": "2026_현자의돌_기출로_시작하는_감각_비킬러_자료집",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4616.png",
+      "sha256": "5e5e35715f49db2f1f8e54183aa9e5ceabb20353990b15087953c093920b89ab"
     }
   ],
   "duplicate_message_ids": [
