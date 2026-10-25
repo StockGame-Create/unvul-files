@@ -659,6 +659,20 @@
       "sha256": "2718d0120145f14633de5b7a6f2e822113453b7a1595a1f0365fa83ff1ca2db7"
     },
     {
+      "message_id": 25780,
+      "filename": "2027_동아시아사_실전모의고사_1회_3회_정답포함_15쪽.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25780_2027_._._1._3._._15.pdf",
+      "size_bytes": 12045966,
+      "telegram_date": "2026-10-25T06:28:54+00:00",
+      "title": "동사 김종웅 FINAL 실전 모의고사 1~3회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "동아시아사",
+      "thumbnail": "thumbnails/25780.png",
+      "sha256": "3dd165eb95cb88a60ccdb560bc6ffee2f2a4ad29a0a588e182edceec6dc576bd"
+    },
+    {
       "message_id": 25772,
       "filename": "S4해설.pdf",
       "stored_as": null,
