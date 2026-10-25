@@ -99,6 +99,20 @@
       "sha256": "d12c6be1f5cb7aeb192daac40895f168b7655ae2098cfe9c4cc8bd8b0802a09f"
     },
     {
+      "message_id": 25832,
+      "filename": "2027학년도_잘_푸는_모의고사_시즌_2파이널_1회5회_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25832_2027._._._._._2._1.5._.pdf",
+      "size_bytes": 28001069,
+      "telegram_date": "2026-10-25T06:29:55+00:00",
+      "title": "생윤 잘 푸는 모의고사 시즌 2(파이널) 1~5회",
+      "year": "2027",
+      "instructor": "김종익",
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/25832.png",
+      "sha256": "4c4ca58cc216b2767344cd391ae263c95514133cc3c52d0a3d99763c6eaf79f0"
+    },
+    {
       "message_id": 25772,
       "filename": "S4해설.pdf",
       "stored_as": null,
