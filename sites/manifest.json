@@ -177253,6 +177253,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4794.png",
       "sha256": "7765431d4cba63024921f830867f267ef879fb2d6a15906cea54ab82c1f7e264"
+    },
+    {
+      "message_id": 4793,
+      "filename": "2026수능대비_자이스토리_화학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4793_2026._._.1.pdf",
+      "size_bytes": 403394212,
+      "telegram_date": "2025-08-11T14:58:58+00:00",
+      "title": "2026수능대비_자이스토리_화학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4793.png",
+      "sha256": "8e0ee885b630b263412fb6b2694646d5b774064fc1976ea9c28521739e947f4d"
     }
   ],
   "duplicate_message_ids": [
