@@ -179493,6 +179493,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4687.png",
       "sha256": "e33eb36812294d5b120036a697d41981b12d73c33fc8646bb8825deda2cc334a"
+    },
+    {
+      "message_id": 4686,
+      "filename": "2026_EBS수특_독서_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4686_2026_EBS._._.pdf",
+      "size_bytes": 100163832,
+      "telegram_date": "2025-08-11T14:58:52+00:00",
+      "title": "2026_EBS수특_독서_해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4686.png",
+      "sha256": "686003f8aaf24d5f467a76548b8ecc01544616e2da87a63d55fe1aac8e92fba0"
     }
   ],
   "duplicate_message_ids": [
