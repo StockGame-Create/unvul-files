@@ -180081,6 +180081,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4609.png",
       "sha256": "487b807925b27f0529dd07df46842f4c9e0c877b39379956f4ab0e86ea4a1552"
+    },
+    {
+      "message_id": 4608,
+      "filename": "24 물2 강대K.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4608_24.2.K.pdf",
+      "size_bytes": 83664370,
+      "telegram_date": "2025-08-11T14:58:33+00:00",
+      "title": "24 물2 강대K",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4608.png",
+      "sha256": "71573f2b6d33ae3b28b106d8b6bae49ffc1b1c58afcf138dddc507af1e2b8319"
     }
   ],
   "duplicate_message_ids": [
