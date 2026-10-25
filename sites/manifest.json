@@ -179941,6 +179941,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4627.png",
       "sha256": "db9b426fc58936abf514bcc4c30f573f9bfb9ee2a414d58ff38187cc881ab5ff"
+    },
+    {
+      "message_id": 4626,
+      "filename": "1주차_미적분_필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4626_1._._.pdf",
+      "size_bytes": 1724504,
+      "telegram_date": "2025-08-11T14:58:34+00:00",
+      "title": "1주차_미적분_필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4626.png",
+      "sha256": "8adc095382032a4d73130e1f32875ac0ce04e69fefabed6b0908f011d79811cf"
     }
   ],
   "duplicate_message_ids": [
