@@ -178359,6 +178359,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4754.png",
       "sha256": "ff4e28428445d940a4102f805524f56c2277d86a1e61cb769c5beb23225be779"
+    },
+    {
+      "message_id": 4753,
+      "filename": "션티T 현강 어휘 테스트지 week2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4753_.T.week2.pdf",
+      "size_bytes": 669034,
+      "telegram_date": "2025-08-11T14:58:56+00:00",
+      "title": "션티T 현강 어휘 테스트지 week2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4753.png",
+      "sha256": "f3471ddf9f96af322c2dfc2d3e3628b0590aa83858c7f5ab7c01f4349cd0bbf6"
     }
   ],
   "duplicate_message_ids": [
