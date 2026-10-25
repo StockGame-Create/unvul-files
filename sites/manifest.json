@@ -463,6 +463,20 @@
       "sha256": "d3a07cd9a2545fb131227af69c3575a33280aaac49a369b76235bd1e50bd0cee"
     },
     {
+      "message_id": 25795,
+      "filename": "강은양 KEY모 7회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25795_.KEY.7.pdf",
+      "size_bytes": 16861410,
+      "telegram_date": "2026-10-25T06:29:12+00:00",
+      "title": "국어 강은양 KEY 모의고사 7, 8회",
+      "year": "2027",
+      "instructor": "강은양",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25795.png",
+      "sha256": "6392bb5cf431e70b747356da1c1e597f5c4547dc04a9df59dd249880e847fc45"
+    },
+    {
       "message_id": 25772,
       "filename": "S4해설.pdf",
       "stored_as": null,
