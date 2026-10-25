@@ -407,6 +407,20 @@
       "sha256": "b356b474959ae467d2bc26120d9ab3959a0061fad2dd091398bb8ea8fda58f7a"
     },
     {
+      "message_id": 25799,
+      "filename": "김승리 모의고사 08회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25799_.08.pdf",
+      "size_bytes": 79645750,
+      "telegram_date": "2026-10-25T06:29:19+00:00",
+      "title": "국어 김승리 실전 모의고사 7~10회 (인쇄소퀄) #김승모",
+      "year": "2027",
+      "instructor": "김승리",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25799.png",
+      "sha256": "a043b48d861600ae14ecfb091bf12f1121da8b9d82cb9ee11463afa65e70cb6f"
+    },
+    {
       "message_id": 25772,
       "filename": "S4해설.pdf",
       "stored_as": null,
