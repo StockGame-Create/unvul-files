@@ -15,6 +15,20 @@
       "sha256": "6054705cb9af88eaad3047341603a89a9e246860d50f7c4b1f1c39494c55b6b6"
     },
     {
+      "message_id": 25851,
+      "filename": "2027 수학 김범준 모의평가 9회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25851_2027.9.pdf",
+      "size_bytes": 6702478,
+      "telegram_date": "2026-10-25T11:02:58+00:00",
+      "title": "수학 김범준 모의고사 9회",
+      "year": "2027",
+      "instructor": "김범준",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25851.png",
+      "sha256": "dd99f1be5477a24becbd3b63bd455785a4d20225d38c06eef6942e6b80513771"
+    },
+    {
       "message_id": 25842,
       "filename": "2027학년도_이신혁_모의평가_시즌2_7회_문제지_pdf.pdf",
       "stored_as": null,
