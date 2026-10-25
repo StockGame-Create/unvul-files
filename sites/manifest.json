@@ -179031,6 +179031,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4724.png",
       "sha256": "aa94916a96a6c66590694208e42dd8da8400f253de3d938bbe7bfe711415af3b"
+    },
+    {
+      "message_id": 4722,
+      "filename": "수학1 특강 02주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4722_.1.02.pdf",
+      "size_bytes": 3867459,
+      "telegram_date": "2025-08-11T14:58:54+00:00",
+      "title": "수학1 특강 02주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4722.png",
+      "sha256": "47aef40525961025bf791422b46b01d958b0f3027da02186154e99badb146fc0"
     }
   ],
   "duplicate_message_ids": [
