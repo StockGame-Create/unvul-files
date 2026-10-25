@@ -179913,6 +179913,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4629.png",
       "sha256": "47ec71fddf11fbac05ac9596d8bffbcc98eb511ab79a29101eb44a2d27cef324"
+    },
+    {
+      "message_id": 4628,
+      "filename": "2026_션티_Kiss_N_Kill_독해_모의고사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4628_2026_._Kiss_N_Kill_._.pdf",
+      "size_bytes": 38096149,
+      "telegram_date": "2025-08-11T14:58:35+00:00",
+      "title": "2026_션티_Kiss_N_Kill_독해_모의고사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4628.png",
+      "sha256": "dbf200510d039c87d37cbd71f896ac3a48911946f5c3025566f47624fef76a42"
     }
   ],
   "duplicate_message_ids": [
