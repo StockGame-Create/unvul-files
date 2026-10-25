@@ -253,6 +253,20 @@
       "sha256": "b3e83054c1dcb704a2ac03e1be3a2a5ac25c086953911989de078739e1d562b9"
     },
     {
+      "message_id": 25816,
+      "filename": "잘잘잘n제 답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25816_.n.pdf",
+      "size_bytes": 40788287,
+      "telegram_date": "2026-10-25T06:29:37+00:00",
+      "title": "생윤 김종익 잘잘잘 N제",
+      "year": "2027",
+      "instructor": "김종익",
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/25816.png",
+      "sha256": "801645c03426999ff03f5636ca506fb85382a8ac80f3a5989a2e822b9e9ae482"
+    },
+    {
       "message_id": 25772,
       "filename": "S4해설.pdf",
       "stored_as": null,
