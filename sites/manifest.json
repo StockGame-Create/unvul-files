@@ -179199,6 +179199,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4710.png",
       "sha256": "822ee3f3710819c107a75885f0ddb400b90902a74a1a208a2c9215faf95a0cbe"
+    },
+    {
+      "message_id": 4708,
+      "filename": "화학2_강준호_퀴즈_5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4708_.2_._._5.pdf",
+      "size_bytes": 5408528,
+      "telegram_date": "2025-08-11T14:58:53+00:00",
+      "title": "화학2_강준호_퀴즈_5회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4708.png",
+      "sha256": "b83eb876eea9410cb8f5524a515bc809aa24a9c3fbccd6c8c9d0c223bce7cfe8"
     }
   ],
   "duplicate_message_ids": [
