@@ -180109,6 +180109,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4607.png",
       "sha256": "e206744294bb4a35bdd20610f8b5c57f17679a74335149aa64632b69d0a971b0"
+    },
+    {
+      "message_id": 4606,
+      "filename": "2026 김상훈 본질로부터 시작하라.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4606_2026.pdf",
+      "size_bytes": 41297213,
+      "telegram_date": "2025-08-11T14:58:33+00:00",
+      "title": "2026 김상훈 본질로부터 시작하라",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4606.png",
+      "sha256": "7e0d586babbc0842f48e8395f298860cb0c48654640019ee4cbf3db7665149d3"
     }
   ],
   "duplicate_message_ids": [
