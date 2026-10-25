@@ -178975,6 +178975,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4728.png",
       "sha256": "8d2271c9a411cbacf44e8fd2eaa9fb7c5abc9faafe8704f1a2a9d4035e31217b"
+    },
+    {
+      "message_id": 4727,
+      "filename": "한석원 펀더 수1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4727_.1.pdf",
+      "size_bytes": 55916128,
+      "telegram_date": "2025-08-11T14:58:54+00:00",
+      "title": "한석원 펀더 수1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4727.png",
+      "sha256": "69485d1f8249eab2808344a341278f9ae49e060026bd49045cf384c1310c264e"
     }
   ],
   "duplicate_message_ids": [
