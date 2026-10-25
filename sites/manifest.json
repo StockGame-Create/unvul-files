@@ -179535,6 +179535,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4684.png",
       "sha256": "55905e074cb9cd3c058e9e8b7b8df9e12b384d5c938f6c6a1088b493546baa79"
+    },
+    {
+      "message_id": 4683,
+      "filename": "2026_수능특강_생활과_윤리_본문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4683_2026_._._._.pdf",
+      "size_bytes": 229584280,
+      "telegram_date": "2025-08-11T14:58:52+00:00",
+      "title": "2026_수능특강_생활과_윤리_본문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4683.png",
+      "sha256": "37d4137ac9450283d37a2b94355b35e493330f9b046c21fffe14f05cc171bd42"
     }
   ],
   "duplicate_message_ids": [
