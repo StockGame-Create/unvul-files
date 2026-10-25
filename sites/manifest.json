@@ -180291,6 +180291,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4584.png",
       "sha256": "99cea58f064bcab528651f5aec4a458a767d14372aaad6dee69e312c78a1f507"
+    },
+    {
+      "message_id": 4583,
+      "filename": "704416287-마플교과서-확률과-통계-해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4583_704416287-.-.-.-.pdf",
+      "size_bytes": 37361772,
+      "telegram_date": "2025-08-11T14:58:32+00:00",
+      "title": "704416287-마플교과서-확률과-통계-해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4583.png",
+      "sha256": "99e1508dfa504c0c8d486bafd225af51b2d6f00787206ddf24e77f8a464f2c21"
     }
   ],
   "duplicate_message_ids": [
