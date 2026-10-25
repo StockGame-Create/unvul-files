@@ -180333,6 +180333,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4581.png",
       "sha256": "de038c6604c92a80898406ae826a3845c786767b27a02e27c2d95860b6d323ef"
+    },
+    {
+      "message_id": 4580,
+      "filename": "676802862-마플교과서-수학2-본문.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4580_676802862-.-.2-.pdf",
+      "size_bytes": 28032074,
+      "telegram_date": "2025-08-11T14:58:32+00:00",
+      "title": "676802862-마플교과서-수학2-본문",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4580.png",
+      "sha256": "67dc2b1075960a8d24b1e640a6962fa262314359f7c1fd8dea4cc481176210e3"
     }
   ],
   "duplicate_message_ids": [
