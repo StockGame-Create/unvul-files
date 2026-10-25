@@ -71,6 +71,20 @@
       "sha256": "8830e9f6e8012d5dfd23796e2e9e101ec4307e697d03cda8d9b813bb5cfa517a"
     },
     {
+      "message_id": 25876,
+      "filename": "종정리과제7.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25876_.7.pdf",
+      "size_bytes": 13779058,
+      "telegram_date": "2026-10-25T13:54:21+00:00",
+      "title": "국어 총정리과제 5~7",
+      "year": "2027",
+      "instructor": "김승리",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25876.png",
+      "sha256": "7639769e9281f9dd0e538a518f8bfe27f40342ae3415ea4ece9e32a84fa06629"
+    },
+    {
       "message_id": 25853,
       "filename": "사만다 Final 1회.pdf",
       "stored_as": null,
