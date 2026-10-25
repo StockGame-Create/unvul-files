@@ -179227,6 +179227,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4707.png",
       "sha256": "12c6874e71812ea9344332d81da68efb56a599b9f59088e8924c89d2bc7e0538"
+    },
+    {
+      "message_id": 4706,
+      "filename": "EBS_2026학년도_수능특강_국어영역_문학_정답과해설20250207170142530_1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4706_EBS_2026._._._._.20250207170142530_1.pdf",
+      "size_bytes": 4770163,
+      "telegram_date": "2025-08-11T14:58:53+00:00",
+      "title": "EBS_2026학년도_수능특강_국어영역_문학_정답과해설20250207170142530_1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4706.png",
+      "sha256": "03cadd3399776c80de026f76162f66c2451f141a75eb4d2e80544659448a5495"
     }
   ],
   "duplicate_message_ids": [
