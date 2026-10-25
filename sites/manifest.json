@@ -180445,6 +180445,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4572.png",
       "sha256": "ff9a89e2fb5bb51d3ef561ca253f2968b4f7d916a21751e4e7b752ec3eabab8e"
+    },
+    {
+      "message_id": 4571,
+      "filename": "2026 장영진 기출의내일 미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4571_2026.pdf",
+      "size_bytes": 23177382,
+      "telegram_date": "2025-08-11T14:58:31+00:00",
+      "title": "2026 장영진 기출의내일 미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4571.png",
+      "sha256": "f0ed86d04ac628af7d64b8b74f6de95faa1bb9858f70cbae72c4628f47ba3aa4"
     }
   ],
   "duplicate_message_ids": [
