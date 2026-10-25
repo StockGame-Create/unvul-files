@@ -179661,6 +179661,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4666.png",
       "sha256": "96e975ec4f13663845357f144ae0e174b3141899233d37ae4dda74d3227e1ad1"
+    },
+    {
+      "message_id": 4665,
+      "filename": "혼때잡 수1 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4665_.1.pdf",
+      "size_bytes": 45809224,
+      "telegram_date": "2025-08-11T14:58:51+00:00",
+      "title": "혼때잡 수1 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4665.png",
+      "sha256": "ab417d9290175d26fe111c960d3496b7e0502205f92bc0059e3d476bb46ce6f8"
     }
   ],
   "duplicate_message_ids": [
