@@ -177001,6 +177001,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4814.png",
       "sha256": "5593520bb020007f904cda2ff93f7c9efe9ae29241399688c49585c55df2cc9b"
+    },
+    {
+      "message_id": 4813,
+      "filename": "지구 1단원 OZ 중단원 추가문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4813_.1.OZ.pdf",
+      "size_bytes": 22197575,
+      "telegram_date": "2025-08-11T14:58:59+00:00",
+      "title": "지구 1단원 OZ 중단원 추가문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4813.png",
+      "sha256": "12d1f5c97eb9f45467fe1ea7298a49d7e3fa64dce22a59fd5e8eedbcfb87478d"
     }
   ],
   "duplicate_message_ids": [
