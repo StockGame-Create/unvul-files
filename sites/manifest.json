@@ -176875,6 +176875,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4823.png",
       "sha256": "eebb0daf96713156fd69f3a2d4751141dab46a047d5ff50819bbbb15f24a968d"
+    },
+    {
+      "message_id": 4822,
+      "filename": "2026 심찬우 에필로그 vol.2 문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4822_2026.vol.2.pdf",
+      "size_bytes": 21244017,
+      "telegram_date": "2025-08-11T14:59:00+00:00",
+      "title": "2026 심찬우 에필로그 vol.2 문제편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4822.png",
+      "sha256": "c40be89434374c8a3502af9623643e3d10d70aeae00f7b509000303a270cc2b2"
     }
   ],
   "duplicate_message_ids": [
