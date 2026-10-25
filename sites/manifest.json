@@ -701,6 +701,20 @@
       "sha256": "94de360328a0ca2159f4f2481a6f268a5c396f6115c4a58c1447b68c31d75c6f"
     },
     {
+      "message_id": 25775,
+      "filename": "2027 시대인재 F브릿지 지구과학1 7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25775_2027.F.1.7.pdf",
+      "size_bytes": 31403131,
+      "telegram_date": "2026-10-25T06:28:52+00:00",
+      "title": "지1 시대인재 Final 브릿지 전국 6, 7회 #파브전국",
+      "year": "2027",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25775.png",
+      "sha256": "f580975abb1ecb223b9c7f83db3aa6006608701c92750dddaaa3feaf5c08cd21"
+    },
+    {
       "message_id": 25772,
       "filename": "S4해설.pdf",
       "stored_as": null,
