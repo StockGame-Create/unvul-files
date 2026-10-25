@@ -547,6 +547,20 @@
       "sha256": "a0699d1ae608ca53c71d61e53304905e6311d1a9367c43a91ce40b33d84d6971"
     },
     {
+      "message_id": 25789,
+      "filename": "상상 파이널2 6차 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25789_.2.6.pdf",
+      "size_bytes": 44278454,
+      "telegram_date": "2026-10-25T06:29:04+00:00",
+      "title": "국어 파이널2 5~8차 모의고사 상상 국어평가연구소 (인쇄소퀄) #상상",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25789.png",
+      "sha256": "5e9549c9f84c09ef495a23ce3560edb4432bc1fb1290da3fd333473537b78b75"
+    },
+    {
       "message_id": 25772,
       "filename": "S4해설.pdf",
       "stored_as": null,
