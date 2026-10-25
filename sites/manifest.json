@@ -177421,6 +177421,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4779.png",
       "sha256": "e2862d22c07006b3881d47551ddd37715895a28f25ff36839f0a58beab76306e"
+    },
+    {
+      "message_id": 4778,
+      "filename": "[교안] 독기본서(2).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4778_.2.pdf",
+      "size_bytes": 1088776,
+      "telegram_date": "2025-08-11T14:58:57+00:00",
+      "title": "[교안] 독기본서(2)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4778.png",
+      "sha256": "680b5cb77064c729a49b3f0d727da91127a94f926547e5c2feb42b2d574cd18d"
     }
   ],
   "duplicate_message_ids": [
