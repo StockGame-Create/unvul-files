@@ -178947,6 +178947,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4733.png",
       "sha256": "94b6310c27c1a6ecec0648fe4ae3f7c6322a6955c1477b2d48e23ca6d3aadb3d"
+    },
+    {
+      "message_id": 4731,
+      "filename": "2026 간쓸개 1-2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4731_2026.1-2.pdf",
+      "size_bytes": 59082718,
+      "telegram_date": "2025-08-11T14:58:54+00:00",
+      "title": "2026 간쓸개 1-2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4731.png",
+      "sha256": "3d637a53cf79fd70bee729067658a14b3cea2f2a2754c8d72d7f0a9323ac6d01"
     }
   ],
   "duplicate_message_ids": [
