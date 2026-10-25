@@ -177435,6 +177435,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4778.png",
       "sha256": "680b5cb77064c729a49b3f0d727da91127a94f926547e5c2feb42b2d574cd18d"
+    },
+    {
+      "message_id": 4775,
+      "filename": "HOLYDAY_신기해_미적분_1주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4775_HOLYDAY_._._1.pdf",
+      "size_bytes": 3957163,
+      "telegram_date": "2025-08-11T14:58:57+00:00",
+      "title": "HOLYDAY_신기해_미적분_1주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4775.png",
+      "sha256": "322c567550de759b13572ba5e47a72eab7b8134ccb3a322b6b35d0ed867a9ea7"
     }
   ],
   "duplicate_message_ids": [
