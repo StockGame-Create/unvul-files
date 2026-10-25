@@ -179563,6 +179563,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4681.png",
       "sha256": "29007ec950ba907cdf351192b91987fec01cd72ab396c6c11393e613345ae4e2"
+    },
+    {
+      "message_id": 4680,
+      "filename": "2026_한완수_한권으로_완성하는_수학_미적분_상_2025년_해설_미적분_교과개념_2d_3c_r5.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4680_2026_._._._._._._2025._._._._2d_3c_r5.pdf",
+      "size_bytes": 40199392,
+      "telegram_date": "2025-08-11T14:58:52+00:00",
+      "title": "2026_한완수_한권으로_완성하는_수학_미적분_상_2025년_해설_미적분_교과개념_2d_3c_r5",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4680.png",
+      "sha256": "4c196013a6440f24820825ca92b92ee057e66d4081f8b9adf6496b3d623dc11c"
     }
   ],
   "duplicate_message_ids": [
