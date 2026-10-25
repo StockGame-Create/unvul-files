@@ -180669,6 +180669,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4549.png",
       "sha256": "040048f1d8a70beeeb29ab41f5a61fdeeaa116706dc2c347a67cb936d2de028a"
+    },
+    {
+      "message_id": 4548,
+      "filename": "이그나이트 2주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4548_.2.pdf",
+      "size_bytes": 37778846,
+      "telegram_date": "2025-08-11T14:58:29+00:00",
+      "title": "이그나이트 2주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4548.png",
+      "sha256": "2c578de84c1eebcd7973fe482a160e5a0b69092978dd1af83c42a675c750f06f"
     }
   ],
   "duplicate_message_ids": [
