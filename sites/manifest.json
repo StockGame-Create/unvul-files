@@ -178989,6 +178989,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4727.png",
       "sha256": "69485d1f8249eab2808344a341278f9ae49e060026bd49045cf384c1310c264e"
+    },
+    {
+      "message_id": 4726,
+      "filename": "26EBS수능특강_영어_PDF_어휘.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4726_26EBS._._PDF_.pdf",
+      "size_bytes": 966804,
+      "telegram_date": "2025-08-11T14:58:54+00:00",
+      "title": "26EBS수능특강_영어_PDF_어휘",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4726.png",
+      "sha256": "97206b886ce5b828fb5086c3f1f45a3243790109bb2b05369293f4d7d5871536"
     }
   ],
   "duplicate_message_ids": [
