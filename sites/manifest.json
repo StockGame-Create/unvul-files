@@ -180403,6 +180403,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4575.png",
       "sha256": "02a51d23e1b7a8dc483e26b9c614397222b2ab86cc325863b8c4d3c3f22dec8c"
+    },
+    {
+      "message_id": 4574,
+      "filename": "쎈B 미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4574_.B.pdf",
+      "size_bytes": 7765524,
+      "telegram_date": "2025-08-11T14:58:31+00:00",
+      "title": "쎈B 미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4574.png",
+      "sha256": "a5113b0410acbb9e0f40a05ca2872a7ca6d8842ddb3ee50c792d68d3256dc7bb"
     }
   ],
   "duplicate_message_ids": [
