@@ -178429,6 +178429,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4748.png",
       "sha256": "7c685d8c956c3148033e835bd7487140ba97bff6f948d815833b8237e1edae36"
+    },
+    {
+      "message_id": 4747,
+      "filename": "2026 수능대비 자이스토리 물리학Ⅰx.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4747_2026.x.pdf",
+      "size_bytes": 188293941,
+      "telegram_date": "2025-08-11T14:58:56+00:00",
+      "title": "2026 수능대비 자이스토리 물리학Ⅰx",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4747.png",
+      "sha256": "00140be4a79d92c7cc779b3e5991bdd812f78e6a22f3c4dba8af1b03f77edc29"
     }
   ],
   "duplicate_message_ids": [
