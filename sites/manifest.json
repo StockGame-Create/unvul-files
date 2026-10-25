@@ -180193,6 +180193,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4601.png",
       "sha256": "98bd717bbd8406eb9e41f27bfde40336881a14c0a8cb67f99c41d51a7f7978ea"
+    },
+    {
+      "message_id": 4592,
+      "filename": "수학 공통 Ignite 1주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4592_.Ignite.1.pdf",
+      "size_bytes": 16559603,
+      "telegram_date": "2025-08-11T14:58:32+00:00",
+      "title": "수학 공통 Ignite 1주차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4592.png",
+      "sha256": "031576b4dd793f078335aef9b44c3a58ca2da4fe11981f498a7d7ae7f12ff904"
     }
   ],
   "duplicate_message_ids": [
