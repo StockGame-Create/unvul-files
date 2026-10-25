@@ -211,6 +211,20 @@
       "sha256": "f8fd9da5d79573e8103a4aa690ff3fd49f5b4c663d4a970951c185a2f458384a"
     },
     {
+      "message_id": 25861,
+      "filename": "27물2 라피스4회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25861_27.2.4.pdf",
+      "size_bytes": 11831579,
+      "telegram_date": "2026-10-25T13:54:04+00:00",
+      "title": "물2 LAPIS LAZULI 모의고사 4회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "물리학2",
+      "thumbnail": "thumbnails/25861.png",
+      "sha256": "87f87185470fdab0b837f05a06382e45539445e6497985ec4f1f262b52f553ff"
+    },
+    {
       "message_id": 25853,
       "filename": "사만다 Final 1회.pdf",
       "stored_as": null,
