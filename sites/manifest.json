@@ -43,6 +43,20 @@
       "sha256": "90c2a5ea93db9a60a74f2932a45d1d5f40e47ab34cf0a7bdccf7d664c7a60f8f"
     },
     {
+      "message_id": 25848,
+      "filename": "이형수 실전모의고사 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25848_.5.pdf",
+      "size_bytes": 12916760,
+      "telegram_date": "2026-10-25T11:02:56+00:00",
+      "title": "사문 이형수 실전 모의고사 4, 5회",
+      "year": "2027",
+      "instructor": "이형수",
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25848.png",
+      "sha256": "e53618e22ba8003f4b18dec4ccb203d9e7ee97f97fc674ca0b0deed868b5d844"
+    },
+    {
       "message_id": 25842,
       "filename": "2027학년도_이신혁_모의평가_시즌2_7회_문제지_pdf.pdf",
       "stored_as": null,
