@@ -179423,6 +179423,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4692.png",
       "sha256": "009289681870d3106e8b5f94c72a95808ff594f4403202dc38af9f3a8cd596dc"
+    },
+    {
+      "message_id": 4691,
+      "filename": "마플시너지_공통수학1_본문1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4691_._.1_.1.pdf",
+      "size_bytes": 19426973,
+      "telegram_date": "2025-08-11T14:58:52+00:00",
+      "title": "마플시너지_공통수학1_본문1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4691.png",
+      "sha256": "e48bb14db9c2b0df175b39c6505c895d9e33f9878ebd98c0cdb53c48d04755b9"
     }
   ],
   "duplicate_message_ids": [
