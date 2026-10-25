@@ -177365,6 +177365,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4783.png",
       "sha256": "e0295cb24ae6cfbf16aea1ee7cb7bf2db9dcfeee2dc4cf0744ff7c53caf3bef4"
+    },
+    {
+      "message_id": 4782,
+      "filename": "상상국어 2회 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4782_.2.pdf",
+      "size_bytes": 3100103,
+      "telegram_date": "2025-08-11T14:58:57+00:00",
+      "title": "상상국어 2회 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4782.png",
+      "sha256": "b9ddb5768ae0d2186f94f0f447d287c0b76616e1d6a39d77b7c6f47d41cfa667"
     }
   ],
   "duplicate_message_ids": [
