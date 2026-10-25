@@ -176819,6 +176819,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4827.png",
       "sha256": "f3a0d539ff84b41cce84bed58c40dba821c710405d2844a9984f547794e01850"
+    },
+    {
+      "message_id": 4826,
+      "filename": "2026 시빌리삼 확통_250210_111849.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4826_2026._250210_111849.pdf",
+      "size_bytes": 102958147,
+      "telegram_date": "2025-08-11T14:59:00+00:00",
+      "title": "2026 시빌리삼 확통_250210_111849",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4826.png",
+      "sha256": "61656f1e510458de10419e8250ae197e9ca67d2be12b3fe9a32cbc1205c24c09"
     }
   ],
   "duplicate_message_ids": [
