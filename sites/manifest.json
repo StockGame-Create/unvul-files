@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 25842,
+      "filename": "2027학년도_이신혁_모의평가_시즌2_7회_문제지_pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25842_2027._._._.2_7._._pdf.pdf",
+      "size_bytes": 7542962,
+      "telegram_date": "2026-10-25T06:30:05+00:00",
+      "title": "지1 이신혁 모의고사 시즌2 7회",
+      "year": "2027",
+      "instructor": "이신혁",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/25842.png",
+      "sha256": "25ed56885c65b04b4dba8b1fe24f0709139fdace5ebd391526ec8c91ba969d03"
+    },
+    {
       "message_id": 25772,
       "filename": "S4해설.pdf",
       "stored_as": null,
