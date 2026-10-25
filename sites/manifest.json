@@ -176665,6 +176665,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4838.png",
       "sha256": "6c1f4890f4e49af20d2b5efc443e1381a25f0f8bdba6e833223b1fd283b0a12b"
+    },
+    {
+      "message_id": 4837,
+      "filename": "7주차 미적분 필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4837_7.pdf",
+      "size_bytes": 2165634,
+      "telegram_date": "2025-08-11T14:59:01+00:00",
+      "title": "7주차 미적분 필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4837.png",
+      "sha256": "6cd29753c3d51926d05b427a7a8f869780c8f78737c52b15c0e42e1ea582eaa4"
     }
   ],
   "duplicate_message_ids": [
