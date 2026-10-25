@@ -179787,6 +179787,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4649.png",
       "sha256": "d422ac860b196491afb1479ef51ce9db667891aa56cff6739c74495995f5c3cb"
+    },
+    {
+      "message_id": 4648,
+      "filename": "이명학 신택스.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4648_.pdf",
+      "size_bytes": 137481992,
+      "telegram_date": "2025-08-11T14:58:38+00:00",
+      "title": "이명학 신택스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4648.png",
+      "sha256": "cecc576aeac264ad68ed340d08863b88ea962aa967109c1a74f8b75c495d8de0"
     }
   ],
   "duplicate_message_ids": [
