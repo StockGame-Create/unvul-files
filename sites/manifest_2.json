@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T12:28:31+00:00",
+  "updated_at": "2026-10-25T16:32:00+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -3146,6 +3146,28 @@
       "failed_pages": [],
       "model": "gemini-3.6-flash",
       "problem_count": 7,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 25890,
+      "filename": "경제_오메가_모의고사_10회_11회_문제지_+_해설지.pdf",
+      "title": "경제 OMEGA 모의고사 10, 12회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "경제",
+      "sha256": "eaf25de2263eae83d621edb471a144645caef0630faab45983eaaff57013cf94",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/25890.json",
+      "updated_at": "2026-10-25T16:32:00+00:00",
+      "pages_total": 23,
+      "pages_done": 4,
+      "failed_pages": [],
+      "model": "gemini-3.6-flash",
+      "problem_count": 20,
       "solution_count": 0,
       "matched_count": 0,
       "with_answer": 0,
