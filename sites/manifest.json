@@ -179115,6 +179115,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4717.png",
       "sha256": "17a9b0ff63b40c9a99211417e5477eabb196463860ccb106276e2f6bfe557199"
+    },
+    {
+      "message_id": 4716,
+      "filename": "2026 EBS 수능특강 사회문화 문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4716_2026.EBS.pdf",
+      "size_bytes": 138875494,
+      "telegram_date": "2025-08-11T14:58:54+00:00",
+      "title": "2026 EBS 수능특강 사회문화 문제편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4716.png",
+      "sha256": "e481b7508db13d3f0f96fd22a0da99e75035d27e9012ecd767ae9e726571bb89"
     }
   ],
   "duplicate_message_ids": [
