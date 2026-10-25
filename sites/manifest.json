@@ -178877,6 +178877,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4741.png",
       "sha256": "83fa564247fc061b8e0b76f4858742c5c9fd7d71753a7273b43fe4618443d39e"
+    },
+    {
+      "message_id": 4740,
+      "filename": "Starting_Block에_수록된_KICE_Anatomy_Step2_문항번호_수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4740_Starting_Block._._KICE_Anatomy_Step2_._.1.pdf",
+      "size_bytes": 56363,
+      "telegram_date": "2025-08-11T14:58:55+00:00",
+      "title": "Starting_Block에_수록된_KICE_Anatomy_Step2_문항번호_수학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4740.png",
+      "sha256": "1fd1131b2d4041af75f9392ccff4487b236f8b2ce82b828f886041e464b429c9"
     }
   ],
   "duplicate_message_ids": [
