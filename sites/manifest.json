@@ -43,6 +43,20 @@
       "sha256": "d1ccfac150cd8bb7261ca8d0009044d0162fb94d668fbecf624c3be4326ada3b"
     },
     {
+      "message_id": 25886,
+      "filename": "이감_시즌6_파이널2_7차_모고라이브.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25886_._.6_.2_7._.pdf",
+      "size_bytes": 8764765,
+      "telegram_date": "2026-10-25T13:54:31+00:00",
+      "title": "국어 이감 파이널II(시즌6) 제 7차 예비평가 분석지, 간쓸개 6-7 #이감",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25886.png",
+      "sha256": "a6faeba1a8c1a51066283ac919afaa405bea39e0fdad74ba083f7fe97bd75d4f"
+    },
+    {
       "message_id": 25853,
       "filename": "사만다 Final 1회.pdf",
       "stored_as": null,
