@@ -180613,6 +180613,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4556.png",
       "sha256": "1640bdaecd782fee0c49c1fda0a3c4f250158303720e8ca796046dc47fe3b355"
+    },
+    {
+      "message_id": 4555,
+      "filename": "오늘의 화학 화학2 개념편 - 164S - 250120.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4555_.2.-.164S.-.250120.pdf",
+      "size_bytes": 86219562,
+      "telegram_date": "2025-08-11T14:58:29+00:00",
+      "title": "오늘의 화학 화학2 개념편 - 164S - 250120",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4555.png",
+      "sha256": "492def3b1ec0c5ddaa5281c0cab4e77a019df97d8c5c65396095ab17113c8015"
     }
   ],
   "duplicate_message_ids": [
