@@ -177477,6 +177477,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4772.png",
       "sha256": "62acec432dc2af484663b179071018e9250919ba0548099e13a0496404226e33"
+    },
+    {
+      "message_id": 4769,
+      "filename": "2025_김동욱_일_클래스_연필통.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4769_2025_._._._.pdf",
+      "size_bytes": 509609159,
+      "telegram_date": "2025-08-11T14:58:57+00:00",
+      "title": "2025_김동욱_일_클래스_연필통",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4769.png",
+      "sha256": "8c601cab263b4d86ca4bcfbf331deba28dc89d41c6dbe93e82f66568b9002363"
     }
   ],
   "duplicate_message_ids": [
