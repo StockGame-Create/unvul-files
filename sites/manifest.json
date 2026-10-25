@@ -179255,6 +179255,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4705.png",
       "sha256": "f9458d57ed7abfb35452a2d140dba8117ea0873a9e0d0cdf7d97da2560c4b824"
+    },
+    {
+      "message_id": 4704,
+      "filename": "25생2강k.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4704_25.2.k.pdf",
+      "size_bytes": 176370834,
+      "telegram_date": "2025-08-11T14:58:53+00:00",
+      "title": "25생2강k",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4704.png",
+      "sha256": "2605e9ceaff0b33763b271ea821cd057c97fadcc885b68e87648d6b646f84009"
     }
   ],
   "duplicate_message_ids": [
