@@ -176805,6 +176805,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4828.png",
       "sha256": "43b2dedd1bb7595b61dee5937c032015ff50d1175155f12959a390cc4be87934"
+    },
+    {
+      "message_id": 4827,
+      "filename": "시빌리삼 수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4827_.1.pdf",
+      "size_bytes": 16862476,
+      "telegram_date": "2025-08-11T14:59:00+00:00",
+      "title": "시빌리삼 수학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4827.png",
+      "sha256": "f3a0d539ff84b41cce84bed58c40dba821c710405d2844a9984f547794e01850"
     }
   ],
   "duplicate_message_ids": [
