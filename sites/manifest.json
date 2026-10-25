@@ -178849,6 +178849,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4743.png",
       "sha256": "953bb5cc4f88a024553fe336030b47305dea00f96acffde88963adcb6c09d4ee"
+    },
+    {
+      "message_id": 4742,
+      "filename": "수학영역_공통과목_수1+수2_3점집중(해설).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4742_._._.1%2B.2_3.pdf",
+      "size_bytes": 21117951,
+      "telegram_date": "2025-08-11T14:58:55+00:00",
+      "title": "수학영역_공통과목_수1+수2_3점집중(해설)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4742.png",
+      "sha256": "a45e8cfa1ea1fb7482c343008f0fb247716895b1dfae3f5e9bc51b2905142dd0"
     }
   ],
   "duplicate_message_ids": [
