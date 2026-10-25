@@ -631,6 +631,20 @@
       "sha256": "66c02db606fc1d4bffa017d43042659b2f790618426dfdeffc45699fbc1d2520"
     },
     {
+      "message_id": 25783,
+      "filename": "이감 6-7 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25783_.6-7.pdf",
+      "size_bytes": 65552404,
+      "telegram_date": "2026-10-25T06:29:01+00:00",
+      "title": "국어 이감 파이널II(시즌6) 제 7, 8차 예비평가 (인쇄소퀄) #이감",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25783.png",
+      "sha256": "80507d377c1f35fd793433bd09ddd8d991aa6bb2206fb2a900d61bf0dee533f6"
+    },
+    {
       "message_id": 25772,
       "filename": "S4해설.pdf",
       "stored_as": null,
