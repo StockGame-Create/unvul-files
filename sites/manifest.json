@@ -180375,6 +180375,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4577.png",
       "sha256": "500cf1f7c893a48ba6eb951fe8113bc0abc01dde63be560a2668792d7989be28"
+    },
+    {
+      "message_id": 4576,
+      "filename": "2025 유형코드 미적.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4576_2025.pdf",
+      "size_bytes": 76735413,
+      "telegram_date": "2025-08-11T14:58:31+00:00",
+      "title": "2025 유형코드 미적",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4576.png",
+      "sha256": "8be6fe5ec29955b789e42dbfbf688c6b6bd599022c77f19da14cef28ef8f2c4e"
     }
   ],
   "duplicate_message_ids": [
