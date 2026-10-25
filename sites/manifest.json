@@ -177141,6 +177141,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4802.png",
       "sha256": "fc770018316850d5933c2c6ef86b81cee546cafe603338a78da73ae1e55f78b7"
+    },
+    {
+      "message_id": 4801,
+      "filename": "전현정_3주차_수업자료.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4801_._3._.pdf",
+      "size_bytes": 4548530,
+      "telegram_date": "2025-08-11T14:58:58+00:00",
+      "title": "전현정_3주차_수업자료",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4801.png",
+      "sha256": "98cc8070eaaa7a690d204a5a1f1951f024e1d3f1f617d31551e611f04f8e2d06"
     }
   ],
   "duplicate_message_ids": [
