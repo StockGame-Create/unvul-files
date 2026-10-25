@@ -179717,6 +179717,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4662.png",
       "sha256": "efdda9822e40e35ba254aea843a4797fbec07883953a7f14ca291f07407ea392"
+    },
+    {
+      "message_id": 4658,
+      "filename": "베테랑의_개념완성001.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4658_._.001.pdf",
+      "size_bytes": 179369486,
+      "telegram_date": "2025-08-11T14:58:39+00:00",
+      "title": "베테랑의_개념완성001",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4658.png",
+      "sha256": "2ab19e4833a5751b0f04eb5b9268600b1aefa476cec9d7ffc6479f4dbbdb8969"
     }
   ],
   "duplicate_message_ids": [
