@@ -180627,6 +180627,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4555.png",
       "sha256": "492def3b1ec0c5ddaa5281c0cab4e77a019df97d8c5c65396095ab17113c8015"
+    },
+    {
+      "message_id": 4551,
+      "filename": "주간정석민3권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4551_.3.pdf",
+      "size_bytes": 213298753,
+      "telegram_date": "2025-08-11T14:58:29+00:00",
+      "title": "주간정석민3권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4551.png",
+      "sha256": "5f83b3c7092f5ded2c58d5f4dd18980c817b71107f39f1af98ae3e7358ce5883"
     }
   ],
   "duplicate_message_ids": [
