@@ -180361,6 +180361,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4579.png",
       "sha256": "a30f07169f4dc33a770baa7efeb83273361cf6e3262a5e0507721b5d8d7cf134"
+    },
+    {
+      "message_id": 4577,
+      "filename": "2025 유형코드 수2.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4577_2025.2.pdf",
+      "size_bytes": 171401284,
+      "telegram_date": "2025-08-11T14:58:32+00:00",
+      "title": "2025 유형코드 수2",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4577.png",
+      "sha256": "500cf1f7c893a48ba6eb951fe8113bc0abc01dde63be560a2668792d7989be28"
     }
   ],
   "duplicate_message_ids": [
