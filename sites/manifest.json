@@ -178555,6 +178555,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4746.png",
       "sha256": "646ccdc8c9da52be14137a653b0090c689a3dd0de40f838c04abe272eba88f02"
+    },
+    {
+      "message_id": 4745,
+      "filename": "2026_이것이_개념이다_세계지리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4745_2026_._._.pdf",
+      "size_bytes": 404652792,
+      "telegram_date": "2025-08-11T14:58:56+00:00",
+      "title": "2026_이것이_개념이다_세계지리",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4745.png",
+      "sha256": "8d5a2358cb36bfbaceed2efd25985c4ee6ce6ac95ac29a9d77217034c56192df"
     }
   ],
   "duplicate_message_ids": [
