@@ -176945,6 +176945,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4818.png",
       "sha256": "ad9a7435529afcc7ca3b60444f8e9f6d68957d409142cf7c612d414179547870"
+    },
+    {
+      "message_id": 4817,
+      "filename": "2026_김승리의_선택_교재_추가본_♥.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4817_2026_._._._._.pdf",
+      "size_bytes": 983349,
+      "telegram_date": "2025-08-11T14:58:59+00:00",
+      "title": "2026_김승리의_선택_교재_추가본_♥",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4817.png",
+      "sha256": "f6944d28cbc863253300d1dae30ff6c132aeed0ac7505425a47e827811b8c75a"
     }
   ],
   "duplicate_message_ids": [
