@@ -180697,6 +180697,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4547.png",
       "sha256": "d598a395ef6830e5d4b18f8eca333fbc40344a1ad4422ff6f426202ec4c57e6d"
+    },
+    {
+      "message_id": 4546,
+      "filename": "2026_시대인재_미적분_수능기출문제집_코어문제편_1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4546_2026_._._._._1.pdf",
+      "size_bytes": 44974434,
+      "telegram_date": "2025-08-11T14:58:29+00:00",
+      "title": "2026_시대인재_미적분_수능기출문제집_코어문제편_1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4546.png",
+      "sha256": "e79be8aa61a522a223c6a6cbc689e8d891150da167e8b062c0c13371742a3fe0"
     }
   ],
   "duplicate_message_ids": [
