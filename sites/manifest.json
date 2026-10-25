@@ -57,6 +57,20 @@
       "sha256": "a6faeba1a8c1a51066283ac919afaa405bea39e0fdad74ba083f7fe97bd75d4f"
     },
     {
+      "message_id": 25878,
+      "filename": "0084_001-회전됨.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25878_0084_001-.pdf",
+      "size_bytes": 4029451,
+      "telegram_date": "2026-10-25T13:54:22+00:00",
+      "title": "생1 DCAF 스핀오프 모의고사 1~6회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/25878.png",
+      "sha256": "8830e9f6e8012d5dfd23796e2e9e101ec4307e697d03cda8d9b813bb5cfa517a"
+    },
+    {
       "message_id": 25853,
       "filename": "사만다 Final 1회.pdf",
       "stored_as": null,
