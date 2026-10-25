@@ -179409,6 +179409,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4693.png",
       "sha256": "914f53d2f122f8798759a15daf7653502f85ff22fb1ac9d1df22131c53784449"
+    },
+    {
+      "message_id": 4692,
+      "filename": "2022개정_마플시너지_공통수학1_정답과_해설_Ⅰ_다항식.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4692_2022._._.1_._._._.pdf",
+      "size_bytes": 10429592,
+      "telegram_date": "2025-08-11T14:58:52+00:00",
+      "title": "2022개정_마플시너지_공통수학1_정답과_해설_Ⅰ_다항식",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4692.png",
+      "sha256": "009289681870d3106e8b5f94c72a95808ff594f4403202dc38af9f3a8cd596dc"
     }
   ],
   "duplicate_message_ids": [
