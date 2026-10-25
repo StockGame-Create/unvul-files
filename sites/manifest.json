@@ -180305,6 +180305,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4583.png",
       "sha256": "99e1508dfa504c0c8d486bafd225af51b2d6f00787206ddf24e77f8a464f2c21"
+    },
+    {
+      "message_id": 4582,
+      "filename": "651190810-마플교과서-수학1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4582_651190810-.-.1.pdf",
+      "size_bytes": 27766377,
+      "telegram_date": "2025-08-11T14:58:32+00:00",
+      "title": "651190810-마플교과서-수학1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4582.png",
+      "sha256": "0cfa49dac22e7ee96631e8c2692fcdbb36db943b361ed83e55ac59c85a21f35d"
     }
   ],
   "duplicate_message_ids": [
