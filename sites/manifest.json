@@ -177337,6 +177337,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4787.png",
       "sha256": "d06d24477ffa3c64e71666c195bf919f1e323e0816010ed4aba19619d36e6769"
+    },
+    {
+      "message_id": 4786,
+      "filename": "이신혁T_시즌1_3주차복습테스트문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4786_.T_.1_3.pdf",
+      "size_bytes": 567936,
+      "telegram_date": "2025-08-11T14:58:58+00:00",
+      "title": "이신혁T_시즌1_3주차복습테스트문제지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4786.png",
+      "sha256": "51213e6fbd004f203e01a527104b882cc2b00a5b3d723e94d3be819029a89d96"
     }
   ],
   "duplicate_message_ids": [
