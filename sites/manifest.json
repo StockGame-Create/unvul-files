@@ -180207,6 +180207,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4592.png",
       "sha256": "031576b4dd793f078335aef9b44c3a58ca2da4fe11981f498a7d7ae7f12ff904"
+    },
+    {
+      "message_id": 4591,
+      "filename": "2026 SB수1 1주차 손필기.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4591_2026.SB.1.1.pdf",
+      "size_bytes": 6547137,
+      "telegram_date": "2025-08-11T14:58:32+00:00",
+      "title": "2026 SB수1 1주차 손필기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4591.png",
+      "sha256": "747837d6599232b991f80f7ab36feebbcf858adfa6a3b5f3f49970866f40ba65"
     }
   ],
   "duplicate_message_ids": [
