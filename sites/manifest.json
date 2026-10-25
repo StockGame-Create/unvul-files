@@ -178933,6 +178933,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4735.png",
       "sha256": "e74cc90ce0c6056f4ab9b68cd8fcabf338e2409e4cf976a67e01f98ae0a84a6a"
+    },
+    {
+      "message_id": 4733,
+      "filename": "2026학년도_이신혁T_복습_테스트_7주차_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4733_2026._.T_._._7._.pdf",
+      "size_bytes": 586950,
+      "telegram_date": "2025-08-11T14:58:54+00:00",
+      "title": "2026학년도_이신혁T_복습_테스트_7주차_해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4733.png",
+      "sha256": "94b6310c27c1a6ecec0648fe4ae3f7c6322a6955c1477b2d48e23ca6d3aadb3d"
     }
   ],
   "duplicate_message_ids": [
