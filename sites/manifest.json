@@ -169,6 +169,20 @@
       "sha256": "6d4ad79eee012432672757f1d72dafe15218242b603bea50fb10d4b3065a5d90"
     },
     {
+      "message_id": 25825,
+      "filename": "이감_시즌6_파이널_2_6차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25825_._.6_._2_6.pdf",
+      "size_bytes": 68719584,
+      "telegram_date": "2026-10-25T06:29:46+00:00",
+      "title": "국어 이감 파이널II(시즌6) 제 6차 예비평가 (인쇄소퀄), 간쓸개 6-6 #이감",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/25825.png",
+      "sha256": "3a2269384e40f74c825deb7e2f96de9381dcb698286dd62535bdacd0066eaa06"
+    },
+    {
       "message_id": 25772,
       "filename": "S4해설.pdf",
       "stored_as": null,
