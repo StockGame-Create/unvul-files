@@ -179591,6 +179591,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4679.png",
       "sha256": "69ea635d07dece8b15384f98dee4ea6b57837d0ef86c7be09fbc9e42c42907a3"
+    },
+    {
+      "message_id": 4678,
+      "filename": "6주차복습 test(5주차개념)_라이브.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4678_6.test.5._.pdf",
+      "size_bytes": 3458772,
+      "telegram_date": "2025-08-11T14:58:52+00:00",
+      "title": "6주차복습 test(5주차개념)_라이브",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4678.png",
+      "sha256": "bc31f74f019234f118eaafbbc2cff408b8222d44d372c6576a435e3d80bfbe8f"
     }
   ],
   "duplicate_message_ids": [
