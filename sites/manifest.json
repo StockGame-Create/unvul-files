@@ -180137,6 +180137,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4605.png",
       "sha256": "96540d49bf3d6249dc0b6a83023190c4bf673c3c43619d8eb903762105eb9f7a"
+    },
+    {
+      "message_id": 4604,
+      "filename": "강윤구최고난도문항집.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4604_.pdf",
+      "size_bytes": 1412211,
+      "telegram_date": "2025-08-11T14:58:33+00:00",
+      "title": "강윤구최고난도문항집",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4604.png",
+      "sha256": "0415addc9b0a0b13940fbe9d05f46ba43cf2b32fbc9553c8c412ba8b4b47c0e1"
     }
   ],
   "duplicate_message_ids": [
