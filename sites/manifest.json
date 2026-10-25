@@ -180767,6 +180767,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4542.png",
       "sha256": "d33c6621b332e1ed2c60f697278db9c58e41401b357a5107768a07c0f02f47c5"
+    },
+    {
+      "message_id": 4541,
+      "filename": "2026_페이스메이커_미적분.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4541_2026_._.pdf",
+      "size_bytes": 62241977,
+      "telegram_date": "2025-08-11T14:58:28+00:00",
+      "title": "2026_페이스메이커_미적분",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4541.png",
+      "sha256": "af4b25ffe499edc0e403fb95472a6a4b11c31f318839fb0511d8105c44a0910a"
     }
   ],
   "duplicate_message_ids": [
