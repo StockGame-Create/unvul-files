@@ -180347,6 +180347,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4580.png",
       "sha256": "67dc2b1075960a8d24b1e640a6962fa262314359f7c1fd8dea4cc481176210e3"
+    },
+    {
+      "message_id": 4579,
+      "filename": "769548444-수2-마플교과서-해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4579_769548444-.2-.-.pdf",
+      "size_bytes": 61557738,
+      "telegram_date": "2025-08-11T14:58:32+00:00",
+      "title": "769548444-수2-마플교과서-해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4579.png",
+      "sha256": "a30f07169f4dc33a770baa7efeb83273361cf6e3262a5e0507721b5d8d7cf134"
     }
   ],
   "duplicate_message_ids": [
