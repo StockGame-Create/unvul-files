@@ -225,6 +225,20 @@
       "sha256": "6f637db0b1e9abf918417f71b59291203ebb27b2ef4b6299330401754d3f9919"
     },
     {
+      "message_id": 25819,
+      "filename": "2027_narsha_social_culture_mock_exam.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25819_2027_narsha_social_culture_mock_exam.pdf",
+      "size_bytes": 10964584,
+      "telegram_date": "2026-10-25T06:29:39+00:00",
+      "title": "사문 나르샤 실전 모의고사 11회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/25819.png",
+      "sha256": "7601ea7ada9900eaa19efa56bbae5febaf2a6a76703c9634b53883bbe3e5f71d"
+    },
+    {
       "message_id": 25772,
       "filename": "S4해설.pdf",
       "stored_as": null,
