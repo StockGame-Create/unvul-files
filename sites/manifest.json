@@ -179269,6 +179269,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4704.png",
       "sha256": "2605e9ceaff0b33763b271ea821cd057c97fadcc885b68e87648d6b646f84009"
+    },
+    {
+      "message_id": 4703,
+      "filename": "25생2브릿지해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4703_25.2.pdf",
+      "size_bytes": 14411649,
+      "telegram_date": "2025-08-11T14:58:53+00:00",
+      "title": "25생2브릿지해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4703.png",
+      "sha256": "614181c6d9aa973af9cf7058d1ecf75c3acdf5cb3db3030a0fd6b07a18fb7335"
     }
   ],
   "duplicate_message_ids": [
