@@ -176567,6 +176567,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4846.png",
       "sha256": "b15499958f3029abdf31696f53af6edb1664cf9187217ca4a572ad1d3210d94c"
+    },
+    {
+      "message_id": 4844,
+      "filename": "2026_EBS_수능특강_영어독해연습_정답과_해설_OCR_미처리본.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4844_2026_EBS_._._._._OCR_.pdf",
+      "size_bytes": 156831999,
+      "telegram_date": "2025-08-11T14:59:02+00:00",
+      "title": "2026_EBS_수능특강_영어독해연습_정답과_해설_OCR_미처리본",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4844.png",
+      "sha256": "a8b250600ae8ad1a92a491f4e1ddb667d6227c5f152e9e2098a2b23f20ca286a"
     }
   ],
   "duplicate_message_ids": [
