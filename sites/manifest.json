@@ -179689,6 +179689,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4664.png",
       "sha256": "e59a6ea04524e4b82089bd40cd6b62069e3e007b78eba0c45df769435310b519"
+    },
+    {
+      "message_id": 4663,
+      "filename": "세젤쉬 확통 워크북.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4663_.pdf",
+      "size_bytes": 18840735,
+      "telegram_date": "2025-08-11T14:58:51+00:00",
+      "title": "세젤쉬 확통 워크북",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4663.png",
+      "sha256": "902218986c07ac4280639350fafaa445200f54fe11880f36b8873424004a4a0b"
     }
   ],
   "duplicate_message_ids": [
