@@ -179633,6 +179633,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4668.png",
       "sha256": "29e230fe927bb9cd613f20d88eb7f0f4e3d314c94fbaebe5c5da8d96a2a0c749"
+    },
+    {
+      "message_id": 4667,
+      "filename": "2026_EBS수능특강_화작_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4667_2026_EBS._._.pdf",
+      "size_bytes": 47109601,
+      "telegram_date": "2025-08-11T14:58:51+00:00",
+      "title": "2026_EBS수능특강_화작_해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4667.png",
+      "sha256": "811ce9aa2d064f5100c035ba1846e1efe1fe6724429d7fdb971d1646932b3ac5"
     }
   ],
   "duplicate_message_ids": [
