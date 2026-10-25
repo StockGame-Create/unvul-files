@@ -177267,6 +177267,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4793.png",
       "sha256": "8e0ee885b630b263412fb6b2694646d5b774064fc1976ea9c28521739e947f4d"
+    },
+    {
+      "message_id": 4792,
+      "filename": "이신혁T_3주차_필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4792_.T_3._.pdf",
+      "size_bytes": 16569664,
+      "telegram_date": "2025-08-11T14:58:58+00:00",
+      "title": "이신혁T_3주차_필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4792.png",
+      "sha256": "3518f69b36ea28294644577d8adfdef94e87651477f7739839d03c22ece46a30"
     }
   ],
   "duplicate_message_ids": [
