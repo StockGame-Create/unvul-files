@@ -176777,6 +176777,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4830.png",
       "sha256": "caf961fd443fba531dbfccea6336af08466b70e4bbed906fd0d362d84a9b1af7"
+    },
+    {
+      "message_id": 4829,
+      "filename": "팔구십 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4829_.pdf",
+      "size_bytes": 4728983,
+      "telegram_date": "2025-08-11T14:59:00+00:00",
+      "title": "팔구십 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4829.png",
+      "sha256": "1eb48ef13471f96e3a1ffbe1776ee689dd2f5861a3a8cdb3f5ce0e0a38bcf30a"
     }
   ],
   "duplicate_message_ids": [
