@@ -180529,6 +180529,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4564.png",
       "sha256": "70fbff1f57f308788176b482d3d5c96b2cc8ec3cf1ea75c4b8eb36e19f45ea96"
+    },
+    {
+      "message_id": 4563,
+      "filename": "12026_마더텅_수능기출문제집_윤리와_사상_문제편_정답체크X.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4563_12026_._._._._._.X.pdf",
+      "size_bytes": 547131665,
+      "telegram_date": "2025-08-11T14:58:31+00:00",
+      "title": "12026_마더텅_수능기출문제집_윤리와_사상_문제편_정답체크X",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4563.png",
+      "sha256": "fdb4261fc848cd604e5b5ae3da33e2cbb5571a55aedc8eb06fe55438a3a52c9f"
     }
   ],
   "duplicate_message_ids": [
