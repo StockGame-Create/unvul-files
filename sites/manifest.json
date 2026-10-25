@@ -281,6 +281,20 @@
       "sha256": "a9d539768a808002420b3b71d201f279a7d7811d6748e3020e99551b3d968e5b"
     },
     {
+      "message_id": 25813,
+      "filename": "양승진 13회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/25813_.13.pdf",
+      "size_bytes": 16339428,
+      "telegram_date": "2026-10-25T06:29:31+00:00",
+      "title": "수학 양승진 모의고사 13회",
+      "year": "2027",
+      "instructor": "양승진",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25813.png",
+      "sha256": "adc91fdd8ca0179f2b8f092f6fe876e526990f187b898b5f3e4093685878a06f"
+    },
+    {
       "message_id": 25772,
       "filename": "S4해설.pdf",
       "stored_as": null,
