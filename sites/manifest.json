@@ -179955,6 +179955,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4626.png",
       "sha256": "8adc095382032a4d73130e1f32875ac0ce04e69fefabed6b0908f011d79811cf"
+    },
+    {
+      "message_id": 4619,
+      "filename": "2026 이영수 듣기20수.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4619_2026.20.pdf",
+      "size_bytes": 137564297,
+      "telegram_date": "2025-08-11T14:58:34+00:00",
+      "title": "2026 이영수 듣기20수",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4619.png",
+      "sha256": "432547941af89c6a939f372d84db95026742c2fd0da0d6be0b72bcd31a74893b"
     }
   ],
   "duplicate_message_ids": [
