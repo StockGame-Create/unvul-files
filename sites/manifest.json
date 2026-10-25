@@ -178233,6 +178233,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4768.png",
       "sha256": "f8ac140e03e4c5715088fbf6404d2475dc889c33d1bde7849eac0fb8f9edbfed"
+    },
+    {
+      "message_id": 4767,
+      "filename": "사회문화 진도개.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4767_.pdf",
+      "size_bytes": 230948710,
+      "telegram_date": "2025-08-11T14:58:57+00:00",
+      "title": "사회문화 진도개",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4767.png",
+      "sha256": "5832fd7f39a4376ba5878d2daa9bd21f7c79e380487ee47fd5e65ee2b0db10d9"
     }
   ],
   "duplicate_message_ids": [
