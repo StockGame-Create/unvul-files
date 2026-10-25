@@ -178345,6 +178345,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4755.png",
       "sha256": "c2761a4c75108a9185a8cb6b340f68831fbb414609b3874316dae3a8203efb9e"
+    },
+    {
+      "message_id": 4754,
+      "filename": "2026 신택스.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4754_2026.pdf",
+      "size_bytes": 88304348,
+      "telegram_date": "2025-08-11T14:58:56+00:00",
+      "title": "2026 신택스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4754.png",
+      "sha256": "ff4e28428445d940a4102f805524f56c2277d86a1e61cb769c5beb23225be779"
     }
   ],
   "duplicate_message_ids": [
