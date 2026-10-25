@@ -176861,6 +176861,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4824.png",
       "sha256": "b778ff9fb45c652cd1212c88cd1b6912fe9394668e94ea84c53950d7bd8670fe"
+    },
+    {
+      "message_id": 4823,
+      "filename": "2026 심찬우 에필로그 vol.2 복습편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-13/4823_2026.vol.2.pdf",
+      "size_bytes": 34528949,
+      "telegram_date": "2025-08-11T14:59:00+00:00",
+      "title": "2026 심찬우 에필로그 vol.2 복습편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4823.png",
+      "sha256": "eebb0daf96713156fd69f3a2d4751141dab46a047d5ff50819bbbb15f24a968d"
     }
   ],
   "duplicate_message_ids": [
