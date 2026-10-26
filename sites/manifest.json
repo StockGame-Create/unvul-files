@@ -182377,6 +182377,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4421.png",
       "sha256": "4a25de09c91942f06fbb7782991b34f66dae8b8f1e071065c5111e4a426a143a"
+    },
+    {
+      "message_id": 4420,
+      "filename": "2025 화잘주스 34호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4420_2025.34.pdf",
+      "size_bytes": 85596065,
+      "telegram_date": "2025-08-11T14:58:14+00:00",
+      "title": "2025 화잘주스 34호",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4420.png",
+      "sha256": "244a4d8c82ed3d394d7aac189a4779988c595fae11398d56f58805b17cd0f127"
     }
   ],
   "duplicate_message_ids": [
