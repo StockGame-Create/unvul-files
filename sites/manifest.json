@@ -182335,6 +182335,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4424.png",
       "sha256": "22d639786fec0d52b51568acd8d6ee72f36a4e81ca796e927c4cf32651c9dacf"
+    },
+    {
+      "message_id": 4423,
+      "filename": "2025 강준호 화잘주스 37호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4423_2025.37.pdf",
+      "size_bytes": 111579703,
+      "telegram_date": "2025-08-11T14:58:15+00:00",
+      "title": "2025 강준호 화잘주스 37호",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4423.png",
+      "sha256": "177d33d0f53cef495c12be443f5395b8b843072db7a49c034f4a695ca2de43a9"
     }
   ],
   "duplicate_message_ids": [
