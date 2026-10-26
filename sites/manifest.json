@@ -181985,6 +181985,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4453.png",
       "sha256": "5d34d1b8b6caa2a514410a3872d9a9f94aa4d0cc3294a121a11b6be5b7cab03b"
+    },
+    {
+      "message_id": 4452,
+      "filename": "2026 기출의 바이블 [수학] 수학2 3권 (교사용).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4452_2026.2.3.pdf",
+      "size_bytes": 1197846,
+      "telegram_date": "2025-08-11T14:58:16+00:00",
+      "title": "2026 기출의 바이블 [수학] 수학2 3권 (교사용)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4452.png",
+      "sha256": "e2528cf8016b769f032fd3a1139f9acf5ed1a7017c95e16991618e1369fc785a"
     }
   ],
   "duplicate_message_ids": [
