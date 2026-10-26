@@ -99,6 +99,20 @@
       "sha256": "1f869b621fc63ca83299348905054a31d53384a79a5c93e344e61608ed59ebe9"
     },
     {
+      "message_id": 25904,
+      "filename": "2027_스피드러너_모의고사_FINAL_20회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25904_2027_._._FINAL_20.pdf",
+      "size_bytes": 19118080,
+      "telegram_date": "2026-10-26T14:08:42+00:00",
+      "title": "수학 호형훈제 스피드러너 모의고사 FINAL 19, 20회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25904.png",
+      "sha256": "1bd6859df81a73210872f56f588a50b5e046cb4f80d63203c2ef04b661700933"
+    },
+    {
       "message_id": 25890,
       "filename": "경제_오메가_모의고사_10회_11회_문제지_+_해설지.pdf",
       "stored_as": null,
