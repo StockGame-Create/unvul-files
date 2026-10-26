@@ -182223,6 +182223,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4433.png",
       "sha256": "23daac4439af383867f44549ab9d36953dd11b0fce1c3ffda4110a317ec8c550"
+    },
+    {
+      "message_id": 4432,
+      "filename": "너기출For2026_기하 (교사용).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4432_.For2026_.pdf",
+      "size_bytes": 16875572,
+      "telegram_date": "2025-08-11T14:58:15+00:00",
+      "title": "너기출For2026_기하 (교사용)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4432.png",
+      "sha256": "25fe3a4ca4e184ecbf5379eb6d8dda92397434c1c6827571e6bb77f35c4de231"
     }
   ],
   "duplicate_message_ids": [
