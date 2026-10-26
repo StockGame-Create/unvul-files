@@ -180935,6 +180935,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4524.png",
       "sha256": "8d481cdb3e53503673e870444eaafc789a9f54a031359a11ca61ff0fe12da3b9"
+    },
+    {
+      "message_id": 4523,
+      "filename": "필수이론 복습 가이드.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4523_.pdf",
+      "size_bytes": 56460386,
+      "telegram_date": "2025-08-11T14:58:27+00:00",
+      "title": "필수이론 복습 가이드",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4523.png",
+      "sha256": "0eb35364fdb092795bda5c6cbe87e4a3e14bcf9ec96ce4955e557cd2ad8dd711"
     }
   ],
   "duplicate_message_ids": [
