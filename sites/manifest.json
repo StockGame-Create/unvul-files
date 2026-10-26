@@ -99,6 +99,20 @@
       "sha256": "99d9973d27e312ae5ee88a91858b7f2ba2fed6ef0c1387f575474a1716dbbac5"
     },
     {
+      "message_id": 25923,
+      "filename": "김종익 모의고사 시즌2_7~10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25923_.2_7.10.pdf",
+      "size_bytes": 5577994,
+      "telegram_date": "2026-10-26T15:36:17+00:00",
+      "title": "생윤 잘 푸는 모의고사 시즌 2(파이널) 6~10회",
+      "year": "2027",
+      "instructor": "김종익",
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/25923.png",
+      "sha256": "77c8c1ed8d68c9adc726131c3b9315c7524073e1e543d099f3185afa40c80834"
+    },
+    {
       "message_id": 25919,
       "filename": "결정 시즌1-1.pdf",
       "stored_as": null,
