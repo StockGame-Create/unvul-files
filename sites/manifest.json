@@ -181691,6 +181691,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4473.png",
       "sha256": "ebbd0061f2dbfb30ec8640b51f09376923618ccfd9982eb6f9dac7ef500b3478"
+    },
+    {
+      "message_id": 4472,
+      "filename": "개념원리 RPM 대수 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4472_.RPM.pdf",
+      "size_bytes": 16515488,
+      "telegram_date": "2025-08-11T14:58:20+00:00",
+      "title": "개념원리 RPM 대수 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4472.png",
+      "sha256": "b8eacacf45e894e7addbad32802b66ca8fea4a3fbf26fa3db5e5605d251f4bf4"
     }
   ],
   "duplicate_message_ids": [
