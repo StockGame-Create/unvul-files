@@ -182447,6 +182447,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4413.png",
       "sha256": "408eecd255788a539e131adf08bc9c3f19a69d21d26a674fe0f417d7d6c2bd1a"
+    },
+    {
+      "message_id": 4412,
+      "filename": "브릿지모의고사 8회 문제지_240709_225807.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4412_.8._240709_225807.pdf",
+      "size_bytes": 480799,
+      "telegram_date": "2025-08-11T14:58:14+00:00",
+      "title": "브릿지모의고사 8회 문제지_240709_225807",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4412.png",
+      "sha256": "6ca21a86533da0cf3ff8490f7dfeb07e805f266dcb3a71c10973252ce08ace8d"
     }
   ],
   "duplicate_message_ids": [
