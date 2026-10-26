@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26T04:59:23+00:00",
+  "updated_at": "2026-10-26T14:17:31+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -3160,23 +3160,53 @@
       "subject": "경제",
       "sha256": "eaf25de2263eae83d621edb471a144645caef0630faab45983eaaff57013cf94",
       "schema_version": 1,
-      "status": "partial",
+      "status": "done",
       "data": "ai/25890.json",
-      "updated_at": "2026-10-26T04:59:23+00:00",
+      "updated_at": "2026-10-26T13:40:51+00:00",
       "pages_total": 23,
-      "pages_done": 8,
+      "pages_done": 23,
       "failed_pages": [
         5,
         6,
         7,
         8
       ],
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.8-flash",
       "problem_count": 20,
-      "solution_count": 0,
-      "matched_count": 0,
-      "with_answer": 0,
-      "with_explanation": 0
+      "solution_count": 73,
+      "matched_count": 73,
+      "with_answer": 20,
+      "with_explanation": 17
+    },
+    {
+      "message_id": 25889,
+      "filename": "피드백 9회.pdf",
+      "title": "국어 다상다독 피드백 9회",
+      "year": "2027",
+      "instructor": "강민철",
+      "subject": "국어",
+      "sha256": "0099253616366100b4af39012752c11a4ef1f7707372c6a36478023eb6f8bd61",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/25889.json",
+      "updated_at": "2026-10-26T14:17:31+00:00",
+      "pages_total": 56,
+      "pages_done": 16,
+      "failed_pages": [
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16
+      ],
+      "model": "gemini-3.6-flash",
+      "problem_count": 6,
+      "solution_count": 6,
+      "matched_count": 6,
+      "with_answer": 6,
+      "with_explanation": 3
     }
   ]
 }
