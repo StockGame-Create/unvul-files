@@ -181957,6 +181957,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4455.png",
       "sha256": "11bcdaa2db5c53062ec849c9168806afe0af7edc1345a75c392c2348e0d8f24c"
+    },
+    {
+      "message_id": 4454,
+      "filename": "2026_기출의_바이블_수학_확률과_통계_1권_교사용.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4454_2026_._._._._._1._.pdf",
+      "size_bytes": 4289216,
+      "telegram_date": "2025-08-11T14:58:16+00:00",
+      "title": "2026_기출의_바이블_수학_확률과_통계_1권_교사용",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4454.png",
+      "sha256": "7994966db19d8915077d9cea03fcf2b16f53e9e02fe9a5b45695f7b42525adc9"
     }
   ],
   "duplicate_message_ids": [
