@@ -182643,6 +182643,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4399.png",
       "sha256": "dda78b9cb2bd121e5dd6766625c0f9ed82c0a5334c9a3ad7823676e8279a9455"
+    },
+    {
+      "message_id": 4398,
+      "filename": "브릿지모의고사 1회 문제지_240709_230454.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4398_.1._240709_230454.pdf",
+      "size_bytes": 463773,
+      "telegram_date": "2025-08-11T14:58:13+00:00",
+      "title": "브릿지모의고사 1회 문제지_240709_230454",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4398.png",
+      "sha256": "de50cb9f5ae31d931ef6239df4aca49708605e17e604b685f9e9b8e4640416c9"
     }
   ],
   "duplicate_message_ids": [
