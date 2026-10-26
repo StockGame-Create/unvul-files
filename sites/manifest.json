@@ -182181,6 +182181,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4436.png",
       "sha256": "d7ad84b9d356d8be9984968fe7b3bd2cb377f73d8da679549a3d0eb1d39037bd"
+    },
+    {
+      "message_id": 4435,
+      "filename": "너기출For2026_미적분 (학생용).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4435_.For2026_.pdf",
+      "size_bytes": 11214442,
+      "telegram_date": "2025-08-11T14:58:15+00:00",
+      "title": "너기출For2026_미적분 (학생용)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4435.png",
+      "sha256": "2b365ab83ea2ba32f708b8c16e1ef4f84d5747ddb930eba0f2f6d97f9b04f18c"
     }
   ],
   "duplicate_message_ids": [
