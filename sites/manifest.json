@@ -181719,6 +181719,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4469.png",
       "sha256": "c47ee1f93faa99ef1440d8ffe9ff158b7e7ef8f49edbf19c21a3ff03b2286902"
+    },
+    {
+      "message_id": 4468,
+      "filename": "나기출 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4468_.pdf",
+      "size_bytes": 181085481,
+      "telegram_date": "2025-08-11T14:58:19+00:00",
+      "title": "나기출 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4468.png",
+      "sha256": "2326744812e0ac7ad8947c238a9bc71de9afc02eeaeeb9dc7d532369062842c7"
     }
   ],
   "duplicate_message_ids": [
