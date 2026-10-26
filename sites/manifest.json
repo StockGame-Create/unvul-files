@@ -181187,6 +181187,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4501.png",
       "sha256": "d7e81327f4dc679cc4fabe3000bcd36323ff5a72b83e0e0943d483de306f8b14"
+    },
+    {
+      "message_id": 4500,
+      "filename": "수학1_Step1_특강_0주차_Preview_Test.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4500_.1_Step1_._0._Preview_Test.pdf",
+      "size_bytes": 970565,
+      "telegram_date": "2025-08-11T14:58:26+00:00",
+      "title": "수학1_Step1_특강_0주차_Preview_Test",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4500.png",
+      "sha256": "7ebcfdb02647f4872bd3ed3eb068238e1077416ad3a55a967f9462aa6ebd4dfe"
     }
   ],
   "duplicate_message_ids": [
