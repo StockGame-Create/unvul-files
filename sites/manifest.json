@@ -181047,6 +181047,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4516.png",
       "sha256": "da273ab840bfed5fa571568c298b1e0e7743a8f75ba1419b90ee04e7b824dc35"
+    },
+    {
+      "message_id": 4515,
+      "filename": "2026_신기해_공통_2단원_손해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4515_2026_._._2._.pdf",
+      "size_bytes": 8301210,
+      "telegram_date": "2025-08-11T14:58:27+00:00",
+      "title": "2026_신기해_공통_2단원_손해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4515.png",
+      "sha256": "1f038aaab94d843b115b42cfcd88b59122a6f7e77f70151a925dfc92145061c6"
     }
   ],
   "duplicate_message_ids": [
