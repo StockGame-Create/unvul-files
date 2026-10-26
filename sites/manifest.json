@@ -181621,6 +181621,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4478.png",
       "sha256": "30eef48e83507a883969a6679b5077df1ce98d9efb6199613b98f3c2fa0bddf0"
+    },
+    {
+      "message_id": 4477,
+      "filename": "개념원리_RPM_확률과_통계.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4477_._RPM_._.pdf",
+      "size_bytes": 4386340,
+      "telegram_date": "2025-08-11T14:58:20+00:00",
+      "title": "개념원리_RPM_확률과_통계",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4477.png",
+      "sha256": "593a774c7716671ceae92bea3edd8f93c9ba095c69d7f64bf48e167f492560c2"
     }
   ],
   "duplicate_message_ids": [
