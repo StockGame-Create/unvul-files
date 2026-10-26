@@ -182531,6 +182531,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4407.png",
       "sha256": "3b3c1afecc63164a0f17dd751ab200ba1cc565db2785071527afb9afb3c9a9e0"
+    },
+    {
+      "message_id": 4406,
+      "filename": "브릿지모의고사 5회 문제지_240709_230225.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4406_.5._240709_230225.pdf",
+      "size_bytes": 468411,
+      "telegram_date": "2025-08-11T14:58:14+00:00",
+      "title": "브릿지모의고사 5회 문제지_240709_230225",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4406.png",
+      "sha256": "3552f528cc6a0853bfe5dadc40893287c23f7ca9e97657cd143fd0473c805bae"
     }
   ],
   "duplicate_message_ids": [
