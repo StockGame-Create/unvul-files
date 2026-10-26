@@ -182363,6 +182363,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4422.png",
       "sha256": "4562aaa4264d6b4669010315b1bc5a2b72b7340076bda85962abeaf0c5e87965"
+    },
+    {
+      "message_id": 4421,
+      "filename": "2025 화학 1 강준호 화잘주스 39호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4421_2025.1.39.pdf",
+      "size_bytes": 100414037,
+      "telegram_date": "2025-08-11T14:58:14+00:00",
+      "title": "2025 화학 1 강준호 화잘주스 39호",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4421.png",
+      "sha256": "4a25de09c91942f06fbb7782991b34f66dae8b8f1e071065c5111e4a426a143a"
     }
   ],
   "duplicate_message_ids": [
