@@ -182699,6 +182699,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4394.png",
       "sha256": "bb1e8a0e8bcd1031a29782130410eb908da1419439d37f0a7ec3b9e88923874c"
+    },
+    {
+      "message_id": 4393,
+      "filename": "2025_생명과학2_크럭스_6권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4393_2025_.2_._6.pdf",
+      "size_bytes": 161822015,
+      "telegram_date": "2025-08-11T14:58:13+00:00",
+      "title": "2025_생명과학2_크럭스_6권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4393.png",
+      "sha256": "00b0a23cad1ff7216acda1d31c9ece6572607d35976ed32528fbf347752334db"
     }
   ],
   "duplicate_message_ids": [
