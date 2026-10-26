@@ -181271,6 +181271,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4494.png",
       "sha256": "e7af1dc6df68787b448953c3d180aca548c3a7d8f8a52fd405d379d2b3516e12"
+    },
+    {
+      "message_id": 4493,
+      "filename": "수능국어 경제의 한수.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4493_.pdf",
+      "size_bytes": 164030611,
+      "telegram_date": "2025-08-11T14:58:26+00:00",
+      "title": "수능국어 경제의 한수",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4493.png",
+      "sha256": "287618805ed7a2800d09c87869910bd8dfd1241797fb26108428b60751d70331"
     }
   ],
   "duplicate_message_ids": [
