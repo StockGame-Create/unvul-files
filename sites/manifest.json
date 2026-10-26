@@ -182097,6 +182097,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4445.png",
       "sha256": "928cc4d6ea34c0a4da9a54c3d321e36ff85380de69587055b5b3b6858da95de7"
+    },
+    {
+      "message_id": 4444,
+      "filename": "2026 기출의 바이블 [수학] 수학1 1권 (학생용).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4444_2026.1.1.pdf",
+      "size_bytes": 4308260,
+      "telegram_date": "2025-08-11T14:58:16+00:00",
+      "title": "2026 기출의 바이블 [수학] 수학1 1권 (학생용)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4444.png",
+      "sha256": "8721f03f50909a9f6c59cab93ef63ad6132c2ecbec4e16bd6841b8544da634b6"
     }
   ],
   "duplicate_message_ids": [
