@@ -181663,6 +181663,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4475.png",
       "sha256": "a6ae28a3f460a5cf41a10f4fc29a5d354d78e7693478723a10e3a46790211668"
+    },
+    {
+      "message_id": 4474,
+      "filename": "개념원리 대수.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4474_.pdf",
+      "size_bytes": 136962210,
+      "telegram_date": "2025-08-11T14:58:20+00:00",
+      "title": "개념원리 대수",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4474.png",
+      "sha256": "7045c4d85b9382071e65322e48f4c17fd44ece93588545bc59b2b8bbd4170cce"
     }
   ],
   "duplicate_message_ids": [
