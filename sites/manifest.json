@@ -182419,6 +182419,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4418.png",
       "sha256": "66ae02c06c8efd7f1c8eea43153fb8607b6cc21c068d6cdfe44f7aa8bba9bfb9"
+    },
+    {
+      "message_id": 4417,
+      "filename": "과탐_화1_2026_마더텅_수능기출문제집_화학1_문제편.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4417_._.1_2026_._._.1_.pdf",
+      "size_bytes": 116029509,
+      "telegram_date": "2025-08-11T14:58:14+00:00",
+      "title": "과탐_화1_2026_마더텅_수능기출문제집_화학1_문제편",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4417.png",
+      "sha256": "f0b814d25a93e38637d208b1a418d5f8e8ed7425cd0ac76aca959fb7592b8ac6"
     }
   ],
   "duplicate_message_ids": [
