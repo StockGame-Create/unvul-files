@@ -182587,6 +182587,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4403.png",
       "sha256": "e54c783756f7bdebc5711cea5fb9bbc93faa15d5f4fcb783ee6127c49650c824"
+    },
+    {
+      "message_id": 4402,
+      "filename": "브릿지모의고사 01 해설_240709_230528.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4402_.01._240709_230528.pdf",
+      "size_bytes": 395740,
+      "telegram_date": "2025-08-11T14:58:13+00:00",
+      "title": "브릿지모의고사 01 해설_240709_230528",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4402.png",
+      "sha256": "99c27e740416c5923aa48988c82444a5cff17d2c4082cef6f2bbc3158cf79275"
     }
   ],
   "duplicate_message_ids": [
