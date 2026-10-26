@@ -181285,6 +181285,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4493.png",
       "sha256": "287618805ed7a2800d09c87869910bd8dfd1241797fb26108428b60751d70331"
+    },
+    {
+      "message_id": 4492,
+      "filename": "고전시가의 한수.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4492_.pdf",
+      "size_bytes": 170532733,
+      "telegram_date": "2025-08-11T14:58:26+00:00",
+      "title": "고전시가의 한수",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4492.png",
+      "sha256": "eaea4d03ec848a14a88e24b2047f2ca9c44a0e561131d2b3b248c952fea2e78d"
     }
   ],
   "duplicate_message_ids": [
