@@ -181579,6 +181579,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4485.png",
       "sha256": "eda9005fc00613fe9fb3642fe10d9237b471fca9075cc927de46a3c65a85dbcd"
+    },
+    {
+      "message_id": 4484,
+      "filename": "12026_마더텅_수능기출문제집_정치와법_문제편_정답체크X.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4484_12026_._._._._.X.pdf",
+      "size_bytes": 168003235,
+      "telegram_date": "2025-08-11T14:58:20+00:00",
+      "title": "12026_마더텅_수능기출문제집_정치와법_문제편_정답체크X",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4484.png",
+      "sha256": "1d4eae7e3558d56e6e4c4922d7cb0b49056065942ea5fd575f73a3995bd06360"
     }
   ],
   "duplicate_message_ids": [
