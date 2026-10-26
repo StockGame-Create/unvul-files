@@ -182125,6 +182125,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4443.png",
       "sha256": "669c2b9dd95836855ebc16780224640de95b4c02c8b0711bd9b1f2bb6367beda"
+    },
+    {
+      "message_id": 4442,
+      "filename": "2026 기출의 바이블 [수학] 미적분 1권 (교사용).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4442_2026.1.pdf",
+      "size_bytes": 3688821,
+      "telegram_date": "2025-08-11T14:58:16+00:00",
+      "title": "2026 기출의 바이블 [수학] 미적분 1권 (교사용)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4442.png",
+      "sha256": "a4c2b1c0e0616aa4ca88b38b7272f68e969c80548747a8be166c9d19169e512a"
     }
   ],
   "duplicate_message_ids": [
