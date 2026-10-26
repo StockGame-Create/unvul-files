@@ -182153,6 +182153,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4439.png",
       "sha256": "358e994aa2c73fd4671143696fba4faef891bfe358aea2b2a2e5f80368f51522"
+    },
+    {
+      "message_id": 4438,
+      "filename": "너기출For2026_수학2 (교사용).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4438_.For2026_.2.pdf",
+      "size_bytes": 16522253,
+      "telegram_date": "2025-08-11T14:58:15+00:00",
+      "title": "너기출For2026_수학2 (교사용)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4438.png",
+      "sha256": "9ee61ffe1f3b4d8d98e1eb9859f02f857ce4291f0290bb09eb9fcd40f54583ea"
     }
   ],
   "duplicate_message_ids": [
