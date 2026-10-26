@@ -71,6 +71,20 @@
       "sha256": "c1b88d1d26f55b21e1aadd7cfaf5884d968b41bc1d7fea2f87522e1e9db5d48a"
     },
     {
+      "message_id": 25907,
+      "filename": "27 한지 파브 5회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25907_27.5.pdf",
+      "size_bytes": 4246560,
+      "telegram_date": "2026-10-26T14:08:52+00:00",
+      "title": "한지 시대인재 Final 브릿지 전국 모의고사 5회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "한국지리",
+      "thumbnail": "thumbnails/25907.png",
+      "sha256": "d1ca4288b81b92cf11087377a2c3e3b24c668a3eef13fb311f82d140fa03606a"
+    },
+    {
       "message_id": 25890,
       "filename": "경제_오메가_모의고사_10회_11회_문제지_+_해설지.pdf",
       "stored_as": null,
