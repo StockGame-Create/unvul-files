@@ -180963,6 +180963,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4522.png",
       "sha256": "3e948f817e922773582f5099c8acf3c10a9858fb39cdbc3ac71c81a5867a946c"
+    },
+    {
+      "message_id": 4521,
+      "filename": "화학 1 기출문제모음집.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4521_.1.pdf",
+      "size_bytes": 132004871,
+      "telegram_date": "2025-08-11T14:58:27+00:00",
+      "title": "화학 1 기출문제모음집",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4521.png",
+      "sha256": "b89831961445fd6a8e28a7da6ca159f2e1beda4a3d783f1ff3d4f5d1b392ee7e"
     }
   ],
   "duplicate_message_ids": [
