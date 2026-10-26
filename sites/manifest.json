@@ -182475,6 +182475,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4411.png",
       "sha256": "10ca76e1fb41fa996a11c924b0970fbb3f34b1f1267c68f8f353b1b79d8a05b5"
+    },
+    {
+      "message_id": 4410,
+      "filename": "브릿지모의고사 7회 문제지_240709_225900.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4410_.7._240709_225900.pdf",
+      "size_bytes": 466004,
+      "telegram_date": "2025-08-11T14:58:14+00:00",
+      "title": "브릿지모의고사 7회 문제지_240709_225900",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4410.png",
+      "sha256": "f5cca1baecfce4e28bafd243b33906118a75684b01a16deacbdaca540b34fdff"
     }
   ],
   "duplicate_message_ids": [
