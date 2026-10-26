@@ -181551,6 +181551,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4489.png",
       "sha256": "2205b7591dc61f00fde62624760f47ab5b220db9eb050c73805189fe617a6b90"
+    },
+    {
+      "message_id": 4488,
+      "filename": "수1 쉬사준킬.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4488_.1.pdf",
+      "size_bytes": 64707954,
+      "telegram_date": "2025-08-11T14:58:26+00:00",
+      "title": "수1 쉬사준킬",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4488.png",
+      "sha256": "20e4b44c0f72dd8588eb097d22120bdee4cd6733af51679fd858ba9145638bd0"
     }
   ],
   "duplicate_message_ids": [
