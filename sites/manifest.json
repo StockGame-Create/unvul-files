@@ -180893,6 +180893,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4527.png",
       "sha256": "8131f801bd80c94f4e8767e932b681804d9916ba5d663f548bdcb49b7d2b300f"
+    },
+    {
+      "message_id": 4526,
+      "filename": "윤도영 유전 특강 4주차 테스트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4526_.4.pdf",
+      "size_bytes": 1432912,
+      "telegram_date": "2025-08-11T14:58:28+00:00",
+      "title": "윤도영 유전 특강 4주차 테스트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4526.png",
+      "sha256": "1c87f8141fadbc41fe90c8467571b7fc9b0de523c51ec826aad0d1ee91a6ccf5"
     }
   ],
   "duplicate_message_ids": [
