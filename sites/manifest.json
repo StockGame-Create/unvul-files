@@ -181201,6 +181201,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4500.png",
       "sha256": "7ebcfdb02647f4872bd3ed3eb068238e1077416ad3a55a967f9462aa6ebd4dfe"
+    },
+    {
+      "message_id": 4499,
+      "filename": "1주차_수1특강_필기노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4499_1._.1._.pdf",
+      "size_bytes": 2242018,
+      "telegram_date": "2025-08-11T14:58:26+00:00",
+      "title": "1주차_수1특강_필기노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4499.png",
+      "sha256": "bc78d5eab9868b6ce8bd388af7d205452b9cdfb7857eb642cf0b4a5555521dd3"
     }
   ],
   "duplicate_message_ids": [
