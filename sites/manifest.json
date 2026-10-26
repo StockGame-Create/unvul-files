@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 25932,
+      "filename": "2027 김현우 스탠다드 파이널 04권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25932_2027.04.pdf",
+      "size_bytes": 76077381,
+      "telegram_date": "2026-10-26T15:38:52+00:00",
+      "title": "수학 김현우 스탠다드 파이널 1~6권",
+      "year": "2027",
+      "instructor": "김현우",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25932.png",
+      "sha256": "3ecceb45d657ddbe85492238f746ecbee5ec11d7f7db119eabff3676d595c861"
+    },
+    {
       "message_id": 25919,
       "filename": "결정 시즌1-1.pdf",
       "stored_as": null,
