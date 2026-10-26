@@ -181131,6 +181131,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4506.png",
       "sha256": "6b5e767d34692f9e1a15c584c26e34787378ad96ace5ec1e13c941123eb0e426"
+    },
+    {
+      "message_id": 4504,
+      "filename": "Another class 화학 II 2026 Part 1 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4504_Another.class.II.2026.Part.1.1.pdf",
+      "size_bytes": 88047018,
+      "telegram_date": "2025-08-11T14:58:26+00:00",
+      "title": "Another class 화학 II 2026 Part 1 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4504.png",
+      "sha256": "e592e7b9757af44ac31bfbb7251a7f6b87123d8c1711c0a87159286900133f5a"
     }
   ],
   "duplicate_message_ids": [
