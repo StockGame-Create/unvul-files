@@ -182545,6 +182545,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4406.png",
       "sha256": "3552f528cc6a0853bfe5dadc40893287c23f7ca9e97657cd143fd0473c805bae"
+    },
+    {
+      "message_id": 4405,
+      "filename": "브릿지모의고사 2회 해설_240709_230443.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4405_.2._240709_230443.pdf",
+      "size_bytes": 310204,
+      "telegram_date": "2025-08-11T14:58:14+00:00",
+      "title": "브릿지모의고사 2회 해설_240709_230443",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4405.png",
+      "sha256": "757aa4bc6904e166ef079e0af23c04add398d42099bb541e675d2b7c619bd315"
     }
   ],
   "duplicate_message_ids": [
