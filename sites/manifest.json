@@ -181075,6 +181075,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4514.png",
       "sha256": "2ef5f63ee923b1fe2f9fc3fca1c97f6d1cb74e224c9aedc0cc40d924f5f732a9"
+    },
+    {
+      "message_id": 4510,
+      "filename": "원솔멀텍_확률과_통계_해답.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4510_._._._.pdf",
+      "size_bytes": 82252525,
+      "telegram_date": "2025-08-11T14:58:27+00:00",
+      "title": "원솔멀텍_확률과_통계_해답",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4510.png",
+      "sha256": "1a63d263ef7c15472ed122c0120547d6a930266fdb6178b27c0a130edb63b788"
     }
   ],
   "duplicate_message_ids": [
