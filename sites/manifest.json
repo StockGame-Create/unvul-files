@@ -181635,6 +181635,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4477.png",
       "sha256": "593a774c7716671ceae92bea3edd8f93c9ba095c69d7f64bf48e167f492560c2"
+    },
+    {
+      "message_id": 4476,
+      "filename": "개념원리_RPM_수학1_정답및해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4476_._RPM_.1_.pdf",
+      "size_bytes": 6772764,
+      "telegram_date": "2025-08-11T14:58:20+00:00",
+      "title": "개념원리_RPM_수학1_정답및해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4476.png",
+      "sha256": "79b6fb8c53563121c8615ff3552d9cd0960ea248392cbae016310a881947db4c"
     }
   ],
   "duplicate_message_ids": [
