@@ -180851,6 +180851,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4530.png",
       "sha256": "91ce4ef8d8223e3dcb55737434ac74b7249cb797ee9a38725bfc10c7f9d92458"
+    },
+    {
+      "message_id": 4529,
+      "filename": "비독원 베이스.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4529_.pdf",
+      "size_bytes": 36900119,
+      "telegram_date": "2025-08-11T14:58:28+00:00",
+      "title": "비독원 베이스",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4529.png",
+      "sha256": "726e3f72353afa4ae5381c56900e0bf3c84d954ae474c1364c00b9963dcd9920"
     }
   ],
   "duplicate_message_ids": [
