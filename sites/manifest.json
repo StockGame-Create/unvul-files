@@ -141,6 +141,20 @@
       "sha256": "a7ef612032d794c7e54e79ac9848bd4246e3c087ce3318a60b8f8258171c1eea"
     },
     {
+      "message_id": 25900,
+      "filename": "2027학년도_THE_FULL_경제_모의고사_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25900_2027._THE_FULL_._._.pdf",
+      "size_bytes": 11097198,
+      "telegram_date": "2026-10-26T14:08:39+00:00",
+      "title": "경제 THE FULL 모의고사 1~6회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "경제",
+      "thumbnail": "thumbnails/25900.png",
+      "sha256": "5dfd2744a1fe60c07858f8432b3626c5b70bf753f3c24ccb788fa67e57566098"
+    },
+    {
       "message_id": 25890,
       "filename": "경제_오메가_모의고사_10회_11회_문제지_+_해설지.pdf",
       "stored_as": null,
