@@ -225,6 +225,20 @@
       "sha256": "940300da3f8ce6726957325aa2b8a7d3598ff4cf57217d788ffb39938ca6080e"
     },
     {
+      "message_id": 25946,
+      "filename": "2027학년도_잘_푸는_모의고사_시즌_2파이널_6회_12회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25946_2027._._._._._2._6._12.pdf",
+      "size_bytes": 28053595,
+      "telegram_date": "2026-10-27T15:28:03+00:00",
+      "title": "생윤 잘 푸는 모의고사 시즌 2(파이널) 6~12회",
+      "year": "2027",
+      "instructor": "김종익",
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/25946.png",
+      "sha256": "ad82fac6c5ba809465944c70e3472ca7fb3ccd95ee15c1cd04ceaca8911f20fc"
+    },
+    {
       "message_id": 25940,
       "filename": "전형태_언어매체_올인원.pdf",
       "stored_as": null,
