@@ -181817,6 +181817,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4390.png",
       "sha256": "737e11d8ed7e62a0986beca98437d6f13ddac9284da40245c68fb6e2bfbc2c9a"
+    },
+    {
+      "message_id": 4389,
+      "filename": "2025 크럭스 생2 5권 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4389_2025.2.5.pdf",
+      "size_bytes": 28807565,
+      "telegram_date": "2025-08-11T14:58:13+00:00",
+      "title": "2025 크럭스 생2 5권 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4389.png",
+      "sha256": "ceb943960dd9a004a9f14fb4202358292ad35dc0db9f473cae56ccc9e69e3a0d"
     }
   ],
   "duplicate_message_ids": [
