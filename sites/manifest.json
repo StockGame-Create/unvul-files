@@ -181859,6 +181859,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4387.png",
       "sha256": "aa64c4119e5162170bf670412c3c4cb5eddc3ab7381dde337c56391c1b20d002"
+    },
+    {
+      "message_id": 4386,
+      "filename": "2025 크럭스 생2 2권.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4386_2025.2.2.pdf",
+      "size_bytes": 70562703,
+      "telegram_date": "2025-08-11T14:58:13+00:00",
+      "title": "2025 크럭스 생2 2권",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4386.png",
+      "sha256": "1fc4ad8113d559ad06f1359f1740152de532d3e60ceae1358eb97043e7b0a728"
     }
   ],
   "duplicate_message_ids": [
