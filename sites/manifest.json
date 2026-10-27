@@ -239,6 +239,20 @@
       "sha256": "ad82fac6c5ba809465944c70e3472ca7fb3ccd95ee15c1cd04ceaca8911f20fc"
     },
     {
+      "message_id": 25944,
+      "filename": "2027 시대 수학 전국 서바 15.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25944_2027.15.pdf",
+      "size_bytes": 48410428,
+      "telegram_date": "2026-10-27T15:28:01+00:00",
+      "title": "수학 시대인재 서바이벌 전국 모의고사 15회 #서바전국",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25944.png",
+      "sha256": "60a8deee5a504dcff81e5a086a854caf108dad1a559cccacddac5eccce0f1c3c"
+    },
+    {
       "message_id": 25940,
       "filename": "전형태_언어매체_올인원.pdf",
       "stored_as": null,
