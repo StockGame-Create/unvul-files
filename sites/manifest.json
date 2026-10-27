@@ -57,6 +57,20 @@
       "sha256": "bcdc53008ed554e4ce514f7195ab8d10dbfe9144838223a05063d087a0760678"
     },
     {
+      "message_id": 25963,
+      "filename": "2027_영어_김지영_V_모의고사_시즌3_2회_문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25963_2027_._._V_._.3_2._.pdf",
+      "size_bytes": 31815842,
+      "telegram_date": "2026-10-27T15:28:28+00:00",
+      "title": "영어 김지영 V 모의고사 시즌3 1~3회",
+      "year": "2027",
+      "instructor": "김지영",
+      "subject": "영어",
+      "thumbnail": "thumbnails/25963.png",
+      "sha256": "6abfe0852b078ccc757319376fb4cb8eca742aed1ead9a95e84bfc414d471bf6"
+    },
+    {
       "message_id": 25940,
       "filename": "전형태_언어매체_올인원.pdf",
       "stored_as": null,
