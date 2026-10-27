@@ -85,6 +85,20 @@
       "sha256": "4ccdbaa99d591eab8039dab502495686434e089a111a98ec5da168d6a7627d39"
     },
     {
+      "message_id": 25960,
+      "filename": "download-proxy.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25960_download-proxy.pdf",
+      "size_bytes": 92851,
+      "telegram_date": "2026-10-27T15:28:21+00:00",
+      "title": "수학 김현우 수업자료 16주차",
+      "year": "2027",
+      "instructor": "김현우",
+      "subject": "수학",
+      "thumbnail": "thumbnails/25960.png",
+      "sha256": "698f0d833b08c7e32374f9f1856bfa0238c5375e0d6b02bc77d762b9d89454aa"
+    },
+    {
       "message_id": 25940,
       "filename": "전형태_언어매체_올인원.pdf",
       "stored_as": null,
