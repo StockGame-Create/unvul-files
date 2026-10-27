@@ -181775,6 +181775,20 @@
       "subject": null,
       "thumbnail": "thumbnails/4458.png",
       "sha256": "dceaaa912352f3289020ca23c173fdda75622984102e2415c4d12555a24c736f"
+    },
+    {
+      "message_id": 4392,
+      "filename": "2025 크럭스 생2 4권 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/4392_2025.2.4.pdf",
+      "size_bytes": 18018559,
+      "telegram_date": "2025-08-11T14:58:13+00:00",
+      "title": "2025 크럭스 생2 4권 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/4392.png",
+      "sha256": "8edc4acbbb0f27947b0b143c2e8a814f931d7db5b8d9ce2cc684eed62c3a9864"
     }
   ],
   "duplicate_message_ids": [
