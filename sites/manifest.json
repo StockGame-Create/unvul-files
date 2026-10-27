@@ -141,6 +141,20 @@
       "sha256": "04ad2507139687aaaab7065fdd6df63ef6fe0edb02c4a1cd4b591d050077d7ea"
     },
     {
+      "message_id": 25956,
+      "filename": "2027 다상다독 11회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25956_2027.11.pdf",
+      "size_bytes": 8759224,
+      "telegram_date": "2026-10-27T15:28:18+00:00",
+      "title": "국어 다상다독 모의고사 11, 12회",
+      "year": "2027",
+      "instructor": "강민철",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25956.png",
+      "sha256": "95db7e7d245af12fb43a6206a211b16f646b9e7433d22301ca188067ef797663"
+    },
+    {
       "message_id": 25940,
       "filename": "전형태_언어매체_올인원.pdf",
       "stored_as": null,
