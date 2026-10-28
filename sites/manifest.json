@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 25982,
+      "filename": "세지 서바c 1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25982_.c.1.pdf",
+      "size_bytes": 3539949,
+      "telegram_date": "2026-10-28T11:07:31+00:00",
+      "title": "세지 시대인재 서바이벌 C 단독 모의고사 1회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "세계지리",
+      "thumbnail": "thumbnails/25982.png",
+      "sha256": "58e9bda168e082f7d6433be0b4da310a7c062559cd13ee9f0636f882405c76a1"
+    },
+    {
       "message_id": 25968,
       "filename": "백건아_아카이브_동아시아사_30회.pdf",
       "stored_as": null,
