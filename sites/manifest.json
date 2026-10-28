@@ -113,6 +113,20 @@
       "sha256": "410cd1f464337630228470529e62d7e49cb466217a3518f5a51571d7857ea1b1"
     },
     {
+      "message_id": 25970,
+      "filename": "2027학년도 김승리 실전모의고사 10회 문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25970_2027.10.pdf",
+      "size_bytes": 79830284,
+      "telegram_date": "2026-10-28T11:07:19+00:00",
+      "title": "국어 김승리 실전 모의고사 7~10회 해설, 10회 문제지 (인쇄소퀄) #김승모",
+      "year": "2027",
+      "instructor": "김승리",
+      "subject": "국어",
+      "thumbnail": "thumbnails/25970.png",
+      "sha256": "9ac175de429d3e0099c1cc5c55ad2799addac17ccc1e73260534d216d323641d"
+    },
+    {
       "message_id": 25968,
       "filename": "백건아_아카이브_동아시아사_30회.pdf",
       "stored_as": null,
