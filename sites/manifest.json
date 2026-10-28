@@ -99,6 +99,20 @@
       "sha256": "17a22d278a720930b44d0821c796a55c5640d882aefe9db5059695afa57949b6"
     },
     {
+      "message_id": 25993,
+      "filename": "2027 시대인재 수학 서바이벌 23회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25993_2027.23.pdf",
+      "size_bytes": 17340442,
+      "telegram_date": "2026-10-28T22:35:25+00:00",
+      "title": "수학 시대인재 서바이벌 모의고사 23회 #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25993.png",
+      "sha256": "d76673c4f83e8e7b810b962d5d5a7ced1550f30604292cd5760ff9c15cea9e56"
+    },
+    {
       "message_id": 25982,
       "filename": "세지 서바c 1.pdf",
       "stored_as": null,
