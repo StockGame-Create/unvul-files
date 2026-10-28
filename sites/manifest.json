@@ -29,6 +29,20 @@
       "sha256": "2b2ad9368d493deb7eaf75b5f012262eb703bbfb6209b14ae383cf8861ac77d7"
     },
     {
+      "message_id": 26000,
+      "filename": "2027 설맞이 S3 문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26000_2027.S3.pdf",
+      "size_bytes": 18634737,
+      "telegram_date": "2026-10-28T22:35:29+00:00",
+      "title": "수학 설맞이 모의고사 시즌3 문제지, 해설, 소설집",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/26000.png",
+      "sha256": "df8e83977fb7ad05256b098df834ed08204d0195b111d30c8f8dfcf79e0c0f95"
+    },
+    {
       "message_id": 25982,
       "filename": "세지 서바c 1.pdf",
       "stored_as": null,
