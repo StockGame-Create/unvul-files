@@ -71,6 +71,20 @@
       "sha256": "3aa66c2928c2f0ab75d33c0796d22a3ea421db0baf75705c91c9d4f3e49d0908"
     },
     {
+      "message_id": 25995,
+      "filename": "2027학년도_이해원_모의고사_시즌4_정답_및_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/25995_2027._._._.4_._._.pdf",
+      "size_bytes": 13145426,
+      "telegram_date": "2026-10-28T22:35:27+00:00",
+      "title": "수학 이해원 모의고사 시즌4 1회 (인쇄소퀄) #이해원모의고사",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/25995.png",
+      "sha256": "df49b39a4b9a416989e5bb286a6f4a71986ac0ba43051d0ffd168b9bafe2a723"
+    },
+    {
       "message_id": 25982,
       "filename": "세지 서바c 1.pdf",
       "stored_as": null,
