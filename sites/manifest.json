@@ -99,6 +99,20 @@
       "sha256": "1f32a12cefc99d8d009111c83457b91e182219c401b9118b33234535aad03faf"
     },
     {
+      "message_id": 26028,
+      "filename": "정법 적생모 4-12.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26028_.4-12.pdf",
+      "size_bytes": 8241950,
+      "telegram_date": "2026-10-29T14:47:31+00:00",
+      "title": "정법 적자생존 모의고사 시즌3 8회, 시즌4 10~13회 #적생모",
+      "year": "2027",
+      "instructor": "최적",
+      "subject": "정치와법",
+      "thumbnail": "thumbnails/26028.png",
+      "sha256": "09c0e159bbd743aa90d848dc430e28b4f1d08979c3371ba59d5162a244317396"
+    },
+    {
       "message_id": 26002,
       "filename": "2027 설맞이 모의고사 시즌3 소설집.pdf",
       "stored_as": null,
