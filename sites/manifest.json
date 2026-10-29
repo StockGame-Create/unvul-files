@@ -43,6 +43,20 @@
       "sha256": "4017c6a03bdceda227ba44f41d1a30d9ebd182820ba5c2e91a48a6ada4a1b571"
     },
     {
+      "message_id": 26035,
+      "filename": "이것이 만점 복습이다_세계지리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26035_._.pdf",
+      "size_bytes": 50317137,
+      "telegram_date": "2026-10-29T14:54:20+00:00",
+      "title": "세지 이기상 이것이 만점 복습이다",
+      "year": "2027",
+      "instructor": "이기상",
+      "subject": "세계지리",
+      "thumbnail": "thumbnails/26035.png",
+      "sha256": "9c03e97be858ca0104b710f1b90b10cb9a27951663095278ad515b50d4067fce"
+    },
+    {
       "message_id": 26002,
       "filename": "2027 설맞이 모의고사 시즌3 소설집.pdf",
       "stored_as": null,
