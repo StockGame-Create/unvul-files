@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28T22:53:16+00:00",
+  "updated_at": "2026-10-29T05:57:54+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -3565,6 +3565,28 @@
       "model": "gemini-3.6-flash",
       "problem_count": 0,
       "solution_count": 78,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 26002,
+      "filename": "2027 설맞이 모의고사 시즌3 소설집.pdf",
+      "title": "수학 설맞이 모의고사 시즌3 문제지, 해설, 소설집",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "sha256": "58eb431e1f5a03617f8ca29cd5ddb4cb40ee68551f27bfb9b26e0d95a90693e4",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/26002.json",
+      "updated_at": "2026-10-29T05:57:54+00:00",
+      "pages_total": 74,
+      "pages_done": 8,
+      "failed_pages": [],
+      "model": "gemini-3.6-flash",
+      "problem_count": 0,
+      "solution_count": 0,
       "matched_count": 0,
       "with_answer": 0,
       "with_explanation": 0
