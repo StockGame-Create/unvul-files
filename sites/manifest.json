@@ -57,6 +57,20 @@
       "sha256": "9c03e97be858ca0104b710f1b90b10cb9a27951663095278ad515b50d4067fce"
     },
     {
+      "message_id": 26033,
+      "filename": "2027 서바이벌 국어 16회 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26033_2027.16.pdf",
+      "size_bytes": 123129239,
+      "telegram_date": "2026-10-29T14:47:34+00:00",
+      "title": "국어 시대인재 서바이벌 모의고사 16회 #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/26033.png",
+      "sha256": "f409fd8fbd908a1c87dd0319523ec12c1c2d96abbee30f3d15766eec5a000b1b"
+    },
+    {
       "message_id": 26002,
       "filename": "2027 설맞이 모의고사 시즌3 소설집.pdf",
       "stored_as": null,
