@@ -225,6 +225,20 @@
       "sha256": "326a848b24ef671edd3a2d5fe06ba0c78ac76e42f1719248773cbcadad4ca265"
     },
     {
+      "message_id": 26012,
+      "filename": "2027_사만다_모의고사_finale_생윤_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26012_2027_._._finale_._.pdf",
+      "size_bytes": 27176772,
+      "telegram_date": "2026-10-29T14:47:13+00:00",
+      "title": "생윤 사만다 Finale 모의고사 1~3회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/26012.png",
+      "sha256": "af973c5bd6d909ff74b9a9d5aacbbb3440228f350c9614a0af513049cad2bf84"
+    },
+    {
       "message_id": 26002,
       "filename": "2027 설맞이 모의고사 시즌3 소설집.pdf",
       "stored_as": null,
