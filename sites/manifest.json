@@ -197,6 +197,20 @@
       "sha256": "be006d925966f078a4d63d5fee26cf4f89b405458fc45e3bdf996c79e4eea991"
     },
     {
+      "message_id": 26017,
+      "filename": "브릭스 3회 문제지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26017_.3.pdf",
+      "size_bytes": 9564625,
+      "telegram_date": "2026-10-29T14:47:16+00:00",
+      "title": "수학 최지욱 Bricks 3회 모의고사",
+      "year": "2027",
+      "instructor": "최지욱",
+      "subject": "수학",
+      "thumbnail": "thumbnails/26017.png",
+      "sha256": "2f437b71746048136ca095e8a75d695aeb855b1c5b2afff3ff5c0dd64296bed9"
+    },
+    {
       "message_id": 26002,
       "filename": "2027 설맞이 모의고사 시즌3 소설집.pdf",
       "stored_as": null,
