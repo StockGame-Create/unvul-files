@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T13:29:47+00:00",
+  "updated_at": "2026-10-30T22:30:43+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -3693,6 +3693,28 @@
       ],
       "model": "gemini-3.6-flash",
       "problem_count": 0,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 26041,
+      "filename": "key_x_상상_4회차.pdf",
+      "title": "국어 상상 x KEY 모의고사 4회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "sha256": "2c1ef25bff6d2d11b3b066896de0855821b34a9efa252a69cf1adf639aa49455",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/26041.json",
+      "updated_at": "2026-10-30T22:30:43+00:00",
+      "pages_total": 21,
+      "pages_done": 4,
+      "failed_pages": [],
+      "model": "gemini-3.8-flash",
+      "problem_count": 8,
       "solution_count": 0,
       "matched_count": 0,
       "with_answer": 0,
