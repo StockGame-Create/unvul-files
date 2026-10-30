@@ -406,6 +406,15 @@
     font-weight: 800;
   }
 
+  .dup-badge .dup-kw {
+    background: var(--cat-korean);
+    color: var(--ink);
+    font-weight: 800;
+    padding: 0 0.22em;
+    margin: 0 0.05em;
+    border-radius: 2px;
+  }
+
   .card-body {
     padding: 1rem 1.1rem 1.1rem;
     display: flex;
@@ -1139,7 +1148,7 @@
   <div class="wrap">
     <header class="masthead">
       <h1>Unvul Files</h1>
-      <p>Made by Unvul® (It's CCL). 설치나 로그인 없이 바로 내려받을 수 있습니다. (Version 2.1 B)</p>
+      <p>Made by Unvul® (It's CCL). 설치나 로그인 없이 바로 내려받을 수 있습니다. (Version 2.8)</p>
       <hr class="rule" />
     </header>
 
@@ -1365,9 +1374,17 @@
       return counts;
     }
 
-    // 파일명 안의 숫자 구간만 크고 굵게 감싼다. 숫자가 아닌 글자는 escapeHtml로 이스케이프한다.
+    // "해설/정답" 계열 단어는 배지 안에서 강조 표시한다.
+    // 긴 표현을 먼저 검사해야 "정답 및 해설" 같은 긴 구절이 "정답"/"해설"로 쪼개져 매칭되지 않는다.
+    const DUP_KEYWORDS = ["정답 및 해설", "정답", "답지", "해설", "답"].sort((a, b) => b.length - a.length);
+    const DUP_KEYWORD_RE = new RegExp(DUP_KEYWORDS.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|"), "g");
+
+    // 파일명 안의 숫자는 크고 굵게, "해설/정답" 계열 단어는 강조 배경으로 감싼다.
+    // escapeHtml을 먼저 거치므로 그 뒤의 정규식은 순수 텍스트(숫자/한글)만 건드린다.
     function highlightDigits(text) {
-      return escapeHtml(text).replace(/\d+/g, (m) => `<span class="dup-num">${m}</span>`);
+      return escapeHtml(text)
+        .replace(/\d+/g, (m) => `<span class="dup-num">${m}</span>`)
+        .replace(DUP_KEYWORD_RE, (m) => `<span class="dup-kw">${m}</span>`);
     }
     let currentPage = 1;
     let toastTimer = null;
