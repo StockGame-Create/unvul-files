@@ -1,0 +1,9 @@
+# Cloudflare에 정적 자산으로 올리지 않을 것들.
+# index.html은 manifest/썸네일을 GitHub(raw.githubusercontent.com)에서 직접 읽고,
+# PDF는 GitHub Release에서 받으므로 이 파일들은 Cloudflare에 올릴 필요가 없다.
+# (올리면 안 되는 이유: 자산 파일 하나는 25 MiB 이하, 총 20,000개 이하여야 하는데
+#  sites/files/의 PDF가 25 MiB를 넘어 배포가 실패했고, 썸네일만 1만 3천 개가 넘는다.)
+files/
+thumbnails/
+ai/
+*.json
