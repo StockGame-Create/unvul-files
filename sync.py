@@ -24,36 +24,6 @@
 - PDF 첫 페이지를 이미지로 렌더링해서 썸네일로 저장합니다 (sites/thumbnails/).
 - 2026-09-04 이후에 올라온 메시지만 대상으로 하며, 그보다 오래된 메시지가
   나오면 캐치업 스캔을 그 자리에서 중단합니다.
-- (v7) 실시간 대기 모드 중에도 15분(RECHECK_INTERVAL_SECONDS)마다 "새 파일이 올라왔는지"
-  직접 재확인한다. 텔레그램 실시간 이벤트(NewMessage)는 연결이 잠깐 흔들리거나
-  업데이트 누락(gap)이 나면 조용히 빠질 수 있어서, 이벤트만 믿고 있으면 그 사이에
-  올라온 파일이 다음 실행(최대 5시간 30분 뒤)까지 안 받아졌다. 재확인은 마지막으로
-  확인한 메시지 id보다 새 것만 조회(min_id)하므로 보통 API 호출 1번으로 끝난다.
-  재확인과 실시간 리스너가 같은 메시지를 동시에 받는 일이 없도록, 처리 중인 메시지
-  id를 기억해서(in_flight_ids) 두 번째 시도는 건너뛴다.
-- (v6) 다운로드(client.download_media) 자체에 재시도를 추가했다. 텔레그램
-  서버 쪽 일시적 문제("Telegram is having internal issues" /
-  "TimeoutError: Timeout while fetching data (GetFileRequest)")가 나면
-  최대 4번, 3초 -> 6초 -> 12초 -> (최대 30초) 간격으로 재시도한다. 또한
-  캐치업 스캔 루프에도 실시간 리스너와 동일한 메시지 단위 예외 방어막
-  (handle_pdf_message_guarded)을 씌워서, 한 메시지 처리 중 예외가 나도
-  캐치업 스캔 전체가 죽지 않고 다음 메시지로 넘어가게 했다 (예전엔 이
-  방어막이 캐치업 스캔에는 없어서, 텔레그램 쪽 타임아웃 하나에 그 실행이
-  통째로 중단됐다).
-- (v5) 파일명을 유니코드 정규화(NFC)해서 다룬다. 한글 등은 완성형(NFC)/조합형
-  (NFD) 두 표현이 있어 눈에는 똑같아 보여도 바이트가 달라 '==' 비교가 실패할
-  수 있는데, 이 때문에 이미 manifest/release에 있는 파일을 계속 새 파일로
-  착각해서 재다운로드/재업로드를 시도하다가 422(already_exists)에 걸리고도
-  스스로 복구하지 못하는 문제가 있었다. 파일명을 뽑는 시점(is_pdf)과 이름을
-  비교하는 모든 지점(중복 검사, release 자산 조회)에서 정규화를 거친다.
-- (v4) GitHub은 release 하나에 자산 1000개까지만 허용하므로, release를 번호로
-  나눠 씁니다 (large-files -> large-files-2 -> large-files-3 ...). 업로드 전에
-  자산 개수를 세어 990개에 닿으면 다음 release로 넘어가고, 그래도 422
-  (file_count)가 나면 재시도 없이 바로 다음 release로 전환합니다. 또한 대용량
-  업로드 중 브로큰 파이프/커넥션 끊김이나 422(already_exists)로 실패한 것처럼
-  보여도, 실제로는 서버에 업로드가 끝났을 수 있어 재시도 전에 항상 먼저
-  확인합니다 - 용량까지 일치하면 재업로드 없이 그 자산을 그대로 쓰고, 이름만
-  겹치는 찌꺼기(용량 불일치)면 지우고 다시 올립니다.
 - (v3) 파일 크기와 상관없이 모든 PDF를 GitHub Release 자산(asset)으로 업로드
   하고, 그 다운로드 URL만 manifest.json에 기록합니다. git commit으로는 더
   이상 아무 PDF도 저장하지 않습니다. 1.9GB를 초과하면 건너뜁니다.
@@ -89,7 +59,6 @@ import os
 import re
 import subprocess
 import time
-import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -116,7 +85,7 @@ SESSION_STRING = os.environ.get("TELEGRAM_SESSION", "").strip() or None  # GitHu
 
 # ---- 동기화 조건 --------------------------------------------------------
 # 이 날짜 이후에 올라온 메시지만 동기화 (하드코딩: 2026-09-04부터)
-CUTOFF = datetime(2025, 10, 4, tzinfo=timezone.utc)
+CUTOFF = datetime(2025, 2, 4, tzinfo=timezone.utc)
 
 # ---- 저장 방식 ----------------------------------------------------------
 # (v3) 크기 상관없이 전부 GitHub Release 자산(asset)으로 업로드한다.
@@ -124,13 +93,8 @@ CUTOFF = datetime(2025, 10, 4, tzinfo=timezone.utc)
 # 별도 과금되는 대역폭 쿼터도 없다. manifest.json에는 로컬 경로 대신
 # 다운로드 URL만 기록한다 (index.html이 download_url 유무로 분기해서
 # 다운로드 링크를 만듦).
-RELEASE_TAG = "large-files"              # release 태그의 기본 이름. 1번은 이 이름 그대로, 2번부터 -2, -3 ... 자동 생성
-RELEASE_ASSET_LIMIT = 1000               # GitHub이 release 하나에 허용하는 자산 개수 상한 (참고용)
-RELEASE_SOFT_LIMIT = 990                 # 이 개수에 닿으면 다음 release로 넘어감 (상한에 딱 맞추면 아슬아슬해서 여유를 둠)
-MAX_RELEASE_INDEX = 200                  # release 번호 상한 (무한 루프 방지용 안전장치)
-MAX_ROTATIONS_PER_UPLOAD = 5             # 파일 하나 올리다가 release를 연달아 바꿀 수 있는 최대 횟수
+RELEASE_TAG = "large-files"              # 파일을 모아두는 release 태그(1개만 사용, 없으면 자동 생성)
 MAX_SIZE_BYTES = 1900 * 1024 * 1024      # GitHub release asset 한도(2GB)에 여유를 둔 최종 상한
-DOWNLOAD_MAX_RETRIES = 4                 # 텔레그램 쪽 일시적 타임아웃(GetFileRequest 등) 재시도 횟수
 
 # 썸네일 이미지의 가로 폭 (px). PDF 첫 페이지를 이 폭에 맞춰 렌더링함.
 THUMBNAIL_WIDTH = 400
@@ -140,13 +104,6 @@ THUMBNAIL_WIDTH = 400
 # 직접 예약한다 (trigger_next_run 참고). sync.yml의 step/job timeout-minutes도
 # 이 값보다 커야 한다.
 MAX_RUNTIME_SECONDS = 5 * 60 * 60 + 30 * 60  # 5시간 30분
-
-# 실시간 대기 모드에서 "새 파일이 올라왔는지" 직접 다시 확인하는 간격(초).
-# 실시간 이벤트가 조용히 누락돼도 최대 이 간격 안에는 따라잡는다.
-RECHECK_INTERVAL_SECONDS = 15 * 60  # 15분
-# 종료까지 이 시간(초)보다 적게 남았으면 마지막 재확인은 건너뛴다. (대용량 다운로드를 막
-# 시작했다가 러너 시간 제한에 걸리는 것을 피하기 위함. 놓친 건 다음 실행의 캐치업이 받는다.)
-RECHECK_MIN_REMAINING_SECONDS = 120
 
 SITE_DIR = Path("sites")
 FILES_DIR = SITE_DIR / "files"
@@ -219,15 +176,6 @@ def parse_caption(caption: str | None) -> dict:
             result["title"] = line
 
     return result
-
-
-def normalize_name(name: str | None) -> str | None:
-    """유니코드 정규화(NFC)를 적용한다. 한글 등은 완성형(NFC)/조합형(NFD) 두 표현이
-    있는데 눈에는 똑같아 보여도 바이트로는 다른 문자열이라 '==' 비교가 실패한다.
-    파일명이 오간 경로(텔레그램 API, GitHub API, 로컬 파일시스템, 과거 실행 결과)가
-    저마다 다른 정규화 형태를 쓸 수 있어서, 이름을 비교하거나 저장하기 전에는
-    항상 이걸 거쳐서 형태를 통일한다."""
-    return unicodedata.normalize("NFC", name) if name is not None else None
 
 
 def compute_sha256(path: Path) -> str:
@@ -325,9 +273,7 @@ def is_pdf(message) -> tuple[bool, str | None]:
             filename = attr.file_name
     name_ok = filename is not None and filename.lower().endswith(".pdf")
     if mime_ok or name_ok:
-        # 여기서 바로 정규화해서, 이후 모든 곳(로컬 파일명, release 자산 이름,
-        # manifest 저장, 중복 검사)이 하나의 통일된 형태만 다루게 만든다.
-        return True, normalize_name(filename) or f"document_{message.id}.pdf"
+        return True, filename or f"document_{message.id}.pdf"
     return False, None
 
 
@@ -391,12 +337,8 @@ def trigger_next_run() -> None:
         print(f"[다음 실행 예약 실패] {e}", flush=True)
 
 
-# ---- GitHub Release 자산 업로드 (샤딩: 1000개 제한 대응) ---------------------
-# GitHub은 release 하나당 자산을 최대 1000개까지만 허용한다(초과 시 HTTP 422
-# "file_count limited to 1000 assets per release"). 그래서 release를 번호로
-# 나눠서 쓴다: large-files(1번) -> large-files-2 -> large-files-3 ...
-# 이미 올라간 파일은 manifest의 download_url에 태그가 박혀 있으므로 영향 없다.
-_release_state: dict = {"index": 1, "id": None, "count": None}
+# ---- GitHub Release 자산 업로드 (95MB~1.9GB 대용량 PDF 전용) ----------------
+_release_cache: dict = {"id": None}
 
 
 def _github_headers() -> dict:
@@ -407,67 +349,32 @@ def _github_headers() -> dict:
     }
 
 
-def _tag_for_index(index: int) -> str:
-    """1번은 기존 태그(large-files) 그대로, 2번부터는 large-files-2, -3 ..."""
-    return RELEASE_TAG if index == 1 else f"{RELEASE_TAG}-{index}"
+def _get_or_create_release_id() -> int | None:
+    """대용량 파일을 모아둘 release 하나를(RELEASE_TAG) 찾아서 id를 반환.
+    없으면 새로 만든다. 한 실행 안에서는 캐시해서 API를 반복 호출하지 않는다."""
+    if _release_cache["id"] is not None:
+        return _release_cache["id"]
 
-
-def _count_release_assets(release_id: int) -> int | None:
-    """release에 실제로 올라가 있는 자산 개수를 API로 센다 (페이지네이션 처리)."""
-    total = 0
-    for page in range(1, 51):  # 최대 5000개까지 (사실상 무제한)
-        url = (
-            f"https://api.github.com/repos/{GITHUB_REPOSITORY}/releases/"
-            f"{release_id}/assets?per_page=100&page={page}"
-        )
-        req = urllib.request.Request(url, headers=_github_headers())
-        try:
-            with urllib.request.urlopen(req, timeout=20) as resp:
-                items = json.loads(resp.read().decode("utf-8"))
-        except urllib.error.HTTPError as e:
-            print(f"    [release 자산 개수 조회 실패] HTTP {e.code}: {e.read().decode('utf-8', 'ignore')}", flush=True)
-            return None
-        except Exception as e:
-            print(f"    [release 자산 개수 조회 실패] {e}", flush=True)
-            return None
-        total += len(items)
-        if len(items) < 100:
-            break
-    return total
-
-
-def _load_release(index: int) -> tuple[int, int] | None:
-    """index번 release를 찾아 (id, 현재 자산 개수)를 반환. 없으면 새로 만든다."""
-    tag = _tag_for_index(index)
     api_base = f"https://api.github.com/repos/{GITHUB_REPOSITORY}/releases"
 
-    release_id = None
-    req = urllib.request.Request(f"{api_base}/tags/{tag}", headers=_github_headers())
+    req = urllib.request.Request(f"{api_base}/tags/{RELEASE_TAG}", headers=_github_headers())
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
-            release_id = json.loads(resp.read().decode("utf-8"))["id"]
+            data = json.loads(resp.read().decode("utf-8"))
+            _release_cache["id"] = data["id"]
+            return data["id"]
     except urllib.error.HTTPError as e:
         if e.code != 404:
-            print(f"    [release 조회 실패] tag={tag} HTTP {e.code}: {e.read().decode('utf-8', 'ignore')}", flush=True)
+            print(f"    [release 조회 실패] HTTP {e.code}: {e.read().decode('utf-8', 'ignore')}", flush=True)
             return None
     except Exception as e:
-        print(f"    [release 조회 실패] tag={tag} {e}", flush=True)
+        print(f"    [release 조회 실패] {e}", flush=True)
         return None
 
-    if release_id is not None:
-        count = _count_release_assets(release_id)
-        if count is None:
-            return None
-        print(f"    [release 사용] tag={tag} (현재 자산 {count}개)", flush=True)
-        return release_id, count
-
     body = json.dumps({
-        "tag_name": tag,
-        "name": f"PDF 파일 저장소 #{index}",
-        "body": (
-            "sync.py가 PDF를 모아두는 release입니다. GitHub의 release당 자산 1000개 제한 때문에 "
-            "번호를 붙여 여러 개로 나눠 씁니다. 자동으로 관리되니 직접 수정하지 마세요."
-        ),
+        "tag_name": RELEASE_TAG,
+        "name": "대용량 파일 저장소 (git 100MB 제한 초과분)",
+        "body": "git 저장소 100MB 제한을 넘는 PDF를 담아두는 release입니다. sync.py가 자동으로 관리하니 직접 수정하지 마세요.",
         "draft": False,
         "prerelease": False,
     }).encode("utf-8")
@@ -477,152 +384,34 @@ def _load_release(index: int) -> tuple[int, int] | None:
     )
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
-            release_id = json.loads(resp.read().decode("utf-8"))["id"]
-            print(f"    [release 생성됨] tag={tag}", flush=True)
-            return release_id, 0
-    except urllib.error.HTTPError as e:
-        print(f"    [release 생성 실패] tag={tag} HTTP {e.code}: {e.read().decode('utf-8', 'ignore')}", flush=True)
-        return None
+            data = json.loads(resp.read().decode("utf-8"))
+            _release_cache["id"] = data["id"]
+            print(f"    [release 생성됨] tag={RELEASE_TAG}", flush=True)
+            return data["id"]
     except Exception as e:
-        print(f"    [release 생성 실패] tag={tag} {e}", flush=True)
+        print(f"    [release 생성 실패] {e}", flush=True)
         return None
 
 
-def _find_asset(release_id: int, asset_name: str) -> dict | None:
-    """release 안에서 이름이 asset_name인 자산을 찾아 {id, size, browser_download_url}을
-    반환한다. 없으면 None. (already_exists 충돌이나, 업로드는 성공했는데 응답을
-    못 받아 실패로 오인한 경우를 확인하는 데 쓴다.)"""
-    for page in range(1, 51):
-        url = (
-            f"https://api.github.com/repos/{GITHUB_REPOSITORY}/releases/"
-            f"{release_id}/assets?per_page=100&page={page}"
-        )
-        req = urllib.request.Request(url, headers=_github_headers())
-        try:
-            with urllib.request.urlopen(req, timeout=20) as resp:
-                items = json.loads(resp.read().decode("utf-8"))
-        except Exception as e:
-            print(f"    [자산 조회 실패] {e}", flush=True)
-            return None
-        for item in items:
-            # 정규화해서 비교: GitHub에 저장된 이름이 (예전 코드가 만들었거나,
-            # 다른 경로로 올라와서) 다른 유니코드 정규화 형태일 수 있어서,
-            # 바이트 그대로 비교하면 눈에는 같은 이름인데도 못 찾는 경우가 있다.
-            if normalize_name(item.get("name")) == normalize_name(asset_name):
-                return {
-                    "id": item["id"],
-                    "size": item.get("size"),
-                    "browser_download_url": item["browser_download_url"],
-                }
-        if len(items) < 100:
-            break
-    return None
-
-
-def _delete_asset(asset_id: int) -> bool:
-    """찌꺼기/손상된 자산을 지운다 (이름 충돌을 풀고 재업로드하기 위함)."""
-    url = f"https://api.github.com/repos/{GITHUB_REPOSITORY}/releases/assets/{asset_id}"
-    req = urllib.request.Request(url, method="DELETE", headers=_github_headers())
-    try:
-        with urllib.request.urlopen(req, timeout=15):
-            return True
-    except Exception as e:
-        print(f"    [자산 삭제 실패] id={asset_id} {e}", flush=True)
-        return False
-
-
-def _reconcile_existing_asset(release_id: int, asset_name: str, expected_size: int) -> str | None:
-    """업로드가 실패한 것처럼 보였을 때, 사실은 서버에 이미 올라가 있는지 확인한다.
-    용량까지 일치하면 그 자산을 그대로 쓰고(재업로드 안 함) URL을 반환한다.
-    이름은 같은데 용량이 다르면(부분 업로드 등 찌꺼기) 지우고 None을 반환해서
-    호출부가 새로 업로드하게 한다. 아예 없으면 None."""
-    existing = _find_asset(release_id, asset_name)
-    if existing is None:
-        return None
-    if existing["size"] == expected_size:
-        print(
-            f"    [업로드 확인됨] {asset_name} 는 이미 release에 정상적으로 올라가 있음 "
-            "(이전 시도가 응답만 못 받고 실제로는 성공했던 것으로 보임)",
-            flush=True,
-        )
-        return existing["browser_download_url"]
-    print(
-        f"    [찌꺼기 자산 발견] {asset_name} (용량 불일치: 서버 {existing['size']} vs "
-        f"로컬 {expected_size}) -> 삭제 후 재업로드",
-        flush=True,
-    )
-    _delete_asset(existing["id"])
-    return None
-
-
-def _advance_release() -> bool:
-    """현재 release를 '가득 참'으로 보고 다음 번호로 넘어간다. 한도(MAX_RELEASE_INDEX)를 넘으면 False."""
-    if _release_state["index"] >= MAX_RELEASE_INDEX:
-        return False
-    _release_state["index"] += 1
-    _release_state["id"] = None
-    _release_state["count"] = None
-    return True
-
-
-def _current_release_id() -> int | None:
-    """지금 업로드에 쓸 release id를 반환. 로드/생성이 필요하면 하고,
-    자산 개수가 RELEASE_SOFT_LIMIT 이상이면 자동으로 다음 번호로 넘어간다."""
-    while True:
-        if _release_state["id"] is None:
-            loaded = _load_release(_release_state["index"])
-            if loaded is None:
-                return None
-            _release_state["id"], _release_state["count"] = loaded
-
-        if _release_state["count"] >= RELEASE_SOFT_LIMIT:
-            print(
-                f"    [release 가득 참] tag={_tag_for_index(_release_state['index'])} "
-                f"({_release_state['count']}개) -> 다음 release로 넘어갑니다",
-                flush=True,
-            )
-            if not _advance_release():
-                print(f"    [release 번호 한도({MAX_RELEASE_INDEX}) 초과]", flush=True)
-                return None
-            continue
-
-        return _release_state["id"]
-
-
-def upload_release_asset(local_path: Path, asset_name: str, max_retries: int = 5) -> str | None:
-    """PDF를 GitHub Release 자산으로 업로드하고 다운로드 URL을 반환한다.
-
-    현재 release가 꽉 찼으면(미리 센 개수 또는 422 file_count 응답) 재시도 횟수를
-    쓰지 않고 바로 다음 번호의 release로 바꿔서 다시 올린다.
-
-    업로드가 실패한 것처럼 보이는 경우(422 already_exists, 또는 브로큰 파이프/커넥션
-    끊김 같은 네트워크 에러) 대용량 파일은 실제로는 서버에 업로드가 끝났는데 그
-    응답만 못 받아서 실패로 오인하는 경우가 흔하다. 그래서 어떤 이유로 실패하든,
-    재시도하기 전에 먼저 release에 같은 이름의 자산이 이미 올라가 있고 용량까지
-    일치하는지 확인한다 - 맞으면 재업로드 없이 그 URL을 그대로 쓴다.
-
-    끝내 실패하면 None을 반환하며, 호출부는 이 메시지를 known으로 기록하지 않고
-    넘어가서 다음 실행에서 자연스럽게 재시도하게 된다."""
+def upload_release_asset(local_path: Path, asset_name: str, max_retries: int = 3) -> str | None:
+    """대용량 PDF를 GitHub Release 자산으로 업로드하고 다운로드 URL을 반환한다.
+    실패하면 None을 반환하며, 호출부는 이 메시지를 known으로 기록하지 않고 넘어가서
+    다음 실행에서 자연스럽게 재시도하게 된다."""
     if not (GITHUB_REPOSITORY and GH_DISPATCH_TOKEN):
         print("    [release 업로드 건너뜀] GITHUB_REPOSITORY 또는 GH_DISPATCH_TOKEN이 없음", flush=True)
         return None
 
+    release_id = _get_or_create_release_id()
+    if release_id is None:
+        return None
+
+    upload_url = (
+        f"https://uploads.github.com/repos/{GITHUB_REPOSITORY}/releases/"
+        f"{release_id}/assets?name={urllib.parse.quote(asset_name)}"
+    )
     file_size = local_path.stat().st_size
-    attempt = 0
-    rotations = 0
-    reconcile_tries = 0  # already_exists 확인이 실패해서 재확인한 횟수 (무한루프 방지용 상한)
-    MAX_RECONCILE_TRIES = 5
 
-    while attempt < max_retries:
-        release_id = _current_release_id()
-        if release_id is None:
-            return None
-
-        upload_url = (
-            f"https://uploads.github.com/repos/{GITHUB_REPOSITORY}/releases/"
-            f"{release_id}/assets?name={urllib.parse.quote(asset_name)}"
-        )
-
+    for attempt in range(1, max_retries + 1):
         try:
             with open(local_path, "rb") as f:
                 req = urllib.request.Request(
@@ -633,69 +422,18 @@ def upload_release_asset(local_path: Path, asset_name: str, max_retries: int = 5
                         **_github_headers(),
                         "Content-Type": "application/pdf",
                         "Content-Length": str(file_size),
-                        "Connection": "close",
                     },
                 )
                 with urllib.request.urlopen(req, timeout=900) as resp:
                     data = json.loads(resp.read().decode("utf-8"))
-                    _release_state["count"] = (_release_state["count"] or 0) + 1
-                    print(
-                        f"    [release 업로드 성공] {asset_name} "
-                        f"(tag={_tag_for_index(_release_state['index'])}, {_release_state['count']}개째)",
-                        flush=True,
-                    )
+                    print(f"    [release 업로드 성공] {asset_name}", flush=True)
                     return data["browser_download_url"]
         except urllib.error.HTTPError as e:
             detail = e.read().decode("utf-8", "ignore")
-            if e.code == 422 and "file_count" in detail:
-                # 개수를 잘못 셌거나 다른 곳에서 채워진 경우: 시도 횟수/대기 없이 바로 다음 release로.
-                rotations += 1
-                print(
-                    f"    [release 자산 한도 도달] tag={_tag_for_index(_release_state['index'])} "
-                    f"-> 다음 release로 전환 ({rotations}회째)",
-                    flush=True,
-                )
-                if rotations > MAX_ROTATIONS_PER_UPLOAD or not _advance_release():
-                    print(f"    [release 전환 한도 초과] {asset_name}", flush=True)
-                    return None
-                continue
-            if e.code == 422 and "already_exists" in detail:
-                print(
-                    f"    [release 업로드 실패 (시도 {attempt + 1}/{max_retries})] "
-                    f"HTTP {e.code} already_exists -> 실제로 이미 올라가 있는지 확인", flush=True,
-                )
-                reconciled = _reconcile_existing_asset(release_id, asset_name, file_size)
-                if reconciled is not None:
-                    _release_state["count"] = (_release_state["count"] or 0) + 1
-                    return reconciled
-                # 자산을 못 찾았거나(막 생성된 자산이 목록 API에 아직 안 뜬 경우) 찌꺼기라서
-                # 지웠거나 - 어느 쪽이든 이 경로는 무한 루프로 새지 않도록 반드시 횟수와
-                # 대기시간을 둔다. (예전 버그: 여기서 카운트/대기 없이 곧바로 continue 해서,
-                # 자산 목록 반영이 늦어지면 이 파일 하나에 영원히 멈춰 뒤의 새 파일들이
-                # 아예 처리되지 못했음 - 동기 코드라 이벤트 루프 전체가 막힘.)
-                reconcile_tries += 1
-                attempt += 1
-                if reconcile_tries >= MAX_RECONCILE_TRIES:
-                    print(f"    [already_exists 재확인 한도 초과] {asset_name} -> 이번 실행은 포기", flush=True)
-                    break
-                time.sleep(min(2 * reconcile_tries, 10))
-                continue
-            attempt += 1
             print(f"    [release 업로드 실패 (시도 {attempt}/{max_retries})] HTTP {e.code}: {detail}", flush=True)
         except Exception as e:
-            # 브로큰 파이프/커넥션 리셋 등: 업로드 자체는 서버에 끝났는데 응답만
-            # 못 받았을 가능성이 있으므로, 실패로 단정하기 전에 먼저 확인해본다.
-            print(
-                f"    [release 업로드 중 네트워크 오류 (시도 {attempt + 1}/{max_retries})] {e} "
-                "-> 실제로 업로드가 됐는지 확인", flush=True,
-            )
-            reconciled = _reconcile_existing_asset(release_id, asset_name, file_size)
-            if reconciled is not None:
-                _release_state["count"] = (_release_state["count"] or 0) + 1
-                return reconciled
-            attempt += 1
             print(f"    [release 업로드 실패 (시도 {attempt}/{max_retries})] {e}", flush=True)
-        time.sleep(min(2 ** attempt, 30))
+        time.sleep(min(2 ** attempt, 20))
 
     print(f"    [release 업로드 최종 실패] {asset_name}", flush=True)
     return None
@@ -709,9 +447,7 @@ async def sync():
     known_message_ids |= set(manifest["duplicate_message_ids"])
 
     # 1단계(다운로드 전) 중복 검사용: 파일명+용량이 완전히 같으면 십중팔구 재업로드.
-    # 파일명은 유니코드 정규화(NFC) 후 비교한다 - 과거 항목이 다른 정규화
-    # 형태로 저장돼 있으면 눈에는 같은 이름인데도 매칭이 안 되는 문제가 있었다.
-    known_name_size = {(normalize_name(f["filename"]).lower(), f["size_bytes"]) for f in manifest["files"]}
+    known_name_size = {(f["filename"].lower(), f["size_bytes"]) for f in manifest["files"]}
     # 2단계(다운로드 후) 중복 검사용: 이름이 달라도 내용이 같은 파일을 잡아냄.
     known_hashes = {f["sha256"]: f for f in manifest["files"] if f.get("sha256")}
 
@@ -844,34 +580,7 @@ async def sync():
                 last_pct[0] = pct
                 print(f"    ...{pct}% ({current / (1024*1024):.1f}/{total / (1024*1024):.1f}MB)", flush=True)
 
-        # 텔레그램 서버 쪽에서 가끔 "Telegram is having internal issues /
-        # TimeoutError: Timeout while fetching data (GetFileRequest)"처럼
-        # 일시적인 문제가 나는데, 예전엔 여기서 재시도 없이 바로 예외가
-        # 터져서 캐치업 스캔 전체가 중단됐다. 몇 번은 이 자리에서 짧게
-        # 쉬었다가 재시도해서, 그냥 넘어가면 다음 실행까지 기다려야 했던
-        # 파일을 지금 바로 받아낸다.
-        last_download_err = None
-        for attempt in range(1, DOWNLOAD_MAX_RETRIES + 1):
-            try:
-                await client.download_media(message, file=str(local_path), progress_callback=_progress)
-                last_download_err = None
-                break
-            except Exception as e:
-                last_download_err = e
-                local_path.unlink(missing_ok=True)  # 받다 만 파일 찌꺼기 정리
-                if attempt == DOWNLOAD_MAX_RETRIES:
-                    break
-                wait = min(3 * (2 ** (attempt - 1)), 30)
-                print(f"    [다운로드 실패 (시도 {attempt}/{DOWNLOAD_MAX_RETRIES})] {e} -> {wait}초 후 재시도", flush=True)
-                await asyncio.sleep(wait)
-        if last_download_err is not None:
-            print(
-                f"  건너뜀 (다운로드 {DOWNLOAD_MAX_RETRIES}번 시도 모두 실패, 다음 실행에서 재시도): "
-                f"{filename} ({last_download_err})",
-                flush=True,
-            )
-            return False
-
+        await client.download_media(message, file=str(local_path), progress_callback=_progress)
         print(f"  완료: {filename}", flush=True)
         actual_size = local_path.stat().st_size
 
@@ -943,64 +652,11 @@ async def sync():
 
         return True
 
-    # 지금 처리(다운로드/업로드) 중인 메시지 id. 대기 모드에서는 실시간 리스너와 15분
-    # 재확인이 같은 새 메시지를 동시에 집어들 수 있는데, 둘 다 known_message_ids에
-    # 아직 없다고 보고 같은 파일을 두 번 받는 것을 막는다.
-    in_flight_ids: set[int] = set()
-
-    async def handle_pdf_message_guarded(message) -> bool:
-        """handle_pdf_message를 감싸서, 메시지 하나 처리 중 어떤 예외가 나도
-        (다운로드 재시도까지 다 실패한 경우, 예상 못한 오류 등) 캐치업 스캔
-        전체가 죽지 않고 다음 메시지로 넘어가게 한다. 실시간 리스너
-        (_on_new_message)는 원래 이렇게 보호돼 있었는데, 캐치업 스캔 쪽엔
-        이 방어막이 없어서 텔레그램 서버의 일시적 타임아웃 하나에 스캔
-        전체가 중단되곤 했다."""
-        if message.id in in_flight_ids:
-            return False  # 다른 쪽(실시간 리스너 또는 재확인)이 이미 처리 중
-        in_flight_ids.add(message.id)
-        try:
-            return await handle_pdf_message(message)
-        except Exception as e:
-            print(f"  [메시지 처리 중 오류, 건너뛰고 계속] message_id={message.id}: {e}", flush=True)
-            return False
-        finally:
-            in_flight_ids.discard(message.id)
-
-    async def catch_up_new_arrivals(after_id: int) -> int:
-        """message.id가 after_id보다 큰(=이 스캔이 시작된 뒤에 새로 올라온)
-        메시지가 있으면 최신순으로 먼저 처리한다. 오래된 백로그 파일 하나를
-        받는 데 시간이 걸리는 동안(특히 대용량 다운로드) 새 파일이 올라오면,
-        그걸 백로그 순서(오래된 것부터 차례로 내려가는 중)까지 기다리게 하지
-        않고 먼저 처리하기 위함. 처리하다가 그 사이에 또 더 새 게 올라올 수도
-        있으니, 더 이상 새로운 게 없을 때까지 반복해서 확인한다.
-        처리를 마친 뒤 지금까지 확인된 가장 큰 message.id를 반환한다."""
-        nonlocal checked_count
-        while True:
-            newest_before = after_id
-            async for msg in client.iter_messages(entity, min_id=after_id):
-                checked_count += 1
-                after_id = max(after_id, msg.id)
-                if msg.date < CUTOFF:
-                    continue  # 이론상 일어날 일 없음(min_id가 최신 쪽만 주므로) - 방어적으로만
-                await handle_pdf_message_guarded(msg)
-            if after_id == newest_before:
-                return after_id
-            print(f"  (백로그 처리 중 새로 올라온 파일 {after_id - newest_before}건 확인, 최신순으로 먼저 처리함)", flush=True)
-
     # ---- 1) 캐치업 스캔: 지난 실행 이후 놓친 메시지를 한 바퀴 훑어서 받는다 ----
     # (예전처럼 파일 하나 받을 때마다 처음부터 다시 훑지 않는다 - 이제는 이 스캔이
     #  끝나면 바로 실시간 리스너로 넘어가서 새 메시지를 즉시 잡아내기 때문에,
     #  한 방향으로 쭉 훑는 것으로 충분하다.)
-    #
-    # 다만 오래된 백로그를 아래로 훑어 내려가는 동안에도, 그새 새 파일이
-    # 올라왔다면 그 백로그 순서를 다 기다리지 않고 최신 것부터 먼저 받는다
-    # (catch_up_new_arrivals). 그래서 스캔 시작 시점의 "가장 최신 메시지 id"를
-    # 기준점으로 잡아두고, 파일을 하나 실제로 받을 때마다(시간이 걸릴 수
-    # 있는 지점이므로) 그 기준보다 새 메시지가 생겼는지 확인한다.
     print("캐치업 스캔 시작...", flush=True)
-    latest_msgs = await client.get_messages(entity, limit=1)
-    highest_seen_id = latest_msgs[0].id if latest_msgs else 0
-
     stopped_early = False
     async for message in client.iter_messages(entity):
         checked_count += 1
@@ -1021,11 +677,7 @@ async def sync():
             print(f"기준일({CUTOFF.date()})보다 오래된 메시지 발견({message.date.date()}), 캐치업 스캔 종료", flush=True)
             break
 
-        downloaded = await handle_pdf_message_guarded(message)
-        if downloaded:
-            # 방금 파일을 실제로 하나 받았다 - 시간이 좀 걸렸을 수 있으니,
-            # 그 사이 새로 올라온 파일이 있는지 확인해서 있으면 먼저 처리한다.
-            highest_seen_id = await catch_up_new_arrivals(highest_seen_id)
+        await handle_pdf_message(message)
 
     print(f"캐치업 스캔 완료. 새로 내려받은 PDF: {new_count}개", flush=True)
 
@@ -1033,61 +685,19 @@ async def sync():
     if not stopped_early:
         @client.on(events.NewMessage(chats=entity))
         async def _on_new_message(event):
-            await handle_pdf_message_guarded(event.message)
+            try:
+                await handle_pdf_message(event.message)
+            except Exception as e:
+                # 개별 메시지 처리 중 에러가 나도 리스너 자체는 죽지 않게 함.
+                print(f"  [새 메시지 처리 중 오류] {e}", flush=True)
 
         remaining = MAX_RUNTIME_SECONDS - (time.monotonic() - start_time)
         if remaining > 0:
-            print(
-                f"실시간 대기 모드 진입 (약 {remaining / 60:.0f}분간 새 메시지를 실시간으로 받고, "
-                f"{RECHECK_INTERVAL_SECONDS // 60}분마다 새 파일이 올라왔는지 직접 재확인합니다)",
-                flush=True,
-            )
-            # run_until_disconnected()를 별도 태스크로 돌려두고, 그 사이사이에 재확인을 한다.
-            # (예전엔 wait_for로 통째로 기다렸지만, 그러면 중간에 깨어나서 확인할 방법이 없다.)
-            listener = asyncio.ensure_future(client.run_until_disconnected())
+            print(f"실시간 대기 모드 진입 (약 {remaining / 60:.0f}분간 새 메시지를 실시간으로 받습니다)", flush=True)
             try:
-                while True:
-                    remaining = MAX_RUNTIME_SECONDS - (time.monotonic() - start_time)
-                    if remaining <= 0:
-                        print("실행 시간 제한 도달(대기 중), 정상 종료합니다.", flush=True)
-                        break
-
-                    done, _ = await asyncio.wait(
-                        {listener}, timeout=min(RECHECK_INTERVAL_SECONDS, remaining)
-                    )
-                    if listener in done:
-                        # 연결이 끊겨서 리스너가 끝남. 업데이트 처리 중 오류였다면 여기서
-                        # 예외가 그대로 올라간다 (예전 wait_for 방식과 동일한 동작).
-                        listener.result()
-                        print("텔레그램 연결이 끊겨 대기 모드를 종료합니다.", flush=True)
-                        break
-
-                    remaining = MAX_RUNTIME_SECONDS - (time.monotonic() - start_time)
-                    if remaining <= RECHECK_MIN_REMAINING_SECONDS:
-                        continue  # 곧 종료할 시간이라 마지막 재확인은 생략 (위에서 break됨)
-
-                    # ---- 15분 재확인: 실시간 이벤트가 놓친 새 파일이 있는지 직접 조회 ----
-                    before = new_count
-                    try:
-                        highest_seen_id = await catch_up_new_arrivals(highest_seen_id)
-                    except Exception as e:
-                        # 재확인이 실패해도(일시적 네트워크 오류 등) 대기 모드는 계속 유지한다.
-                        print(f"  [재확인 중 오류, 다음 주기에 다시 시도] {e}", flush=True)
-                        continue
-                    got = new_count - before
-                    if got:
-                        print(f"[{RECHECK_INTERVAL_SECONDS // 60}분 재확인] 실시간으로 놓친 새 PDF {got}개를 받았습니다.", flush=True)
-                    else:
-                        print(f"[{RECHECK_INTERVAL_SECONDS // 60}분 재확인] 새로 올라온 파일 없음", flush=True)
-            finally:
-                if not listener.done():
-                    # 시간 제한으로 빠져나온 경우: 리스너를 정리한다 (취소되면 내부에서
-                    # disconnect까지 처리됨 - 예전 wait_for 취소와 같은 효과).
-                    listener.cancel()
-                    try:
-                        await listener
-                    except (asyncio.CancelledError, Exception):
-                        pass
+                await asyncio.wait_for(client.run_until_disconnected(), timeout=remaining)
+            except asyncio.TimeoutError:
+                print("실행 시간 제한 도달(대기 중), 정상 종료합니다.", flush=True)
 
     await client.disconnect()
 
