@@ -1670,7 +1670,7 @@
     // GitHub Release 자산 URL은 Content-Disposition: attachment가 붙어서
     // <iframe>에 그대로 넣으면 다운로드가 시작돼버리고, fetch()로 직접
     // 받으려 해도 CORS에 막힌다 (ask.js 상단 설명과 같은 문제). 그래서
-    // 서버 쪽 프록시(Cloudflare Pages Function: functions/api/view.js)를 거쳐서
+    // 서버 쪽 프록시(Cloudflare Worker: worker/index.js)를 거쳐서
     // Content-Disposition을 inline으로 바꿔 받아오고, 그 프록시 주소를 그대로 iframe에 넣는다.
     // 프록시는 manifest를 읽지 않으므로(무료 플랜 CPU 한도), 원본 download_url을 ?u=로 넘긴다.
     const viewFileSearch = document.getElementById("viewFileSearch");
