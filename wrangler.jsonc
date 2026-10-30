@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "unvul-files",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-23",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "sites",
+    // /api/* 요청만 Worker로 보내고, 나머지(index.html 등)는 정적 자산으로 바로 서빙한다.
+    "run_worker_first": ["/api/*"]
+  }
+}
