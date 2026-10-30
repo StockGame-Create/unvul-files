@@ -1670,8 +1670,9 @@
     // GitHub Release 자산 URL은 Content-Disposition: attachment가 붙어서
     // <iframe>에 그대로 넣으면 다운로드가 시작돼버리고, fetch()로 직접
     // 받으려 해도 CORS에 막힌다 (ask.js 상단 설명과 같은 문제). 그래서
-    // 서버 쪽 프록시(api/view.js)를 거쳐서 Content-Disposition을 inline으로
-    // 바꿔 받아오고, 그 프록시 주소를 그대로 iframe에 넣는다.
+    // 서버 쪽 프록시(Cloudflare Pages Function: functions/api/view.js)를 거쳐서
+    // Content-Disposition을 inline으로 바꿔 받아오고, 그 프록시 주소를 그대로 iframe에 넣는다.
+    // 프록시는 manifest를 읽지 않으므로(무료 플랜 CPU 한도), 원본 download_url을 ?u=로 넘긴다.
     const viewFileSearch = document.getElementById("viewFileSearch");
     const viewFileResults = document.getElementById("viewFileResults");
     const viewFileSection = document.getElementById("viewFileSection");
@@ -1685,14 +1686,23 @@
 
     const PDF_VIEWER_DEFAULT_EMPTY_HTML = pdfViewerEmpty.innerHTML;
 
-    // api/view.js의 MAX_VIEWABLE_BYTES와 반드시 동일하게 유지 - 서버까지
-    // 요청을 보내지 않고 미리 안내 메시지를 보여주기 위한 프론트 쪽 사본.
+    // 이보다 큰 자료는 "바로보기" 대신 다운로드를 안내한다 (프론트에서만 확인하는 값).
+    // 프록시는 스트리밍이라 서버 쪽 크기 제한은 없다. 필요하면 이 값만 올리면 된다.
     const MAX_VIEWABLE_BYTES = 100 * 1024 * 1024;
 
     let viewSelectedFile = null;
 
+    // 프록시 주소. download_url(GitHub Release)이 없는 자료는 바로보기를 지원하지 않는다.
     function viewUrlFor(f) {
-      return `/api/view?message_id=${encodeURIComponent(f.message_id)}`;
+      if (!f.download_url) return null;
+      return `/api/view?u=${encodeURIComponent(f.download_url)}`;
+    }
+
+    // message_id로 자료 찾기 (일반 자료 + 평가원 자료). AI 답변의 "원본 보기" 링크용.
+    function findFileById(id) {
+      return allFiles.find((x) => x.message_id === id)
+        || (typeof kiceFiles !== "undefined" ? kiceFiles.find((x) => x.message_id === id) : null)
+        || null;
     }
 
     function selectViewFile(f) {
@@ -1703,17 +1713,21 @@
       viewFileResults.innerHTML = "";
       viewFileSearch.value = "";
 
-      if (f.size_bytes && f.size_bytes > MAX_VIEWABLE_BYTES) {
+      const viewUrl = viewUrlFor(f);
+      const tooBig = f.size_bytes && f.size_bytes > MAX_VIEWABLE_BYTES;
+      if (tooBig || !viewUrl) {
         pdfViewerFrame.hidden = true;
         pdfViewerFrame.src = "";
-        pdfViewerEmpty.innerHTML = `"${escapeHtml(f.title || f.filename)}"은(는) ${formatSize(f.size_bytes)}로 너무 커서 바로보기를 지원하지 않아요.<br />위의 "다운로드" 버튼으로 받아서 열어주세요.`;
+        pdfViewerEmpty.innerHTML = tooBig
+          ? `"${escapeHtml(f.title || f.filename)}"은(는) ${formatSize(f.size_bytes)}로 너무 커서 바로보기를 지원하지 않아요.<br />위의 "다운로드" 버튼으로 받아서 열어주세요.`
+          : `"${escapeHtml(f.title || f.filename)}"은(는) 바로보기를 지원하지 않는 자료예요.<br />위의 "다운로드" 버튼으로 받아서 열어주세요.`;
         pdfViewerEmpty.hidden = false;
         return;
       }
 
       pdfViewerEmpty.hidden = true;
       pdfViewerFrame.hidden = false;
-      pdfViewerFrame.src = viewUrlFor(f);
+      pdfViewerFrame.src = viewUrl;
     }
 
     function resetView() {
@@ -1765,15 +1779,15 @@
 
     viewOpenNewTabBtn.addEventListener("click", () => {
       if (!viewSelectedFile) return;
-      window.open(viewUrlFor(viewSelectedFile), "_blank");
+      const url = viewUrlFor(viewSelectedFile);
+      if (url) window.open(url, "_blank");
     });
 
     viewDownloadBtn.addEventListener("click", () => {
       if (!viewSelectedFile) return;
       const f = viewSelectedFile;
       // 이 버튼은 프록시(api/view)를 거치지 않고, 파일 보관함의 다운로드
-      // 버튼과 동일하게 원본 URL로 바로 받는다 (대역폭 절약 - view.js 상단
-      // 설명 참고).
+      // 버튼과 동일하게 원본 URL로 바로 받는다 (프록시를 거치지 않음).
       const isExternal = Boolean(f.download_url);
       const downloadUrl = f.download_url || `files/${encodeURIComponent(f.stored_as)}`;
       handleDownload(viewDownloadBtn, downloadUrl, f.filename, isExternal);
@@ -1952,11 +1966,15 @@
         if (r.answer) meta.appendChild(document.createTextNode(`정답(자료 표기): ${r.answer}  `));
         if (r.message_id) {
           const a = document.createElement("a");
-          a.href = `/api/view?message_id=${encodeURIComponent(r.message_id)}#page=${encodeURIComponent(r.page)}`;
-          a.target = "_blank";
-          a.rel = "noopener";
-          a.textContent = `원본 p.${r.page} 보기`;
-          meta.appendChild(a);
+          const srcFile = findFileById(r.message_id);
+          const srcUrl = srcFile ? viewUrlFor(srcFile) : null;
+          if (srcUrl) {
+            a.href = `${srcUrl}#page=${encodeURIComponent(r.page)}`;
+            a.target = "_blank";
+            a.rel = "noopener";
+            a.textContent = `원본 p.${r.page} 보기`;
+            meta.appendChild(a);
+          }
         }
         meta.appendChild(document.createTextNode("  · AI가 PDF에서 추출한 텍스트라 오류가 있을 수 있어요" + (r.uncertain ? " (이 문항은 인식이 불확실해요)" : "")));
         body.appendChild(meta);
@@ -2218,7 +2236,7 @@
     // ---- 평가원 탭 (수능 / 6월·9월 모의평가) ----
     // sync2.py가 만드는 sites/manifest_mock.json을 읽는다. 탭을 처음 열 때 한 번만
     // 불러오고, 카드/버튼/페이지 번호는 파일 보관함과 같은 함수·스타일을 재사용한다.
-    // "보기"는 파일 관리 탭(/api/view)을, "다운로드"는 GitHub Release 원본 URL을 쓴다.
+    // "보기"는 파일 관리 탭(/api/view?u=...)을, "다운로드"는 GitHub Release 원본 URL을 쓴다.
     const kiceListEl = document.getElementById("kiceList");
     const kiceSearch = document.getElementById("kiceSearch");
     const kiceExamSel = document.getElementById("kiceExam");
