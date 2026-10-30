@@ -2608,8 +2608,8 @@
       var seenKey = "unvul_welcome_v" + WELCOME_VERSION;
       if (getItem("localStorage", seenKey) === "1") return;
 
-      openOverlay("새 웹사이트", "새 웹사이트에 오신 걸 환영해요");
-      bodyEl.appendChild(para("자료 보관함이 새 주소로 이사했어요. 달라진 점을 간단히 소개할게요."));
+      openOverlay("새 웹사이트", "Unvul-Files에 오신 걸 환영해요");
+      bodyEl.appendChild(para("자료 보관함이 새 주소로 이사했어요. 이 웹사이트을 간단히 소개할게요."));
       var list = document.createElement("ul");
       [
         "파일 관리 탭: 자료를 내려받지 않고도 사이트 안에서 PDF를 바로 볼 수 있어요.",
