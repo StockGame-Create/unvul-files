@@ -1020,6 +1020,98 @@
   .related-meta a { color: var(--leather); }
 
   .ai-maint { border: 1px solid var(--leather); background: var(--paper-raised); padding: 0.8rem 1rem; margin-bottom: 0.8rem; font-size: 0.9rem; line-height: 1.6; }
+
+  /* ---- 주소 이전 안내(옛 주소) / 첫 방문 소개(새 주소) ---- */
+  .notice-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba(38, 34, 32, 0.55);
+  }
+
+  .notice-overlay[hidden] { display: none; }
+
+  .notice-card {
+    width: 100%;
+    max-width: 30rem;
+    max-height: 90vh;
+    overflow-y: auto;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1.5px solid var(--ink);
+    border-top-width: 4px;
+    padding: 1.4rem 1.3rem 1.2rem;
+  }
+
+  .notice-tag {
+    margin: 0 0 0.4rem;
+    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    color: var(--ink-soft);
+  }
+
+  .notice-card h2 {
+    margin: 0 0 0.8rem;
+    font-size: 1.25rem;
+    line-height: 1.35;
+  }
+
+  .notice-body {
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
+  .notice-body p { margin: 0 0 0.7rem; }
+
+  .notice-body ul {
+    margin: 0 0 0.7rem;
+    padding-left: 1.1rem;
+  }
+
+  .notice-body li { margin-bottom: 0.35rem; }
+
+  .notice-url {
+    display: block;
+    margin: 0.2rem 0 0.9rem;
+    padding: 0.5rem 0.7rem;
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    font-size: 0.8rem;
+    word-break: break-all;
+  }
+
+  .notice-actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+  .notice-btn {
+    flex: 1 1 auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    font-size: 0.85rem;
+    color: var(--ink);
+    background: transparent;
+    border: 1.5px solid var(--ink);
+    padding: 0.65rem 0.9rem;
+    cursor: pointer;
+  }
+
+  .notice-btn.primary {
+    background: var(--ink);
+    color: var(--paper);
+  }
+
+  .notice-btn:hover { opacity: 0.85; }
 </style>
 </head>
 <body>
@@ -2416,6 +2508,128 @@
     kiceSearch.addEventListener("input", applyKiceFilter);
     kiceFilterRow.addEventListener("change", applyKiceFilter);
     for (const el of [kiceExamSel, kiceYearSel, kiceKindSel, kiceSortSel]) el.addEventListener("change", applyKiceFilter);
+  </script>
+
+  <!-- 주소 이전 안내(옛 Vercel 주소) / 첫 방문 소개(새 주소). 내용은 맨 아래 별도 <script>에서 채운다. -->
+  <div class="notice-overlay" id="noticeOverlay" hidden>
+    <div class="notice-card" role="dialog" aria-modal="true" aria-labelledby="noticeTitle">
+      <p class="notice-tag" id="noticeTag"></p>
+      <h2 id="noticeTitle"></h2>
+      <div class="notice-body" id="noticeBody"></div>
+      <div class="notice-actions" id="noticeActions"></div>
+    </div>
+  </div>
+
+  <!-- 일부러 메인 스크립트와 분리: 메인 스크립트가 오류로 멈춰도 이전 안내는 떠야 한다. -->
+  <script>
+    (function () {
+      // ===== 여기만 고치면 됩니다 =====
+      // 새 사이트 주소 (끝에 / 없이). 커스텀 도메인을 연결하면 그 주소로 바꾸세요.
+      var NEW_SITE_URL = "https://unvul-files.unvul.workers.dev";
+      // ".vercel.app"으로 끝나는 주소는 자동으로 "옛 주소"로 취급한다.
+      // 옛 주소가 커스텀 도메인이면 여기에 호스트 이름을 추가하세요. 예: ["files.example.com"]
+      var OLD_HOSTS = [];
+      // 내용을 바꾸면 이 번호를 올리세요. 이미 본 사람에게도 다시 보여줍니다.
+      var WELCOME_VERSION = "1";
+      // ================================
+
+      var host = location.hostname;
+      var isOldSite = /\.vercel\.app$/i.test(host) || OLD_HOSTS.indexOf(host) !== -1;
+
+      var overlay = document.getElementById("noticeOverlay");
+      var tagEl = document.getElementById("noticeTag");
+      var titleEl = document.getElementById("noticeTitle");
+      var bodyEl = document.getElementById("noticeBody");
+      var actionsEl = document.getElementById("noticeActions");
+
+      // 저장소 접근이 막힌 환경(시크릿 모드 등)에서도 오류 없이 동작하게 감싼다.
+      function store(kind) {
+        try { return window[kind]; } catch (e) { return null; }
+      }
+      function getItem(kind, key) {
+        try { var st = store(kind); return st ? st.getItem(key) : null; } catch (e) { return null; }
+      }
+      function setItem(kind, key, val) {
+        try { var st = store(kind); if (st) st.setItem(key, val); } catch (e) { /* 무시 */ }
+      }
+
+      function para(text) {
+        var p = document.createElement("p");
+        p.textContent = text;
+        return p;
+      }
+
+      function button(label, className) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "notice-btn " + className;
+        b.textContent = label;
+        return b;
+      }
+
+      function close() { overlay.hidden = true; }
+
+      function openOverlay(tag, title) {
+        tagEl.textContent = tag;
+        titleEl.textContent = title;
+        bodyEl.innerHTML = "";
+        actionsEl.innerHTML = "";
+        overlay.hidden = false;
+      }
+
+      if (isOldSite) {
+        // 옛 주소: 탭을 닫기 전까지는 한 번만 보여준다(닫으면 이번 방문 동안 다시 안 뜸).
+        if (getItem("sessionStorage", "unvul_old_notice_closed") === "1") return;
+
+        openOverlay("주소 이전 안내", "새 웹사이트로 이사했어요");
+        bodyEl.appendChild(para("자료 보관함이 새 주소로 이전했어요. 앞으로는 아래 새 주소를 이용해주세요. 즐겨찾기도 새 주소로 바꿔두시면 좋아요."));
+        var urlBox = document.createElement("span");
+        urlBox.className = "notice-url";
+        urlBox.textContent = NEW_SITE_URL;
+        bodyEl.appendChild(urlBox);
+        bodyEl.appendChild(para("지금 보고 계신 이 주소는 앞으로 일부 기능(파일 보기 등)이 동작하지 않거나 사용되지 않을 수 있어요."));
+
+        var go = document.createElement("a");
+        go.className = "notice-btn primary";
+        go.href = NEW_SITE_URL;
+        go.textContent = "새 사이트로 이동";
+        actionsEl.appendChild(go);
+
+        var stay = button("이 페이지에서 계속 보기", "");
+        stay.addEventListener("click", function () {
+          setItem("sessionStorage", "unvul_old_notice_closed", "1");
+          close();
+        });
+        actionsEl.appendChild(stay);
+        return;
+      }
+
+      // 새 주소: 이 브라우저에서 처음 들어왔을 때 한 번만 소개를 보여준다.
+      var seenKey = "unvul_welcome_v" + WELCOME_VERSION;
+      if (getItem("localStorage", seenKey) === "1") return;
+
+      openOverlay("새 웹사이트", "새 웹사이트에 오신 걸 환영해요");
+      bodyEl.appendChild(para("자료 보관함이 새 주소로 이사했어요. 달라진 점을 간단히 소개할게요."));
+      var list = document.createElement("ul");
+      [
+        "파일 관리 탭: 자료를 내려받지 않고도 사이트 안에서 PDF를 바로 볼 수 있어요.",
+        "파일 보관함의 \"파일 보기\" 버튼을 누르면 파일 관리 탭에서 바로 열려요.",
+        "그 옆의 작은 \"다운로드\" 버튼으로는 예전처럼 바로 내려받을 수 있어요.",
+        "이 주소를 즐겨찾기에 추가해두세요. 예전 주소는 더 이상 쓰이지 않을 수 있어요."
+      ].forEach(function (text) {
+        var li = document.createElement("li");
+        li.textContent = text;
+        list.appendChild(li);
+      });
+      bodyEl.appendChild(list);
+
+      var ok = button("시작하기", "primary");
+      ok.addEventListener("click", function () {
+        setItem("localStorage", seenKey, "1");
+        close();
+      });
+      actionsEl.appendChild(ok);
+    })();
   </script>
 </body>
 </html>
