@@ -24,6 +24,13 @@
 - PDF 첫 페이지를 이미지로 렌더링해서 썸네일로 저장합니다 (sites/thumbnails/).
 - 2026-09-04 이후에 올라온 메시지만 대상으로 하며, 그보다 오래된 메시지가
   나오면 캐치업 스캔을 그 자리에서 중단합니다.
+- (v7) 실시간 대기 모드 중에도 15분(RECHECK_INTERVAL_SECONDS)마다 "새 파일이 올라왔는지"
+  직접 재확인한다. 텔레그램 실시간 이벤트(NewMessage)는 연결이 잠깐 흔들리거나
+  업데이트 누락(gap)이 나면 조용히 빠질 수 있어서, 이벤트만 믿고 있으면 그 사이에
+  올라온 파일이 다음 실행(최대 5시간 30분 뒤)까지 안 받아졌다. 재확인은 마지막으로
+  확인한 메시지 id보다 새 것만 조회(min_id)하므로 보통 API 호출 1번으로 끝난다.
+  재확인과 실시간 리스너가 같은 메시지를 동시에 받는 일이 없도록, 처리 중인 메시지
+  id를 기억해서(in_flight_ids) 두 번째 시도는 건너뛴다.
 - (v6) 다운로드(client.download_media) 자체에 재시도를 추가했다. 텔레그램
   서버 쪽 일시적 문제("Telegram is having internal issues" /
   "TimeoutError: Timeout while fetching data (GetFileRequest)")가 나면
@@ -133,6 +140,13 @@ THUMBNAIL_WIDTH = 400
 # 직접 예약한다 (trigger_next_run 참고). sync.yml의 step/job timeout-minutes도
 # 이 값보다 커야 한다.
 MAX_RUNTIME_SECONDS = 5 * 60 * 60 + 30 * 60  # 5시간 30분
+
+# 실시간 대기 모드에서 "새 파일이 올라왔는지" 직접 다시 확인하는 간격(초).
+# 실시간 이벤트가 조용히 누락돼도 최대 이 간격 안에는 따라잡는다.
+RECHECK_INTERVAL_SECONDS = 15 * 60  # 15분
+# 종료까지 이 시간(초)보다 적게 남았으면 마지막 재확인은 건너뛴다. (대용량 다운로드를 막
+# 시작했다가 러너 시간 제한에 걸리는 것을 피하기 위함. 놓친 건 다음 실행의 캐치업이 받는다.)
+RECHECK_MIN_REMAINING_SECONDS = 120
 
 SITE_DIR = Path("sites")
 FILES_DIR = SITE_DIR / "files"
@@ -929,6 +943,11 @@ async def sync():
 
         return True
 
+    # 지금 처리(다운로드/업로드) 중인 메시지 id. 대기 모드에서는 실시간 리스너와 15분
+    # 재확인이 같은 새 메시지를 동시에 집어들 수 있는데, 둘 다 known_message_ids에
+    # 아직 없다고 보고 같은 파일을 두 번 받는 것을 막는다.
+    in_flight_ids: set[int] = set()
+
     async def handle_pdf_message_guarded(message) -> bool:
         """handle_pdf_message를 감싸서, 메시지 하나 처리 중 어떤 예외가 나도
         (다운로드 재시도까지 다 실패한 경우, 예상 못한 오류 등) 캐치업 스캔
@@ -936,11 +955,16 @@ async def sync():
         (_on_new_message)는 원래 이렇게 보호돼 있었는데, 캐치업 스캔 쪽엔
         이 방어막이 없어서 텔레그램 서버의 일시적 타임아웃 하나에 스캔
         전체가 중단되곤 했다."""
+        if message.id in in_flight_ids:
+            return False  # 다른 쪽(실시간 리스너 또는 재확인)이 이미 처리 중
+        in_flight_ids.add(message.id)
         try:
             return await handle_pdf_message(message)
         except Exception as e:
             print(f"  [메시지 처리 중 오류, 건너뛰고 계속] message_id={message.id}: {e}", flush=True)
             return False
+        finally:
+            in_flight_ids.discard(message.id)
 
     async def catch_up_new_arrivals(after_id: int) -> int:
         """message.id가 after_id보다 큰(=이 스캔이 시작된 뒤에 새로 올라온)
@@ -1013,11 +1037,57 @@ async def sync():
 
         remaining = MAX_RUNTIME_SECONDS - (time.monotonic() - start_time)
         if remaining > 0:
-            print(f"실시간 대기 모드 진입 (약 {remaining / 60:.0f}분간 새 메시지를 실시간으로 받습니다)", flush=True)
+            print(
+                f"실시간 대기 모드 진입 (약 {remaining / 60:.0f}분간 새 메시지를 실시간으로 받고, "
+                f"{RECHECK_INTERVAL_SECONDS // 60}분마다 새 파일이 올라왔는지 직접 재확인합니다)",
+                flush=True,
+            )
+            # run_until_disconnected()를 별도 태스크로 돌려두고, 그 사이사이에 재확인을 한다.
+            # (예전엔 wait_for로 통째로 기다렸지만, 그러면 중간에 깨어나서 확인할 방법이 없다.)
+            listener = asyncio.ensure_future(client.run_until_disconnected())
             try:
-                await asyncio.wait_for(client.run_until_disconnected(), timeout=remaining)
-            except asyncio.TimeoutError:
-                print("실행 시간 제한 도달(대기 중), 정상 종료합니다.", flush=True)
+                while True:
+                    remaining = MAX_RUNTIME_SECONDS - (time.monotonic() - start_time)
+                    if remaining <= 0:
+                        print("실행 시간 제한 도달(대기 중), 정상 종료합니다.", flush=True)
+                        break
+
+                    done, _ = await asyncio.wait(
+                        {listener}, timeout=min(RECHECK_INTERVAL_SECONDS, remaining)
+                    )
+                    if listener in done:
+                        # 연결이 끊겨서 리스너가 끝남. 업데이트 처리 중 오류였다면 여기서
+                        # 예외가 그대로 올라간다 (예전 wait_for 방식과 동일한 동작).
+                        listener.result()
+                        print("텔레그램 연결이 끊겨 대기 모드를 종료합니다.", flush=True)
+                        break
+
+                    remaining = MAX_RUNTIME_SECONDS - (time.monotonic() - start_time)
+                    if remaining <= RECHECK_MIN_REMAINING_SECONDS:
+                        continue  # 곧 종료할 시간이라 마지막 재확인은 생략 (위에서 break됨)
+
+                    # ---- 15분 재확인: 실시간 이벤트가 놓친 새 파일이 있는지 직접 조회 ----
+                    before = new_count
+                    try:
+                        highest_seen_id = await catch_up_new_arrivals(highest_seen_id)
+                    except Exception as e:
+                        # 재확인이 실패해도(일시적 네트워크 오류 등) 대기 모드는 계속 유지한다.
+                        print(f"  [재확인 중 오류, 다음 주기에 다시 시도] {e}", flush=True)
+                        continue
+                    got = new_count - before
+                    if got:
+                        print(f"[{RECHECK_INTERVAL_SECONDS // 60}분 재확인] 실시간으로 놓친 새 PDF {got}개를 받았습니다.", flush=True)
+                    else:
+                        print(f"[{RECHECK_INTERVAL_SECONDS // 60}분 재확인] 새로 올라온 파일 없음", flush=True)
+            finally:
+                if not listener.done():
+                    # 시간 제한으로 빠져나온 경우: 리스너를 정리한다 (취소되면 내부에서
+                    # disconnect까지 처리됨 - 예전 wait_for 취소와 같은 효과).
+                    listener.cancel()
+                    try:
+                        await listener
+                    except (asyncio.CancelledError, Exception):
+                        pass
 
     await client.disconnect()
 
