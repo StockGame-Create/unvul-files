@@ -365,6 +365,20 @@
       "sha256": "df9d6297b79dc10daafdcf023f58f3b87529b469d91196ff07e00f9619448cdc"
     },
     {
+      "message_id": 26044,
+      "filename": "2027 스피드러너 모의고사 FINAL 10회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26044_2027.FINAL.10.pdf",
+      "size_bytes": 18412069,
+      "telegram_date": "2026-10-31T00:56:01+00:00",
+      "title": "수학 호형훈제 스피드러너 모의고사 FINAL 9~11회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/26044.png",
+      "sha256": "5299a9a9d315db79ff54265be96c36586065d4e3779e6e7206c3a84c105e9178"
+    },
+    {
       "message_id": 26041,
       "filename": "key_x_상상_4회차.pdf",
       "stored_as": null,
