@@ -155,6 +155,20 @@
       "sha256": "872e38b1cea3111783119ac824f20e5551e6d92aa41c2ba810a2131915179768"
     },
     {
+      "message_id": 26064,
+      "filename": "TalkFile_서바이벌 5-6.pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26064_TalkFile_.5-6.pdf.pdf",
+      "size_bytes": 1891670,
+      "telegram_date": "2026-10-31T00:56:21+00:00",
+      "title": "정법 시대인재 서바이벌 C 단독 모의고사 1~8회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "정치와법",
+      "thumbnail": "thumbnails/26064.png",
+      "sha256": "74297bc0fc72ff3170f8fa99291ef648ac64b67a8ad809eb62ca7b51b9ed160f"
+    },
+    {
       "message_id": 26041,
       "filename": "key_x_상상_4회차.pdf",
       "stored_as": null,
