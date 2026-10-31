@@ -32,11 +32,13 @@ async function uploadPdf(downloadUrl, title, key) {
     body: JSON.stringify({ file: { display_name: String(title).slice(0, 80) } }),
   });
   const upUrl = start.headers.get("x-goog-upload-url");
+  if (!start.ok || !upUrl) console.error("upload start failed", start.status, (await start.text().catch(() => "")).slice(0, 200));
   if (!start.ok || !upUrl) throw Object.assign(new Error("AI 서버에 파일을 올리지 못했어요."), { status: start.status === 429 ? 429 : 502, retryable: true });
   const { readable, writable } = new FixedLengthStream(size); // 스트리밍 전달: Worker CPU를 거의 쓰지 않음
   src.body.pipeTo(writable);
   const up = await fetch(upUrl, { method: "POST", headers: { "Content-Length": String(size), "X-Goog-Upload-Offset": "0", "X-Goog-Upload-Command": "upload, finalize" }, body: readable });
   const data = await up.json().catch(() => ({}));
+  if (!up.ok || !data.file?.uri) console.error("upload failed", up.status, JSON.stringify(data).slice(0, 200));
   if (!up.ok || !data.file?.uri) throw Object.assign(new Error("AI 서버에 파일을 올리지 못했어요."), { status: 502, retryable: true });
   let f = data.file;
   for (let i = 0; i < 8 && f.state === "PROCESSING"; i++) { // PDF 처리 대기(보통 즉시 끝남)
@@ -89,7 +91,9 @@ export async function handleAsk(request, env) {
     if (!res.ok) {
       if (res.status === 429) return fail("지금 AI 무료 사용량이 가득 찼어요. 1분쯤 뒤에 다시 시도해주세요.", 429, true);
       if (res.status === 503) return fail("AI 서버가 잠시 바빠요. 다시 시도해주세요.", 503, true);
-      return fail("AI 응답 오류가 났어요 (" + res.status + ").", 502, true);
+      const why = String(res.data?.error?.message || "").slice(0, 160);
+      console.error("gemini error", res.status, why);
+      return fail("AI 응답 오류가 났어요 (" + res.status + ")" + (why ? ": " + why : "."), 502, true);
     }
     const c = res.data.candidates?.[0];
     const answer = (c?.content?.parts || []).map(p => p.text || "").join("").trim();
