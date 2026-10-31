@@ -211,6 +211,20 @@
       "sha256": "221c95152adbe0b0b07b27d46b054084935faf73264849fa7957f09fc3411916"
     },
     {
+      "message_id": 26056,
+      "filename": "세지 이위다.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26056_.pdf",
+      "size_bytes": 49130579,
+      "telegram_date": "2026-10-31T00:56:12+00:00",
+      "title": "세지 이것이 위치다",
+      "year": "2027",
+      "instructor": "이기상",
+      "subject": "세계지리",
+      "thumbnail": "thumbnails/26056.png",
+      "sha256": "d1ba193aec795ac5c6024ba10c71b30063b6fc0bf349303c69e122187e61b974"
+    },
+    {
       "message_id": 26041,
       "filename": "key_x_상상_4회차.pdf",
       "stored_as": null,
