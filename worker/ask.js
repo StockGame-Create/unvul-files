@@ -64,7 +64,7 @@ export async function handleAsk(request, env) {
 
   let ref = b.file_ref && b.file_ref.uri && b.file_ref.exp > Date.now() ? b.file_ref : null;
   const dl = b.file?.download_url;
-  if (dl && !/^https:\/\/github\.com\//.test(dl)) return fail("허용되지 않은 자료 주소예요.", 400); // 임의 주소 요청 방지
+  if (dl && !dl.startsWith("https://github.com/StockGame-Create/unvul-files/releases/download/")) return fail("허용되지 않은 자료 주소예요.", 400); // 임의 주소 요청 방지
 
   const history = (Array.isArray(b.history) ? b.history : []).slice(-10).map(m => ({ role: m.role === "assistant" ? "model" : "user", parts: [{ text: String(m.text || "").slice(0, 4000) }] }));
   const build = () => {
