@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T22:30:43+00:00",
+  "updated_at": "2026-10-31T05:57:13+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -3718,6 +3718,28 @@
       "solution_count": 0,
       "matched_count": 0,
       "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 26081,
+      "filename": "2027 스피드러너 모의고사 FINAL 22회 해설.pdf",
+      "title": "수학 호형훈제 스피드러너 모의고사 FINAL 22회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "sha256": "7c9fcef3d51fcf5853242a08e56b71c350f95d1b36b822bb260e05a2cda38edd",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/26081.json",
+      "updated_at": "2026-10-31T05:57:13+00:00",
+      "pages_total": 34,
+      "pages_done": 8,
+      "failed_pages": [],
+      "model": "gemini-3.8-flash",
+      "problem_count": 3,
+      "solution_count": 64,
+      "matched_count": 3,
+      "with_answer": 3,
       "with_explanation": 0
     }
   ]
