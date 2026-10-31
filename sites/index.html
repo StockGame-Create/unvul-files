@@ -1343,17 +1343,19 @@
     </section>
 
     <section class="tab-panel" id="tabAi" hidden>
-      <div class="ai-maint" id="aiMaint" hidden><strong>AI 기능 점검 중</strong><br />AI 서비스 공급처의 혼잡으로 잠시 사용할 수 없어요. 복구되면 이 안내가 사라지고 다시 쓸 수 있어요.</div>
+      <div class="ai-maint" id="aiMaint" hidden><strong>AI 기능 점검 중</strong><br />잠시 사용할 수 없어요. 곧 복구돼요.</div>
       <div class="ai-toolbar">
-        <div class="ai-modebar">
-          <span class="ai-field-label" style="margin:0">답변 방식</span>
-          <div class="mode-toggle" role="group" aria-label="답변 방식">
-            <button type="button" class="mode-btn active" data-mode="fast" title="빠르고 가벼운 모델">빠르게</button>
-            <button type="button" class="mode-btn" data-mode="deep" title="어려운 문제용 상위 모델 (사용 한도 있음)">정밀 (Pro)</button>
-          </div>
-          <button type="button" id="chatResetBtn">새 대화</button>
+        <div id="aiFileSection">
+          <label class="ai-field-label" for="aiFileSearch">질문할 자료를 골라주세요 (선택 안 해도 일반 질문은 가능해요)</label>
+          <input type="text" id="aiFileSearch" placeholder="제목, 강사, 과목, 파일명으로 찾기" autocomplete="off" />
+          <ul class="ai-results" id="aiFileResults"></ul>
         </div>
-        <p class="ai-note">문제 사진이나 PDF를 올리거나 그냥 질문해보세요. 자료실에 쌓인 문제 은행에서 같은/비슷한 문제를 찾아 근거로 쓰고, 비슷한 문제를 같이 보여줘요. 자동 추출이라 오답이 섞일 수 있어요. 어려운 문제는 "정밀" 모드가 더 정확할 수 있지만 느리고 사용 한도가 있어요.</p>
+        <div class="ai-selected" id="aiSelected" hidden>
+          <span id="aiSelectedName"></span>
+          <span class="view-toolbar-actions"><button type="button" id="aiFileResetBtn">다른 파일 선택</button></span>
+        </div>
+        <div class="ai-modebar"><button type="button" id="chatResetBtn">새 대화</button></div>
+        <p class="ai-note">위에서 자료를 고르면 그 PDF를 보고 답해요. 자료실 목록(manifest)을 함께 읽어서 "해설 파일이 있는지"도 알려줘요. 자동 답변이라 틀릴 수 있어요.</p>
       </div>
 
       <div class="chat-shell" id="chatShell">
@@ -2015,7 +2017,7 @@
     const MAX_ATTACH_B64_TOTAL = 3_600_000;
 
     // 점검 중 표시: AI를 다시 열 때는 false로 바꾸면 된다.
-    const AI_MAINTENANCE = true;
+    const AI_MAINTENANCE = false;
     document.getElementById("aiMaint").hidden = !AI_MAINTENANCE;
     if (AI_MAINTENANCE) {
       chatInput.placeholder = "AI 점검 중이에요";
@@ -2359,6 +2361,80 @@
 
     chatSendBtn.addEventListener("click", () => sendChatMessage());
 
+
+    // ---- AI용: 자료 선택 + manifest 기반 "해설 존재 여부" 판별 ----
+    const aiFileSearch = document.getElementById("aiFileSearch");
+    const aiFileResults = document.getElementById("aiFileResults");
+    const aiFileSection = document.getElementById("aiFileSection");
+    const aiSelected = document.getElementById("aiSelected");
+    const aiSelectedName = document.getElementById("aiSelectedName");
+    let aiSelectedFile = null;
+    let aiFileRef = null; // 서버가 돌려준 Gemini 파일 참조(재업로드 방지). 파일을 바꾸면 비운다.
+
+    const COMMENTARY_RE = /정답\s*및\s*해설|해설|정답|답지|풀이/;
+    const normName = (v) => String(v || "").normalize("NFC").toLowerCase();
+    const isCommentary = (f) => COMMENTARY_RE.test(normName((f.title || "") + " " + (f.filename || "")));
+    // 해설/정답 단어, 확장자, 구분자를 지운 "본문 이름" — 문제지와 해설지를 같은 묶음으로 보기 위함.
+    const baseName = (f) => normName(f.title || f.filename)
+      .replace(/\.pdf$/i, "")
+      .replace(/정답\s*및\s*해설|해설지|해설|정답|답지|풀이/g, "")
+      .replace(/[\s_\-().\[\]]+/g, "");
+
+    function fileLine(f, flag) {
+      return [`id:${f.message_id}`, f.title || f.filename, f.subject, f.year, f.instructor, isCommentary(f) ? "[해설/정답 자료]" : "[문제/본문 자료]", flag]
+        .filter(Boolean).join(" | ");
+    }
+
+    // 선택한 자료의 짝(같은 이름 묶음) + 질문과 겹치는 자료를 골라 짧은 목록으로 만든다.
+    function buildManifestContext(question) {
+      const lines = [];
+      const f = aiSelectedFile;
+      if (f) {
+        const base = baseName(f);
+        const sibs = base ? allFiles.filter(x => x !== f && (baseName(x) === base ||
+          (base.length >= 6 && (baseName(x).includes(base) || base.includes(baseName(x)) && baseName(x).length >= 6)))) : [];
+        const commentary = sibs.filter(isCommentary);
+        lines.push(`선택한 자료: ${fileLine(f)}`);
+        lines.push(isCommentary(f)
+          ? "판정: 선택한 자료 자체가 해설/정답 자료임"
+          : `판정: 같은 묶음의 해설/정답 자료 ${commentary.length ? commentary.length + "개 있음" : "없음 (목록 기준)"}`);
+        sibs.slice(0, 8).forEach(x => lines.push("같은 묶음: " + fileLine(x)));
+      }
+      const toks = normName(question).split(/\s+/).filter(t => t.length >= 2).slice(0, 6);
+      if (toks.length) {
+        allFiles.map(x => ({ x, n: toks.filter(t => normName([x.title, x.filename, x.subject, x.year, x.instructor].join(" ")).includes(t)).length }))
+          .filter(r => r.n > 0 && r.x !== f).sort((a, b) => b.n - a.n).slice(0, 12)
+          .forEach(r => lines.push("질문과 관련: " + fileLine(r.x)));
+      }
+      return lines.join("\n").slice(0, 4000);
+    }
+
+    function selectAiFile(f) {
+      aiSelectedFile = f; aiFileRef = null;
+      aiSelectedName.textContent = f.title || f.filename;
+      aiSelected.hidden = false; aiFileSection.hidden = true;
+      aiFileResults.innerHTML = ""; aiFileSearch.value = "";
+      chatInput.focus();
+    }
+    function resetAiFile() {
+      aiSelectedFile = null; aiFileRef = null;
+      aiSelected.hidden = true; aiFileSection.hidden = false;
+      aiFileSearch.focus();
+    }
+    document.getElementById("aiFileResetBtn").addEventListener("click", resetAiFile);
+    aiFileSearch.addEventListener("input", () => {
+      const q = normName(aiFileSearch.value.trim());
+      aiFileResults.innerHTML = "";
+      if (!q) return;
+      allFiles.filter(f => normName([f.filename, f.title, f.instructor, f.subject, f.year].filter(Boolean).join(" ")).includes(q))
+        .slice(0, 8).forEach(f => {
+          const li = document.createElement("li");
+          li.textContent = `${f.title || f.filename} · ${formatDate(f.telegram_date)}`;
+          li.addEventListener("click", () => selectAiFile(f));
+          aiFileResults.appendChild(li);
+        });
+    });
+
     // opts.retry가 true면 방금 실패한 질문을 같은 내용으로 다시 보낸다 (사용자 말풍선은 이미 있음).
     async function sendChatMessage(opts = {}) {
       if (chatBusy || AI_MAINTENANCE) return;
@@ -2383,7 +2459,10 @@
             question,
             history: chatHistory,
             attachments: attachments.map(a => ({ mime: a.mime, data: a.data })),
-            mode: aiMode,
+            file: aiSelectedFile ? { title: aiSelectedFile.title || aiSelectedFile.filename, download_url: aiSelectedFile.download_url, size_bytes: aiSelectedFile.size_bytes } : null,
+            file_ref: aiFileRef,
+            manifest: buildManifestContext(question),
+            mode: "fast",
           }),
         });
 
@@ -2396,6 +2475,7 @@
         }
         if (!res.ok) throw Object.assign(new Error(data.error || "알 수 없는 오류가 발생했습니다."), { retryable: Boolean(data.retryable) });
 
+        if (data.file_ref) aiFileRef = data.file_ref;
         const roleEl = bubbleEl.parentElement.querySelector(".msg-role");
         if (roleEl && data.tier === "deep") roleEl.textContent = "Unvul AI (정밀)";
 
