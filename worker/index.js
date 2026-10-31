@@ -25,6 +25,8 @@
 // 요청: GET|HEAD /api/view?u=<release download_url (URL 인코딩)>   (선택: Range 헤더)
 // 응답: PDF 바이너리 (200 / 206 / 416), 실패 시 JSON { error }
 
+import { handleAsk } from "./ask.js";
+
 // index.html의 GITHUB_OWNER / GITHUB_REPO와 반드시 동일하게 유지한다.
 const GITHUB_OWNER = "StockGame-Create";
 const GITHUB_REPO = "unvul-files";
@@ -127,10 +129,14 @@ async function handleView(request) {
 }
 
 export default {
-  async fetch(request) {
+  async fetch(request, env) {
     const { pathname } = new URL(request.url);
     if (pathname === "/api/view") return handleView(request);
-    // /api/ask 등 이 Worker가 제공하지 않는 API
+    if (pathname === "/api/ask") {
+      if (request.method !== "POST") return jsonError(405, "POST만 지원합니다.");
+      return handleAsk(request, env);
+    }
+    // 이 Worker가 제공하지 않는 API
     return jsonError(404, "이 주소에서 제공하지 않는 기능이에요.");
   },
 };
