@@ -71,6 +71,20 @@
       "sha256": "b992fe41892c724c1ba80a77854df58a4f8fbbecf9ea4027481da233313f0b8c"
     },
     {
+      "message_id": 26073,
+      "filename": "킬캠_S3_42쪽_최종.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26073_._S3_42._.pdf",
+      "size_bytes": 308502,
+      "telegram_date": "2026-10-31T01:16:22+00:00",
+      "title": "수학 킬링캠프 시즌3 1, 2회 (인쇄소퀄) #킬캠",
+      "year": "2027",
+      "instructor": "현우진",
+      "subject": "수학",
+      "thumbnail": "thumbnails/26073.png",
+      "sha256": "a68105c79f6a6eef854a0e452f32b6adfef5a97923b4938dc0734c0cd1d1d3b2"
+    },
+    {
       "message_id": 26041,
       "filename": "key_x_상상_4회차.pdf",
       "stored_as": null,
