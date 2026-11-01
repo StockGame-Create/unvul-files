@@ -1223,6 +1223,9 @@
   .of-sa .of-cols > div { display:flex; flex-direction:column; align-items:center; gap:2px; padding:.2rem .25rem; } .of-sa small { font-size:.65rem; }
   .of-q.ok, .of-sa.ok { outline:2px solid #4C7A44; background:rgba(76,122,68,.12); } .of-q.no, .of-sa.no { outline:2px solid #B43C28; background:rgba(180,60,40,.1); }
   .of-sa i, .of-q i { font-style:normal; font-size:.7rem; color:#B43C28; display:block; text-align:center; }
+  .ai-variant { border:1px solid var(--rule); border-radius:var(--radius-md); padding:.4rem .6rem; margin:.5rem 0; background:var(--paper-raised); }
+  .ai-variant summary { cursor:pointer; font-weight:600; }
+  .ai-variant-row { display:flex; gap:.4rem; flex-wrap:wrap; margin:.5rem 0 .2rem; } .ai-variant-row input { flex:1 1 220px; }
   .omr-row i { font-style:normal; font-size:.75rem; color:#B43C28; margin-left:auto; }
 </style>
 </head>
@@ -1413,6 +1416,16 @@
           <span id="aiSelectedName"></span>
           <span class="view-toolbar-actions"><button type="button" id="aiFileResetBtn">다른 파일 선택</button></span>
         </div>
+        <details class="ai-variant" id="aiVariant">
+          <summary>변형 문제 만들기</summary>
+          <div class="ai-variant-row">
+            <input type="text" id="varNo" placeholder="문제 번호 (예: 21) — 사진을 올렸다면 비워두세요" />
+            <select id="varMode"><option>숫자·조건만 바꾸기</option><option>같은 유형의 새 문제</option><option>더 어렵게</option><option>더 쉽게</option><option>선지만 새로 만들기</option></select>
+            <select id="varCount"><option value="1">1문제</option><option value="2">2문제</option><option value="3">3문제</option></select>
+            <button type="button" id="varGoBtn">만들기</button>
+          </div>
+          <p class="ai-note">위에서 자료를 고르거나 사진을 올린 뒤 쓰세요. 정답과 풀이도 함께 나오고, AI가 검산하지만 틀릴 수 있어요.</p>
+        </details>
         <div class="ai-modebar"><button type="button" id="chatResetBtn">새 대화</button></div>
         <p class="ai-note">위에서 자료를 고르면 그 PDF를 보고 답해요. 자료실 목록(manifest)을 함께 읽어서 "해설 파일이 있는지"도 알려줘요. 자동 답변이라 틀릴 수 있어요.</p>
       </div>
@@ -2427,6 +2440,15 @@
     });
 
     chatSendBtn.addEventListener("click", () => sendChatMessage());
+    // 변형 문제: 폼 값을 문장으로 만들어 평소 채팅 흐름(자료 PDF, 대화 기록, 수식 표시)으로 보낸다.
+    document.getElementById("varGoBtn").addEventListener("click", () => {
+      if (chatBusy || AI_MAINTENANCE) return;
+      if (!aiSelectedFile && attachments.length === 0) { showToast("자료를 고르거나 문제 사진을 올려주세요."); return; }
+      const no = document.getElementById("varNo").value.trim().replace(/번$/, "");
+      const mode = document.getElementById("varMode").value, n = document.getElementById("varCount").value;
+      chatInput.value = `${no ? no + "번 문제" : "올린 문제"}를 바탕으로 변형 문제 ${n}개를 만들어줘. 방식: ${mode}. 원문을 그대로 옮기지 말고 새로 써줘. 각 문제마다 정답과 풀이를 함께 적고, 풀이는 검산해서 정답이 맞는지 확인해줘.`;
+      sendChatMessage({ task: "variant" });
+    });
 
 
     // ---- AI용: 자료 선택 + manifest 기반 "해설 존재 여부" 판별 ----
@@ -2729,6 +2751,7 @@
             file_ref: aiFileRef,
             manifest: buildManifestContext(question),
             mode: "fast",
+            task: opts.task || undefined,
           }),
         });
 
