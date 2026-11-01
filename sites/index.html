@@ -1362,9 +1362,15 @@
         <ul class="ai-results" id="omrList"></ul>
       </div>
       <p class="ai-note" id="omrStatus" hidden></p>
+      <div id="omrVerify" hidden>
+        <p class="ai-note"><strong id="omrVTitle"></strong><br />AI가 사진 PDF에서 읽은 정답이에요. 원본과 한 번 대조해서 틀린 칸은 고쳐주세요. (한 번 확인하면 다음부터는 묻지 않아요)</p>
+        <p class="ai-note"><a id="omrVLink" target="_blank" rel="noopener">정답 PDF 열어서 대조하기</a></p>
+        <div class="omr-grid" id="omrVGrid"></div>
+        <div class="omr-head"><span class="view-toolbar-actions"><button type="button" id="omrVOkBtn">확인 완료, 문제 풀기</button><button type="button" id="omrVBackBtn">다른 시험지</button></span></div>
+      </div>
       <div id="omrCard" hidden>
         <div class="omr-head"><strong id="omrTitle"></strong>
-          <span class="view-toolbar-actions"><button type="button" id="omrGradeBtn">채점하기</button><button type="button" id="omrResetBtn">다시 풀기</button><button type="button" id="omrBackBtn">다른 시험지</button></span></div>
+          <span class="view-toolbar-actions"><button type="button" id="omrGradeBtn">채점하기</button><button type="button" id="omrEditKeyBtn">정답 수정</button><button type="button" id="omrResetBtn">다시 풀기</button><button type="button" id="omrBackBtn">다른 시험지</button></span></div>
         <p class="ai-note" id="omrScore"></p>
         <div class="omr-grid" id="omrGrid"></div>
         <p class="ai-note">정답은 AI가 정답/해설 PDF에서 읽은 것이라 틀릴 수 있어요. 이상하면 원본과 대조하세요.</p>
@@ -2526,7 +2532,7 @@
     omrEl("omrSearch").addEventListener("input", () => omrExams && omrRenderList());
 
     function omrStatus(msg) { const el = omrEl("omrStatus"); el.hidden = !msg; el.textContent = msg || ""; }
-    function omrGiveUp(why) { omrEl("omrPick").hidden = false; omrEl("omrCard").hidden = true; omrStatus("이 시험지는 OMR을 만들 수 없어요: " + why); }
+    function omrGiveUp(why) { omrEl("omrVerify").hidden = true; omrEl("omrPick").hidden = false; omrEl("omrCard").hidden = true; omrStatus("이 시험지는 OMR을 만들 수 없어요: " + why); }
 
     // AI가 돌려준 정답을 형식에 맞는지 검사한다. 맞지 않으면 문구(포기 이유)를 돌려준다.
     function omrValidate(ans, spec) {
@@ -2563,10 +2569,33 @@
       }
       const why = omrValidate(ans, e.spec);
       if (why) { try { localStorage.removeItem(ck); } catch (_) {} return omrGiveUp(why); }
-      try { localStorage.setItem(ck, JSON.stringify(ans)); } catch (_) {}
       omrCur = { e, ans, mine: Array(e.spec.n).fill("") };
-      omrStatus(""); omrRenderCard();
+      omrStatus("");
+      let ok = false; try { ok = localStorage.getItem("omrOk:" + e.f.message_id) === "1"; } catch (_) {}
+      ok ? omrRenderCard() : omrShowVerify();
     }
+    // 사진 PDF라 AI가 틀리게 읽을 수 있어서, 처음 한 번은 사람이 대조·수정한다.
+    function omrShowVerify() {
+      const { e, ans } = omrCur;
+      omrEl("omrCard").hidden = true; omrEl("omrPick").hidden = true; omrEl("omrVerify").hidden = false;
+      omrEl("omrVTitle").textContent = `${e.f.title || e.f.filename} 정답 확인`;
+      const link = omrEl("omrVLink"); link.href = viewUrlFor(e.key) || "#";
+      const g = omrEl("omrVGrid"); g.innerHTML = "";
+      ans.forEach((a, i) => {
+        const row = document.createElement("div"); row.className = "omr-row"; row.innerHTML = `<b>${i + 1}</b>`;
+        const inp = document.createElement("input"); inp.type = "text"; inp.inputMode = "numeric"; inp.maxLength = 3; inp.value = a;
+        inp.addEventListener("input", () => { inp.value = inp.value.replace(/\D/g, ""); ans[i] = inp.value; });
+        row.appendChild(inp); g.appendChild(row);
+      });
+    }
+    omrEl("omrVOkBtn").addEventListener("click", () => {
+      const why = omrValidate(omrCur.ans, omrCur.e.spec);
+      if (why) { alert(why); return; }
+      try { localStorage.setItem("omrKey:" + omrCur.e.f.message_id, JSON.stringify(omrCur.ans)); localStorage.setItem("omrOk:" + omrCur.e.f.message_id, "1"); } catch (_) {}
+      omrEl("omrVerify").hidden = true; omrRenderCard();
+    });
+    omrEl("omrVBackBtn").addEventListener("click", () => { omrCur = null; omrEl("omrVerify").hidden = true; omrEl("omrPick").hidden = false; });
+    omrEl("omrEditKeyBtn").addEventListener("click", () => omrCur && omrShowVerify());
 
     function omrRenderCard() {
       const { e, mine } = omrCur;
