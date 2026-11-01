@@ -244,6 +244,7 @@ export async function handleAsk(request, env) {
       if (res.status === 503) return fail("AI 서버가 잠시 바빠요. 다시 시도해주세요.", 503, true);
       const why = String(res.data?.error?.message || "").slice(0, 160);
       console.error("gemini error", res.status, why);
+      if (/location is not supported/i.test(why)) return fail("AI 서버가 지원하지 않는 지역에서 실행되고 있어요. 관리자가 Worker 실행 위치(placement) 설정을 바꿔야 해요.", 502, true);
       return fail("AI 응답 오류가 났어요 (" + res.status + ")" + (why ? ": " + why : "."), 502, true);
     }
     const c = res.data.candidates?.[0];
