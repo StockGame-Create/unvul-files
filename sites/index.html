@@ -1199,6 +1199,30 @@
   .omr-row input { width:4rem; padding:.2rem .4rem; }
   .omr-row.ok { background:rgba(76,122,68,.15); border-color:#4C7A44; }
   .omr-row.no { background:rgba(180,60,40,.13); border-color:#B43C28; }
+  .of-sheet { --c:#1c9a6c; border:2px solid var(--c); border-radius:var(--radius-md); background:#fff; padding:.8rem; color:var(--c); }
+  .of-top { display:flex; align-items:baseline; gap:.6rem; flex-wrap:wrap; margin-bottom:.6rem; }
+  .of-top small { font-size:.85rem; font-weight:700; } .of-top h3 { margin:0; font-size:1.2rem; }
+  .of-top .per { display:inline-flex; width:2rem; height:2rem; border:2px solid var(--c); border-radius:50%; align-items:center; justify-content:center; font-weight:800; }
+  .of-body { display:flex; gap:.9rem; flex-wrap:wrap; align-items:flex-start; }
+  .of-left { flex:0 0 190px; display:flex; flex-direction:column; gap:.45rem; font-size:.75rem; }
+  .of-panel { border:1.5px solid var(--c); border-radius:var(--radius-sm); padding:.3rem .45rem; }
+  .of-panel b { display:block; margin-bottom:.15rem; }
+  .of-no { display:flex; gap:2px; } .of-no span { flex:1; height:1.3rem; border:1px solid var(--c); background:#fff; }
+  .of-left input[type=text] { width:100%; box-sizing:border-box; border:1px solid var(--c); padding:.15rem .3rem; }
+  .of-type label { margin-right:.5rem; cursor:pointer; }
+  .of-right { flex:1 1 320px; display:flex; flex-wrap:wrap; gap:.6rem; align-items:flex-start; }
+  .of-box { border:1.5px solid var(--c); border-radius:var(--radius-sm); overflow:hidden; background:#fff; }
+  .of-box > h4 { margin:0; background:color-mix(in srgb, var(--c) 14%, #fff); text-align:center; padding:.15rem .4rem; font-size:.8rem; letter-spacing:.2em; border-bottom:1px solid var(--c); }
+  .of-cols { display:flex; } .of-col + .of-col { border-left:1px solid var(--c); }
+  .of-q { display:flex; align-items:center; gap:.2rem; padding:.12rem .3rem; border-bottom:1px solid color-mix(in srgb, var(--c) 25%, #fff); }
+  .of-q:nth-child(5n) { border-bottom-color:var(--c); } .of-q:last-child { border-bottom:0; }
+  .of-q .n { width:1.4rem; text-align:right; font-size:.78rem; } .of-q:nth-child(5n) .n { font-weight:800; }
+  .of-note { border:1.5px solid var(--c); border-radius:var(--radius-sm); padding:.4rem .5rem; font-size:.72rem; max-width:210px; line-height:1.4; }
+  .ob { width:1.15rem; height:1.45rem; padding:0; border:1px solid #d0267a; border-radius:50%; background:#fff; color:#d0267a; font-size:.62rem; cursor:pointer; line-height:1; }
+  .ob.on { background:#111; color:#fff; border-color:#111; }
+  .of-sa .of-cols > div { display:flex; flex-direction:column; align-items:center; gap:2px; padding:.2rem .25rem; } .of-sa small { font-size:.65rem; }
+  .of-q.ok, .of-sa.ok { outline:2px solid #4C7A44; background:rgba(76,122,68,.12); } .of-q.no, .of-sa.no { outline:2px solid #B43C28; background:rgba(180,60,40,.1); }
+  .of-sa i, .of-q i { font-style:normal; font-size:.7rem; color:#B43C28; display:block; text-align:center; }
   .omr-row i { font-style:normal; font-size:.75rem; color:#B43C28; margin-left:auto; }
 </style>
 </head>
@@ -1372,7 +1396,7 @@
         <div class="omr-head"><strong id="omrTitle"></strong>
           <span class="view-toolbar-actions"><button type="button" id="omrGradeBtn">채점하기</button><button type="button" id="omrEditKeyBtn">정답 수정</button><button type="button" id="omrResetBtn">다시 풀기</button><button type="button" id="omrBackBtn">다른 시험지</button></span></div>
         <p class="ai-note" id="omrScore"></p>
-        <div class="omr-grid" id="omrGrid"></div>
+        <div class="of-sheet" id="omrGrid"></div>
         <p class="ai-note">정답은 AI가 정답/해설 PDF에서 읽은 것이라 틀릴 수 있어요. 이상하면 원본과 대조하세요.</p>
       </div>
     </section>
@@ -2559,7 +2583,7 @@
           `객관식은 1~5, 단답형은 0~999 숫자다. 정답표가 없거나 문항 수가 다르면 answers를 null로 해라. 형식: {"answers":["3","5", ...]}`;
         try {
           const res = await fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ question, json: true, history: [], manifest: "", mode: "fast",
+            body: JSON.stringify({ question, json: true, expect_n: e.spec.n, history: [], manifest: "", mode: "fast",
               file: { title: e.key.title || e.key.filename, download_url: e.key.download_url, size_bytes: e.key.size_bytes } }) });
           const d = await res.json();
           if (!res.ok) return omrGiveUp(d.error || "AI 응답 오류");
@@ -2597,28 +2621,68 @@
     omrEl("omrVBackBtn").addEventListener("click", () => { omrCur = null; omrEl("omrVerify").hidden = true; omrEl("omrPick").hidden = false; });
     omrEl("omrEditKeyBtn").addEventListener("click", () => omrCur && omrShowVerify());
 
+    // 2027학년도 수능 답안지 양식: 과목별 색, 문번/답란 상자, 수학 단답형 백·십·일 칸
+    const OF_LAYOUT = {
+      "국어": { p: 1, c: "#1c9a6c", t: "국 어 영 역", boxes: [{ t: "공 통 과 목", cols: [[1, 20], [21, 34]] }, { t: "선 택 과 목", cols: [[35, 45]] }] },
+      "수학": { p: 2, c: "#d81b74", t: "수 학 영 역", boxes: [{ t: "공 통 과 목", cols: [[1, 10], [11, 15]] },
+        { note: "※ 단답형 답란 표기방법\n· 십진법에 의하되 반드시 자리에 맞추어 표기\n· 정답이 한 자리면 일의 자리에만 표기하거나, 십의 자리에 0을 표기하고 일의 자리에 표기" },
+        ...[16, 17, 18, 19, 20, 21, 22].map(n => ({ sa: n })), { t: "선 택 과 목", cols: [[23, 28]] }, { sa: 29 }, { sa: 30 }] },
+      "영어": { p: 3, c: "#1b9ad6", t: "영 어 영 역", boxes: [{ t: "답 란", cols: [[1, 20]] }, { t: "답 란", cols: [[21, 40]] }, { t: "답 란", cols: [[41, 45]] }] },
+      "한국사": { p: 4, c: "#6a3fa0", t: "한 국 사 영 역", boxes: [{ t: "답 란", cols: [[1, 20]] }] },
+      "탐구": { p: 4, c: "#1f4e8c", t: "탐 구 영 역", boxes: [{ t: "제 1 선 택", cols: [[1, 20]] }] },
+      "제2외국어/한문": { p: 5, c: "#e8833a", t: "제2외국어/한문영역", boxes: [{ t: "답 란", cols: [[1, 20]] }, { t: "답 란", cols: [[21, 30]] }] },
+    };
+    const OB = "①②③④⑤";
     function omrRenderCard() {
-      const { e, mine } = omrCur;
+      const { e, mine } = omrCur, L = OF_LAYOUT[e.spec.name];
       omrEl("omrTitle").textContent = `${e.f.title || e.f.filename} (${e.spec.n}문항)`;
       omrEl("omrScore").textContent = "";
-      const grid = omrEl("omrGrid"); grid.innerHTML = "";
-      for (let i = 1; i <= e.spec.n; i++) {
-        const row = document.createElement("div"); row.className = "omr-row"; row.id = "omrRow" + i;
-        row.innerHTML = `<b>${i}</b>`;
-        if (omrKind(e.spec, i) === "m") {
-          for (let k = 1; k <= 5; k++) {
-            const b = document.createElement("button"); b.type = "button"; b.className = "bub"; b.textContent = "①②③④⑤"[k - 1];
-            b.addEventListener("click", () => { mine[i - 1] = mine[i - 1] === String(k) ? "" : String(k);
-              row.querySelectorAll(".bub").forEach((x, j) => x.classList.toggle("on", mine[i - 1] === String(j + 1))); });
-            row.appendChild(b);
-          }
-        } else {
-          const inp = document.createElement("input"); inp.type = "text"; inp.inputMode = "numeric"; inp.maxLength = 3; inp.placeholder = "0~999";
-          inp.addEventListener("input", () => { inp.value = inp.value.replace(/\D/g, ""); mine[i - 1] = inp.value ? String(Number(inp.value)) : ""; });
-          row.appendChild(inp);
+      const sheet = omrEl("omrGrid"); sheet.innerHTML = ""; sheet.style.setProperty("--c", L.c);
+      const ty = /홀수형/.test((e.f.title || "") + e.f.filename) ? "홀" : /짝수형/.test((e.f.title || "") + e.f.filename) ? "짝" : "";
+      sheet.innerHTML = `<div class="of-top"><small>2027학년도 대학수학능력시험 답안지</small><span class="per">${L.p}</span><small>교시</small><h3>${L.t}</h3></div>
+        <div class="of-body"><div class="of-left">
+          <div class="of-panel"><b>결시자 확인</b>수험생은 표기하지 말 것</div>
+          <div class="of-panel"><b>필적 확인란</b>&nbsp;</div>
+          <div class="of-panel"><b>성 명</b><input type="text" maxlength="10" /></div>
+          <div class="of-panel"><b>수 험 번 호</b><div class="of-no">${"<span></span>".repeat(8)}</div></div>
+          ${e.spec.name === "탐구" || e.spec.name === "영어" || e.spec.name === "한국사" || e.spec.name === "제2외국어/한문" ? "" : `<div class="of-panel of-type"><b>문 형</b><label><input type="radio" name="omrType" ${ty === "홀" ? "checked" : ""}/> 홀수형</label><label><input type="radio" name="omrType" ${ty === "짝" ? "checked" : ""}/> 짝수형</label></div>`}
+          <div class="of-panel"><b>감독관 확인</b>서명 또는 날인</div>
+        </div><div class="of-right" id="ofRight"></div></div>`;
+      const right = sheet.querySelector("#ofRight");
+      const mcRow = (i) => {
+        const q = document.createElement("div"); q.className = "of-q"; q.id = "omrRow" + i; q.innerHTML = `<span class="n">${i}</span>`;
+        for (let k = 1; k <= 5; k++) {
+          const b = document.createElement("button"); b.type = "button"; b.className = "ob"; b.textContent = OB[k - 1];
+          b.addEventListener("click", () => { mine[i - 1] = mine[i - 1] === String(k) ? "" : String(k);
+            q.querySelectorAll(".ob").forEach((x, j) => x.classList.toggle("on", mine[i - 1] === String(j + 1))); });
+          q.appendChild(b);
         }
-        grid.appendChild(row);
-      }
+        return q;
+      };
+      const saBox = (n) => {
+        const box = document.createElement("div"); box.className = "of-box of-sa"; box.id = "omrRow" + n;
+        box.innerHTML = `<h4>${n}번</h4><div class="of-cols"></div>`;
+        const d = { h: "", t: "", o: "" }, cols = box.querySelector(".of-cols");
+        const sync = () => { mine[n - 1] = d.o === "" ? "" : String((d.h || 0) * 100 + (d.t || 0) * 10 + Number(d.o)); };
+        [["h", "백", 1], ["t", "십", 0], ["o", "일", 0]].forEach(([key, lab, from]) => {
+          const col = document.createElement("div"); col.innerHTML = `<small>${lab}</small>`;
+          for (let v = from; v <= 9; v++) {
+            const b = document.createElement("button"); b.type = "button"; b.className = "ob"; b.textContent = v;
+            b.addEventListener("click", () => { d[key] = d[key] === v ? "" : v; sync();
+              col.querySelectorAll(".ob").forEach(x => x.classList.toggle("on", d[key] !== "" && Number(x.textContent) === d[key])); });
+            col.appendChild(b);
+          }
+          cols.appendChild(col);
+        });
+        return box;
+      };
+      L.boxes.forEach(bx => {
+        if (bx.sa) return right.appendChild(saBox(bx.sa));
+        if (bx.note) { const n = document.createElement("div"); n.className = "of-note"; n.style.whiteSpace = "pre-line"; n.textContent = bx.note; return right.appendChild(n); }
+        const box = document.createElement("div"); box.className = "of-box"; box.innerHTML = `<h4>${bx.t}</h4><div class="of-cols"></div>`;
+        bx.cols.forEach(([f, t]) => { const col = document.createElement("div"); col.className = "of-col"; for (let i = f; i <= t; i++) col.appendChild(mcRow(i)); box.querySelector(".of-cols").appendChild(col); });
+        right.appendChild(box);
+      });
       omrEl("omrCard").hidden = false;
     }
     omrEl("omrGradeBtn").addEventListener("click", () => {
