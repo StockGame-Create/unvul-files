@@ -1401,6 +1401,12 @@
   /* [hidden] 이 display:flex 규칙에 덮여 안 숨겨지던 요소들 */
   .lab-edit[hidden], #tabLab [hidden], #tabOmr [hidden] { display: none !important; }
   p.mk-line, li.mk-line, .msg-bubble p.mk-line { margin: 0.3em 0; }
+  .mk-split { background: #7A5A9E; } .mk-logic { background: #2f6f90; } .mk-graph { background: #4B93B8; } .mk-calc { background: #6B6255; }
+  .mk-line-split { border-left-color: #7A5A9E; background: rgba(122,90,158,.08); } .mk-line-logic { border-left-color: #2f6f90; background: rgba(47,111,144,.08); }
+  .mk-line-graph { border-left-color: #4B93B8; background: rgba(75,147,184,.08); } .mk-line-calc { border-left-color: #6B6255; }
+  .mk-src { background: #5a3f8f; } .mk-conf { background: #8B5E3C; } .mk-elim { background: #6B6255; } .mk-alt { background: #2f6f90; }
+  .mk-line-src { border-left-color: #5a3f8f; background: rgba(90,63,143,.07); } .mk-line-conf { border-left-color: #8B5E3C; background: rgba(139,94,60,.1); }
+  .mk-line-elim { border-left-color: #6B6255; } .mk-line-alt { border-left-color: #2f6f90; background: rgba(47,111,144,.08); }
 </style>
 </head>
 <body>
@@ -1566,6 +1572,7 @@
       <div class="lab-form">
         <input type="text" id="labNo" placeholder="문제 번호 (예: 15)" />
         <select id="labMode"><option>숫자·조건만 바꾸기</option><option>같은 유형의 새 문제</option><option>조건 구조 바꾸기 (풀이 경로 변경)</option><option>더 어렵게</option><option>더 쉽게</option><option>선지만 새로 만들기</option></select>
+        <select id="labSol" title="공식 해설 자료가 있는지"><option value="auto">해설 자료: 자동 판단</option><option value="has">해설 있음 (공식 해설 참고)</option><option value="none">해설 없음 (직접 풀이·이중 검증)</option></select>
         <select id="labCount"><option value="1">1문제</option><option value="2">2문제</option><option value="3">3문제</option></select>
         <input type="text" id="labExtra" placeholder="추가 요청 (선택) 예: 그래프 조건 추가, 계산 쉽게" />
         <button type="button" id="labGenBtn">변형 문제 만들기</button>
@@ -2323,8 +2330,8 @@
     }
 
     // ---- 해설 표시자: [핵심] [STEP 1] [함정] [검산] [정답] … 줄 머리 라벨, ==형광펜==, !!경고 밑줄!! ----
-    const MK_RE = /^\s*\[(STEP\s*\d+|단계\s*\d+|핵심|개념|조건|함정|검산|정답|팁|주의|발상|확인|정리)\]\s*/;
-    const MK_CLS = { 핵심: "key", 발상: "key", 개념: "concept", 조건: "cond", 함정: "trap", 검산: "check", 확인: "check", 정답: "ans", 팁: "tip", 주의: "warn", 정리: "sum" };
+    const MK_RE = /^\s*\[(STEP\s*\d+|단계\s*\d+|핵심|개념|조건|분류|필요|충분|그래프|계산|출처|확신|배제|다른풀이|함정|검산|정답|팁|주의|발상|확인|정리)\]\s*/;
+    const MK_CLS = { 핵심: "key", 발상: "key", 개념: "concept", 조건: "cond", 함정: "trap", 검산: "check", 확인: "check", 정답: "ans", 팁: "tip", 주의: "warn", 정리: "sum", 분류: "split", 필요: "logic", 충분: "logic", 그래프: "graph", 계산: "calc", 출처: "src", 확신: "conf", 배제: "elim", 다른풀이: "alt" };
     const dollarsEven = (t) => ((t.match(/\$/g) || []).length % 2) === 0;
     function decorateMarks(root) {
       // marked(breaks:true)가 여러 줄을 한 <p>+<br>로 묶으니, 표시자가 있는 문단은 줄마다 <p>로 쪼갠다
@@ -2374,6 +2381,11 @@
       const f = document.createElement("div"); f.className = "ai-foot";
       const chip = (cls, t) => { const c = document.createElement("span"); c.className = "chip " + cls; c.textContent = t; f.appendChild(c); };
       chip("ai", "✦ AI 생성 답변");
+      if (/\[출처\][^\n]*공식 해설 참고/.test(text)) chip("ok", "📖 공식 해설 기준");
+      else if (/\[출처\]/.test(text)) chip("tag", "🧮 AI 직접 풀이 · 해설 없음");
+      const cm = text.match(/\[확신\]\s*(높음|중간|낮음)/);
+      if (cm) chip(cm[1] === "높음" ? "ok" : cm[1] === "중간" ? "" : "warn", "확신도 " + cm[1]);
+      if (/\[다른풀이\]/.test(text)) chip("ok", "✓ 다른 방법으로 재확인");
       if (/\[STEP\s*\d+\]/.test(text)) chip("", "☰ 단계별 풀이");
       if (/\[검산\]/.test(text)) chip("ok", "✓ 검산 단계 포함");
       if (/\[함정\]|\[주의\]/.test(text)) chip("warn", "⚠ 함정·주의 포인트");
@@ -2992,7 +3004,7 @@
       const c = { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), src, q, ch: ch.length >= 2 ? ch : [], ans, sol: String(p.solution || ""), mine: "", graded: null, open: false,
         kind: kind || "gen", fresh: true, stem: String(p.stem || "").trim(), cond: arr(p.conditions), pts: (String(p.points || "").match(/\d+/) || [""])[0],
         diff: ["쉬움", "보통", "어려움", "킬러"].includes(p.difficulty) ? p.difficulty : "", concepts: arr(p.concepts).slice(0, 4),
-        idea: String(p.idea || "").trim(), trap: String(p.trap || "").trim(), change: String(p.change || "").trim() };
+        basis: p.basis === "official" ? "official" : "self", conf: ["높음", "중간", "낮음"].includes(p.confidence) ? p.confidence : "", idea: String(p.idea || "").trim(), trap: String(p.trap || "").trim(), change: String(p.change || "").trim() };
       c.chk = labCheck(c);
       return c;
     }
@@ -3010,7 +3022,7 @@
     async function labCall(task, question, useFile, x = {}) {
       const f = useFile ? aiSelectedFile : null;
       const res = await fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ task, json: true, lab_mode: x.mode, lab_n: x.n ? Number(x.n) : undefined, question, history: [], manifest: "", mode: "fast",
+        body: JSON.stringify({ task, json: true, lab_mode: x.mode, lab_sol: (labEl("labSol") || {}).value || "auto", lab_n: x.n ? Number(x.n) : undefined, question, history: [], manifest: "", mode: "fast",
           file: f ? { title: f.title || f.filename, download_url: f.download_url, size_bytes: f.size_bytes } : null, file_ref: f ? aiFileRef : null }) });
       let d; try { d = await res.json(); } catch (_) { throw new Error("서버 응답을 해석하지 못했어요"); }
       if (!res.ok) throw new Error(d.error || "AI 오류가 났어요");
@@ -3130,6 +3142,8 @@
       const bd = document.createElement("div"); bd.className = "lab-badges";
       const chip = (cls, t, title) => { const c = document.createElement("span"); c.className = "chip " + cls; c.textContent = t; if (title) c.title = title; bd.appendChild(c); };
       chip("ai", p.re ? "✦ AI 재풀이" : (LAB_KIND[p.kind] || "✦ AI 생성"));
+      if (p.basis) chip(p.basis === "official" ? "ok" : "tag", p.basis === "official" ? "📖 공식 해설 참고" : "🧮 AI 직접 풀이 · 해설 없음", p.basis === "official" ? "자료의 공식 해설을 근거로 썼어요" : "공식 해설 없이 AI가 직접 풀고 다른 방법으로 재확인했어요");
+      if (p.conf) chip(p.conf === "높음" ? "ok" : p.conf === "중간" ? "diff d2" : "warn", "확신도 " + p.conf, "AI가 스스로 매긴 확신도예요. 낮음이면 공식 해설과 꼭 대조하세요");
       if (p.diff) chip("diff " + (DIFF_CLS[p.diff] || ""), "난이도 " + p.diff);
       (p.concepts || []).forEach(c => chip("tag", "# " + c));
       chip("", p.ch.length ? "객관식" : "단답형");
@@ -3195,6 +3209,7 @@
         const sol = document.createElement("div"); sol.className = "lab-sol";
         const sh = document.createElement("div"); sh.className = "sol-head"; sh.innerHTML = '<span class="chip ai">✦ AI 해설</span>';
         if (/\[STEP\s*\d+\]/.test(p.sol)) sh.insertAdjacentHTML("beforeend", '<span class="chip">☰ 단계별 풀이</span>');
+        if (/\[다른풀이\]/.test(p.sol)) sh.insertAdjacentHTML("beforeend", '<span class="chip ok">✓ 두 방법 확인</span>');
         if (/\[검산\]/.test(p.sol)) sh.insertAdjacentHTML("beforeend", '<span class="chip ok">✓ 검산 포함</span>');
         if (p.chk === true) sh.insertAdjacentHTML("beforeend", '<span class="chip ok">✓ 정답 일치</span>');
         sol.appendChild(sh);
