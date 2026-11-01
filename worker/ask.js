@@ -2,7 +2,7 @@
 // 사용: worker/index.js 에서  import { handleAsk } from "./ask.js";
 //       if (url.pathname === "/api/ask" && request.method === "POST") return handleAsk(request, env);
 // 필요 설정: 비밀값 GEMINI_API_KEY (wrangler secret put GEMINI_API_KEY)
-// 선택 변수: ASK_MODELS_FAST(쉼표 구분, 앞에서부터 시도. 기본 gemini-3.5-flash-lite,gemini-3.5-flash), ASK_RATE_PER_MIN(IP당 분당, 기본 8)
+// 선택 변수: ASK_MODELS_FAST(쉼표 구분, 앞에서부터 시도. 기본 gemini-3.5-flash-lite,gemini-3.5-flash), ASK_MODELS_OMR(OMR 정답 읽기용, 기본 gemini-3.5-flash,gemini-3.5-flash-lite), ASK_RATE_PER_MIN(IP당 분당, 기본 8)
 const API = "https://generativelanguage.googleapis.com";
 const MAX_PDF = 45 * 1024 * 1024;
 const SYSTEM = `당신은 한국 학생을 돕는 AI 튜터 "Unvul AI"입니다. 한국어로 정확하고 간결하게 답하세요.
@@ -80,7 +80,7 @@ export async function handleAsk(request, env) {
 
   try {
     if (dl && !ref) ref = await uploadPdf(dl, b.file.title || "자료", key);
-    const models = (env.ASK_MODELS_FAST || "gemini-3.5-flash-lite,gemini-3.5-flash").split(",").map(x => x.trim()).filter(Boolean);
+    const models = (asJson ? (env.ASK_MODELS_OMR || "gemini-3.5-flash,gemini-3.5-flash-lite") : (env.ASK_MODELS_FAST || "gemini-3.5-flash-lite,gemini-3.5-flash")).split(",").map(x => x.trim()).filter(Boolean);
     let res;
     for (const m of models) {
       res = await generate(m, build(), key);
