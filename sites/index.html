@@ -3310,6 +3310,18 @@
       const base = labSplit(p.q);
       const o = (p.cond && p.cond.length) ? { stem: p.stem || "", cond: p.cond, q: base.q, pts: p.pts || base.pts }
         : { stem: [p.stem, base.stem].filter(Boolean).join("\n"), cond: base.cond, q: base.q, pts: p.pts || base.pts };
+      // AI가 마지막 물음("이고 …일 때, …의 값은? [4점]")을 조건 박스 안에 넣은 경우 박스 밖 물음으로 되돌린다
+      const isAsk = (l) => !COND_RE.test(l) && /(\?|구하시오\.?|구하여라\.?|[?？])\s*(\[\s*\d+\s*점\s*\])?\s*$/.test(l.trim());
+      const nz = (x) => String(x || "").replace(/[\s$]/g, "").replace(/[?？.。]+$/, "");
+      const keep = [];
+      o.cond.forEach((l, i) => {
+        if (i === o.cond.length - 1 && o.cond.length >= 1 && isAsk(l)) {
+          let line = l.trim(); const pm = line.match(/\[\s*(\d+)\s*점\s*\]\s*$/); if (pm) { o.pts = o.pts || pm[1]; line = line.slice(0, pm.index).trim(); }
+          const qq = (o.q || "").trim();
+          o.q = (!qq || nz(line).includes(nz(qq))) ? line : (nz(qq).includes(nz(line)) ? qq : line + "\n" + qq);
+        } else keep.push(l);
+      });
+      o.cond = keep;
       // AI가 같은 문장을 stem·question에 두 번 넣는 경우 한 번만 보이게
       const q = (o.q || "").trim();
       if (q) { let st = o.stem.trim(); while (st.endsWith(q)) st = st.slice(0, -q.length).trim(); o.stem = st; o.cond = o.cond.filter(c => c.trim() !== q); }
