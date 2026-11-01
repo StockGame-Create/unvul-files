@@ -2871,6 +2871,18 @@
       return normName([f.filename, f.title, f.instructor, f.subject, f.year, f.year ? f.year + "학년도" : "", f.exam, f.kind].filter(Boolean).join(" "));
     }
     function aiMatch(f, q) { return q.split(/\s+/).filter(Boolean).every(t => aiHay(f).includes(t)); }
+    // 검색어에 "평가원"이 있으면 평가원 자료를 먼저 보여준다(그 단어는 검색어에서 빼고, 나머지 단어로 거른다).
+    // "평가원"만 쓰면 평가원 자료만, 다른 단어가 더 있으면 평가원 결과 뒤에 파일 보관함 결과를 잇는다.
+    function aiSearch(q) {
+      const toks = q.split(/\s+/).filter(Boolean);
+      const wantKice = toks.includes("평가원");
+      const rest = toks.filter(t => t !== "평가원").join(" ");
+      const pool = aiPool();
+      if (!wantKice) return pool.filter(f => aiMatch(f, q));
+      const kice = pool.filter(f => f.exam && aiMatch(f, rest)).sort(KICE_SORTERS.exam);
+      if (!rest) return kice;
+      return kice.concat(pool.filter(f => !f.exam && aiMatch(f, rest)));
+    }
     function aiLabel(f) {
       const t = f.title || f.filename;
       const ex = f.exam && !String(t).includes(f.exam) ? " · " + f.exam : "";
@@ -2932,7 +2944,7 @@
       const q = normName(aiFileSearch.value.trim());
       aiFileResults.innerHTML = "";
       if (!q) return;
-      aiPool().filter(f => aiMatch(f, q))
+      aiSearch(q)
         .slice(0, 8).forEach(f => {
           const li = document.createElement("li");
           li.textContent = aiLabel(f);
@@ -3332,7 +3344,7 @@
     const labSync = () => { labEl("labPick").hidden = !!aiSelectedFile; labEl("labSelected").hidden = !aiSelectedFile; labEl("labSelectedName").textContent = aiSelectedFile ? (aiSelectedFile.title || aiSelectedFile.filename) : ""; };
     labEl("labFileSearch").addEventListener("input", () => {
       const q = normName(labEl("labFileSearch").value.trim()), ul = labEl("labFileResults"); ul.innerHTML = ""; if (!q) return;
-      aiPool().filter(f => aiMatch(f, q)).slice(0, 8).forEach(f => {
+      aiSearch(q).slice(0, 8).forEach(f => {
         const li = document.createElement("li"); li.textContent = aiLabel(f);
         li.addEventListener("click", () => { selectAiFile(f); labEl("labFileSearch").value = ""; ul.innerHTML = ""; labSync(); }); ul.appendChild(li);
       });
