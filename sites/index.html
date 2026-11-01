@@ -1724,9 +1724,11 @@
       <div class="notice-body">
         <div class="set-sec">
           <h3>색상</h3>
+          <div class="set-row"><label for="setBg">배경 컬러</label><input type="color" id="setBg" /><span id="setBgSw" class="set-sw"></span></div>
           <div class="set-row"><label for="setMain">메인 컬러</label><input type="color" id="setMain" /><span id="setMainSw" class="set-sw"></span></div>
           <div class="set-row"><label for="setSub">서브 컬러</label><input type="color" id="setSub" /><span id="setSubSw" class="set-sw"></span></div>
-          <p class="set-note" id="setColorNote">메인은 글자·제목·버튼, 서브는 강조선·마우스 올렸을 때 색이에요.</p>
+          <p class="set-note" id="setColorNote">배경은 페이지 바탕, 메인은 글자·제목·버튼, 서브는 강조선·마우스 올렸을 때 색이에요. 밝은 배경 + 진한 글자 조합만 쓸 수 있어요.</p>
+          <div class="set-row"><button type="button" class="notice-btn" id="setColorReset" style="flex:0 0 auto;padding:0.4rem 0.8rem;font-size:0.8rem">색상 초기화</button></div>
         </div>
         <div class="set-sec">
           <h3>문제 생성실 저장</h3>
@@ -2245,10 +2247,11 @@
 
     // ---- 설정(톱니바퀴): 색상 / 문제 생성실 저장 / 파일 보관함 AI 버튼 ----
     const SET_KEY = "unvulSettings";
-    const SET_DEF = { main: "#262220", sub: "#8B5E3C", labSave: true, labMax: 30, shelfAi: false };
+    const SET_DEF = { bg: "#F6F1E7", main: "#262220", sub: "#8B5E3C", labSave: true, labMax: 30, shelfAi: false };
     const settings = Object.assign({}, SET_DEF);
     try {
       const o = JSON.parse(localStorage.getItem(SET_KEY) || "{}");
+      if (/^#[0-9a-f]{6}$/i.test(o.bg)) settings.bg = o.bg;
       if (/^#[0-9a-f]{6}$/i.test(o.main)) settings.main = o.main;
       if (/^#[0-9a-f]{6}$/i.test(o.sub)) settings.sub = o.sub;
       if (typeof o.labSave === "boolean") settings.labSave = o.labSave;
@@ -2256,25 +2259,35 @@
       if (typeof o.shelfAi === "boolean") settings.shelfAi = o.shelfAi;
     } catch (_) {}
     const saveSettings = () => { try { localStorage.setItem(SET_KEY, JSON.stringify(settings)); } catch (_) {} };
-    const PAPER_HEX = "#F6F1E7";
     const lumOf = (hex) => { const c = [1, 3, 5].map(i => parseInt(hex.substr(i, 2), 16) / 255).map(v => v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4)); return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2]; };
     const contrastOf = (a, b) => { const x = lumOf(a), y = lumOf(b); return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); };
+    // 배경·메인에서 보조색(살짝 다른 바탕, 구분선, 흐린 글자)을 섞어서 만든다.
+    const mixHex = (a, b, t) => "#" + [1, 3, 5].map(i => Math.round(parseInt(a.substr(i, 2), 16) * (1 - t) + parseInt(b.substr(i, 2), 16) * t).toString(16).padStart(2, "0")).join("");
+    const isDefColor = (k) => settings[k].toLowerCase() === SET_DEF[k].toLowerCase();
     function applyColors() {
       const st = document.documentElement.style;
-      if (settings.main.toLowerCase() === SET_DEF.main.toLowerCase()) st.removeProperty("--ink"); else st.setProperty("--ink", settings.main);
-      if (settings.sub.toLowerCase() === SET_DEF.sub.toLowerCase()) st.removeProperty("--leather"); else st.setProperty("--leather", settings.sub);
+      const put = (name, val) => { if (val) st.setProperty(name, val); else st.removeProperty(name); };
+      put("--paper", isDefColor("bg") ? "" : settings.bg);
+      put("--ink", isDefColor("main") ? "" : settings.main);
+      put("--leather", isDefColor("sub") ? "" : settings.sub);
+      const custom = !isDefColor("bg") || !isDefColor("main");
+      put("--paper-raised", custom ? mixHex(settings.bg, settings.main, 0.06) : "");
+      put("--rule", custom ? mixHex(settings.bg, settings.main, 0.17) : "");
+      put("--ink-soft", custom ? mixHex(settings.bg, settings.main, 0.72) : "");
     }
     applyColors();
 
     const SET_PRESETS = {
+      bg: ["#F6F1E7", "#FFFFFF", "#F1F1EE", "#EEF2F7", "#EDF3EC", "#F7ECEC"],
       main: ["#262220", "#1F2A44", "#1F3A2E", "#3B1F2B", "#4A3B2A"],
       sub: ["#8B5E3C", "#E4572E", "#3F5D5B", "#7A5A9E", "#9A7414"],
     };
     const setEl = (id) => document.getElementById(id);
     function setSyncUi() {
-      for (const k of ["main", "sub"]) {
-        setEl(k === "main" ? "setMain" : "setSub").value = settings[k];
-        setEl(k === "main" ? "setMainSw" : "setSubSw").querySelectorAll(".swatch").forEach(b => b.classList.toggle("on", b.dataset.c.toLowerCase() === settings[k].toLowerCase()));
+      for (const k of ["bg", "main", "sub"]) {
+        const K = k[0].toUpperCase() + k.slice(1);
+        setEl("set" + K).value = settings[k];
+        setEl("set" + K + "Sw").querySelectorAll(".swatch").forEach(b => b.classList.toggle("on", b.dataset.c.toLowerCase() === settings[k].toLowerCase()));
       }
       setEl("setLabSave").checked = settings.labSave;
       setEl("setLabMax").value = String(settings.labMax);
@@ -2283,23 +2296,27 @@
       const n = document.getElementById("labSaveNote");
       if (n) n.textContent = settings.labSave ? `카드는 이 브라우저에만 저장돼요(최대 ${settings.labMax}개).` : "저장이 꺼져 있어요. 새로고침하면 카드가 사라져요.";
     }
+    const SET_NOTE = "배경은 페이지 바탕, 메인은 글자·제목·버튼, 서브는 강조선·마우스 올렸을 때 색이에요. 밝은 배경 + 진한 글자 조합만 쓸 수 있어요.";
     function setColor(kind, hex) {
       const note = setEl("setColorNote");
       if (!/^#[0-9a-f]{6}$/i.test(hex)) return;
-      if (kind === "main" && contrastOf(hex, PAPER_HEX) < 4.5) { note.textContent = "그 색은 배경 위에서 글자가 잘 안 보여서 적용하지 않았어요. 더 진한 색을 골라주세요."; setSyncUi(); return; }
-      if (kind === "sub" && contrastOf(hex, PAPER_HEX) < 3) { note.textContent = "그 색은 너무 연해서 적용하지 않았어요. 더 진한 색을 골라주세요."; setSyncUi(); return; }
-      note.textContent = "메인은 글자·제목·버튼, 서브는 강조선·마우스 올렸을 때 색이에요.";
+      const bad = (msg) => { note.textContent = msg; setSyncUi(); };
+      if (kind === "main" && contrastOf(hex, settings.bg) < 7) return bad("그 색은 배경 위에서 글자가 잘 안 보여서 적용하지 않았어요. 더 진한 색을 골라주세요.");
+      if (kind === "sub" && contrastOf(hex, settings.bg) < 3) return bad("그 색은 배경 위에서 너무 연해서 적용하지 않았어요. 더 진한 색을 골라주세요.");
+      if (kind === "bg" && (contrastOf(settings.main, hex) < 7 || contrastOf(settings.sub, hex) < 3)) return bad("그 배경은 지금 메인·서브 컬러와 대비가 낮아서 적용하지 않았어요. 더 밝은 배경을 고르거나 메인·서브를 먼저 바꿔주세요.");
+      note.textContent = SET_NOTE;
       settings[kind] = hex; applyColors(); saveSettings(); setSyncUi();
     }
     function setRerenderShelf() { if (typeof allFiles !== "undefined" && allFiles.length) renderPage(); }
 
-    for (const [kind, boxId] of [["main", "setMainSw"], ["sub", "setSubSw"]]) {
+    for (const [kind, boxId] of [["bg", "setBgSw"], ["main", "setMainSw"], ["sub", "setSubSw"]]) {
       for (const c of SET_PRESETS[kind]) {
         const b = document.createElement("button"); b.type = "button"; b.className = "swatch"; b.dataset.c = c; b.style.background = c; b.title = c;
         b.addEventListener("click", () => setColor(kind, c));
         setEl(boxId).appendChild(b);
       }
     }
+    setEl("setBg").addEventListener("change", (e) => setColor("bg", e.target.value));
     setEl("setMain").addEventListener("change", (e) => setColor("main", e.target.value));
     setEl("setSub").addEventListener("change", (e) => setColor("sub", e.target.value));
     setEl("setLabSave").addEventListener("change", (e) => {
@@ -2309,10 +2326,15 @@
     });
     setEl("setLabMax").addEventListener("change", (e) => { settings.labMax = Number(e.target.value) || 30; saveSettings(); labSave(); setSyncUi(); });
     setEl("setShelfAi").addEventListener("change", (e) => { settings.shelfAi = e.target.checked; saveSettings(); setRerenderShelf(); });
+    setEl("setColorReset").addEventListener("click", () => { // 색상(배경·메인·서브)만 처음 상태로
+      settings.bg = SET_DEF.bg; settings.main = SET_DEF.main; settings.sub = SET_DEF.sub;
+      applyColors(); saveSettings(); setSyncUi();
+      setEl("setColorNote").textContent = "색상을 처음 상태로 되돌렸어요.";
+    });
     setEl("setReset").addEventListener("click", () => {
       if (!confirm("설정을 모두 처음 상태로 되돌릴까요? (만든 문제 카드는 그대로예요)")) return;
       Object.assign(settings, SET_DEF); applyColors(); saveSettings(); labSave(); setSyncUi(); setRerenderShelf();
-      setEl("setColorNote").textContent = "메인은 글자·제목·버튼, 서브는 강조선·마우스 올렸을 때 색이에요.";
+      setEl("setColorNote").textContent = SET_NOTE;
     });
     const setOverlay = setEl("settingsOverlay");
     const setOpen = () => { setSyncUi(); setOverlay.hidden = false; setEl("setClose").focus(); };
