@@ -1226,6 +1226,16 @@
   .ai-variant { border:1px solid var(--rule); border-radius:var(--radius-md); padding:.4rem .6rem; margin:.5rem 0; background:var(--paper-raised); }
   .ai-variant summary { cursor:pointer; font-weight:600; }
   .ai-variant-row { display:flex; gap:.4rem; flex-wrap:wrap; margin:.5rem 0 .2rem; } .ai-variant-row input { flex:1 1 220px; }
+  .lab-form { display:flex; gap:.4rem; flex-wrap:wrap; margin:.6rem 0; } .lab-form input[type=text] { flex:1 1 180px; }
+  .lab-card { border:1px solid var(--rule); border-radius:var(--radius-md); background:#fff; padding:.8rem .9rem; margin:.7rem 0; box-shadow:var(--shadow-sm); }
+  .lab-head { display:flex; gap:.5rem; align-items:center; margin-bottom:.4rem; font-size:.82rem; color:var(--ink-soft); } .lab-head b { color:var(--ink); } .lab-head .sp { flex:1; }
+  .lab-q { font-size:1rem; line-height:1.7; margin:.3rem 0 .5rem; }
+  .lab-chs { display:flex; flex-direction:column; gap:.3rem; margin:.4rem 0; }
+  .lab-ch { display:flex; gap:.5rem; text-align:left; align-items:baseline; border:1px solid var(--rule); background:var(--paper); border-radius:var(--radius-sm); padding:.35rem .6rem; cursor:pointer; color:var(--ink); }
+  .lab-ch.on { border-color:var(--ink); background:var(--paper-raised); font-weight:600; } .lab-ch.ok { border-color:#4C7A44; background:rgba(76,122,68,.15); } .lab-ch.no { border-color:#B43C28; background:rgba(180,60,40,.12); }
+  .lab-acts { display:flex; gap:.4rem; flex-wrap:wrap; margin-top:.5rem; } .lab-edit { display:flex; gap:.4rem; margin-top:.5rem; } .lab-edit input { flex:1; }
+  .lab-res { margin-top:.4rem; font-weight:700; } .lab-sol { margin-top:.5rem; padding:.6rem .8rem; background:var(--paper); border-left:3px solid var(--teal); border-radius:var(--radius-sm); line-height:1.7; }
+  .lab-send { margin-top:.4rem; font-size:.78rem; }
   .omr-row i { font-style:normal; font-size:.75rem; color:#B43C28; margin-left:auto; }
 </style>
 </head>
@@ -1241,6 +1251,7 @@
       <button type="button" class="tab-btn active" id="tabBtnFiles">파일 보관함</button>
       <button type="button" class="tab-btn" id="tabBtnKice">평가원</button>
       <button type="button" class="tab-btn" id="tabBtnView">파일 관리</button>
+      <button type="button" class="tab-btn" id="tabBtnLab">문제 생성실</button>
       <button type="button" class="tab-btn" id="tabBtnOmr" hidden>OMR 채점</button>
       <button type="button" class="tab-btn" id="tabBtnAi">Unvul AI에게 물어보기</button>
     </div>
@@ -1381,6 +1392,26 @@
       </div>
     </section>
 
+    <section class="tab-panel" id="tabLab" hidden>
+      <div id="labPick">
+        <label class="ai-field-label" for="labFileSearch">기준이 될 자료 (없어도 "추가 요청"만으로 만들 수 있어요)</label>
+        <input type="text" id="labFileSearch" placeholder="제목, 강사, 과목, 파일명으로 찾기" autocomplete="off" />
+        <ul class="ai-results" id="labFileResults"></ul>
+      </div>
+      <div class="ai-selected" id="labSelected" hidden><span id="labSelectedName"></span><span class="view-toolbar-actions"><button type="button" id="labFileResetBtn">다른 파일 선택</button></span></div>
+      <div class="lab-form">
+        <input type="text" id="labNo" placeholder="문제 번호 (예: 15)" />
+        <select id="labMode"><option>숫자·조건만 바꾸기</option><option>같은 유형의 새 문제</option><option>더 어렵게</option><option>더 쉽게</option><option>선지만 새로 만들기</option></select>
+        <select id="labCount"><option value="1">1문제</option><option value="2">2문제</option><option value="3">3문제</option></select>
+        <input type="text" id="labExtra" placeholder="추가 요청 (선택) 예: 그래프 조건 추가, 계산 쉽게" />
+        <button type="button" id="labGenBtn">변형 문제 만들기</button>
+        <button type="button" id="labImportBtn">이 번호 문제 그대로 가져오기</button>
+      </div>
+      <p class="ai-note" id="labStatus"></p>
+      <div id="labList"></div>
+      <p class="ai-note">정답·풀이는 AI가 만들고 검증하지만 틀릴 수 있어요. 카드는 이 브라우저에만 저장돼요(최대 30개). <button type="button" id="labClearBtn">모두 지우기</button></p>
+    </section>
+
     <section class="tab-panel" id="tabOmr" hidden>
       <div id="omrPick">
         <label class="ai-field-label" for="omrSearch">정답(빠른정답/해설)이 같이 올라온 시험지만 보여줘요</label>
@@ -1416,17 +1447,7 @@
           <span id="aiSelectedName"></span>
           <span class="view-toolbar-actions"><button type="button" id="aiFileResetBtn">다른 파일 선택</button></span>
         </div>
-        <details class="ai-variant" id="aiVariant">
-          <summary>변형 문제 만들기</summary>
-          <div class="ai-variant-row">
-            <input type="text" id="varNo" placeholder="문제 번호 (예: 21) — 사진을 올렸다면 비워두세요" />
-            <select id="varMode"><option>숫자·조건만 바꾸기</option><option>같은 유형의 새 문제</option><option>더 어렵게</option><option>더 쉽게</option><option>선지만 새로 만들기</option></select>
-            <select id="varCount"><option value="1">1문제</option><option value="2">2문제</option><option value="3">3문제</option></select>
-            <button type="button" id="varGoBtn">만들기</button>
-          </div>
-          <p class="ai-note">위에서 자료를 고르거나 사진을 올린 뒤 쓰세요. 정답과 풀이도 함께 나오고, AI가 검산하지만 틀릴 수 있어요.</p>
-        </details>
-        <div class="ai-modebar"><button type="button" id="chatResetBtn">새 대화</button></div>
+        <div class="ai-modebar"><button type="button" id="chatResetBtn">새 대화</button><button type="button" id="aiToLabBtn">문제 생성실로 →</button></div>
         <p class="ai-note">위에서 자료를 고르면 그 PDF를 보고 답해요. 자료실 목록(manifest)을 함께 읽어서 "해설 파일이 있는지"도 알려줘요. 자동 답변이라 틀릴 수 있어요.</p>
       </div>
 
@@ -1921,6 +1942,8 @@
     const tabView = document.getElementById("tabView");
     const tabAi = document.getElementById("tabAi");
     const tabBtnOmr = document.getElementById("tabBtnOmr");
+    const tabLab = document.getElementById("tabLab");
+    const tabBtnLab = document.getElementById("tabBtnLab");
     const tabOmr = document.getElementById("tabOmr");
     const tabBtnKice = document.getElementById("tabBtnKice");
     const tabKice = document.getElementById("tabKice");
@@ -1933,6 +1956,9 @@
       tabView.hidden = name !== "view";
       tabAi.hidden = name !== "ai";
       tabOmr.hidden = name !== "omr";
+      tabLab.hidden = name !== "lab";
+      tabBtnLab.classList.toggle("active", name === "lab");
+      if (name === "lab") labRender();
       tabBtnOmr.classList.toggle("active", name === "omr");
       if (name === "omr") omrInit();
       tabBtnFiles.classList.toggle("active", name === "files");
@@ -1949,6 +1975,7 @@
     tabBtnView.addEventListener("click", () => showTab("view"));
     tabBtnAi.addEventListener("click", () => showTab("ai"));
     tabBtnOmr.addEventListener("click", () => showTab("omr"));
+    tabBtnLab.addEventListener("click", () => showTab("lab"));
 
     // ---- 파일 관리 (웹사이트 안에서 PDF 바로 보기) ----
     // GitHub Release 자산 URL은 Content-Disposition: attachment가 붙어서
@@ -2193,6 +2220,7 @@
           if (i >= fullText.length) {
             clearInterval(timer);
             renderMarkdownInto(bubbleEl, fullText);
+            addLabSendButton(bubbleEl, fullText);
             scrollChatToBottom();
             resolve();
           }
@@ -2440,15 +2468,6 @@
     });
 
     chatSendBtn.addEventListener("click", () => sendChatMessage());
-    // 변형 문제: 폼 값을 문장으로 만들어 평소 채팅 흐름(자료 PDF, 대화 기록, 수식 표시)으로 보낸다.
-    document.getElementById("varGoBtn").addEventListener("click", () => {
-      if (chatBusy || AI_MAINTENANCE) return;
-      if (!aiSelectedFile && attachments.length === 0) { showToast("자료를 고르거나 문제 사진을 올려주세요."); return; }
-      const no = document.getElementById("varNo").value.trim().replace(/번$/, "");
-      const mode = document.getElementById("varMode").value, n = document.getElementById("varCount").value;
-      chatInput.value = `${no ? no + "번 문제" : "올린 문제"}를 바탕으로 변형 문제 ${n}개를 만들어줘. 방식: ${mode}. 원문을 그대로 옮기지 말고 새로 써줘. 각 문제마다 정답과 풀이를 함께 적고, 풀이는 검산해서 정답이 맞는지 확인해줘.`;
-      sendChatMessage({ task: "variant" });
-    });
 
 
     // ---- AI용: 자료 선택 + manifest 기반 "해설 존재 여부" 판별 ----
@@ -2722,6 +2741,133 @@
     });
     omrEl("omrResetBtn").addEventListener("click", () => { if (!omrCur) return; omrCur.mine.fill(""); omrRenderCard(); });
     omrEl("omrBackBtn").addEventListener("click", () => { omrCur = null; omrEl("omrCard").hidden = true; omrEl("omrPick").hidden = false; omrStatus(""); });
+
+
+    // ---- 문제 생성실: 문제 카드(변형/가져오기/AI 수정·풀이/직접 풀기) ----
+    const labEl = (id) => document.getElementById(id);
+    let labProblems = [], labBusy = false;
+    try { labProblems = JSON.parse(localStorage.getItem("unvulLab") || "[]"); } catch (_) {}
+    const labSave = () => { try { localStorage.setItem("unvulLab", JSON.stringify(labProblems.slice(0, 30))); } catch (_) {} };
+    const labStatus = (m) => { labEl("labStatus").textContent = m || ""; };
+    const CIRC = "①②③④⑤";
+
+    function labNorm(p, src) {
+      const q = String(p.question || "").trim(); let ans = String(p.answer || "").trim();
+      if (!q || !ans) return null;
+      const ch = (Array.isArray(p.choices) ? p.choices.map(x => String(x).trim()).filter(Boolean) : []).slice(0, 5);
+      const ci = CIRC.indexOf(ans[0]); ans = ci >= 0 ? String(ci + 1) : ans.replace(/\s/g, "");
+      return { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), src, q, ch: ch.length >= 2 ? ch : [], ans, sol: String(p.solution || ""), mine: "", graded: null, open: false };
+    }
+    async function labCall(task, question, useFile) {
+      const f = useFile ? aiSelectedFile : null;
+      const res = await fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ task, json: true, question, history: [], manifest: "", mode: "fast",
+          file: f ? { title: f.title || f.filename, download_url: f.download_url, size_bytes: f.size_bytes } : null, file_ref: f ? aiFileRef : null }) });
+      let d; try { d = await res.json(); } catch (_) { throw new Error("서버 응답을 해석하지 못했어요"); }
+      if (!res.ok) throw new Error(d.error || "AI 오류가 났어요");
+      if (d.file_ref) aiFileRef = d.file_ref;
+      const m = String(d.answer || "").match(/\{[\s\S]*\}/); if (!m) throw new Error("AI 답을 읽지 못했어요");
+      return JSON.parse(m[0]).problems || [];
+    }
+    async function labRun(msg, fn) {
+      if (labBusy) return; labBusy = true; labStatus(msg);
+      document.querySelectorAll("#tabLab button").forEach(b => b.disabled = true);
+      try { await fn(); } catch (e) { labStatus(e.message || "실패했어요"); }
+      finally { labBusy = false; document.querySelectorAll("#tabLab button").forEach(b => b.disabled = false); }
+    }
+    function labAdd(arr, src, emptyMsg) {
+      const cards = arr.map(p => labNorm(p, src)).filter(Boolean);
+      if (!cards.length) { labStatus(emptyMsg); return; }
+      labProblems.unshift(...cards); labSave(); labRender(); labStatus(`${cards.length}개를 만들었어요.`);
+    }
+
+    // 자료 선택(AI 탭과 같은 선택 상태를 공유)
+    const labSync = () => { labEl("labPick").hidden = !!aiSelectedFile; labEl("labSelected").hidden = !aiSelectedFile; labEl("labSelectedName").textContent = aiSelectedFile ? (aiSelectedFile.title || aiSelectedFile.filename) : ""; };
+    labEl("labFileSearch").addEventListener("input", () => {
+      const q = normName(labEl("labFileSearch").value.trim()), ul = labEl("labFileResults"); ul.innerHTML = ""; if (!q) return;
+      allFiles.filter(f => normName([f.filename, f.title, f.instructor, f.subject, f.year].filter(Boolean).join(" ")).includes(q)).slice(0, 8).forEach(f => {
+        const li = document.createElement("li"); li.textContent = `${f.title || f.filename} · ${formatDate(f.telegram_date)}`;
+        li.addEventListener("click", () => { selectAiFile(f); labEl("labFileSearch").value = ""; ul.innerHTML = ""; labSync(); }); ul.appendChild(li);
+      });
+    });
+    labEl("labFileResetBtn").addEventListener("click", () => { resetAiFile(); labSync(); });
+    document.getElementById("aiToLabBtn").addEventListener("click", () => showTab("lab"));
+
+    labEl("labGenBtn").addEventListener("click", () => {
+      const no = labEl("labNo").value.trim().replace(/번$/, ""), mode = labEl("labMode").value, n = labEl("labCount").value, extra = labEl("labExtra").value.trim();
+      if (!aiSelectedFile && !extra) { labStatus("자료를 고르거나, 추가 요청에 만들 문제를 적어주세요."); return; }
+      if (aiSelectedFile && !no) { labStatus("문제 번호를 적어주세요."); return; }
+      const q = aiSelectedFile ? `${no}번 문제를 바탕으로 변형 문제 ${n}개를 만들어줘. 방식: ${mode}.` + (extra ? ` 추가 요청: ${extra}` : "")
+                               : `다음 요청대로 새 문제 ${n}개를 만들어줘: ${extra}`;
+      labRun("AI가 문제를 만들고 검증하는 중이에요… (최대 40초)", async () =>
+        labAdd(await labCall("gen", q, true), `${aiSelectedFile ? (aiSelectedFile.title || aiSelectedFile.filename) + " " + no + "번 변형" : "AI 출제"}`, "문제를 만들지 못했어요. 번호와 자료를 확인하거나 다시 시도해주세요."));
+    });
+    labEl("labImportBtn").addEventListener("click", () => {
+      const no = labEl("labNo").value.trim().replace(/번$/, "");
+      if (!aiSelectedFile || !no) { labStatus("자료와 문제 번호를 먼저 정해주세요."); return; }
+      labRun("PDF에서 문제를 옮기는 중이에요…", async () =>
+        labAdd(await labCall("import", `${no}번 문제를 원문 그대로 가져와줘.`, true), `${aiSelectedFile.title || aiSelectedFile.filename} ${no}번 (원본)`, "그 번호의 문제를 찾지 못했어요."));
+    });
+    labEl("labClearBtn").addEventListener("click", () => { if (labProblems.length && confirm("저장된 문제 카드를 모두 지울까요?")) { labProblems = []; labSave(); labRender(); } });
+
+    // 채팅 답변 → 문제 생성실로 옮기기
+    function addLabSendButton(bubbleEl, text) {
+      const wrap = bubbleEl.parentElement; if (!wrap || wrap.querySelector(".lab-send")) return;
+      const b = document.createElement("button"); b.type = "button"; b.className = "lab-send"; b.textContent = "문제 생성실로 보내기";
+      b.addEventListener("click", () => { showTab("lab"); labSync();
+        labRun("채팅 내용에서 문제를 옮기는 중이에요…", async () => labAdd(await labCall("chat", text.slice(0, 7000), false), "채팅에서 가져옴", "이 답변에서 문제를 찾지 못했어요.")); });
+      wrap.appendChild(b);
+    }
+
+    const labSame = (a, b) => { const x = String(a).trim(), y = String(b).trim(); return x === y || (!isNaN(x) && !isNaN(y) && x !== "" && Number(x) === Number(y)); };
+    function labCard(p, idx) {
+      const card = document.createElement("div"); card.className = "lab-card";
+      const redo = () => { card.replaceWith(labCard(p, idx)); labSave(); };
+      const head = document.createElement("div"); head.className = "lab-head";
+      head.innerHTML = '<b></b><span></span><span class="sp"></span>'; head.children[0].textContent = "문제 " + (labProblems.length - idx); head.children[1].textContent = p.src;
+      const del = document.createElement("button"); del.type = "button"; del.textContent = "삭제"; del.addEventListener("click", () => { labProblems.splice(idx, 1); labSave(); labRender(); }); head.appendChild(del);
+      const q = document.createElement("div"); q.className = "lab-q"; renderMarkdownInto(q, p.q);
+      card.append(head, q);
+      let input = null;
+      if (p.ch.length) {
+        const box = document.createElement("div"); box.className = "lab-chs";
+        p.ch.forEach((c, k) => {
+          const b = document.createElement("button"); b.type = "button"; b.className = "lab-ch";
+          b.innerHTML = `<span>${CIRC[k]}</span><span class="t"></span>`; renderMarkdownInto(b.querySelector(".t"), c);
+          if (p.mine === String(k + 1)) b.classList.add("on");
+          if (p.graded !== null) { if (String(k + 1) === p.ans) b.classList.add("ok"); else if (p.mine === String(k + 1)) b.classList.add("no"); }
+          b.addEventListener("click", () => { p.mine = p.mine === String(k + 1) ? "" : String(k + 1); p.graded = null; redo(); });
+          box.appendChild(b);
+        }); card.appendChild(box);
+      } else {
+        input = document.createElement("input"); input.type = "text"; input.inputMode = "numeric"; input.placeholder = "내 답"; input.value = p.mine; input.style.width = "7rem";
+        input.addEventListener("input", () => { p.mine = input.value.trim(); }); card.appendChild(input);
+      }
+      const act = document.createElement("div"); act.className = "lab-acts";
+      const mk = (t, fn) => { const b = document.createElement("button"); b.type = "button"; b.textContent = t; b.addEventListener("click", fn); act.appendChild(b); return b; };
+      mk("채점", () => { if (!p.mine) { labStatus("답을 먼저 골라주세요."); return; } p.graded = labSame(p.mine, p.ans); p.open = true; redo(); });
+      mk(p.open ? "풀이 접기" : "풀이 보기", () => { p.open = !p.open; redo(); });
+      const editRow = document.createElement("div"); editRow.className = "lab-edit"; editRow.hidden = true;
+      editRow.innerHTML = '<input type="text" placeholder="어떻게 고칠까요? 예: 숫자를 더 크게, 선지 ③을 바꿔줘" /><button type="button">고치기</button>';
+      mk("AI 수정", () => { editRow.hidden = !editRow.hidden; });
+      mk("AI 풀이 다시", () => labRun("AI가 다시 푸는 중이에요…", async () => {
+        const np = labNorm((await labCall("solve", "카드: " + JSON.stringify({ question: p.q, choices: p.ch, answer: p.ans, solution: p.sol }), false))[0] || {}, p.src);
+        if (!np) throw new Error("풀이를 받지 못했어요"); np.id = p.id; np.mine = p.mine; np.open = true; labProblems[idx] = np; labSave(); labRender(); labStatus("풀이를 다시 만들었어요."); }));
+      mk("복사", () => { const t = p.q + (p.ch.length ? "\n" + p.ch.map((c, k) => CIRC[k] + " " + c).join("\n") : "") + "\n정답: " + p.ans; navigator.clipboard?.writeText(t).then(() => showToast("복사했어요"), () => showToast("복사하지 못했어요", true)); });
+      editRow.querySelector("button").addEventListener("click", () => { const ins = editRow.querySelector("input").value.trim(); if (!ins) return;
+        labRun("AI가 문제를 고치는 중이에요…", async () => {
+          const np = labNorm((await labCall("edit", "카드: " + JSON.stringify({ question: p.q, choices: p.ch, answer: p.ans, solution: p.sol }) + "\n수정 요청: " + ins, false))[0] || {}, p.src + " (수정)");
+          if (!np) throw new Error("고친 문제를 받지 못했어요"); np.id = p.id; labProblems[idx] = np; labSave(); labRender(); labStatus("문제를 고쳤어요."); }); });
+      card.append(act, editRow);
+      if (p.graded !== null) { const r = document.createElement("div"); r.className = "lab-res"; r.textContent = p.graded ? "정답이에요 ✓" : `오답이에요 ✗  정답: ${p.ch.length ? CIRC[p.ans - 1] || p.ans : p.ans}`; r.style.color = p.graded ? "#4C7A44" : "#B43C28"; card.appendChild(r); }
+      if (p.open) { const sol = document.createElement("div"); sol.className = "lab-sol"; renderMarkdownInto(sol, p.sol || "(풀이 없음)"); card.appendChild(sol); }
+      return card;
+    }
+    function labRender() {
+      labSync(); const list = labEl("labList"); list.innerHTML = "";
+      if (!labProblems.length) { list.innerHTML = '<p class="ai-note">아직 문제 카드가 없어요. 위에서 만들거나, AI 탭 답변 아래의 "문제 생성실로 보내기"를 눌러보세요.</p>'; return; }
+      labProblems.forEach((p, i) => list.appendChild(labCard(p, i)));
+    }
 
     // opts.retry가 true면 방금 실패한 질문을 같은 내용으로 다시 보낸다 (사용자 말풍선은 이미 있음).
     async function sendChatMessage(opts = {}) {
