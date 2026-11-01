@@ -646,6 +646,17 @@
 
   .tab-btn:hover { color: var(--ink); }
 
+  /* NEW 표시: 주홍색 프레임. 그 탭에 들어가면 사라진다 */
+  .new-badge {
+    display: inline-block; margin-left: 0.4rem; padding: 0 0.32rem;
+    font-family: "IBM Plex Mono", monospace; font-size: 0.62rem; font-weight: 700; line-height: 1.5; letter-spacing: 0.03em;
+    color: #E4572E; border: 1.5px solid #E4572E; border-radius: 4px; background: rgba(228, 87, 46, 0.08);
+    vertical-align: 0.12em;
+  }
+  .new-badge[hidden] { display: none; }
+  .beta-check { display: flex; align-items: center; gap: 0.45rem; margin-top: 0.9rem; font-size: 0.85rem; color: var(--ink-soft); cursor: pointer; }
+  .beta-check input { width: 1rem; height: 1rem; accent-color: #E4572E; }
+
   .tab-panel[hidden] { display: none; }
 
   /* ---- AI 탭: 자료 선택 바 ---- */
@@ -1456,9 +1467,9 @@
       <button type="button" class="tab-btn active" id="tabBtnFiles">파일 보관함</button>
       <button type="button" class="tab-btn" id="tabBtnKice">평가원</button>
       <button type="button" class="tab-btn" id="tabBtnView">파일 관리</button>
-      <button type="button" class="tab-btn" id="tabBtnLab">✦ 문제 생성실</button>
+      <button type="button" class="tab-btn" id="tabBtnLab">✦ 문제 생성실<span class="new-badge" data-new-for="lab">NEW</span></button>
       <button type="button" class="tab-btn" id="tabBtnOmr" hidden>OMR 채점</button>
-      <button type="button" class="tab-btn" id="tabBtnAi">✦ Unvul AI에게 물어보기</button>
+      <button type="button" class="tab-btn" id="tabBtnAi">✦ Unvul AI에게 물어보기<span class="new-badge" data-new-for="ai">NEW</span></button>
     </div>
 
     <section class="tab-panel" id="tabFiles">
@@ -1679,6 +1690,25 @@
     <footer>
       마지막 동기화 이후 목록입니다. 새 자료는 자동으로 반영됩니다. (Unvul-Coders)
     </footer>
+  </div>
+
+  <div class="notice-overlay" id="labBetaOverlay" hidden>
+    <div class="notice-card" role="dialog" aria-modal="true" aria-labelledby="labBetaTitle" style="border-top-color:#E4572E">
+      <p class="notice-tag" style="color:#E4572E">✦ BETA</p>
+      <h2 id="labBetaTitle">문제 생성실은 베타 기능이에요</h2>
+      <div class="notice-body">
+        <ul>
+          <li><strong>탐구 과목(사회·과학)</strong>은 자료 박스·표·그래프·그림이 제대로 만들어지지 않을 수 있어요.</li>
+          <li>결과가 이상하거나 실패하면 <strong>여러 번 다시 시도</strong>해야 할 수 있어요.</li>
+          <li>정답·풀이는 AI가 만든 것이라 틀릴 수 있으니 원본과 꼭 대조하세요.</li>
+        </ul>
+      </div>
+      <label class="beta-check"><input type="checkbox" id="labBetaCheck" /> 더 이상 표시하지 않기</label>
+      <div class="notice-actions">
+        <button type="button" class="notice-btn" id="labBetaCancel">취소</button>
+        <button type="button" class="notice-btn primary" id="labBetaOk">확인하고 계속</button>
+      </div>
+    </div>
   </div>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
@@ -2159,6 +2189,15 @@
     const tabBtnKice = document.getElementById("tabBtnKice");
     const tabKice = document.getElementById("tabKice");
 
+    // ---- NEW 표시: 그 탭에 처음 들어가면 해당 탭의 표시만 사라진다(브라우저에 기억) ----
+    const NEW_KEY = (n) => "unvulNewSeen:" + n;
+    const newSeen = (n) => { try { return localStorage.getItem(NEW_KEY(n)) === "1"; } catch (_) { return false; } };
+    function markNewSeen(n) {
+      try { localStorage.setItem(NEW_KEY(n), "1"); } catch (_) {}
+      document.querySelectorAll('.new-badge[data-new-for="' + n + '"]').forEach(el => { el.hidden = true; });
+    }
+    document.querySelectorAll(".new-badge").forEach(el => { if (newSeen(el.dataset.newFor)) el.hidden = true; });
+
     const OMR_ENABLED = false; // 테스트 중: true로 바꾸고 tabBtnOmr의 hidden을 지우면 열린다
     function showTab(name) {
       if (name === "omr" && !OMR_ENABLED) name = "files";
@@ -2177,6 +2216,7 @@
       tabBtnView.classList.toggle("active", name === "view");
       tabBtnAi.classList.toggle("active", name === "ai");
       if (name === "kice" || name === "ai" || name === "lab") loadKice();
+      if (name === "ai" || name === "lab") markNewSeen(name);
       if (name === "ai") chatInput.focus();
       if (name === "view" && !viewSelectedFile) viewFileSearch.focus();
     }
@@ -3299,6 +3339,30 @@
     });
     labEl("labFileResetBtn").addEventListener("click", () => { resetAiFile(); labSync(); });
     document.getElementById("aiToLabBtn").addEventListener("click", () => showTab("lab"));
+
+    // ---- 베타 안내: 변형 문제 / 그대로 가져오기 (체크하면 다시 보이지 않음) ----
+    const BETA_KEY = "unvulLabBetaOff";
+    const betaOff = () => { try { return localStorage.getItem(BETA_KEY) === "1"; } catch (_) { return false; } };
+    const betaEl = document.getElementById("labBetaOverlay"), betaCheck = document.getElementById("labBetaCheck");
+    let betaPass = false, betaBtn = null;
+    function betaClose(go) {
+      if (betaCheck.checked) { try { localStorage.setItem(BETA_KEY, "1"); } catch (_) {} }
+      betaEl.hidden = true;
+      const b = betaBtn; betaBtn = null;
+      if (go && b) { betaPass = true; try { b.click(); } finally { betaPass = false; } }
+    }
+    for (const id of ["labGenBtn", "labImportBtn"]) { // 기존 클릭 처리기보다 먼저 등록되어야 한다
+      labEl(id).addEventListener("click", (e) => {
+        if (betaPass || betaOff()) return;
+        e.stopImmediatePropagation();
+        betaBtn = e.currentTarget; betaCheck.checked = false; betaEl.hidden = false;
+        document.getElementById("labBetaOk").focus();
+      });
+    }
+    document.getElementById("labBetaOk").addEventListener("click", () => betaClose(true));
+    document.getElementById("labBetaCancel").addEventListener("click", () => betaClose(false));
+    betaEl.addEventListener("click", (e) => { if (e.target === betaEl) betaClose(false); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !betaEl.hidden) betaClose(false); });
 
     labEl("labGenBtn").addEventListener("click", () => {
       const no = labEl("labNo").value.trim().replace(/번$/, ""), mode = labEl("labMode").value, n = labEl("labCount").value, extra = labEl("labExtra").value.trim();
