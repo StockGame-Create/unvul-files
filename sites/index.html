@@ -1235,178 +1235,18 @@
   .lab-ch.on { border-color:var(--ink); background:var(--paper-raised); font-weight:600; } .lab-ch.ok { border-color:#4C7A44; background:rgba(76,122,68,.15); } .lab-ch.no { border-color:#B43C28; background:rgba(180,60,40,.12); }
   .lab-acts { display:flex; gap:.4rem; flex-wrap:wrap; margin-top:.5rem; } .lab-edit { display:flex; gap:.4rem; margin-top:.5rem; } .lab-edit input { flex:1; }
   .lab-res { margin-top:.4rem; font-weight:700; } .lab-sol { margin-top:.5rem; padding:.6rem .8rem; background:var(--paper); border-left:3px solid var(--teal); border-radius:var(--radius-sm); line-height:1.7; }
-  .lab-send { margin-top:.4rem; font-size:.78rem; }
+.lab-send { margin-top:.4rem; font-size:.78rem; }
+  .lab-box { position:relative; border:1.5px solid var(--ink); border-radius:2px; padding:1rem .9rem .7rem; margin:1rem 0 .8rem; line-height:1.75; background:#fff; }
+  .lab-box-l { position:absolute; top:-.75em; left:.8rem; background:#fff; padding:0 .45rem; font-weight:700; font-size:.85rem; }
+  .lab-box p { margin:.2rem 0; }
+  .lab-blk { margin:.8rem 0; } .lab-cap { text-align:center; font-weight:600; font-size:.88rem; margin-bottom:.35rem; } .lab-fnote { font-size:.76rem; color:var(--ink-soft); margin-top:.3rem; }
+  .lab-tw { overflow-x:auto; } table.lab-t { border-collapse:collapse; margin:0 auto; font-size:.92rem; background:#fff; }
+  table.lab-t th, table.lab-t td { border:1px solid var(--ink); padding:.3rem .6rem; text-align:center; vertical-align:middle; } table.lab-t th { background:var(--paper-raised); font-weight:600; }
+  table.lab-t td p, table.lab-t th p { margin:0; }
+  .lab-fig { text-align:center; background:#fff; } .lab-fig svg { max-width:100%; height:auto; display:block; margin:0 auto; }
+  .lab-note { font-size:.78rem; color:#8a5a14; background:rgba(200,150,40,.12); border-radius:var(--radius-sm); padding:.3rem .55rem; margin:.4rem 0; }
+  .lab-imgs { display:flex; gap:.4rem; flex-wrap:wrap; align-items:center; width:100%; } .lab-imgs img { height:44px; border:1px solid var(--rule); border-radius:4px; } .lab-imgs button { font-size:.75rem; }
   .omr-row i { font-style:normal; font-size:.75rem; color:#B43C28; margin-left:auto; }
-
-  /* =====================================================================
-     v2 — 스타일 누락 컨트롤 정리 / 수능 지면형 문제 카드 / AI 표시자 / 생성 애니메이션
-     (zero-specificity :where 로 깔아서 기존 클래스 규칙을 덮지 않음)
-     ===================================================================== */
-  :where(#tabLab, #tabOmr) :where(input[type="text"], select) {
-    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
-    font-size: 0.86rem;
-    background: var(--paper);
-    border: 1.5px solid var(--rule);
-    border-radius: var(--radius-sm);
-    padding: 0.5rem 0.65rem;
-    color: var(--ink);
-    transition: border-color 0.15s, box-shadow 0.15s;
-  }
-  :where(#tabLab, #tabOmr) :where(input[type="text"], select):focus {
-    outline: none; border-color: var(--leather); box-shadow: 0 0 0 3px rgba(139, 94, 60, 0.14);
-  }
-  :where(#tabLab, #tabOmr) :where(select) { cursor: pointer; }
-  #labFileSearch, #omrSearch { width: 100%; }
-  :where(#tabLab, #tabOmr) :where(button:not(.ob):not(.bub):not(.lab-ch):not(.lab-send)) {
-    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
-    font-size: 0.8rem;
-    background: var(--paper-raised);
-    border: 1px solid var(--rule);
-    border-radius: var(--radius-sm);
-    padding: 0.45rem 0.85rem;
-    color: var(--ink);
-    cursor: pointer;
-    transition: border-color 0.15s, background 0.15s, transform 0.1s, box-shadow 0.15s;
-  }
-  :where(#tabLab, #tabOmr) :where(button:not(.ob):not(.bub):not(.lab-ch):not(.lab-send)):hover:not(:disabled) {
-    border-color: var(--leather); box-shadow: var(--shadow-sm);
-  }
-  :where(#tabLab, #tabOmr) :where(button:not(.ob):not(.bub):not(.lab-ch):not(.lab-send)):active:not(:disabled) { transform: translateY(1px); }
-  :where(#tabLab, #tabOmr) :where(button):disabled { opacity: 0.5; cursor: default; }
-  #labGenBtn, #omrGradeBtn, #omrVOkBtn { background: var(--ink); color: var(--paper); border-color: var(--ink); }
-  #labGenBtn:hover:not(:disabled), #omrGradeBtn:hover:not(:disabled), #omrVOkBtn:hover:not(:disabled) { background: var(--leather); border-color: var(--leather); }
-  #labClearBtn, #labFileResetBtn { background: none; color: var(--ink-soft); font-size: 0.72rem; padding: 0.25rem 0.55rem; }
-  .lab-form { align-items: stretch; }
-  .lab-form select { min-width: 9rem; }
-  #tabLab.busy #labGenBtn { position: relative; padding-left: 2.1rem; }
-  #tabLab.busy #labGenBtn::before {
-    content: ""; position: absolute; left: 0.8rem; top: 50%; width: 0.85rem; height: 0.85rem; margin-top: -0.43rem;
-    border: 2px solid rgba(255,255,255,0.35); border-top-color: #fff; border-radius: 50%; animation: v2spin 0.7s linear infinite;
-  }
-  @keyframes v2spin { to { transform: rotate(360deg); } }
-
-  .lab-send {
-    margin-top: 0.5rem; font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace; font-size: 0.74rem;
-    background: none; color: var(--teal); border: 1px dashed var(--teal); border-radius: 99px; padding: 0.3rem 0.8rem; cursor: pointer;
-    transition: background 0.15s;
-  }
-  .lab-send:hover { background: rgba(63, 93, 91, 0.1); }
-
-  /* ---- 칩(표시자) ---- */
-  .chip {
-    display: inline-flex; align-items: center; gap: 0.25rem; white-space: nowrap;
-    font: 500 0.68rem/1 "IBM Plex Mono", "IBM Plex Sans KR", monospace;
-    padding: 0.3rem 0.55rem; border-radius: 99px; border: 1px solid var(--rule); background: var(--paper); color: var(--ink-soft);
-  }
-  .chip.ai { background: linear-gradient(135deg, #f0e8ff, #e2f2f4); border-color: #cfc1ea; color: #5a3f8f; }
-  .chip.ok { background: rgba(76,122,68,.12); border-color: rgba(76,122,68,.45); color: #3c6a35; }
-  .chip.warn { background: rgba(208,96,47,.1); border-color: rgba(208,96,47,.45); color: #a8481f; }
-  .chip.tag { background: rgba(75,147,184,.1); border-color: rgba(75,147,184,.35); color: #2f6f90; }
-  .chip.diff.d1 { background: rgba(76,122,68,.12); color: #3c6a35; border-color: rgba(76,122,68,.4); }
-  .chip.diff.d2 { background: rgba(199,154,46,.14); color: #8a6a14; border-color: rgba(199,154,46,.5); }
-  .chip.diff.d3 { background: rgba(208,96,47,.12); color: #a8481f; border-color: rgba(208,96,47,.45); }
-  .chip.diff.d4 { background: rgba(180,60,40,.14); color: #8e2a18; border-color: rgba(180,60,40,.55); font-weight: 600; }
-  .lab-badges, .ai-foot, .sol-head { display: flex; flex-wrap: wrap; gap: 0.35rem; }
-  .lab-badges { margin: 0.1rem 0 0.75rem; }
-  .ai-foot { margin-top: 0.45rem; }
-  .sol-head { margin-bottom: 0.55rem; }
-  .lab-foot { margin-top: 0.7rem; padding-top: 0.5rem; border-top: 1px dashed var(--rule); font: 0.7rem "IBM Plex Mono", "IBM Plex Sans KR", monospace; color: var(--ink-soft); }
-
-  /* ---- 수능 지면형 문제 카드 ---- */
-  .lab-card { background: #FFFDF8; padding: 1rem 1.1rem 0.9rem; }
-  .lab-card.fresh { animation: v2cardIn 0.45s cubic-bezier(.2,.8,.2,1) both; }
-  @keyframes v2cardIn { from { opacity: 0; transform: translateY(10px) scale(.985); } to { opacity: 1; transform: none; } }
-  .exam-q { display: flex; gap: 0.6rem; font-family: "Noto Serif KR", "Source Serif 4", serif; color: #1c1a18; margin-top: 0.2rem; }
-  .exam-no { font-weight: 700; font-size: 1.25rem; line-height: 1.55; min-width: 2.2rem; }
-  .exam-body { flex: 1; min-width: 0; line-height: 1.95; font-size: 1rem; }
-  .exam-body p { margin: 0; }
-  .exam-box { border: 1.3px solid #2b2724; padding: 0.7rem 1rem; margin: 0.7rem 0; border-radius: 2px; background: #fff; }
-  .exam-cond { display: flex; gap: 0.55rem; align-items: baseline; }
-  .exam-cond + .exam-cond { margin-top: 0.2rem; }
-  .exam-cond .cl { flex: none; white-space: nowrap; }
-  .exam-cond .ct { flex: 1; min-width: 0; }
-  .exam-ask { margin-top: 0.45rem; }
-  .exam-pts { text-align: right; font-size: 0.92rem; margin-top: 0.15rem; }
-  .lab-ch { font-family: "Noto Serif KR", "Source Serif 4", serif; font-size: 0.98rem; transition: background 0.15s, border-color 0.15s; }
-  .lab-ch:hover { border-color: var(--leather); }
-  .lab-chs.row { display: grid; grid-template-columns: repeat(auto-fit, minmax(6.2rem, 1fr)); gap: 0.25rem 0.4rem; margin: 0.9rem 0 0.4rem; }
-  .lab-chs.row .lab-ch { background: transparent; border-color: transparent; justify-content: center; padding: 0.35rem 0.3rem; }
-  .lab-chs.row .lab-ch:hover { background: var(--paper); border-color: var(--rule); }
-  .lab-chs.row .lab-ch.on { border-color: var(--ink); background: var(--paper-raised); }
-  .lab-chs.row .lab-ch.ok { border-color: #4C7A44; background: rgba(76,122,68,.15); }
-  .lab-chs.row .lab-ch.no { border-color: #B43C28; background: rgba(180,60,40,.12); }
-  .lab-res { animation: v2cardIn .3s ease both; }
-
-  /* ---- 해설 영역 ---- */
-  .lab-sol { animation: v2cardIn .3s ease both; }
-  .lab-callout { display: flex; gap: 0.5rem; align-items: baseline; padding: 0.45rem 0.65rem; border-radius: var(--radius-sm); margin: 0.4rem 0; font-size: 0.92rem; line-height: 1.65; }
-  .lab-callout .t { flex: 1; min-width: 0; } .lab-callout p { margin: 0; }
-  .lab-callout.key { background: rgba(63,93,91,.1); border: 1px solid rgba(63,93,91,.3); }
-  .lab-callout.trap { background: rgba(180,60,40,.07); border: 1px solid rgba(180,60,40,.28); }
-  .lab-callout.chg { background: rgba(199,154,46,.12); border: 1px dashed #C79A2E; margin: 0 0 0.7rem; }
-  .sol-final { display: flex; gap: 0.5rem; align-items: baseline; margin-top: 0.6rem; padding: 0.5rem 0.7rem; background: rgba(139,94,60,.12); border-left: 3px solid var(--leather); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-weight: 600; }
-  .sol-final p { margin: 0; display: inline; }
-
-  /* ---- 표시자(라벨) ---- */
-  .mk {
-    display: inline-block; font: 600 0.66rem/1 "IBM Plex Mono", "IBM Plex Sans KR", monospace; letter-spacing: 0.03em;
-    padding: 0.27rem 0.5rem; border-radius: 4px; margin-right: 0.5rem; vertical-align: 0.1em; color: #fff; background: var(--ink-soft); white-space: nowrap;
-  }
-  .mk-step { background: var(--ink); } .mk-key { background: #3F5D5B; } .mk-concept { background: #4B93B8; }
-  .mk-cond { background: #7A5A9E; } .mk-trap { background: #B43C28; } .mk-check { background: #4C7A44; }
-  .mk-ans { background: #8B5E3C; } .mk-tip { background: #C79A2E; color: #2b2200; } .mk-warn { background: #D0602F; }
-  .mk-sum { background: #6B6255; } .mk-chg { background: #C79A2E; color: #2b2200; }
-  .mk-line { padding: 0.3rem 0.55rem; border-left: 3px solid var(--rule); border-radius: 0 4px 4px 0; background: rgba(38,34,32,.03); }
-  .mk-line-step { border-left-color: var(--ink); } .mk-line-key { border-left-color: #3F5D5B; background: rgba(63,93,91,.09); }
-  .mk-line-concept { border-left-color: #4B93B8; background: rgba(75,147,184,.08); } .mk-line-cond { border-left-color: #7A5A9E; background: rgba(122,90,158,.07); }
-  .mk-line-trap { border-left-color: #B43C28; background: rgba(180,60,40,.07); } .mk-line-check { border-left-color: #4C7A44; background: rgba(76,122,68,.08); }
-  .mk-line-ans { border-left-color: #8B5E3C; background: rgba(139,94,60,.13); font-weight: 600; }
-  .mk-line-tip { border-left-color: #C79A2E; background: rgba(199,154,46,.1); } .mk-line-warn { border-left-color: #D0602F; background: rgba(208,96,47,.08); }
-  mark.hl { background: linear-gradient(transparent 52%, rgba(255, 213, 0, .55) 52%); color: inherit; padding: 0 0.12em; border-radius: 2px; }
-  .danger { text-decoration: underline wavy #B43C28; text-underline-offset: 3px; text-decoration-thickness: 1.5px; }
-
-  /* ---- 생성 중 애니메이션 (문제 생성실) ---- */
-  .lab-gen { overflow: hidden; border-style: dashed; border-color: #cfc1ea; }
-  .gen-top { display: flex; align-items: center; gap: 0.5rem; font: 0.86rem "IBM Plex Mono", "IBM Plex Sans KR", monospace; }
-  .gen-spark { display: inline-block; font-size: 1.1rem; color: #7a5aa0; animation: v2spark 2.2s ease-in-out infinite; }
-  @keyframes v2spark { 0% { transform: rotate(0) scale(1); } 50% { transform: rotate(180deg) scale(1.25); } 100% { transform: rotate(360deg) scale(1); } }
-  .gen-time { margin-left: auto; font-size: 0.74rem; color: var(--ink-soft); }
-  .gen-steps { list-style: none; margin: 0.65rem 0 0.4rem; padding: 0; display: grid; gap: 0.25rem; font: 0.79rem "IBM Plex Mono", "IBM Plex Sans KR", monospace; }
-  .gen-steps li { color: var(--ink-soft); opacity: 0.5; display: flex; gap: 0.5rem; transition: opacity .3s, color .3s; }
-  .gen-steps li::before { content: "○"; width: 1rem; }
-  .gen-steps li.done { opacity: 0.9; color: #4C7A44; } .gen-steps li.done::before { content: "✓"; }
-  .gen-steps li.act { opacity: 1; color: var(--ink); font-weight: 600; } .gen-steps li.act::before { content: "●"; color: #7a5aa0; animation: v2pulse 0.9s ease-in-out infinite; }
-  @keyframes v2pulse { 50% { opacity: .25; transform: scale(.7); } }
-  .gen-bar { height: 4px; background: var(--rule); border-radius: 4px; overflow: hidden; margin: 0.6rem 0 0.9rem; }
-  .gen-bar i { display: block; height: 100%; width: 6%; border-radius: 4px; background: linear-gradient(90deg, #8B5E3C, #7A5A9E, #3F5D5B); transition: width .6s ease; position: relative; overflow: hidden; }
-  .gen-bar i::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, transparent, rgba(255,255,255,.6), transparent); animation: v2sweep 1.2s linear infinite; }
-  @keyframes v2sweep { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
-  .sk { height: 0.8rem; border-radius: 4px; margin: 0.5rem 0; background: linear-gradient(90deg, var(--paper-raised) 25%, #fbf7ee 45%, var(--paper-raised) 65%); background-size: 200% 100%; animation: v2sk 1.4s linear infinite; }
-  .sk.w90 { width: 90%; } .sk.w70 { width: 70%; } .sk.w40 { width: 40%; }
-  .sk-row { display: flex; gap: 0.5rem; margin-top: 0.9rem; } .sk-row .sk { flex: 1; height: 1.5rem; border-radius: 99px; margin: 0; }
-  @keyframes v2sk { from { background-position: 200% 0; } to { background-position: -200% 0; } }
-
-  /* ---- 생성 중 애니메이션 (채팅) ---- */
-  .think-row { display: flex; align-items: center; gap: 0.65rem; }
-  .think-label {
-    font: 0.8rem "IBM Plex Mono", "IBM Plex Sans KR", monospace;
-    background: linear-gradient(90deg, var(--ink-soft) 35%, var(--leather) 50%, var(--ink-soft) 65%); background-size: 220% 100%;
-    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;
-    animation: v2sk 1.8s linear infinite;
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .gen-spark, .sk, .think-label, .gen-bar i::after, .gen-steps li.act::before, #tabLab.busy #labGenBtn::before, .lab-card.fresh, .lab-sol, .lab-res { animation: none !important; }
-  }
-  @media (max-width: 560px) { .exam-no { min-width: 1.8rem; font-size: 1.1rem; } .exam-body { font-size: 0.96rem; } .lab-card { padding: 0.85rem 0.8rem; } }
-  /* [hidden] 이 display:flex 규칙에 덮여 안 숨겨지던 요소들 */
-  .lab-edit[hidden], #tabLab [hidden], #tabOmr [hidden] { display: none !important; }
-  p.mk-line, li.mk-line, .msg-bubble p.mk-line { margin: 0.3em 0; }
-  .mk-split { background: #7A5A9E; } .mk-logic { background: #2f6f90; } .mk-graph { background: #4B93B8; } .mk-calc { background: #6B6255; }
-  .mk-line-split { border-left-color: #7A5A9E; background: rgba(122,90,158,.08); } .mk-line-logic { border-left-color: #2f6f90; background: rgba(47,111,144,.08); }
-  .mk-line-graph { border-left-color: #4B93B8; background: rgba(75,147,184,.08); } .mk-line-calc { border-left-color: #6B6255; }
-  .mk-src { background: #5a3f8f; } .mk-conf { background: #8B5E3C; } .mk-elim { background: #6B6255; } .mk-alt { background: #2f6f90; }
-  .mk-line-src { border-left-color: #5a3f8f; background: rgba(90,63,143,.07); } .mk-line-conf { border-left-color: #8B5E3C; background: rgba(139,94,60,.1); }
-  .mk-line-elim { border-left-color: #6B6255; } .mk-line-alt { border-left-color: #2f6f90; background: rgba(47,111,144,.08); }
 </style>
 </head>
 <body>
@@ -1571,15 +1411,15 @@
       <div class="ai-selected" id="labSelected" hidden><span id="labSelectedName"></span><span class="view-toolbar-actions"><button type="button" id="labFileResetBtn">다른 파일 선택</button></span></div>
       <div class="lab-form">
         <input type="text" id="labNo" placeholder="문제 번호 (예: 15)" />
-        <select id="labMode"><option>숫자·조건만 바꾸기</option><option>같은 유형의 새 문제</option><option>조건 구조 바꾸기 (풀이 경로 변경)</option><option>더 어렵게</option><option>더 쉽게</option><option>선지만 새로 만들기</option></select>
-        <select id="labSol" title="공식 해설 자료가 있는지"><option value="auto">해설 자료: 자동 판단</option><option value="has">해설 있음 (공식 해설 참고)</option><option value="none">해설 없음 (직접 풀이·이중 검증)</option></select>
+        <select id="labSubject" title="과목/자료 유형을 고르면 그림·표·그래프를 더 잘 만들어요"><option value="">과목 자동 인식</option><option value="math">수학 (도형·함수 그래프)</option><option value="social">사회탐구 (자료 박스·표·그래프)</option><option value="science">과학탐구 (실험 장치·회로·그래프)</option><option value="korean">국어·영어 (지문·보기 박스)</option></select>
+        <select id="labMode"><option>숫자·조건만 바꾸기</option><option>같은 유형의 새 문제</option><option>더 어렵게</option><option>더 쉽게</option><option>선지만 새로 만들기</option></select>
         <select id="labCount"><option value="1">1문제</option><option value="2">2문제</option><option value="3">3문제</option></select>
         <input type="text" id="labExtra" placeholder="추가 요청 (선택) 예: 그래프 조건 추가, 계산 쉽게" />
         <button type="button" id="labGenBtn">변형 문제 만들기</button>
         <button type="button" id="labImportBtn">이 번호 문제 그대로 가져오기</button>
       </div>
+      <div class="lab-imgs"><input type="file" id="labImgInput" accept="image/*" multiple hidden /><button type="button" id="labImgBtn">📷 문제 사진/캡처 첨부 (최대 3장)</button><span id="labImgList" class="lab-imgs"></span></div>
       <p class="ai-note" id="labStatus"></p>
-      <div id="labGen"></div>
       <div id="labList"></div>
       <p class="ai-note">정답·풀이는 AI가 만들고 검증하지만 틀릴 수 있어요. 카드는 이 브라우저에만 저장돼요(최대 30개). <button type="button" id="labClearBtn">모두 지우기</button></p>
     </section>
@@ -1593,7 +1433,7 @@
       </div>
       <p class="ai-note" id="omrStatus" hidden></p>
       <div id="omrVerify" hidden>
-        <p class="ai-note"><span class="chip ai">✦ AI가 읽은 정답</span> <strong id="omrVTitle"></strong><br />AI가 사진 PDF에서 읽은 정답이에요. 원본과 한 번 대조해서 틀린 칸은 고쳐주세요. (한 번 확인하면 다음부터는 묻지 않아요)</p>
+        <p class="ai-note"><strong id="omrVTitle"></strong><br />AI가 사진 PDF에서 읽은 정답이에요. 원본과 한 번 대조해서 틀린 칸은 고쳐주세요. (한 번 확인하면 다음부터는 묻지 않아요)</p>
         <p class="ai-note"><a id="omrVLink" target="_blank" rel="noopener">정답 PDF 열어서 대조하기</a></p>
         <div class="omr-grid" id="omrVGrid"></div>
         <div class="omr-head"><span class="view-toolbar-actions"><button type="button" id="omrVOkBtn">확인 완료, 문제 풀기</button><button type="button" id="omrVBackBtn">다른 시험지</button></span></div>
@@ -2312,10 +2152,9 @@
     // 모델 출력에 스크립트 등이 섞여 들어와도 안전하게 만든다.
     marked.setOptions({ breaks: true });
 
-    function renderMarkdownInto(el, rawText, opts) {
+    function renderMarkdownInto(el, rawText) {
       const html = DOMPurify.sanitize(marked.parse(rawText || ""));
       el.innerHTML = html;
-      if (opts && opts.marks) decorateMarks(el);
       if (window.renderMathInElement) {
         renderMathInElement(el, {
           delimiters: [
@@ -2327,72 +2166,6 @@
           throwOnError: false,
         });
       }
-    }
-
-    // ---- 해설 표시자: [핵심] [STEP 1] [함정] [검산] [정답] … 줄 머리 라벨, ==형광펜==, !!경고 밑줄!! ----
-    const MK_RE = /^\s*\[(STEP\s*\d+|단계\s*\d+|핵심|개념|조건|분류|필요|충분|그래프|계산|출처|확신|배제|다른풀이|함정|검산|정답|팁|주의|발상|확인|정리)\]\s*/;
-    const MK_CLS = { 핵심: "key", 발상: "key", 개념: "concept", 조건: "cond", 함정: "trap", 검산: "check", 확인: "check", 정답: "ans", 팁: "tip", 주의: "warn", 정리: "sum", 분류: "split", 필요: "logic", 충분: "logic", 그래프: "graph", 계산: "calc", 출처: "src", 확신: "conf", 배제: "elim", 다른풀이: "alt" };
-    const dollarsEven = (t) => ((t.match(/\$/g) || []).length % 2) === 0;
-    function decorateMarks(root) {
-      // marked(breaks:true)가 여러 줄을 한 <p>+<br>로 묶으니, 표시자가 있는 문단은 줄마다 <p>로 쪼갠다
-      root.querySelectorAll("p").forEach(p => {
-        if (p.closest("pre") || !p.querySelector(":scope > br")) return;
-        const lines = [[]]; Array.from(p.childNodes).forEach(n => { if (n.nodeName === "BR") lines.push([]); else lines[lines.length - 1].push(n); });
-        if (!lines.some(ln => ln[0] && ln[0].nodeType === 3 && MK_RE.test(ln[0].nodeValue))) return;
-        const frag = document.createDocumentFragment();
-        lines.forEach(ln => { if (!ln.length) return; const np = document.createElement("p"); ln.forEach(n => np.appendChild(n)); frag.appendChild(np); });
-        p.replaceWith(frag);
-      });
-      root.querySelectorAll("p, li, h1, h2, h3, h4, blockquote").forEach(el => {
-        if (el.closest("pre")) return;
-        const starts = [], first = el.firstChild;
-        if (first && first.nodeType === 3) starts.push(first);
-        const brs = el.querySelectorAll(":scope > br");
-        brs.forEach(br => { const n = br.nextSibling; if (n && n.nodeType === 3) starts.push(n); });
-        let used = 0;
-        starts.forEach(t => {
-          const m = t.nodeValue.match(MK_RE); if (!m) return;
-          const raw = m[1].replace(/\s+/g, " "), isStep = /^(STEP|단계)/.test(raw), cls = isStep ? "step" : (MK_CLS[raw] || "sum");
-          const sp = document.createElement("span"); sp.className = "mk mk-" + cls;
-          sp.textContent = isStep ? raw.replace(/^단계\s*/, "STEP ").toUpperCase() : raw;
-          t.nodeValue = t.nodeValue.slice(m[0].length); el.insertBefore(sp, t); used++;
-          if (starts.length === 1 && !brs.length) el.classList.add("mk-line", "mk-line-" + cls);
-        });
-      });
-      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
-        acceptNode: (n) => n.parentElement.closest("pre, code, .katex, .mk") ? NodeFilter.FILTER_REJECT : /==[^\n]+?==|!![^\n]+?!!/.test(n.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP,
-      });
-      const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
-      nodes.forEach(n => {
-        const txt = n.nodeValue, frag = document.createDocumentFragment(); let last = 0;
-        txt.replace(/==([^\n]+?)==|!!([^\n]+?)!!/g, (m, a, b, off) => {
-          const inner = a != null ? a : b; if (!dollarsEven(inner) || !inner.trim()) return m;
-          frag.append(txt.slice(last, off));
-          const e = document.createElement(a != null ? "mark" : "span"); e.className = a != null ? "hl" : "danger"; e.textContent = inner; frag.append(e);
-          last = off + m.length; return m;
-        });
-        frag.append(txt.slice(last)); n.replaceWith(frag);
-      });
-    }
-
-    // 답변 아래 AI 표시 칩들
-    function addAiFooter(bubbleEl, text) {
-      const wrap = bubbleEl.parentElement; if (!wrap || wrap.querySelector(".ai-foot")) return;
-      const f = document.createElement("div"); f.className = "ai-foot";
-      const chip = (cls, t) => { const c = document.createElement("span"); c.className = "chip " + cls; c.textContent = t; f.appendChild(c); };
-      chip("ai", "✦ AI 생성 답변");
-      if (/\[출처\][^\n]*공식 해설 참고/.test(text)) chip("ok", "📖 공식 해설 기준");
-      else if (/\[출처\]/.test(text)) chip("tag", "🧮 AI 직접 풀이 · 해설 없음");
-      const cm = text.match(/\[확신\]\s*(높음|중간|낮음)/);
-      if (cm) chip(cm[1] === "높음" ? "ok" : cm[1] === "중간" ? "" : "warn", "확신도 " + cm[1]);
-      if (/\[다른풀이\]/.test(text)) chip("ok", "✓ 다른 방법으로 재확인");
-      if (/\[STEP\s*\d+\]/.test(text)) chip("", "☰ 단계별 풀이");
-      if (/\[검산\]/.test(text)) chip("ok", "✓ 검산 단계 포함");
-      if (/\[함정\]|\[주의\]/.test(text)) chip("warn", "⚠ 함정·주의 포인트");
-      if (/\[팁\]/.test(text)) chip("", "★ 시험장 팁");
-      if (/\$/.test(text)) chip("", "∑ 수식 포함");
-      chip("", "틀릴 수 있어요 · 원본 해설과 대조");
-      wrap.appendChild(f);
     }
 
     function scrollChatToBottom() {
@@ -2440,17 +2213,14 @@
       clearChatEmptyState();
       const wrap = document.createElement("div");
       wrap.className = "msg assistant";
-      wrap.innerHTML = `<span class="msg-role">Unvul AI (unv-f3)</span><div class="msg-bubble"><div class="think-row"><span class="thinking-bubble"><span></span><span></span><span></span></span><span class="think-label">질문 읽는 중…</span></div></div>`;
+      wrap.innerHTML = `<span class="msg-role">Unvul AI (unv-f3)</span><div class="msg-bubble"><span class="thinking-bubble"><span></span><span></span><span></span></span></div>`;
       chatWindow.appendChild(wrap);
       scrollChatToBottom();
-      const bub = wrap.querySelector(".msg-bubble"), PH = ["질문 읽는 중…", "자료실 목록 확인 중…", "풀이 구성 중…", "검산하는 중…", "답변 정리 중…"]; let k = 0;
-      bub._pt = setInterval(() => { const l = bub.querySelector(".think-label"); if (!l) return clearInterval(bub._pt); k = Math.min(k + 1, PH.length - 1); l.textContent = PH[k]; }, 2400);
-      return bub;
+      return wrap.querySelector(".msg-bubble");
     }
 
     function typeOutAnswer(bubbleEl, fullText) {
       return new Promise((resolve) => {
-        clearInterval(bubbleEl._pt);
         bubbleEl.innerHTML = '<span class="typing-cursor"></span>';
         const cursorEl = bubbleEl.querySelector(".typing-cursor");
         let i = 0;
@@ -2461,8 +2231,7 @@
           scrollChatToBottom();
           if (i >= fullText.length) {
             clearInterval(timer);
-            renderMarkdownInto(bubbleEl, fullText, { marks: true });
-            addAiFooter(bubbleEl, fullText);
+            renderMarkdownInto(bubbleEl, fullText);
             addLabSendButton(bubbleEl, fullText);
             scrollChatToBottom();
             resolve();
@@ -2472,7 +2241,6 @@
     }
 
     function showAssistantError(bubbleEl, message, retryQuestion) {
-      clearInterval(bubbleEl._pt);
       bubbleEl.className = "msg-bubble error";
       bubbleEl.textContent = message;
       if (retryQuestion !== undefined) {
@@ -2994,35 +2762,125 @@
     const labSave = () => { try { localStorage.setItem("unvulLab", JSON.stringify(labProblems.slice(0, 30))); } catch (_) {} };
     const labStatus = (m) => { labEl("labStatus").textContent = m || ""; };
     const CIRC = "①②③④⑤";
+    const LAB_SUBJECT = { math: "수학 문제: 도형·함수 그래프·좌표평면이 필요하면 정확한 좌표로 계산해 SVG로 그리고, 조건에 쓰인 길이·각도를 그림에 표기한다.", social: "사회탐구 문제: 자료 박스((가)(나) 사례·서술), 표(O/X·비율), 그래프(막대·누적·꺾은선·원), 보기(ㄱㄴㄷ) 박스를 실제 수능처럼 갖춘다.", science: "과학탐구 문제: 실험 장치·회로·파동·역학 그림은 SVG로, 실험 결과는 표·그래프(꺾은선·막대)로, 보기(ㄱㄴㄷ) 박스를 갖춘다.", korean: "국어·영어 문제: 지문은 box로 두고 밑줄·(가)(나) 구분·보기 박스를 살린다." };
+    const labHint = () => { const v = LAB_SUBJECT[labEl("labSubject").value]; return v ? "\n[과목 힌트] " + v : ""; };
 
-    function labNorm(p, src, kind) {
+    function labNorm(p, src) {
       const q = String(p.question || "").trim(); let ans = String(p.answer || "").trim();
       if (!q || !ans) return null;
       const ch = (Array.isArray(p.choices) ? p.choices.map(x => String(x).trim()).filter(Boolean) : []).slice(0, 5);
       const ci = CIRC.indexOf(ans[0]); ans = ci >= 0 ? String(ci + 1) : ans.replace(/\s/g, "");
-      const arr = (x) => Array.isArray(x) ? x.map(s => String(s).trim()).filter(Boolean) : [];
-      const c = { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), src, q, ch: ch.length >= 2 ? ch : [], ans, sol: String(p.solution || ""), mine: "", graded: null, open: false,
-        kind: kind || "gen", fresh: true, stem: String(p.stem || "").trim(), cond: arr(p.conditions), pts: (String(p.points || "").match(/\d+/) || [""])[0],
-        diff: ["쉬움", "보통", "어려움", "킬러"].includes(p.difficulty) ? p.difficulty : "", concepts: arr(p.concepts).slice(0, 4),
-        basis: p.basis === "official" ? "official" : "self", conf: ["높음", "중간", "낮음"].includes(p.confidence) ? p.confidence : "", idea: String(p.idea || "").trim(), trap: String(p.trap || "").trim(), change: String(p.change || "").trim() };
-      c.chk = labCheck(c);
-      return c;
+      return { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), src, q, ch: ch.length >= 2 ? ch : [], ans, sol: String(p.solution || ""), blocks: labBlocksNorm(p.blocks), note: String(p.note || "").slice(0, 300), mine: "", graded: null, open: false };
     }
-    // 풀이 마지막의 "정답은 …"과 answer가 맞는지 대충 대조(확실할 때만 true/false, 아니면 null)
-    function labCheck(c) {
-      const i = String(c.sol || "").lastIndexOf("정답은"); if (i < 0) return null;
-      const tail = c.sol.slice(i + 3).split("\n")[0].replace(/^[^0-9①-⑤가-힣A-Za-z-]+/, "").trim(); if (!tail) return null;
-      if (c.ch.length) {
-        const k = CIRC.indexOf(tail[0]); if (k >= 0) return String(k + 1) === c.ans;
-        const m = tail.match(/^([1-5])\s*번/); if (m) return m[1] === c.ans;
-        return null;
+    function labBlocksNorm(arr) {
+      if (!Array.isArray(arr)) return [];
+      const out = [];
+      for (const b of arr.slice(0, 8)) {
+        if (!b || typeof b !== "object") continue;
+        const str = (v, n = 4000) => String(v == null ? "" : v).slice(0, n);
+        if (b.kind === "box" && b.text) out.push({ kind: "box", label: str(b.label, 30), text: str(b.text) });
+        else if (b.kind === "table" && Array.isArray(b.rows) && b.rows.length) out.push({ kind: "table", caption: str(b.caption, 120), note: str(b.note, 300), header: Array.isArray(b.header) ? b.header.slice(0, 12).map(x => str(x, 200)) : [], rows: b.rows.slice(0, 30).map(r => (Array.isArray(r) ? r : (r && r.cells) || []).slice(0, 12).map(x => str(x, 300))) });
+        else if (b.kind === "chart" && Array.isArray(b.series) && b.series.length && Array.isArray(b.labels) && b.labels.length) out.push({ kind: "chart", type: str(b.chart_type || b.type, 12) || "bar", title: str(b.title, 120), unit: str(b.unit, 12), xl: str(b.x_label, 40), yl: str(b.y_label, 40), labels: b.labels.slice(0, 16).map(x => str(x, 30)), series: b.series.slice(0, 6).map(x => ({ name: str(x.name, 30), values: (Array.isArray(x.values) ? x.values : []).slice(0, 16).map(Number) })) });
+        else if (b.kind === "svg" && /<svg[\s>]/i.test(b.svg || "")) out.push({ kind: "svg", caption: str(b.caption, 120), svg: str(b.svg, 24000) });
       }
-      const m = tail.match(/^[^0-9-]*(-?\d+)[^0-9]*$/); return m ? labSame(m[1], c.ans) : null;
+      return out;
     }
-    async function labCall(task, question, useFile, x = {}) {
+    // ---- 그래프를 SVG로 직접 그림 (막대/누적/100%누적/꺾은선/원)
+    const esc = (t) => String(t).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    function labChartSvg(c) {
+      const W = 460, H = 290, FILL = ["#ffffff", "#c8c8c8", "#4a4a4a", "#9a9a9a", "#e8e8e8", "#1f1f1f"], TXT = ["#222", "#222", "#fff", "#fff", "#222", "#fff"], LINE = ["#222", "#c0392b", "#2a6fb0", "#2e8b57", "#b8860b", "#7d3c98"];
+      const labels = c.labels, n = labels.length, ser = c.series.map(x => ({ name: x.name, values: labels.map((_, i) => (isFinite(x.values[i]) ? x.values[i] : 0)) }));
+      const fmt = (v) => (Math.abs(v) >= 100 || Number.isInteger(v)) ? String(Math.round(v * 10) / 10) : String(Math.round(v * 100) / 100);
+      const legend = ser.length > 1 || c.type === "pie";
+      const top = 34 + (legend && c.type !== "pie" ? 20 : 0), L = 52, R = 16, B = 46, pw = W - L - R, ph = H - top - B;
+      let o = `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="12">`;
+      if (c.title) o += `<text x="${W / 2}" y="16" text-anchor="middle" font-size="13" font-weight="700">${esc(c.title)}</text>`;
+      if (c.type === "pie") {
+        const v = ser[0].values.map(x => Math.max(0, x)), tot = v.reduce((a, b) => a + b, 0) || 1, cx = 150, cy = 160, r = 100; let a0 = -Math.PI / 2;
+        v.forEach((x, i) => { const a1 = a0 + x / tot * 2 * Math.PI, big = a1 - a0 > Math.PI ? 1 : 0, f = FILL[i % 6];
+          const pt = (a) => `${(cx + r * Math.cos(a)).toFixed(1)},${(cy + r * Math.sin(a)).toFixed(1)}`;
+          o += x / tot > 0.9999 ? `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${f}" stroke="#222"/>` : `<path d="M${cx},${cy} L${pt(a0)} A${r},${r} 0 ${big} 1 ${pt(a1)} Z" fill="${f}" stroke="#222"/>`;
+          const am = (a0 + a1) / 2; if (x / tot > 0.04) o += `<text x="${(cx + r * 0.65 * Math.cos(am)).toFixed(1)}" y="${(cy + r * 0.65 * Math.sin(am) + 4).toFixed(1)}" text-anchor="middle" fill="${TXT[i % 6]}" font-weight="600">${fmt(Math.round(x / tot * 1000) / 10)}%</text>`; a0 = a1; });
+        labels.forEach((l, i) => { const y = 70 + i * 22; o += `<rect x="290" y="${y - 10}" width="14" height="14" fill="${FILL[i % 6]}" stroke="#222"/><text x="310" y="${y + 1}">${esc(l)}${ser[0].values[i] != null ? " (" + fmt(ser[0].values[i]) + (c.unit || "") + ")" : ""}</text>`; });
+        return o + "</svg>";
+      }
+      const stacked = c.type === "stacked" || c.type === "stacked100", pct = c.type === "stacked100";
+      let data = ser.map(x => x.values.slice());
+      if (pct) { for (let i = 0; i < n; i++) { const t = ser.reduce((a, x) => a + Math.max(0, x.values[i]), 0) || 1; data.forEach(d => d[i] = Math.max(0, d[i]) / t * 100); } }
+      let mn = Math.min(0, ...data.flat()), mx = stacked ? Math.max(...labels.map((_, i) => data.reduce((a, d) => a + Math.max(0, d[i]), 0))) : Math.max(...data.flat());
+      if (pct) mx = 100; if (mx <= mn) mx = mn + 1;
+      const raw = (mx - mn) / 5, mag = Math.pow(10, Math.floor(Math.log10(raw))), step = [1, 2, 2.5, 5, 10].map(k => k * mag).find(k => k >= raw) || raw; mx = Math.ceil(mx / step - 1e-9) * step; mn = Math.floor(mn / step + 1e-9) * step;
+      const Y = (v) => top + ph - (v - mn) / (mx - mn) * ph, gw = pw / n;
+      for (let v = mn; v <= mx + 1e-9; v += step) o += `<line x1="${L}" x2="${W - R}" y1="${Y(v).toFixed(1)}" y2="${Y(v).toFixed(1)}" stroke="#ddd"/><text x="${L - 6}" y="${(Y(v) + 4).toFixed(1)}" text-anchor="end">${fmt(Math.round(v * 100) / 100)}</text>`;
+      o += `<line x1="${L}" x2="${L}" y1="${top}" y2="${top + ph}" stroke="#222"/><line x1="${L}" x2="${W - R}" y1="${Y(0).toFixed(1)}" y2="${Y(0).toFixed(1)}" stroke="#222"/>`;
+      const unit = (pct ? "%" : c.unit) || "", yl = c.yl ? c.yl + (unit ? ` (${unit})` : "") : (unit ? `(${unit})` : "");
+      if (yl) o += `<text x="${L}" y="${top - 8}" font-size="11" text-anchor="start">${esc(yl)}</text>`;
+      if (c.xl) o += `<text x="${L + pw / 2}" y="${H - 6}" text-anchor="middle" font-size="11">${esc(c.xl)}</text>`;
+      labels.forEach((l, i) => { o += `<text x="${(L + gw * (i + .5)).toFixed(1)}" y="${(top + ph + 16).toFixed(1)}" text-anchor="middle">${esc(l)}</text>`; });
+      if (c.type === "line") {
+        ser.forEach((x, k) => { const col = LINE[k % 6], pts = data[k].map((v, i) => `${(L + gw * (i + .5)).toFixed(1)},${Y(v).toFixed(1)}`);
+          o += `<polyline points="${pts.join(" ")}" fill="none" stroke="${col}" stroke-width="2"/>`;
+          data[k].forEach((v, i) => { o += `<circle cx="${(L + gw * (i + .5)).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="3.5" fill="${col}"/>` + (n <= 8 ? `<text x="${(L + gw * (i + .5)).toFixed(1)}" y="${(Y(v) - 8).toFixed(1)}" text-anchor="middle" font-size="11" fill="${col}">${fmt(v)}</text>` : ""); }); });
+      } else if (stacked) {
+        const bw = Math.min(gw * .6, 56);
+        for (let i = 0; i < n; i++) { let acc = 0; data.forEach((d, k) => { const v = Math.max(0, d[i]), y1 = Y(acc + v), y0 = Y(acc), x = L + gw * (i + .5) - bw / 2; acc += v;
+          o += `<rect x="${x.toFixed(1)}" y="${y1.toFixed(1)}" width="${bw.toFixed(1)}" height="${Math.max(0, y0 - y1).toFixed(1)}" fill="${FILL[k % 6]}" stroke="#222"/>`;
+          if (y0 - y1 > 14) o += `<text x="${(x + bw / 2).toFixed(1)}" y="${((y0 + y1) / 2 + 4).toFixed(1)}" text-anchor="middle" fill="${TXT[k % 6]}" font-size="11">${fmt(Math.round(v * 10) / 10)}</text>`; }); }
+      } else {
+        const bw = Math.min(gw * .7 / ser.length, 40);
+        for (let i = 0; i < n; i++) data.forEach((d, k) => { const x = L + gw * (i + .5) - bw * ser.length / 2 + bw * k, y = Y(Math.max(d[i], 0)), y0 = Y(Math.min(d[i], 0));
+          o += `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${bw.toFixed(1)}" height="${Math.max(0, y0 - y).toFixed(1)}" fill="${FILL[(k + 2) % 6 === 2 && ser.length === 1 ? 1 : k % 6]}" stroke="#222"/>` + `<text x="${(x + bw / 2).toFixed(1)}" y="${(d[i] >= 0 ? y - 4 : y0 + 12).toFixed(1)}" text-anchor="middle" font-size="11">${fmt(d[i])}</text>`; });
+      }
+      if (legend) ser.forEach((x, k) => { const lx = L + (yl ? 56 : 0) + k * Math.min(120, (pw - 56) / ser.length); o += `<rect x="${lx}" y="${top - 22}" width="12" height="12" fill="${c.type === "line" ? LINE[k % 6] : FILL[k % 6]}" stroke="#222"/><text x="${lx + 17}" y="${top - 12}" font-size="11">${esc(x.name)}</text>`; });
+      return o + "</svg>";
+    }
+    function labSvgClean(svg) {
+      return DOMPurify.sanitize(svg, { USE_PROFILES: { svg: true }, FORBID_TAGS: ["style", "script", "foreignObject", "image", "a", "use"], FORBID_ATTR: ["style", "href", "xlink:href"] });
+    }
+    function labBlocksEl(blocks) {
+      const frag = document.createDocumentFragment();
+      (blocks || []).forEach(b => {
+        const d = document.createElement("div");
+        if (b.kind === "box") {
+          d.className = "lab-box"; if (b.label) { const l = document.createElement("span"); l.className = "lab-box-l"; l.textContent = /^[<＜(（]/.test(b.label) ? b.label : (/^(보기|자료|조건|가설|실험|사례)/.test(b.label) ? "<" + b.label + ">" : b.label); d.appendChild(l); }
+          const t = document.createElement("div"); renderMarkdownInto(t, b.text); d.appendChild(t);
+        } else if (b.kind === "table") {
+          d.className = "lab-blk"; if (b.caption) { const c = document.createElement("div"); c.className = "lab-cap"; renderMarkdownInto(c, b.caption); d.appendChild(c); }
+          const w = document.createElement("div"); w.className = "lab-tw"; const tb = document.createElement("table"); tb.className = "lab-t";
+          const cell = (tag, txt) => { const e = document.createElement(tag); renderMarkdownInto(e, txt); return e; };
+          if (b.header.length) { const tr = document.createElement("tr"); b.header.forEach(h => tr.appendChild(cell("th", h))); const th = document.createElement("thead"); th.appendChild(tr); tb.appendChild(th); }
+          const tbd = document.createElement("tbody"); b.rows.forEach(r => { const tr = document.createElement("tr"); r.forEach((x, i) => tr.appendChild(cell(!b.header.length && i === 0 ? "th" : "td", x))); tbd.appendChild(tr); }); tb.appendChild(tbd);
+          w.appendChild(tb); d.appendChild(w);
+          if (b.note) { const n = document.createElement("div"); n.className = "lab-fnote"; renderMarkdownInto(n, b.note); d.appendChild(n); }
+        } else if (b.kind === "chart") {
+          d.className = "lab-blk lab-fig"; try { d.innerHTML = labSvgClean(labChartSvg(b)); } catch (_) { d.textContent = "(그래프를 그리지 못했어요)"; }
+        } else if (b.kind === "svg") {
+          d.className = "lab-blk lab-fig"; d.innerHTML = labSvgClean(b.svg); if (b.caption) { const c = document.createElement("div"); c.className = "lab-fnote"; c.textContent = b.caption; d.appendChild(c); }
+        }
+        frag.appendChild(d);
+      });
+      return frag;
+    }
+    function labBlocksText(blocks) {
+      return (blocks || []).map(b => b.kind === "box" ? `[${b.label || "자료"}]\n${b.text}` : b.kind === "table" ? (b.caption ? b.caption + "\n" : "") + [b.header, ...b.rows].filter(r => r && r.length).map(r => r.join(" | ")).join("\n") : b.kind === "chart" ? `[그래프: ${b.title || b.type}] ` + b.series.map(x => x.name + ": " + b.labels.map((l, i) => l + "=" + x.values[i]).join(", ")).join(" / ") : "[그림]").join("\n\n");
+    }
+    // ---- 사진/캡처 첨부 (문제 사진을 AI가 직접 보고 박스·표·그래프·도형을 읽음)
+    let labImgs = [];
+    function labImgShrink(file) {
+      return new Promise((res, rej) => { const u = URL.createObjectURL(file), im = new Image();
+        im.onload = () => { const k = Math.min(1, 1800 / Math.max(im.width, im.height)), cv = document.createElement("canvas"); cv.width = Math.round(im.width * k); cv.height = Math.round(im.height * k);
+          const g = cv.getContext("2d"); g.fillStyle = "#fff"; g.fillRect(0, 0, cv.width, cv.height); g.drawImage(im, 0, 0, cv.width, cv.height); URL.revokeObjectURL(u);
+          const url = cv.toDataURL("image/jpeg", 0.85); res({ mime: "image/jpeg", data: url.split(",")[1], url }); };
+        im.onerror = () => { URL.revokeObjectURL(u); rej(new Error("이미지를 읽지 못했어요")); }; im.src = u; });
+    }
+    function labImgRender() {
+      const box = labEl("labImgList"); box.innerHTML = "";
+      labImgs.forEach((a, i) => { const im = document.createElement("img"); im.src = a.url; const x = document.createElement("button"); x.type = "button"; x.textContent = "✕"; x.addEventListener("click", () => { labImgs.splice(i, 1); labImgRender(); }); box.append(im, x); });
+    }
+    async function labCall(task, question, useFile) {
       const f = useFile ? aiSelectedFile : null;
       const res = await fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ task, json: true, lab_mode: x.mode, lab_sol: (labEl("labSol") || {}).value || "auto", lab_n: x.n ? Number(x.n) : undefined, question, history: [], manifest: "", mode: "fast",
+        body: JSON.stringify({ task, json: true, question, history: [], manifest: "", mode: "fast", attachments: useFile ? labImgs.map(a => ({ mime: a.mime, data: a.data })) : [],
           file: f ? { title: f.title || f.filename, download_url: f.download_url, size_bytes: f.size_bytes } : null, file_ref: f ? aiFileRef : null }) });
       let d; try { d = await res.json(); } catch (_) { throw new Error("서버 응답을 해석하지 못했어요"); }
       if (!res.ok) throw new Error(d.error || "AI 오류가 났어요");
@@ -3030,38 +2888,14 @@
       const m = String(d.answer || "").match(/\{[\s\S]*\}/); if (!m) throw new Error("AI 답을 읽지 못했어요");
       return JSON.parse(m[0]).problems || [];
     }
-    // 생성 중 애니메이션: 단계 체크리스트 + 진행 막대 + 스켈레톤 카드
-    const LAB_PHASES = {
-      gen: ["원본 문제를 찾아 읽는 중", "핵심 개념·풀이 구조 분석", "변형 축을 정하고 문제 설계", "직접 풀어서 정답 검증", "선지·해설·표시자 정리"],
-      import: ["PDF에서 문제 번호 찾는 중", "원문 그대로 옮기는 중", "조건 박스·선지 구조화", "직접 풀어 정답 확인"],
-      solve: ["문제를 다시 읽는 중", "처음부터 풀이 작성", "정답을 대입해 검산", "해설 정리"],
-      edit: ["수정 요청 해석", "문제 고치는 중", "다시 풀어 정답 갱신", "카드 정리"],
-      chat: ["답변에서 문제 찾는 중", "조건 박스·선지로 정리", "직접 풀어 검증"],
-    };
-    const labGenKind = (m) => /만들고/.test(m) ? "gen" : /PDF/.test(m) ? "import" : /다시 푸는/.test(m) ? "solve" : /고치는/.test(m) ? "edit" : /채팅/.test(m) ? "chat" : "gen";
-    let labGenTimer = null;
-    function labGenStart(msg) {
-      const kind = labGenKind(msg), ph = LAB_PHASES[kind], box = labEl("labGen"), t0 = Date.now(), per = kind === "gen" ? 6 : 3.5;
-      box.innerHTML = '<div class="lab-card lab-gen"><div class="gen-top"><span class="gen-spark">✦</span><b>AI가 작업 중이에요</b><span class="gen-time">0초</span></div><ol class="gen-steps"></ol><div class="gen-bar"><i></i></div><div class="sk w90"></div><div class="sk w70"></div><div class="sk w40"></div><div class="sk-row"><div class="sk"></div><div class="sk"></div><div class="sk"></div><div class="sk"></div><div class="sk"></div></div></div>';
-      const ol = box.querySelector(".gen-steps"); ph.forEach(t => { const li = document.createElement("li"); li.textContent = t; ol.appendChild(li); });
-      const tick = () => {
-        const s = (Date.now() - t0) / 1000, cur = Math.min(ph.length - 1, Math.floor(s / per));
-        ol.querySelectorAll("li").forEach((li, i) => { li.className = i < cur ? "done" : i === cur ? "act" : ""; });
-        box.querySelector(".gen-time").textContent = Math.floor(s) + "초";
-        box.querySelector(".gen-bar i").style.width = (6 + 90 * (1 - Math.exp(-s / (kind === "gen" ? 22 : 10)))) + "%";
-      };
-      tick(); clearInterval(labGenTimer); labGenTimer = setInterval(tick, 500);
-      box.scrollIntoView({ block: "nearest", behavior: "smooth" });
-    }
-    function labGenStop() { clearInterval(labGenTimer); labGenTimer = null; labEl("labGen").innerHTML = ""; }
     async function labRun(msg, fn) {
-      if (labBusy) return; labBusy = true; labStatus(msg); labEl("tabLab").classList.add("busy"); labGenStart(msg);
+      if (labBusy) return; labBusy = true; labStatus(msg);
       document.querySelectorAll("#tabLab button").forEach(b => b.disabled = true);
       try { await fn(); } catch (e) { labStatus(e.message || "실패했어요"); }
-      finally { labBusy = false; labGenStop(); labEl("tabLab").classList.remove("busy"); document.querySelectorAll("#tabLab button").forEach(b => b.disabled = false); }
+      finally { labBusy = false; document.querySelectorAll("#tabLab button").forEach(b => b.disabled = false); }
     }
-    function labAdd(arr, src, emptyMsg, kind) {
-      const cards = arr.map(p => labNorm(p, src, kind)).filter(Boolean);
+    function labAdd(arr, src, emptyMsg) {
+      const cards = arr.map(p => labNorm(p, src)).filter(Boolean);
       if (!cards.length) { labStatus(emptyMsg); return; }
       labProblems.unshift(...cards); labSave(); labRender(); labStatus(`${cards.length}개를 만들었어요.`);
     }
@@ -3080,18 +2914,25 @@
 
     labEl("labGenBtn").addEventListener("click", () => {
       const no = labEl("labNo").value.trim().replace(/번$/, ""), mode = labEl("labMode").value, n = labEl("labCount").value, extra = labEl("labExtra").value.trim();
-      if (!aiSelectedFile && !extra) { labStatus("자료를 고르거나, 추가 요청에 만들 문제를 적어주세요."); return; }
+      if (!aiSelectedFile && !extra && !labImgs.length) { labStatus("자료를 고르거나, 사진을 첨부하거나, 추가 요청에 만들 문제를 적어주세요."); return; }
       if (aiSelectedFile && !no) { labStatus("문제 번호를 적어주세요."); return; }
-      const q = aiSelectedFile ? `${no}번 문제를 바탕으로 변형 문제 ${n}개를 만들어줘. 방식: ${mode}.` + (extra ? ` 추가 요청: ${extra}` : "")
-                               : `다음 요청대로 새 문제 ${n}개를 만들어줘: ${extra}`;
-      labRun("AI가 문제를 만들고 검증하는 중이에요… (최대 40초)", async () =>
-        labAdd(await labCall("gen", q, true, { mode, n }), `${aiSelectedFile ? (aiSelectedFile.title || aiSelectedFile.filename) + " " + no + "번 변형" : "AI 출제"}`, "문제를 만들지 못했어요. 번호와 자료를 확인하거나 다시 시도해주세요.", "gen"));
+      const useImg = labImgs.length > 0 && !aiSelectedFile;
+      const q = useImg ? `첨부한 사진 속 ${no ? no + "번 " : ""}문제를 바탕으로 변형 문제 ${n}개를 만들어줘. 방식: ${mode}. 사진의 박스·표·그래프·도형도 새 수치로 다시 만들어줘.` + (extra ? ` 추가 요청: ${extra}` : "") + labHint() : aiSelectedFile ? `${no}번 문제를 바탕으로 변형 문제 ${n}개를 만들어줘. 방식: ${mode}.` + (extra ? ` 추가 요청: ${extra}` : "") + " 원본의 박스·표·그래프·도형이 있으면 새 수치로 blocks에 다시 만들어줘." + labHint()
+                               : `다음 요청대로 새 문제 ${n}개를 만들어줘: ${extra}` + labHint();
+      labRun("AI가 문제와 그림·표를 만들고 검증하는 중이에요… (최대 60초)", async () =>
+        labAdd(await labCall("gen", q, true), `${aiSelectedFile ? (aiSelectedFile.title || aiSelectedFile.filename) + " " + no + "번 변형" : useImg ? "사진 " + (no ? no + "번 " : "") + "변형" : "AI 출제"}`, "문제를 만들지 못했어요. 번호와 자료를 확인하거나 다시 시도해주세요."));
     });
     labEl("labImportBtn").addEventListener("click", () => {
       const no = labEl("labNo").value.trim().replace(/번$/, "");
-      if (!aiSelectedFile || !no) { labStatus("자료와 문제 번호를 먼저 정해주세요."); return; }
-      labRun("PDF에서 문제를 옮기는 중이에요…", async () =>
-        labAdd(await labCall("import", `${no}번 문제를 원문 그대로 가져와줘.`, true), `${aiSelectedFile.title || aiSelectedFile.filename} ${no}번 (원본)`, "그 번호의 문제를 찾지 못했어요.", "import"));
+      const useImg = labImgs.length > 0 && !aiSelectedFile;
+      if (!useImg && (!aiSelectedFile || !no)) { labStatus("자료와 문제 번호를 정하거나, 문제 사진을 첨부해주세요."); return; }
+      labRun(useImg ? "사진에서 문제와 그림·표를 옮기는 중이에요…" : "PDF에서 문제와 그림·표를 옮기는 중이에요…", async () =>
+        labAdd(await labCall("import", (no ? `${no}번 문제를` : "사진에 보이는 문제를") + " 원문 그대로 가져와줘. 박스·표·그래프·도형도 빠짐없이 옮겨줘." + labHint(), true), useImg ? "사진" + (no ? " " + no + "번" : "") + " (원본)" : `${aiSelectedFile.title || aiSelectedFile.filename} ${no}번 (원본)`, "문제를 찾지 못했어요. 번호나 사진을 확인해주세요."));
+    });
+    labEl("labImgBtn").addEventListener("click", () => labEl("labImgInput").click());
+    labEl("labImgInput").addEventListener("change", async (e) => {
+      const files = [...e.target.files].filter(f => f.type.startsWith("image/")).slice(0, 3 - labImgs.length); e.target.value = "";
+      try { for (const f of files) labImgs.push(await labImgShrink(f)); labImgRender(); labStatus(labImgs.length ? `사진 ${labImgs.length}장 첨부됨. "그대로 가져오기"나 "변형 문제 만들기"를 누르세요.` : ""); } catch (er) { labStatus(er.message); }
     });
     labEl("labClearBtn").addEventListener("click", () => { if (labProblems.length && confirm("저장된 문제 카드를 모두 지울까요?")) { labProblems = []; labSave(); labRender(); } });
 
@@ -3100,78 +2941,24 @@
       const wrap = bubbleEl.parentElement; if (!wrap || wrap.querySelector(".lab-send")) return;
       const b = document.createElement("button"); b.type = "button"; b.className = "lab-send"; b.textContent = "문제 생성실로 보내기";
       b.addEventListener("click", () => { showTab("lab"); labSync();
-        labRun("채팅 내용에서 문제를 옮기는 중이에요…", async () => labAdd(await labCall("chat", text.slice(0, 7000), false), "채팅에서 가져옴", "이 답변에서 문제를 찾지 못했어요.", "chat")); });
+        labRun("채팅 내용에서 문제를 옮기는 중이에요…", async () => labAdd(await labCall("chat", text.slice(0, 7000), false), "채팅에서 가져옴", "이 답변에서 문제를 찾지 못했어요.")); });
       wrap.appendChild(b);
     }
 
     const labSame = (a, b) => { const x = String(a).trim(), y = String(b).trim(); return x === y || (!isNaN(x) && !isNaN(y) && x !== "" && Number(x) === Number(y)); };
-    const LAB_KIND = { gen: "✦ AI 변형 문제", import: "✦ AI가 PDF에서 옮김", chat: "✦ 채팅에서 가져옴", edit: "✦ AI 수정본" };
-    const DIFF_CLS = { 쉬움: "d1", 보통: "d2", 어려움: "d3", 킬러: "d4" };
-    const COND_RE = /^\s*(\([가-힣]\)|[ㄱ-ㅎ]\.)\s*/;
-    // 문제 본문에서 (가)(나)·ㄱㄴㄷ 박스와 [n점]을 분리 (옛 카드·채팅에서 온 카드용)
-    function labSplit(text) {
-      let t = String(text || "").trim(), pts = "";
-      const pm = t.match(/\[\s*(\d+)\s*점\s*\]\s*$/); if (pm) { pts = pm[1]; t = t.slice(0, pm.index).trim(); }
-      const lines = t.split("\n"), first = lines.findIndex(l => COND_RE.test(l));
-      if (first < 0) return { stem: "", cond: [], q: t, pts };
-      let last = first; lines.forEach((l, i) => { if (i >= first && COND_RE.test(l)) last = i; });
-      const cond = [];
-      for (let i = first; i <= last; i++) { const l = lines[i].trim(); if (COND_RE.test(l) || !cond.length) cond.push(l); else if (l) cond[cond.length - 1] += " " + l; }
-      return { stem: lines.slice(0, first).join("\n").trim(), cond, q: lines.slice(last + 1).join("\n").trim(), pts };
-    }
-    function labParts(p) {
-      const base = labSplit(p.q);
-      if (p.cond && p.cond.length) return { stem: p.stem || "", cond: p.cond, q: base.q, pts: p.pts || base.pts };
-      return { stem: [p.stem, base.stem].filter(Boolean).join("\n"), cond: base.cond, q: base.q, pts: p.pts || base.pts };
-    }
-    const cardJson = (p) => { const L = labParts(p); return JSON.stringify({ stem: L.stem, conditions: L.cond, question: L.q, choices: p.ch, points: L.pts, answer: p.ans, solution: p.sol }); };
-    function labCallout(cls, mk, label, text) {
-      const c = document.createElement("div"); c.className = "lab-callout " + cls;
-      c.innerHTML = `<span class="mk mk-${mk}"></span><span class="t"></span>`; c.firstChild.textContent = label; renderMarkdownInto(c.lastChild, text, { marks: true }); return c;
-    }
     function labCard(p, idx) {
       const card = document.createElement("div"); card.className = "lab-card";
-      if (p.fresh) { card.classList.add("fresh"); delete p.fresh; }
       const redo = () => { card.replaceWith(labCard(p, idx)); labSave(); };
-      const no = labProblems.length - idx;
       const head = document.createElement("div"); head.className = "lab-head";
-      head.innerHTML = '<b></b><span></span><span class="sp"></span>'; head.children[0].textContent = "문제 " + no; head.children[1].textContent = p.src;
+      head.innerHTML = '<b></b><span></span><span class="sp"></span>'; head.children[0].textContent = "문제 " + (labProblems.length - idx); head.children[1].textContent = p.src;
       const del = document.createElement("button"); del.type = "button"; del.textContent = "삭제"; del.addEventListener("click", () => { labProblems.splice(idx, 1); labSave(); labRender(); }); head.appendChild(del);
-      card.appendChild(head);
-      // AI 표시 칩
-      const bd = document.createElement("div"); bd.className = "lab-badges";
-      const chip = (cls, t, title) => { const c = document.createElement("span"); c.className = "chip " + cls; c.textContent = t; if (title) c.title = title; bd.appendChild(c); };
-      chip("ai", p.re ? "✦ AI 재풀이" : (LAB_KIND[p.kind] || "✦ AI 생성"));
-      if (p.basis) chip(p.basis === "official" ? "ok" : "tag", p.basis === "official" ? "📖 공식 해설 참고" : "🧮 AI 직접 풀이 · 해설 없음", p.basis === "official" ? "자료의 공식 해설을 근거로 썼어요" : "공식 해설 없이 AI가 직접 풀고 다른 방법으로 재확인했어요");
-      if (p.conf) chip(p.conf === "높음" ? "ok" : p.conf === "중간" ? "diff d2" : "warn", "확신도 " + p.conf, "AI가 스스로 매긴 확신도예요. 낮음이면 공식 해설과 꼭 대조하세요");
-      if (p.diff) chip("diff " + (DIFF_CLS[p.diff] || ""), "난이도 " + p.diff);
-      (p.concepts || []).forEach(c => chip("tag", "# " + c));
-      chip("", p.ch.length ? "객관식" : "단답형");
-      if (p.chk === true) chip("ok", "✓ 풀이·정답 일치", "풀이 마지막 줄의 정답이 answer와 같아요 (AI 자체 확인)");
-      else if (p.chk === false) chip("warn", "⚠ 풀이와 정답이 달라요", "풀이의 최종 답과 정답 값이 달라요. 'AI 풀이 다시'를 눌러 확인하세요");
-      card.appendChild(bd);
-      if (p.change) card.appendChild(labCallout("chg", "chg", "변형 포인트", p.change));
-      // 수능 지면형 본문
-      const L = labParts(p);
-      const ex = document.createElement("div"); ex.className = "exam-q"; ex.innerHTML = '<div class="exam-no"></div><div class="exam-body"></div>';
-      ex.firstChild.textContent = no + "."; const body = ex.lastChild;
-      if (L.stem) { const d = document.createElement("div"); d.className = "exam-stem"; renderMarkdownInto(d, L.stem); body.appendChild(d); }
-      if (L.cond.length) {
-        const box = document.createElement("div"); box.className = "exam-box";
-        L.cond.forEach(line => {
-          const m = line.match(COND_RE), row = document.createElement("div"); row.className = "exam-cond";
-          const ct = document.createElement("span"); ct.className = "ct"; renderMarkdownInto(ct, m ? line.slice(m[0].length) : line);
-          if (m) { const cl = document.createElement("span"); cl.className = "cl"; cl.textContent = m[1]; row.appendChild(cl); }
-          row.appendChild(ct); box.appendChild(row);
-        });
-        body.appendChild(box);
-      }
-      if (L.q) { const d = document.createElement("div"); d.className = "exam-ask"; renderMarkdownInto(d, L.q); body.appendChild(d); }
-      if (L.pts) { const d = document.createElement("div"); d.className = "exam-pts"; d.textContent = "[" + L.pts + "점]"; body.appendChild(d); }
-      card.appendChild(ex);
+      const q = document.createElement("div"); q.className = "lab-q"; renderMarkdownInto(q, p.q);
+      card.append(head, q);
+      if (p.blocks && p.blocks.length) card.appendChild(labBlocksEl(p.blocks));
+      if (p.note) { const nt = document.createElement("div"); nt.className = "lab-note"; nt.textContent = "ⓘ " + p.note; card.appendChild(nt); }
       let input = null;
       if (p.ch.length) {
-        const box = document.createElement("div"); box.className = "lab-chs" + (p.ch.every(c => c.replace(/\$/g, "").length <= 14) ? " row" : "");
+        const box = document.createElement("div"); box.className = "lab-chs";
         p.ch.forEach((c, k) => {
           const b = document.createElement("button"); b.type = "button"; b.className = "lab-ch";
           b.innerHTML = `<span>${CIRC[k]}</span><span class="t"></span>`; renderMarkdownInto(b.querySelector(".t"), c);
@@ -3192,35 +2979,16 @@
       editRow.innerHTML = '<input type="text" placeholder="어떻게 고칠까요? 예: 숫자를 더 크게, 선지 ③을 바꿔줘" /><button type="button">고치기</button>';
       mk("AI 수정", () => { editRow.hidden = !editRow.hidden; });
       mk("AI 풀이 다시", () => labRun("AI가 다시 푸는 중이에요…", async () => {
-        const np = labNorm((await labCall("solve", "카드: " + cardJson(p), false))[0] || {}, p.src, p.kind);
-        if (!np) throw new Error("풀이를 받지 못했어요");
-        Object.assign(np, { id: p.id, mine: p.mine, open: true, q: p.q, ch: p.ch, stem: p.stem, cond: p.cond, pts: p.pts, diff: p.diff || np.diff, concepts: (p.concepts && p.concepts.length) ? p.concepts : np.concepts, change: p.change, re: true });
-        np.chk = labCheck(np); labProblems[idx] = np; labSave(); labRender(); labStatus("풀이를 다시 만들었어요."); }));
-      mk("복사", () => {
-        const t = [L.stem, ...L.cond, L.q].filter(Boolean).join("\n") + (L.pts ? ` [${L.pts}점]` : "") + (p.ch.length ? "\n" + p.ch.map((c, k) => CIRC[k] + " " + c).join("  ") : "") + "\n정답: " + p.ans;
-        navigator.clipboard?.writeText(t).then(() => showToast("복사했어요"), () => showToast("복사하지 못했어요", true)); });
+        const np = labNorm((await labCall("solve", "카드: " + JSON.stringify({ question: p.q, choices: p.ch, blocks: p.blocks, answer: p.ans, solution: p.sol }), false))[0] || {}, p.src);
+        if (!np) throw new Error("풀이를 받지 못했어요"); np.id = p.id; np.mine = p.mine; np.open = true; if (!np.blocks.length && p.blocks.length) np.blocks = p.blocks; labProblems[idx] = np; labSave(); labRender(); labStatus("풀이를 다시 만들었어요."); }));
+      mk("복사", () => { const t = p.q + (p.blocks && p.blocks.length ? "\n\n" + labBlocksText(p.blocks) : "") + (p.ch.length ? "\n" + p.ch.map((c, k) => CIRC[k] + " " + c).join("\n") : "") + "\n정답: " + p.ans; navigator.clipboard?.writeText(t).then(() => showToast("복사했어요"), () => showToast("복사하지 못했어요", true)); });
       editRow.querySelector("button").addEventListener("click", () => { const ins = editRow.querySelector("input").value.trim(); if (!ins) return;
         labRun("AI가 문제를 고치는 중이에요…", async () => {
-          const np = labNorm((await labCall("edit", "카드: " + cardJson(p) + "\n수정 요청: " + ins, false))[0] || {}, p.src + " (수정)", "edit");
+          const np = labNorm((await labCall("edit", "카드: " + JSON.stringify({ question: p.q, choices: p.ch, blocks: p.blocks, answer: p.ans, solution: p.sol }) + "\n수정 요청: " + ins, false))[0] || {}, p.src + " (수정)");
           if (!np) throw new Error("고친 문제를 받지 못했어요"); np.id = p.id; labProblems[idx] = np; labSave(); labRender(); labStatus("문제를 고쳤어요."); }); });
       card.append(act, editRow);
       if (p.graded !== null) { const r = document.createElement("div"); r.className = "lab-res"; r.textContent = p.graded ? "정답이에요 ✓" : `오답이에요 ✗  정답: ${p.ch.length ? CIRC[p.ans - 1] || p.ans : p.ans}`; r.style.color = p.graded ? "#4C7A44" : "#B43C28"; card.appendChild(r); }
-      if (p.open) {
-        const sol = document.createElement("div"); sol.className = "lab-sol";
-        const sh = document.createElement("div"); sh.className = "sol-head"; sh.innerHTML = '<span class="chip ai">✦ AI 해설</span>';
-        if (/\[STEP\s*\d+\]/.test(p.sol)) sh.insertAdjacentHTML("beforeend", '<span class="chip">☰ 단계별 풀이</span>');
-        if (/\[다른풀이\]/.test(p.sol)) sh.insertAdjacentHTML("beforeend", '<span class="chip ok">✓ 두 방법 확인</span>');
-        if (/\[검산\]/.test(p.sol)) sh.insertAdjacentHTML("beforeend", '<span class="chip ok">✓ 검산 포함</span>');
-        if (p.chk === true) sh.insertAdjacentHTML("beforeend", '<span class="chip ok">✓ 정답 일치</span>');
-        sol.appendChild(sh);
-        if (p.idea && !/\[핵심\]/.test(p.sol)) sol.appendChild(labCallout("key", "key", "핵심", p.idea));
-        const sb = document.createElement("div"); sb.className = "sol-body"; renderMarkdownInto(sb, p.sol || "(풀이 없음)", { marks: true }); sol.appendChild(sb);
-        if (p.trap && !/\[함정\]/.test(p.sol)) sol.appendChild(labCallout("trap", "trap", "함정", p.trap));
-        const fin = document.createElement("div"); fin.className = "sol-final"; fin.innerHTML = '<span class="mk mk-ans">정답</span><span class="t"></span>';
-        const ft = fin.lastChild; if (p.ch.length && p.ch[p.ans - 1]) { ft.append(CIRC[p.ans - 1] + "  "); const s2 = document.createElement("span"); renderMarkdownInto(s2, p.ch[p.ans - 1]); ft.appendChild(s2); } else ft.textContent = p.ch.length ? (CIRC[p.ans - 1] || p.ans) : p.ans;
-        sol.appendChild(fin); card.appendChild(sol);
-      }
-      const foot = document.createElement("div"); foot.className = "lab-foot"; foot.textContent = "✦ AI가 만든 문제·해설이에요. 틀릴 수 있으니 직접 풀어 확인하세요."; card.appendChild(foot);
+      if (p.open) { const sol = document.createElement("div"); sol.className = "lab-sol"; renderMarkdownInto(sol, p.sol || "(풀이 없음)"); card.appendChild(sol); }
       return card;
     }
     function labRender() {
