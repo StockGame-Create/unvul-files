@@ -83,6 +83,10 @@
   .swatch.on { box-shadow: 0 0 0 2px var(--ink); }
   .set-check { display: flex; align-items: flex-start; gap: 0.5rem; font-size: 0.88rem; line-height: 1.5; cursor: pointer; margin: 0.4rem 0; }
   .set-check input { margin-top: 0.25rem; width: 1rem; height: 1rem; accent-color: var(--leather); }
+  .set-mini { flex: 0 0 auto !important; padding: 0.4rem 0.8rem !important; font-size: 0.8rem !important; }
+  #shareUrl { flex: 1 1 12rem; min-width: 0; padding: 0.45rem 0.6rem; font-family: "IBM Plex Mono", monospace; font-size: 0.8rem; color: var(--ink); background: var(--paper-raised); border: 1px solid var(--rule); border-radius: var(--radius-sm); }
+  #shareQrBox { text-align: center; margin: 0.7rem 0 0.2rem; }
+  #shareQrImg { display: block; margin: 0 auto 0.5rem; max-width: 100%; height: auto; image-rendering: pixelated; border: 1px solid var(--rule); border-radius: var(--radius-sm); background: #fff; }
   .set-note { margin: 0.3rem 0 0; font-size: 0.78rem; color: var(--ink-soft); line-height: 1.5; }
 
   header.masthead h1 {
@@ -1744,6 +1748,20 @@
           <h3>파일 보관함</h3>
           <label class="set-check"><input type="checkbox" id="setShelfAi" /><span>카드 아래에 AI 버튼 표시 (✦ AI에게 질문 / ✦ 변형 문제)<br /><span class="set-note">기본은 꺼져 있어요. 평가원 탭은 항상 표시돼요.</span></span></label>
         </div>
+        <div class="set-sec">
+          <h3>공유</h3>
+          <div class="set-row"><input type="text" id="shareUrl" readonly aria-label="사이트 주소" /></div>
+          <div class="set-row">
+            <button type="button" class="notice-btn set-mini" id="shareCopy">링크 복사</button>
+            <button type="button" class="notice-btn set-mini" id="shareNative" hidden>공유하기</button>
+            <button type="button" class="notice-btn set-mini" id="shareQrBtn">QR 코드</button>
+          </div>
+          <div id="shareQrBox" hidden>
+            <img id="shareQrImg" alt="Unvul Files 사이트 QR 코드" />
+            <a id="shareQrSave" class="notice-btn set-mini" download="unvul-files-qr.png" style="display:inline-block">QR 이미지 저장</a>
+          </div>
+          <p class="set-note" id="shareNote">링크를 복사하거나 QR 코드를 보여줘서 친구에게 사이트를 알려줄 수 있어요.</p>
+        </div>
       </div>
       <div class="notice-actions">
         <button type="button" class="notice-btn" id="setReset">초기화</button>
@@ -2342,13 +2360,64 @@
       setEl("setColorNote").textContent = SET_NOTE;
     });
     const setOverlay = setEl("settingsOverlay");
-    const setOpen = () => { setSyncUi(); setOverlay.hidden = false; setEl("setClose").focus(); };
+    const setOpen = () => { setSyncUi(); shareReset(); setOverlay.hidden = false; setEl("setClose").focus(); };
     const setClose = () => { setOverlay.hidden = true; setEl("settingsBtn").focus(); };
     setEl("settingsBtn").addEventListener("click", setOpen);
     setEl("setClose").addEventListener("click", setClose);
     setOverlay.addEventListener("click", (e) => { if (e.target === setOverlay) setClose(); });
     document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !setOverlay.hidden) setClose(); });
     setSyncUi();
+
+    // ---- 공유: 링크 복사 / 공유 시트 / QR 코드 ----
+    const shareUrlNow = () => /^https?:$/.test(location.protocol) ? location.origin + location.pathname.replace(/index\.html$/, "") : location.href.split("#")[0];
+    const SHARE_NOTE = "링크를 복사하거나 QR 코드를 보여줘서 친구에게 사이트를 알려줄 수 있어요.";
+    function shareReset() {
+      setEl("shareUrl").value = shareUrlNow();
+      setEl("shareQrBox").hidden = true;
+      setEl("shareNative").hidden = typeof navigator.share !== "function";
+      const local = !/^https?:$/.test(location.protocol) || /^(localhost|127\.|192\.168\.|10\.)/.test(location.hostname);
+      setEl("shareNote").textContent = local ? "지금은 로컬/파일 주소라 다른 기기에서는 열리지 않을 수 있어요. 배포된 주소에서 공유해주세요." : SHARE_NOTE;
+    }
+    setEl("shareCopy").addEventListener("click", async () => {
+      const inp = setEl("shareUrl"), note = setEl("shareNote");
+      let ok = false;
+      try { await navigator.clipboard.writeText(inp.value); ok = true; }
+      catch (_) { inp.select(); try { ok = document.execCommand("copy"); } catch (__) {} }
+      note.textContent = ok ? "링크를 복사했어요." : "복사하지 못했어요. 주소를 직접 선택해서 복사해주세요.";
+    });
+    setEl("shareNative").addEventListener("click", async () => {
+      try { await navigator.share({ title: "Unvul Files", text: "설치·로그인 없이 바로 받는 자료 보관함", url: setEl("shareUrl").value }); }
+      catch (e) { if (e && e.name !== "AbortError") setEl("shareNote").textContent = "공유 창을 열지 못했어요. 링크 복사를 이용해주세요."; }
+    });
+    let qrLibPromise = null; // QR 라이브러리는 처음 필요할 때만 불러온다
+    function loadQrLib() {
+      if (typeof window.qrcode === "function") return Promise.resolve();
+      if (!qrLibPromise) qrLibPromise = new Promise((res, rej) => {
+        const sc = document.createElement("script");
+        sc.src = "https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js";
+        sc.onload = res;
+        sc.onerror = () => { qrLibPromise = null; rej(new Error("QR 만드는 도구를 불러오지 못했어요. 인터넷 연결을 확인하고 다시 눌러주세요.")); };
+        document.head.appendChild(sc);
+      });
+      return qrLibPromise;
+    }
+    setEl("shareQrBtn").addEventListener("click", async () => {
+      const box = setEl("shareQrBox"), note = setEl("shareNote");
+      if (!box.hidden) { box.hidden = true; return; }
+      note.textContent = "QR 코드를 만드는 중이에요…";
+      try {
+        await loadQrLib();
+        const qr = window.qrcode(0, "M"); qr.addData(setEl("shareUrl").value); qr.make();
+        const n = qr.getModuleCount(), cell = 8, quiet = 4, size = (n + quiet * 2) * cell;
+        const cv = document.createElement("canvas"); cv.width = cv.height = size;
+        const g = cv.getContext("2d"); g.fillStyle = "#fff"; g.fillRect(0, 0, size, size); g.fillStyle = "#000";
+        for (let r = 0; r < n; r++) for (let c = 0; c < n; c++) if (qr.isDark(r, c)) g.fillRect((c + quiet) * cell, (r + quiet) * cell, cell, cell);
+        const data = cv.toDataURL("image/png");
+        setEl("shareQrImg").src = data; setEl("shareQrSave").href = data;
+        box.hidden = false;
+        note.textContent = "휴대폰 카메라로 비추면 사이트가 열려요.";
+      } catch (e) { note.textContent = e.message || "QR 코드를 만들지 못했어요."; }
+    });
 
     // ---- NEW 표시: 그 탭에 처음 들어가면 해당 탭의 표시만 사라진다(브라우저에 기억) ----
     const NEW_KEY = (n) => "unvulNewSeen:" + n;
