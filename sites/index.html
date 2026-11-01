@@ -1308,6 +1308,15 @@
   .lab-ch .katex, .lab-ch .katex-display { font-size: 1.08em; margin: 0; } .lab-ch .katex-display { text-align: left; }
   .katex .katex-error { color: #B43C28; }
 
+  #aiLabPickBtn, #aiToLabBtn { font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace; font-size: 0.72rem; background: none; border: 1px solid var(--rule); color: var(--ink-soft); padding: 0.3rem 0.6rem; cursor: pointer; }
+  #aiLabPickBtn:hover, #aiToLabBtn:hover { border-color: var(--leather); color: var(--ink); }
+  .lab-pick { list-style: none; margin: .45rem 0 0; padding: 0; border: 1px solid var(--rule); border-radius: var(--radius-sm); max-height: 230px; overflow: auto; background: #fff; }
+  .lab-pick li { padding: .5rem .75rem; cursor: pointer; font-size: .84rem; border-bottom: 1px dashed var(--rule); line-height: 1.5; }
+  .lab-pick li:last-child { border-bottom: 0; } .lab-pick li:hover { background: var(--paper); } .lab-pick li.on { background: rgba(63,93,91,.12); font-weight: 600; }
+  .lab-pick .pn { color: var(--teal); margin-right: .5rem; font-family: "IBM Plex Mono", monospace; font-size: .76rem; }
+  .lab-refs { display: flex; flex-wrap: wrap; gap: .35rem; padding: .35rem .2rem 0; }
+  .lab-refs .chip button { background: none; border: 0; padding: 0 0 0 .3rem; cursor: pointer; color: inherit; font-size: .8rem; line-height: 1; }
+
   /* ---- 칩(표시자) ---- */
   .chip {
     display: inline-flex; align-items: center; gap: 0.25rem; white-space: nowrap;
@@ -1637,7 +1646,8 @@
           <span id="aiSelectedName"></span>
           <span class="view-toolbar-actions"><button type="button" id="aiFileResetBtn">다른 파일 선택</button></span>
         </div>
-        <div class="ai-modebar"><button type="button" id="chatResetBtn">새 대화</button><button type="button" id="aiToLabBtn">문제 생성실로 →</button></div>
+        <div class="ai-modebar"><button type="button" id="chatResetBtn">새 대화</button><button type="button" id="aiToLabBtn">문제 생성실로 →</button><button type="button" id="aiLabPickBtn">📚 생성실 문제 불러오기</button></div>
+        <ul class="lab-pick" id="aiLabPicker" hidden></ul>
         <p class="ai-note">위에서 자료를 고르면 그 PDF를 보고 답해요. 자료실 목록(manifest)을 함께 읽어서 "해설 파일이 있는지"도 알려줘요. 자동 답변이라 틀릴 수 있어요.</p>
       </div>
 
@@ -1645,6 +1655,7 @@
         <div class="chat-window" id="chatWindow">
           <p class="chat-empty">문제를 물어보세요.<br />＋ 버튼(또는 붙여넣기/끌어놓기)으로<br />문제 사진이나 PDF를 올릴 수도 있어요.</p>
         </div>
+        <div class="lab-refs" id="aiLabRefs" hidden></div>
         <div class="attach-tray" id="attachTray" hidden></div>
         <div class="chat-input-row">
           <input type="file" id="attachInput" accept="image/*,application/pdf" multiple hidden />
@@ -2758,7 +2769,7 @@
       if (chatBusy) return;
       attachments.forEach(a => a.previewUrl && URL.revokeObjectURL(a.previewUrl));
       attachments = [];
-      chatHistory = [];
+      chatHistory = []; aiLabRefs = []; aiLabRenderRefs();
       renderAttachTray();
       chatWindow.innerHTML = CHAT_EMPTY_HTML;
       chatInput.value = "";
@@ -3402,6 +3413,7 @@
         if (!np) throw new Error("풀이를 받지 못했어요");
         Object.assign(np, { id: p.id, mine: p.mine, open: true, q: p.q, ch: p.ch, stem: p.stem, cond: p.cond, blocks: p.blocks, note: p.note, pts: p.pts, diff: p.diff || np.diff, concepts: (p.concepts && p.concepts.length) ? p.concepts : np.concepts, change: p.change, re: true });
         np.chk = labCheck(np); labProblems[idx] = np; labSave(); labRender(); labStatus("풀이를 다시 만들었어요."); }));
+      mk("💬 AI에게 질문", () => aiAskAboutCard(p));
       mk("복사", () => {
         const t = [L.stem, ...L.cond, p.blocks && p.blocks.length ? labBlocksText(p.blocks) : "", L.q].filter(Boolean).join("\n") + (L.pts ? ` [${L.pts}점]` : "") + (p.ch.length ? "\n" + p.ch.map((c, k) => CIRC[k] + " " + c).join("  ") : "") + "\n정답: " + p.ans;
         navigator.clipboard?.writeText(t).then(() => showToast("복사했어요"), () => showToast("복사하지 못했어요", true)); });
@@ -3430,12 +3442,52 @@
       return card;
     }
     function labRender() {
+      try { aiLabRenderRefs(); aiLabRenderPicker(); } catch (_) {}
       labSync(); const list = labEl("labList"); list.innerHTML = "";
       if (!labProblems.length) { list.innerHTML = '<p class="ai-note">아직 문제 카드가 없어요. 위에서 만들거나, AI 탭 답변 아래의 "문제 생성실로 보내기"를 눌러보세요.</p>'; return; }
       labProblems.forEach((p, i) => list.appendChild(labCard(p, i)));
     }
 
     // opts.retry가 true면 방금 실패한 질문을 같은 내용으로 다시 보낸다 (사용자 말풍선은 이미 있음).
+    // ---- 문제 생성실 카드를 AI 질문에 붙이기 ----
+    let aiLabRefs = []; // 카드 id (최대 3개). 새 대화 / ✕ 로 뺄 때까지 유지 → 후속 질문에도 계속 문제를 보고 답함
+    const labCardNo = (p) => labProblems.length - labProblems.indexOf(p);
+    const labPlain = (t) => String(t || "").replace(/\$+/g, "").replace(/\\[A-Za-z]+/g, "").replace(/[{}]/g, "").replace(/\s+/g, " ").trim();
+    function labCardText(p) {
+      const L = labParts(p), svgText = (b) => ((b.svg || "").match(/<text[^>]*>([\s\S]*?)<\/text>/g) || []).map(x => x.replace(/<[^>]+>/g, "")).slice(0, 30).join(", ");
+      const blk = (p.blocks || []).map(b => b.kind === "svg" ? `[그림${b.caption ? ": " + b.caption : ""}${svgText(b) ? " · 그림 속 글자: " + svgText(b) : ""}]` : labBlocksText([b])).join("\n");
+      const t = [`[생성실 문제 ${labCardNo(p)}${p.src ? " · " + p.src : ""}]`, L.stem, ...L.cond, blk, L.q + (L.pts ? ` [${L.pts}점]` : ""),
+        p.ch.length ? p.ch.map((c, k) => CIRC[k] + " " + c).join("  ") : "", `(AI가 만든 정답: ${p.ans}${p.mine ? " / 학생이 고른 답: " + p.mine : ""})`,
+        p.sol ? "(AI가 쓴 풀이 — 틀릴 수 있음)\n" + p.sol.slice(0, 1800) : ""].filter(Boolean).join("\n");
+      return t.slice(0, 2600);
+    }
+    function aiLabCtx() {
+      aiLabRefs = aiLabRefs.filter(id => labProblems.some(p => p.id === id));
+      if (!aiLabRefs.length) return "";
+      return "\n\n[사용자가 문제 생성실에서 가져온 문제 — 질문은 이 문제들에 대한 것이에요. 정답·풀이는 AI가 만든 것이라 틀릴 수 있으니, 질문에 따라 직접 풀어 검증하고 오류가 있으면 알려주세요.]\n" + aiLabRefs.map(id => labCardText(labProblems.find(p => p.id === id))).join("\n\n");
+    }
+    function aiLabRenderRefs() {
+      const box = document.getElementById("aiLabRefs"); aiLabRefs = aiLabRefs.filter(id => labProblems.some(p => p.id === id));
+      box.innerHTML = ""; box.hidden = !aiLabRefs.length;
+      aiLabRefs.forEach(id => { const p = labProblems.find(x => x.id === id), c = document.createElement("span"); c.className = "chip ai";
+        c.textContent = "📌 생성실 문제 " + labCardNo(p); const x = document.createElement("button"); x.type = "button"; x.textContent = "✕"; x.title = "빼기";
+        x.addEventListener("click", () => { aiLabToggle(id); }); c.appendChild(x); box.appendChild(c); });
+    }
+    function aiLabToggle(id) {
+      const i = aiLabRefs.indexOf(id);
+      if (i >= 0) aiLabRefs.splice(i, 1); else { if (aiLabRefs.length >= 3) { showToast("한 번에 3문제까지 붙일 수 있어요", true); return; } aiLabRefs.push(id); }
+      aiLabRenderRefs(); aiLabRenderPicker();
+    }
+    function aiLabRenderPicker() {
+      const ul = document.getElementById("aiLabPicker"); if (ul.hidden) return; ul.innerHTML = "";
+      if (!labProblems.length) { ul.innerHTML = '<li>문제 생성실에 만든 문제가 아직 없어요.</li>'; return; }
+      labProblems.forEach(p => { const L = labParts(p), li = document.createElement("li"); if (aiLabRefs.includes(p.id)) li.className = "on";
+        li.innerHTML = '<span class="pn"></span><span class="pv"></span>'; li.firstChild.textContent = "문제 " + labCardNo(p);
+        li.lastChild.textContent = labPlain([L.stem, L.q].filter(Boolean).join(" ")).slice(0, 70) + (p.src ? "  · " + p.src : ""); li.addEventListener("click", () => aiLabToggle(p.id)); ul.appendChild(li); });
+    }
+    document.getElementById("aiLabPickBtn").addEventListener("click", () => { const ul = document.getElementById("aiLabPicker"); ul.hidden = !ul.hidden; aiLabRenderPicker(); });
+    function aiAskAboutCard(p) { if (!aiLabRefs.includes(p.id)) { if (aiLabRefs.length >= 3) aiLabRefs.shift(); aiLabRefs.push(p.id); } aiLabRenderRefs(); showTab("ai"); chatInput.placeholder = "이 문제에 대해 물어보세요 (예: ③번이 왜 답이 아니야? / 풀이 5단계가 이해 안 돼)"; chatInput.focus(); }
+
     async function sendChatMessage(opts = {}) {
       if (chatBusy || AI_MAINTENANCE) return;
       const question = opts.retry ? opts.question : chatInput.value.trim();
@@ -3443,7 +3495,7 @@
 
       chatBusy = true;
       if (!opts.retry) {
-        addUserMessage(question, attachments);
+        addUserMessage((aiLabRefs.length ? "📌 생성실 문제 " + aiLabRefs.map(id => { const p = labProblems.find(x => x.id === id); return p ? labCardNo(p) : "?"; }).join(", ") + "\n" : "") + question, attachments);
         chatInput.value = "";
         chatInput.style.height = "auto";
       }
@@ -3452,11 +3504,12 @@
       const bubbleEl = addAssistantPlaceholder();
 
       try {
+        let labCtx = aiLabCtx(); if (labCtx) labCtx = labCtx.slice(0, Math.max(0, 7800 - (question || "").length));
         const res = await fetch("/api/ask", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            question,
+            question: labCtx ? (question || "이 문제를 설명해줘.") + labCtx : question,
             history: chatHistory,
             attachments: attachments.map(a => ({ mime: a.mime, data: a.data })),
             file: aiSelectedFile ? { title: aiSelectedFile.title || aiSelectedFile.filename, download_url: aiSelectedFile.download_url, size_bytes: aiSelectedFile.size_bytes } : null,
@@ -3489,7 +3542,7 @@
         }
         renderRelated(bubbleEl.parentElement, data.related, data.retrieval);
 
-        chatHistory.push({ role: "user", text: question || "(첨부만 보냄)" });
+        chatHistory.push({ role: "user", text: (question || "(첨부만 보냄)") + (aiLabRefs.length ? " (생성실 문제 " + aiLabRefs.map(id => { const p = labProblems.find(x => x.id === id); return p ? labCardNo(p) : "?"; }).join(", ") + "번 참고)" : "") });
         chatHistory.push({ role: "assistant", text: data.answer || "" });
       } catch (err) {
         showAssistantError(bubbleEl, err.message, err.retryable ? question : undefined);
