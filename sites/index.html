@@ -1189,6 +1189,17 @@
   }
 
   .notice-btn:hover { opacity: 0.85; }
+
+  .omr-head { display:flex; justify-content:space-between; align-items:center; gap:.5rem; flex-wrap:wrap; margin:.6rem 0; }
+  .omr-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:.35rem .9rem; }
+  .omr-row { display:flex; align-items:center; gap:.35rem; padding:.2rem .35rem; border-radius:var(--radius-sm); border:1px solid transparent; }
+  .omr-row b { width:1.8rem; text-align:right; font-size:.85rem; color:var(--ink-soft); }
+  .omr-row button.bub { width:1.7rem; height:1.7rem; border-radius:50%; border:1px solid var(--ink-soft); background:transparent; color:var(--ink); cursor:pointer; font-size:.8rem; padding:0; }
+  .omr-row button.bub.on { background:var(--ink); color:var(--paper); }
+  .omr-row input { width:4rem; padding:.2rem .4rem; }
+  .omr-row.ok { background:rgba(76,122,68,.15); border-color:#4C7A44; }
+  .omr-row.no { background:rgba(180,60,40,.13); border-color:#B43C28; }
+  .omr-row i { font-style:normal; font-size:.75rem; color:#B43C28; margin-left:auto; }
 </style>
 </head>
 <body>
@@ -1203,6 +1214,7 @@
       <button type="button" class="tab-btn active" id="tabBtnFiles">파일 보관함</button>
       <button type="button" class="tab-btn" id="tabBtnKice">평가원</button>
       <button type="button" class="tab-btn" id="tabBtnView">파일 관리</button>
+      <button type="button" class="tab-btn" id="tabBtnOmr">OMR 채점</button>
       <button type="button" class="tab-btn" id="tabBtnAi">Unvul AI에게 물어보기</button>
     </div>
 
@@ -1339,6 +1351,23 @@
       <div class="pdf-viewer-shell" id="pdfViewerShell">
         <p class="chat-empty" id="pdfViewerEmpty">위에서 자료를 먼저 선택하면<br />여기서 바로 PDF를 볼 수 있어요.</p>
         <iframe id="pdfViewerFrame" title="PDF 미리보기" hidden></iframe>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tabOmr" hidden>
+      <div id="omrPick">
+        <label class="ai-field-label" for="omrSearch">정답(빠른정답/해설)이 같이 올라온 시험지만 보여줘요</label>
+        <input type="text" id="omrSearch" placeholder="시험지 이름으로 찾기 (예: 2026 수능 수학)" autocomplete="off" />
+        <p class="ai-note" id="omrCount"></p>
+        <ul class="ai-results" id="omrList"></ul>
+      </div>
+      <p class="ai-note" id="omrStatus" hidden></p>
+      <div id="omrCard" hidden>
+        <div class="omr-head"><strong id="omrTitle"></strong>
+          <span class="view-toolbar-actions"><button type="button" id="omrGradeBtn">채점하기</button><button type="button" id="omrResetBtn">다시 풀기</button><button type="button" id="omrBackBtn">다른 시험지</button></span></div>
+        <p class="ai-note" id="omrScore"></p>
+        <div class="omr-grid" id="omrGrid"></div>
+        <p class="ai-note">정답은 AI가 정답/해설 PDF에서 읽은 것이라 틀릴 수 있어요. 이상하면 원본과 대조하세요.</p>
       </div>
     </section>
 
@@ -1848,6 +1877,8 @@
     const tabFiles = document.getElementById("tabFiles");
     const tabView = document.getElementById("tabView");
     const tabAi = document.getElementById("tabAi");
+    const tabBtnOmr = document.getElementById("tabBtnOmr");
+    const tabOmr = document.getElementById("tabOmr");
     const tabBtnKice = document.getElementById("tabBtnKice");
     const tabKice = document.getElementById("tabKice");
 
@@ -1856,6 +1887,9 @@
       tabKice.hidden = name !== "kice";
       tabView.hidden = name !== "view";
       tabAi.hidden = name !== "ai";
+      tabOmr.hidden = name !== "omr";
+      tabBtnOmr.classList.toggle("active", name === "omr");
+      if (name === "omr") omrInit();
       tabBtnFiles.classList.toggle("active", name === "files");
       tabBtnKice.classList.toggle("active", name === "kice");
       tabBtnView.classList.toggle("active", name === "view");
@@ -1869,6 +1903,7 @@
     tabBtnKice.addEventListener("click", () => showTab("kice"));
     tabBtnView.addEventListener("click", () => showTab("view"));
     tabBtnAi.addEventListener("click", () => showTab("ai"));
+    tabBtnOmr.addEventListener("click", () => showTab("omr"));
 
     // ---- 파일 관리 (웹사이트 안에서 PDF 바로 보기) ----
     // GitHub Release 자산 URL은 Content-Disposition: attachment가 붙어서
@@ -2371,13 +2406,13 @@
     let aiSelectedFile = null;
     let aiFileRef = null; // 서버가 돌려준 Gemini 파일 참조(재업로드 방지). 파일을 바꾸면 비운다.
 
-    const COMMENTARY_RE = /정답\s*및\s*해설|해설|정답|답지|풀이/;
+    const COMMENTARY_RE = /정답\s*및\s*해설|빠른\s*정답|빠답|빠정|해설|정답|답지|풀이/;
     const normName = (v) => String(v || "").normalize("NFC").toLowerCase();
     const isCommentary = (f) => COMMENTARY_RE.test(normName((f.title || "") + " " + (f.filename || "")));
     // 해설/정답 단어, 확장자, 구분자를 지운 "본문 이름" — 문제지와 해설지를 같은 묶음으로 보기 위함.
     const baseName = (f) => normName(f.title || f.filename)
       .replace(/\.pdf$/i, "")
-      .replace(/정답\s*및\s*해설|해설지|해설|정답|답지|풀이/g, "")
+      .replace(/정답\s*및\s*해설|빠른\s*정답|빠답|빠정|해설지|해설|정답|답지|풀이|문제지|문제|시험지/g, "")
       .replace(/[\s_\-().\[\]]+/g, "");
 
     function fileLine(f, flag) {
@@ -2434,6 +2469,142 @@
           aiFileResults.appendChild(li);
         });
     });
+
+
+    // ---- OMR 채점: 정답은 AI가 정답/해설 PDF에서 읽고, 시험지 형식이 안 맞으면 포기한다 ----
+    const OMR_EXCLUDE = /대본|스크립트|듣기|omr|답안지|표지|해설|정답|풀이|답지|빠답|빠정/;
+    const OMR_TAMGU = /물리|화학|생명|지구|윤리|지리|동아시아|세계사|경제|정치|사회/;
+    function omrSpecOf(f) {
+      const t = normName((f.title || "") + " " + (f.filename || "") + " " + (f.subject || ""));
+      if (OMR_EXCLUDE.test(normName(f.title || f.filename))) return null;
+      if (/한국사/.test(t)) return { n: 20, name: "한국사" };
+      if (/제2외국어|한문|독일어|프랑스어|스페인어|중국어|일본어|러시아어|아랍어|베트남어/.test(t)) return { n: 30, name: "제2외국어/한문" };
+      if (/영어/.test(t)) return { n: 45, name: "영어" };
+      if (/국어/.test(t)) return { n: 45, name: "국어" };
+      if (/수학/.test(t)) return { n: 30, name: "수학" };
+      if (OMR_TAMGU.test(t)) return { n: 20, name: "탐구" };
+      return null;
+    }
+    // 수학 단답형(16~22, 29~30)만 0~999 숫자, 나머지는 5지선다
+    const omrKind = (spec, i) => (spec.name === "수학" && ((i >= 16 && i <= 22) || i >= 29)) ? "s" : "m";
+    const omrKeyRank = (f) => /빠른\s*정답|빠답|빠정/.test(normName(f.title || f.filename)) ? 0 : /정답/.test(normName(f.title || f.filename)) && !/해설/.test(normName(f.title || f.filename)) ? 1 : 2;
+
+    let omrExams = null, omrCur = null;
+    const omrEl = (id) => document.getElementById(id);
+
+    function omrBuild() {
+      const keys = new Map();
+      for (const x of allFiles) {
+        if (!isCommentary(x) || !x.download_url || (x.size_bytes || 0) > 45e6) continue;
+        const b = baseName(x); if (!b) continue;
+        const cur = keys.get(b); if (!cur || omrKeyRank(x) < omrKeyRank(cur)) keys.set(b, x);
+      }
+      omrExams = [];
+      for (const f of allFiles) {
+        if (isCommentary(f)) continue;
+        const spec = omrSpecOf(f), key = keys.get(baseName(f));
+        if (spec && key) omrExams.push({ f, key, spec });
+      }
+    }
+    function omrInit() {
+      if (!allFiles.length) { omrEl("omrCount").textContent = "자료를 불러오는 중이에요. 잠시 뒤 다시 열어주세요."; return; }
+      if (!omrExams) omrBuild();
+      omrRenderList();
+    }
+    function omrRenderList() {
+      const q = normName(omrEl("omrSearch").value.trim());
+      const list = omrExams.filter(e => !q || normName((e.f.title || e.f.filename) + " " + (e.f.year || "")).includes(q));
+      omrEl("omrCount").textContent = `OMR을 만들 수 있는 시험지 ${omrExams.length}개 중 ${list.length}개` + (list.length > 30 ? " (앞 30개만 표시)" : "");
+      const ul = omrEl("omrList"); ul.innerHTML = "";
+      list.slice(0, 30).forEach(e => {
+        const li = document.createElement("li");
+        li.textContent = `${e.f.title || e.f.filename} · ${e.spec.name} ${e.spec.n}문항`;
+        li.addEventListener("click", () => omrOpen(e));
+        ul.appendChild(li);
+      });
+    }
+    omrEl("omrSearch").addEventListener("input", () => omrExams && omrRenderList());
+
+    function omrStatus(msg) { const el = omrEl("omrStatus"); el.hidden = !msg; el.textContent = msg || ""; }
+    function omrGiveUp(why) { omrEl("omrPick").hidden = false; omrEl("omrCard").hidden = true; omrStatus("이 시험지는 OMR을 만들 수 없어요: " + why); }
+
+    // AI가 돌려준 정답을 형식에 맞는지 검사한다. 맞지 않으면 문구(포기 이유)를 돌려준다.
+    function omrValidate(ans, spec) {
+      if (!Array.isArray(ans)) return "정답표를 찾지 못했어요";
+      if (ans.length !== spec.n) return `문항 수가 맞지 않아요 (정답 ${ans.length}개 / 필요 ${spec.n}개)`;
+      for (let i = 0; i < ans.length; i++) {
+        const v = String(ans[i]).trim();
+        if (omrKind(spec, i + 1) === "m" ? !/^[1-5]$/.test(v) : !/^\d{1,3}$/.test(v)) return `${i + 1}번 정답 형식이 올바르지 않아요`;
+        ans[i] = String(Number(v)); // "098" -> "98"
+      }
+      return null;
+    }
+
+    async function omrOpen(e) {
+      omrCur = null; omrEl("omrPick").hidden = true; omrEl("omrCard").hidden = true;
+      const ck = "omrKey:" + e.f.message_id;
+      let ans = null;
+      try { ans = JSON.parse(localStorage.getItem(ck) || "null"); } catch (_) {}
+      if (!ans) {
+        omrStatus("AI가 정답표를 읽는 중이에요… (최대 20초)");
+        const ty = /홀수형/.test(e.f.filename + (e.f.title || "")) ? "홀수형" : /짝수형/.test(e.f.filename + (e.f.title || "")) ? "짝수형" : "";
+        const question = `이 PDF에서 "${e.f.title || e.f.filename}" 시험의 정답표를 찾아라. 총 ${e.spec.n}문항이며 1번부터 순서대로다. ` +
+          (ty ? `${ty} 정답을 써라. ` : `홀수형/짝수형이 둘 다 있고 어느 쪽인지 정할 수 없으면 answers를 null로 해라. `) +
+          `객관식은 1~5, 단답형은 0~999 숫자다. 정답표가 없거나 문항 수가 다르면 answers를 null로 해라. 형식: {"answers":["3","5", ...]}`;
+        try {
+          const res = await fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ question, json: true, history: [], manifest: "", mode: "fast",
+              file: { title: e.key.title || e.key.filename, download_url: e.key.download_url, size_bytes: e.key.size_bytes } }) });
+          const d = await res.json();
+          if (!res.ok) return omrGiveUp(d.error || "AI 응답 오류");
+          const m = String(d.answer || "").match(/\{[\s\S]*\}/);
+          ans = m ? JSON.parse(m[0]).answers : null;
+        } catch (_) { return omrGiveUp("AI 답을 읽지 못했어요"); }
+      }
+      const why = omrValidate(ans, e.spec);
+      if (why) { try { localStorage.removeItem(ck); } catch (_) {} return omrGiveUp(why); }
+      try { localStorage.setItem(ck, JSON.stringify(ans)); } catch (_) {}
+      omrCur = { e, ans, mine: Array(e.spec.n).fill("") };
+      omrStatus(""); omrRenderCard();
+    }
+
+    function omrRenderCard() {
+      const { e, mine } = omrCur;
+      omrEl("omrTitle").textContent = `${e.f.title || e.f.filename} (${e.spec.n}문항)`;
+      omrEl("omrScore").textContent = "";
+      const grid = omrEl("omrGrid"); grid.innerHTML = "";
+      for (let i = 1; i <= e.spec.n; i++) {
+        const row = document.createElement("div"); row.className = "omr-row"; row.id = "omrRow" + i;
+        row.innerHTML = `<b>${i}</b>`;
+        if (omrKind(e.spec, i) === "m") {
+          for (let k = 1; k <= 5; k++) {
+            const b = document.createElement("button"); b.type = "button"; b.className = "bub"; b.textContent = "①②③④⑤"[k - 1];
+            b.addEventListener("click", () => { mine[i - 1] = mine[i - 1] === String(k) ? "" : String(k);
+              row.querySelectorAll(".bub").forEach((x, j) => x.classList.toggle("on", mine[i - 1] === String(j + 1))); });
+            row.appendChild(b);
+          }
+        } else {
+          const inp = document.createElement("input"); inp.type = "text"; inp.inputMode = "numeric"; inp.maxLength = 3; inp.placeholder = "0~999";
+          inp.addEventListener("input", () => { inp.value = inp.value.replace(/\D/g, ""); mine[i - 1] = inp.value ? String(Number(inp.value)) : ""; });
+          row.appendChild(inp);
+        }
+        grid.appendChild(row);
+      }
+      omrEl("omrCard").hidden = false;
+    }
+    omrEl("omrGradeBtn").addEventListener("click", () => {
+      if (!omrCur) return;
+      const { ans, mine } = omrCur; let ok = 0, blank = 0;
+      ans.forEach((a, i) => {
+        const row = omrEl("omrRow" + (i + 1)); row.querySelector("i")?.remove();
+        const good = mine[i] === a; if (good) ok++; if (!mine[i]) blank++;
+        row.classList.toggle("ok", good); row.classList.toggle("no", !good);
+        if (!good) { const t = document.createElement("i"); t.textContent = "정답 " + (omrKind(omrCur.e.spec, i + 1) === "m" ? "①②③④⑤"[a - 1] : a); row.appendChild(t); }
+      });
+      omrEl("omrScore").textContent = `맞은 개수 ${ok} / ${ans.length}` + (blank ? ` (안 푼 문항 ${blank}개)` : "");
+    });
+    omrEl("omrResetBtn").addEventListener("click", () => { if (!omrCur) return; omrCur.mine.fill(""); omrRenderCard(); });
+    omrEl("omrBackBtn").addEventListener("click", () => { omrCur = null; omrEl("omrCard").hidden = true; omrEl("omrPick").hidden = false; omrStatus(""); });
 
     // opts.retry가 true면 방금 실패한 질문을 같은 내용으로 다시 보낸다 (사용자 말풍선은 이미 있음).
     async function sendChatMessage(opts = {}) {
