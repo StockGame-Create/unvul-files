@@ -1238,7 +1238,7 @@
       <button type="button" class="tab-btn active" id="tabBtnFiles">파일 보관함</button>
       <button type="button" class="tab-btn" id="tabBtnKice">평가원</button>
       <button type="button" class="tab-btn" id="tabBtnView">파일 관리</button>
-      <button type="button" class="tab-btn" id="tabBtnOmr">OMR 채점</button>
+      <button type="button" class="tab-btn" id="tabBtnOmr" hidden>OMR 채점</button>
       <button type="button" class="tab-btn" id="tabBtnAi">Unvul AI에게 물어보기</button>
     </div>
 
@@ -1912,7 +1912,9 @@
     const tabBtnKice = document.getElementById("tabBtnKice");
     const tabKice = document.getElementById("tabKice");
 
+    const OMR_ENABLED = false; // 테스트 중: true로 바꾸고 tabBtnOmr의 hidden을 지우면 열린다
     function showTab(name) {
+      if (name === "omr" && !OMR_ENABLED) name = "files";
       tabFiles.hidden = name !== "files";
       tabKice.hidden = name !== "kice";
       tabView.hidden = name !== "view";
