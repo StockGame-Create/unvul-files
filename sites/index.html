@@ -147,6 +147,16 @@
 
   /* ---- 평가원 탭: 선택창이 여러 개라 줄바꿈 허용 / 탭이 4개라 좁은 화면에서 가로 스크롤 ---- */
   #tabKice .sort-row { flex-wrap: wrap; row-gap: 0.5rem; }
+  /* 평가원 카드: AI 질문 / 변형 문제 바로가기 */
+  #tabKice .ai-row { display: flex; border-top: 1px solid var(--rule); }
+  #tabKice .ai-row button {
+    flex: 1; text-align: center; font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    font-size: 0.78rem; color: var(--ink); border: none; background: transparent;
+    padding: 0.7rem 0.4rem; cursor: pointer; transition: background-color 0.18s ease, color 0.18s ease;
+  }
+  #tabKice .ai-row button + button { border-left: 1px solid var(--rule); }
+  #tabKice .ai-row button:hover:not(:disabled) { background: var(--ink); color: var(--paper); }
+  #tabKice .ai-row button:disabled { opacity: 0.4; cursor: default; }
   #tabKice .sort-row label:not(:first-child) { margin-left: 0.6rem; }
   .tab-nav { overflow-x: auto; scrollbar-width: none; }
   .tab-nav::-webkit-scrollbar { display: none; }
@@ -2166,7 +2176,7 @@
       tabBtnKice.classList.toggle("active", name === "kice");
       tabBtnView.classList.toggle("active", name === "view");
       tabBtnAi.classList.toggle("active", name === "ai");
-      if (name === "kice") loadKice();
+      if (name === "kice" || name === "ai" || name === "lab") loadKice();
       if (name === "ai") chatInput.focus();
       if (name === "view" && !viewSelectedFile) viewFileSearch.focus();
     }
@@ -2806,7 +2816,26 @@
 
     const COMMENTARY_RE = /정답\s*및\s*해설|빠른\s*정답|빠답|빠정|해설|정답|답지|풀이/;
     const normName = (v) => String(v || "").normalize("NFC").toLowerCase();
-    const isCommentary = (f) => COMMENTARY_RE.test(normName((f.title || "") + " " + (f.filename || "")));
+    // 평가원 자료는 kind(문제/정답/해설/대본)가 있으면 그것을 우선한다.
+    const isCommentary = (f) => (f.kind === "문제" || f.kind === "대본") ? false
+      : (f.kind === "정답" || f.kind === "해설") ? true
+      : COMMENTARY_RE.test(normName((f.title || "") + " " + (f.filename || "")));
+
+    // AI 질문·문제 생성실이 고를 수 있는 자료 = 파일 보관함 + 평가원. (평가원 목록은 처음 필요할 때 불러온다)
+    function aiPool() {
+      try { loadKice(); } catch (e) { /* 아직 초기화 전이면 무시 */ }
+      let k = []; try { k = kiceFiles; } catch (e) { k = []; }
+      return k.length ? allFiles.concat(k) : allFiles;
+    }
+    function aiHay(f) {
+      return normName([f.filename, f.title, f.instructor, f.subject, f.year, f.year ? f.year + "학년도" : "", f.exam, f.kind].filter(Boolean).join(" "));
+    }
+    function aiMatch(f, q) { return q.split(/\s+/).filter(Boolean).every(t => aiHay(f).includes(t)); }
+    function aiLabel(f) {
+      const t = f.title || f.filename;
+      const ex = f.exam && !String(t).includes(f.exam) ? " · " + f.exam : "";
+      return `${t}${ex} · ${formatDate(f.telegram_date)}`;
+    }
     // 해설/정답 단어, 확장자, 구분자를 지운 "본문 이름" — 문제지와 해설지를 같은 묶음으로 보기 위함.
     const baseName = (f) => normName(f.title || f.filename)
       .replace(/\.pdf$/i, "")
@@ -2814,7 +2843,7 @@
       .replace(/[\s_\-().\[\]]+/g, "");
 
     function fileLine(f, flag) {
-      return [`id:${f.message_id}`, f.title || f.filename, f.subject, f.year, f.instructor, isCommentary(f) ? "[해설/정답 자료]" : "[문제/본문 자료]", flag]
+      return [`id:${f.message_id}`, f.title || f.filename, f.subject, f.year, f.exam, f.instructor, isCommentary(f) ? "[해설/정답 자료]" : "[문제/본문 자료]", flag]
         .filter(Boolean).join(" | ");
     }
 
@@ -2822,10 +2851,14 @@
     function buildManifestContext(question) {
       const lines = [];
       const f = aiSelectedFile;
+      const pool = aiPool();
       if (f) {
         const base = baseName(f);
-        const sibs = base ? allFiles.filter(x => x !== f && (baseName(x) === base ||
+        const sibs = base ? pool.filter(x => x !== f && (baseName(x) === base ||
           (base.length >= 6 && (baseName(x).includes(base) || base.includes(baseName(x)) && baseName(x).length >= 6)))) : [];
+        if (f.exam && f.year) { // 평가원: 같은 학년도·시험·과목이면 같은 묶음
+          for (const x of pool) if (x !== f && x.exam === f.exam && String(x.year) === String(f.year) && stripSpace(x.subject) === stripSpace(f.subject) && !sibs.includes(x)) sibs.push(x);
+        }
         const commentary = sibs.filter(isCommentary);
         lines.push(`선택한 자료: ${fileLine(f)}`);
         lines.push(isCommentary(f)
@@ -2835,7 +2868,7 @@
       }
       const toks = normName(question).split(/\s+/).filter(t => t.length >= 2).slice(0, 6);
       if (toks.length) {
-        allFiles.map(x => ({ x, n: toks.filter(t => normName([x.title, x.filename, x.subject, x.year, x.instructor].join(" ")).includes(t)).length }))
+        pool.map(x => ({ x, n: toks.filter(t => aiHay(x).includes(t)).length }))
           .filter(r => r.n > 0 && r.x !== f).sort((a, b) => b.n - a.n).slice(0, 12)
           .forEach(r => lines.push("질문과 관련: " + fileLine(r.x)));
       }
@@ -2859,10 +2892,10 @@
       const q = normName(aiFileSearch.value.trim());
       aiFileResults.innerHTML = "";
       if (!q) return;
-      allFiles.filter(f => normName([f.filename, f.title, f.instructor, f.subject, f.year].filter(Boolean).join(" ")).includes(q))
+      aiPool().filter(f => aiMatch(f, q))
         .slice(0, 8).forEach(f => {
           const li = document.createElement("li");
-          li.textContent = `${f.title || f.filename} · ${formatDate(f.telegram_date)}`;
+          li.textContent = aiLabel(f);
           li.addEventListener("click", () => selectAiFile(f));
           aiFileResults.appendChild(li);
         });
@@ -3259,8 +3292,8 @@
     const labSync = () => { labEl("labPick").hidden = !!aiSelectedFile; labEl("labSelected").hidden = !aiSelectedFile; labEl("labSelectedName").textContent = aiSelectedFile ? (aiSelectedFile.title || aiSelectedFile.filename) : ""; };
     labEl("labFileSearch").addEventListener("input", () => {
       const q = normName(labEl("labFileSearch").value.trim()), ul = labEl("labFileResults"); ul.innerHTML = ""; if (!q) return;
-      allFiles.filter(f => normName([f.filename, f.title, f.instructor, f.subject, f.year].filter(Boolean).join(" ")).includes(q)).slice(0, 8).forEach(f => {
-        const li = document.createElement("li"); li.textContent = `${f.title || f.filename} · ${formatDate(f.telegram_date)}`;
+      aiPool().filter(f => aiMatch(f, q)).slice(0, 8).forEach(f => {
+        const li = document.createElement("li"); li.textContent = aiLabel(f);
         li.addEventListener("click", () => { selectAiFile(f); labEl("labFileSearch").value = ""; ul.innerHTML = ""; labSync(); }); ul.appendChild(li);
       });
     });
@@ -3634,6 +3667,7 @@
           }
           kiceLoadState = "done";
           applyKiceFilter();
+          for (const id of ["aiFileSearch", "labFileSearch"]) { const el = document.getElementById(id); if (el && el.value.trim()) el.dispatchEvent(new Event("input")); }
         })
         .catch(err => {
           kiceLoadState = "idle"; // 탭을 다시 열면 재시도
@@ -3716,13 +3750,40 @@
             <button type="button" class="view-btn" data-state=""></button>
             <button type="button" class="quick-download-btn" data-state="" title="다운로드" aria-label="다운로드"></button>
           </div>
+          <div class="ai-row">
+            <button type="button" class="kice-ask-btn" title="이 자료로 Unvul AI에게 질문">✦ AI에게 질문</button>
+            <button type="button" class="kice-lab-btn" title="이 자료로 변형 문제 만들기">✦ 변형 문제</button>
+          </div>
         `;
 
         li.querySelector(".view-btn").addEventListener("click", () => openInFileManager(f));
         const dl = li.querySelector(".quick-download-btn");
         dl.addEventListener("click", () => handleDownload(dl, f.download_url, f.filename, true));
+        const askB = li.querySelector(".kice-ask-btn"), labB = li.querySelector(".kice-lab-btn");
+        const aiOk = Boolean(f.download_url) && (f.size_bytes || 0) <= 45 * 1024 * 1024;
+        if (!aiOk) { // 원본 주소가 없거나 45MB 초과면 AI가 읽을 수 없다
+          for (const b of [askB, labB]) { b.disabled = true; b.title = "이 파일은 AI가 읽을 수 없어요 (주소 없음 또는 45MB 초과)"; }
+        } else {
+          askB.addEventListener("click", () => kiceToAi(f, "ai"));
+          labB.addEventListener("click", () => kiceToAi(f, "lab"));
+        }
         kiceListEl.appendChild(li);
       }
+    }
+
+    // 평가원 카드 → AI 질문 / 문제 생성실로 보내기 (AI 탭과 생성실은 같은 "선택한 자료" 상태를 공유한다)
+    const KICE_LAB_SUBJECT = { math: "math", social: "social", science: "science", korean: "korean", english: "korean" };
+    function kiceToAi(f, where) {
+      selectAiFile(f);
+      labSync();
+      showTab(where);
+      if (where === "lab") {
+        const sub = KICE_LAB_SUBJECT[resolveCategory(f)];
+        const subEl = labEl("labSubject"); if (sub && subEl) subEl.value = sub;
+        labStatus(`${f.title || f.filename} 선택됨. 문제 번호를 적고 "변형 문제 만들기"나 "그대로 가져오기"를 누르세요.`);
+        labEl("labNo").focus();
+      }
+      document.querySelector(".tab-nav").scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
     function renderKicePagination(totalPages) {
