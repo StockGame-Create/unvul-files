@@ -71,6 +71,20 @@
       "sha256": "84b3822e801386940fa5934783341af966ad20e3fbbfe89d09a6db1a1fcaf1db"
     },
     {
+      "message_id": 26182,
+      "filename": "TalkFile_생명과학_2027_인간실격_모의고사F_3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26182_TalkFile_._2027_._.F_3.pdf",
+      "size_bytes": 918258,
+      "telegram_date": "2026-11-02T14:56:49+00:00",
+      "title": "생1 정석준 인간실격 모의고사F 3회",
+      "year": "2027",
+      "instructor": "정석준",
+      "subject": "생명과학1",
+      "thumbnail": "thumbnails/26182.png",
+      "sha256": "a848f6d939536af5c33b0f61d700388a761098613a8e5f063b49ab95049c3fee"
+    },
+    {
       "message_id": 26092,
       "filename": "신혁모 파이널 9회.pdf",
       "stored_as": null,
