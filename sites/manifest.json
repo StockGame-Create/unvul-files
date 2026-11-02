@@ -337,6 +337,20 @@
       "sha256": "de35e9ca34b2e37dcde160664b85d2cf5ada897ca091edad9962ba61299d248f"
     },
     {
+      "message_id": 26149,
+      "filename": "27 시대인재 서바이벌 모의고사 19회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26149_27.19.pdf",
+      "size_bytes": 46804994,
+      "telegram_date": "2026-11-02T14:56:03+00:00",
+      "title": "27 시대인재 서바이벌 모의고사 19회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26149.png",
+      "sha256": "d3cb3167dd944b58b2766d4668488100c1587a35b9a38aa10bdf69aeae3f700a"
+    },
+    {
       "message_id": 26092,
       "filename": "신혁모 파이널 9회.pdf",
       "stored_as": null,
