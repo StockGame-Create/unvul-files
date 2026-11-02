@@ -281,6 +281,20 @@
       "sha256": "9bcd0442bf488a50ddbc67cb77a7641c01462e69b373ca22a6631fd0db90cdaf"
     },
     {
+      "message_id": 26154,
+      "filename": "27 시대인재 서바이벌 모의고사 24회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26154_27.24.pdf",
+      "size_bytes": 47160401,
+      "telegram_date": "2026-11-02T14:56:12+00:00",
+      "title": "수학 시대인재 서바이벌 모의고사 18~24회 #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/26154.png",
+      "sha256": "e0b34503d7c955656748b09db26fe7b4189c2a2836c8d342978efc85eaa529ca"
+    },
+    {
       "message_id": 26092,
       "filename": "신혁모 파이널 9회.pdf",
       "stored_as": null,
