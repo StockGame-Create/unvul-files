@@ -407,6 +407,20 @@
       "sha256": "d290ba7e5dfea774171a0e4eb06c53019ab3b59ce192f4037fe14888e64ab1cf"
     },
     {
+      "message_id": 26140,
+      "filename": "27 김범준 모의고사 11회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26140_27.11.pdf",
+      "size_bytes": 33056307,
+      "telegram_date": "2026-11-02T14:55:53+00:00",
+      "title": "수학 김범준 모의고사 7~14회 (인쇄소퀄)",
+      "year": "2027",
+      "instructor": "김범준",
+      "subject": "수학",
+      "thumbnail": "thumbnails/26140.png",
+      "sha256": "149671b09fd61954368e0d792381b0b71b4fb788602860b04e24ebd1a773b2b8"
+    },
+    {
       "message_id": 26092,
       "filename": "신혁모 파이널 9회.pdf",
       "stored_as": null,
