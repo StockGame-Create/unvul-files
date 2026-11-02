@@ -617,6 +617,20 @@
       "sha256": "a3201c14f76a9243a18b5da7c6ee63542979489b65f821fd63071013134f8681"
     },
     {
+      "message_id": 26125,
+      "filename": "27 강대K 26회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26125_27.K.26.pdf",
+      "size_bytes": 95792071,
+      "telegram_date": "2026-11-02T14:55:34+00:00",
+      "title": "수학 강대모의고사K 25~30회 (인쇄소퀄) #강k",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/26125.png",
+      "sha256": "b0531e300d00e3ad6f48717f5376143e5a0bbcbeab3b11ee7c104f073133e2ef"
+    },
+    {
       "message_id": 26092,
       "filename": "신혁모 파이널 9회.pdf",
       "stored_as": null,
