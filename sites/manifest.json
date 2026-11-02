@@ -239,6 +239,20 @@
       "sha256": "d14729ce8033b169eb08c959015b883164990f619da3c46eede529332ae489f4"
     },
     {
+      "message_id": 26160,
+      "filename": "2027 최지욱 시즌2 Design 01주차 추가 N제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26160_2027.2.Design.01.N.pdf",
+      "size_bytes": 14289734,
+      "telegram_date": "2026-11-02T14:56:21+00:00",
+      "title": "수학 최지욱 시즌2 DESIGN 1주차 추가자료",
+      "year": "2027",
+      "instructor": "최지욱",
+      "subject": "수학",
+      "thumbnail": "thumbnails/26160.png",
+      "sha256": "d78eb7ef6d66a8874b2d965f520a39ae0e93b4a17af7054df5f6f30ef9d7636d"
+    },
+    {
       "message_id": 26092,
       "filename": "신혁모 파이널 9회.pdf",
       "stored_as": null,
