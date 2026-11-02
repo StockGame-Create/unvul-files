@@ -673,6 +673,20 @@
       "sha256": "b866328692c6cd39412e7eb6392927a421ca7f6598c342be425ba3a0c36c6377"
     },
     {
+      "message_id": 26118,
+      "filename": "전서바3회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26118_.3.pdf",
+      "size_bytes": 1540080,
+      "telegram_date": "2026-11-02T14:55:16+00:00",
+      "title": "생윤 시대인재 서바이벌 전국 모의고사 3회 #서바전국",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/26118.png",
+      "sha256": "bc27177b2fc64db00ecc95c9ebc444cf912dd2d579b05b79d26edf409a958c9e"
+    },
+    {
       "message_id": 26092,
       "filename": "신혁모 파이널 9회.pdf",
       "stored_as": null,
