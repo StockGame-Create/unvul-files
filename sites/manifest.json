@@ -57,6 +57,20 @@
       "sha256": "97a4afdfa24e43ee7fc2ec6437b0a640373eb8d2e9ba08e0592da4e5fd35f06b"
     },
     {
+      "message_id": 26183,
+      "filename": "2027_이지영_샤모_테마편_1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26183_2027_._._._1.pdf",
+      "size_bytes": 6870256,
+      "telegram_date": "2026-11-02T14:56:49+00:00",
+      "title": "생윤 이지영의 FINAL 샤프 모의고사 테마편 1회",
+      "year": "2027",
+      "instructor": "이지영",
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/26183.png",
+      "sha256": "84b3822e801386940fa5934783341af966ad20e3fbbfe89d09a6db1a1fcaf1db"
+    },
+    {
       "message_id": 26092,
       "filename": "신혁모 파이널 9회.pdf",
       "stored_as": null,
