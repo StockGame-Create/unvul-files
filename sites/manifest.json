@@ -127,6 +127,20 @@
       "sha256": "d0560718e88dca45fc4a7dadc248d0822e8d4b76bd5a2e3d98a2d851cf5b8768"
     },
     {
+      "message_id": 26172,
+      "filename": "이신혁 하프모 9회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26172_.9.pdf",
+      "size_bytes": 3601087,
+      "telegram_date": "2026-11-02T14:56:37+00:00",
+      "title": "지1 이신혁 하프 모의고사 9회",
+      "year": "2027",
+      "instructor": "이신혁",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/26172.png",
+      "sha256": "f83ced1036d6308330768ffb634b5b57823ec9cb62768d8009d0cb312f13fa38"
+    },
+    {
       "message_id": 26092,
       "filename": "신혁모 파이널 9회.pdf",
       "stored_as": null,
