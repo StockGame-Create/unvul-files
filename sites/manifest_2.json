@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T16:51:11+00:00",
+  "updated_at": "2026-11-03T01:03:48+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -3914,6 +3914,28 @@
       "model": "gemini-3.6-flash",
       "problem_count": 21,
       "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 26188,
+      "filename": "2027학년도_이해원_모의고사_시즌4_정답_및_해설.pdf",
+      "title": "수학 이해원 모의고사 시즌4 0~2회 (인쇄소퀄) #이해원모의고사",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "sha256": "edc11f11d9618797ee86c64abc6ab6f94ae488121f949a1215e13956dfc702b6",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/26188.json",
+      "updated_at": "2026-11-03T01:03:48+00:00",
+      "pages_total": 152,
+      "pages_done": 20,
+      "failed_pages": [],
+      "model": "gemini-3.6-flash",
+      "problem_count": 0,
+      "solution_count": 60,
       "matched_count": 0,
       "with_answer": 0,
       "with_explanation": 0
