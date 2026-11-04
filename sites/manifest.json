@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 26193,
+      "filename": "2027 이감 6-9 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26193_2027.6-9.pdf",
+      "size_bytes": 64029792,
+      "telegram_date": "2026-11-04T12:44:55+00:00",
+      "title": "국어 이감 파이널II(시즌6) 제 9차 예비평가 #이감",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/26193.png",
+      "sha256": "9f7bd7aaf9f6678264c276ca7ecde56b7351510acb52315e4b6e694c879b7c47"
+    },
+    {
       "message_id": 26188,
       "filename": "2027학년도_이해원_모의고사_시즌4_정답_및_해설.pdf",
       "stored_as": null,
