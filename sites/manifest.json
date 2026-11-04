@@ -29,6 +29,20 @@
       "sha256": "ea8acfaad125eb22351596ff1e367ddbd182b5c9c3633697d217e30fee0e4e6f"
     },
     {
+      "message_id": 26190,
+      "filename": "2027학년도_현우진_킬링캠프_시즌3_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26190_2027._._._.3_.pdf",
+      "size_bytes": 29987941,
+      "telegram_date": "2026-11-04T12:44:54+00:00",
+      "title": "수학 킬링캠프 시즌3 해설 #킬캠",
+      "year": "2027",
+      "instructor": "현우진",
+      "subject": "수학",
+      "thumbnail": "thumbnails/26190.png",
+      "sha256": "d9b39d4fbc338cbb2fd4cf036644e24c4e68178782f66aeb0710374a97d48019"
+    },
+    {
       "message_id": 26188,
       "filename": "2027학년도_이해원_모의고사_시즌4_정답_및_해설.pdf",
       "stored_as": null,
