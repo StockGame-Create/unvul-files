@@ -43,6 +43,20 @@
       "sha256": "c0c3adcd2d9bb2728647f1d09934e32f8dc32981853a0e9e78c4d28793e8983d"
     },
     {
+      "message_id": 26197,
+      "filename": "27 11서프 생윤 윤사 set.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26197_27.11.set.pdf",
+      "size_bytes": 9280999,
+      "telegram_date": "2026-11-05T14:23:22+00:00",
+      "title": "사회 시대인재 11월 전국모의평가 (생윤, 윤사) #서프",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회탐구",
+      "thumbnail": "thumbnails/26197.png",
+      "sha256": "03c76dff1680507d763eb1efc7293a67b222af09653f437cbe8582b85c67a6a4"
+    },
+    {
       "message_id": 26193,
       "filename": "2027 이감 6-9 해설.pdf",
       "stored_as": null,
