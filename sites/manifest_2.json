@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T20:15:57+00:00",
+  "updated_at": "2026-11-05T06:58:21+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -3970,11 +3970,11 @@
       "subject": "국어",
       "sha256": "9f7bd7aaf9f6678264c276ca7ecde56b7351510acb52315e4b6e694c879b7c47",
       "schema_version": 1,
-      "status": "partial",
+      "status": "done",
       "data": "ai/26193.json",
-      "updated_at": "2026-11-04T20:15:57+00:00",
+      "updated_at": "2026-11-05T06:54:19+00:00",
       "pages_total": 16,
-      "pages_done": 12,
+      "pages_done": 16,
       "failed_pages": [
         5,
         6,
@@ -3985,9 +3985,31 @@
         11,
         12
       ],
-      "model": "gemini-3.6-flash",
+      "model": "gemini-3.8-flash",
       "problem_count": 0,
-      "solution_count": 63,
+      "solution_count": 81,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 26192,
+      "filename": "2027 이감 6-9 문제.pdf",
+      "title": "국어 이감 파이널II(시즌6) 제 9차 예비평가 #이감",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "sha256": "ea8acfaad125eb22351596ff1e367ddbd182b5c9c3633697d217e30fee0e4e6f",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/26192.json",
+      "updated_at": "2026-11-05T06:58:21+00:00",
+      "pages_total": 22,
+      "pages_done": 0,
+      "failed_pages": [],
+      "model": null,
+      "problem_count": 0,
+      "solution_count": 0,
       "matched_count": 0,
       "with_answer": 0,
       "with_explanation": 0
