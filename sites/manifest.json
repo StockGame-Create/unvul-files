@@ -57,6 +57,20 @@
       "sha256": "03c76dff1680507d763eb1efc7293a67b222af09653f437cbe8582b85c67a6a4"
     },
     {
+      "message_id": 26195,
+      "filename": "2027 서준혁 항해일지 24주차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26195_2027.24.pdf",
+      "size_bytes": 95254434,
+      "telegram_date": "2026-11-05T14:23:21+00:00",
+      "title": "국어 서준혁 항해일지 24주차",
+      "year": "2027",
+      "instructor": "서준혁",
+      "subject": "국어",
+      "thumbnail": "thumbnails/26195.png",
+      "sha256": "75a8f3b18c268c158ce78525e70a8db97af613355d860b127ad524c60e750974"
+    },
+    {
       "message_id": 26193,
       "filename": "2027 이감 6-9 해설.pdf",
       "stored_as": null,
