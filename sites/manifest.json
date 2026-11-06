@@ -141,6 +141,20 @@
       "sha256": "2a10bdbd558f5dfa393561b745f4ce2c7dd8f4dae6069f1d0e5b81988b24ad54"
     },
     {
+      "message_id": 26213,
+      "filename": "전대실모_11월_화1생2지2_문제지_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26213_._11._.1.2.2_._.pdf",
+      "size_bytes": 44485432,
+      "telegram_date": "2026-11-06T14:29:55+00:00",
+      "title": "과학 11월 전국 대단위 실전 모의고사 (화1, 생1, 생2, 지2) #전대실모",
+      "year": "2027",
+      "instructor": null,
+      "subject": "과학탐구",
+      "thumbnail": "thumbnails/26213.png",
+      "sha256": "42c78ffa8c60e990b3de479f78222982465239e3d5e5c515c9f054eb73d82f82"
+    },
+    {
       "message_id": 26204,
       "filename": "IMG2PDF_20261103130439.pdf",
       "stored_as": null,
