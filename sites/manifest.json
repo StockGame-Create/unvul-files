@@ -183,6 +183,20 @@
       "sha256": "cede61015cb2d2b3a61fb11cc4d3018f1b2b1598fb0c638053c0c969d3303960"
     },
     {
+      "message_id": 26210,
+      "filename": "지구_물리_문제및_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26210_._._._.pdf",
+      "size_bytes": 20120776,
+      "telegram_date": "2026-11-06T14:29:49+00:00",
+      "title": "과학 11월 전국 대단위 실전 모의고사 (물1, 지1, 물2) #전대실모",
+      "year": "2027",
+      "instructor": null,
+      "subject": "과학탐구",
+      "thumbnail": "thumbnails/26210.png",
+      "sha256": "795a35a39eb6ebf9cb071103c5fe0bd5ad7ea2f99fa1c7f58b87fa3efb1f0514"
+    },
+    {
       "message_id": 26204,
       "filename": "IMG2PDF_20261103130439.pdf",
       "stored_as": null,
