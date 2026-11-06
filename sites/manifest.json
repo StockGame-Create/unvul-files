@@ -197,6 +197,20 @@
       "sha256": "795a35a39eb6ebf9cb071103c5fe0bd5ad7ea2f99fa1c7f58b87fa3efb1f0514"
     },
     {
+      "message_id": 26209,
+      "filename": "아폴로 시즌4 8호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26209_.4.8.pdf",
+      "size_bytes": 19685310,
+      "telegram_date": "2026-11-06T14:29:48+00:00",
+      "title": "지1 아폴로 시즌4 08호",
+      "year": "2027",
+      "instructor": "이신혁",
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/26209.png",
+      "sha256": "f0317fd0e79f85394677e32f8c9691f7ec7cc282480120bd2749f9de88deee60"
+    },
+    {
       "message_id": 26204,
       "filename": "IMG2PDF_20261103130439.pdf",
       "stored_as": null,
