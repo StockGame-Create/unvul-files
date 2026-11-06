@@ -57,6 +57,20 @@
       "sha256": "39f06c76a596f8f1a056ff7d265cf1b72a0d37af95591dd421bfe2054e88292c"
     },
     {
+      "message_id": 26219,
+      "filename": "전대실모 영어.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26219_.pdf",
+      "size_bytes": 14232415,
+      "telegram_date": "2026-11-06T14:29:58+00:00",
+      "title": "영어 11월 전국 대단위 실전 모의고사 #전대실모",
+      "year": "2027",
+      "instructor": null,
+      "subject": "영어",
+      "thumbnail": "thumbnails/26219.png",
+      "sha256": "7ce70e64ec926c7e69b2d5683e352db841f87bb872d571e8a1615fc5ce51df4b"
+    },
+    {
       "message_id": 26204,
       "filename": "IMG2PDF_20261103130439.pdf",
       "stored_as": null,
