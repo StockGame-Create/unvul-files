@@ -43,6 +43,20 @@
       "sha256": "3f7c2f8fa0b194a423ec5d71fb1c3f9e7014581c4d63ed50550e1fe6524c5d5a"
     },
     {
+      "message_id": 26220,
+      "filename": "전대실모_해설지전체_과탐제외.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26220_._._.pdf",
+      "size_bytes": 117936949,
+      "telegram_date": "2026-11-06T14:29:59+00:00",
+      "title": "전과목 11월 전국 대단위 실전 모의고사 해설지 #전대실모",
+      "year": "2027",
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26220.png",
+      "sha256": "39f06c76a596f8f1a056ff7d265cf1b72a0d37af95591dd421bfe2054e88292c"
+    },
+    {
       "message_id": 26204,
       "filename": "IMG2PDF_20261103130439.pdf",
       "stored_as": null,
