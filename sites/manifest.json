@@ -85,6 +85,20 @@
       "sha256": "b8f3769cea137712d40fb22d5054757de780039ed04fbce3ff00baa77995aa85"
     },
     {
+      "message_id": 26217,
+      "filename": "전대 11 사탐.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26217_.11.pdf",
+      "size_bytes": 60002015,
+      "telegram_date": "2026-11-06T14:29:57+00:00",
+      "title": "사회 11월 전국 대단위 실전 모의고사 #전대실모",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회탐구",
+      "thumbnail": "thumbnails/26217.png",
+      "sha256": "f9133b8b4163716f7d641a17a8ad1c6b311b535ae8649ba7db0e54de548cbec5"
+    },
+    {
       "message_id": 26204,
       "filename": "IMG2PDF_20261103130439.pdf",
       "stored_as": null,
