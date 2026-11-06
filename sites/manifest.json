@@ -169,6 +169,20 @@
       "sha256": "ab51b17782c27b46bbd84e2ebb26150a401fbc57533165e68b465423e1507071"
     },
     {
+      "message_id": 26211,
+      "filename": "11월_전대실모_물리2_문제_및_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26211_11._._.2_._._.pdf",
+      "size_bytes": 11024786,
+      "telegram_date": "2026-11-06T14:29:50+00:00",
+      "title": "과학 11월 전국 대단위 실전 모의고사 (물1, 지1, 물2) #전대실모",
+      "year": "2027",
+      "instructor": null,
+      "subject": "과학탐구",
+      "thumbnail": "thumbnails/26211.png",
+      "sha256": "cede61015cb2d2b3a61fb11cc4d3018f1b2b1598fb0c638053c0c969d3303960"
+    },
+    {
       "message_id": 26204,
       "filename": "IMG2PDF_20261103130439.pdf",
       "stored_as": null,
