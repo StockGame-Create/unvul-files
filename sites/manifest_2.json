@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T20:51:42+00:00",
+  "updated_at": "2026-11-06T06:55:06+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -4045,11 +4045,11 @@
       "subject": "수학",
       "sha256": "b0f833d3c6a5a242ca62256cea1be474a7f60eb869ed9a3d65038604521d1526",
       "schema_version": 1,
-      "status": "partial",
+      "status": "done",
       "data": "ai/26202.json",
-      "updated_at": "2026-11-05T20:51:42+00:00",
+      "updated_at": "2026-11-06T06:55:04+00:00",
       "pages_total": 24,
-      "pages_done": 20,
+      "pages_done": 24,
       "failed_pages": [
         5,
         6,
@@ -4067,6 +4067,28 @@
       "model": "gemini-3.6-flash",
       "problem_count": 0,
       "solution_count": 60,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 26201,
+      "filename": "2027 시대인재 수학 서바이벌 26회.pdf",
+      "title": "수학 시대인재 서바이벌 모의고사 26회 #서바",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "sha256": "c0c3adcd2d9bb2728647f1d09934e32f8dc32981853a0e9e78c4d28793e8983d",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/26201.json",
+      "updated_at": "2026-11-06T06:55:06+00:00",
+      "pages_total": 24,
+      "pages_done": 0,
+      "failed_pages": [],
+      "model": null,
+      "problem_count": 0,
+      "solution_count": 0,
       "matched_count": 0,
       "with_answer": 0,
       "with_explanation": 0
