@@ -71,6 +71,20 @@
       "sha256": "846c49ddd8cec9b538d5ee0345890a2141c80fc0c3df1c75e142c330b8e83f20"
     },
     {
+      "message_id": 26240,
+      "filename": "바탕모의고사12회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26240_.12.pdf",
+      "size_bytes": 7003402,
+      "telegram_date": "2026-11-08T08:55:22+00:00",
+      "title": "국어 바탕 9회 모의고사 #바탕",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/26240.png",
+      "sha256": "111f45dd5953b1d865689de4bc71f148f7804ae2a99143b620ff67f8b88ab7ce"
+    },
+    {
       "message_id": 26225,
       "filename": "TalkFile_2027 orca 지구 해설.pdf",
       "stored_as": null,
