@@ -337,6 +337,20 @@
       "sha256": "38385c5a1173095b561ffaf5a3a87d12d36960f6459fe819842f7cbccfea3f79"
     },
     {
+      "message_id": 26290,
+      "filename": "11월 더프 과탐.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26290_11.pdf",
+      "size_bytes": 4116193,
+      "telegram_date": "2026-11-08T17:24:39+00:00",
+      "title": "11월 더프 과탐",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26290.png",
+      "sha256": "28fe7bab817d1a39f22ae8ccdd1b08442f3aefde25b778b8c41947fe220d0425"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
