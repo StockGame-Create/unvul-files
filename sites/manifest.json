@@ -155,6 +155,20 @@
       "sha256": "fe62ea0bdc76e5a93cebacb7737b25802904293a6e9b7553e6c239ad2f6cda6e"
     },
     {
+      "message_id": 26231,
+      "filename": "2027학년도_지인선_파이널_모의고사_해설_261107_235710.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26231_2027._._._._._261107_235710.pdf",
+      "size_bytes": 4749118,
+      "telegram_date": "2026-11-08T08:55:15+00:00",
+      "title": "수학 지인선 실전 모의고사 1, 3회",
+      "year": "2027",
+      "instructor": "지인선",
+      "subject": "수학",
+      "thumbnail": "thumbnails/26231.png",
+      "sha256": "9eb6bab2b7aa501975d73a5e25bb583d493d1f8fe0bd7eceb6d0139c789aae07"
+    },
+    {
       "message_id": 26225,
       "filename": "TalkFile_2027 orca 지구 해설.pdf",
       "stored_as": null,
