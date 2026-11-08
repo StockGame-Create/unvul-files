@@ -113,6 +113,20 @@
       "sha256": "f6adb8b8f075240d24cffe1949da0c162a4491b85f096cb4c659a24531d4fa4e"
     },
     {
+      "message_id": 26308,
+      "filename": "서바 11회답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26308_.11.pdf",
+      "size_bytes": 47682305,
+      "telegram_date": "2026-11-08T17:31:51+00:00",
+      "title": "서바 11회답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26308.png",
+      "sha256": "32fae6f73b613abcb5573a13e305b6e5816d07f1ebe0a1675a19facfdd70fd9c"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
