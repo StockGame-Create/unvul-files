@@ -15,6 +15,20 @@
       "sha256": "1e3f59b5b05344654984e412806012c3018b301feec52dc2de6701db357876be"
     },
     {
+      "message_id": 26245,
+      "filename": "이신혁_수특,수완_선별_문항_모의고사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26245_._._._._.pdf",
+      "size_bytes": 19707946,
+      "telegram_date": "2026-11-08T08:55:26+00:00",
+      "title": "지1 이신혁 수특 수완 선별문항",
+      "year": "2027",
+      "instructor": null,
+      "subject": "지구과학1",
+      "thumbnail": "thumbnails/26245.png",
+      "sha256": "52abdbd4d6239e2a0f5a2cee4d7bf564c3111b7ca94b5354ff1c009801ffacb5"
+    },
+    {
       "message_id": 26225,
       "filename": "TalkFile_2027 orca 지구 해설.pdf",
       "stored_as": null,
