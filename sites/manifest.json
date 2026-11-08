@@ -155,6 +155,20 @@
       "sha256": "6828b0082c388b4f9b0eb8a48b6c05041cf6473a86846e182b546ae499cd65a8"
     },
     {
+      "message_id": 26305,
+      "filename": "전서바14 답지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26305_.14.pdf",
+      "size_bytes": 40314822,
+      "telegram_date": "2026-11-08T17:31:48+00:00",
+      "title": "전서바14 답지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26305.png",
+      "sha256": "19014c09e7729b80ff4b520d187b01c7401df3f01041b7fb132e4f2edef480fb"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
