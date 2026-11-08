@@ -651,6 +651,48 @@
     background: var(--cat-english);
   }
 
+  /* ---- 장애 경고 (errStat = 1일 때만 표시) ---- */
+  .err-banner {
+    margin: 1.2rem 0 0;
+    padding: 1rem 1.2rem;
+    background: #c62828;
+    color: #fff;
+    border-radius: var(--radius-md);
+    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.55;
+    text-align: center;
+    box-shadow: var(--shadow-lg);
+  }
+  .err-banner[hidden] { display: none; }
+  .err-banner small { display: block; margin-top: 0.3rem; font-size: 0.82rem; font-weight: 500; opacity: 0.92; }
+
+  .err-toast {
+    position: fixed;
+    left: 50%;
+    top: 1.2rem;
+    transform: translate(-50%, -0.8rem);
+    width: min(32rem, calc(100% - 2rem));
+    background: #c62828;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: var(--radius-md);
+    padding: 1.2rem 1.4rem;
+    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(198, 40, 40, 0.55);
+    opacity: 0;
+    pointer-events: none;
+    cursor: pointer;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    z-index: 200;
+  }
+  .err-toast.show { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+
   /* ---- 탭 네비게이션 (파일 보관함 / AI에게 물어보기) ---- */
   .tab-nav {
     display: flex;
@@ -1497,6 +1539,8 @@
       <button type="button" class="settings-btn" id="settingsBtn" aria-label="설정" title="설정"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></button>
     </header>
 
+    <div class="err-banner" id="errBanner" role="alert" hidden></div>
+
     <div class="tab-nav">
       <button type="button" class="tab-btn active" id="tabBtnFiles">파일 보관함</button>
       <button type="button" class="tab-btn" id="tabBtnKice">평가원</button>
@@ -1790,8 +1834,17 @@
   </div>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="err-toast" id="errToast" role="alert" aria-live="assertive"></div>
 
   <script>
+    // ================= 장애 안내 스위치 =================
+    // 0 = 정상,  1 = "파일 보기" 장애 중 (빨간 토스트 + 페이지 경고 + 다운로드만 가능)
+    // 다음 업데이트 때 이 숫자와 아래 문구만 바꾸면 됩니다.
+    let errStat = 1;
+    const ERR_TITLE = "현재 파일 보기를 사용할 수 없어요";
+    const ERR_DETAIL = "다운로드만 가능합니다.";
+    const ERR_SUB = "서버 문제로 '파일 보기'가 불안정해요. 복구되면 이 안내가 사라져요.";
+
     const fileListEl = document.getElementById("fileList");
     const searchInput = document.getElementById("searchInput");
     const sortSelect = document.getElementById("sortSelect");
@@ -2032,6 +2085,21 @@
       div.textContent = str ?? "";
       return div.innerHTML;
     }
+
+    // ---- 장애 경고: errStat === 1 일 때만 동작 ----
+    function applyErrStat() {
+      const banner = document.getElementById("errBanner");
+      const t = document.getElementById("errToast");
+      if (errStat !== 1) { banner.hidden = true; t.classList.remove("show"); return; }
+      banner.innerHTML = `⚠ ${escapeHtml(ERR_TITLE)}<br />${escapeHtml(ERR_DETAIL)}<small>${escapeHtml(ERR_SUB)}</small>`;
+      banner.hidden = false;
+      t.innerHTML = `⚠ ${escapeHtml(ERR_TITLE)}<br />${escapeHtml(ERR_DETAIL)}`;
+      t.classList.add("show");
+      t.onclick = () => t.classList.remove("show");
+      setTimeout(() => t.classList.remove("show"), 9000);
+    }
+
+    applyErrStat();
 
     function showToast(message, isError = false) {
       toastEl.textContent = message;
@@ -2507,6 +2575,13 @@
 
       const viewUrl = viewUrlFor(f);
       const tooBig = f.size_bytes && f.size_bytes > MAX_VIEWABLE_BYTES;
+      if (errStat === 1) {
+        pdfViewerFrame.hidden = true;
+        pdfViewerFrame.src = "";
+        pdfViewerEmpty.innerHTML = `<strong style="color:#c62828">⚠ ${escapeHtml(ERR_TITLE)}</strong><br />${escapeHtml(ERR_DETAIL)}<br />위의 "다운로드" 버튼으로 받아서 열어주세요.`;
+        pdfViewerEmpty.hidden = false;
+        return;
+      }
       if (tooBig || !viewUrl) {
         pdfViewerFrame.hidden = true;
         pdfViewerFrame.src = "";
@@ -2571,6 +2646,7 @@
 
     viewOpenNewTabBtn.addEventListener("click", () => {
       if (!viewSelectedFile) return;
+      if (errStat === 1) { applyErrStat(); return; }
       const url = viewUrlFor(viewSelectedFile);
       if (url) window.open(url, "_blank");
     });
