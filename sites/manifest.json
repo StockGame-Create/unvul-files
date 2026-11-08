@@ -603,6 +603,20 @@
       "sha256": "bc4cb37237eb371c6e55b372a870a6b5a8ef74b28658b1d42b96650be109b66a"
     },
     {
+      "message_id": 26260,
+      "filename": "2027학년도_잘_푸는_모의고사_시즌_2파이널_12회_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26260_2027._._._._._2._12._.pdf",
+      "size_bytes": 4656971,
+      "telegram_date": "2026-11-08T17:18:27+00:00",
+      "title": "잘 푸는 모의고사",
+      "year": "2027",
+      "instructor": null,
+      "subject": "생활과윤리",
+      "thumbnail": "thumbnails/26260.png",
+      "sha256": "961b0ae23a3a32ec3642228adb506747ab7533f8d0976008866bb2f6b149c2a6"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
