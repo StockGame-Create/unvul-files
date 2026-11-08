@@ -267,6 +267,20 @@
       "sha256": "36c78c2f4faf157b958f18874365be249f21fe9f1ee84e983fd946eef5739bb3"
     },
     {
+      "message_id": 26296,
+      "filename": "적자생존_사문_시즌5_해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26296_._._.5_.pdf",
+      "size_bytes": 16096909,
+      "telegram_date": "2026-11-08T17:25:33+00:00",
+      "title": "적자생존 모의고사 시즌5",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/26296.png",
+      "sha256": "18c89779dcac80d05706ce352d4db58247676a66842579b7cc1eb641512d7821"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
