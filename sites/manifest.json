@@ -659,6 +659,20 @@
       "sha256": "03d91def0ac8f38856080075154b015d7faec785bbaab0f6b963f6e774c38f9c"
     },
     {
+      "message_id": 26253,
+      "filename": "이동준 JUST N+ 7호.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26253_.JUST.N%2B.7.pdf",
+      "size_bytes": 17145694,
+      "telegram_date": "2026-11-08T17:15:47+00:00",
+      "title": "이동둔 저스트N+ 7호",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/26253.png",
+      "sha256": "90faae1315875ec4fbe33d1f2f0122909e779e965b4ced50f16dad05a2775018"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
