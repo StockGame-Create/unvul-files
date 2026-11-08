@@ -687,6 +687,20 @@
       "sha256": "393c8e963f3d087fe87644d9c3760ef875b495f1d15d6b178afc58cdf751954f"
     },
     {
+      "message_id": 26250,
+      "filename": "2027_김현우_스탠다드_서브_9회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26250_2027_._._._9.pdf",
+      "size_bytes": 445883,
+      "telegram_date": "2026-11-08T17:15:05+00:00",
+      "title": "김현우 스탠다드 모의고사 09회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/26250.png",
+      "sha256": "9a146a6fe9163f0ed2f278c092e8b4824b1d44f38d02f6550439aeadadb125a0"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
