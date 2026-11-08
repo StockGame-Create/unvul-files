@@ -533,6 +533,20 @@
       "sha256": "d0393a54b1412fff20f48f8648bf20a83b306a39e7885d2dfc2d10b09795ebeb"
     },
     {
+      "message_id": 26267,
+      "filename": "나르샤 파이널 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26267_.pdf",
+      "size_bytes": 9267868,
+      "telegram_date": "2026-11-08T17:19:31+00:00",
+      "title": "나르샤 파이널 해설",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/26267.png",
+      "sha256": "600be1f01a01c6c9e3b71be9ec7a34b2fb5ff597d1106fba56e404ad49de682c"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
