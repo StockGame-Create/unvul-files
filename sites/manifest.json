@@ -463,6 +463,20 @@
       "sha256": "5f29f9cbba646cc71bfd753080f2874facd0f2aded7a5021dfc82791c1c82211"
     },
     {
+      "message_id": 26280,
+      "filename": "다상다독 14 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26280_.14.pdf",
+      "size_bytes": 48241220,
+      "telegram_date": "2026-11-08T17:23:15+00:00",
+      "title": "다상다독 13~15회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "국어",
+      "thumbnail": "thumbnails/26280.png",
+      "sha256": "5f00b832a374b13c1e6a62f33dd349a68b6c2a45137954bdabe7823f67303bed"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
