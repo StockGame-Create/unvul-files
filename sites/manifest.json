@@ -99,6 +99,20 @@
       "sha256": "a06b797969e2337c5d30b78a31ad8d67c13246554186690c80e9bce493fe2f75"
     },
     {
+      "message_id": 26315,
+      "filename": "전서바7회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26315_.7.pdf",
+      "size_bytes": 1586638,
+      "telegram_date": "2026-11-08T17:31:57+00:00",
+      "title": "전서바7회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26315.png",
+      "sha256": "f6adb8b8f075240d24cffe1949da0c162a4491b85f096cb4c659a24531d4fa4e"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
