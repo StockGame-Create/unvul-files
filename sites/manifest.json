@@ -519,6 +519,20 @@
       "sha256": "0fa159bc3d8e53f31f719206b1334f82dd24ccebee602d3da4c054252ca49bc0"
     },
     {
+      "message_id": 26269,
+      "filename": "킬캠 시즌 3.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26269_.3.pdf",
+      "size_bytes": 47951049,
+      "telegram_date": "2026-11-08T17:20:10+00:00",
+      "title": "킬링캠프 시즌3",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/26269.png",
+      "sha256": "d0393a54b1412fff20f48f8648bf20a83b306a39e7885d2dfc2d10b09795ebeb"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
