@@ -169,6 +169,20 @@
       "sha256": "9eb6bab2b7aa501975d73a5e25bb583d493d1f8fe0bd7eceb6d0139c789aae07"
     },
     {
+      "message_id": 26230,
+      "filename": "2027_이해원_모의고사_피날레.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26230_2027_._._.pdf",
+      "size_bytes": 30589070,
+      "telegram_date": "2026-11-08T08:55:14+00:00",
+      "title": "수학 이해원 모의고사 시즌4 0~2회 (인쇄소퀄) #이해원모의고사",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/26230.png",
+      "sha256": "0f2f48d00b467a8a06b572a5f248e0340e7c1b8ef58a06ba8f20196f11422b2b"
+    },
+    {
       "message_id": 26225,
       "filename": "TalkFile_2027 orca 지구 해설.pdf",
       "stored_as": null,
