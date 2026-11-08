@@ -57,6 +57,20 @@
       "sha256": "98f2b20a4a1b75c2f1cd9a6f4a5d6c9a499f9276878b392eeabaa2eec3300448"
     },
     {
+      "message_id": 26241,
+      "filename": "사만다 finale 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26241_.finale.1.pdf",
+      "size_bytes": 3821537,
+      "telegram_date": "2026-11-08T08:55:22+00:00",
+      "title": "사문 사만다 Finale 모의고사 1~3회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "사회문화",
+      "thumbnail": "thumbnails/26241.png",
+      "sha256": "846c49ddd8cec9b538d5ee0345890a2141c80fc0c3df1c75e142c330b8e83f20"
+    },
+    {
       "message_id": 26225,
       "filename": "TalkFile_2027 orca 지구 해설.pdf",
       "stored_as": null,
