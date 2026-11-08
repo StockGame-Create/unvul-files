@@ -183,6 +183,20 @@
       "sha256": "0f2f48d00b467a8a06b572a5f248e0340e7c1b8ef58a06ba8f20196f11422b2b"
     },
     {
+      "message_id": 26227,
+      "filename": "서바이벌+17주차+필기노트+(1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26227_.%2B17.%2B.%2B.1.pdf",
+      "size_bytes": 1601860,
+      "telegram_date": "2026-11-08T08:55:12+00:00",
+      "title": "수학 강기원 모의고사 7회",
+      "year": "2027",
+      "instructor": "강기원",
+      "subject": "수학",
+      "thumbnail": "thumbnails/26227.png",
+      "sha256": "f4f7be288de21117c2b46df5ce9c26cc28ee194178bbe2ec0cbac7dedf0777c2"
+    },
+    {
       "message_id": 26225,
       "filename": "TalkFile_2027 orca 지구 해설.pdf",
       "stored_as": null,
