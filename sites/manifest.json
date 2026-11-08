@@ -281,6 +281,20 @@
       "sha256": "18c89779dcac80d05706ce352d4db58247676a66842579b7cc1eb641512d7821"
     },
     {
+      "message_id": 26294,
+      "filename": "11월 더프 수학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26294_11.pdf",
+      "size_bytes": 1043242,
+      "telegram_date": "2026-11-08T17:24:41+00:00",
+      "title": "11월 더프리미엄 모의고사 #더프",
+      "year": "2027",
+      "instructor": null,
+      "subject": "전과목",
+      "thumbnail": "thumbnails/26294.png",
+      "sha256": "020afad0e729b8235353c6c63cd8ae125fabd975882f355f0d7e9a10f0b74ff6"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
