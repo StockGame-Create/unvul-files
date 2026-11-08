@@ -645,6 +645,20 @@
       "sha256": "386bfec9f8b4f38720d0e9629b2be978b525fd1104dcd93082b5df6778c0461b"
     },
     {
+      "message_id": 26255,
+      "filename": "최적 현강 기출모.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26255_.pdf",
+      "size_bytes": 10721801,
+      "telegram_date": "2026-11-08T17:16:33+00:00",
+      "title": "최적 현강 기출모의고사 3회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "thumbnail": "thumbnails/26255.png",
+      "sha256": "03d91def0ac8f38856080075154b015d7faec785bbaab0f6b963f6e774c38f9c"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
