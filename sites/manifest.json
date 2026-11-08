@@ -631,6 +631,20 @@
       "sha256": "6a9a4ed492292df1f44b76fb6e0065f9f2398c0e471d95014a3124f49a0f09f7"
     },
     {
+      "message_id": 26257,
+      "filename": "2027_김준_시그모_파트2_6_10회,_폰스캔,_답지_포함.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26257_2027_._._.2_6_10._._._.pdf",
+      "size_bytes": 104276267,
+      "telegram_date": "2026-11-08T17:18:26+00:00",
+      "title": "김준 시그 모의고사",
+      "year": "2027",
+      "instructor": null,
+      "subject": "화학1",
+      "thumbnail": "thumbnails/26257.png",
+      "sha256": "386bfec9f8b4f38720d0e9629b2be978b525fd1104dcd93082b5df6778c0461b"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
