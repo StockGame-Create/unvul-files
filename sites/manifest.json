@@ -505,6 +505,20 @@
       "sha256": "f072f1d7420d71ca2a7d797f390491ace0e54c00b84a40ec6d96e563350fd13d"
     },
     {
+      "message_id": 26274,
+      "filename": "27 현정훈 fluxion-1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26274_27.fluxion-1.pdf",
+      "size_bytes": 3707506,
+      "telegram_date": "2026-11-08T17:21:25+00:00",
+      "title": "현정훈 fluxion 모의고사 시즌5 1회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "물리학1",
+      "thumbnail": "thumbnails/26274.png",
+      "sha256": "0fa159bc3d8e53f31f719206b1334f82dd24ccebee602d3da4c054252ca49bc0"
+    },
+    {
       "message_id": 26246,
       "filename": "이신혁_수특수완_해설.pdf",
       "stored_as": null,
