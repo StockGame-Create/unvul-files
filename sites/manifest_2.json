@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T14:24:47+00:00",
+  "updated_at": "2026-11-08T22:13:43+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -4231,6 +4231,28 @@
       "failed_pages": [],
       "model": "gemini-3.6-flash",
       "problem_count": 17,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 26333,
+      "filename": "2027_강대K_11회.pdf",
+      "title": "강대모의고사k 11회",
+      "year": "2027",
+      "instructor": null,
+      "subject": "수학",
+      "sha256": "4d50e293f32ebd8496328748666fef440e6fbf18f2b5d56e618e0f14a6587e9e",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/26333.json",
+      "updated_at": "2026-11-08T22:13:43+00:00",
+      "pages_total": 64,
+      "pages_done": 12,
+      "failed_pages": [],
+      "model": "gemini-3.6-flash",
+      "problem_count": 26,
       "solution_count": 0,
       "matched_count": 0,
       "with_answer": 0,
