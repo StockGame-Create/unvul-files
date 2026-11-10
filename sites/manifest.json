@@ -169,6 +169,20 @@
       "sha256": "dd9b766c7a9e67596d586bb89198d992aa199130730a0582644a7eae9dd7c027"
     },
     {
+      "message_id": 26513,
+      "filename": "김용택_고난도_기출_1회.PDF",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26513_._._._1.PDF",
+      "size_bytes": 492067,
+      "telegram_date": "2026-11-10T19:14:43+00:00",
+      "title": "김용택_고난도_기출_1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26513.png",
+      "sha256": "81ac162da96b576b409ea70165f69aa2be2d09a51f59ecc158b3bf224af666d2"
+    },
+    {
       "message_id": 26449,
       "filename": "2027 박종민 위클리콤 도형.pdf",
       "stored_as": null,
