@@ -393,6 +393,20 @@
       "sha256": "5352116530c69feb1878be8e1b2255ba0d2b5841bfb3d05c10f3018d2d1c25e8"
     },
     {
+      "message_id": 26487,
+      "filename": "2027 히든 카이스 시즌 8 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26487_2027.8.pdf",
+      "size_bytes": 6366428,
+      "telegram_date": "2026-11-10T19:11:58+00:00",
+      "title": "2027 히든 카이스 시즌 8 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26487.png",
+      "sha256": "d9a00dc4614f23e8ed7ce7bf9334f3fed619f705f82f2d690198d3f851f73157"
+    },
+    {
       "message_id": 26449,
       "filename": "2027 박종민 위클리콤 도형.pdf",
       "stored_as": null,
