@@ -323,6 +323,20 @@
       "sha256": "6ec8f2482f49b847d57de24e59e797cbaa48448bfe52597011c18d198a91405d"
     },
     {
+      "message_id": 26403,
+      "filename": "11월 서프 한국사.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26403_11.pdf",
+      "size_bytes": 4034308,
+      "telegram_date": "2026-11-10T01:14:28+00:00",
+      "title": "11월 서프 한국사",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26403.png",
+      "sha256": "12059ce83bb01ec8f9d5a64dc88830dd2a8644707eef34e5185ec154fb2d7e3e"
+    },
+    {
       "message_id": 26333,
       "filename": "2027_강대K_11회.pdf",
       "stored_as": null,
