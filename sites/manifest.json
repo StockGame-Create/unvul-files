@@ -813,6 +813,20 @@
       "sha256": "45278623f6999656ff927f8d925263e6565772d78514033ccebdf30a478e8309"
     },
     {
+      "message_id": 26346,
+      "filename": "2027 시대인재 국어 서바이벌 18회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26346_2027.18.pdf",
+      "size_bytes": 30847403,
+      "telegram_date": "2026-11-10T01:12:59+00:00",
+      "title": "2027 시대인재 국어 서바이벌 18회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26346.png",
+      "sha256": "2d1f99aa47f02a560f639f13346e7098c44107aa0bad204992b15d82e637a598"
+    },
+    {
       "message_id": 26333,
       "filename": "2027_강대K_11회.pdf",
       "stored_as": null,
