@@ -561,6 +561,20 @@
       "sha256": "e8207d0a4c2b694ab68a2a172720297ad39f1bcc5d1794d9955dad9c444e4c0d"
     },
     {
+      "message_id": 26468,
+      "filename": "10회 서바노트.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26468_10.pdf",
+      "size_bytes": 6664923,
+      "telegram_date": "2026-11-10T19:08:02+00:00",
+      "title": "10회 서바노트",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26468.png",
+      "sha256": "81b352a6c64a76fb4056e6329e626f24c5a8c4f7e2c9938f5c70258ef93e89f4"
+    },
+    {
       "message_id": 26449,
       "filename": "2027 박종민 위클리콤 도형.pdf",
       "stored_as": null,
