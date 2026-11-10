@@ -295,6 +295,20 @@
       "sha256": "b85a618e8db424f530615ede5c9debd65ec63756ef27976cf92dc7ac84cd7878"
     },
     {
+      "message_id": 26405,
+      "filename": "11월 서프 수학.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26405_11.pdf",
+      "size_bytes": 5906572,
+      "telegram_date": "2026-11-10T01:14:29+00:00",
+      "title": "11월 서프 수학",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26405.png",
+      "sha256": "ba4c255a2ce0901da4f39e54380908f3d7f36199960e51d1ec5712c63b4a020b"
+    },
+    {
       "message_id": 26333,
       "filename": "2027_강대K_11회.pdf",
       "stored_as": null,
