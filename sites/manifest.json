@@ -547,6 +547,20 @@
       "sha256": "ac3ec870884f336f84d25588c047fa1cc10bdb075ce2c3c60bc63e404531d0f6"
     },
     {
+      "message_id": 26470,
+      "filename": "30회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26470_30.pdf",
+      "size_bytes": 16922382,
+      "telegram_date": "2026-11-10T19:08:52+00:00",
+      "title": "30회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26470.png",
+      "sha256": "e8207d0a4c2b694ab68a2a172720297ad39f1bcc5d1794d9955dad9c444e4c0d"
+    },
+    {
       "message_id": 26449,
       "filename": "2027 박종민 위클리콤 도형.pdf",
       "stored_as": null,
