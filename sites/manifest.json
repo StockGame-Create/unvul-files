@@ -365,6 +365,20 @@
       "sha256": "f6ca5401458013ef06add4d21e580078b60ca74bfffd503c1c449192df7da7de"
     },
     {
+      "message_id": 26489,
+      "filename": "2027 설맞이 모의고사 파이널 문제지 1-2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26489_2027.1-2.pdf",
+      "size_bytes": 19152738,
+      "telegram_date": "2026-11-10T19:12:00+00:00",
+      "title": "2027 설맞이 모의고사 파이널 문제지 1-2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26489.png",
+      "sha256": "f2e64a2f895904fe1415709fd5bd770ce8de9e9ad948ccbdbaced54a970c1427"
+    },
+    {
       "message_id": 26449,
       "filename": "2027 박종민 위클리콤 도형.pdf",
       "stored_as": null,
