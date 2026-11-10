@@ -337,6 +337,20 @@
       "sha256": "c1689871ea30def112821bac43f88398343cc60f36b585641446b0e9996cc053"
     },
     {
+      "message_id": 26491,
+      "filename": "2027 설맞이 모의고사 파이널 소설집.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26491_2027.pdf",
+      "size_bytes": 43056431,
+      "telegram_date": "2026-11-10T19:12:01+00:00",
+      "title": "2027 설맞이 모의고사 파이널 소설집",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26491.png",
+      "sha256": "e441a048f96f8ac3b76ce8fedc38b596e7907399c6056042a2759863e007343f"
+    },
+    {
       "message_id": 26449,
       "filename": "2027 박종민 위클리콤 도형.pdf",
       "stored_as": null,
