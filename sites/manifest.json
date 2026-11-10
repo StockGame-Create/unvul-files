@@ -281,6 +281,20 @@
       "sha256": "a4f202f637c087c22c719f1cd5d6bd3f69d576960dd96d318e95f794499fd0e1"
     },
     {
+      "message_id": 26406,
+      "filename": "11월 서프 국어.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26406_11.pdf",
+      "size_bytes": 17428720,
+      "telegram_date": "2026-11-10T01:14:32+00:00",
+      "title": "11월 서프 국어",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26406.png",
+      "sha256": "b85a618e8db424f530615ede5c9debd65ec63756ef27976cf92dc7ac84cd7878"
+    },
+    {
       "message_id": 26333,
       "filename": "2027_강대K_11회.pdf",
       "stored_as": null,
