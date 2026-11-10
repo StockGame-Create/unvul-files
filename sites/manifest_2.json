@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T23:39:06+00:00",
+  "updated_at": "2026-11-10T07:31:10+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -4322,6 +4322,28 @@
       "solution_count": 0,
       "matched_count": 0,
       "with_answer": 0,
+      "with_explanation": 0
+    },
+    {
+      "message_id": 26449,
+      "filename": "2027 박종민 위클리콤 도형.pdf",
+      "title": "2027 박종민 위클리콤 도형",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "sha256": "5d9687f0f6e5425e2b9d929335c7e53d809b208f2a1d879b66415c9c0ea18e10",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/26449.json",
+      "updated_at": "2026-11-10T07:31:10+00:00",
+      "pages_total": 166,
+      "pages_done": 4,
+      "failed_pages": [],
+      "model": "gemini-3.6-flash",
+      "problem_count": 4,
+      "solution_count": 4,
+      "matched_count": 4,
+      "with_answer": 4,
       "with_explanation": 0
     }
   ]
