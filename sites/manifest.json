@@ -407,6 +407,20 @@
       "sha256": "d9a00dc4614f23e8ed7ce7bf9334f3fed619f705f82f2d690198d3f851f73157"
     },
     {
+      "message_id": 26486,
+      "filename": "2027학년도 히든카이스 모의고사 시즌7 문제.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26486_2027.7.pdf",
+      "size_bytes": 10360841,
+      "telegram_date": "2026-11-10T19:11:58+00:00",
+      "title": "2027학년도 히든카이스 모의고사 시즌7 문제",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26486.png",
+      "sha256": "3967fb541e763955df9ddcfd282c2b423601097645d29c49909e8d04db77f6d0"
+    },
+    {
       "message_id": 26449,
       "filename": "2027 박종민 위클리콤 도형.pdf",
       "stored_as": null,
