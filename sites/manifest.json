@@ -309,6 +309,20 @@
       "sha256": "b96c2f7dc6cbe30f24e4f3eb0bc29df7e382426dd55b97221db2d6457f9d2ccc"
     },
     {
+      "message_id": 26495,
+      "filename": "이동준t_26,27학년도_평가원_변별문항_261110_120556.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26495_.t_26.27._._._261110_120556.pdf",
+      "size_bytes": 41950359,
+      "telegram_date": "2026-11-10T19:12:42+00:00",
+      "title": "이동준t_26,27학년도_평가원_변별문항_261110_120556",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26495.png",
+      "sha256": "4b19df08be89c696b412f5f31bf31eddff00a5384c5825bb5e6f3dd04a04ff88"
+    },
+    {
       "message_id": 26449,
       "filename": "2027 박종민 위클리콤 도형.pdf",
       "stored_as": null,
