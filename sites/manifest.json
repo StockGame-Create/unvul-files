@@ -295,6 +295,20 @@
       "sha256": "bb2baf263f4b24820e700ced8fcbeb61b4653f698348095d180b6f55a3fff10a"
     },
     {
+      "message_id": 26496,
+      "filename": "적생모 시즌 5.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26496_.5.pdf",
+      "size_bytes": 30475388,
+      "telegram_date": "2026-11-10T19:12:57+00:00",
+      "title": "적생모 시즌 5",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26496.png",
+      "sha256": "b96c2f7dc6cbe30f24e4f3eb0bc29df7e382426dd55b97221db2d6457f9d2ccc"
+    },
+    {
       "message_id": 26449,
       "filename": "2027 박종민 위클리콤 도형.pdf",
       "stored_as": null,
