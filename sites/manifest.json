@@ -533,6 +533,20 @@
       "sha256": "b83516845057140b6b57e55147458adfb110589ee8b3f75978d9df4eeddcef7e"
     },
     {
+      "message_id": 26472,
+      "filename": "2027학년도_23회_서킷_실전모의고사_해설지_260928_45번.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26472_2027._23._._._._260928_45.pdf",
+      "size_bytes": 962466,
+      "telegram_date": "2026-11-10T19:09:02+00:00",
+      "title": "2027학년도_23회_서킷_실전모의고사_해설지_260928_45번",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26472.png",
+      "sha256": "ac3ec870884f336f84d25588c047fa1cc10bdb075ce2c3c60bc63e404531d0f6"
+    },
+    {
       "message_id": 26449,
       "filename": "2027 박종민 위클리콤 도형.pdf",
       "stored_as": null,
