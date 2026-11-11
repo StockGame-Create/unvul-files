@@ -43,6 +43,20 @@
       "sha256": "5f69b758421bdb38fce5f5fb94e9d32a19c4732a4f178b357272762a6d677987"
     },
     {
+      "message_id": 26578,
+      "filename": "리허설 1회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26578_.1.pdf",
+      "size_bytes": 7699583,
+      "telegram_date": "2026-11-11T17:51:36+00:00",
+      "title": "리허설 1회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26578.png",
+      "sha256": "c87d5810fb8114dc9ac7d69262784731dd0af8952afcc51adced3b9dd2d21e28"
+    },
+    {
       "message_id": 26535,
       "filename": "2027 시대 수학 전국 서바 17.pdf",
       "stored_as": null,
