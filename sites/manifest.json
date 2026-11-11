@@ -365,6 +365,20 @@
       "sha256": "1f34328a0ea0eec7f89ef6a2fed1132676bdf8375924bd8f859a2e62f9acd578"
     },
     {
+      "message_id": 26541,
+      "filename": "2027 지구1 N서바 1~19.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26541_2027.1.N.1.19.pdf",
+      "size_bytes": 98246826,
+      "telegram_date": "2026-11-11T17:46:00+00:00",
+      "title": "2027 지구1 N서바 1~19",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26541.png",
+      "sha256": "4defeb8074fc781f26fa3649477da50ee98391c568e32fffd9652b5ab73ac004"
+    },
+    {
       "message_id": 26535,
       "filename": "2027 시대 수학 전국 서바 17.pdf",
       "stored_as": null,
