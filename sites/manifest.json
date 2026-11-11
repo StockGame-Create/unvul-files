@@ -295,6 +295,20 @@
       "sha256": "5ad477a6d7e2b74300cc9c792a7734824b881406fe1f33e4e15186a6069ad2c6"
     },
     {
+      "message_id": 26550,
+      "filename": "2027 김기현 컬렉션모고 시즌3 문제_261111_130211.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26550_2027.3._261111_130211.pdf",
+      "size_bytes": 1355386,
+      "telegram_date": "2026-11-11T17:47:31+00:00",
+      "title": "2027 김기현 컬렉션모고 시즌3 문제_261111_130211",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26550.png",
+      "sha256": "a7fd82180ead49e1b692d0e90e59ee51fc0ee4aa93c72c604d97a45b65a3de6b"
+    },
+    {
       "message_id": 26535,
       "filename": "2027 시대 수학 전국 서바 17.pdf",
       "stored_as": null,
