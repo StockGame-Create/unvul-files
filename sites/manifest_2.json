@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11T06:34:35+00:00",
+  "updated_at": "2026-11-11T20:16:56+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -4380,6 +4380,33 @@
       "matched_count": 0,
       "with_answer": 0,
       "with_explanation": 0
+    },
+    {
+      "message_id": 26586,
+      "filename": "E정 EBS분석서.pdf",
+      "title": "E정 EBS분석서",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "sha256": "348d1c68ff85a84d951744aac7377fcb44f8c16ba5a73618ef498ae74844c75e",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/26586.json",
+      "updated_at": "2026-11-11T20:16:56+00:00",
+      "pages_total": 132,
+      "pages_done": 52,
+      "failed_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "model": "gemini-3.6-flash",
+      "problem_count": 34,
+      "solution_count": 33,
+      "matched_count": 8,
+      "with_answer": 4,
+      "with_explanation": 4
     }
   ]
 }
