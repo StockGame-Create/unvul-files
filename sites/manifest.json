@@ -183,6 +183,20 @@
       "sha256": "ce3f678b0a73175d7c4c50a9de3ca86709969c455f84025bf23304ab01c4b3e2"
     },
     {
+      "message_id": 26562,
+      "filename": "27 김범준 모의고사 17회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26562_27.17.pdf",
+      "size_bytes": 47601348,
+      "telegram_date": "2026-11-11T17:49:30+00:00",
+      "title": "27 김범준 모의고사 17회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26562.png",
+      "sha256": "ec2b5567e41e2daff25a065b42aabe5e2ec35961df754b936e14ab6e65438893"
+    },
+    {
       "message_id": 26535,
       "filename": "2027 시대 수학 전국 서바 17.pdf",
       "stored_as": null,
