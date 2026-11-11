@@ -267,6 +267,20 @@
       "sha256": "b85ff65776ed1d2bf4f16007ff777902b6bae7b1421af466c06f4142312032b6"
     },
     {
+      "message_id": 26556,
+      "filename": "27 시대인재 서바이벌 모의고사 28회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26556_27.28.pdf",
+      "size_bytes": 7517660,
+      "telegram_date": "2026-11-11T17:49:26+00:00",
+      "title": "27 시대인재 서바이벌 모의고사 28회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26556.png",
+      "sha256": "562be4de42f277acc11f4d1e142832d9c5f930af331f1bd4a73fa7befbb21330"
+    },
+    {
       "message_id": 26535,
       "filename": "2027 시대 수학 전국 서바 17.pdf",
       "stored_as": null,
