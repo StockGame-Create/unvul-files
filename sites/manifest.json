@@ -155,6 +155,20 @@
       "sha256": "4ce96b9c9fff0f4071a455bac8d49914383a4847974f32f30128d0e6da0770e3"
     },
     {
+      "message_id": 26564,
+      "filename": "2027 이감 마지막 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26564_2027.pdf",
+      "size_bytes": 66564443,
+      "telegram_date": "2026-11-11T17:49:42+00:00",
+      "title": "2027 이감 마지막 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26564.png",
+      "sha256": "e4813a8648edb9114c0d9cde37d2074e1227ef24600aaac17796dc890a182027"
+    },
+    {
       "message_id": 26535,
       "filename": "2027 시대 수학 전국 서바 17.pdf",
       "stored_as": null,
