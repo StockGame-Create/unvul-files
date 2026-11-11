@@ -127,6 +127,20 @@
       "sha256": "54b80cf05278a23bfee9f0e0b187a0dafc5e1ec0f52fbbab167e7d060c4ada25"
     },
     {
+      "message_id": 26567,
+      "filename": "Promenade Meridian Zero 세계지리 해설지-1.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26567_Promenade.Meridian.Zero.-1.pdf",
+      "size_bytes": 16951027,
+      "telegram_date": "2026-11-11T17:49:53+00:00",
+      "title": "Promenade Meridian Zero 세계지리 해설지-1",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26567.png",
+      "sha256": "e5be509ce93c451506b95404ffe62098650005c934ac8337d3810cc0cf12d3dd"
+    },
+    {
       "message_id": 26535,
       "filename": "2027 시대 수학 전국 서바 17.pdf",
       "stored_as": null,
