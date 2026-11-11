@@ -309,6 +309,20 @@
       "sha256": "a7fd82180ead49e1b692d0e90e59ee51fc0ee4aa93c72c604d97a45b65a3de6b"
     },
     {
+      "message_id": 26548,
+      "filename": "TalkFile_나르샤 파이널.pdf.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26548_TalkFile_.pdf.pdf",
+      "size_bytes": 10313466,
+      "telegram_date": "2026-11-11T17:47:09+00:00",
+      "title": "TalkFile_나르샤 파이널.pdf",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26548.png",
+      "sha256": "0018696e4ebee43f623af94b6c3a31a22710e1c068039d469cd30d9f0c19fad2"
+    },
+    {
       "message_id": 26535,
       "filename": "2027 시대 수학 전국 서바 17.pdf",
       "stored_as": null,
