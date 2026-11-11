@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T20:20:23+00:00",
+  "updated_at": "2026-11-11T06:34:35+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -4358,6 +4358,28 @@
       "matched_count": 5,
       "with_answer": 4,
       "with_explanation": 1
+    },
+    {
+      "message_id": 26535,
+      "filename": "2027 시대 수학 전국 서바 17.pdf",
+      "title": "2027 시대 수학 전국 서바 17",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "sha256": "b5aeee529fd950538ee3888828f340ff7531a26c702b30384299875cc96b42fe",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/26535.json",
+      "updated_at": "2026-11-11T06:34:35+00:00",
+      "pages_total": 36,
+      "pages_done": 12,
+      "failed_pages": [],
+      "model": "gemini-3.6-flash",
+      "problem_count": 30,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
     }
   ]
 }
