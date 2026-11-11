@@ -1,6 +1,20 @@
 {
   "files": [
     {
+      "message_id": 26586,
+      "filename": "E정 EBS분석서.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26586_E.EBS.pdf",
+      "size_bytes": 11131075,
+      "telegram_date": "2026-11-11T17:52:48+00:00",
+      "title": "E정 EBS분석서",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26586.png",
+      "sha256": "348d1c68ff85a84d951744aac7377fcb44f8c16ba5a73618ef498ae74844c75e"
+    },
+    {
       "message_id": 26535,
       "filename": "2027 시대 수학 전국 서바 17.pdf",
       "stored_as": null,
