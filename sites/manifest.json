@@ -29,6 +29,20 @@
       "sha256": "18a78340b97a5cd7c4019ef2c9a55d31c34ec6095eab52c4dc4494543e34b907"
     },
     {
+      "message_id": 26582,
+      "filename": "19.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26582_19.pdf",
+      "size_bytes": 36946427,
+      "telegram_date": "2026-11-11T17:52:07+00:00",
+      "title": "19",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26582.png",
+      "sha256": "5f69b758421bdb38fce5f5fb94e9d32a19c4732a4f178b357272762a6d677987"
+    },
+    {
       "message_id": 26535,
       "filename": "2027 시대 수학 전국 서바 17.pdf",
       "stored_as": null,
