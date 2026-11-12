@@ -197,6 +197,20 @@
       "sha256": "c37f53baf468f3392dab14bd30c0d65b6626b3191c4c487bd9574161a1e94ebb"
     },
     {
+      "message_id": 26622,
+      "filename": "나르샤_파이널_보정.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26622_._._.pdf",
+      "size_bytes": 35493270,
+      "telegram_date": "2026-11-12T18:39:14+00:00",
+      "title": "나르샤_파이널_보정",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26622.png",
+      "sha256": "933aa4fb5191abd9d8f3c365d041380add17ae30b66c3901de542ac2c4094f52"
+    },
+    {
       "message_id": 26586,
       "filename": "E정 EBS분석서.pdf",
       "stored_as": null,
