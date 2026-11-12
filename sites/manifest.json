@@ -29,6 +29,20 @@
       "sha256": "96fd8d41ae359dfb86fa10943a4c192720d0f2f7ef1c348381b60b365f285722"
     },
     {
+      "message_id": 26640,
+      "filename": "2027학년도_김기현_COLLECTION_모의고사_시즌3_2회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26640_2027._._COLLECTION_._.3_2.pdf",
+      "size_bytes": 4873620,
+      "telegram_date": "2026-11-12T18:41:28+00:00",
+      "title": "2027학년도_김기현_COLLECTION_모의고사_시즌3_2회",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26640.png",
+      "sha256": "ef9dfe7f1a779c8d6c6a3b109a23288bacda7bfc3de323fe90adf6e265ad20e7"
+    },
+    {
       "message_id": 26586,
       "filename": "E정 EBS분석서.pdf",
       "stored_as": null,
