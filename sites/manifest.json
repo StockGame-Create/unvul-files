@@ -407,6 +407,20 @@
       "sha256": "fcf8509fc420015006b9c992cade6911ab97ffba42818ac174278b87a9190e83"
     },
     {
+      "message_id": 26597,
+      "filename": "[2027][포텐셜][1회].pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26597_.2027.1.pdf",
+      "size_bytes": 2073654,
+      "telegram_date": "2026-11-12T18:36:24+00:00",
+      "title": "[2027][포텐셜][1회]",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26597.png",
+      "sha256": "be16a40bd063e15b401c5da49f42043ababe22b29ad8313d61cce79fe13bf329"
+    },
+    {
       "message_id": 26586,
       "filename": "E정 EBS분석서.pdf",
       "stored_as": null,
