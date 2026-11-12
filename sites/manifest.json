@@ -169,6 +169,20 @@
       "sha256": "ba2c7464ee32245469ca1c7430eb8dd5621c15ab083a699ae7e438d976fab5cc"
     },
     {
+      "message_id": 26629,
+      "filename": "서바19회.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26629_.19.pdf",
+      "size_bytes": 812609,
+      "telegram_date": "2026-11-12T18:40:07+00:00",
+      "title": "생활과윤리",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26629.png",
+      "sha256": "d2d066b38566e51da4af79ae3bad8f4df5bea45278916b0570e3c46a63a77a95"
+    },
+    {
       "message_id": 26586,
       "filename": "E정 EBS분석서.pdf",
       "stored_as": null,
