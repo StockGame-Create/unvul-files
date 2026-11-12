@@ -323,6 +323,20 @@
       "sha256": "a16bf03c40f5b5efcb076be19d8b19b0add6f3f91b4a7222e92c54caec6f6f73"
     },
     {
+      "message_id": 26609,
+      "filename": "TalkFile_서바 03.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26609_TalkFile_.03.pdf",
+      "size_bytes": 5337464,
+      "telegram_date": "2026-11-12T18:38:17+00:00",
+      "title": "TalkFile_서바 03",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26609.png",
+      "sha256": "7fab09ee6e4c3d9230f508fa0305f7701bbf2d57cca3ce47b3015782cebecdbe"
+    },
+    {
       "message_id": 26586,
       "filename": "E정 EBS분석서.pdf",
       "stored_as": null,
