@@ -421,6 +421,20 @@
       "sha256": "be16a40bd063e15b401c5da49f42043ababe22b29ad8313d61cce79fe13bf329"
     },
     {
+      "message_id": 26596,
+      "filename": "본 교재.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26596_.pdf",
+      "size_bytes": 26131251,
+      "telegram_date": "2026-11-12T18:35:44+00:00",
+      "title": "본 교재",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26596.png",
+      "sha256": "3345c25e2468831f71993affeb6e11dcf73c4f1a8e322c20a3b451984050a1ac"
+    },
+    {
       "message_id": 26586,
       "filename": "E정 EBS분석서.pdf",
       "stored_as": null,
