@@ -211,6 +211,20 @@
       "sha256": "933aa4fb5191abd9d8f3c365d041380add17ae30b66c3901de542ac2c4094f52"
     },
     {
+      "message_id": 26620,
+      "filename": "칠기모 3일차.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26620_.3.pdf",
+      "size_bytes": 22998903,
+      "telegram_date": "2026-11-12T18:38:57+00:00",
+      "title": "칠기모 3일차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26620.png",
+      "sha256": "319f2459352d8f1fcc0695dfa534642311d5ec45b576bd1bd3eba98b5a563ece"
+    },
+    {
       "message_id": 26586,
       "filename": "E정 EBS분석서.pdf",
       "stored_as": null,
