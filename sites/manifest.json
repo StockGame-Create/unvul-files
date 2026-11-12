@@ -393,6 +393,20 @@
       "sha256": "366798971371e77e3b9337cc68c54cf2d212702d0b04053e5136426ee18a1907"
     },
     {
+      "message_id": 26599,
+      "filename": "05_26년_11월_해설지.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26599_05_26._11._.pdf",
+      "size_bytes": 30458838,
+      "telegram_date": "2026-11-12T18:37:00+00:00",
+      "title": "05_26년_11월_해설지",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26599.png",
+      "sha256": "fcf8509fc420015006b9c992cade6911ab97ffba42818ac174278b87a9190e83"
+    },
+    {
       "message_id": 26586,
       "filename": "E정 EBS분석서.pdf",
       "stored_as": null,
