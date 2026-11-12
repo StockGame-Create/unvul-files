@@ -85,6 +85,20 @@
       "sha256": "ba0433b755414f3e9ac390828be4527f92102cf852a8ebd2efd3e06a9923636f"
     },
     {
+      "message_id": 26635,
+      "filename": "2회 서바노트 (1).pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26635_2.1.pdf",
+      "size_bytes": 27278799,
+      "telegram_date": "2026-11-12T18:41:14+00:00",
+      "title": "2회 서바노트 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26635.png",
+      "sha256": "45aa1dc6cfd4f84286e638f5b6b88266274b2ceb8ba86c18014c56aa064789d9"
+    },
+    {
       "message_id": 26586,
       "filename": "E정 EBS분석서.pdf",
       "stored_as": null,
