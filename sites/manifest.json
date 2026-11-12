@@ -295,6 +295,20 @@
       "sha256": "1c74cfbbd5795e8cda2446dc0e28b87a09e5d6f0eda4cce2f65a749ec89c2031"
     },
     {
+      "message_id": 26611,
+      "filename": "설맞이_모의고사_파이널_2회_기하만.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26611_._._._2._.pdf",
+      "size_bytes": 2488297,
+      "telegram_date": "2026-11-12T18:38:30+00:00",
+      "title": "설맞이_모의고사_파이널_2회_기하만",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26611.png",
+      "sha256": "e25d4d5970ee4e840c793a52c918977a6e08b50ba2d7d6a58ed8be94e0a8040e"
+    },
+    {
       "message_id": 26586,
       "filename": "E정 EBS분석서.pdf",
       "stored_as": null,
