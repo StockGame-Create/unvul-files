@@ -435,6 +435,20 @@
       "sha256": "3345c25e2468831f71993affeb6e11dcf73c4f1a8e322c20a3b451984050a1ac"
     },
     {
+      "message_id": 26593,
+      "filename": "Meridian Zero 해설.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26593_Meridian.Zero.pdf",
+      "size_bytes": 16940411,
+      "telegram_date": "2026-11-12T18:35:34+00:00",
+      "title": "Meridian Zero 해설",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26593.png",
+      "sha256": "204a5a2f8a73b0396bf5d97945b2d68b8114b60cc431d0713eebb82f1ce5e168"
+    },
+    {
       "message_id": 26586,
       "filename": "E정 EBS분석서.pdf",
       "stored_as": null,
