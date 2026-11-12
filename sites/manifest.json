@@ -183,6 +183,20 @@
       "sha256": "d2d066b38566e51da4af79ae3bad8f4df5bea45278916b0570e3c46a63a77a95"
     },
     {
+      "message_id": 26627,
+      "filename": "2027대비_시험장_행동영역_총정리.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/large-files-14/26627_2027._._._.pdf",
+      "size_bytes": 1233030,
+      "telegram_date": "2026-11-12T18:39:39+00:00",
+      "title": "2027대비_시험장_행동영역_총정리",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "thumbnail": "thumbnails/26627.png",
+      "sha256": "c37f53baf468f3392dab14bd30c0d65b6626b3191c4c487bd9574161a1e94ebb"
+    },
+    {
       "message_id": 26586,
       "filename": "E정 EBS분석서.pdf",
       "stored_as": null,
