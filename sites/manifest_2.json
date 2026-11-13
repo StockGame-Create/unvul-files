@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T20:39:45+00:00",
+  "updated_at": "2026-11-13T06:56:57+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -4423,6 +4423,28 @@
       "matched_count": 16,
       "with_answer": 4,
       "with_explanation": 4
+    },
+    {
+      "message_id": 26644,
+      "filename": "2027 지푸라기.pdf",
+      "title": "2027 지푸라기",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "sha256": "aa47c9f76cf801cf5fe65272c7c9d73d3775ac19dcd1948217cefe30c82bd7b7",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/26644.json",
+      "updated_at": "2026-11-13T06:56:57+00:00",
+      "pages_total": 168,
+      "pages_done": 4,
+      "failed_pages": [],
+      "model": "gemini-3.6-flash",
+      "problem_count": 0,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
     }
   ]
 }
