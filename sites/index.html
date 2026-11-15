@@ -208,6 +208,17 @@
     box-shadow: var(--shadow-sm);
   }
 
+  .update-log .err3-big {
+    margin: 0.4rem 0 0.2rem;
+    text-align: center;
+    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+    font-size: clamp(2.6rem, 12vw, 4.5rem);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1.1;
+    color: #c62828;
+  }
+
   .update-log-head {
     display: flex;
     align-items: center;
@@ -1839,6 +1850,7 @@
   <script>
     // ================= 장애 안내 스위치 =================
     // 0 = 정상,  1 = "파일 보기" 장애 중 (빨간 토스트 + 페이지 경고 + 다운로드만 가능)
+    // 3 = 업데이트 로그 자리에 큰 글씨로 "ERR-3"만 표시
     // 다음 업데이트 때 이 숫자와 아래 문구만 바꾸면 됩니다.
     let errStat = 0;
     const ERR_TITLE = "현재 파일 보기를 사용할 수 없어요";
@@ -2020,6 +2032,13 @@
     }
 
     function renderUpdateLogPage() {
+      // errStat === 3: 기존 업데이트 로그 대신 큰 글씨로 ERR-3만 표시
+      if (errStat === 3) {
+        updateLogListEl.innerHTML = '<li class="err3-big" style="list-style:none;padding:0;border:0">현재 아카이브가 폐쇄되었어요. 아카이브가 복구된 후 다시 파일이 업로드되요.</li>';
+        updateLogNavEl.hidden = true;
+        updateLogEl.hidden = false;
+        return;
+      }
       if (updateLogEntries.length === 0) {
         updateLogEl.hidden = true;
         return;
