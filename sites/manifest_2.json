@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T06:40:26+00:00",
+  "updated_at": "2026-11-16T23:00:27+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -4543,18 +4543,40 @@
       "subject": null,
       "sha256": "ba0433b755414f3e9ac390828be4527f92102cf852a8ebd2efd3e06a9923636f",
       "schema_version": 1,
-      "status": "partial",
+      "status": "done",
       "data": "ai/26637.json",
-      "updated_at": "2026-11-16T06:40:26+00:00",
+      "updated_at": "2026-11-16T22:57:58+00:00",
       "pages_total": 56,
-      "pages_done": 20,
+      "pages_done": 56,
       "failed_pages": [],
       "model": "gemini-3.6-flash",
       "problem_count": 0,
-      "solution_count": 143,
+      "solution_count": 265,
       "matched_count": 0,
       "with_answer": 0,
       "with_explanation": 0
+    },
+    {
+      "message_id": 26635,
+      "filename": "2회 서바노트 (1).pdf",
+      "title": "2회 서바노트 (1)",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "sha256": "45aa1dc6cfd4f84286e638f5b6b88266274b2ceb8ba86c18014c56aa064789d9",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/26635.json",
+      "updated_at": "2026-11-16T23:00:27+00:00",
+      "pages_total": 28,
+      "pages_done": 24,
+      "failed_pages": [],
+      "model": "gemini-3.6-flash",
+      "problem_count": 2,
+      "solution_count": 40,
+      "matched_count": 6,
+      "with_answer": 2,
+      "with_explanation": 2
     }
   ]
 }
