@@ -1539,6 +1539,58 @@
   .mk-src { background: #5a3f8f; } .mk-conf { background: #8B5E3C; } .mk-elim { background: #6B6255; } .mk-alt { background: #2f6f90; }
   .mk-line-src { border-left-color: #5a3f8f; background: rgba(90,63,143,.07); } .mk-line-conf { border-left-color: #8B5E3C; background: rgba(139,94,60,.1); }
   .mk-line-elim { border-left-color: #6B6255; } .mk-line-alt { border-left-color: #2f6f90; background: rgba(47,111,144,.08); }
+
+  /* ================= 27 / 28 저장소 전환 ================= */
+  .season-bar { display: flex; align-items: center; gap: 0.6rem; margin: 1.2rem 0 0.2rem; flex-wrap: wrap; }
+  .season-seg { display: inline-flex; border: 1.5px solid var(--ink); border-radius: 999px; overflow: hidden; background: var(--paper-raised); }
+  .season-btn {
+    font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace; font-size: 0.85rem; font-weight: 600;
+    background: none; border: 0; padding: 0.5rem 1.1rem; color: var(--ink-soft); cursor: pointer; transition: background .15s, color .15s;
+  }
+  .season-btn + .season-btn { border-left: 1.5px solid var(--ink); }
+  .season-btn.active { background: var(--ink); color: var(--paper); }
+  .season-btn:not(.active):hover { color: var(--ink); background: rgba(139, 94, 60, .12); }
+  .season-btn small { font-weight: 400; opacity: .75; margin-left: .3rem; }
+  .season-hint { font-size: 0.78rem; color: var(--ink-soft); font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace; }
+  .season-empty { grid-column: 1 / -1; list-style: none; text-align: center; padding: 4.5rem 1rem; color: var(--ink-soft); }
+  .season-empty strong { display: block; font-size: 1.25rem; color: var(--ink); margin-bottom: .5rem; }
+  .season-empty button { margin-top: 1rem; font-family: inherit; font-size: .85rem; padding: .5rem 1rem; border: 1.5px solid var(--ink); background: none; color: var(--ink); border-radius: 999px; cursor: pointer; }
+  .season-empty button:hover { background: var(--ink); color: var(--paper); }
+
+  /* ================= 수고하셨습니다 탭 + 엔딩 애니메이션 ================= */
+  .done-tab { color: #B5532B; font-weight: 600; animation: doneGlow 2.4s ease-in-out infinite; }
+  .done-tab:hover { color: #E4572E; }
+  @keyframes doneGlow { 0%,100% { text-shadow: 0 0 0 rgba(228,87,46,0); } 50% { text-shadow: 0 0 10px rgba(228,87,46,.55); } }
+
+  .fin-overlay {
+    position: fixed; inset: 0; z-index: 99999; overflow: hidden; cursor: none; user-select: none; -webkit-user-select: none;
+    background: radial-gradient(ellipse at 50% 120%, #2b1a3d 0%, #0d1126 55%, #05060f 100%);
+    color: #fff; font-family: "Noto Serif KR", "Source Serif 4", Georgia, serif;
+    opacity: 0; transition: opacity 1.6s ease;
+  }
+  .fin-overlay[hidden] { display: none; }
+  .fin-overlay.on { opacity: 1; }
+  .fin-overlay.out { opacity: 0; transition: opacity 2.4s ease; }
+  .fin-canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+  .fin-stage { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 2rem; text-align: center; pointer-events: none; }
+  .fin-text {
+    position: absolute; max-width: 900px; width: 86%; opacity: 0; transform: translateY(18px); filter: blur(8px);
+    transition: opacity 1.6s ease, transform 1.8s ease, filter 1.6s ease;
+    text-shadow: 0 2px 24px rgba(0,0,0,.55);
+  }
+  .fin-text.show { opacity: 1; transform: none; filter: none; }
+  .fin-text.hide { opacity: 0; transform: translateY(-14px); filter: blur(6px); transition-duration: 1.2s; }
+  .fin-text .k { font-size: clamp(.8rem, 2.2vw, 1rem); letter-spacing: .35em; color: #f2c879; margin-bottom: 1.2rem; font-family: "IBM Plex Mono", monospace; }
+  .fin-text .h { font-size: clamp(1.6rem, 5.4vw, 3.2rem); font-weight: 600; line-height: 1.45; word-break: keep-all; }
+  .fin-text .p { font-size: clamp(1.05rem, 3.1vw, 1.55rem); line-height: 1.95; color: #ece6ff; word-break: keep-all; font-weight: 400; }
+  .fin-text .p span { display: block; opacity: 0; transform: translateY(10px); transition: opacity 1.3s ease, transform 1.3s ease; }
+  .fin-text.show .p span { opacity: 1; transform: none; }
+  .fin-text.show .p span:nth-child(2) { transition-delay: 1.8s; }
+  .fin-text.show .p span:nth-child(3) { transition-delay: 3.6s; }
+  .fin-text.big .h { font-size: clamp(2.4rem, 11vw, 6.4rem); letter-spacing: .04em;
+    background: linear-gradient(100deg, #ffe6a8, #ff9d6c 45%, #f6a6ff); -webkit-background-clip: text; background-clip: text; color: transparent; text-shadow: none; filter: drop-shadow(0 4px 30px rgba(255,160,110,.35)); }
+  .fin-bar { position: absolute; left: 0; bottom: 0; height: 3px; width: 0; background: linear-gradient(90deg, #f2c879, #ff8d5e); box-shadow: 0 0 10px rgba(255,141,94,.7); }
+  .fin-foot { position: absolute; left: 0; right: 0; bottom: 14px; text-align: center; font-size: .72rem; color: rgba(255,255,255,.38); font-family: "IBM Plex Mono", "IBM Plex Sans KR", monospace; letter-spacing: .08em; pointer-events: none; }
 </style>
 </head>
 <body>
@@ -1559,9 +1611,17 @@
       <button type="button" class="tab-btn" id="tabBtnLab">✦ 문제 생성실<span class="new-badge" data-new-for="lab">NEW</span></button>
       <button type="button" class="tab-btn" id="tabBtnOmr" hidden>OMR 채점</button>
       <button type="button" class="tab-btn" id="tabBtnAi">✦ Unvul AI에게 물어보기<span class="new-badge" data-new-for="ai">NEW</span></button>
+      <button type="button" class="tab-btn done-tab" id="tabBtnDone" title="27 수능을 마친 당신에게">🌙 수고하셨습니다.</button>
     </div>
 
     <section class="tab-panel" id="tabFiles">
+      <div class="season-bar" id="seasonBar">
+        <div class="season-seg" role="tablist" aria-label="문제 저장소 선택">
+          <button type="button" class="season-btn active" id="seasonBtn28" data-season="28" role="tab" aria-selected="true">28 저장소<small id="seasonCnt28"></small></button>
+          <button type="button" class="season-btn" id="seasonBtn27" data-season="27" role="tab" aria-selected="false">27 저장소<small id="seasonCnt27"></small></button>
+        </div>
+        <span class="season-hint" id="seasonHint">지금부터 올라오는 자료는 28 저장소에 쌓여요.</span>
+      </div>
       <div class="update-log" id="updateLog" hidden>
         <div class="update-log-head">
           <h2>최근 업데이트</h2>
@@ -1844,6 +1904,13 @@
     </div>
   </div>
 
+  <div class="fin-overlay" id="finOverlay" hidden role="dialog" aria-modal="true" aria-label="27 수능 수고하셨습니다">
+    <canvas class="fin-canvas" id="finCanvas"></canvas>
+    <div class="fin-stage" id="finStage"></div>
+    <div class="fin-foot">끝까지 보시면 이 탭은 사라져요</div>
+    <div class="fin-bar" id="finBar"></div>
+  </div>
+
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <div class="err-toast" id="errToast" role="alert" aria-live="assertive"></div>
 
@@ -1912,6 +1979,42 @@
         .replace(/\d+/g, (m) => `<span class="dup-num">${m}</span>`)
         .replace(DUP_KEYWORD_RE, (m) => `<span class="dup-kw">${m}</span>`);
     }
+    // ================= 27 / 28 저장소 =================
+    // 28 자료 = 지금부터 sync.py가 넣는 파일. manifest의 files[].season이 "27"/"28"이면 그 값을 그대로 쓰고,
+    // 없으면 telegram_date가 SEASON_28_FROM 이후인 파일을 28, 그 이전은 27로 본다.
+    // (sync.py를 고치지 않아도 동작. 경계를 옮기려면 아래 날짜만 바꾸면 됩니다.)
+    const SEASON_28_FROM = new Date("2026-11-23T00:00:00+09:00");
+    let currentSeason = "28"; // 기본값 28
+    function seasonOf(f) {
+      if (f && f.season != null) {
+        const s = String(f.season).replace(/\D/g, "").slice(-2);
+        if (s === "27" || s === "28") return s;
+      }
+      const d = new Date(f && f.telegram_date);
+      return !isNaN(d) && d >= SEASON_28_FROM ? "28" : "27";
+    }
+    function updateSeasonUi() {
+      for (const s of ["27", "28"]) {
+        const b = document.getElementById("seasonBtn" + s);
+        const on = s === currentSeason;
+        b.classList.toggle("active", on);
+        b.setAttribute("aria-selected", on ? "true" : "false");
+        const n = allFiles.filter(f => seasonOf(f) === s).length;
+        document.getElementById("seasonCnt" + s).textContent = allFiles.length ? `(${n})` : "";
+      }
+      document.getElementById("seasonHint").textContent = currentSeason === "28"
+        ? "지금부터 올라오는 자료는 28 저장소에 쌓여요."
+        : "지난 27 자료예요. 언제든 다시 볼 수 있어요.";
+    }
+    function setSeason(s) {
+      currentSeason = s;
+      updateSeasonUi();
+      renderUpdateLog(buildUpdateLog(allFiles.filter(f => seasonOf(f) === currentSeason)));
+      applyFilter();
+    }
+    document.getElementById("seasonBtn28").addEventListener("click", () => setSeason("28"));
+    document.getElementById("seasonBtn27").addEventListener("click", () => setSeason("27"));
+
     let currentPage = 1;
     let toastTimer = null;
 
@@ -2236,7 +2339,13 @@
     // ---- 페이지네이션 ----
     function renderPage() {
       if (filteredSorted.length === 0) {
-        fileListEl.innerHTML = '<li class="empty-state">조건에 맞는 자료가 없습니다.</li>';
+        if (currentSeason === "28" && !allFiles.some(f => seasonOf(f) === "28")) {
+          fileListEl.innerHTML = '<li class="season-empty"><strong>아직 업데이트되지 않았어요</strong>28 자료는 곧 이곳에 올라올 거예요.<br /><button type="button" id="goSeason27">27 자료 다시 보기 →</button></li>';
+          const g = document.getElementById("goSeason27");
+          if (g) g.addEventListener("click", () => setSeason("27"));
+        } else {
+          fileListEl.innerHTML = '<li class="empty-state">조건에 맞는 자료가 없습니다.</li>';
+        }
         countLine.textContent = "";
         paginationEl.innerHTML = "";
         return;
@@ -2320,6 +2429,7 @@
       const checkedCats = getCheckedCategories();
 
       const filtered = allFiles.filter(f => {
+        if (seasonOf(f) !== currentSeason) return false;
         if (checkedCats.length > 0 && !checkedCats.includes(resolveCategory(f))) {
           return false;
         }
@@ -3997,7 +4107,8 @@
       .then(data => {
         allFiles = data.files || [];
         titleCounts = buildTitleCounts(allFiles);
-        renderUpdateLog(buildUpdateLog(allFiles));
+        updateSeasonUi();
+        renderUpdateLog(buildUpdateLog(allFiles.filter(f => seasonOf(f) === currentSeason)));
         applyFilter();
       })
       .catch(err => {
@@ -4230,6 +4341,175 @@
     kiceSearch.addEventListener("input", applyKiceFilter);
     kiceFilterRow.addEventListener("change", applyKiceFilter);
     for (const el of [kiceExamSel, kiceYearSel, kiceKindSel, kiceSortSel]) el.addEventListener("change", applyKiceFilter);
+
+    // ================= 수고하셨습니다 (27 수능 엔딩, 스킵 불가) =================
+    // 끝까지 한 번 보면 localStorage에 기록되고 탭이 사라진다. 도중에 새로고침하면 처음부터 다시 본다.
+    const FIN_KEY = "unvulFinDone27";
+    const FIN_TOTAL = 74000; // ms (1분 14초)
+    const finOverlay = document.getElementById("finOverlay");
+    const finStage = document.getElementById("finStage");
+    const finCanvas = document.getElementById("finCanvas");
+    const finBar = document.getElementById("finBar");
+    const tabBtnDone = document.getElementById("tabBtnDone");
+    let finRunning = false;
+    try { if (localStorage.getItem(FIN_KEY) === "1") tabBtnDone.hidden = true; } catch (_) {}
+
+    // [시작ms, 끝ms, 종류, 내용]  종류: h=큰 제목, p=문단(줄별 등장), big=마지막 큰 인사
+    const FIN_SCENES = [
+      [2000, 9500,  "h",   { k: "2027학년도 대학수학능력시험", h: "끝났습니다." }],
+      [10500, 21500, "p",  { lines: ["새벽까지 켜 둔 스탠드,", "빼곡히 접힌 오답노트,", "수없이 지워 낸 연필 자국."] }],
+      [22500, 33500, "p",  { lines: ["그 모든 하루하루가", "당신을 오늘 이 자리까지", "데려다 놓았어요."] }],
+      [34500, 45500, "p",  { lines: ["시험 하루가 말해 주는 건", "당신이 보낸 일 년의", "아주 작은 일부일 뿐이에요."] }],
+      [46500, 57500, "p",  { lines: ["오늘은 아무것도 복습하지 않아도 돼요.", "맛있는 걸 먹고, 푹 자고,", "마음껏 쉬어도 괜찮아요."] }],
+      [58500, 68500, "big",{ k: "27 수능, 정말", h: "수고하셨습니다." }],
+      [69000, 73500, "p",  { lines: ["이제 28 자료가 차례로 올라올 거예요.", "— Unvul Files 올림"] }],
+    ];
+
+    function finBuildScenes() {
+      finStage.innerHTML = "";
+      return FIN_SCENES.map(([s, e, type, c]) => {
+        const el = document.createElement("div");
+        el.className = "fin-text" + (type === "big" ? " big" : "");
+        if (type === "p") el.innerHTML = `<div class="p">${c.lines.map(l => `<span>${escapeHtml(l)}</span>`).join("")}</div>`;
+        else el.innerHTML = `<div class="k">${escapeHtml(c.k)}</div><div class="h">${escapeHtml(c.h)}</div>`;
+        finStage.appendChild(el);
+        return { s, e, el, shown: false, hidden: false };
+      });
+    }
+
+    // ---- 배경: 별 + 유성 + 새벽빛 + 폭죽/꽃가루 ----
+    function finStart() {
+      if (finRunning) return;
+      finRunning = true;
+      finOverlay.hidden = false;
+      finOverlay.classList.remove("out");
+      document.body.style.overflow = "hidden";
+      requestAnimationFrame(() => finOverlay.classList.add("on"));
+
+      const scenes = finBuildScenes();
+      const ctx = finCanvas.getContext("2d");
+      let W = 0, H = 0, DPR = Math.min(window.devicePixelRatio || 1, 2);
+      const resize = () => {
+        W = window.innerWidth; H = window.innerHeight;
+        finCanvas.width = W * DPR; finCanvas.height = H * DPR;
+        ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+      };
+      resize();
+      window.addEventListener("resize", resize);
+
+      const rnd = (a, b) => a + Math.random() * (b - a);
+      const stars = Array.from({ length: 150 }, () => ({ x: Math.random(), y: Math.random() * 0.85, r: rnd(0.4, 1.7), ph: rnd(0, 6.28), sp: rnd(0.6, 2.2) }));
+      const meteors = [], sparks = [], confetti = [];
+      const COLORS = ["#ffe6a8", "#ff9d6c", "#f6a6ff", "#9ad7ff", "#b8f0c0", "#ffffff"];
+      let lastMeteor = 0, nextBurst = 0, lastConfetti = 0, t0 = performance.now();
+
+      const burst = (x, y) => {
+        const col = COLORS[Math.floor(Math.random() * COLORS.length)];
+        const n = 46;
+        for (let i = 0; i < n; i++) {
+          const a = (i / n) * 6.283 + rnd(-0.06, 0.06), v = rnd(1.6, 4.6);
+          sparks.push({ x, y, vx: Math.cos(a) * v, vy: Math.sin(a) * v, life: 1, col });
+        }
+      };
+
+      // 키보드/우클릭/터치 등 모든 건너뛰기 시도를 막는다
+      const block = (e) => { e.preventDefault(); e.stopPropagation(); };
+      const evs = ["keydown", "keyup", "contextmenu", "wheel", "touchmove", "dblclick"];
+      evs.forEach(n => window.addEventListener(n, block, { capture: true, passive: false }));
+      const beforeUnload = (e) => { e.preventDefault(); e.returnValue = ""; };
+      window.addEventListener("beforeunload", beforeUnload);
+      finOverlay.addEventListener("click", block);
+
+      let raf = 0, done = false;
+      const frame = (now) => {
+        const t = now - t0;
+        // 하늘 색: 밤 → 새벽(후반부에 서서히 따뜻해짐)
+        const dawn = Math.max(0, Math.min(1, (t - 44000) / 24000));
+        ctx.clearRect(0, 0, W, H);
+        const g = ctx.createLinearGradient(0, 0, 0, H);
+        g.addColorStop(0, `rgb(${5 + 30 * dawn | 0},${6 + 14 * dawn | 0},${15 + 30 * dawn | 0})`);
+        g.addColorStop(0.6, `rgb(${13 + 70 * dawn | 0},${17 + 25 * dawn | 0},${38 + 20 * dawn | 0})`);
+        g.addColorStop(1, `rgb(${43 + 190 * dawn | 0},${26 + 100 * dawn | 0},${61 + 20 * dawn | 0})`);
+        ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+        // 지평선 해돋이 빛
+        if (dawn > 0) {
+          const r = ctx.createRadialGradient(W / 2, H * 1.02, 0, W / 2, H * 1.02, Math.max(W, H) * 0.75);
+          r.addColorStop(0, `rgba(255,190,120,${0.55 * dawn})`); r.addColorStop(1, "rgba(255,190,120,0)");
+          ctx.fillStyle = r; ctx.fillRect(0, 0, W, H);
+        }
+        // 별
+        for (const s of stars) {
+          const a = (0.35 + 0.65 * Math.abs(Math.sin(now / 1000 * s.sp + s.ph))) * (1 - 0.7 * dawn);
+          ctx.fillStyle = `rgba(255,255,255,${a})`;
+          ctx.beginPath(); ctx.arc(s.x * W, s.y * H, s.r, 0, 6.283); ctx.fill();
+        }
+        // 유성
+        if (t - lastMeteor > rnd(2500, 5200) && t < 66000) {
+          lastMeteor = t;
+          meteors.push({ x: rnd(0.2, 1) * W, y: rnd(0, 0.35) * H, vx: -rnd(5, 8), vy: rnd(2.5, 4), life: 1 });
+        }
+        for (let i = meteors.length - 1; i >= 0; i--) {
+          const m = meteors[i]; m.x += m.vx; m.y += m.vy; m.life -= 0.013;
+          if (m.life <= 0) { meteors.splice(i, 1); continue; }
+          const grad = ctx.createLinearGradient(m.x, m.y, m.x - m.vx * 9, m.y - m.vy * 9);
+          grad.addColorStop(0, `rgba(255,255,255,${m.life})`); grad.addColorStop(1, "rgba(255,255,255,0)");
+          ctx.strokeStyle = grad; ctx.lineWidth = 1.8;
+          ctx.beginPath(); ctx.moveTo(m.x, m.y); ctx.lineTo(m.x - m.vx * 9, m.y - m.vy * 9); ctx.stroke();
+        }
+        // 폭죽(58.5초~ 마지막 인사 구간) + 꽃가루
+        if (t > 57500 && t < 71000) {
+          if (t > nextBurst) { burst(rnd(0.15, 0.85) * W, rnd(0.15, 0.5) * H); nextBurst = t + rnd(450, 1100); }
+          if (t - lastConfetti > 70) {
+            lastConfetti = t;
+            confetti.push({ x: rnd(0, W), y: -10, vx: rnd(-0.6, 0.6), vy: rnd(1.2, 2.6), rot: rnd(0, 6), vr: rnd(-0.12, 0.12), w: rnd(5, 10), h: rnd(8, 14), col: COLORS[Math.floor(Math.random() * COLORS.length)] });
+          }
+        }
+        for (let i = sparks.length - 1; i >= 0; i--) {
+          const p = sparks[i]; p.x += p.vx; p.y += p.vy; p.vy += 0.045; p.vx *= 0.99; p.life -= 0.012;
+          if (p.life <= 0) { sparks.splice(i, 1); continue; }
+          ctx.globalAlpha = p.life; ctx.fillStyle = p.col;
+          ctx.beginPath(); ctx.arc(p.x, p.y, 2.1, 0, 6.283); ctx.fill();
+        }
+        ctx.globalAlpha = 1;
+        for (let i = confetti.length - 1; i >= 0; i--) {
+          const c = confetti[i]; c.x += c.vx + Math.sin(c.y / 40) * 0.5; c.y += c.vy; c.rot += c.vr;
+          if (c.y > H + 20) { confetti.splice(i, 1); continue; }
+          ctx.save(); ctx.translate(c.x, c.y); ctx.rotate(c.rot); ctx.fillStyle = c.col; ctx.globalAlpha = 0.9;
+          ctx.fillRect(-c.w / 2, -c.h / 2, c.w, c.h); ctx.restore();
+        }
+        ctx.globalAlpha = 1;
+
+        // 문구 타임라인
+        for (const sc of scenes) {
+          if (!sc.shown && t >= sc.s) { sc.shown = true; sc.el.classList.add("show"); }
+          if (sc.shown && !sc.hidden && t >= sc.e) { sc.hidden = true; sc.el.classList.remove("show"); sc.el.classList.add("hide"); }
+        }
+        finBar.style.width = Math.min(100, (t / FIN_TOTAL) * 100) + "%";
+
+        if (t >= FIN_TOTAL && !done) { done = true; finish(); return; }
+        raf = requestAnimationFrame(frame);
+      };
+
+      const finish = () => {
+        try { localStorage.setItem(FIN_KEY, "1"); } catch (_) {}
+        finOverlay.classList.add("out");
+        setTimeout(() => {
+          cancelAnimationFrame(raf);
+          evs.forEach(n => window.removeEventListener(n, block, { capture: true }));
+          window.removeEventListener("beforeunload", beforeUnload);
+          window.removeEventListener("resize", resize);
+          finOverlay.removeEventListener("click", block);
+          finOverlay.hidden = true; finOverlay.classList.remove("on", "out");
+          document.body.style.overflow = "";
+          tabBtnDone.hidden = true; // 한 번 다 보면 탭이 사라진다
+          finRunning = false;
+          showToast("27 수능, 정말 수고하셨습니다 🌙");
+        }, 2500);
+      };
+
+      raf = requestAnimationFrame((n) => { t0 = n; frame(n); });
+    }
+    tabBtnDone.addEventListener("click", finStart);
   </script>
 
   <!-- 주소 이전 안내(옛 Vercel 주소) / 첫 방문 소개(새 주소). 내용은 맨 아래 별도 <script>에서 채운다. -->
