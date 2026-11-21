@@ -1758,6 +1758,65 @@
     .fin-text.big .h { font-size: 2.6rem; }
     .fin-text .k { margin-bottom: 0.4rem; }
   }
+
+  /* ================= HOT 27 수능 등급컷 ================= */
+  .hot-badge { display:inline-block; margin-left:.35rem; padding:0 .32rem; font-family:"IBM Plex Mono",monospace; font-size:.6rem; font-weight:800; line-height:1.55; letter-spacing:.04em; color:#fff; background:linear-gradient(135deg,#ff5a3c,#e0301e); border-radius:4px; vertical-align:.12em; animation:hotPulse 1.6s ease-in-out infinite; }
+  @keyframes hotPulse { 0%,100%{ box-shadow:0 0 0 0 rgba(255,90,60,.55);} 50%{ box-shadow:0 0 0 5px rgba(255,90,60,0);} }
+  #tabGrpCut { font-weight:600; }
+  .cut-head { margin:1.2rem 0 .3rem; }
+  .cut-head h2 { margin:0 0 .25rem; font-size:1.35rem; display:flex; align-items:center; gap:.5rem; flex-wrap:wrap; }
+  .cut-live { display:inline-flex; align-items:center; gap:.35rem; font-family:"IBM Plex Mono","IBM Plex Sans KR",monospace; font-size:.7rem; font-weight:600; color:#a8481f; background:rgba(228,87,46,.1); border:1px solid rgba(228,87,46,.4); border-radius:999px; padding:.12rem .55rem; }
+  .cut-live i { width:7px; height:7px; border-radius:50%; background:#e4572e; animation:hotPulse 1.4s ease-in-out infinite; }
+  .cut-live.ok { color:#3c6a35; background:rgba(76,122,68,.12); border-color:rgba(76,122,68,.45); } .cut-live.ok i { background:#4C7A44; }
+  .cut-asof { font-size:.78rem; color:var(--ink-soft); font-family:"IBM Plex Mono","IBM Plex Sans KR",monospace; line-height:1.6; }
+  .cut-chips { display:flex; flex-wrap:wrap; gap:.4rem; margin:.6rem 0 0; }
+  .cut-chip { font-size:.74rem; padding:.2rem .6rem; border:1px solid var(--rule); border-radius:999px; background:var(--paper-raised); color:var(--ink-soft); font-family:"IBM Plex Mono","IBM Plex Sans KR",monospace; }
+  .cut-subnav { display:flex; gap:.45rem; margin:1rem 0 .2rem; overflow-x:auto; scrollbar-width:none; }
+  .cut-subnav::-webkit-scrollbar { display:none; }
+  .cut-sum { display:grid; grid-template-columns:repeat(4,1fr); gap:.7rem; margin:1rem 0; }
+  .cut-card { border:1px solid var(--rule); border-radius:var(--radius-md); background:var(--paper-raised); padding:.8rem .9rem; box-shadow:var(--shadow-sm); }
+  .cut-card .l { font-size:.72rem; color:var(--ink-soft); font-family:"IBM Plex Mono","IBM Plex Sans KR",monospace; }
+  .cut-card .v { font-size:1.55rem; font-weight:700; line-height:1.25; margin-top:.15rem; }
+  .cut-card .s { font-size:.74rem; color:var(--ink-soft); margin-top:.1rem; }
+  .cut-card.hot .v { color:#c0392b; }
+  .cut-card .up { color:#c0392b; font-weight:600; } .cut-card .dn { color:#2f6f90; font-weight:600; }
+  .cut-sec { margin:1.4rem 0 .4rem; font-size:1rem; font-weight:700; display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .cut-sec small { font-weight:400; font-size:.76rem; color:var(--ink-soft); }
+  .cut-bars { display:flex; flex-direction:column; gap:.45rem; margin:.5rem 0 0; }
+  .cut-bar { display:grid; grid-template-columns:6.2rem 1fr 3rem; align-items:center; gap:.6rem; font-size:.86rem; }
+  .cut-bar .n { font-family:"IBM Plex Mono","IBM Plex Sans KR",monospace; font-size:.8rem; }
+  .cut-bar .tr { height:1.05rem; background:rgba(139,94,60,.1); border-radius:999px; overflow:hidden; }
+  .cut-bar .fl { height:100%; border-radius:999px; background:linear-gradient(90deg,#8B5E3C,#c98a5a); transition:width .7s cubic-bezier(.2,.8,.2,1); }
+  .cut-bar.max .fl { background:linear-gradient(90deg,#c0392b,#ff6b4a); } .cut-bar.min .fl { background:linear-gradient(90deg,#2f6f90,#4B93B8); }
+  .cut-bar .x { font-weight:700; text-align:right; }
+  .cut-bar.early { opacity:.6; }
+  .cut-tw { overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); border-radius:var(--radius-md); background:var(--paper-raised); margin:.5rem 0; }
+  table.cut-t { border-collapse:collapse; width:100%; min-width:100%; font-size:.88rem; }
+  table.cut-t th, table.cut-t td { padding:.55rem .7rem; text-align:center; border-bottom:1px solid var(--rule); white-space:nowrap; }
+  table.cut-t thead th { background:var(--paper); font-family:"IBM Plex Mono","IBM Plex Sans KR",monospace; font-size:.76rem; color:var(--ink-soft); position:sticky; top:0; }
+  table.cut-t tbody tr:last-child td, table.cut-t tbody tr:last-child th { border-bottom:0; }
+  table.cut-t th:first-child, table.cut-t td:first-child { text-align:left; position:sticky; left:0; background:var(--paper-raised); z-index:1; font-weight:600; }
+  table.cut-t thead th:first-child { background:var(--paper); z-index:2; }
+  table.cut-t td.hi { color:#c0392b; font-weight:700; background:rgba(192,57,43,.08); }
+  table.cut-t td.lo { color:#2f6f90; font-weight:700; background:rgba(75,147,184,.1); }
+  table.cut-t td.na { color:var(--ink-soft); opacity:.5; }
+  table.cut-t tr.last td, table.cut-t tr.last th { background:rgba(139,94,60,.07); font-style:italic; }
+  table.cut-t tr.early td, table.cut-t tr.early th { opacity:.6; }
+  table.cut-t td.rng { font-weight:700; }
+  .cut-sel { display:flex; gap:.4rem; flex-wrap:wrap; margin:.4rem 0; }
+  .cut-notes { margin:.8rem 0 0; padding:.7rem .9rem .7rem 1.6rem; border-left:3px solid var(--leather); background:rgba(139,94,60,.06); border-radius:0 var(--radius-sm) var(--radius-sm) 0; font-size:.82rem; line-height:1.65; color:var(--ink-soft); }
+  .cut-notes li { margin:.15rem 0; }
+  .cut-warn { margin:1.2rem 0 0; font-size:.78rem; line-height:1.65; color:var(--ink-soft); padding:.7rem .9rem; border:1px dashed var(--rule); border-radius:var(--radius-sm); }
+  .cut-src { display:flex; flex-wrap:wrap; gap:.4rem; margin:.7rem 0 0; }
+  .cut-src a { font-size:.76rem; padding:.3rem .7rem; border:1px solid var(--rule); border-radius:999px; color:var(--ink); text-decoration:none; background:var(--paper-raised); }
+  .cut-src a:hover { border-color:var(--leather); background:rgba(139,94,60,.1); }
+  @media (max-width: 720px) {
+    .cut-sum { grid-template-columns:repeat(2,1fr); gap:.5rem; }
+    .cut-card .v { font-size:1.3rem; }
+    .cut-bar { grid-template-columns:5.2rem 1fr 2.4rem; gap:.45rem; }
+    table.cut-t { font-size:.84rem; } table.cut-t th, table.cut-t td { padding:.55rem .55rem; }
+    .cut-head h2 { font-size:1.15rem; }
+  }
 </style>
 </head>
 <body>
@@ -1772,8 +1831,9 @@
     <div class="err-banner" id="errBanner" role="alert" hidden></div>
 
     <div class="tab-nav">
-      <button type="button" class="tab-btn active" id="tabGrpArchive">‖ 보관함 ‖</button>
+      <button type="button" class="tab-btn active" id="tabGrpArchive">📁 보관함</button>
       <button type="button" class="tab-btn" id="tabGrpAi">✦ Unvul AI<span class="new-badge" id="grpAiNew">NEW</span></button>
+      <button type="button" class="tab-btn" id="tabGrpCut">🔥 27 수능 등급컷<span class="hot-badge">HOT</span></button>
       <button type="button" class="tab-btn" id="tabBtnOmr" hidden>OMR 채점</button>
       <button type="button" class="tab-btn done-tab" id="tabBtnDone" title="27 수능을 마친 당신에게">🌙 수고하셨습니다.</button>
     </div>
@@ -1855,6 +1915,24 @@
       </ul>
 
       <div class="pagination" id="pagination"></div>
+    </section>
+
+    <section class="tab-panel" id="tabCut" hidden>
+      <div class="cut-head">
+        <h2>🔥 27 수능 예상 등급컷 <span class="cut-live" id="cutLive"><i></i><span id="cutLiveTxt">자료 불러오는 중</span></span></h2>
+        <div class="cut-asof" id="cutAsof"></div>
+        <div class="cut-chips" id="cutChips"></div>
+      </div>
+      <div class="cut-subnav" id="cutSubnav">
+        <button type="button" class="sub-btn active" data-cut="kor">국어</button>
+        <button type="button" class="sub-btn" data-cut="math">수학</button>
+        <button type="button" class="sub-btn" data-cut="soc">사회탐구</button>
+        <button type="button" class="sub-btn" data-cut="sci">과학탐구</button>
+      </div>
+      <div id="cutBody"></div>
+      <div class="cut-warn">⚠ 기관별 가채점 표본으로 추정한 값이라 <b>확정 등급컷이 아니에요.</b> 원점수와 표준점수는 서로 다른 점수예요. 기관 수치를 평균 낸다고 공식 컷이 되지는 않고, 확정은 12월 11일 성적 통지 때 나와요.</div>
+      <div class="cut-src" id="cutSrc"></div>
+      <p class="ai-note" id="cutSrcNote"></p>
     </section>
 
     <section class="tab-panel" id="tabKice" hidden>
@@ -2799,6 +2877,8 @@
     }
     document.querySelectorAll(".new-badge").forEach(el => { if (newSeen(el.dataset.newFor)) el.hidden = true; });
 
+    const tabCut = document.getElementById("tabCut");
+    const tabGrpCut = document.getElementById("tabGrpCut");
     const tabGrpArchive = document.getElementById("tabGrpArchive");
     const tabGrpAi = document.getElementById("tabGrpAi");
     const subNavArchive = document.getElementById("subNavArchive");
@@ -2814,6 +2894,7 @@
       if (name === "omr" && !OMR_ENABLED) name = "files";
       tabFiles.hidden = name !== "files";
       tabKice.hidden = name !== "kice";
+      tabCut.hidden = name !== "cut";
       tabView.hidden = name !== "view";
       tabAi.hidden = name !== "ai";
       tabOmr.hidden = name !== "omr";
@@ -2834,9 +2915,11 @@
       const inAi = name === "ai" || name === "lab";
       if (inAi) lastAiTab = name; else if (name === "files" || name === "kice" || name === "view") lastArchiveTab = name;
       tabGrpAi.classList.toggle("active", inAi);
-      tabGrpArchive.classList.toggle("active", !inAi && name !== "omr");
+      tabGrpArchive.classList.toggle("active", !inAi && name !== "omr" && name !== "cut");
+      tabGrpCut.classList.toggle("active", name === "cut");
+      if (name === "cut") cutInit();
       subNavAi.hidden = !inAi;
-      subNavArchive.hidden = inAi || name === "omr";
+      subNavArchive.hidden = inAi || name === "omr" || name === "cut";
       updateGrpNew();
       if (name !== lastShownTab) {
         lastShownTab = name;
@@ -2844,6 +2927,7 @@
       }
     }
 
+    tabGrpCut.addEventListener("click", () => showTab("cut"));
     tabGrpArchive.addEventListener("click", () => showTab(lastArchiveTab));
     tabGrpAi.addEventListener("click", () => showTab(lastAiTab));
     tabBtnFiles.addEventListener("click", () => showTab("files"));
@@ -4711,6 +4795,138 @@
 
       raf = requestAnimationFrame(frame);
     }
+
+    // ================= HOT 27 수능 등급컷 =================
+    // 내장 자료(CUT_SEED)는 조사 시점의 스냅샷이다. 브라우저는 다른 사이트(입시기관)를 직접 읽을 수 없어서(CORS),
+    // 저장소의 sites/gradecut.json을 읽는다. 그 파일의 updated_at이 더 최신이면 화면이 자동으로 바뀌고,
+    // 탭을 열어 두면 3분마다 다시 확인한다. (파일 형식은 내장 자료와 같다)
+    const CUT_SEED = {"updated_at": "2026-11-22T12:00:00+09:00", "asof": "2026-11-20 오전 5:57 기준 · 7개 기관 자체 등급컷 페이지 대조", "institutions": [{"name": "메가스터디", "url": "https://www.megastudy.net"}, {"name": "대성마이맥", "url": "https://www.mimacstudy.com"}, {"name": "EBSi", "url": "https://www.ebsi.co.kr"}, {"name": "진학사", "url": "https://www.jinhak.com"}, {"name": "유웨이", "url": "https://www.uway.com"}, {"name": "종로학원", "url": "https://www.jongro.co.kr"}, {"name": "이투스", "url": "https://www.etoos.com"}, {"name": "입시캐스트", "url": ""}], "kor": {"last": [133, 126, 117], "std": {"메가스터디": [130, 125, 118], "대성마이맥": [129, 124, 117], "EBSi": [129, 124, 117], "진학사": [129, 125, 117], "유웨이": [129, 124, 118], "종로학원": [131, 125, 118], "이투스": [130, 124, 117], "입시캐스트": [131, null, null]}, "raw": {"화법과 작문": {"메가스터디": ["94~95", "88~90", "80~83"], "대성마이맥": ["95", "89", "81"], "EBSi": ["95", "90", "82"], "진학사": ["94", "89", "79"], "유웨이": ["95~96", "89~90", "82~84"], "종로학원": ["95", "89", "81"], "이투스": ["94~95", "88", "80~81"], "입시캐스트": ["92~94", null, null]}, "언어와 매체": {"메가스터디": ["90~91", "84~86", "76~79"], "대성마이맥": ["91", "85", "77"], "EBSi": ["91", "85", "77"], "진학사": ["91", "86", "77"], "유웨이": ["91", "85", "78~79"], "종로학원": ["91", "84", "77"], "이투스": ["90~91", "84", "76~77"], "입시캐스트": ["89~91", null, null]}}, "lastRaw": {"화법과 작문": "약 90", "언어와 매체": "약 85"}, "notes": ["20일 오후 5시 기준 EBSi는 화작 94·언매 90으로 1점씩 낮췄고, 종로학원·진학사는 화작 95·언매 91을 제시했어요.", "표준점수 최고점 전망: EBSi 138점, 진학사 137점 (작년 147점).", "입시캐스트는 19일 저녁 기준 1등급 수치만 확인돼 평균에서 제외했어요."]}, "math": {"last": [128, 124, 119], "std": {"메가스터디": [131, 126, 118], "대성마이맥": [127, 123, 119], "EBSi": [128, 123, 118], "진학사": [128, 123, 117], "유웨이": [128, 124, 118], "종로학원": [129, 124, 119], "이투스": [128, 124, 118], "입시캐스트": [128, null, null]}, "raw": {"확률과 통계": {"메가스터디": ["88~89", "81~84", "70~74"], "대성마이맥": ["89", "83", "77"], "EBSi": ["89", "82", "76"], "진학사": ["89", "83", "76"], "유웨이": ["89~90", "83~85", "75~77"], "종로학원": ["89", "83", "76"], "이투스": ["88", "84", "76~77"], "입시캐스트": ["89~92", null, null]}, "미적분": {"메가스터디": ["84~86", "78~80", "67~70"], "대성마이맥": ["85", "79", "73"], "EBSi": ["85", "78", "71"], "진학사": ["85", "78", "71"], "유웨이": ["85~86", "79~81", "71~73"], "종로학원": ["86", "80", "73"], "이투스": ["84~85", "80~82", "72~75"], "입시캐스트": ["85~88", null, null]}, "기하": {"메가스터디": ["86~88", "80~83", "69~73"], "대성마이맥": ["87", "81", "76"], "EBSi": ["87", "81", "74"], "진학사": ["87", "80", "73"], "유웨이": ["87~88", "81~83", "73~75"], "종로학원": ["87", "81", "74"], "이투스": ["88", "83", "76"], "입시캐스트": ["87~90", null, null]}}, "notes": ["20일 오후 5시 기준 진학사는 확통 90·미적 85·기하 88, 종로학원은 확통 89·미적 86·기하 87, EBSi는 확통 89·미적 85·기하 87로 제시했어요.", "표준점수 최고점 전망: EBSi 139점 (작년과 비슷).", "수학은 기관 간 1등급 표준점수가 최대 4점(127~131) 벌어져 국어보다 편차가 커요."]}, "tam": {"cols": ["EBSi", "메가스터디", "대성(체감)", "진학사", "유웨이", "종로학원", "이투스"], "soc": [["생활과 윤리", [48, 48, 48, null, 48, 48, 48], 44], ["윤리와 사상", [48, 48, 48, null, 48, 47, 47], 45], ["한국지리", [48, 48, 48, null, 48, 47, 48], 45], ["세계지리", [48, 48, 47, null, 48, 48, 48], 44], ["동아시아사", [47, 47, 47, null, 47, 45, 46], 47], ["세계사", [44, 44, 44, null, 44, 45, 44], 45], ["경제", [47, 47, 47, null, 47, 46, 47], 47], ["정치와 법", [41, 41, 40, null, 40, 43, 42], 47], ["사회·문화", [46, 46, 47, null, 46, 47, 46], 44]], "sci": [["물리학Ⅰ", [46, 46, 46, null, 46, 46, 46], 45], ["화학Ⅰ", [47, 47, 48, null, 47, 46, 47], 45], ["생명과학Ⅰ", [47, 47, 48, null, 47, 48, 47], 42], ["지구과학Ⅰ", [46, 46, 45, null, 46, 46, 46], 46], ["물리학Ⅱ", [45, 45, 45, null, 45, 46, 45], 47], ["화학Ⅱ", [44, 44, 45, null, 44, 45, 45], 47], ["생명과학Ⅱ", [47, 47, 45, null, 47, 45, 46], 45], ["지구과학Ⅱ", [50, 50, 50, null, 50, 50, 50], 48]], "notesSoc": ["정치와 법이 40~43점으로 기관 간 편차가 가장 커요.", "대성마이맥은 별도 ‘체감등급컷’을 쓰고, 진학사는 탐구 수치를 확인하지 못해 ―로 표시했어요.", "EBSi 2·3등급(일부): 생윤 46/42 · 사문 43/40 · 정법 37/32 · 동사 42/38 · 세사 40/34 · 경제 43/37"], "notesSci": ["지구과학Ⅱ는 확인된 6곳 모두 만점(50점)을 1등급컷으로 제시했어요.", "대성마이맥은 별도 ‘체감등급컷’을 쓰고, 진학사는 탐구 수치를 확인하지 못해 ―로 표시했어요.", "EBSi 2·3등급(일부): 물1 43/39 · 물2 41/37 · 화2 37/34 · 생2 43/39 · 지2 46/39"]}, "extra": ["영어: 원점수 90점 이상 1등급 · 예상 1등급 비율 7~10%", "한국사: 40점 이상 1등급", "성적 통지: 12월 11일"], "sources": "출처: 각 기관 가채점 페이지를 대조한 보도(교육을 비추다 11/20), 베리타스알파, 더팩트, 톱스타뉴스(EBSi 상세), 내외일보(입시캐스트)"};
+    let CUT = CUT_SEED, cutSubject = "kor", cutSub = { kor: "화법과 작문", math: "확률과 통계" }, cutInited = false, cutTimer = null, cutRemoteOk = null;
+    const cutBody = document.getElementById("cutBody");
+    const INSTS = ["메가스터디", "대성마이맥", "EBSi", "진학사", "유웨이", "종로학원", "이투스"];
+    const cutNum = (v) => { if (v == null) return null; const m = String(v).match(/\d+/g); if (!m) return null; return m.reduce((a, b) => a + Number(b), 0) / m.length; };
+    const cutFmt = (v) => v == null ? "―" : String(v);
+    const cutStat = (arr) => { const a = arr.filter(x => x != null); if (!a.length) return null; return { min: Math.min(...a), max: Math.max(...a), avg: a.reduce((p, c) => p + c, 0) / a.length, n: a.length }; };
+
+    function cutHeader() {
+      document.getElementById("cutAsof").textContent = "기준: " + (CUT.asof || "");
+      document.getElementById("cutChips").innerHTML = (CUT.extra || []).map(t => `<span class="cut-chip">${escapeHtml(t)}</span>`).join("");
+      document.getElementById("cutSrc").innerHTML = (CUT.institutions || []).filter(i => i.url).map(i => `<a href="${escapeHtml(i.url)}" target="_blank" rel="noopener">${escapeHtml(i.name)} ↗</a>`).join("");
+      document.getElementById("cutSrcNote").textContent = (CUT.sources || "") + " · 링크는 각 기관 사이트 메인이에요.";
+    }
+
+    function cutLive() {
+      const el = document.getElementById("cutLive"), tx = document.getElementById("cutLiveTxt");
+      const t = new Date(CUT.updated_at); const stamp = isNaN(t) ? "" : new Intl.DateTimeFormat("ko-KR", { month: "numeric", day: "numeric", hour: "numeric", minute: "2-digit" }).format(t);
+      if (cutRemoteOk === true) { el.classList.add("ok"); tx.textContent = "실시간 반영 중 · " + stamp; }
+      else { el.classList.remove("ok"); tx.textContent = "조사 자료 " + stamp + " 정리"; }
+    }
+
+    function cutHeat(vals, v) {
+      const a = vals.filter(x => x != null); if (a.length < 2) return "";
+      const mx = Math.max(...a), mn = Math.min(...a); if (mx === mn) return "";
+      return v === mx ? "hi" : v === mn ? "lo" : "";
+    }
+
+    function cutSubjectView(key) {
+      const d = CUT[key], names = Object.keys(d.raw), cur = cutSub[key];
+      const std = d.std, rows = INSTS.concat(["입시캐스트"]).filter(n => std[n]);
+      const stat = cutStat(INSTS.map(n => std[n] ? std[n][0] : null));
+      const diff = stat ? (stat.avg - d.last[0]) : 0;
+      const label = key === "kor" ? "국어" : "수학";
+      const maxV = stat.max, minV = stat.min, lo = minV - 3, hi = maxV + 2;
+      let h = `<div class="cut-sum">
+        <div class="cut-card hot"><div class="l">1등급 예상 표준점수</div><div class="v">${stat.min === stat.max ? stat.min : stat.min + "~" + stat.max}</div><div class="s">${stat.n}개 기관 범위</div></div>
+        <div class="cut-card"><div class="l">기관 평균</div><div class="v">${stat.avg.toFixed(1)}</div><div class="s">단순 평균(참고용)</div></div>
+        <div class="cut-card"><div class="l">작년 확정 1등급</div><div class="v">${d.last[0]}</div><div class="s">2026학년도 ${label}</div></div>
+        <div class="cut-card"><div class="l">작년 대비(평균)</div><div class="v ${diff > 0 ? "up" : "dn"}">${diff > 0 ? "▲" : "▼"} ${Math.abs(diff).toFixed(1)}</div><div class="s">${diff > 0 ? "작년보다 높음" : "작년보다 낮음"}</div></div></div>`;
+      h += `<div class="cut-sec">기관별 1등급 표준점수 <small>막대는 비교하기 쉽게 ${lo}~${hi} 구간으로 그렸어요</small></div><div class="cut-bars">`;
+      for (const n of rows) {
+        const v = std[n][0], early = !INSTS.includes(n);
+        const pct = Math.max(4, Math.min(100, (v - lo) / (hi - lo) * 100));
+        h += `<div class="cut-bar ${early ? "early" : v === maxV ? "max" : v === minV ? "min" : ""}"><span class="n">${escapeHtml(n)}</span><span class="tr"><span class="fl" style="width:${pct}%"></span></span><span class="x">${v}</span></div>`;
+      }
+      h += `</div>`;
+      h += `<div class="cut-sec">표준점수 등급컷</div><div class="cut-tw"><table class="cut-t"><thead><tr><th>기관</th><th>1등급</th><th>2등급</th><th>3등급</th></tr></thead><tbody>`;
+      for (const n of rows) {
+        const early = !INSTS.includes(n);
+        h += `<tr class="${early ? "early" : ""}"><th>${escapeHtml(n)}${early ? " <small>(19일 저녁)</small>" : ""}</th>` + [0, 1, 2].map(i => {
+          const col = INSTS.map(x => std[x] ? std[x][i] : null), v = std[n][i];
+          return `<td class="${v == null ? "na" : early ? "" : cutHeat(col, v)}">${cutFmt(v)}</td>`;
+        }).join("") + `</tr>`;
+      }
+      h += `<tr class="last"><th>2026학년도 확정</th>${d.last.map(v => `<td>${v}</td>`).join("")}</tr></tbody></table></div>`;
+      // 원점수
+      h += `<div class="cut-sec">선택과목 원점수 등급컷 <small>선택과목에 따라 컷이 달라요</small></div><div class="cut-sel">` +
+        names.map(nm => `<button type="button" class="sub-btn ${nm === cur ? "active" : ""}" data-sel="${escapeHtml(nm)}">${escapeHtml(nm)}</button>`).join("") + `</div>`;
+      const raw = d.raw[cur];
+      h += `<div class="cut-tw"><table class="cut-t"><thead><tr><th>기관</th><th>1등급</th><th>2등급</th><th>3등급</th></tr></thead><tbody>`;
+      for (const n of rows) {
+        if (!raw[n]) continue;
+        const early = !INSTS.includes(n);
+        h += `<tr class="${early ? "early" : ""}"><th>${escapeHtml(n)}${early ? " <small>(19일 저녁)</small>" : ""}</th>` + [0, 1, 2].map(i => {
+          const col = INSTS.map(x => raw[x] ? cutNum(raw[x][i]) : null), v = raw[n][i];
+          return `<td class="${v == null ? "na" : early ? "" : cutHeat(col, cutNum(v))}">${cutFmt(v)}</td>`;
+        }).join("") + `</tr>`;
+      }
+      if (d.lastRaw && d.lastRaw[cur]) h += `<tr class="last"><th>2026학년도 1등급(추정)</th><td>${escapeHtml(d.lastRaw[cur])}</td><td class="na">―</td><td class="na">―</td></tr>`;
+      h += `</tbody></table></div>`;
+      h += `<ul class="cut-notes">${(d.notes || []).map(t => `<li>${escapeHtml(t)}</li>`).join("")}</ul>`;
+      return h;
+    }
+
+    function cutTamView(key) {
+      const cols = CUT.tam.cols, rows = CUT.tam[key];
+      let h = `<div class="cut-sec">${key === "soc" ? "사회탐구" : "과학탐구"} 과목별 1등급 예상 원점수 <small>50점 만점</small></div><div class="cut-tw"><table class="cut-t"><thead><tr><th>과목</th>${cols.map(c => `<th>${escapeHtml(c)}</th>`).join("")}<th>예상 범위</th><th>작년</th></tr></thead><tbody>`;
+      for (const [nm, vals, last] of rows) {
+        const st = cutStat(vals), rng = st ? (st.min === st.max ? st.min : st.min + "~" + st.max) : "―";
+        const dl = st ? Math.round(st.avg) - last : 0;
+        h += `<tr><th>${escapeHtml(nm)}</th>` + vals.map(v => `<td class="${v == null ? "na" : cutHeat(vals, v)}">${cutFmt(v)}</td>`).join("") +
+          `<td class="rng">${rng}</td><td>${last}${dl ? ` <small class="${dl > 0 ? "up" : "dn"}" style="color:${dl > 0 ? "#c0392b" : "#2f6f90"}">${dl > 0 ? "▲" : "▼"}${Math.abs(dl)}</small>` : ""}</td></tr>`;
+      }
+      h += `</tbody></table></div><ul class="cut-notes">${(CUT.tam[key === "soc" ? "notesSoc" : "notesSci"] || []).map(t => `<li>${escapeHtml(t)}</li>`).join("")}</ul>`;
+      return h;
+    }
+
+    function cutRender() {
+      cutHeader(); cutLive();
+      try {
+        cutBody.innerHTML = cutSubject === "kor" || cutSubject === "math" ? cutSubjectView(cutSubject) : cutTamView(cutSubject);
+      } catch (e) { cutBody.innerHTML = '<p class="empty-state">등급컷을 표시하지 못했어요.</p>'; }
+      document.querySelectorAll("#cutSubnav .sub-btn").forEach(b => b.classList.toggle("active", b.dataset.cut === cutSubject));
+    }
+
+    async function cutRefresh() {
+      try {
+        const res = await fetch(RAW_BASE + "gradecut.json", { cache: "no-store" });
+        if (!res.ok) throw new Error("no file");
+        const d = await res.json();
+        if (!d || !d.kor || !d.math || !d.tam) throw new Error("bad format");
+        cutRemoteOk = true;
+        // 저장소 파일이 내장 자료보다 최신일 때만 교체한다
+        CUT = new Date(d.updated_at) > new Date(CUT_SEED.updated_at) ? d : CUT_SEED;
+      } catch (_) { cutRemoteOk = false; }
+      cutRender();
+    }
+
+    function cutInit() {
+      if (!cutInited) {
+        cutInited = true;
+        document.getElementById("cutSubnav").addEventListener("click", (e) => {
+          const b = e.target.closest("[data-cut]"); if (!b) return;
+          cutSubject = b.dataset.cut; cutRender();
+        });
+        cutBody.addEventListener("click", (e) => {
+          const b = e.target.closest("[data-sel]"); if (!b) return;
+          cutSub[cutSubject] = b.dataset.sel; cutRender();
+        });
+        cutRender();
+      }
+      cutRefresh();
+      clearInterval(cutTimer);
+      cutTimer = setInterval(() => { if (!tabCut.hidden && !document.hidden) cutRefresh(); }, 180000);
+    }
+
     tabBtnDone.addEventListener("click", finStart);
     // 아직 끝까지 보지 않았다면 사이트에 들어오자마자 바로 시작한다
     (function autoPlayFin() {
