@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T20:18:24+00:00",
+  "updated_at": "2026-11-22T07:00:02+00:00",
   "files": [
     {
       "message_id": 24931,
@@ -4831,21 +4831,43 @@
       "subject": null,
       "sha256": "66179a666fa312ee952764fbeb52c9b3268ab885113a2703e8de76c1de01fb85",
       "schema_version": 1,
-      "status": "partial",
+      "status": "done",
       "data": "ai/26619.json",
-      "updated_at": "2026-11-21T20:18:24+00:00",
+      "updated_at": "2026-11-22T06:58:44+00:00",
       "pages_total": 143,
-      "pages_done": 124,
+      "pages_done": 143,
       "failed_pages": [
         22,
         79
       ],
       "model": "gemini-3.6-flash",
       "problem_count": 155,
-      "solution_count": 128,
+      "solution_count": 248,
       "matched_count": 69,
       "with_answer": 46,
       "with_explanation": 40
+    },
+    {
+      "message_id": 26618,
+      "filename": "칠기모 6일차.pdf",
+      "title": "칠기모 6일차",
+      "year": null,
+      "instructor": null,
+      "subject": null,
+      "sha256": "45f6500c07108a78d3bee84f70b9945ac1b932a011a1d5b5c8636384ae0b44fd",
+      "schema_version": 1,
+      "status": "partial",
+      "data": "ai/26618.json",
+      "updated_at": "2026-11-22T07:00:02+00:00",
+      "pages_total": 124,
+      "pages_done": 8,
+      "failed_pages": [],
+      "model": "gemini-3.6-flash",
+      "problem_count": 13,
+      "solution_count": 0,
+      "matched_count": 0,
+      "with_answer": 0,
+      "with_explanation": 0
     }
   ]
 }
