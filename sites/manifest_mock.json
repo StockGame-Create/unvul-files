@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12242464959,
+      "source_key": "1bced136a5b125a9703ac3a591e3c9ca#03 공업 일반_문제.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=1bced136a5b125a9703ac3a591e3c9ca",
+      "category": "평가원",
+      "filename": "03 공업 일반_문제.pdf",
+      "asset_name": "2027_csat_03_85a94cbf2c.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_csat_03_85a94cbf2c.pdf",
+      "size_bytes": 3735812,
+      "telegram_date": "2026-11-24T05:24:23.378137+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 수능 03 공업 일반_문제",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "직업탐구",
+      "kind": "문제",
+      "thumbnail": "thumbnails/12242464959.png",
+      "sha256": "c845a279453b9013e1f36e8a6596a4d7da135b10c2765675219039d3f04350b6"
+    },
+    {
       "message_id": 11329872398,
       "source_key": "1bced136a5b125a9703ac3a591e3c9ca#02 농업 기초 기술_문제.pdf",
       "source": "suneung.re.kr",
