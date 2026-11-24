@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 11536448619,
+      "source_key": "2602da08d5c9b87a8eee86e1b38e29ea#01 생활과 윤리_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=2602da08d5c9b87a8eee86e1b38e29ea",
+      "category": "평가원",
+      "filename": "01 생활과 윤리_정답.pdf",
+      "asset_name": "2027_csat_01_5b94586b2b.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_csat_01_5b94586b2b.pdf",
+      "size_bytes": 42077,
+      "telegram_date": "2026-11-24T05:22:58.404168+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 수능 01 생활과 윤리_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "사회탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/11536448619.png",
+      "sha256": "e3d6aec4a2c1d8c9ee8f0c87f7771c19ccc16255bc7b4ce8650cddc994b9a6af"
+    },
+    {
       "message_id": 12217769914,
       "source_key": "3124d166cad3817b213a7e2a89b65653#09 사회·문화_문제.pdf",
       "source": "suneung.re.kr",
