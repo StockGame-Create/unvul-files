@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 14080882263,
+      "source_key": "ad273bfc3f5b55247f82334908a3418c#06 화학Ⅱ_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=ad273bfc3f5b55247f82334908a3418c",
+      "category": "평가원",
+      "filename": "06 화학Ⅱ_정답.pdf",
+      "asset_name": "2027_csat_06_f33d5257ad.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_csat_06_f33d5257ad.pdf",
+      "size_bytes": 43734,
+      "telegram_date": "2026-11-24T05:24:03.967713+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 수능 06 화학Ⅱ_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "과학탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/14080882263.png",
+      "sha256": "357cbcda075b2dd55e6714584938f025b8c49c4f3e4c17860af3e8a265ef8b81"
+    },
+    {
       "message_id": 13797103933,
       "source_key": "ad273bfc3f5b55247f82334908a3418c#05 물리학Ⅱ_정답.pdf",
       "source": "suneung.re.kr",
