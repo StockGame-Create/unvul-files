@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 13562818419,
+      "source_key": "97eaae1c34a8afb9082671b689cd2e48#06 인간 발달_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=97eaae1c34a8afb9082671b689cd2e48",
+      "category": "평가원",
+      "filename": "06 인간 발달_정답.pdf",
+      "asset_name": "2027_csat_06_d45c4b7304.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_csat_06_d45c4b7304.pdf",
+      "size_bytes": 42031,
+      "telegram_date": "2026-11-24T05:24:50.839767+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 수능 06 인간 발달_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "직업탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/13562818419.png",
+      "sha256": "b150afd415b4c8aad7c94fa9466c547191511c5a9c0257663a05394c3d04769a"
+    },
+    {
       "message_id": 13191998728,
       "source_key": "97eaae1c34a8afb9082671b689cd2e48#05 수산·해운 산업 기초_정답.pdf",
       "source": "suneung.re.kr",
