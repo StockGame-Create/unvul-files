@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 13642917097,
+      "source_key": "2602da08d5c9b87a8eee86e1b38e29ea#07 경제_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=2602da08d5c9b87a8eee86e1b38e29ea",
+      "category": "평가원",
+      "filename": "07 경제_정답.pdf",
+      "asset_name": "2027_csat_07_d92280e9fb.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_csat_07_d92280e9fb.pdf",
+      "size_bytes": 41493,
+      "telegram_date": "2026-11-24T05:23:13.817280+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 수능 07 경제_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "사회탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/13642917097.png",
+      "sha256": "8440c833e70d0f85925797a9a813e898962c8822f9fa5289d4e8801165524c43"
+    },
+    {
       "message_id": 12813001385,
       "source_key": "2602da08d5c9b87a8eee86e1b38e29ea#06 세계사_정답.pdf",
       "source": "suneung.re.kr",
