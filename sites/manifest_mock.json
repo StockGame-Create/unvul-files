@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 10854417334,
+      "source_key": "97eaae1c34a8afb9082671b689cd2e48#04 상업 경제_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=97eaae1c34a8afb9082671b689cd2e48",
+      "category": "평가원",
+      "filename": "04 상업 경제_정답.pdf",
+      "asset_name": "2027_csat_04_32ed5fb688.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_csat_04_32ed5fb688.pdf",
+      "size_bytes": 41739,
+      "telegram_date": "2026-11-24T05:24:46.225371+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 수능 04 상업 경제_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "직업탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/10854417334.png",
+      "sha256": "f01ca628294545f45b7e40befd0a3b97d81652085864f5239cb0032a7efe88fb"
+    },
+    {
       "message_id": 11311725699,
       "source_key": "97eaae1c34a8afb9082671b689cd2e48#03 공업 일반_정답.pdf",
       "source": "suneung.re.kr",
