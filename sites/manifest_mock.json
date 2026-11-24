@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 14024201528,
+      "source_key": "3c64c17b329b8051a6eb78703385ec70",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=3c64c17b329b8051a6eb78703385ec70",
+      "category": "평가원",
+      "filename": "한국사영역_정답표.pdf",
+      "asset_name": "2027_csat_efdc713842.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_csat_efdc713842.pdf",
+      "size_bytes": 73607,
+      "telegram_date": "2026-11-24T05:22:23.313055+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 수능 한국사영역_정답표",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "한국사",
+      "kind": "정답",
+      "thumbnail": "thumbnails/14024201528.png",
+      "sha256": "17b27e961649b607181bbbb4da25fc313484f5825ac45fc84894069b19060faf"
+    },
+    {
       "message_id": 10626680465,
       "source_key": "cca2b1a435cf9d58b7406a2df23b7b3e",
       "source": "suneung.re.kr",
