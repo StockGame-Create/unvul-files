@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 11379987662,
+      "source_key": "ad273bfc3f5b55247f82334908a3418c#04 지구과학Ⅰ_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=ad273bfc3f5b55247f82334908a3418c",
+      "category": "평가원",
+      "filename": "04 지구과학Ⅰ_정답.pdf",
+      "asset_name": "2027_csat_04_5240f0ce49.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_csat_04_5240f0ce49.pdf",
+      "size_bytes": 40901,
+      "telegram_date": "2026-11-24T05:23:59.176396+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 수능 04 지구과학Ⅰ_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "과학탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/11379987662.png",
+      "sha256": "395fceceb7c53ab1b30f67eeea0213d1762aa5e0403316734b3592dfb7c0a8fd"
+    },
+    {
       "message_id": 12045460118,
       "source_key": "ad273bfc3f5b55247f82334908a3418c#03 생명과학Ⅰ_정답.pdf",
       "source": "suneung.re.kr",
