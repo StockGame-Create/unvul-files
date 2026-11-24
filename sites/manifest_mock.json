@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 12813001385,
+      "source_key": "2602da08d5c9b87a8eee86e1b38e29ea#06 세계사_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=2602da08d5c9b87a8eee86e1b38e29ea",
+      "category": "평가원",
+      "filename": "06 세계사_정답.pdf",
+      "asset_name": "2027_csat_06_a7aafea958.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_csat_06_a7aafea958.pdf",
+      "size_bytes": 41496,
+      "telegram_date": "2026-11-24T05:23:11.192385+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 수능 06 세계사_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "사회탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/12813001385.png",
+      "sha256": "2a8f209889f66bdc5205f94f12f61986834b3a790885e8dcc77b008e6d85725b"
+    },
+    {
       "message_id": 14204607500,
       "source_key": "2602da08d5c9b87a8eee86e1b38e29ea#05 동아시아사_정답.pdf",
       "source": "suneung.re.kr",
