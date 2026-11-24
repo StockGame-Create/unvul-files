@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 10947912900,
+      "source_key": "97eaae1c34a8afb9082671b689cd2e48#02 농업 기초 기술_정답.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=97eaae1c34a8afb9082671b689cd2e48",
+      "category": "평가원",
+      "filename": "02 농업 기초 기술_정답.pdf",
+      "asset_name": "2027_csat_02_388000c4e9.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_csat_02_388000c4e9.pdf",
+      "size_bytes": 41969,
+      "telegram_date": "2026-11-24T05:24:41.464415+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 수능 02 농업 기초 기술_정답",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "직업탐구",
+      "kind": "정답",
+      "thumbnail": "thumbnails/10947912900.png",
+      "sha256": "bd7fc39efabf69b43a58c87f82dea1504530f1575aa68d9495a04d117d9aedec"
+    },
+    {
       "message_id": 12842011622,
       "source_key": "97eaae1c34a8afb9082671b689cd2e48#01 성공적인 직업생활_정답.pdf",
       "source": "suneung.re.kr",
