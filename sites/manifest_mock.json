@@ -1,6 +1,29 @@
 {
   "files": [
     {
+      "message_id": 11462422303,
+      "source_key": "3124d166cad3817b213a7e2a89b65653#08 정치와 법_문제.pdf",
+      "source": "suneung.re.kr",
+      "source_url": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq=3124d166cad3817b213a7e2a89b65653",
+      "category": "평가원",
+      "filename": "08 정치와 법_문제.pdf",
+      "asset_name": "2027_csat_08_572acb1f48.pdf",
+      "stored_as": null,
+      "download_url": "https://github.com/StockGame-Create/unvul-files/releases/download/mock-files/2027_csat_08_572acb1f48.pdf",
+      "size_bytes": 741673,
+      "telegram_date": "2026-11-24T05:22:49.370893+00:00",
+      "posted_date": "2027",
+      "title": "2027학년도 수능 08 정치와 법_문제",
+      "year": "2026",
+      "year_shifted": true,
+      "exam": "수능",
+      "instructor": "한국교육과정평가원",
+      "subject": "사회탐구",
+      "kind": "문제",
+      "thumbnail": "thumbnails/11462422303.png",
+      "sha256": "56814f06a14f618df3e44faba1113f427b5673a6b9e7a8be0e11ee71775c810d"
+    },
+    {
       "message_id": 14129013516,
       "source_key": "3124d166cad3817b213a7e2a89b65653#07 경제_문제.pdf",
       "source": "suneung.re.kr",
